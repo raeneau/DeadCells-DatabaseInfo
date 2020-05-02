@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, Fragment } from 'react';
 import './App.css';
 
+import UserInputScreen from './userInputScreen';
+
+// -----------------------------------------------------------------------------
+
 function App() {
+  const [value, setValue] = useState("");
+  let formattedUserInput;
+
+  const handleChange = (newValue) => {
+      formattedUserInput = String(newValue).toLowerCase();
+      console.log('i am dev yessss', newValue);
+      setValue(newValue);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Fragment>
+      {value === '' && <UserInputScreen onChange={handleChange} /> }
+    </Fragment>
+    );
 }
+
+// -----------------------------------------------------------------------------
 
 export default App;
