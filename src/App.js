@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react';
 import './App.css';
 
 import UserInputScreen from './userInputScreen';
-
+import Items from './items';
 // -----------------------------------------------------------------------------
 
 function App() {
@@ -17,11 +17,13 @@ function App() {
 
   return (
     <Fragment>
-      {value === '' && <UserInputScreen onChange={handleChange} /> }
-    </Fragment>
+      
+      <Items/>
+      </Fragment>
     );
 }
-
+//{value === '' && <UserInputScreen onChange={handleChange} /> }
+//{value !== '' && 
 // -----------------------------------------------------------------------------
 
 export default App;
