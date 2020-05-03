@@ -9,7 +9,7 @@ function BasicDisplay(props) {
 
     return (
         <div>
-            {name}: {value}
+            {name}: {value !== undefined ? value : 'N/A'}
         </div>
     );
 }
