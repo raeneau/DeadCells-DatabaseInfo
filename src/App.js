@@ -17,13 +17,11 @@ function App() {
 
   return (
     <Fragment>
-      
-      <Items/>
+      <UserInputScreen onChange={handleChange} /> }
+      {value !== '' && <Items userInput={value}/>}
       </Fragment>
     );
 }
-//{value === '' && <UserInputScreen onChange={handleChange} /> }
-//{value !== '' && 
 // -----------------------------------------------------------------------------
 
 export default App;
