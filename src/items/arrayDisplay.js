@@ -1,5 +1,4 @@
 import React from 'react';
-import _get from 'lodash.get';
 
 // -----------------------------------------------------------------------------
 
@@ -8,25 +7,22 @@ function ArrayDisplay(props) {
         name, array, objectKey
     } = props;
 
-    console.log('UHHH', array);
-    let message = '';
-
-    array.reduce(function(sum, element, index){
+    const message = array.reduce(function(accumulator, element, index){
+        const attackNumber = index + 1;
         const desiredData = element[objectKey];
-        console.log('HMMM', desiredData, element);
+
         // TODO: Make work with multiple values here
         if (typeof desiredData === 'object' && desiredData.length > 1) {
-            message += 'i see u a binch';
+            return accumulator;
         } else {
-            message += desiredData;
+            return accumulator + `${attackNumber > 1 ? `\nHit ${attackNumber}:` : ''} ${desiredData}`;
         }
-    });
-
-    console.log('MESSAGE');
+    }, '');
 
     return (
         <div>
-            {name}: {message}
+            {name}: 
+            {message}
         </div>
     );
 }
