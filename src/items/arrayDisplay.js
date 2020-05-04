@@ -7,8 +7,6 @@ function ArrayDisplay(props) {
         name, array, objectKey
     } = props;
 
-    console.log('ARRAY???', array, name);
-
     const message = array.reduce(function(accumulator, element, index){
         const attackNumber = index + 1;
         const desiredData = element[objectKey];

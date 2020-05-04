@@ -18,11 +18,9 @@ import Tags from './tags';
 const errorMessage = "Error retrieving data";
 
 function Items(props) {
-    const itemJson = props.userInput === '1' ? itemJson1 : itemJson2;
-    const weaponJson = props.userInput === '1' ? weaponJson1 : weaponJson2;
-
-    console.log(itemJson);
-    console.log(weaponJson);
+    console.log(props);
+    const itemJson = props.userInput.itemJson
+    const weaponJson = props.userInput.weaponJson;
 
   return (
     <div>
@@ -41,7 +39,6 @@ function Items(props) {
         <BasicDisplay name='Base Price' value={_get(itemJson, 'moneyCost', errorMessage)}/>
         <BasicDisplay name='Unlock Cost' value={_get(itemJson, 'cellCost', errorMessage)}/>
         <Tags tagArray={_get(itemJson, 'tags', errorMessage)}/>
-        *Tags: {JSON.stringify(_get(itemJson, 'tags', errorMessage))}
         <BasicDisplay name='Forced Affix' value={_get(itemJson, 'legendAffix', errorMessage)}/>
     </div>
     );

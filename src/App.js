@@ -3,25 +3,29 @@ import './App.css';
 
 import UserInputScreen from './userInputScreen';
 import Items from './items';
+import mapUserInput from './utils/mapUserInput';
+
 // -----------------------------------------------------------------------------
 
 function App() {
   const [value, setValue] = useState("");
-  let formattedUserInput;
 
   const handleChange = (newValue) => {
-      formattedUserInput = String(newValue).toLowerCase();
-      console.log('i am dev yessss', newValue);
-      setValue(newValue);
+    // Format user input to be all uppercase with no spaces, to match the
+    // file import object keys
+    const formattedUserInput = String(newValue).toUpperCase().str.replace(/\s/g, '');
+    const itemName = mapUserInput(formattedUserInput);
+    setValue(itemName);
   }
 
   return (
     <Fragment>
-      <UserInputScreen onChange={handleChange} /> }
+      <UserInputScreen onChange={handleChange} />
       {value !== '' && <Items userInput={value}/>}
       </Fragment>
     );
 }
+
 // -----------------------------------------------------------------------------
 
 export default App;
