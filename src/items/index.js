@@ -1,12 +1,6 @@
 import React from 'react';
 import _get from 'lodash.get';
 
-import itemJson1 from '../database/item/Ranged/101---CloseCombatBow.json';
-import weaponJson1 from '../database/weapon/44---CloseCombatBow.json';
-
-import itemJson2 from '../database/item/Melee/084---OilSword.json';
-import weaponJson2 from '../database/weapon/05---OilSword.json';
-
 import BasicDisplay from './basicDisplay'
 import ArrayDisplay from './arrayDisplay'
 import Scaling from './scaling';
@@ -18,7 +12,6 @@ import Tags from './tags';
 const errorMessage = "Error retrieving data";
 
 function Items(props) {
-    console.log(props);
     const itemJson = props.userInput.itemJson
     const weaponJson = props.userInput.weaponJson;
 
@@ -38,7 +31,7 @@ function Items(props) {
         <ArrayDisplay name='Lock' array={_get(weaponJson, 'strikeChain')} objectKey='lockCtrlAfter' />
         <BasicDisplay name='Base Price' value={_get(itemJson, 'moneyCost', errorMessage)}/>
         <BasicDisplay name='Unlock Cost' value={_get(itemJson, 'cellCost', errorMessage)}/>
-        <Tags tagArray={_get(itemJson, 'tags', errorMessage)}/>
+        <Tags tagArray={_get(itemJson, 'tags', [])}/>
         <BasicDisplay name='Forced Affix' value={_get(itemJson, 'legendAffix', errorMessage)}/>
     </div>
     );

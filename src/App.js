@@ -13,7 +13,7 @@ function App() {
   const handleChange = (newValue) => {
     // Format user input to be all uppercase with no spaces, to match the
     // file import object keys
-    const formattedUserInput = String(newValue).toUpperCase().str.replace(/\s/g, '');
+    const formattedUserInput = String(newValue).toUpperCase().replace(/\s/g, '');
     const itemName = mapUserInput(formattedUserInput);
     setValue(itemName);
   }

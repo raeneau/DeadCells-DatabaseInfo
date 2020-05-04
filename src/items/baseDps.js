@@ -3,9 +3,9 @@ import React from 'react';
 // -----------------------------------------------------------------------------
 
 function BaseDps(props) {
-    const {
-        array, 
-    } = props;
+    // const {
+    //     array, 
+    // } = props;
 
     // const totalComboCount = array.length;
 

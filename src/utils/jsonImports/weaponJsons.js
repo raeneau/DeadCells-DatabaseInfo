@@ -4,7 +4,7 @@ const weaponJsons = (require.context('../../database/weapon', true, /\.json$/)).
 const keyRegex = /(?<=-)\w+(?=\.)/;
 
 // Weapons
-export const mappedWeapons = weaponJsons.reduce((allFilesObject, entry, index) => {
+export default weaponJsons.reduce((allFilesObject, entry, index) => {
   // Execuse regex on the file name to make it readable
     const newKey = keyRegex.exec(entry);
 

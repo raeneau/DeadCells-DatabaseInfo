@@ -5,13 +5,13 @@ function UserInputScreen(props) {
     const [userInputValue, setUserInputValue] = useState("");
 
     function handleChange(event) {
-        console.log('CHANGING TO', event.target.value);
+        // console.log('CHANGING TO', event.target.value);
         // Here, we invoke the callback with the new value
         setUserInputValue(event.target.value);
     }
 
     function onSubmit() {
-        console.log('CALLING WITH', userInputValue);
+        // console.log('CALLING WITH', userInputValue);
         props.onChange(userInputValue);
     }
 

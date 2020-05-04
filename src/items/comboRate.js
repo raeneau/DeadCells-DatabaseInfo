@@ -8,6 +8,15 @@ function ComboRate(props) {
         array, 
     } = props;
 
+     // If there are no tags, let the user know
+    if (array === undefined || array.length === 0) {
+        return (
+            <div>
+                Combo Rate: N/A
+            </div>
+        );
+    }
+
     const totalComboCount = array.length;
     const durationByHit = [];
 

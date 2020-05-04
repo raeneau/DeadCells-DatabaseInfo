@@ -13,6 +13,15 @@ function Tags(props) {
         tagArray
     } = props;
 
+    // If there are no tags, let the user know
+    if (tagArray === undefined || tagArray.length === 0) {
+        return (
+            <div>
+                Tags: N/A
+            </div>
+        );
+    }
+
      // Remove any internal tags (we don't want those on on the wiki)
     const updatedTagArray = tagArray.filter((element) => {
         const tag = _get(element, 'tag', '');
