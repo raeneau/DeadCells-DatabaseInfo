@@ -25,14 +25,11 @@ function Items(props) {
 
   return (
     <div className={cn.wrapper}>
-      <BasicDisplay
-        name="Internal Name"
-        value={_get(weaponJson, "item", errorMessage)}
-      />
+      <BasicDisplay name="Internal Name" value={_get(weaponJson, "item")} />
       <BasicDisplay name="Ammo" value={_get(itemJson, "props.ammo")} />
       <BasicDisplay
         name="Type"
-        value={_get(itemJson, "__separator_group_Name", errorMessage)}
+        value={_get(itemJson, "__separator_group_Name")}
       />
       <Scaling
         firstColor={_get(itemJson, "tier1", "")}
@@ -59,19 +56,13 @@ function Items(props) {
         array={_get(weaponJson, "strikeChain")}
         objectKey="lockCtrlAfter"
       />
-      <BasicDisplay
-        name="Base Price"
-        value={_get(itemJson, "moneyCost", errorMessage)}
-      />
+      <BasicDisplay name="Base Price" value={_get(itemJson, "moneyCost")} />
       <BasicDisplay
         name="Unlock Cost"
         value={_get(itemJson, "cellCost", errorMessage)}
       />
       <Tags tagArray={_get(itemJson, "tags", [])} />
-      <BasicDisplay
-        name="Forced Affix"
-        value={_get(itemJson, "legendAffix", errorMessage)}
-      />
+      <BasicDisplay name="Forced Affix" value={_get(itemJson, "legendAffix")} />
     </div>
   );
 }
