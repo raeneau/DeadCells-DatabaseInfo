@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 
 // -----------------------------------------------------------------------------
 
 function BasicDisplay(props) {
-    const {
-        name, value
-    } = props;
+  const { name, value } = props;
 
-    return (
-        <div>
-            {name}: {value !== undefined ? value : 'N/A'}
-        </div>
-    );
+  if (value === undefined) {
+    return null;
+  }
+
+  return (
+    <div>
+      {name}: {value !== undefined ? value : "N/A"}
+    </div>
+  );
 }
 
 // -----------------------------------------------------------------------------
