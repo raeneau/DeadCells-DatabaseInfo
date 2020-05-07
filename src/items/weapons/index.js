@@ -1,12 +1,12 @@
 import React from "react";
 import _get from "lodash.get";
 
-import BasicDisplay from "./basicDisplay";
-import ArrayDisplay from "./arrayDisplay";
+import BasicDisplay from "../basicDisplay";
+import ArrayDisplay from "../arrayDisplay";
 import Scaling from "./scaling";
 import ComboRate from "./comboRate";
 import BaseDps from "./baseDps";
-import Tags from "./tags";
+import Tags from "../tags";
 
 import "./index.css";
 import AttackDuration from "./attackDuration";
@@ -61,7 +61,7 @@ function Items(props) {
         name="Unlock Cost"
         value={_get(itemJson, "cellCost", errorMessage)}
       />
-      <Tags tagArray={_get(itemJson, "tags", [])} />
+      <Tags tagArray={_get(itemJson, "tags", null)} />
       <BasicDisplay name="Forced Affix" value={_get(itemJson, "legendAffix")} />
     </div>
   );

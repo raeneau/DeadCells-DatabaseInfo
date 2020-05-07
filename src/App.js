@@ -2,7 +2,7 @@ import React, { useState, Fragment } from "react";
 import "./App.css";
 
 import UserInputScreen from "./userInputScreen";
-import Items from "./items";
+import ItemsWeapons from "./items/weapons";
 import mapUserInput from "./utils/mapUserInput";
 
 // -----------------------------------------------------------------------------
@@ -27,7 +27,7 @@ function App() {
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
-      {value !== "" && <Items userInput={value} />}
+      {value !== "" && <ItemsWeapons userInput={value} />}
     </div>
   );
 }
