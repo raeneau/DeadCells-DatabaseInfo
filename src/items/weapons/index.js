@@ -10,6 +10,7 @@ import Tags from "../tags";
 
 import "./index.css";
 import AttackDuration from "./attackDuration";
+import BasicPercentageDisplay from "../basicPercentageDisplay";
 
 // -----------------------------------------------------------------------------
 const errorMessage = "Error retrieving data";
@@ -34,6 +35,11 @@ function Items(props) {
       <Scaling
         firstColor={_get(itemJson, "tier1", "")}
         secondColor={_get(itemJson, "tier2", null)}
+      />
+      <BasicPercentageDisplay
+        name="Block Damage Reduction"
+        value={_get(itemJson, "props.prct")}
+        defaultValue={0.75}
       />
       <ArrayDisplay
         name="Damage on Hit"

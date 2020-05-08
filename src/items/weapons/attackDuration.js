@@ -14,7 +14,8 @@ function AttackDuration(props) {
   return (
     <div>
       <span>
-        Attack Duration: {charge + cooldown} ({charge} + {cooldown}) seconds
+        Attack Duration: {(charge + cooldown).toFixed(2)} ({charge} + {cooldown}
+        ) seconds
       </span>
     </div>
   );

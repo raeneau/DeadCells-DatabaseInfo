@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from "react";
+import langStuff from "./database/lang/main.en-US.mo";
 import "./App.css";
 
 import UserInputScreen from "./userInputScreen";
