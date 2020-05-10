@@ -21,7 +21,7 @@ h4 {
   margin-bottom: 0;
 }
 
-ul {
+li {
   list-style-image: url("./assets//bulletPoint.png");
 }
 
@@ -31,4 +31,18 @@ ul {
   padding: 1rem;
 }
 
-/* .ContentBox */
+.Header {
+  border-bottom: 1px solid #e54c61;
+  color: #e54c61;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.SubHeader {
+}
+
+.BulletedCell {
+  padding-left: 1rem;
+}

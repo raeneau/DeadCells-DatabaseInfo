@@ -20,7 +20,11 @@ function BasicDisplay(props) {
 
 BasicDisplay.propTypes = {
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+};
+
+BasicDisplay.defaultProps = {
+  value: undefined,
 };
 
 // -----------------------------------------------------------------------------

@@ -14,7 +14,6 @@ import "./Items.css";
 import AttackDuration from "../components/items/attackDuration";
 
 // -----------------------------------------------------------------------------
-const errorMessage = "Error retrieving data";
 
 function Items(props) {
   const itemJson = props.userInput.itemJson;
@@ -31,8 +30,8 @@ function Items(props) {
             value={_get(itemJson, "__separator_group_Name")}
           />
           <Scaling
-            firstColor={_get(itemJson, "tier1", "")}
-            secondColor={_get(itemJson, "tier2", null)}
+            firstColor={_get(itemJson, "tier1")}
+            secondColor={_get(itemJson, "tier2")}
           />
           <BasicPercentageDisplay
             name="Block Damage Reduction"
@@ -63,10 +62,7 @@ function Items(props) {
             objectKey="lockCtrlAfter"
           />
           <BasicDisplay name="Base Price" value={_get(itemJson, "moneyCost")} />
-          <BasicDisplay
-            name="Unlock Cost"
-            value={_get(itemJson, "cellCost", errorMessage)}
-          />
+          <BasicDisplay name="Unlock Cost" value={_get(itemJson, "cellCost")} />
           <Tags tagArray={_get(itemJson, "tags", null)} />
           <BasicDisplay
             name="Forced Affix"

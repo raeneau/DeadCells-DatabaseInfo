@@ -38,10 +38,10 @@ function Tags(props) {
   );
 
   return (
-    <div>
-      Tags:
-      {readableTags}
-    </div>
+    <tr>
+      <td>Tags</td>
+      <td>{readableTags}</td>
+    </tr>
   );
 }
 

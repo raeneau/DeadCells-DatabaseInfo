@@ -14,7 +14,11 @@ const EnemiesScreen = function EnemiesScreen(props) {
   enemyLocation({ enemy: userInput });
   return (
     <div className="DisplayCard">
-      <BasicDisplay name="test" value="testing" />
+      <table>
+        <tbody>
+          <BasicDisplay name="test" value="testing" />
+        </tbody>
+      </table>
     </div>
   );
 };

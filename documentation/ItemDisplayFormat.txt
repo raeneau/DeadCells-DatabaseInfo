@@ -1,0 +1,32 @@
+META
+- Internal Name
+- Picture
+- Description
+- Ambient Description (the special desc in italics)
+- Type
+- Scaling
+- Special Effects (TBD)
+- Base Price
+- Tags
+
+DAMAGE
+- Base DPS
+- Base Combo Damage
+  - First Hit Damage
+  - Second Hit Damage
+  - etc, etc
+- Breach Bonus
+
+TIMING
+- Combo Rate
+- Combo Duration
+  - First Hit
+  - Second Hit
+  - etc, etc
+- Attack Duration
+- Lock
+
+BLUEPRINT
+- Location
+- Drop Chance
+- Unlock Cost

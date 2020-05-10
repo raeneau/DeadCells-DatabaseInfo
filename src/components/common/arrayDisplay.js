@@ -25,7 +25,7 @@ function ArrayDisplay(props) {
   return (
     <tr>
       <td>{name}</td>
-      {message}
+      <td>{message}</td>
     </tr>
   );
 }
