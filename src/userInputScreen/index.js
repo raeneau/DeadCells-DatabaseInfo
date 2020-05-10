@@ -54,6 +54,7 @@ function UserInputScreen(props) {
         <ul>
           <li>Melee weapons*</li>
           <li>Ranged weapons*</li>
+          <li>Shields*</li>
         </ul>
         <div>* only searchable by internal ID</div>
       </div>

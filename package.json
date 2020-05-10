@@ -9,6 +9,8 @@
     "eslint-config-airbnb": "^18.1.0",
     "lodash.get": "^4.4.2",
     "lodash.isempty": "^4.4.0",
+    "lodash.map": "^4.6.0",
+    "lodash.uniq": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
