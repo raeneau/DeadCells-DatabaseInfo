@@ -1,11 +1,10 @@
-import React, { useState, Fragment } from "react";
-import langStuff from "./database/lang/main.en-US.mo";
+import React, { useState } from "react";
 import "./App.css";
 
-import UserInputScreen from "./userInputScreen";
-import ItemsWeapons from "./items/weapons";
-import mapUserInput from "./utils/mapUserInput";
-import EnemyPage from "./enemies";
+import UserInputScreen from "./screens/UserInput";
+import ItemsScreen from "./screens/Items";
+import getViableJsons from "./utils/getViableJsons";
+import EnemyScreen from "./screens/EnemyScreen";
 
 // -----------------------------------------------------------------------------
 
@@ -23,17 +22,18 @@ function App() {
     const formattedUserInput = String(newValue)
       .toUpperCase()
       .replace(/\s/g, "");
-    const itemArray = mapUserInput(formattedUserInput);
+    const itemArray = getViableJsons(formattedUserInput);
 
-    console.log("??????????", formattedUserInput);
-    setValue(formattedUserInput);
+    console.log("hm", formattedUserInput);
+
+    setValue(itemArray);
   };
 
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
-      {value === "" && <ItemsWeapons userInput={value} />}
-      {value !== "" && <EnemyPage userInput={value} />}
+      {value !== "" && <ItemsScreen userInput={value} />}
+      {value !== "" && <EnemyScreen userInput={value} />}
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import _isEmpty from "lodash.isempty";
 
-import mappedWeapons from "../jsonImports/weaponJsons";
+import mappedWeapons from "./jsonImports/weaponJsons";
 
-import itemMeleeJsons from "../jsonImports/itemMeleeJsons";
-import itemRangedJsons from "../jsonImports/itemRangedJsons";
-import itemShieldJsons from "../jsonImports/itemShieldJsons";
+import itemMeleeJsons from "./jsonImports/itemMeleeJsons";
+import itemRangedJsons from "./jsonImports/itemRangedJsons";
+import itemShieldJsons from "./jsonImports/itemShieldJsons";
 
-import enemyJsons from "../jsonImports/enemyJsons";
+import enemyJsons from "./jsonImports/enemyJsons";
 
 // -----------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ const mapUserInput = (userInput) => {
   // TODO: Rip these out to be a separate utility file
   try {
     // Pull the JSON entries from the corresponding section of the DB
-    weaponJson = require(`../../database/weapon${weaponJsonPath}`);
+    weaponJson = require(`../database/weapon${weaponJsonPath}`);
   } catch (e) {
     weaponJson = undefined;
   }
@@ -36,24 +36,24 @@ const mapUserInput = (userInput) => {
   // Only look for weapon's item JSONs if the weapon was found
   if (!_isEmpty(weaponJson)) {
     try {
-      itemMeleeJson = require(`../../database/item/Melee${itemMeleeJsonPath}`);
+      itemMeleeJson = require(`../database/item/Melee${itemMeleeJsonPath}`);
     } catch (e) {
       itemMeleeJson = undefined;
     }
     try {
-      itemRangedJson = require(`../../database/item/Ranged${itemRangedJsonPath}`);
+      itemRangedJson = require(`../database/item/Ranged${itemRangedJsonPath}`);
     } catch (e) {
       itemRangedJson = undefined;
     }
     try {
-      itemShieldJson = require(`../../database/item/Shield${itemShieldJsonPath}`);
+      itemShieldJson = require(`../database/item/Shield${itemShieldJsonPath}`);
     } catch (e) {
       itemShieldJson = undefined;
     }
   }
 
   try {
-    enemyJson = require(`../../database/item/Shield${enemyJsonPath}`);
+    enemyJson = require(`../database/item/Shield${enemyJsonPath}`);
   } catch (e) {
     enemyJson = undefined;
   }

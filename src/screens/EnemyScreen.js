@@ -1,9 +1,9 @@
 import React from "react";
 import _get from "lodash.get";
 
-import enemyLocation from "../enemies/enemyLocation";
+import enemyLocation from "../utils/enemyLocation";
 
-import BasicDisplay from "../items/basicDisplay";
+import BasicDisplay from "../components/common/basicDisplay";
 // -----------------------------------------------------------------------------
 const errorMessage = "Error retrieving data";
 

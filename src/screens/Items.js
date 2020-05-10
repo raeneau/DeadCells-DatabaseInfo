@@ -1,16 +1,17 @@
 import React from "react";
 import _get from "lodash.get";
 
-import BasicDisplay from "../basicDisplay";
-import ArrayDisplay from "../arrayDisplay";
-import Scaling from "./scaling";
-import ComboRate from "./comboRate";
-import BaseDps from "./baseDps";
-import Tags from "../tags";
+import BasicDisplay from "../components/common/basicDisplay";
+import ArrayDisplay from "../components/common/arrayDisplay";
+import BasicPercentageDisplay from "../components/common/basicPercentageDisplay";
 
-import "./index.css";
-import AttackDuration from "./attackDuration";
-import BasicPercentageDisplay from "../basicPercentageDisplay";
+import Scaling from "../components/items/scaling";
+import ComboRate from "../components/items/comboRate";
+import BaseDps from "../components/items/baseDps";
+import Tags from "../components/items/tags";
+
+import "./Items.css";
+import AttackDuration from "../components/items/attackDuration";
 
 // -----------------------------------------------------------------------------
 const errorMessage = "Error retrieving data";

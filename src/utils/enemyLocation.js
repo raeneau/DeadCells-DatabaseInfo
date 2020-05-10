@@ -2,7 +2,7 @@ import _get from "lodash.get";
 import _map from "lodash.map";
 import _uniq from "lodash.uniq";
 
-import levelJsons from "../utils/jsonImports/levelJsons";
+import levelJsons from "./jsonImports/levelJsons";
 
 // -----------------------------------------------------------------------------
 

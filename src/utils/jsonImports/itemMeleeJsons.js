@@ -1,4 +1,6 @@
-import formatJsonImport from "./index";
+import formatJsonImport from "../formatJsonImport";
+
+// -----------------------------------------------------------------------------
 
 const itemMeleeJsons = require
   .context("../../database/item/Melee", true, /\.json$/)

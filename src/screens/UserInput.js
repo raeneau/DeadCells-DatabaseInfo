@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 
-import "./index.css";
+import "./UserInput.css";
 
 // -----------------------------------------------------------------------------
 
