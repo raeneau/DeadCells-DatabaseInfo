@@ -1,14 +1,11 @@
 import _get from "lodash.get";
 import _map from "lodash.map";
-import _uniq from "lodash.uniq";
 
 import levelJsons from "./jsonImports/levelJsons";
 
 // -----------------------------------------------------------------------------
 
 export default ({ enemy }) => {
-  console.log("obj", Object.values(levelJsons));
-
   const levelJsonValues = Object.values(levelJsons);
 
   // TODO: Move this to only be run once on startup
@@ -18,8 +15,6 @@ export default ({ enemy }) => {
     mobs: _map(_get(level, "mobs"), (mob) => _get(mob, "mob")),
     id: _get(level, "id"),
   }));
-
-  console.log("uuyuyiop", allEnemyLocations);
 
   const currentEnemyLocations = [];
   const enemyId = _get(enemy, "enemyJson.id");

@@ -34,29 +34,29 @@ const mapUserInput = (userInput) => {
   }
 
   // Only look for weapon's item JSONs if the weapon was found
-  // if (!_isEmpty(weaponJson)) {
-  //   try {
-  //     itemMeleeJson = require(`../database/item/Melee${itemMeleeJsonPath}`);
-  //   } catch (e) {
-  //     itemMeleeJson = undefined;
-  //   }
-  //   try {
-  //     itemRangedJson = require(`../database/item/Ranged${itemRangedJsonPath}`);
-  //   } catch (e) {
-  //     itemRangedJson = undefined;
-  //   }
-  //   try {
-  //     itemShieldJson = require(`../database/item/Shield${itemShieldJsonPath}`);
-  //   } catch (e) {
-  //     itemShieldJson = undefined;
-  //   }
+  if (!_isEmpty(weaponJson)) {
+    try {
+      itemMeleeJson = require(`../database/item/Melee${itemMeleeJsonPath}`);
+    } catch (e) {
+      itemMeleeJson = undefined;
+    }
+    try {
+      itemRangedJson = require(`../database/item/Ranged${itemRangedJsonPath}`);
+    } catch (e) {
+      itemRangedJson = undefined;
+    }
+    try {
+      itemShieldJson = require(`../database/item/Shield${itemShieldJsonPath}`);
+    } catch (e) {
+      itemShieldJson = undefined;
+    }
 
-  //   console.log(itemMeleeJson, "...", itemRangedJson, "...", itemShieldJson);
-  //   return {
-  //     itemJson: itemMeleeJson || itemRangedJson || itemShieldJson,
-  //     weaponJson,
-  //   };
-  // }
+    console.log(itemMeleeJson, "...", itemRangedJson, "...", itemShieldJson);
+    return {
+      itemJson: itemMeleeJson || itemRangedJson || itemShieldJson,
+      weaponJson,
+    };
+  }
 
   try {
     enemyJson = require(`../database/mob/General${enemyJsonPath}`);

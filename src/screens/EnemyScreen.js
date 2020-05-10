@@ -1,16 +1,11 @@
 import React from "react";
-import _get from "lodash.get";
 
 import enemyLocation from "../utils/enemyLocation";
 
 import BasicDisplay from "../components/common/basicDisplay";
 // -----------------------------------------------------------------------------
-const errorMessage = "Error retrieving data";
 
-const cnBase = "ItemProperties";
-const cn = {
-  wrapper: `${cnBase}__wrapper`,
-};
+// const cnBase = "ItemProperties";
 
 const EnemiesScreen = function EnemiesScreen(props) {
   const { userInput } = props;
@@ -18,8 +13,8 @@ const EnemiesScreen = function EnemiesScreen(props) {
   console.log("USERINPUT", userInput);
   enemyLocation({ enemy: userInput });
   return (
-    <div className={cn.wrapper}>
-      <BasicDisplay name={"test"} value={"testing"} />
+    <div className="DisplayCard">
+      <BasicDisplay name="test" value="testing" />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 
 import "./UserInput.css";
 
@@ -24,6 +24,10 @@ function UserInputScreen(props) {
     setUserInputValue(event.target.value);
   }
 
+  function onSubmit() {
+    props.onChange(userInputValue);
+  }
+
   function handleKeyDown(event) {
     // Let the user press enter too! Make it easy for 'em :)
     if (event.key === "Enter") {
@@ -31,12 +35,8 @@ function UserInputScreen(props) {
     }
   }
 
-  function onSubmit() {
-    props.onChange(userInputValue);
-  }
-
   return (
-    <div className={cn.wrapper}>
+    <div className="DisplayCard">
       <h2 className={cn.header}>Enter the name/ID of the resource:</h2>
       <div className={cn.inputWrapper}>
         <input
@@ -45,7 +45,7 @@ function UserInputScreen(props) {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-        <button className={cn.button} onClick={onSubmit}>
+        <button type="submit" className={cn.button} onClick={onSubmit}>
           Search
         </button>
       </div>

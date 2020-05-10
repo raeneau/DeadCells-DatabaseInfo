@@ -24,3 +24,11 @@ h4 {
 ul {
   list-style-image: url("./assets//bulletPoint.png");
 }
+
+.DisplayCard {
+  background-color: rgb(0, 0, 0, 0.7);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* .ContentBox */

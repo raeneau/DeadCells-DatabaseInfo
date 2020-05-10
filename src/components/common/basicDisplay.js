@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
@@ -10,11 +11,17 @@ function BasicDisplay(props) {
   }
 
   return (
-    <div>
-      {name}: {value !== undefined ? value : "N/A"}
-    </div>
+    <tr>
+      <td>{name}</td>
+      <td>{value}</td>
+    </tr>
   );
 }
+
+BasicDisplay.propTypes = {
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+};
 
 // -----------------------------------------------------------------------------
 

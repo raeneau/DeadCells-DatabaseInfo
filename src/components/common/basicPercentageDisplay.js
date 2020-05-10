@@ -3,16 +3,20 @@ import React from "react";
 // -----------------------------------------------------------------------------
 
 function BasicPercentageDisplay(props) {
-  const { name, value, defaultValue } = props;
+  const { name, value, defaultValue, requiredType, actualType } = props;
 
-  if (value === undefined && defaultValue === undefined) {
+  if (
+    (value === undefined && defaultValue === undefined) ||
+    requiredType !== actualType
+  ) {
     return null;
   }
 
   return (
-    <div>
-      {name}: {(value || defaultValue) * 100}%
-    </div>
+    <tr>
+      <td>{name}</td>
+      <td>{(value || defaultValue) * 100}%</td>
+    </tr>
   );
 }
 
