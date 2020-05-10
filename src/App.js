@@ -22,11 +22,11 @@ function App() {
     const formattedUserInput = String(newValue)
       .toUpperCase()
       .replace(/\s/g, "");
-    const itemArray = getViableJsons(formattedUserInput);
+    const jsonArray = getViableJsons(formattedUserInput);
 
     console.log("hm", formattedUserInput);
 
-    setValue(itemArray);
+    setValue(jsonArray);
   };
 
   return (

@@ -25,7 +25,7 @@ const mapUserInput = (userInput) => {
 
   let enemyJson;
 
-  // TODO: Rip these out to be a separate utility file
+  // TODO: Rip these out to be a separate utility file or make node server
   try {
     // Pull the JSON entries from the corresponding section of the DB
     weaponJson = require(`../database/weapon${weaponJsonPath}`);
@@ -34,35 +34,38 @@ const mapUserInput = (userInput) => {
   }
 
   // Only look for weapon's item JSONs if the weapon was found
-  if (!_isEmpty(weaponJson)) {
-    try {
-      itemMeleeJson = require(`../database/item/Melee${itemMeleeJsonPath}`);
-    } catch (e) {
-      itemMeleeJson = undefined;
-    }
-    try {
-      itemRangedJson = require(`../database/item/Ranged${itemRangedJsonPath}`);
-    } catch (e) {
-      itemRangedJson = undefined;
-    }
-    try {
-      itemShieldJson = require(`../database/item/Shield${itemShieldJsonPath}`);
-    } catch (e) {
-      itemShieldJson = undefined;
-    }
-  }
+  // if (!_isEmpty(weaponJson)) {
+  //   try {
+  //     itemMeleeJson = require(`../database/item/Melee${itemMeleeJsonPath}`);
+  //   } catch (e) {
+  //     itemMeleeJson = undefined;
+  //   }
+  //   try {
+  //     itemRangedJson = require(`../database/item/Ranged${itemRangedJsonPath}`);
+  //   } catch (e) {
+  //     itemRangedJson = undefined;
+  //   }
+  //   try {
+  //     itemShieldJson = require(`../database/item/Shield${itemShieldJsonPath}`);
+  //   } catch (e) {
+  //     itemShieldJson = undefined;
+  //   }
+
+  //   console.log(itemMeleeJson, "...", itemRangedJson, "...", itemShieldJson);
+  //   return {
+  //     itemJson: itemMeleeJson || itemRangedJson || itemShieldJson,
+  //     weaponJson,
+  //   };
+  // }
 
   try {
-    enemyJson = require(`../database/item/Shield${enemyJsonPath}`);
+    enemyJson = require(`../database/mob/General${enemyJsonPath}`);
   } catch (e) {
     enemyJson = undefined;
   }
 
-  console.log(itemMeleeJson, "...", itemRangedJson, "...", itemShieldJson);
-
   return {
-    itemJson: itemMeleeJson || itemRangedJson || itemShieldJson,
-    weaponJson,
+    enemyJson,
   };
 };
 

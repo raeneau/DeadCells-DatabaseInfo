@@ -13,9 +13,9 @@ const cn = {
 };
 
 const EnemiesScreen = function EnemiesScreen(props) {
-  // const { userInput } = props;
+  const { userInput } = props;
 
-  const userInput = "Zombie";
+  console.log("USERINPUT", userInput);
   enemyLocation({ enemy: userInput });
   return (
     <div className={cn.wrapper}>

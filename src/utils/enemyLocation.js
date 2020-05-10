@@ -6,26 +6,29 @@ import levelJsons from "./jsonImports/levelJsons";
 
 // -----------------------------------------------------------------------------
 
-const allEnemyLocations = {};
-
 export default ({ enemy }) => {
+  console.log("obj", Object.values(levelJsons));
+
+  const levelJsonValues = Object.values(levelJsons);
+
   // TODO: Move this to only be run once on startup
-  for (var element in levelJsons) {
-    const level = _get(levelJsons, `[${element}].mobs`);
-    // Turn current "level" element into an array of enemy names.
-    const levelMobs = _map(level, (entry) => entry.mob);
+  // Take the giant level JSONs and only return an array of mobs along with
+  // and ID for the biome
+  const allEnemyLocations = _map(levelJsonValues, (level) => ({
+    mobs: _map(_get(level, "mobs"), (mob) => _get(mob, "mob")),
+    id: _get(level, "id"),
+  }));
 
-    // We only really want unique mobs
-    allEnemyLocations[element] = _uniq(levelMobs);
-  }
+  console.log("uuyuyiop", allEnemyLocations);
 
-  let currentEnemyLocations = [];
+  const currentEnemyLocations = [];
+  const enemyId = _get(enemy, "enemyJson.id");
 
   _map(allEnemyLocations, (element, key) => {
-    if (element.includes(enemy)) {
-      currentEnemyLocations.push(key);
+    if (_get(element, "mobs").includes(enemyId)) {
+      currentEnemyLocations.push(_get(element, "id"));
     }
   });
 
-  console.log(enemy, "up in here:", currentEnemyLocations);
+  console.log(enemyId, "up in here:", currentEnemyLocations);
 };
