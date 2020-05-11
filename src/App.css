@@ -60,6 +60,6 @@ td {
   width: 50%;
 }
 
-table tr:nth-child(odd) td {
+table tr:nth-child(even) td {
   background-color: rgba(166, 39, 78, 0.3);
 }

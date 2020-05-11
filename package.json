@@ -7,6 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "eslint-config-airbnb": "^18.1.0",
+    "lodash.filter": "^4.6.0",
     "lodash.get": "^4.4.2",
     "lodash.isempty": "^4.4.0",
     "lodash.map": "^4.6.0",

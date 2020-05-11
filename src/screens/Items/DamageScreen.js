@@ -8,7 +8,7 @@ import BaseDps from "../../components/items/baseDps";
 
 // -----------------------------------------------------------------------------
 
-function DamageScreen(props) {
+const DamageScreen = (props) => {
   const { itemJson, weaponJson } = props;
 
   return (
@@ -39,7 +39,7 @@ function DamageScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // -----------------------------------------------------------------------------
 
 function BasicDisplay(props) {
-  const { name, value } = props;
+  const { name, value, img } = props;
 
   if (value === undefined) {
     return null;
@@ -13,7 +13,9 @@ function BasicDisplay(props) {
   return (
     <tr>
       <td>{name}</td>
-      <td>{value}</td>
+      <td>
+        {value} {img}
+      </td>
     </tr>
   );
 }
@@ -21,10 +23,12 @@ function BasicDisplay(props) {
 BasicDisplay.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  img: PropTypes.node,
 };
 
 BasicDisplay.defaultProps = {
   value: undefined,
+  img: undefined,
 };
 
 // -----------------------------------------------------------------------------

@@ -20,7 +20,7 @@ function Scaling(props) {
       <td>Scaling</td>
       <td>
         {updatedFirstColor}
-        {updatedSecondColor !== null ? ` / ${secondColor}` : null}
+        {secondColor !== undefined ? ` / ${updatedSecondColor}` : null}
       </td>
     </tr>
   );

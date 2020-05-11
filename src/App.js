@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
+import _get from "lodash.get";
+import _isEmpty from "lodash.isempty";
 
 import UserInputScreen from "./screens/UserInput";
 import ItemsScreen from "./screens/Items";
@@ -24,16 +26,18 @@ function App() {
       .replace(/\s/g, "");
     const jsonArray = getViableJsons(formattedUserInput);
 
-    console.log("hm", formattedUserInput);
-
     setValue(jsonArray);
   };
 
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
-      {value !== "" && <ItemsScreen userInput={value} />}
-      {value !== "" && <EnemyScreen userInput={value} />}
+      {_get(value, "itemJson") !== undefined && (
+        <ItemsScreen userInput={value} />
+      )}
+      {_get(value, "enemyJson") !== undefined && (
+        <EnemyScreen userInput={value} />
+      )}
     </div>
   );
 }

@@ -8,7 +8,7 @@ import Tags from "../../components/items/tags";
 
 // -----------------------------------------------------------------------------
 
-function Items(props) {
+const ItemMetaScreen = (props) => {
   const { itemJson, itemName } = props;
 
   return (
@@ -39,8 +39,8 @@ function Items(props) {
       </table>
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 
-export default Items;
+export default ItemMetaScreen;
