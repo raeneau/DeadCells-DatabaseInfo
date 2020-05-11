@@ -8,18 +8,21 @@ META
 - Special Effects (TBD)
 - Base Price
 - Tags
+- Forced Legendary Affix
 
-DAMAGE
+DAMAGE / COMBAT
 - Base DPS
-- Base Combo Damage
+- Ammo
+- Block Damage Reduction
+- Base Combo Damage (Damage on Hit)
   - First Hit Damage
   - Second Hit Damage
   - etc, etc
 - Breach Bonus
 
-TIMING
+COMBO
 - Combo Rate
-- Combo Duration
+- Combo Duration (Attack Duration)
   - First Hit
   - Second Hit
   - etc, etc

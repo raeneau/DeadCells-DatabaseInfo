@@ -41,8 +41,25 @@ li {
 }
 
 .SubHeader {
+  background: linear-gradient(to bottom, #a6274e 0%, #cd2f46 73%, #d1394e 100%);
+  border: 1px solid rgba(164, 2, 57, 0.3);
+  text-align: center;
+  color: #f9cf87;
+  padding: 0.5rem;
 }
 
 .BulletedCell {
   padding-left: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  width: 50%;
+}
+
+table tr:nth-child(odd) td {
+  background-color: rgba(166, 39, 78, 0.3);
 }
