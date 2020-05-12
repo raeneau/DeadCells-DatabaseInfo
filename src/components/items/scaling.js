@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
@@ -9,8 +10,6 @@ function Scaling(props) {
   if (firstColor === undefined) {
     return null;
   }
-
-  console.log(secondColor, secondColor === "Tactic");
 
   const updatedFirstColor = firstColor === "Tactic" ? "Tactics" : firstColor;
   const updatedSecondColor = secondColor === "Tactic" ? "Tactics" : secondColor;
@@ -25,6 +24,15 @@ function Scaling(props) {
     </tr>
   );
 }
+
+Scaling.propTypes = {
+  firstColor: PropTypes.string.isRequired,
+  secondColor: PropTypes.string,
+};
+
+Scaling.defaultProps = {
+  secondColor: undefined,
+};
 
 // -----------------------------------------------------------------------------
 

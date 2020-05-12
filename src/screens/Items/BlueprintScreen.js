@@ -1,5 +1,6 @@
 import React from "react";
 
+// Local modules.
 import BasicDisplay from "../../components/common/basicDisplay";
 import img from "../../assets/cell.png";
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Styles.
 import "./UserInput.css";
 
 // -----------------------------------------------------------------------------

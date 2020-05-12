@@ -1,7 +1,6 @@
 import React from "react";
 import _get from "lodash.get";
 
-// Local modules.
 import BasicDisplay from "../../components/common/basicDisplay";
 import ArrayDisplay from "../../components/common/arrayDisplay";
 import BasicPercentageDisplay from "../../components/common/basicPercentageDisplay";
@@ -9,31 +8,24 @@ import BaseDps from "../../components/items/baseDps";
 
 // -----------------------------------------------------------------------------
 
-const DamageScreen = (props) => {
-  const { itemJson, weaponJson } = props;
+const DamageScreenGrenades = (props) => {
+  const { itemJson } = props;
 
   return (
     <div>
       <h3 className="SubHeader">Damage / Combat</h3>
       <table>
         <tbody>
-          <BaseDps array={_get(weaponJson, "strikeChain")} />
-          <BasicDisplay name="Ammo" value={_get(itemJson, "props.ammo")} />
-          <BasicPercentageDisplay
-            name="Block Damage Reduction"
-            value={_get(itemJson, "props.prct")}
-            defaultValue={0.75}
-            requiredType="Shield"
-            actualType={_get(itemJson, "__separator_group_Name")}
-          />
+          <BaseDps array={_get(itemJson, "strikeChain")} />
+          <BasicDisplay name="Recharge" value={_get(itemJson, "castCD")} />
           <ArrayDisplay
             name="Damage on Hit"
-            array={_get(weaponJson, "strikeChain")}
+            array={_get(itemJson, "props")}
             objectKey="power"
           />
           <ArrayDisplay
             name="Breach Bonus"
-            array={_get(weaponJson, "strikeChain")}
+            array={_get(itemJson, "strikeChain")}
             objectKey="breachBonus"
           />
         </tbody>
@@ -44,4 +36,4 @@ const DamageScreen = (props) => {
 
 // -----------------------------------------------------------------------------
 
-export default DamageScreen;
+export default DamageScreenGrenades;

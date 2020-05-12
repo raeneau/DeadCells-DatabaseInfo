@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
@@ -19,6 +20,21 @@ function BasicPercentageDisplay(props) {
     </tr>
   );
 }
+
+BasicPercentageDisplay.propTypes = {
+  name: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  defaultValue: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+  requiredType: PropTypes.string,
+  actualType: PropTypes.string,
+};
+
+BasicPercentageDisplay.defaultProps = {
+  value: undefined,
+  defaultValue: undefined,
+  requiredType: undefined,
+  actualType: undefined,
+};
 
 // -----------------------------------------------------------------------------
 

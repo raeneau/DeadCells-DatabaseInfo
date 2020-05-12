@@ -1,10 +1,9 @@
 import React from "react";
 import _get from "lodash.get";
 
+// Local modules.
 import ArrayDisplay from "../../components/common/arrayDisplay";
-
 import ComboRate from "../../components/items/comboRate";
-
 import AttackDuration from "../../components/items/attackDuration";
 
 // -----------------------------------------------------------------------------

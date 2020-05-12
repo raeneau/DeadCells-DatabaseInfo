@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
@@ -29,6 +30,18 @@ function ArrayDisplay(props) {
     </tr>
   );
 }
+
+ArrayDisplay.propTypes = {
+  name: PropTypes.string.isRequired,
+  // Array can be any array at all, so we can't have an arrayOf...
+  array: PropTypes.array, // eslint-disable-line react/forbid-prop-types
+  objectKey: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+};
+
+ArrayDisplay.defaultProps = {
+  array: undefined,
+  objectKey: undefined,
+};
 
 // -----------------------------------------------------------------------------
 

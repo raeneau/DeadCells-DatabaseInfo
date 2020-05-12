@@ -1,8 +1,8 @@
 import React from "react";
 import _get from "lodash.get";
 
+// Local modules.
 import BasicDisplay from "../../components/common/basicDisplay";
-
 import Scaling from "../../components/items/scaling";
 import Tags from "../../components/items/tags";
 

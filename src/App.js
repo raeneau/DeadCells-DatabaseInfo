@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import "./App.css";
 import _get from "lodash.get";
-import _isEmpty from "lodash.isempty";
 
+// Screens.
 import UserInputScreen from "./screens/UserInput";
-import ItemsScreen from "./screens/Items";
-import getViableJsons from "./utils/getViableJsons";
+import ItemsScreen from "./screens/ItemsWeapons";
 import EnemyScreen from "./screens/EnemyScreen";
+
+// Local modules.
+import getViableJsons from "./utils/getAllViableJsons";
+
+// Styles.
+import "./App.css";
 
 // -----------------------------------------------------------------------------
 
@@ -25,7 +29,7 @@ function App() {
       .toUpperCase()
       .replace(/\s/g, "");
     const jsonArray = getViableJsons(formattedUserInput);
-
+    console.log("JSON Array:", jsonArray);
     setValue(jsonArray);
   };
 
