@@ -2,7 +2,7 @@
 Takes the JSON data from an unpacked Dead Cells pak and displays info about enemies and items in a more understandable and human-readable way
 
 ## Local Development
-Right now, in order to develop locally you will need to both unpack a res.pak file and then expand the CDB into a direactory tree. Then, add the expanded CDB into the project under a `database/` folder on the src level. 
+Right now, in order to develop locally you will need to both unpack a res.pak file and then expand the CDB into a directory tree. Then, add the expanded CDB into the project under a `database/` folder on the src level. 
 
 For more information on how to unpack the res.pak or expand the CDB, reference the ModsDoc PDF that is available within the Dead Cells folder for PC players. It is under the "ModTools" folder.
 
