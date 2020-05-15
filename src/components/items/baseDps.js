@@ -1,34 +1,39 @@
 import React from "react";
 
+import _get from "lodash.get";
+
 // -----------------------------------------------------------------------------
 
 function BaseDps(props) {
-  // const {
-  //     array,
-  // } = props;
+  const { array } = props;
 
-  // const totalComboCount = array.length;
+  // If is no data, just return
+  if (array === undefined || array.length === 0) {
+    return null;
+  }
 
-  // *Base DPS:
-  // {_get(weaponJson, 'strikeChain[0].power[0]', errorMessage)
-  // * (1/(_get(weaponJson, 'strikeChain[0].charge', errorMessage)
-  //  + _get(weaponJson, 'strikeChain[0].coolDown', errorMessage)))}
+  const attackDurationTotal = array.reduce((accumulator, element) => {
+    const charge = _get(element, "charge", 0);
+    const cooldown = _get(element, "cooldown", 0);
+    const lockControlAfter = _get(element, "lockCtrlAfter", 0);
+    return accumulator + (charge + cooldown + lockControlAfter);
+  }, 0);
 
-  // const comboRate = array.reduce(function(accumulator, element, index){
-  //     const charge = _get(element, 'charge', 0);
-  //     const cooldown = _get(element, 'cooldown', 0);
-  //     const lockControlAfter = _get(element, 'lockCtrlAfter', 0);
-
-  //     return accumulator + (charge + cooldown + lockControlAfter);
-  // }, 0);
+  const attackDamageTotal = array.reduce(
+    (accumulator, element) => accumulator + _get(element, "power[0]"),
+    0,
+  );
 
   return (
     <tr>
       <td>Base DPS</td>
-      <td>WIP</td>
+      <td>{Math.round(attackDamageTotal / attackDurationTotal)}</td>
     </tr>
   );
 }
+
+// (sum of all powers) / (sum of all charge + cooldown + lockCtrlAfter) ROUNDED UP
+// 310
 
 // -----------------------------------------------------------------------------
 
