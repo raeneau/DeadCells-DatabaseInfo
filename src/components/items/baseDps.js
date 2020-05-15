@@ -12,22 +12,37 @@ function BaseDps(props) {
     return null;
   }
 
-  const attackDurationTotal = array.reduce((accumulator, element) => {
-    const charge = _get(element, "charge", 0);
-    const cooldown = _get(element, "cooldown", 0);
-    const lockControlAfter = _get(element, "lockCtrlAfter", 0);
-    return accumulator + (charge + cooldown + lockControlAfter);
-  }, 0);
+  const dpsObject = array.reduce(
+    (accumulator, element) => {
+      const charge = _get(element, "charge", 0);
+      const cooldown = _get(element, "cooldown", 0);
+      const lockControlAfter = _get(element, "lockCtrlAfter", 0);
+      const power = _get(element, "power[0]");
+      const critMult = _get(element, "critMul");
 
-  const attackDamageTotal = array.reduce(
-    (accumulator, element) => accumulator + _get(element, "power[0]"),
-    0,
+      return {
+        attackDamage: accumulator.attackDamage + power,
+        attackDuration:
+          accumulator.attackDuration + (charge + cooldown + lockControlAfter),
+        // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it
+        attackCritDamage: accumulator.attackCritDamage + power * 2 * critMult,
+      };
+    },
+    {
+      attackDamage: 0,
+      attackDuration: 0,
+      // TODO: Make the CRIT MULTIPLIER a CONSTANT in case devs change it
+      attackCritDamage: 0,
+    },
   );
 
   return (
     <tr>
       <td>Base DPS</td>
-      <td>{Math.round(attackDamageTotal / attackDurationTotal)}</td>
+      <td>
+        {Math.round(dpsObject.attackDamage / dpsObject.attackDuration)} (
+        {Math.round(dpsObject.attackCritDamage / dpsObject.attackDuration)})
+      </td>
     </tr>
   );
 }
