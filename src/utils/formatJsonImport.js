@@ -1,4 +1,4 @@
-const keyRegex = /(?<=-)\w+(?=\.)/;
+const keyRegex = /(\d+)-+([^.]+)/;
 
 export default (jsonToFormat) => {
   return jsonToFormat.reduce((allFilesObject, entry, index) => {
@@ -10,7 +10,7 @@ export default (jsonToFormat) => {
     }
 
     // Make the new entry all UPPERCASE and remove the period in front
-    const newEntry = { [newKey[0].toUpperCase()]: entry.replace(/^\./, "") };
+    const newEntry = { [newKey[2].toUpperCase()]: entry.replace(/^\./, "") };
 
     // If the index is 0, we don't want to spread the
     if (index === 0) {
