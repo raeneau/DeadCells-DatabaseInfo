@@ -13,6 +13,7 @@ h2 {
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 h4 {

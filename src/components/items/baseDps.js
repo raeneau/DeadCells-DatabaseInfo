@@ -25,7 +25,8 @@ function BaseDps(props) {
         attackDuration:
           accumulator.attackDuration + (charge + cooldown + lockControlAfter),
         // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it
-        attackCritDamage: accumulator.attackCritDamage + power * 2 * critMult,
+        attackCritDamage:
+          accumulator.attackCritDamage + power * 2 * _get(critMult, "", 1),
       };
     },
     {
@@ -34,6 +35,12 @@ function BaseDps(props) {
       // TODO: Make the CRIT MULTIPLIER a CONSTANT in case devs change it
       attackCritDamage: 0,
     },
+  );
+
+  console.log(
+    dpsObject.attackDamage,
+    dpsObject.attackDuration,
+    dpsObject.attackCritDamage,
   );
 
   return (
