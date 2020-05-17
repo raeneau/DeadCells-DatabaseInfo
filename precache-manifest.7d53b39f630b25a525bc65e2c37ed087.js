@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5342cdac979555ceea2ec0f0b804dff3",
+    "revision": "4ab707bbc6852e8c2df76ae9bc6b772a",
     "url": "/DeadCells-DatabaseInfo/index.html"
   },
   {
