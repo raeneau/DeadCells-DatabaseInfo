@@ -1,0 +1,6 @@
+export default {
+  ENEMY: "ENEMY",
+  MELEE_WEAPON: "MELEE_WEAPON",
+  RANGED_WEAPON: "RANGED_WEAPON",
+  SHIELD: "SHIELD",
+};

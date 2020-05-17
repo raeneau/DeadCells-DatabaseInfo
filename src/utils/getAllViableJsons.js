@@ -12,18 +12,22 @@ import itemGrenadeJsons from "./jsonImports/itemGrenadeJsons";
 // Local modules.
 import getJson from "./getJson";
 
+// Constants.
+import inputTypes from "../constants/inputTypes";
+
 // -----------------------------------------------------------------------------
 
 const mapUserInput = (userInput) => {
   // TODO: ADD ENTRIES TO CONSTANTS FILE FOR EACH TYPE OF JSON.
+  const { TYPE, INTERNAL_ID } = userInput;
 
   // ---------------------------------------------------------------------------
   // Melee Weapons
   // ---------------------------------------------------------------------------
   const meleeWeaponJson = getJson({
     jsonPaths: [
-      `weapon${mappedWeapons[userInput]}`,
-      `item/Melee${itemMeleeJsons[userInput]}`,
+      `weapon${mappedWeapons[INTERNAL_ID]}`,
+      `item/Melee${itemMeleeJsons[INTERNAL_ID]}`,
     ],
     jsonNames: ["weaponJson", "itemJson"],
     type: "Melee",
@@ -38,8 +42,8 @@ const mapUserInput = (userInput) => {
   // ---------------------------------------------------------------------------
   const rangedWeaponJson = getJson({
     jsonPaths: [
-      `weapon${mappedWeapons[userInput]}`,
-      `item/Ranged${itemRangedJsons[userInput]}`,
+      `weapon${mappedWeapons[INTERNAL_ID]}`,
+      `item/Ranged${itemRangedJsons[INTERNAL_ID]}`,
     ],
     jsonNames: ["weaponJson", "itemJson"],
     type: "Ranged",
@@ -54,8 +58,8 @@ const mapUserInput = (userInput) => {
   // ---------------------------------------------------------------------------
   const shieldJson = getJson({
     jsonPaths: [
-      `weapon${mappedWeapons[userInput]}`,
-      `item/Shield${itemShieldJsons[userInput]}`,
+      `weapon${mappedWeapons[INTERNAL_ID]}`,
+      `item/Shield${itemShieldJsons[INTERNAL_ID]}`,
     ],
     jsonNames: ["weaponJson", "itemJson"],
     type: "Shield",
@@ -69,7 +73,7 @@ const mapUserInput = (userInput) => {
   // Grenades (Skill)
   // ---------------------------------------------------------------------------
   const grenadeJson = getJson({
-    jsonPaths: [`item/Grenade${itemGrenadeJsons[userInput]}`],
+    jsonPaths: [`item/Grenade${itemGrenadeJsons[INTERNAL_ID]}`],
     jsonNames: ["itemJson"],
     type: "Grenade",
   });
@@ -78,22 +82,21 @@ const mapUserInput = (userInput) => {
     return grenadeJson;
   }
 
-  // ---------------------------------------------------------------------------
-  // Enemies
-  // ---------------------------------------------------------------------------
-  const enemyJson = getJson({
-    jsonPaths: [`mob/General${enemyJsons[userInput]}`],
-    jsonNames: ["enemyJson"],
-    type: "Enemies",
-  });
-
-  if (!_isEmpty(enemyJson)) {
-    return enemyJson;
+  switch (TYPE) {
+    // ---------------------------------------------------------------------------
+    // Enemies
+    // ---------------------------------------------------------------------------
+    case inputTypes.ENEMY: {
+      return getJson({
+        jsonPaths: [`mob/General${enemyJsons[INTERNAL_ID]}`],
+        jsonNames: ["enemyJson"],
+        type: "Enemies",
+      });
+    }
+    default: {
+      return undefined;
+    }
   }
-
-  // If we didn't find anything, just be pathetic and return undefined
-  // TODO: Make an "OOPSIE WHOOPSIE" page to tell the user they donked up
-  return undefined;
 };
 
 export default mapUserInput;

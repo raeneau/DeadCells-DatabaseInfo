@@ -54,14 +54,16 @@ function UserInputScreen(props) {
         />
       </div>
       <div className={cn.notesWrapper}>
-        <h4>Currently Searchable Things:</h4>
+        <h4>Currently Searchable Categories:</h4>
         <ul>
           <li>Melee weapons*</li>
           <li>Ranged weapons*</li>
           <li>Shields*</li>
-          <li>Enemies*</li>
+          <li>Enemies</li>
         </ul>
-        <div>* only searchable by internal ID</div>
+        <div>
+          <b>*only searchable by internal ID</b>
+        </div>
       </div>
     </div>
   );

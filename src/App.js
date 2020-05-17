@@ -10,6 +10,9 @@ import EnemyScreen from "./screens/EnemyScreen";
 // Local modules.
 import getViableJsons from "./utils/getAllViableJsons";
 
+// Constants.
+import nameMappings from "./constants/nameMappings";
+
 // Styles.
 import "./App.css";
 import NotFoundScreen from "./screens/NotFound";
@@ -33,12 +36,21 @@ function App() {
     const formattedUserInput = String(newValue)
       .toUpperCase()
       .replace(/\s/g, "");
-    const jsonArray = getViableJsons(formattedUserInput);
-    console.log("JSON Array:", jsonArray);
+
+    const mappedUserInput = nameMappings[formattedUserInput] || {
+      INTERNAL_ID: formattedUserInput,
+    };
+
+    // TODO: Uncomment when everything is mapped
+    // if (mappedUserInput === undefined) {
+    //   setValue({ userSearchTerm: newValue });
+    // } else {
+    const jsonArray = getViableJsons(mappedUserInput);
     setValue({ userSearchTerm: newValue, jsonArrays: jsonArray });
+    // }
   };
 
-  const { userSearchTerm, jsonArrays } = value;
+  const { userSearchTerm, jsonArrays = {} } = value;
 
   return (
     <div id="App" className={cn.wrapper}>
