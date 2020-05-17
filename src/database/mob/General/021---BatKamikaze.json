@@ -1,0 +1,110 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "genTags": 18,
+  "pfCost": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "LowHealth",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerNeon",
+      "minDifficulty": 1
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 21,
+  "volteDelay": 0,
+  "id": "BatKamikaze",
+  "weight": 0,
+  "icon": {
+    "x": 57,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": 1,
+  "name": "Kamikaze",
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 2,
+  "flesh1": 9024537,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "props": {
+        "canTriggerThroughWall": false,
+        "distance": 4
+      },
+      "allowInAir": true,
+      "radius": 1.5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_kamikaze_charge.wav",
+      "charge": 0.71,
+      "manual": false,
+      "id": "core",
+      "sfxRelease": "sfx/enm_kamikaze_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        9
+      ],
+      "props": {
+        "speed": 0.8,
+        "count": 6,
+        "distance": 2.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": false,
+      "id": "sub",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 4,
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 2.5
+      },
+      "allowInAir": true,
+      "radius": 6,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": false,
+      "id": "turbo",
+      "sfxRelease": "sfx/enm_kamikaze_turbo.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 21
+}

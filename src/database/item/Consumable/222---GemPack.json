@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "NOT MEANT TO BE SEEN",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "GemPack",
+  "icon": {
+    "x": 15,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "NOT MEANT TO BE SEEN",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 222
+}

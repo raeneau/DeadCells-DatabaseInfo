@@ -1,0 +1,27 @@
+{
+  "props": {
+    "dps": 60,
+    "prct": 1,
+    "effectCD": 0.33,
+    "duration": 300
+  },
+  "gameplayDesc": "L'efficacité de la nourriture augmente de +::prct::%. Si vous la recyclez, vous obtenez +::+dps:: DPS sur ::duration:: sec.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_Food",
+  "icon": {
+    "x": 9,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Gastronomie",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 290
+}

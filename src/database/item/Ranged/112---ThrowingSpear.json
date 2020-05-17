@@ -1,0 +1,60 @@
+{
+  "props": {
+    "speed": 1.8,
+    "duration2": 0.5,
+    "power2": [
+      90
+    ],
+    "ammo": 1,
+    "duration": 10
+  },
+  "gameplayDesc": "Empale tous les ennemis sur son passage. S'ils sont proches d'un mur, ils subissent ::+power2:: dégâts supplémentaires. L'arme doit être ramassée (sinon elle revient après ::duration:: sec).",
+  "moneyCost": 1250,
+  "group": 5,
+  "castCD": 0,
+  "id": "ThrowingSpear",
+  "dlc": "RiseOfTheGiant",
+  "icon": {
+    "x": 18,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Javelot de guerre",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 112
+}

@@ -1,0 +1,38 @@
+{
+  "props": {},
+  "gameplayDesc": "Les 2 et 3èmes coups sont {critiques@CC}.",
+  "moneyCost": 1750,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Lourde et lente, mais tellement violente.",
+  "id": "BroadSword",
+  "icon": {
+    "x": 7,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Epée large",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "CinematicBlueprint"
+    },
+    {
+      "tag": "CritSameAsNormalInUI"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 20,
+  "legendAffix": "HeavyDamageRare",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 64
+}

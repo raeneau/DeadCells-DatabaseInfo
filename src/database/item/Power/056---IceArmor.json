@@ -1,0 +1,41 @@
+{
+  "props": {
+    "range": 5,
+    "power": 10,
+    "duration2": 8,
+    "castTime": 0,
+    "power2": 25,
+    "lock": 30,
+    "effectCD": 20,
+    "duration": 2
+  },
+  "gameplayDesc": "Applique une armure de glace sur le héros qui absorbe une attaque et explose en {gelant@IC} les ennemis proches. Si aucune attaque n'est absorbée, l'armure explose au bout de ::duration2:: secondes.",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 20,
+  "id": "IceArmor",
+  "icon": {
+    "x": 30,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Armure de glace",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "hasDuration"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 56
+}

@@ -1,0 +1,112 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "SismicBlade",
+  "strikeChain": [
+    {
+      "fxInnerColor": 16777215,
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 9,
+        "power2": [
+          10
+        ],
+        "bump": 0.2,
+        "count": 2
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.41,
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0.15,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_sismic_release1.wav",
+      "fxId": "fxSwordAtkB",
+      "animId": "atkSwordB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 10,
+      "critMul": 0.9,
+      "glowColor": 6718973,
+      "animSpd": 0.65
+    },
+    {
+      "fxInnerColor": 16777215,
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "lockCtrlAfter": 0.05,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_sismic_charge2.wav",
+      "charge": 0.25,
+      "canCrit": false,
+      "area": {
+        "width": 4.5,
+        "offsetCaseX": -1.25,
+        "offsetCaseY": -1,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_sismic_release2.wav",
+      "fxId": "fxAtkBroadSwordB",
+      "animId": "atkSaberB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.9,
+      "glowColor": 11172844,
+      "animSpd": 1
+    },
+    {
+      "fxInnerColor": 16777215,
+      "coolDown": 0,
+      "power": [
+        130
+      ],
+      "lockCtrlAfter": 0.4,
+      "props": {
+        "range": 12,
+        "power2": [
+          20
+        ],
+        "bump": 0.2,
+        "count": 3
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_sismic_charge3.wav",
+      "charge": 0.7,
+      "canCrit": false,
+      "area": {
+        "width": 5.5,
+        "offsetCaseX": -1.5,
+        "offsetCaseY": -0.6,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_sismic_release1.wav",
+      "fxId": "fxSwordAtkC",
+      "animId": "atkSwordC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 18,
+      "critMul": 1,
+      "glowColor": 16737067,
+      "animSpd": 0.8
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 17
+}

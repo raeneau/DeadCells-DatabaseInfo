@@ -1,0 +1,42 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "BehemothHammer",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "range": 2,
+        "fullCharge": 0.87,
+        "threshold": 0.6,
+        "limit": 12
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 3,
+      "sfxCharge": "sfx/weapon_finger_charge.wav",
+      "charge": 0.2,
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_stunmace_release1.wav",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "hitFrame": 6,
+      "glowColor": 16754944,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 28
+}

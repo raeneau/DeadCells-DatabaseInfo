@@ -1,0 +1,76 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 1,
+  "glowOuterColor": 3242589,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 2,
+  "canBeElite": false,
+  "index": 87,
+  "volteDelay": 0.5,
+  "id": "RootGrenader",
+  "weight": 10,
+  "icon": {
+    "x": 58,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Emprisonneur",
+  "glowInnerColor": 6204189,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "skill": [
+    {
+      "coolDown": 2.6,
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 2.7,
+        "triggerDelay": 0.7
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "charge": 0.6,
+      "manual": false,
+      "id": "grenade",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": -10,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0.3,
+      "power": [
+        3
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.25,
+      "manual": false,
+      "id": "shoot",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": -10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 87
+}

@@ -1,0 +1,67 @@
+{
+  "props": {
+    "range": 5,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.8,
+    "maxSpeed": 10,
+    "duration": 2,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 2,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": false,
+  "index": 54,
+  "volteDelay": 0.3,
+  "id": "Librarian",
+  "dlc": "RiseOfTheGiant",
+  "weight": 10,
+  "icon": {
+    "x": 50,
+    "y": 61,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    80
+  ],
+  "name": "Bibliothécaire",
+  "glowInnerColor": 4376539,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 2,
+  "flesh1": 5664385,
+  "flesh2": 10987964,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "height": 4,
+        "count": 3,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 0.55,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_librarian_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "laserBeam",
+      "sfxRelease": "sfx/enm_collector_laser_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 54
+}

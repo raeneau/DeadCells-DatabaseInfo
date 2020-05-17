@@ -1,0 +1,607 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "propsOuterGlow": 13519616,
+    "doorColor": 16737536,
+    "viewerColor": 3261821,
+    "musicLoop": "music/swamp.ogg",
+    "zDoorColor": 13286476,
+    "viewerY": -3,
+    "chromaColor": 65366,
+    "propsInnerGlow": 16771156,
+    "loadingDescColor": 6669474,
+    "loadingColor": 1840925
+  },
+  "lootFlags": 0,
+  "biome": "Swamp",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 2,
+  "quarterUpsBC4": 2,
+  "eliteWanderChance": 0.6,
+  "index": 25,
+  "id": "Swamp",
+  "dlc": "TheBadSeed",
+  "flags": 261,
+  "worldDepth": 2,
+  "icon": {
+    "x": 40,
+    "y": 75,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Fogger",
+      "minDifficulty": 4,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 1.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "AxeThrower",
+      "minDifficulty": 0,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Fugitive",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "packSize": [
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Blowgunner",
+      "minDifficulty": 0,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inEgg": true
+      },
+      "mob": "S_WallEggWorm",
+      "minDifficulty": 0,
+      "quantityFactor": 2.5,
+      "packSize": [
+        1,
+        3
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Ninja",
+      "maxDifficulty": 2,
+      "minDifficulty": 1,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Marais",
+  "mobDensity": 0.9,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "tripleUps": 2,
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "A low lying part of the island where the lepperous, diseased and quite often, poor, were sent to rot. The only refuge for survivors was in the trees."
+    },
+    {
+      "text": "\"As the Malaise spread, the putrid stench of the fetid water and pluages of stining creatures weren't the only thing the surviving Bannished had to deal with. \""
+    },
+    {
+      "text": "Taking to the trees may have kept the Bannished safe from the ticks, but it didn't save them from the ravages of the Malaise."
+    }
+  ],
+  "goldBonus": 0,
+  "parallax": [
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.7
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetY": -1
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "Gradient",
+      "color": 16712990,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/swampFogFront",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "Frontfog",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.7,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampPlantBg",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PlantParallax",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.6,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampToplight",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.7
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "GodrayForeground",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/swampFogSmall",
+      "visible": true,
+      "isCloud": true,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "FogA",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.5,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampGodray",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.4,
+        "vFillAngle": 45
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "GodrayA",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0.45,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgA",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 13519616,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 400,
+        "hfill": 2,
+        "minSpaceX": -200,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TreeA",
+      "scatter": false,
+      "innerGlow": 16771156,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.4,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampFogMedium",
+      "visible": true,
+      "isCloud": true,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "FogB",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.3,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampGodray",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 16753227,
+      "props": {
+        "alpha": 0.3,
+        "vFillAngle": 45
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "GodrayB",
+      "scatter": false,
+      "innerGlow": 15189909,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0.27,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgB",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 13519616,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 50,
+        "hfill": 2,
+        "minSpaceX": -100,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TreeB",
+      "scatter": false,
+      "innerGlow": 16771156,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.25,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampFogLarge",
+      "visible": true,
+      "isCloud": true,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "FogC",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.22,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampGodray",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.1,
+        "vFillAngle": 45
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "GodrayC",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0.2,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgC",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 125,
+        "hfill": 2,
+        "minSpaceX": -250,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TreeC",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgD",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": -50,
+        "hfill": 2,
+        "minSpaceX": -25,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TreeD",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/swampGodray",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.05,
+        "vFillAngle": 45
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "GodrayD",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.12,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgE",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TreeE",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.05,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "BackgroundSky",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.25
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 25
+}

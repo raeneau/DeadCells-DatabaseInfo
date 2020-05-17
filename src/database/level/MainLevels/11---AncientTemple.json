@@ -1,0 +1,222 @@
+{
+  "eliteRoomChance": 0.8,
+  "props": {
+    "doorColor": 12677929,
+    "viewerColor": 16639,
+    "musicLoop": "music/templecutpart1.ogg",
+    "zDoorColor": 13070624,
+    "viewerY": 1,
+    "chromaColor": 16731904,
+    "loadingDescColor": 6652612,
+    "loadingColor": 200988
+  },
+  "lootFlags": 0,
+  "biome": "AncientTemple",
+  "doubleUps": 1,
+  "group": 0,
+  "quarterUpsBC3": 2,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0.2,
+  "index": 11,
+  "id": "AncientTemple",
+  "flags": 0,
+  "worldDepth": 4,
+  "icon": {
+    "x": 49,
+    "y": 27,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "Golem",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "mob": "Shielder",
+      "minDifficulty": 0,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Fogger",
+      "minDifficulty": 0,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "mob": "OrbLauncher",
+      "minDifficulty": 0,
+      "quantityFactor": 0.9,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "mob": "Duelist",
+      "minDifficulty": 0,
+      "quantityFactor": 0.9,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Mage360",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "Mage360",
+      "maxDifficulty": 3,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "mob": "Demon",
+      "minDifficulty": 4,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Grenader",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "Grenader",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 1.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "ClusterGrenader",
+      "minDifficulty": 2,
+      "quantityFactor": 1.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "ClusterGrenader",
+      "minDifficulty": 2,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": false,
+        "outOfStoneInstantly": false
+      },
+      "mob": "BatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Zombie",
+      "maxDifficulty": 0,
+      "minDifficulty": 0,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inStone": true
+      },
+      "mob": "Enforcer",
+      "minDifficulty": 1,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Enforcer",
+      "minDifficulty": 1,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Sanctuaire endormi",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "tripleUps": 2,
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "Le gué des brumes a été construit sur un sanctuaire, mais difficile de savoir si c'était un choix délibéré des premiers colons."
+    },
+    {
+      "text": "Une mystérieuse énergie coule dans ces murs, comme du sang dans des veines."
+    },
+    {
+      "text": "Certains villageois racontaient que le temple était vivant et qu'il pouvait faire trembler la terre. Mais les légendes sont absurdes, parfois."
+    }
+  ],
+  "goldBonus": 0,
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 11
+}

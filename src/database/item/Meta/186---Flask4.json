@@ -1,0 +1,25 @@
+{
+  "props": {
+    "revealedAtStart": true,
+    "reqItem": "Flask3",
+    "reqUnlocks": 25
+  },
+  "gameplayDesc": "La potion de soin peut être utilisée 4 fois.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "Flask4",
+  "icon": {
+    "x": 12,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Potion de soin IV",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 300,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 186
+}

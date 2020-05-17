@@ -1,0 +1,40 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "CloseCombatBow",
+  "strikeChain": [
+    {
+      "fxInnerColor": 16774912,
+      "coolDown": 0.25,
+      "power": [
+        27
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "charge": 0.15,
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "animId": "closeCombatBow",
+      "hitFrame": 0,
+      "critMul": 1.4,
+      "glowColor": 16774912,
+      "animSpd": 5,
+      "fxOuterColor": 16774912
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 44
+}

@@ -1,0 +1,112 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 2345373,
+    "musicIntro": "music/astrolab_intro.ogg",
+    "viewerColor": 4048802,
+    "musicLoop": "music/astrolab_loop.ogg",
+    "zDoorColor": 1173422,
+    "viewerY": 1.5,
+    "wind": 3,
+    "loadingDescColor": 10388734,
+    "loadingColor": 1905728
+  },
+  "lootFlags": 0,
+  "biome": "Astrolab",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 1,
+  "index": 20,
+  "id": "Astrolab",
+  "dlc": "RiseOfTheGiant",
+  "flags": 66305,
+  "worldDepth": 9,
+  "icon": {
+    "x": 57,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Librarian",
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "DeathMage",
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Stomper",
+      "minDifficulty": 0,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Defender",
+      "minDifficulty": 0,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Bomber",
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "AggressiveZombie",
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Astrolab",
+  "mobDensity": 0.8,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "tripleUps": 0,
+  "baseLootLevel": 7,
+  "loreDescriptions": [
+    {
+      "text": "C'est ici que la plupart des expériences scientifiques pour trouver un remède... Ont échoués."
+    },
+    {
+      "text": "Certaines expériences sont toujours en liberté dans cette partie de l'île. C'est pourquoi le roi a ordonné la condamnation l'entrée principale."
+    },
+    {
+      "text": "L'expérience n°463 est horrible ! La n°464 va vous étonner !"
+    },
+    {
+      "text": "Aucun animal n'a été maltraité durant les recherches contre le Mal-être, promis."
+    }
+  ],
+  "goldBonus": 0,
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 20
+}

@@ -1,0 +1,110 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "KingsSpear",
+  "strikeChain": [
+    {
+      "fxInnerColor": 16056137,
+      "coolDown": 0,
+      "power": [
+        70
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.2
+      },
+      "onionSkinFrame": 18,
+      "breachBonus": 0.5,
+      "onionSkinOffX": 40,
+      "fxStartFrame": 17,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_spear_charge1.wav",
+      "charge": 0.6,
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0.2,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_doublelance_release1.wav",
+      "fxId": "halberdFxAtkA",
+      "animId": "halberdAtkA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 18,
+      "critMul": 0.75,
+      "glowColor": 9017264,
+      "fxOuterColor": 14238464
+    },
+    {
+      "fxInnerColor": 16056137,
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 1,
+      "fxStartFrame": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
+      "charge": 0.17,
+      "canCrit": true,
+      "area": {
+        "width": 11.5,
+        "offsetCaseX": -5.5,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_doublelance_release2.wav",
+      "fxId": "halberdFxAtkB",
+      "animId": "halberdAtkB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.75,
+      "glowColor": 9017264,
+      "fxOuterColor": 14238464
+    },
+    {
+      "fxInnerColor": 16056137,
+      "coolDown": 0,
+      "power": [
+        145
+      ],
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "bump": 0.5
+      },
+      "onionSkinFrame": 9,
+      "breachBonus": 1.5,
+      "onionSkinOffX": 80,
+      "fxStartFrame": 9,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_broadsword_charge3.wav",
+      "charge": 0.3,
+      "canCrit": true,
+      "area": {
+        "width": 6.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_doublelance_release3.wav",
+      "fxId": "halberdFxAtkC",
+      "animId": "halberdAtkC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 9,
+      "critMul": 0.75,
+      "glowColor": 9017264,
+      "fxOuterColor": 14238464
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 25
+}

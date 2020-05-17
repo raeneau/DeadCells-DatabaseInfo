@@ -1,0 +1,128 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Pan",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "altAnim": "atkPanHotA",
+        "bump": 0.1,
+        "hitFx": "fxPanAtkA"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.25,
+      "canCrit": true,
+      "area": {
+        "width": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_pan_release1.wav",
+      "fxId": "fxPanHitA",
+      "animId": "atkPanA",
+      "sfxHit": "sfx/weapon_pan_hit1.wav",
+      "hitFrame": 8,
+      "critMul": 0.8
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "altAnim": "atkPanHotB",
+        "bump": 0.1,
+        "hitFx": "fxPanAtkB"
+      },
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "canCrit": true,
+      "area": {
+        "width": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_pan_release2.wav",
+      "fxId": "fxPanHitB",
+      "animId": "atkPanB",
+      "sfxHit": "sfx/weapon_pan_hit2.wav",
+      "hitFrame": 5,
+      "critMul": 0.8
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "lockCtrlAfter": 0.05,
+      "props": {
+        "altAnim": "atkPanHotC",
+        "bump": 0.1,
+        "hitFx": "fxPanAtkC"
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.25,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_pan_release3.wav",
+      "fxId": "fxPanHitC",
+      "animId": "atkPanC",
+      "sfxHit": "sfx/weapon_pan_hit3.wav",
+      "hitFrame": 6,
+      "critMul": 0.9
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "altAnim": "atkPanHotD",
+        "bump": 0.1,
+        "hitFx": "fxPanAtkC"
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.25,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_pan_release4.wav",
+      "fxId": "fxPanHitC",
+      "animId": "atkPanD",
+      "sfxHit": "sfx/weapon_pan_hit4.wav",
+      "hitFrame": 9,
+      "critMul": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 33
+}

@@ -1,0 +1,143 @@
+{
+  "props": {
+    "moveSpeedMul": 0.75,
+    "near": 1
+  },
+  "genTags": 1,
+  "glowOuterColor": 16711680,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "SpawnFriendlyHardy",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerFriendlyHardy",
+      "minDifficulty": 1
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 57,
+  "volteDelay": 0.5,
+  "id": "ThrowableMushroom",
+  "dlc": "TheBadSeed",
+  "weight": 1,
+  "icon": {
+    "x": 43,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    50
+  ],
+  "name": "Hardy",
+  "glowInnerColor": 16777215,
+  "minPfSize": 5,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 1,
+  "flesh1": 11813838,
+  "flesh2": 13502825,
+  "skill": [
+    {
+      "chargeAnim": "chargeload",
+      "coolDown": 1.5,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 0.3,
+        "duration2": 0.5,
+        "x": 1,
+        "y": -0.1,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_throwmush_shout.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkLoadB",
+      "id": "charge",
+      "sfxRelease": "sfx/enm_throwmush_step_charge.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": -1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "shield1",
+      "coolDown": 1.5,
+      "props": {
+        "duration2": 0.2,
+        "duration": 0.25
+      },
+      "allowInAir": false,
+      "radius": 15,
+      "allowSameSkillNearby": false,
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "id": "hide",
+      "sfxRelease": "sfx/fire_spell1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": -1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "speed": 3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.2,
+      "manual": true,
+      "id": "gotoLaurel",
+      "sfxRelease": "sfx/enm_throwmush_shout2.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "count": 6,
+        "triggerDelay": 1.25
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_leech_egg_charge.wav",
+      "charge": 0,
+      "manual": true,
+      "id": "landExplosion",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 57
+}

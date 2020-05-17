@@ -1,0 +1,32 @@
+{
+  "props": {},
+  "gameplayDesc": "Inflige un {coup critique@CC} si la victime est un élite ou un boss.",
+  "moneyCost": 3500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Même pas peur.",
+  "id": "GiantKiller",
+  "dlc": "RiseOfTheGiant",
+  "icon": {
+    "x": 12,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tueuse de géants",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 69
+}

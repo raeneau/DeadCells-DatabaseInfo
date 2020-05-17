@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import _get from "lodash.get";
+import _isEmpty from "lodash.isempty";
 
 // Screens.
 import UserInputScreen from "./screens/UserInput";
@@ -11,6 +12,7 @@ import getViableJsons from "./utils/getAllViableJsons";
 
 // Styles.
 import "./App.css";
+import NotFoundScreen from "./screens/NotFound";
 
 // -----------------------------------------------------------------------------
 
@@ -19,7 +21,10 @@ const cn = {
   wrapper: `${cnBase}__wrapper`,
 };
 function App() {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState({
+    userSearchTerm: "",
+    jsonArrays: [],
+  });
 
   const handleChange = (newValue) => {
     // Format user input to be all uppercase with no spaces, to match the
@@ -30,17 +35,22 @@ function App() {
       .replace(/\s/g, "");
     const jsonArray = getViableJsons(formattedUserInput);
     console.log("JSON Array:", jsonArray);
-    setValue(jsonArray);
+    setValue({ userSearchTerm: newValue, jsonArrays: jsonArray });
   };
+
+  const { userSearchTerm, jsonArrays } = value;
 
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
-      {_get(value, "itemJson") !== undefined && (
-        <ItemsScreen userInput={value} />
+      {_get(jsonArrays, "itemJson") !== undefined && (
+        <ItemsScreen userInput={jsonArrays} />
       )}
-      {_get(value, "enemyJson") !== undefined && (
-        <EnemyScreen userInput={value} />
+      {_get(jsonArrays, "enemyJson") !== undefined && (
+        <EnemyScreen userInput={jsonArrays} />
+      )}
+      {!_isEmpty(userSearchTerm) && _isEmpty(jsonArrays) && (
+        <NotFoundScreen userSearchTerm={userSearchTerm} />
       )}
     </div>
   );

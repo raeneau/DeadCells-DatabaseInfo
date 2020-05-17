@@ -1,0 +1,39 @@
+{
+  "props": {
+    "range": 7,
+    "dps": 30,
+    "tick": 0.3,
+    "duration": 3
+  },
+  "gameplayDesc": "Enracine les ennemis proches (::+dps:: DPS sur ::duration:: sec).",
+  "moneyCost": 1500,
+  "group": 1,
+  "castCD": 16,
+  "id": "RootBomb",
+  "icon": {
+    "x": 9,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bombe de lière",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 40,
+  "legendAffix": "Oil",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 20
+}

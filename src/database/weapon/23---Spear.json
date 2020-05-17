@@ -1,0 +1,104 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Spear",
+  "strikeChain": [
+    {
+      "fxInnerColor": 54015,
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.4
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_spear_charge1.wav",
+      "charge": 0.45,
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0.2,
+        "offsetCaseY": 0,
+        "height": 0.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_impaler_release1.wav",
+      "fxId": "fxSpearA",
+      "animId": "atkSpearA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 13,
+      "critMul": 1.1,
+      "glowColor": 10743807,
+      "animSpd": 1.33,
+      "fxOuterColor": 54015
+    },
+    {
+      "fxInnerColor": 54015,
+      "coolDown": 0,
+      "power": [
+        57
+      ],
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.3,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_impaler_release2.wav",
+      "fxId": "fxSpearB",
+      "animId": "atkSpearB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 2,
+      "critMul": 1,
+      "glowColor": 10743807,
+      "fxOuterColor": 54015
+    },
+    {
+      "fxInnerColor": 54015,
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.15
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_impaler_release2.wav",
+      "fxId": "fxSpearC",
+      "animId": "atkSpearC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 2,
+      "critMul": 1,
+      "glowColor": 10743807,
+      "fxOuterColor": 54015
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 23
+}

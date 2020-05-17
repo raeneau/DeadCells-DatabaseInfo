@@ -1,0 +1,44 @@
+{
+  "props": {
+    "range": 12,
+    "ammo": 18,
+    "count": 3
+  },
+  "gameplayDesc": "Tire ::count:: flèches à la fois.",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "id": "DualBow",
+  "icon": {
+    "x": 20,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arc à multiples encoches",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 0,
+  "legendAffix": "FrontArrow",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 97
+}

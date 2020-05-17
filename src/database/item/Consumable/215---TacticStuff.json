@@ -1,0 +1,24 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Become an agile assassin, moving faster than your enemies eyes will follow.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "TacticStuff",
+  "icon": {
+    "x": 10,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tactique",
+  "droppable": false,
+  "tags": [],
+  "tier1": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 215
+}

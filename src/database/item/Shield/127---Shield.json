@@ -1,0 +1,30 @@
+{
+  "props": {},
+  "gameplayDesc": "Etourdit les ennemis bloqués. Durée de l'effet accrue si {parade@PA} réussie.",
+  "moneyCost": 1500,
+  "group": 6,
+  "castCD": 0,
+  "id": "Shield",
+  "icon": {
+    "x": 16,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Assommoir",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "legendAffix": "LongStun",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 127
+}

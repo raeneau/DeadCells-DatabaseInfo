@@ -46,9 +46,12 @@ function UserInputScreen(props) {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         />
-        <button type="submit" className={cn.button} onClick={onSubmit}>
-          Search
-        </button>
+        <button
+          type="submit"
+          className={cn.button}
+          onClick={onSubmit}
+          alt="Submit"
+        />
       </div>
       <div className={cn.notesWrapper}>
         <h4>Currently Searchable Things:</h4>

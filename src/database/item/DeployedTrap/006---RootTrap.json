@@ -1,0 +1,35 @@
+{
+  "props": {
+    "triggerOnHit": true,
+    "dps": 40,
+    "prct": 0.35,
+    "count": 2,
+    "effectCD": 0.33,
+    "duration": 6.5
+  },
+  "gameplayDesc": "Lance ::count:: pièges qui immobilisent les ennemis et augmente les dégâts qu'ils subissent (::+dps:: DPS sur ::duration:: sec).",
+  "moneyCost": 1500,
+  "group": 0,
+  "castCD": 14,
+  "id": "RootTrap",
+  "icon": {
+    "x": 4,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Piège à loups",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Deployable"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 0,
+  "legendAffix": "OilDeploy",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 6
+}

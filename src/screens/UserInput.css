@@ -12,6 +12,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   border: 0;
+  color: #000;
+  cursor: pointer;
+  padding: 1.75rem;
 }
 
 .UserInputScreen__input {
@@ -20,11 +23,11 @@
 
   /* TODO: Make image prettyyyyy */
   background-image: url("../assets/progressBar.png");
-  background-color: white;
-  border-radius: 1.25rem;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-size: 100%;
   border: 0;
+  color: #000;
   padding: 1rem;
 }
 

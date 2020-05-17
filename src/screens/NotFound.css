@@ -1,0 +1,11 @@
+.NotFoundScreen__notesWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.NotFoundScreen__searchTerm {
+  font-size: x-large;
+  margin: 1rem;
+}

@@ -1,0 +1,30 @@
+{
+  "props": {
+    "color": 11301631,
+    "duration": 10
+  },
+  "gameplayDesc": "Applique de {l'huile inflammable@FI} sur les ennemis et inflige des {coups critiques@CC} pendant ::duration:: sec après avoir touché un ennemi en feu. ",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "id": "OilSword",
+  "icon": {
+    "x": 7,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Epée huileuse",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Oil"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 25,
+  "legendAffix": "PoisonOnHit",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 84
+}

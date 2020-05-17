@@ -1,0 +1,99 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "StunMace",
+  "strikeChain": [
+    {
+      "fxInnerColor": 65422,
+      "coolDown": 0,
+      "power": [
+        70
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
+      "charge": 0.5,
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_stunmace_release1.wav",
+      "fxId": "fxHammerA",
+      "animId": "AtkHammerA",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "hitFrame": 12,
+      "critMul": 0.9,
+      "glowColor": 16187230,
+      "fxOuterColor": 36803
+    },
+    {
+      "fxInnerColor": 65422,
+      "coolDown": 0,
+      "power": [
+        85
+      ],
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_stunmace_charge2.wav",
+      "charge": 0.4,
+      "canCrit": true,
+      "area": {
+        "width": 3.1,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.5,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_stunmace_release2.wav",
+      "fxId": "fxAtkBroadSwordA",
+      "animId": "AtkHammerB",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "hitFrame": 11,
+      "critMul": 1.1,
+      "glowColor": 16187230,
+      "fxOuterColor": 36803
+    },
+    {
+      "fxInnerColor": 16740352,
+      "coolDown": 0,
+      "power": [
+        140
+      ],
+      "lockCtrlAfter": 0.4,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_stunmace_charge3.wav",
+      "charge": 0.5,
+      "canCrit": true,
+      "area": {
+        "width": 4.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -1,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_stunmace_release3.wav",
+      "fxId": "fxHammerC",
+      "animId": "AtkHammerC",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "hitFrame": 15,
+      "critMul": 1.5,
+      "glowColor": 15204190,
+      "fxOuterColor": 14876672
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 18
+}

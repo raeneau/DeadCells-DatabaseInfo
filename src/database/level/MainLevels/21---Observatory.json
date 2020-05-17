@@ -1,0 +1,55 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 2476746,
+    "viewerColor": 929061,
+    "musicLoop": "music/observatory_ambiance_full.ogg",
+    "zDoorColor": 1173422,
+    "viewerY": 1.5,
+    "wind": 3,
+    "loadingDescColor": 10388734,
+    "loadingColor": 1905728
+  },
+  "lootFlags": 16,
+  "biome": "Observatory",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 21,
+  "id": "Observatory",
+  "dlc": "RiseOfTheGiant",
+  "flags": 66305,
+  "worldDepth": 10,
+  "icon": {
+    "x": 11,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "Observatoire",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "tripleUps": 0,
+  "baseLootLevel": 7,
+  "loreDescriptions": [
+    {
+      "text": "C'est ici que l'Alchimiste du Roi menait de grandes recherches sur l'astronomie et l'astrologie (il était Sagittaire)."
+    },
+    {
+      "text": "L'Alchimiste a mystérieusement disparu depuis le fiasco de ses recherches."
+    },
+    {
+      "text": "L'Observatoire était à la pointe de la technologie et était réservé à l'élite scientifique de l'île, donc seulement à l'Alchimiste."
+    }
+  ],
+  "goldBonus": 0,
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 21
+}

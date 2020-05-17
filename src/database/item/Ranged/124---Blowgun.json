@@ -1,0 +1,37 @@
+{
+  "props": {
+    "speed": 2,
+    "ammo": 5
+  },
+  "gameplayDesc": "Inflicts {critical hits@CC} if you hit enemies in the back. ",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "Blowgun",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 28,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Sarbacane",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "legendAffix": "PoisonBullet",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 124
+}
