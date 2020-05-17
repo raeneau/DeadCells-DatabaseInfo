@@ -1,6 +1,7 @@
 {
   "name": "deadcells-databaseinfo",
   "version": "0.1.0",
+  "homepage": "http://{raeneau}.github.io/DeadCells-DatabaseInfo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -21,7 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js"
+    "lint": "eslint . --ext .js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,6 +44,7 @@
   "devDependencies": {
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
+    "gh-pages": "^2.2.0",
     "prettier": "2.0.5",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0"
