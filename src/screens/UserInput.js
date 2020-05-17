@@ -15,6 +15,7 @@ const cn = {
 
   // TODO: Move this to another component
   notesWrapper: `${cnBase}__notesWrapper`,
+  patchNotesWrapper: `${cnBase}__patchNotesWrapper`,
 };
 
 function UserInputScreen(props) {
@@ -54,6 +55,12 @@ function UserInputScreen(props) {
         />
       </div>
       <div className={cn.notesWrapper}>
+        <div className={cn.patchNotesWrapper}>
+          <h4>What&apos;s new? - May 17th 2020</h4>
+          <ul>
+            <li>Enemies now searchable by name!</li>
+          </ul>
+        </div>
         <h4>Currently Searchable Categories:</h4>
         <ul>
           <li>Melee weapons*</li>
