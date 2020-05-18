@@ -54,22 +54,6 @@ const mapUserInput = (userInput) => {
   }
 
   // ---------------------------------------------------------------------------
-  // Shields
-  // ---------------------------------------------------------------------------
-  const shieldJson = getJson({
-    jsonPaths: [
-      `weapon${mappedWeapons[INTERNAL_ID]}`,
-      `item/Shield${itemShieldJsons[INTERNAL_ID]}`,
-    ],
-    jsonNames: ["weaponJson", "itemJson"],
-    type: "Shield",
-  });
-
-  if (!_isEmpty(_get(shieldJson, "itemJson"))) {
-    return shieldJson;
-  }
-
-  // ---------------------------------------------------------------------------
   // Grenades (Skill)
   // ---------------------------------------------------------------------------
   const grenadeJson = getJson({
@@ -83,6 +67,19 @@ const mapUserInput = (userInput) => {
   }
 
   switch (TYPE) {
+    // ---------------------------------------------------------------------------
+    // Shields
+    // ---------------------------------------------------------------------------
+    case inputTypes.SHIELD: {
+      return getJson({
+        jsonPaths: [
+          `weapon${mappedWeapons[INTERNAL_ID]}`,
+          `item/Shield${itemShieldJsons[INTERNAL_ID]}`,
+        ],
+        jsonNames: ["weaponJson", "itemJson"],
+        type: "Shield",
+      });
+    }
     // ---------------------------------------------------------------------------
     // Enemies
     // ---------------------------------------------------------------------------

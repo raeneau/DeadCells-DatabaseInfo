@@ -37,12 +37,6 @@ function BaseDps(props) {
     },
   );
 
-  console.log(
-    dpsObject.attackDamage,
-    dpsObject.attackDuration,
-    dpsObject.attackCritDamage,
-  );
-
   return (
     <tr>
       <td>Base DPS</td>

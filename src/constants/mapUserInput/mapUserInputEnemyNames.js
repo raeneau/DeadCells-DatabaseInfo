@@ -1,5 +1,6 @@
-import enemyNames from "../names/enemyIds";
+import enemyNames from "../names/enemyNames";
 
+// InternalId: Object of {Type, Internal ID}
 export default {
   ZOMBIE: enemyNames.ZOMBIE,
 
@@ -7,6 +8,7 @@ export default {
   UNDEADARCHER: enemyNames.ARCHER,
 
   SHIELDBEARER: enemyNames.SHIELDBEARER,
+  SHIELD: enemyNames.SHIELDBEARER, // !!! -- OVERLOADED VALUE
 
   GRENADIER: enemyNames.GRENADIER,
 
@@ -31,8 +33,10 @@ export default {
   BUZZCUTTER: enemyNames.BUZZCUTTER,
 
   PURULENTZOMBIESEWER: enemyNames.PURULENT_ZOMBIE_S,
+  SEWERZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
 
   PURULENTZOMBIEGRAVEYARD: enemyNames.PURULENT_ZOMBIE_G,
+  GRAVEYARDZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
 
   DISGUSTINGWORM: enemyNames.DISGUSTING_WORM,
 
@@ -130,6 +134,7 @@ export default {
   GUARDIAN: enemyNames.OVEN_KNIGHT,
   SHIELDKNIGHT: enemyNames.OVEN_KNIGHT,
   ENFORCER: enemyNames.OVEN_KNIGHT,
+  FURNACEKNIGHT: enemyNames.OVEN_KNIGHT,
 
   BLOBBY: enemyNames.BLOBBY,
   BLOB: enemyNames.BLOBBY,

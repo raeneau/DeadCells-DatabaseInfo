@@ -17,7 +17,7 @@ const formatDifficulty = ({ min, max }) => {
   return `${min}-${max} BSC`;
 };
 
-const EnemiesScreen = (props) => {
+const LocaationScreen = (props) => {
   const { userInput } = props;
 
   const enemyBiomeLocations = enemyLocation({ enemy: userInput });
@@ -45,4 +45,4 @@ const EnemiesScreen = (props) => {
 
 // -----------------------------------------------------------------------------
 
-export default EnemiesScreen;
+export default LocaationScreen;

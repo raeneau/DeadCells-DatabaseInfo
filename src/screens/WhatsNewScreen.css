@@ -1,0 +1,7 @@
+.WhatsNewScreen__wrapper {
+  background-color: rgba(164, 2, 57, 0.1);
+  border: 1px solid rgba(164, 2, 57, 0.3);
+  margin-top: 1rem;
+  max-width: 50%;
+  padding: 0.5rem 1.5rem 1rem 0;
+}

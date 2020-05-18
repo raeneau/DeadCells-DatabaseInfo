@@ -11,11 +11,12 @@ import EnemyScreen from "./screens/EnemyScreen";
 import getViableJsons from "./utils/getAllViableJsons";
 
 // Constants.
-import nameMappings from "./constants/nameMappings";
+import nameMappings from "./constants/mapUserInput";
 
 // Styles.
 import "./App.css";
 import NotFoundScreen from "./screens/NotFound";
+import NameConflictScreen from "./screens/NameConflictScreen";
 
 // -----------------------------------------------------------------------------
 
@@ -25,14 +26,17 @@ const cn = {
 };
 function App() {
   const [value, setValue] = useState({
-    userSearchTerm: "",
+    searchTerm: "",
     jsonArrays: [],
+    nameConflict: false,
+    conflictTypes: undefined,
   });
 
   const handleChange = (newValue) => {
     // Format user input to be all uppercase with no spaces, to match the
     // file import object keys
     // TODO: ACTUALLY format this and return an object with {INTERNAL_ID, TYPE}
+    // TODO: MOVE THIS IS A COMMON UTIL
     const formattedUserInput = String(newValue)
       .toUpperCase()
       .replace(/\s/g, "");
@@ -41,16 +45,24 @@ function App() {
       INTERNAL_ID: formattedUserInput,
     };
 
+    if (Array.isArray(_get(mappedUserInput, "TYPE"))) {
+      setValue({
+        nameConflict: true,
+        searchTerm: newValue,
+        conflictTypes: _get(mappedUserInput, "TYPE"),
+      });
+    }
     // TODO: Uncomment when everything is mapped
     // if (mappedUserInput === undefined) {
-    //   setValue({ userSearchTerm: newValue });
-    // } else {
-    const jsonArray = getViableJsons(mappedUserInput);
-    setValue({ userSearchTerm: newValue, jsonArrays: jsonArray });
+    //   setValue({ searchTerm: newValue });
     // }
+    else {
+      const jsonArray = getViableJsons(mappedUserInput);
+      setValue({ searchTerm: newValue, jsonArrays: jsonArray });
+    }
   };
 
-  const { userSearchTerm, jsonArrays = {} } = value;
+  const { searchTerm, jsonArrays = {}, nameConflict, conflictTypes } = value;
 
   return (
     <div id="App" className={cn.wrapper}>
@@ -61,8 +73,14 @@ function App() {
       {_get(jsonArrays, "enemyJson") !== undefined && (
         <EnemyScreen userInput={jsonArrays} />
       )}
-      {!_isEmpty(userSearchTerm) && _isEmpty(jsonArrays) && (
-        <NotFoundScreen userSearchTerm={userSearchTerm} />
+      {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
+        <NotFoundScreen userSearchTerm={searchTerm} />
+      )}
+      {nameConflict === true && (
+        <NameConflictScreen
+          searchTerm={searchTerm}
+          conflictTypes={conflictTypes}
+        />
       )}
     </div>
   );

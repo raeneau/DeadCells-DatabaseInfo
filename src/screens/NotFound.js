@@ -16,7 +16,7 @@ function NotFoundScreen(props) {
 
   return (
     <div className="DisplayCard">
-      <h2>Oops! - Not Found</h2>
+      <h2>Not Found</h2>
       <div className={cn.notesWrapper}>
         <ul>
           <div>Sorry! I couldn&apos;t find anything about:</div>

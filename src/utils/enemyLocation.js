@@ -3,6 +3,9 @@ import _map from "lodash.map";
 import _filter from "lodash.filter";
 import _isEmpty from "lodash.isempty";
 
+// Constants.
+import locationNameMap from "../constants/biomes";
+
 // Local modules.
 import levelJsons from "./jsonImports/levelJsons";
 
@@ -34,10 +37,11 @@ export default ({ enemy }) => {
     );
 
     if (!_isEmpty(onlyEnemy)) {
+      const locationName = _get(element, "id");
       currentEnemyLocations.push({
         minDifficulty: onlyEnemy[0].minDifficulty,
         maxDifficulty: onlyEnemy[0].maxDifficulty,
-        name: _get(element, "id"),
+        name: locationNameMap[locationName] || locationName,
       });
     }
   });

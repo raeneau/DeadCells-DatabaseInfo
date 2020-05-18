@@ -1,0 +1,16 @@
+.NameConflictScreen__notesWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -1rem;
+}
+
+.NameConflictScreen__searchTerm {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+.NameConflictScreen__possibleMatches {
+  font-size: larger;
+  margin: 1rem;
+}
