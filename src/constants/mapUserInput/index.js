@@ -1,5 +1,6 @@
 import mapUserInputEnemyNames from "./mapUserInputEnemyNames";
-import mapUserinputShieldNames from "./mapUserInputShieldNames";
+import mapUserInputShieldNames from "./mapUserInputShieldNames";
+import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
 import mapNameConflicts from "./mapNameConflicts";
 
 /**
@@ -16,6 +17,7 @@ import mapNameConflicts from "./mapNameConflicts";
  */
 export default {
   ...mapUserInputEnemyNames,
-  ...mapUserinputShieldNames,
+  ...mapUserInputShieldNames,
+  ...mapUserInputMeleeNames,
   ...mapNameConflicts,
 };
