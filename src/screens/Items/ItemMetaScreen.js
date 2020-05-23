@@ -5,6 +5,7 @@ import _get from "lodash.get";
 import BasicDisplay from "../../components/common/basicDisplay";
 import Scaling from "../../components/items/scaling";
 import Tags from "../../components/items/tags";
+import img from "../../assets/goldcoin.png";
 
 // -----------------------------------------------------------------------------
 
@@ -29,7 +30,11 @@ const ItemMetaScreen = (props) => {
             secondColor={_get(itemJson, "tier2")}
           />
           {/* ADD SPECIAL EFFECTS HERE */}
-          <BasicDisplay name="Base Price" value={_get(itemJson, "moneyCost")} />
+          <BasicDisplay
+            name="Base Price"
+            value={_get(itemJson, "moneyCost")}
+            img={<img alt="cell" src={img} height="15" />}
+          />
           <Tags tagArray={_get(itemJson, "tags", null)} />
           <BasicDisplay
             name="Forced Affix When Legendary"

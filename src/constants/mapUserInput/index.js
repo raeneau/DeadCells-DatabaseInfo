@@ -1,8 +1,8 @@
 import mapUserInputEnemyNames from "./mapUserInputEnemyNames";
 import mapUserInputShieldNames from "./mapUserInputShieldNames";
 import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
-import mapNameConflicts from "./mapNameConflicts";
 import mapUserInputRangedNames from "./mapUserInputRangedNames";
+import mapNameConflicts from "./mapNameConflicts";
 
 /**
  * These files are used for mapping whatever weird user input is entered in the

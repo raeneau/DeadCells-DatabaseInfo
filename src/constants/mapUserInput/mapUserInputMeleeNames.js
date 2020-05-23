@@ -24,6 +24,7 @@ export default {
   OILSWORD: meleeWeaponNames.OILED_SWORD,
 
   BROADSWORD: meleeWeaponNames.BROADSWORD,
+  TUTORIALKNIGHTSWORD: meleeWeaponNames.BROADSWORD,
 
   ASSASSINSDAGGER: meleeWeaponNames.ASSASSINS_DAGGER,
   BACKSTABBER: meleeWeaponNames.ASSASSINS_DAGGER,
@@ -68,6 +69,7 @@ export default {
   BURNER: meleeWeaponNames.TORCH,
 
   SYMMETRICALLANCE: meleeWeaponNames.SYMMETRICAL_LANCE,
+  SYMMETRICLANCE: meleeWeaponNames.SYMMETRICAL_LANCE,
   KINGSSPEAR: meleeWeaponNames.SYMMETRICAL_LANCE,
 
   SWIFTSWORD: meleeWeaponNames.SWIFT_SWORD,
@@ -83,6 +85,7 @@ export default {
 
   SEISMICSTRIKE: meleeWeaponNames.SEISMIC_STRIKE,
   SISMICBLADE: meleeWeaponNames.SEISMIC_STRIKE,
+  SEISMIC: meleeWeaponNames.SEISMIC_STRIKE,
 
   FLAWLESS: meleeWeaponNames.FLAWLESS,
   PERFECTHALBERD: meleeWeaponNames.FLAWLESS,
@@ -97,6 +100,7 @@ export default {
   BEHEMOTHHAMMER: meleeWeaponNames.FLINT,
 
   FLASHINGFANS: meleeWeaponNames.FLASHING_FANS,
+  FANS: meleeWeaponNames.FLASHING_FANS,
   PARRYBLADE: meleeWeaponNames.FLASHING_FANS,
 
   LEFTSCYTHECLAW: meleeWeaponNames.LEFT_SCYTHE_CLAW,
@@ -106,6 +110,7 @@ export default {
   TICKSCYTHERIGHT: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
 
   RHYTHMNBOUZOUSKI: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
+  BOUZOUSKI: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
   RYTHMICSWORD: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
 
   CROWBAR: meleeWeaponNames.CROWBAR,

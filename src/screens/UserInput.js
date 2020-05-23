@@ -19,16 +19,23 @@ const cn = {
   patchNotesWrapper: `${cnBase}__patchNotesWrapper`,
 };
 
+let inputSubmitted = false;
+
 function UserInputScreen(props) {
-  const [userInputValue, setUserInputValue] = useState("");
+  const [value, setValue] = useState({
+    userInputValue: "",
+  });
 
   function handleChange(event) {
     // Here, we invoke the callback with the new value
-    setUserInputValue(event.target.value);
+    setValue({ userInputValue: event.target.value });
   }
 
   function onSubmit() {
-    props.onChange(userInputValue);
+    // The user set a value. Let's hide the info on the screen.
+    inputSubmitted = true;
+
+    props.onChange(value.userInputValue);
   }
 
   function handleKeyDown(event) {
@@ -37,6 +44,8 @@ function UserInputScreen(props) {
       onSubmit();
     }
   }
+
+  const { userInputValue } = value;
 
   return (
     <div className="DisplayCard">
@@ -55,19 +64,21 @@ function UserInputScreen(props) {
           alt="Submit"
         />
       </div>
-      <div className={cn.notesWrapper}>
-        <WhatsNewScreen />
-        <h4>Currently Searchable Categories:</h4>
-        <ul>
-          <li>Melee weapons*</li>
-          <li>Ranged weapons*</li>
-          <li>Shields</li>
-          <li>Enemies</li>
-        </ul>
-        <div>
-          <b>*only searchable by internal ID</b>
+      {!inputSubmitted && (
+        <div className={cn.notesWrapper}>
+          <WhatsNewScreen />
+          <h4>Currently Searchable Categories:</h4>
+          <ul>
+            <li>Melee weapons</li>
+            <li>Ranged weapons</li>
+            <li>Shields</li>
+            <li>Enemies</li>
+          </ul>
+          <div>
+            <b>*only searchable by internal ID</b>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

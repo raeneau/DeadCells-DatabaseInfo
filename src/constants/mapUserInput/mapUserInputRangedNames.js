@@ -2,100 +2,100 @@ import rangedWeaponNames from "../names/rangedWeaponNames";
 
 // InternalId: Object of {Type, Internal ID}
 export default {
-  STARTBOW: rangedWeaponNames.STARTBOW,
-  BEGINNERBOW: rangedWeaponNames.STARTBOW,
-  BEGINNERSBOW: rangedWeaponNames.STARTBOW,
+  STARTBOW: rangedWeaponNames.START_BOW,
+  BEGINNERBOW: rangedWeaponNames.START_BOW,
+  BEGINNERSBOW: rangedWeaponNames.START_BOW,
 
-  MULTINOCKSBOW: rangedWeaponNames.DUALBOW,
-  MULTINOCKS: rangedWeaponNames.DUALBOW,
-  DUALBOW: rangedWeaponNames.DUALBOW,
+  MULTINOCKSBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
+  MULTINOCKS: rangedWeaponNames.MULTI_NOCKS_BOW,
+  DUALBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
 
-  THROWINGKNIFE: rangedWeaponNames.THROWINGKNIFE,
+  THROWINGKNIFE: rangedWeaponNames.THROWING_KNIFE,
 
-  ELECTRICWHIP: rangedWeaponNames.LIGHTNINGWHIP,
-  EWHIP: rangedWeaponNames.LIGHTNINGWHIP,
-  LIGHTNINGWHIP: rangedWeaponNames.LIGHTNINGWHIP,
+  ELECTRICWHIP: rangedWeaponNames.ELECTRIC_WHIP,
+  EWHIP: rangedWeaponNames.ELECTRIC_WHIP,
+  LIGHTNINGWHIP: rangedWeaponNames.ELECTRIC_WHIP,
 
-  FIREBRANDS: rangedWeaponNames.THROWINGTORCH,
-  THROWINGTORCH: rangedWeaponNames.THROWINGTORCH,
+  FIREBRANDS: rangedWeaponNames.FIREBRANDS,
+  THROWINGTORCH: rangedWeaponNames.FIREBRANDS,
 
-  FROSTBLAST: rangedWeaponNames.FREEZE,
-  FREEZE: rangedWeaponNames.FREEZE,
+  FROSTBLAST: rangedWeaponNames.FROST_BLAST,
+  FREEZE: rangedWeaponNames.FROST_BLAST,
 
-  BOWANDENDLESSQUIVER: rangedWeaponNames.INFINITEBOW,
-  ENDLESSQUIVER: rangedWeaponNames.INFINITEBOW,
-  INFINITEBOW: rangedWeaponNames.INFINITEBOW,
+  BOWANDENDLESSQUIVER: rangedWeaponNames.BOW_AND_ENDLESS_QUIVER,
+  ENDLESSQUIVER: rangedWeaponNames.BOW_AND_ENDLESS_QUIVER,
+  INFINITEBOW: rangedWeaponNames.BOW_AND_ENDLESS_QUIVER,
 
-  MARKSMANBOW: rangedWeaponNames.LONGBOW,
-  MARKSMAN: rangedWeaponNames.LONGBOW,
-  LONGBOW: rangedWeaponNames.LONGBOW,
+  MARKSMANBOW: rangedWeaponNames.MARKSMAN_BOW,
+  MARKSMAN: rangedWeaponNames.MARKSMAN_BOW,
+  LONGBOW: rangedWeaponNames.MARKSMAN_BOW,
 
-  INFANTRYBOW: rangedWeaponNames.CLOSECOMBATBOW,
-  INFANTRY: rangedWeaponNames.CLOSECOMBATBOW,
-  CLOSECOMBATBOW: rangedWeaponNames.CLOSECOMBATBOW,
+  INFANTRYBOW: rangedWeaponNames.INFANTRY_BOW,
+  INFANTRY: rangedWeaponNames.INFANTRY_BOW,
+  CLOSECOMBATBOW: rangedWeaponNames.INFANTRY_BOW,
 
-  QUICKBOW: rangedWeaponNames.FASTBOW,
-  FASTBOW: rangedWeaponNames.FASTBOW,
+  QUICKBOW: rangedWeaponNames.QUICK_BOW,
+  FASTBOW: rangedWeaponNames.QUICK_BOW,
 
-  ICEBOW: rangedWeaponNames.FROSTBOW,
-  FROSTBOW: rangedWeaponNames.FROSTBOW,
+  ICEBOW: rangedWeaponNames.ICE_BOW,
+  FROSTBOW: rangedWeaponNames.ICE_BOW,
 
-  HEAVYCROSSBOW: rangedWeaponNames.CROSSBOW,
-  CROSSBOW: rangedWeaponNames.CROSSBOW,
+  HEAVYCROSSBOW: rangedWeaponNames.HEAVY_CROSSBOW,
+  CROSSBOW: rangedWeaponNames.HEAVY_CROSSBOW,
 
-  REPEATERCROSSBOW: rangedWeaponNames.MULTICROSSBOW,
-  MULTICROSSBOW: rangedWeaponNames.MULTICROSSBOW,
+  REPEATERCROSSBOW: rangedWeaponNames.REPEATER_CROSSBOW,
+  MULTICROSSBOW: rangedWeaponNames.REPEATER_CROSSBOW,
 
-  HOKUTOSBOW: rangedWeaponNames.MARKBOW,
-  HOKUTO: rangedWeaponNames.MARKBOW,
-  HOKUTOS: rangedWeaponNames.MARKBOW,
-  MARKBOW: rangedWeaponNames.MARKBOW,
+  HOKUTOSBOW: rangedWeaponNames.HOKUTOS_BOW,
+  HOKUTO: rangedWeaponNames.HOKUTOS_BOW,
+  HOKUTOS: rangedWeaponNames.HOKUTOS_BOW,
+  MARKBOW: rangedWeaponNames.HOKUTOS_BOW,
 
-  ICECROSSBOW: rangedWeaponNames.FROSTCROSSBOW,
-  FROSTCROSSBOW: rangedWeaponNames.FROSTCROSSBOW,
+  ICECROSSBOW: rangedWeaponNames.ICE_CROSSBOW,
+  FROSTCROSSBOW: rangedWeaponNames.ICE_CROSSBOW,
 
-  EXPLOSIVECROSSBOW: rangedWeaponNames.EXPLOSIVECROSSBOW,
+  EXPLOSIVECROSSBOW: rangedWeaponNames.EXPLOSIVE_CROSSBOW,
 
-  NERVESOFSTEEL: rangedWeaponNames.PRECISEBOW,
-  NERVES: rangedWeaponNames.PRECISEBOW,
-  PRECISEBOW: rangedWeaponNames.PRECISEBOW,
+  NERVESOFSTEEL: rangedWeaponNames.NERVES_OF_STEEL,
+  NERVES: rangedWeaponNames.NERVES_OF_STEEL,
+  PRECISEBOW: rangedWeaponNames.NERVES_OF_STEEL,
 
-  ALCHEMICCARBINE: rangedWeaponNames.ALCHEMICGUN,
-  ALCHEMICGUN: rangedWeaponNames.ALCHEMICGUN,
-  POISONGUN: rangedWeaponNames.ALCHEMICGUN,
-  ALCHEMIC: rangedWeaponNames.ALCHEMICGUN,
-  CARBINE: rangedWeaponNames.ALCHEMICGUN,
+  ALCHEMICCARBINE: rangedWeaponNames.ALCHEMIC_CARBINE,
+  ALCHEMICGUN: rangedWeaponNames.ALCHEMIC_CARBINE,
+  POISONGUN: rangedWeaponNames.ALCHEMIC_CARBINE,
+  ALCHEMIC: rangedWeaponNames.ALCHEMIC_CARBINE,
+  CARBINE: rangedWeaponNames.ALCHEMIC_CARBINE,
 
-  LIGHTNINGBOLT: rangedWeaponNames.LIGHTNING,
-  LIGHTNING: rangedWeaponNames.LIGHTNING,
-  PALPATINE: rangedWeaponNames.LIGHTNING,
+  LIGHTNINGBOLT: rangedWeaponNames.LIGHTNING_BOLT,
+  LIGHTNING: rangedWeaponNames.LIGHTNING_BOLT,
+  PALPATINE: rangedWeaponNames.LIGHTNING_BOLT,
 
-  FIREBLAST: rangedWeaponNames.FLAMETHROWER,
-  FLAMETHROWER: rangedWeaponNames.FLAMETHROWER,
+  FIREBLAST: rangedWeaponNames.FIRE_BLAST,
+  FLAMETHROWER: rangedWeaponNames.FIRE_BLAST,
 
-  ICESHARD: rangedWeaponNames.THROWINGICE,
-  THROWINGICE: rangedWeaponNames.THROWINGICE,
+  ICESHARD: rangedWeaponNames.ICE_SHARD,
+  THROWINGICE: rangedWeaponNames.ICE_SHARD,
 
-  PYROTECHNICS: rangedWeaponNames.FIREBALL,
-  FIREBALL: rangedWeaponNames.FIREBALL,
+  PYROTECHNICS: rangedWeaponNames.PYROTECHNICS,
+  FIREBALL: rangedWeaponNames.PYROTECHNICS,
 
   BOOMERANG: rangedWeaponNames.BOOMERANG,
 
-  BOYSAXE: rangedWeaponNames.GODAXE,
-  GODAXE: rangedWeaponNames.GODAXE,
+  BOYSAXE: rangedWeaponNames.BOYS_AXE,
+  GODAXE: rangedWeaponNames.BOYS_AXE,
 
-  WARJAVELIN: rangedWeaponNames.THROWINGSPREAR,
-  JAVELIN: rangedWeaponNames.THROWINGSPREAR,
-  THROWINGSPREAR: rangedWeaponNames.THROWINGSPREAR,
+  WARJAVELIN: rangedWeaponNames.JAVELIN,
+  JAVELIN: rangedWeaponNames.JAVELIN,
+  THROWINGSPREAR: rangedWeaponNames.JAVELIN,
 
-  MAGICMISSLES: rangedWeaponNames.MAGICSALVE,
-  MM: rangedWeaponNames.MAGICSALVE,
-  MAGICSALVE: rangedWeaponNames.MAGICSALVE,
+  MAGICMISSLES: rangedWeaponNames.MAGIC_MISSLES,
+  MM: rangedWeaponNames.MAGIC_MISSLES,
+  MAGICSALVE: rangedWeaponNames.MAGIC_MISSLES,
 
-  HEMORRHAGE: rangedWeaponNames.BLEEDAXE,
-  BLEEDAXE: rangedWeaponNames.BLEEDAXE,
+  HEMORRHAGE: rangedWeaponNames.HEMORRHAGE,
+  BLEEDAXE: rangedWeaponNames.HEMORRHAGE,
 
-  SONICCROSSBOW: rangedWeaponNames.SONICCROSSBOW,
+  SONICCROSSBOW: rangedWeaponNames.SONIC_CROSSBOW,
 
   BLOWGUN: rangedWeaponNames.BLOWGUN,
 };
