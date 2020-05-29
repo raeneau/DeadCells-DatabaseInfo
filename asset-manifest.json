@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DeadCells-DatabaseInfo/static/css/main.f68f9ae5.chunk.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.98f5ee70.chunk.js",
-    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.98f5ee70.chunk.js.map",
+    "main.css": "/DeadCells-DatabaseInfo/static/css/main.23afe841.chunk.css",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.884e041a.chunk.js",
+    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.884e041a.chunk.js.map",
     "runtime-main.js": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js",
     "runtime-main.js.map": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js.map",
-    "static/js/2.66bebe56.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.66bebe56.chunk.js",
-    "static/js/2.66bebe56.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.66bebe56.chunk.js.map",
+    "static/js/2.10defcc9.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js",
+    "static/js/2.10defcc9.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js.map",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
-    "precache-manifest.dbc064f3e3f55dafa1d1a0effb9c0437.js": "/DeadCells-DatabaseInfo/precache-manifest.dbc064f3e3f55dafa1d1a0effb9c0437.js",
+    "precache-manifest.014c6467f680e995b83711157597d051.js": "/DeadCells-DatabaseInfo/precache-manifest.014c6467f680e995b83711157597d051.js",
     "service-worker.js": "/DeadCells-DatabaseInfo/service-worker.js",
-    "static/css/main.f68f9ae5.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.f68f9ae5.chunk.css.map",
-    "static/js/2.66bebe56.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.66bebe56.chunk.js.LICENSE.txt",
-    "static/media/islandBackground.jpg": "/DeadCells-DatabaseInfo/static/media/islandBackground.77547194.jpg",
+    "static/css/main.23afe841.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.23afe841.chunk.css.map",
+    "static/js/2.10defcc9.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/DeadCells-DatabaseInfo/static/media/islandBackground.77547194.jpg",
     "static/media/main.de.mo": "/DeadCells-DatabaseInfo/static/media/main.de.aa9a96a7.mo",
     "static/media/main.en-US.mo": "/DeadCells-DatabaseInfo/static/media/main.en-US.efc81e7e.mo",
     "static/media/main.en.mo": "/DeadCells-DatabaseInfo/static/media/main.en.68081bab.mo",
@@ -25,13 +25,12 @@
     "static/media/main.ru.mo": "/DeadCells-DatabaseInfo/static/media/main.ru.8a82edfb.mo",
     "static/media/main.tr.mo": "/DeadCells-DatabaseInfo/static/media/main.tr.942de6c9.mo",
     "static/media/main.zh-tw.mo": "/DeadCells-DatabaseInfo/static/media/main.zh-tw.26fc5f10.mo",
-    "static/media/main.zh.mo": "/DeadCells-DatabaseInfo/static/media/main.zh.b9750289.mo",
-    "static/media/ui.png": "/DeadCells-DatabaseInfo/static/media/ui.3695aae6.png"
+    "static/media/main.zh.mo": "/DeadCells-DatabaseInfo/static/media/main.zh.b9750289.mo"
   },
   "entrypoints": [
     "static/js/runtime-main.13a4b7b1.js",
-    "static/js/2.66bebe56.chunk.js",
-    "static/css/main.f68f9ae5.chunk.css",
-    "static/js/main.98f5ee70.chunk.js"
+    "static/js/2.10defcc9.chunk.js",
+    "static/css/main.23afe841.chunk.css",
+    "static/js/main.884e041a.chunk.js"
   ]
 }
