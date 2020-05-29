@@ -15,6 +15,7 @@ export default {
   BOMBARDIER: enemyNames.BOMBARDIER,
 
   BAT: enemyNames.BAT,
+  DASHBAT: enemyNames.BAT,
 
   KAMIKAZE: enemyNames.KAMIKAZE,
 
@@ -34,11 +35,16 @@ export default {
 
   PURULENTZOMBIESEWER: enemyNames.PURULENT_ZOMBIE_S,
   SEWERZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
+  STILTZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
+  WORMZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
 
   PURULENTZOMBIEGRAVEYARD: enemyNames.PURULENT_ZOMBIE_G,
   GRAVEYARDZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
+  CEMETARYZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
+  FLYZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
 
   DISGUSTINGWORM: enemyNames.DISGUSTING_WORM,
+  SEWERWORM: enemyNames.DISGUSTING_WORM,
 
   SCORPION: enemyNames.SCORPION,
 
@@ -57,6 +63,8 @@ export default {
   PIRATE: enemyNames.PIRATE_CAPTAIN,
 
   KNIFETHROWER: enemyNames.KNIFE_THROWER,
+  KUNAI: enemyNames.KNIFE_THROWER,
+  KUNAITHROWER: enemyNames.KNIFE_THROWER,
 
   SLASHER: enemyNames.SLASHER,
 
@@ -109,6 +117,8 @@ export default {
   RAMPAGER: enemyNames.RAMPAGER,
 
   FAILEDEXPERIMENT: enemyNames.FAILED_EXP,
+  EXPERIMENT: enemyNames.FAILED_EXP,
+  FAILED: enemyNames.FAILED_EXP,
 
   DEFENDER: enemyNames.DEFENDER,
 

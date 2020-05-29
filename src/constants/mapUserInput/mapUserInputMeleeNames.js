@@ -12,6 +12,7 @@ export default {
   DUALDAGGERS: meleeWeaponNames.TWIN_DAGGERS,
 
   NUTCRACKER: meleeWeaponNames.NUTCRACKER,
+  NUT: meleeWeaponNames.NUTCRACKER,
   STUNMACE: meleeWeaponNames.NUTCRACKER,
 
   BLOODSWORD: meleeWeaponNames.BLOOD_SWORD,
@@ -30,6 +31,7 @@ export default {
   BACKSTABBER: meleeWeaponNames.ASSASSINS_DAGGER,
 
   FRANTICSWORD: meleeWeaponNames.FRANTIC_SWORD,
+  FRANTIC: meleeWeaponNames.FRANTIC_SWORD,
   LOWHEALTH: meleeWeaponNames.FRANTIC_SWORD,
 
   CURSEDSWORD: meleeWeaponNames.CURSED_SWORD,
@@ -38,6 +40,7 @@ export default {
   SHOVEL: meleeWeaponNames.SHOVEL,
 
   SPITESWORD: meleeWeaponNames.SPITE_SWORD,
+  SPITE: meleeWeaponNames.SPITE_SWORD,
   REVENGESWORD: meleeWeaponNames.SPITE_SWORD,
 
   VALMONTSWHIP: meleeWeaponNames.VALMONTS_WHIP,
@@ -50,6 +53,7 @@ export default {
   IMPALESPEAR: meleeWeaponNames.IMPALER,
 
   SADISTSSTILETTO: meleeWeaponNames.SADISTS_STILETTO,
+  STILETTO: meleeWeaponNames.SADISTS_STILETTO,
   BLEEDCRIT: meleeWeaponNames.SADISTS_STILETTO,
 
   WARSPEAR: meleeWeaponNames.WAR_SPEAR,
@@ -73,6 +77,7 @@ export default {
   KINGSSPEAR: meleeWeaponNames.SYMMETRICAL_LANCE,
 
   SWIFTSWORD: meleeWeaponNames.SWIFT_SWORD,
+  SWIFT: meleeWeaponNames.SWIFT_SWORD,
   SPEEDBLADE: meleeWeaponNames.SWIFT_SWORD,
 
   MEATSKEWER: meleeWeaponNames.MEAT_SKEWER,
@@ -81,6 +86,7 @@ export default {
   GIANTKILLER: meleeWeaponNames.GIANT_KILLER,
 
   SHRAPNELAXES: meleeWeaponNames.SHRAPNEL_AXES,
+  AXES: meleeWeaponNames.SHRAPNEL_AXES,
   BULLETBLADE: meleeWeaponNames.SHRAPNEL_AXES,
 
   SEISMICSTRIKE: meleeWeaponNames.SEISMIC_STRIKE,
@@ -104,14 +110,19 @@ export default {
   PARRYBLADE: meleeWeaponNames.FLASHING_FANS,
 
   LEFTSCYTHECLAW: meleeWeaponNames.LEFT_SCYTHE_CLAW,
+  LEFTSCYTHE: meleeWeaponNames.LEFT_SCYTHE_CLAW,
+  SCYTHELEFT: meleeWeaponNames.LEFT_SCYTHE_CLAW,
   TICKSCYTHELEFT: meleeWeaponNames.LEFT_SCYTHE_CLAW,
 
   RIGHTSCYTHECLAW: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
+  RIGHTSCYTHE: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
+  SCYTHERIGHT: meleeWeaponNames.LEFT_SCYTHE_CLAW,
   TICKSCYTHERIGHT: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
 
   RHYTHMNBOUZOUSKI: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
   BOUZOUSKI: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
   RYTHMICSWORD: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
+  RHYTHM: meleeWeaponNames.RHYTHM_N_BOUZOUSKI,
 
   CROWBAR: meleeWeaponNames.CROWBAR,
 };

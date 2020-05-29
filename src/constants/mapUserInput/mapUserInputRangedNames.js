@@ -8,6 +8,8 @@ export default {
 
   MULTINOCKSBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
   MULTINOCKS: rangedWeaponNames.MULTI_NOCKS_BOW,
+  MULTINOCK: rangedWeaponNames.MULTI_NOCKS_BOW,
+  NOCKS: rangedWeaponNames.MULTI_NOCKS_BOW,
   DUALBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
 
   THROWINGKNIFE: rangedWeaponNames.THROWING_KNIFE,
@@ -29,10 +31,12 @@ export default {
   MARKSMANBOW: rangedWeaponNames.MARKSMAN_BOW,
   MARKSMAN: rangedWeaponNames.MARKSMAN_BOW,
   LONGBOW: rangedWeaponNames.MARKSMAN_BOW,
+  FARBOW: rangedWeaponNames.MARKSMAN_BOW,
 
   INFANTRYBOW: rangedWeaponNames.INFANTRY_BOW,
   INFANTRY: rangedWeaponNames.INFANTRY_BOW,
   CLOSECOMBATBOW: rangedWeaponNames.INFANTRY_BOW,
+  CLOSEBOW: rangedWeaponNames.INFANTRY_BOW,
 
   QUICKBOW: rangedWeaponNames.QUICK_BOW,
   FASTBOW: rangedWeaponNames.QUICK_BOW,
@@ -91,11 +95,14 @@ export default {
   MAGICMISSLES: rangedWeaponNames.MAGIC_MISSLES,
   MM: rangedWeaponNames.MAGIC_MISSLES,
   MAGICSALVE: rangedWeaponNames.MAGIC_MISSLES,
+  MAGIC: rangedWeaponNames.MAGIC_MISSLES,
 
   HEMORRHAGE: rangedWeaponNames.HEMORRHAGE,
   BLEEDAXE: rangedWeaponNames.HEMORRHAGE,
 
   SONICCROSSBOW: rangedWeaponNames.SONIC_CROSSBOW,
+  SONICCARBINE: rangedWeaponNames.SONIC_CROSSBOW,
+  SONICREPEATER: rangedWeaponNames.SONIC_CROSSBOW,
 
   BLOWGUN: rangedWeaponNames.BLOWGUN,
 };
