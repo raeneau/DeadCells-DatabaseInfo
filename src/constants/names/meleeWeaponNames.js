@@ -183,8 +183,8 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Right Scythe Claw",
   },
-  RHYTHM_N_BOUZOUSKI: {
-    INTERNAL_ID: "RYTHMICSWORD",
+  RHYTHM_N_BOUZOUKI: {
+    INTERNAL_ID: "RHYTHMICBLADE",
     TYPE: MELEE_WEAPON,
     NAME: "Rhythm n' Bouzouki",
   },
