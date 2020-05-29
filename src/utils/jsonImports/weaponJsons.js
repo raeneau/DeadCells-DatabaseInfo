@@ -3,7 +3,7 @@ import formatJsonImport from "../formatJsonImport";
 // -----------------------------------------------------------------------------
 
 const weaponJsons = require
-  .context("../../database/weapon", true, /\.json$/)
+  .context("../../database/update18/weapon", true, /\.json$/)
   .keys();
 
 // Weapons

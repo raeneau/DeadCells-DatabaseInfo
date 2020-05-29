@@ -1,6 +1,9 @@
 import _isEmpty from "lodash.isempty";
 import _map from "lodash.map";
 
+// Constants.
+import { update18 as databasePath } from "../constants/databasePaths";
+
 // -----------------------------------------------------------------------------
 
 const getJson = ({ jsonPaths, jsonNames, type }) => {
@@ -8,11 +11,12 @@ const getJson = ({ jsonPaths, jsonNames, type }) => {
 
   _map(jsonPaths, (jsonPath, index) => {
     let currentJson = {};
+
     try {
       // Normally DON'T do this, but I'm not sure if path names change...
       // If they do, all the items' JSON names would be a nightmare to update
       // eslint-disable-next-line
-      currentJson = require(`../database/${jsonPath}`);
+      currentJson = require(`../${databasePath}/${jsonPath}`);
       returnedJsons[jsonNames[index]] = currentJson;
     } catch (e) {
       currentJson = undefined;

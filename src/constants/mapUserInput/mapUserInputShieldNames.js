@@ -2,6 +2,8 @@ import shieldNames from "../names/shieldNames";
 
 // InternalId: Object of {Type, Internal ID}
 export default {
+  OLDWOODENSHIELD: shieldNames.WOODEN_SHIELD,
+  OLDSHIELD: shieldNames.WOODEN_SHIELD,
   WOODENSHIELD: shieldNames.WOODEN_SHIELD,
   STARTSHIELD: shieldNames.WOODEN_SHIELD,
 
