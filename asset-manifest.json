@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DeadCells-DatabaseInfo/static/css/main.23afe841.chunk.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.410d3cfa.chunk.js",
-    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.410d3cfa.chunk.js.map",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.2f41d47d.chunk.js",
+    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.2f41d47d.chunk.js.map",
     "runtime-main.js": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js",
     "runtime-main.js.map": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js.map",
     "static/js/2.10defcc9.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js",
     "static/js/2.10defcc9.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js.map",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
-    "precache-manifest.56213ceaf6ba56fc8cfc453ce9bc462f.js": "/DeadCells-DatabaseInfo/precache-manifest.56213ceaf6ba56fc8cfc453ce9bc462f.js",
+    "precache-manifest.d871ab6a8e5b5fecdad980b395278271.js": "/DeadCells-DatabaseInfo/precache-manifest.d871ab6a8e5b5fecdad980b395278271.js",
     "service-worker.js": "/DeadCells-DatabaseInfo/service-worker.js",
     "static/css/main.23afe841.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.23afe841.chunk.css.map",
     "static/js/2.10defcc9.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.10defcc9.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.13a4b7b1.js",
     "static/js/2.10defcc9.chunk.js",
     "static/css/main.23afe841.chunk.css",
-    "static/js/main.410d3cfa.chunk.js"
+    "static/js/main.2f41d47d.chunk.js"
   ]
 }
