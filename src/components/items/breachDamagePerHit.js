@@ -4,7 +4,7 @@ import _get from "lodash.get";
 
 // -----------------------------------------------------------------------------
 
-function DamangeOnHit(props) {
+function BreachDamagePerHit(props) {
   const { array } = props;
 
   // If there is no data, just return nothing
@@ -18,7 +18,9 @@ function DamangeOnHit(props) {
   const damageByHitKeys = [];
 
   array.forEach((element, index) => {
-    const damage = _get(element, "power");
+    // TODO: Make this support multiple power entries? (Is that a thing?)
+    const power = _get(element, "power[0]");
+    const breachBonus = _get(element, "breachBonus", 1);
     const critMult = _get(element, "critMul", 1);
 
     damageByHit.push(
@@ -27,7 +29,11 @@ function DamangeOnHit(props) {
           <li>Hit {index + 1}</li>
         </td>
         <td>
-          {damage} ({(damage * 2 * critMult).toFixed(0)})
+          {power + power * breachBonus} (
+          {(power * 2 * critMult + power * 2 * critMult * breachBonus).toFixed(
+            0,
+          )}
+          )
         </td>
       </Fragment>,
     );
@@ -37,7 +43,7 @@ function DamangeOnHit(props) {
   return (
     <Fragment>
       <tr>
-        <td>Damage on Hit</td>
+        <td>Breach Damage on Hit</td>
         <td />
       </tr>
       {damageByHit.map((hit, index) => (
@@ -47,15 +53,15 @@ function DamangeOnHit(props) {
   );
 }
 
-DamangeOnHit.propTypes = {
+BreachDamagePerHit.propTypes = {
   // Array can be any array at all, so we can't have an arrayOf...
   array: PropTypes.array, // eslint-disable-line react/forbid-prop-types
 };
 
-DamangeOnHit.defaultProps = {
+BreachDamagePerHit.defaultProps = {
   array: undefined,
 };
 
 // -----------------------------------------------------------------------------
 
-export default DamangeOnHit;
+export default BreachDamagePerHit;

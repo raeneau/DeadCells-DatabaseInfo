@@ -17,5 +17,6 @@ export default (
     <li>Damage on Hit includes crits! (and is a bulleted list now)</li>
     <li>Fixed bulleted hit numbers (No more "Hit 0")</li>
     <li>Added Breach DPS under the Damage / Combat category!</li>
+    <li>Added Breach Damage on Hit</li>
   </div>
 );
