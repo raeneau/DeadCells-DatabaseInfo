@@ -18,5 +18,7 @@ export default (
     <li>Fixed bulleted hit numbers (No more "Hit 0")</li>
     <li>Added Breach DPS under the Damage / Combat category!</li>
     <li>Added Breach Damage on Hit</li>
+    <li>Added Grenades to search</li>
+    <li>Under-the-hood optimizations to make searching even faster</li>
   </div>
 );

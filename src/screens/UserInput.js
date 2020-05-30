@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 
+// Screens.
+import WhatsNewScreen from "./WhatsNewScreen";
+import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
+
 // Styles.
 import "./UserInput.css";
-import WhatsNewScreen from "./WhatsNewScreen";
 
 // -----------------------------------------------------------------------------
 
@@ -66,16 +69,7 @@ function UserInputScreen(props) {
       </div>
       <div className={cn.notesWrapper}>
         {!inputSubmitted && <WhatsNewScreen />}
-        <h4>Currently Searchable Categories:</h4>
-        <ul>
-          <li>Melee weapons</li>
-          <li>Ranged weapons</li>
-          <li>Shields</li>
-          <li>Enemies</li>
-        </ul>
-        <div>
-          <b>*only searchable by internal ID</b>
-        </div>
+        <CurrentlySearchableScreen />
       </div>
     </div>
   );

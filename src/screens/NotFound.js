@@ -22,9 +22,9 @@ function NotFoundScreen(props) {
           <div>Sorry! I couldn&apos;t find anything about:</div>
           <div className={cn.searchTerm}>{userSearchTerm}</div>
           <div>
-            Please make sure the resource you&apos;re trying to find is
-            available in the list at the top of the page, and that you are
-            searching with the correct term.
+            Please make sure the resource you're trying to find is part of one
+            of the categories in the list at the top of the page, and that you
+            are searching with the correct term.
           </div>
           <br />
           <div>

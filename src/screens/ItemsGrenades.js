@@ -2,7 +2,7 @@ import React from "react";
 import _get from "lodash.get";
 
 // Screens.
-import DamageScreen from "./Items/DamageScreen";
+import DamageScreen from "./ItemsGrenade/DamageScreen";
 import ItemMetaScreen from "./Items/ItemMetaScreen";
 import BlueprintScreen from "./Items/BlueprintScreen";
 

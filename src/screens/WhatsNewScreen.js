@@ -4,7 +4,7 @@ import React from "react";
 import "./WhatsNewScreen.css";
 
 // Current release notes.
-import currentNewFeatures from "../constants/whatsNew/MAY_30_2020";
+import currentNewFeatures from "./WhatsNew/MAY_30_2020";
 
 // -----------------------------------------------------------------------------
 
