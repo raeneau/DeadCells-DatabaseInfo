@@ -6,6 +6,8 @@ import BasicDisplay from "../../components/common/basicDisplay";
 import ArrayDisplay from "../../components/common/arrayDisplay";
 import BasicPercentageDisplay from "../../components/common/basicPercentageDisplay";
 import BaseDps from "../../components/items/baseDps";
+import BreachDps from "../../components/items/breachDps";
+import DamageOnHit from "../../components/items/damageOnHit";
 
 // -----------------------------------------------------------------------------
 
@@ -26,16 +28,13 @@ const DamageScreen = (props) => {
             requiredType="Shield"
             actualType={_get(itemJson, "__separator_group_Name")}
           />
-          <ArrayDisplay
-            name="Damage on Hit"
-            array={_get(weaponJson, "strikeChain")}
-            objectKey="power"
-          />
+          <DamageOnHit array={_get(weaponJson, "strikeChain")} />
           <ArrayDisplay
             name="Breach Bonus"
             array={_get(weaponJson, "strikeChain")}
             objectKey="breachBonus"
           />
+          <BreachDps array={_get(weaponJson, "strikeChain")} />
         </tbody>
       </table>
     </div>

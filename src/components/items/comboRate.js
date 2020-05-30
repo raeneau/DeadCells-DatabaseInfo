@@ -28,7 +28,7 @@ function ComboRate(props) {
     durationByHit.push(
       <Fragment>
         <td className="BulletedCell">
-          <li>Hit {index}</li>
+          <li>Hit {index + 1}</li>
         </td>
         <td>{durationForCurrentHit.toFixed(2)}</td>
       </Fragment>,

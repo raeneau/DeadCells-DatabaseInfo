@@ -10,7 +10,7 @@ export default (
     <li>Enemy locations are in-game names instead of internal IDs</li>
     <li>
       Resources with the same name will display a screen of possible matches
-      (example: &quot;shield&quot;)
+      (example: "shield")
     </li>
   </div>
 );

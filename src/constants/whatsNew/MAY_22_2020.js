@@ -10,8 +10,8 @@ export default (
     </li>
 
     <li>
-      (Exception is the combined &quot;Scythes&quot; are not available. Search
-      for left/right separately.)
+      (Exception is the combined "Scythes" are not available. Search for
+      left/right separately.)
     </li>
   </div>
 );

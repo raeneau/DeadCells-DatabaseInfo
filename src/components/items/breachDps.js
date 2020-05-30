@@ -19,13 +19,17 @@ function BaseDps(props) {
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
       const power = _get(element, "power[0]");
       const critMult = _get(element, "critMul", 1);
+      const breachBonus = _get(element, "breachBonus");
 
       return {
-        attackDamage: accumulator.attackDamage + power,
+        attackDamage: accumulator.attackDamage + (power + power * breachBonus),
         attackDuration:
           accumulator.attackDuration + (charge + cooldown + lockControlAfter),
-        // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it?
-        attackCritDamage: accumulator.attackCritDamage + power * 2 * critMult,
+        // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it
+        attackCritDamage:
+          accumulator.attackCritDamage +
+          power * 2 * critMult +
+          power * 2 * critMult * breachBonus,
       };
     },
     {
@@ -38,7 +42,7 @@ function BaseDps(props) {
 
   return (
     <tr>
-      <td>Base DPS</td>
+      <td>Breach DPS</td>
       <td>
         {Math.round(dpsObject.attackDamage / dpsObject.attackDuration)} (
         {Math.round(dpsObject.attackCritDamage / dpsObject.attackDuration)})
