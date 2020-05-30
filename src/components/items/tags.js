@@ -29,8 +29,6 @@ function Tags(props) {
     return !unwantedTags.includes(tag);
   });
 
-  console.log("SWAG", updatedTagArray);
-
   // NOW if there are no tags, return N/A also
   if (
     updatedTagArray === null ||
