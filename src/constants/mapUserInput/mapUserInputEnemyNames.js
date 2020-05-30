@@ -49,6 +49,7 @@ export default {
   SCORPION: enemyNames.SCORPION,
 
   IMPALER: enemyNames.IMPALER,
+  SPIKER: enemyNames.IMPALER,
 
   SEWERTENTACLE: enemyNames.SEWER_TTCL,
   SEWERTTCL: enemyNames.SEWER_TTCL,
