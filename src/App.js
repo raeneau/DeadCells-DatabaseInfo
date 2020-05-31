@@ -46,7 +46,8 @@ function App() {
     // TODO: MOVE THIS IS A COMMON UTIL
     const formattedUserInput = String(newValue)
       .toUpperCase()
-      .replace(/\s/g, "");
+      .replace(/\s/g, "")
+      .replace(/'/g, "");
 
     const mappedUserInput = nameMappings[formattedUserInput] || {
       INTERNAL_ID: formattedUserInput,
