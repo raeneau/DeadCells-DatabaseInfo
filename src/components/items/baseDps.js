@@ -12,6 +12,9 @@ function BaseDps(props) {
     return null;
   }
 
+  // If crit is not allowed on even a single attack, don't show crit DPS damage
+  let critAllowed = true;
+
   const dpsObject = array.reduce(
     (accumulator, element) => {
       const charge = _get(element, "charge", 0);
@@ -19,6 +22,11 @@ function BaseDps(props) {
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
       const power = _get(element, "power[0]");
       const critMult = _get(element, "critMul", 1);
+      const canCrit = _get(element, "canCrit");
+
+      if (!canCrit) {
+        critAllowed = false;
+      }
 
       return {
         attackDamage: accumulator.attackDamage + power,
@@ -36,12 +44,16 @@ function BaseDps(props) {
     },
   );
 
+  const critDamage = critAllowed
+    ? ` (${Math.round(dpsObject.attackCritDamage / dpsObject.attackDuration)})`
+    : "";
+
   return (
     <tr>
       <td>Base DPS</td>
       <td>
-        {Math.round(dpsObject.attackDamage / dpsObject.attackDuration)} (
-        {Math.round(dpsObject.attackCritDamage / dpsObject.attackDuration)})
+        {Math.round(dpsObject.attackDamage / dpsObject.attackDuration)}
+        {critDamage}
       </td>
     </tr>
   );

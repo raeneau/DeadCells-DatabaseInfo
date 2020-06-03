@@ -21,6 +21,7 @@ function DamagePerHit(props) {
     // TODO: Make this support multiple power entries? (Is that a thing?)
     const damage = _get(element, "power[0]");
     const critMult = _get(element, "critMul", 1);
+    const canCrit = _get(element, "canCrit", 1);
 
     damageByHit.push(
       <Fragment>
@@ -28,7 +29,7 @@ function DamagePerHit(props) {
           <li>Hit {index + 1}</li>
         </td>
         <td>
-          {damage} ({(damage * 2 * critMult).toFixed(0)})
+          {damage} {canCrit ? `(${(damage * 2 * critMult).toFixed(0)})` : ""}
         </td>
       </Fragment>,
     );

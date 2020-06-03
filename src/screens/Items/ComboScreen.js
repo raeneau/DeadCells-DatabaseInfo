@@ -17,10 +17,7 @@ const ComboScreen = (props) => {
       <table>
         <tbody>
           <ComboRate array={strikeChain} />
-          <AttackDuration
-            charge={_get(strikeChain, "[0].charge", null)}
-            cooldown={_get(strikeChain, "[0].coolDown", null)}
-          />
+          <AttackDuration array={strikeChain} />
           <ArrayDisplay
             name="Lock"
             array={strikeChain}

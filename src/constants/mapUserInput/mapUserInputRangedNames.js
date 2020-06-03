@@ -48,6 +48,7 @@ export default {
   CROSSBOW: rangedWeaponNames.HEAVY_CROSSBOW,
 
   REPEATERCROSSBOW: rangedWeaponNames.REPEATER_CROSSBOW,
+  REPEATER: rangedWeaponNames.REPEATER_CROSSBOW,
   MULTICROSSBOW: rangedWeaponNames.REPEATER_CROSSBOW,
 
   HOKUTOSBOW: rangedWeaponNames.HOKUTOS_BOW,

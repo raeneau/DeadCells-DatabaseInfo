@@ -22,6 +22,7 @@ function BreachDamagePerHit(props) {
     const power = _get(element, "power[0]");
     const breachBonus = _get(element, "breachBonus", 1);
     const critMult = _get(element, "critMul", 1);
+    const canCrit = _get(element, "canCrit", 1);
 
     damageByHit.push(
       <Fragment>
@@ -29,11 +30,13 @@ function BreachDamagePerHit(props) {
           <li>Hit {index + 1}</li>
         </td>
         <td>
-          {power + power * breachBonus} (
-          {(power * 2 * critMult + power * 2 * critMult * breachBonus).toFixed(
-            0,
-          )}
-          )
+          {power + power * breachBonus}
+          {canCrit
+            ? `(${(
+                power * 2 * critMult +
+                power * 2 * critMult * breachBonus
+              ).toFixed(0)})`
+            : ""}
         </td>
       </Fragment>,
     );
