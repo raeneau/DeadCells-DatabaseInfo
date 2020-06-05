@@ -7,9 +7,6 @@ import ItemMetaScreen from "./Items/ItemMetaScreen";
 import ComboScreen from "./Items/ComboScreen";
 import BlueprintScreen from "./Items/BlueprintScreen";
 
-// Styles.
-import "./Items.css";
-
 // -----------------------------------------------------------------------------
 
 function Items(props) {

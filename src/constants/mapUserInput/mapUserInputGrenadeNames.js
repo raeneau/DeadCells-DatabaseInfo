@@ -31,6 +31,8 @@ export default {
   OILBOMB: grenadeNames.OIL_GRENADE,
 
   SWARM: grenadeNames.SWARM,
+  SIDEBOMB: grenadeNames.SWARM,
 
   HUNTERSGRENADE: grenadeNames.HUNTERS_GRENADE,
+  POKEBOMB: grenadeNames.HUNTERS_GRENADE,
 };

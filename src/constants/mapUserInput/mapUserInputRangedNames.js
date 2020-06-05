@@ -69,7 +69,6 @@ export default {
   ALCHEMICGUN: rangedWeaponNames.ALCHEMIC_CARBINE,
   POISONGUN: rangedWeaponNames.ALCHEMIC_CARBINE,
   ALCHEMIC: rangedWeaponNames.ALCHEMIC_CARBINE,
-  CARBINE: rangedWeaponNames.ALCHEMIC_CARBINE,
 
   LIGHTNINGBOLT: rangedWeaponNames.LIGHTNING_BOLT,
   LIGHTNING: rangedWeaponNames.LIGHTNING_BOLT,

@@ -160,4 +160,5 @@ export default {
   MUMMY: enemyNames.FAT_ZOMBIE,
 
   DUELIST: enemyNames.DUELIST,
+  DANCER: enemyNames.DUELIST,
 };

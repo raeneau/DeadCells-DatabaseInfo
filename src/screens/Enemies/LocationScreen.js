@@ -1,5 +1,6 @@
 import React from "react";
 
+// Local modules.
 import enemyLocation from "../../utils/enemyLocation";
 
 // -----------------------------------------------------------------------------
@@ -9,12 +10,12 @@ import enemyLocation from "../../utils/enemyLocation";
 // TODO: Move to formatting folder?
 const formatDifficulty = ({ min, max }) => {
   if (min === max) {
-    return `${min} BSC`;
+    return `${min} BC`;
   }
   if (max === 5 || max === undefined) {
-    return `${min} BSC+`;
+    return `${min} BC+`;
   }
-  return `${min}-${max} BSC`;
+  return `${min}-${max} BC`;
 };
 
 const LocaationScreen = (props) => {

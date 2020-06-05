@@ -8,9 +8,7 @@ import BasicTimeDisplay from "../../components/common/basicTimeDisplay";
 // -----------------------------------------------------------------------------
 
 const DamageScreen = (props) => {
-  const { itemJson, weaponJson } = props;
-
-  console.log("item json", itemJson);
+  const { itemJson } = props;
 
   return (
     <div>

@@ -1,9 +1,8 @@
 import React from "react";
 
-// <h4>May 28th 2020</h4>
-
 export default (
   <div>
+    <h4>May 28th 2020</h4>
     <li>
       Added framework for switching between multiple databases (in preparation
       for update 19!)

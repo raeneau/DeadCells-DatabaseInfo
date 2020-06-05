@@ -1,9 +1,8 @@
 import React from "react";
 
-// <h4>May 22th 2020</h4>
-
 export default (
   <div>
+    <h4>May 22th 2020</h4>
     <li>
       <b>Melee Weapons</b> and <b>Ranged Weapons</b> now searchable by name (and
       by nickname!)

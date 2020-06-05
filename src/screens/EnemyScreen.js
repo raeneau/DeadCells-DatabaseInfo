@@ -2,10 +2,9 @@ import React from "react";
 
 // Screens.
 import LocationScreen from "./Enemies/LocationScreen";
+import DropsScreen from "./Enemies/DropsScreen";
 
 // -----------------------------------------------------------------------------
-
-// const cnBase = "ItemProperties";
 
 const EnemiesScreen = (props) => {
   const { userInput } = props;
@@ -13,6 +12,7 @@ const EnemiesScreen = (props) => {
   return (
     <div className="DisplayCard">
       <LocationScreen userInput={userInput} />
+      <DropsScreen userInput={userInput} />
     </div>
   );
 };

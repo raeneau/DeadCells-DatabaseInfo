@@ -7,9 +7,12 @@ import UserInputScreen from "./screens/UserInput";
 import WeaponsScreen from "./screens/ItemsWeapons";
 import EnemyScreen from "./screens/EnemyScreen";
 import GrenadesScreen from "./screens/ItemsGrenades";
+import NotFoundScreen from "./screens/NotFound";
+import NameConflictScreen from "./screens/NameConflictScreen";
 
 // Local modules.
 import getViableJsons from "./utils/getAllViableJsons";
+import formatInput from "./utils/formatInput";
 
 // Constants.
 import nameMappings from "./constants/mapUserInput";
@@ -17,8 +20,6 @@ import inputTypes from "./constants/inputTypes";
 
 // Styles.
 import "./App.css";
-import NotFoundScreen from "./screens/NotFound";
-import NameConflictScreen from "./screens/NameConflictScreen";
 
 // -----------------------------------------------------------------------------
 
@@ -42,12 +43,8 @@ function App() {
   const handleChange = (newValue) => {
     // Format user input to be all uppercase with no spaces, to match the
     // file import object keys
-    // TODO: ACTUALLY format this and return an object with {INTERNAL_ID, TYPE}
     // TODO: MOVE THIS IS A COMMON UTIL
-    const formattedUserInput = String(newValue)
-      .toUpperCase()
-      .replace(/\s/g, "")
-      .replace(/'/g, "");
+    const formattedUserInput = formatInput(newValue);
 
     const mappedUserInput = nameMappings[formattedUserInput] || {
       INTERNAL_ID: formattedUserInput,
