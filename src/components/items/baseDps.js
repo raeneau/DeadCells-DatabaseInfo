@@ -59,9 +59,6 @@ function BaseDps(props) {
   );
 }
 
-// (sum of all powers) / (sum of all charge + cooldown + lockCtrlAfter) ROUNDED UP
-// 310
-
 // -----------------------------------------------------------------------------
 
 export default BaseDps;

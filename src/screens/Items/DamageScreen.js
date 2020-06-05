@@ -9,6 +9,7 @@ import BaseDps from "../../components/items/baseDps";
 import BreachDps from "../../components/items/breachDps";
 import DamagePerHit from "../../components/items/damagePerHit";
 import BreachDamagePerHit from "../../components/items/breachDamagePerHit";
+import WeaponEffectDuration from "../../components/items/weaponEffectDuration";
 
 // -----------------------------------------------------------------------------
 
@@ -30,6 +31,11 @@ const DamageScreen = (props) => {
             actualType={_get(itemJson, "__separator_group_Name")}
           />
           <DamagePerHit array={_get(weaponJson, "strikeChain")} />
+          <WeaponEffectDuration
+            name="AOE Duration"
+            array={_get(weaponJson, "strikeChain")}
+            objectKey="props"
+          />
           <ArrayDisplay
             name="Breach Bonus"
             array={_get(weaponJson, "strikeChain")}

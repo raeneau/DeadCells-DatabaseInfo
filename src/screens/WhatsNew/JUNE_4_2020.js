@@ -6,5 +6,6 @@ export default (
   <div>
     <li>Added blueprint drop rates to enemies</li>
     <li>Added "Dancer" as a search term</li>
+    <li>Added weapon effect duration and weapon AOE duration</li>
   </div>
 );
