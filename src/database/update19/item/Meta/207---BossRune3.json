@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Modifie la difficulté du jeu et débloque de nouvelles options.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "BossRune3",
+  "icon": {
+    "x": 14,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Cellule Souche III",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "BossRune"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 207
+}

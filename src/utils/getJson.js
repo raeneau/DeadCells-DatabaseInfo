@@ -13,7 +13,7 @@ const getJson = ({ jsonPaths, jsonNames, type }) => {
       // Normally DON'T do this, but I'm not sure if path names change...
       // If they do, all the items' JSON names would be a nightmare to update
       // eslint-disable-next-line
-      currentJson = require(`../database/update18/${jsonPath}`);
+      currentJson = require(`../database/update19/${jsonPath}`);
       returnedJsons[jsonNames[index]] = currentJson;
     } catch (e) {
       currentJson = undefined;

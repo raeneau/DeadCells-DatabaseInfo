@@ -1,0 +1,25 @@
+{
+  "props": {
+    "power": 1000,
+    "revealedAtStart": true,
+    "reqItem": "Money1"
+  },
+  "gameplayDesc": "Conserve jusqu'à ::power:: {iconCoin@img} à votre mort.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "Money2",
+  "icon": {
+    "x": 5,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Sauvetage de l'or II",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 35,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 190
+}

@@ -1,0 +1,97 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.4
+  },
+  "genTags": 0,
+  "glowOuterColor": 349699,
+  "pfCost": 2,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": true,
+  "index": 65,
+  "volteDelay": 1,
+  "id": "FatZombie",
+  "weight": 10,
+  "icon": {
+    "x": 39,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "Gros Zombie",
+  "glowInnerColor": 2737543,
+  "minPfSize": 13,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 4,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "chargeAnim": "atkA",
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 0.3,
+        "bump": 1,
+        "height": 6,
+        "distance": 9,
+        "duration": 0.4
+      },
+      "allowInAir": true,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_fatzmb_charge.wav",
+      "charge": 0.35,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkAStomp",
+      "id": "jump",
+      "sfxRelease": "sfx/enm_fatzmb_release.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_fatzmb_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkB",
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "props": {
+        "bump": 0.8,
+        "height": 4
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_fatzmb_charge2.wav",
+      "charge": 0.6,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "rollUp",
+      "sfxRelease": "sfx/enm_fatzmb_release2.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 65
+}

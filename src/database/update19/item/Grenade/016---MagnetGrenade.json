@@ -1,0 +1,45 @@
+{
+  "props": {
+    "range": 9,
+    "coolDown": 0.6,
+    "dps": [
+      12
+    ],
+    "dps2": [
+      5
+    ],
+    "effectCD": 0.2,
+    "duration": 5.5
+  },
+  "gameplayDesc": "Attire tout ce qui est proche. Inflige {choc@EL} (::+dps2:: DPS en zone pendant ::*ShockAffectDuration:: sec).",
+  "moneyCost": 1800,
+  "group": 1,
+  "castCD": 16,
+  "id": "MagnetGrenade",
+  "icon": {
+    "x": 7,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Grenade magnétique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Electric"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 40,
+  "legendAffix": "AmmoRetrieval",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 16
+}

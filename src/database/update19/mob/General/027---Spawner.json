@@ -1,0 +1,46 @@
+{
+  "props": {
+    "noContactAttack": true,
+    "movePauseMul": 9999,
+    "moveSpeedMul": 0,
+    "actionCost": 50,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 32,
+  "pfCost": 1.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Burner",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "index": 27,
+  "id": "Spawner",
+  "weight": 20,
+  "icon": {
+    "x": 45,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    1000
+  ],
+  "name": "Crache-mort",
+  "minPfSize": 11,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 12,
+  "flesh1": 16152855,
+  "flesh2": 9336625,
+  "skill": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 27
+}

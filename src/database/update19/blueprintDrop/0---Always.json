@@ -1,0 +1,14 @@
+{
+  "chance": 1,
+  "id": "Always",
+  "icon": {
+    "x": 11,
+    "y": 72,
+    "file": "placeholderIcons.png",
+    "size": 16
+  },
+  "color": 13432575,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 0
+}

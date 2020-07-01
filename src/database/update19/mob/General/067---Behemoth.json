@@ -1,0 +1,187 @@
+{
+  "props": {
+    "combatMusic": "music/Bridge.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "movePauseMul": 0.5,
+    "climbEndDist": 4,
+    "cellLoot": 12,
+    "bumpResistance": 0.9
+  },
+  "genTags": 4,
+  "glowOuterColor": 13243412,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "BehemothHammer",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "BehemothDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "CrossBow",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "ImpaleSpear",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_ManyMobsAround",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Curse",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Behemoth1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Behemoth2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Behemoth3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Behemoth4",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 67,
+  "id": "Behemoth",
+  "weight": 200,
+  "icon": {
+    "x": 47,
+    "y": 23,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    4000
+  ],
+  "name": "Le Concierge",
+  "glowInnerColor": 16754944,
+  "minPfSize": 0,
+  "metaItems": [
+    {
+      "item": "ScoringKey",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerPlatform": 0,
+  "score": 20,
+  "flesh1": 9418700,
+  "flesh2": 16754944,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": [
+        14
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_behemoth_cc_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm_behemoth_cc_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3.5,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 99
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_behemoth_shockw_charge.wav",
+      "charge": 0.6,
+      "manual": false,
+      "id": "shockWave",
+      "sfxRelease": "sfx/enm_behemoth_shockw_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_behemoth_jump_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "jump",
+      "sfxRelease": "sfx/jump.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 10,
+      "props": {
+        "distance": 3,
+        "duration": 3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_behemoth_auracharge.wav",
+      "charge": 1,
+      "manual": false,
+      "id": "blazeArmor",
+      "sfxRelease": "sfx/enm_behemoth_shout.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 67
+}

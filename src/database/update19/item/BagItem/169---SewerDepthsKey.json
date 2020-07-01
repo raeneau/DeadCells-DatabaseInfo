@@ -1,0 +1,27 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Elle sent très mauvais.",
+  "moneyCost": 0,
+  "group": 8,
+  "castCD": 0,
+  "id": "SewerDepthsKey",
+  "icon": {
+    "x": 22,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Vieille clé de service",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "Key"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 169
+}

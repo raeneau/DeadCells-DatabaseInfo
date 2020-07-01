@@ -1,0 +1,81 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "OilSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        53
+      ],
+      "fxProps": {
+        "fxInnerColor": 2169918,
+        "fxStartFrame": 7,
+        "fxOuterColor": 8676538
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "color": 12423167,
+        "duration": 20
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.25,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "fxId": "fxSaberA",
+      "animId": "atkSaberA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 9,
+      "critMul": 0.75,
+      "glowColor": 2693711
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        53
+      ],
+      "fxProps": {
+        "fxInnerColor": 2169918,
+        "fxOuterColor": 8676538
+      },
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "color": 12423167,
+        "duration": 20
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.16,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_dualdg_release2.wav",
+      "fxId": "fxSaberB",
+      "animId": "atkSaberB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 8,
+      "critMul": 0.75,
+      "glowColor": 2693711
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 5
+}
