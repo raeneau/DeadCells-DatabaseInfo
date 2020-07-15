@@ -63,10 +63,20 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Heavy Crossbow",
   },
+  HEAVY_CROSSBOW_OFFHAND: {
+    INTERNAL_ID: "CROSSBOWOFFHAND",
+    TYPE: RANGED_WEAPON,
+    NAME: "Heavy Crossbow (Offhand)",
+  },
   REPEATER_CROSSBOW: {
     INTERNAL_ID: "MULTICROSSBOW",
     TYPE: RANGED_WEAPON,
     NAME: "Repeater Crossbow",
+  },
+  REPEATER_CROSSBOW_OFFHAND: {
+    INTERNAL_ID: "MULTICROSSBOWOFFHAND",
+    TYPE: RANGED_WEAPON,
+    NAME: "Repeater Crossbow (Offhand)",
   },
   HOKUTOS_BOW: {
     INTERNAL_ID: "MARKBOW",
@@ -78,10 +88,20 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Ice Crossbow",
   },
+  ICE_CROSSBOW_OFFHAND: {
+    INTERNAL_ID: "FROSTCROSSBOWOFFHAND",
+    TYPE: RANGED_WEAPON,
+    NAME: "Ice Crossbow (Offhand)",
+  },
   EXPLOSIVE_CROSSBOW: {
     INTERNAL_ID: "EXPLOSIVECROSSBOW",
     TYPE: RANGED_WEAPON,
     NAME: "Explosive Crossbow",
+  },
+  EXPLOSIVE_CROSSBOW_OFFHAND: {
+    INTERNAL_ID: "EXPLOSIVECROSSBOWOFFHAND",
+    TYPE: RANGED_WEAPON,
+    NAME: "Explosive Crossbow (Offhand)",
   },
   NERVES_OF_STEEL: {
     INTERNAL_ID: "PRECISEBOW",
@@ -141,7 +161,7 @@ export default {
   SONIC_CROSSBOW: {
     INTERNAL_ID: "SONICCROSSBOW",
     TYPE: RANGED_WEAPON,
-    NAME: "Sonic Crossbow",
+    NAME: "Sonic Carbine",
   },
   BLOWGUN: {
     INTERNAL_ID: "BLOWGUN",

@@ -8,11 +8,9 @@ function NotFoundScreen() {
       <h4>Currently Searchable Categories:</h4>
       <ul>
         <li>Melee weapons</li>
-        <li>Ranged weapons</li>
+        <li>Ranged weapons (WIP - DPS is not accurate)</li>
         <li>Shields</li>
-        <li>
-          Grenades <b>(NEW!)</b>
-        </li>
+        <li>Grenades</li>
         <li>Enemies</li>
       </ul>
       <div>
