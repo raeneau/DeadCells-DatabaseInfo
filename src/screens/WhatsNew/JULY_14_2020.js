@@ -16,5 +16,9 @@ export default (
       Changed location for enemies so if an enemy is missing from a difficulty
       in the middle, the location will display as two ranges (Ex: 0-1BC & 3-5BC)
     </li>
+    <li>
+      Hee hee hoo hoo stopped the difficulty locations from being wacky if there
+      are 2 entries of the exact same BC range
+    </li>
   </div>
 );

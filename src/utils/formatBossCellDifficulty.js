@@ -13,7 +13,9 @@ const formatDifficulty = ({ minDifficultyObject, maxDifficultyObject }) => {
   // or is it 0-1 and 3-4, and should stay that way?
   if (
     Number(minDifficultyObject.maxDifficulty + 1) !==
-    Number(maxDifficultyObject.minDifficulty)
+      Number(maxDifficultyObject.minDifficulty) &&
+    Number(min) !== Number(maxDifficultyObject.minDifficulty) &&
+    Number(max) !== Number(minDifficultyObject.maxDifficulty)
   ) {
     return `${min}-${minDifficultyObject.maxDifficulty} BC & 
     ${maxDifficultyObject.minDifficulty}-${max} BC`;
