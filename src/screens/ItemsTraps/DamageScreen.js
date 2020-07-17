@@ -25,10 +25,18 @@ const DamageScreen = (props) => {
               _get(itemJson, "props.dps[0]") || _get(itemJson, "props.dps")
             }
           />
+          <BasicDisplay
+            name="Damage over Time DPS"
+            value={_get(itemJson, "props.dotDps")}
+          />
+          <BasicDisplay
+            name="Trap Health (will break at 0 health)"
+            value={_get(itemJson, "props.life")}
+          />
           <BasicTimeDisplay name="Recharge" value={_get(itemJson, "castCD")} />
           <BasicTimeDisplay
-            name="Duration of Effect"
-            value={_get(itemJson, "props.duration")}
+            name="Time between shots"
+            value={_get(itemJson, "props.effectCD")}
           />
           <BasicTimeDisplay
             name="AOE Duration"
