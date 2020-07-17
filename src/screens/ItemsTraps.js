@@ -2,13 +2,13 @@ import React from "react";
 import _get from "lodash.get";
 
 // Screens.
-import DamageScreen from "./ItemsGrenade/DamageScreen";
+import DamageScreen from "./ItemsTraps/DamageScreen";
 import ItemMetaScreen from "./Items/ItemMetaScreen";
 import BlueprintScreen from "./Items/BlueprintScreen";
 
 // -----------------------------------------------------------------------------
 
-function ItemsGrenades(props) {
+function ItemsTraps(props) {
   const { itemJson } = props.userInput;
 
   return (
@@ -22,4 +22,4 @@ function ItemsGrenades(props) {
 
 // -----------------------------------------------------------------------------
 
-export default ItemsGrenades;
+export default ItemsTraps;

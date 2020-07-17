@@ -5,6 +5,7 @@ import itemRangedJsons from "./jsonImports/itemRangedJsons";
 import itemShieldJsons from "./jsonImports/itemShieldJsons";
 import enemyJsons from "./jsonImports/enemyJsons";
 import itemGrenadeJsons from "./jsonImports/itemGrenadeJsons";
+import itemTrapJsons from "./jsonImports/itemTrapJsons";
 
 // Local modules.
 import getJson from "./getJson";
@@ -15,7 +16,14 @@ import inputTypes from "../constants/inputTypes";
 // -----------------------------------------------------------------------------
 
 // Extract constants.
-const { MELEE_WEAPON, RANGED_WEAPON, SHIELD, ENEMY, GRENADE } = inputTypes;
+const {
+  MELEE_WEAPON,
+  RANGED_WEAPON,
+  SHIELD,
+  ENEMY,
+  GRENADE,
+  TRAP,
+} = inputTypes;
 
 // -----------------------------------------------------------------------------
 const mapUserInput = (userInput) => {
@@ -83,6 +91,17 @@ const mapUserInput = (userInput) => {
         jsonPaths: [`item/Grenade${itemGrenadeJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         type: "Grenade",
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // Traps (Skill)
+    // -------------------------------------------------------------------------
+    case TRAP: {
+      return getJson({
+        jsonPaths: [`item/DeployedTrap${itemTrapJsons[INTERNAL_ID]}`],
+        jsonNames: ["itemJson"],
+        type: "Trap",
       });
     }
 

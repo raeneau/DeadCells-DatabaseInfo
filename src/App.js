@@ -7,6 +7,7 @@ import UserInputScreen from "./screens/UserInput";
 import WeaponsScreen from "./screens/ItemsWeapons";
 import EnemyScreen from "./screens/EnemyScreen";
 import GrenadesScreen from "./screens/ItemsGrenades";
+import TrapScreen from "./screens/ItemsTraps";
 import NotFoundScreen from "./screens/NotFound";
 import NameConflictScreen from "./screens/NameConflictScreen";
 
@@ -24,7 +25,14 @@ import "./App.css";
 // -----------------------------------------------------------------------------
 
 // Extract constants.
-const { MELEE_WEAPON, RANGED_WEAPON, SHIELD, ENEMY, GRENADE } = inputTypes;
+const {
+  MELEE_WEAPON,
+  RANGED_WEAPON,
+  SHIELD,
+  ENEMY,
+  GRENADE,
+  TRAP,
+} = inputTypes;
 
 // -----------------------------------------------------------------------------
 
@@ -84,6 +92,7 @@ function App() {
         resourceType === SHIELD) && <WeaponsScreen userInput={jsonArrays} />}
       {resourceType === ENEMY && <EnemyScreen userInput={jsonArrays} />}
       {resourceType === GRENADE && <GrenadesScreen userInput={jsonArrays} />}
+      {resourceType === TRAP && <TrapScreen userInput={jsonArrays} />}
       {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
         <NotFoundScreen userSearchTerm={searchTerm} />
       )}

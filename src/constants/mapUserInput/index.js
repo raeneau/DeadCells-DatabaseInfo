@@ -3,6 +3,7 @@ import mapUserInputShieldNames from "./mapUserInputShieldNames";
 import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
 import mapUserInputRangedNames from "./mapUserInputRangedNames";
 import mapUserInputGrenadeNames from "./mapUserInputGrenadeNames";
+import mapUserInputTrapNames from "./mapUserInputTrapNames";
 import mapNameConflicts from "./mapNameConflicts";
 
 /**
@@ -23,5 +24,6 @@ export default {
   ...mapUserInputMeleeNames,
   ...mapUserInputRangedNames,
   ...mapUserInputGrenadeNames,
+  ...mapUserInputTrapNames,
   ...mapNameConflicts,
 };
