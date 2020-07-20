@@ -7,12 +7,14 @@ export default {
   BEGINNERSBOW: rangedWeaponNames.START_BOW,
 
   MULTINOCKSBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
+  MULTIPLENOCKSBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
   MULTINOCKS: rangedWeaponNames.MULTI_NOCKS_BOW,
   MULTINOCK: rangedWeaponNames.MULTI_NOCKS_BOW,
   NOCKS: rangedWeaponNames.MULTI_NOCKS_BOW,
   DUALBOW: rangedWeaponNames.MULTI_NOCKS_BOW,
 
   THROWINGKNIFE: rangedWeaponNames.THROWING_KNIFE,
+  THROWINGKNIVES: rangedWeaponNames.THROWING_KNIFE,
 
   ELECTRICWHIP: rangedWeaponNames.ELECTRIC_WHIP,
   EWHIP: rangedWeaponNames.ELECTRIC_WHIP,
@@ -86,11 +88,13 @@ export default {
 
   PYROTECHNICS: rangedWeaponNames.PYROTECHNICS,
   FIREBALL: rangedWeaponNames.PYROTECHNICS,
+  PYRO: rangedWeaponNames.PYROTECHNICS,
 
   BOOMERANG: rangedWeaponNames.BOOMERANG,
 
   BOYSAXE: rangedWeaponNames.BOYS_AXE,
   GODAXE: rangedWeaponNames.BOYS_AXE,
+  THEBOYSAXE: rangedWeaponNames.BOYS_AXE,
 
   WARJAVELIN: rangedWeaponNames.JAVELIN,
   JAVELIN: rangedWeaponNames.JAVELIN,

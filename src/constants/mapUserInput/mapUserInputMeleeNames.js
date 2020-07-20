@@ -44,6 +44,9 @@ export default {
   REVENGESWORD: meleeWeaponNames.SPITE_SWORD,
 
   VALMONTSWHIP: meleeWeaponNames.VALMONTS_WHIP,
+  VALMONTWHIP: meleeWeaponNames.VALMONTS_WHIP,
+  VALMONT: meleeWeaponNames.VALMONTS_WHIP,
+  VALMONTS: meleeWeaponNames.VALMONTS_WHIP,
   WHIP: meleeWeaponNames.VALMONTS_WHIP,
 
   WRENCHINGWHIP: meleeWeaponNames.WRENCHING_WHIP,
@@ -109,7 +112,11 @@ export default {
   FANS: meleeWeaponNames.FLASHING_FANS,
   PARRYBLADE: meleeWeaponNames.FLASHING_FANS,
 
+  SCYTHECLAW: meleeWeaponNames.LEFT_SCYTHE_CLAW,
+  SCYTHECLAWS: meleeWeaponNames.LEFT_SCYTHE_CLAW,
+
   LEFTSCYTHECLAW: meleeWeaponNames.LEFT_SCYTHE_CLAW,
+  LEFTSCYTHECLAWS: meleeWeaponNames.LEFT_SCYTHE_CLAW,
   LEFTTICKCLAW: meleeWeaponNames.LEFT_SCYTHE_CLAW,
   LEFTTICKSCYTHE: meleeWeaponNames.LEFT_SCYTHE_CLAW,
   LEFTSCYTHE: meleeWeaponNames.LEFT_SCYTHE_CLAW,
@@ -117,6 +124,7 @@ export default {
   TICKSCYTHELEFT: meleeWeaponNames.LEFT_SCYTHE_CLAW,
 
   RIGHTSCYTHECLAW: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
+  RIGHTSCYTHECLAWS: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
   RIGHTTICKCLAW: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
   RIGHTTICKSCYTHE: meleeWeaponNames.RIGHT_SCYTHE_CLAW,
   RIGHTSCYTHE: meleeWeaponNames.RIGHT_SCYTHE_CLAW,

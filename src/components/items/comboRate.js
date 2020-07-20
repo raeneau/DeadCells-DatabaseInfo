@@ -20,7 +20,7 @@ function ComboRate(props) {
 
   const comboRate = array.reduce((accumulator, element, index) => {
     const charge = _get(element, "charge", 0);
-    const cooldown = _get(element, "cooldown", 0);
+    const cooldown = _get(element, "coolDown", 0);
     const lockControlAfter = _get(element, "lockCtrlAfter", 0);
 
     const durationForCurrentHit = charge + cooldown + lockControlAfter;

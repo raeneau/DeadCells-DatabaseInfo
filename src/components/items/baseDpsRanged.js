@@ -28,14 +28,17 @@ function BaseDps(props) {
         critAllowed = false;
       }
 
-      console.log(
-        "?????",
-        accumulator.attackDuration + (charge + lockControlAfter + cooldown),
-      );
+      // console.log(
+      //   "CALCULATING WITHOUT COOLDOWN",
+      //   Math.max(cooldown, lockControlAfter),
+      // );
+
       return {
         attackDamage: accumulator.attackDamage + power,
         attackDuration:
-          accumulator.attackDuration + (charge + lockControlAfter + cooldown),
+          // TODO: LOCK CONTROL AFTER IS ONLY _SOMETIMES_ USED
+          accumulator.attackDuration +
+          (charge + Math.max(cooldown, lockControlAfter)),
         // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it?
         attackCritDamage: accumulator.attackCritDamage + power * 2 * critMult,
       };

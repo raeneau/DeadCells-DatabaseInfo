@@ -22,7 +22,6 @@ const DamageScreen = (props) => {
       <h3 className="SubHeader">Damage / Combat</h3>
       <table>
         <tbody>
-          <BaseDps array={_get(weaponJson, "strikeChain")} />
           <BasicDisplay
             name="Secondary Property Damage"
             value={

@@ -5,6 +5,8 @@ import _isEmpty from "lodash.isempty";
 // Screens.
 import UserInputScreen from "./screens/UserInput";
 import WeaponsScreen from "./screens/ItemsWeapons";
+import RangedWeaponsScreen from "./screens/ItemsRanged";
+import ShieldsScreen from "./screens/ItemsShields";
 import EnemyScreen from "./screens/EnemyScreen";
 import GrenadesScreen from "./screens/ItemsGrenades";
 import TrapScreen from "./screens/ItemsTraps";
@@ -87,9 +89,13 @@ function App() {
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
-      {(resourceType === MELEE_WEAPON ||
-        resourceType === RANGED_WEAPON ||
-        resourceType === SHIELD) && <WeaponsScreen userInput={jsonArrays} />}
+      {resourceType === MELEE_WEAPON && (
+        <WeaponsScreen userInput={jsonArrays} />
+      )}
+      {resourceType === RANGED_WEAPON && (
+        <RangedWeaponsScreen userInput={jsonArrays} />
+      )}
+      {resourceType === SHIELD && <ShieldsScreen userInput={jsonArrays} />}
       {resourceType === ENEMY && <EnemyScreen userInput={jsonArrays} />}
       {resourceType === GRENADE && <GrenadesScreen userInput={jsonArrays} />}
       {resourceType === TRAP && <TrapScreen userInput={jsonArrays} />}

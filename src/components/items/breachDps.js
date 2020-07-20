@@ -15,7 +15,7 @@ function BaseDps(props) {
   const dpsObject = array.reduce(
     (accumulator, element) => {
       const charge = _get(element, "charge", 0);
-      const cooldown = _get(element, "cooldown", 0);
+      const cooldown = _get(element, "coolDown", 0);
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
       const power = _get(element, "power[0]");
       const critMult = _get(element, "critMul", 1);
