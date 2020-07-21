@@ -3,12 +3,15 @@ import trapNames from "../names/trapNames";
 // InternalId: Object of {Type, Internal ID}
 export default {
   SINEWSLICER: trapNames.SINEW_SLICER,
+  STANDARDTURRET: trapNames.SINEW_SLICER,
 
   WOLFTRAP: trapNames.WOLF_TRAP,
   BEARTRAP: trapNames.WOLF_TRAP,
   ROOTTRAP: trapNames.WOLF_TRAP,
 
   CROSSBOMATIC: trapNames.CROSSBOMATIC,
+  DOUBLECROSSBOMATIC: trapNames.CROSSBOMATIC,
+  HORIZONTALTURRET: trapNames.CROSSBOMATIC,
 
   HEAVYTURRET: trapNames.HEAVY_TURRET,
 
