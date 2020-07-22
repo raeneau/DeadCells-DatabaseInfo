@@ -91,6 +91,7 @@ export default {
   PYRO: rangedWeaponNames.PYROTECHNICS,
 
   BOOMERANG: rangedWeaponNames.BOOMERANG,
+  BOOMER: rangedWeaponNames.BOOMERANG,
 
   BOYSAXE: rangedWeaponNames.BOYS_AXE,
   GODAXE: rangedWeaponNames.BOYS_AXE,

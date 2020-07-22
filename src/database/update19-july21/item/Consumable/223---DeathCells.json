@@ -1,0 +1,23 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Ce sac contient les cellules restantes après votre combat contre la Main du Roi. Elles seront perdues si vous ne les ramassez pas.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "DeathCells",
+  "icon": {
+    "x": 5,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Cellules résiduelles",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 223
+}

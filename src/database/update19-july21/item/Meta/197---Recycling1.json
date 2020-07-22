@@ -1,0 +1,25 @@
+{
+  "props": {
+    "revealedAtStart": true,
+    "reqItem": "Flask1",
+    "prct": 0.07
+  },
+  "gameplayDesc": "Transforme en or les objets trouvés par terre ou dans des coffres.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "Recycling1",
+  "icon": {
+    "x": 2,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Recyclage I",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 25,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 197
+}

@@ -16,7 +16,11 @@ function Items(props) {
   return (
     <div className="DisplayCard">
       <ItemMetaScreen itemJson={itemJson} itemName={_get(weaponJson, "item")} />
-      <DamageScreen itemJson={itemJson} weaponJson={weaponJson} />
+      <DamageScreen
+        itemJson={itemJson}
+        weaponJson={weaponJson}
+        internalWeaponId={_get(props, "internalWeaponId")}
+      />
       <ComboScreen strikeChain={_get(weaponJson, "strikeChain")} />
       <BlueprintScreen cellCost={_get(itemJson, "cellCost")} />
     </div>

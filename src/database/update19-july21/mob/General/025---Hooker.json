@@ -1,0 +1,120 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.7
+  },
+  "genTags": 0,
+  "glowOuterColor": 4065964,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "Hook",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "BumpShield",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerSylvanian",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 3,
+  "group": 0,
+  "canBeElite": true,
+  "index": 25,
+  "volteDelay": 0.3,
+  "id": "Hooker",
+  "weight": 10,
+  "icon": {
+    "x": 61,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    220
+  ],
+  "name": "Attrapeur",
+  "glowInnerColor": 8239871,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 6,
+  "flesh1": 13418155,
+  "flesh2": 9985867,
+  "skill": [
+    {
+      "coolDown": 1.1,
+      "power": [
+        10
+      ],
+      "props": {
+        "bump": 1.7,
+        "duration": 0.2
+      },
+      "allowInAir": false,
+      "radius": 1.7,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_hook_charge.wav",
+      "charge": 0.45,
+      "manual": false,
+      "id": "kick",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "hitFrame": 3,
+      "breachResistance": 0.7,
+      "lockAiAfter": 0.7,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1.3,
+      "power": 1,
+      "props": {
+        "distance": 12,
+        "duration": 0.9
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_hook_shotcharge.wav",
+      "charge": 0.55,
+      "manual": false,
+      "id": "hook",
+      "sfxRelease": "sfx/enm_comboter_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.6,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.7,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_hook_heavycharge.wav",
+      "charge": 0.6,
+      "manual": true,
+      "id": "heavy",
+      "sfxRelease": "sfx/enm_hook_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.85,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 25
+}

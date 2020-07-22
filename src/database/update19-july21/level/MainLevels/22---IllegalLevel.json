@@ -1,0 +1,51 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 10951708,
+    "viewerColor": 16711680,
+    "musicLoop": "music/Cemetery.ogg",
+    "viewerY": 3,
+    "chromaColor": 10951708
+  },
+  "lootFlags": 0,
+  "biome": "Cemetery",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 22,
+  "id": "IllegalLevel",
+  "flags": 1048640,
+  "worldDepth": 5,
+  "icon": {
+    "x": 68,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "LeapingDuelyst",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "packSize": 2,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Repos des architectes",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 0,
+  "tripleUps": 0,
+  "baseLootLevel": 0,
+  "loreDescriptions": [],
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 22
+}

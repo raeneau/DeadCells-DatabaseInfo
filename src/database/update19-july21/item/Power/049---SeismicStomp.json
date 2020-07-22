@@ -1,0 +1,46 @@
+{
+  "props": {
+    "speed": 2,
+    "power": [
+      150
+    ],
+    "duration2": 5,
+    "speed2": 0.6,
+    "power2": 1,
+    "buff": 0.2,
+    "bump": 1,
+    "height": 2,
+    "distance": 10,
+    "tick": 0.05,
+    "effectCD": 1.5,
+    "duration": 0.3
+  },
+  "gameplayDesc": "Propulsez-vous en l'air et frappez le sol pour infliger ::+power:: dégâts aux ennemis à proximité.",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 10,
+  "ambiantDesc": "Le pied du roi.",
+  "id": "SeismicStomp",
+  "icon": {
+    "x": 26,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Impact Tellurique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "MoveHero"
+    },
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 49
+}

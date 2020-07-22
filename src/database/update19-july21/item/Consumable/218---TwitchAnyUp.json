@@ -1,0 +1,26 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "moneyCost": 2500,
+  "group": 10,
+  "castCD": 0,
+  "id": "TwitchAnyUp",
+  "icon": {
+    "x": 51,
+    "y": 61,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Choix de puissance",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 218
+}

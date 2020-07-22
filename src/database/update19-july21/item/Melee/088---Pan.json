@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Inflige des {coups critiques@CC} si l'adversaire vous fait face.",
+  "moneyCost": 1700,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Tout vient à point à qui sait attendre.",
+  "id": "Pan",
+  "icon": {
+    "x": 23,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Vorpoêle",
+  "droppable": true,
+  "tags": [
+    {}
+  ],
+  "tier1": "Brutality",
+  "cellCost": 25,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 88
+}

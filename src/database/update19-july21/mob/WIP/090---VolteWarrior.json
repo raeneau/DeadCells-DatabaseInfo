@@ -1,0 +1,82 @@
+{
+  "props": {
+    "movePauseMul": 0.7,
+    "moveSpeedMul": 1.25
+  },
+  "genTags": 0,
+  "glowOuterColor": 1512650,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "index": 90,
+  "volteDelay": 0.3,
+  "id": "VolteWarrior",
+  "weight": 20,
+  "icon": {
+    "x": 58,
+    "y": 28,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    190
+  ],
+  "name": "Duelliste",
+  "glowInnerColor": 19455,
+  "minPfSize": 9,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 13941892,
+  "flesh2": 7290913,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": [
+        8
+      ],
+      "props": {
+        "stunTime": 0.6,
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 4.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.7,
+      "manual": false,
+      "id": "jump",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1.8,
+      "power": [
+        10
+      ],
+      "props": {
+        "stunTime": 0.6
+      },
+      "allowInAir": false,
+      "radius": 1.5,
+      "allowSameSkillNearby": true,
+      "charge": 0.15,
+      "manual": true,
+      "id": "volteAtk",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 90
+}

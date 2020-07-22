@@ -1,0 +1,27 @@
+{
+  "props": {
+    "power": 100,
+    "disableFloatAnim": true,
+    "chance": 1,
+    "enableAutoPick": true,
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Franchement, ça vaut que dalle. Vous n'allez pas ramasser cette merde quand même ?",
+  "moneyCost": 0,
+  "group": 11,
+  "castCD": 0,
+  "id": "MinorGem",
+  "icon": {
+    "x": 18,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Caillou brillant",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 252
+}

@@ -1,0 +1,54 @@
+{
+  "props": {
+    "speed": 0.5,
+    "range": 8,
+    "power": [
+      50
+    ],
+    "bonus": 0.4,
+    "speed2": 0.5,
+    "dps": [
+      75
+    ],
+    "bump": 0.6,
+    "dps2": [
+      50
+    ],
+    "prct": 1,
+    "count": 3,
+    "distance": 6,
+    "effectCD": 0.25,
+    "duration": 15,
+    "limit": 48
+  },
+  "gameplayDesc": "Vous fait flotter en l'air et inflige des dégâtsde zone.  Inflige {choc@EL} (::+dps2:: DPS en zone pendant ::*ShockAffectDuration:: sec).",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 15,
+  "ambiantDesc": "Croâââ !",
+  "id": "Wings",
+  "icon": {
+    "x": 17,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Ailes de Corbeau",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasDuration"
+    },
+    {
+      "tag": "Electric"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 60,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 38
+}
