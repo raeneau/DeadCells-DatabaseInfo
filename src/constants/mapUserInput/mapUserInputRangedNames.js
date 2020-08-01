@@ -84,6 +84,7 @@ export default {
   FLAMETHROWER: rangedWeaponNames.FIRE_BLAST,
 
   ICESHARD: rangedWeaponNames.ICE_SHARD,
+  ICESHARDS: rangedWeaponNames.ICE_SHARD,
   THROWINGICE: rangedWeaponNames.ICE_SHARD,
 
   PYROTECHNICS: rangedWeaponNames.PYROTECHNICS,
@@ -99,7 +100,7 @@ export default {
 
   WARJAVELIN: rangedWeaponNames.JAVELIN,
   JAVELIN: rangedWeaponNames.JAVELIN,
-  THROWINGSPREAR: rangedWeaponNames.JAVELIN,
+  THROWINGSPEAR: rangedWeaponNames.JAVELIN,
 
   MAGICMISSLES: rangedWeaponNames.MAGIC_MISSLES,
   MM: rangedWeaponNames.MAGIC_MISSLES,

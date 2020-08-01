@@ -1,5 +1,8 @@
 import _get from "lodash.get";
 
+// Constants.
+import { criticalHitMul } from "../constants/truelleConstants";
+
 import rangedWeaponNames from "../constants/names/rangedWeaponNames";
 
 // -----------------------------------------------------------------------------
@@ -18,6 +21,60 @@ const {
 // -----------------------------------------------------------------------------
 
 export const calculateDpsSingleHit = ({ strikeChainArray }) => {};
+
+export const newCalculateDps = ({ strikeChainArray }) => {
+  var damageSum = 0;
+  var critDamageSum = 0;
+  var timeSum = 0;
+
+  strikeChainArray.forEach((strike) => {
+    const actualCritMult = criticalHitMul * _get(strike, "critMul", 1);
+
+    let strikePower = strike.power;
+    let critStrikePower = strike.power;
+
+    if (strike.canCrit) {
+      critStrikePower = strikePower * actualCritMult;
+    }
+
+    damageSum += Number(strikePower);
+    critDamageSum += Number(critStrikePower);
+
+    if (strikeChainArray.length === 1) {
+      timeSum =
+        timeSum +
+        strike.charge +
+        Math.max(strike.lockCtrlAfter, strike.cooldown);
+    } else {
+      timeSum = timeSum + strike.charge + strike.lockCtrlAfter;
+    }
+
+    console.log(damageSum, critDamageSum, timeSum);
+  });
+
+  // Let Damages = 0;
+  // Let Time = 0;
+  // For each strike in weapon.strikeChain:
+  //     Let CritMul = CriticalHitMul (in CBD/truelle) * strike.critMul (or 1 if field is empty)
+  //     Apply SuperCrit and HeavyCrit multiplier here if weapon hold affixes
+  //     Let StrikePower = strike.power;
+  //     If strike.canCrit AND  we want crit DPS :
+  //         StrikePower = StrikePower * CritMul;
+  //     End if
+  //     Damages = Damages +  StrikePower;
+  //     If weapon has only one strike
+  //         Time = Time + strike.charge + Max(strike.lockCtrlAfter, strike.coolDown);
+  //     Else
+  //         Time = Time + strike.charge + strike.lockCtrlAfter;
+  //     End
+  // End for each
+  // Apply unconditionnal damage affixes (DoubleDamage, QuadDamage, etc.) here if weapon hold affixes.
+  // DPS = Damages / Time;
+  return {
+    dps: Math.round(damageSum / timeSum),
+    critDps: Math.round(critDamageSum / timeSum),
+  };
+};
 
 export const calculateDpsCombo = ({ strikeChainArray }) => {
   // If crit is not allowed on even a single attack, don't show crit DPS damage
@@ -99,13 +156,13 @@ export const calculateDpsQuickBow = ({ strikeChainArray }) => {
 
   const power = _get(strikeChainElement, "power[0]");
   const tick = _get(strikeChainElement, "props.tick");
-  const critMult = _get(strikeChainArray, "critMul");
+  const critMult = _get(strikeChainElement, "critMul");
 
   const vanillaDps = power / tick;
 
   return {
     dps: Math.round(vanillaDps),
-    critDps: "", //Math.round(vanillaDps * 2 * critMult),
+    critDps: `${Math.round(power * 2 * critMult) / tick} (should be 203)`,
   };
 };
 
@@ -113,7 +170,23 @@ export const calculateDpsRepeater = ({ strikeChainArray }) => {};
 
 export const calculateDpsLightning = ({ strikeChainArray }) => {};
 
-export const calculateDpsNerves = ({ strikeChainArray }) => {};
+export const calculateDpsNerves = ({ strikeChainArray }) => {
+  const strikeChainElement = strikeChainArray[0];
+
+  const charge = _get(strikeChainElement, "charge", 0);
+  const power = _get(strikeChainElement, "power[0]");
+  const cooldown = _get(strikeChainElement, "coolDown");
+  const scale = _get(strikeChainElement, "props.scale");
+  const critMult = _get(strikeChainElement, "critMul");
+
+  const vanillaDps = power / (charge + cooldown);
+  const critDps = (power * 2 * critMult) / (scale + cooldown);
+
+  return {
+    dps: Math.round(vanillaDps),
+    critDps: Math.round(critDps),
+  };
+};
 
 export const calculateDpsBoysAxe = ({ strikeChainArray }) => {};
 
@@ -137,8 +210,8 @@ export const calculateDps = ({
     // case LIGHTNING_BOLT.INTERNAL_ID:
     //   return calculateDpsLightning({ strikeChainArray, itemJsonProps });
 
-    // case NERVES_OF_STEEL.INTERNAL_ID:
-    //   return calculateDpsNerves({ strikeChainArray, itemJsonProps });
+    case NERVES_OF_STEEL.INTERNAL_ID:
+      return calculateDpsNerves({ strikeChainArray, itemJsonProps });
 
     case QUICK_BOW.INTERNAL_ID:
       return calculateDpsQuickBow({ strikeChainArray, itemJsonProps });
@@ -150,7 +223,7 @@ export const calculateDps = ({
       return calculateDpsSonicCarbine({ strikeChainArray, itemJsonProps });
 
     default:
-      return calculateDpsCombo({ strikeChainArray });
+      return newCalculateDps({ strikeChainArray });
   }
 };
 

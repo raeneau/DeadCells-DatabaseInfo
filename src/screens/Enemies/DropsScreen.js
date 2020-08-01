@@ -7,7 +7,7 @@ import nameMappings from "../../constants/mapUserInput";
 
 // Local modules.
 import formatInput from "../../utils/formatInput";
-import blueprintDrops from "../../utils/jsonImports/blueprintDropJsons";
+import { blueprintDropJsons } from "../../utils/jsonImports";
 
 // Styles.
 import "./DropsScreen.css";
@@ -34,7 +34,7 @@ const DropsScreen = (props) => {
             {blueprintsDropped.map((drop) => {
               const minDifficulty = _get(drop, "minDifficulty", 0);
               const blueprintChance = (
-                _get(blueprintDrops, `${drop.rarity}.chance`) * 100
+                _get(blueprintDropJsons, `${drop.rarity}.chance`) * 100
               )
                 .toFixed(2)
                 .replace(/\.0+$/, "");

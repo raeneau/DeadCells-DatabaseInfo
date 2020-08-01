@@ -144,7 +144,7 @@ export default {
     NAME: "The Boy's Axe",
   },
   JAVELIN: {
-    INTERNAL_ID: "THROWINGSPREAR",
+    INTERNAL_ID: "THROWINGSPEAR",
     TYPE: RANGED_WEAPON,
     NAME: "War Javelin",
   },
