@@ -20,38 +20,8 @@ const {
 
 // -----------------------------------------------------------------------------
 
-export const calculateDpsSingleHit = ({ strikeChainArray }) => {};
-
 export const newCalculateDps = ({ strikeChainArray }) => {
-  var damageSum = 0;
-  var critDamageSum = 0;
-  var timeSum = 0;
-
-  strikeChainArray.forEach((strike) => {
-    const actualCritMult = criticalHitMul * _get(strike, "critMul", 1);
-
-    let strikePower = strike.power;
-    let critStrikePower = strike.power;
-
-    if (strike.canCrit) {
-      critStrikePower = strikePower * actualCritMult;
-    }
-
-    damageSum += Number(strikePower);
-    critDamageSum += Number(critStrikePower);
-
-    if (strikeChainArray.length === 1) {
-      timeSum =
-        timeSum +
-        strike.charge +
-        Math.max(strike.lockCtrlAfter, strike.cooldown);
-    } else {
-      timeSum = timeSum + strike.charge + strike.lockCtrlAfter;
-    }
-
-    console.log(damageSum, critDamageSum, timeSum);
-  });
-
+  // ------------- Algorithm Pseudocode ------------- //
   // Let Damages = 0;
   // Let Time = 0;
   // For each strike in weapon.strikeChain:
@@ -70,9 +40,46 @@ export const newCalculateDps = ({ strikeChainArray }) => {
   // End for each
   // Apply unconditionnal damage affixes (DoubleDamage, QuadDamage, etc.) here if weapon hold affixes.
   // DPS = Damages / Time;
+
+  // If crit is not allowed on even a single attack, don't show crit DPS damage
+  let critAllowed = true;
+  const dpsObject = strikeChainArray.reduce(
+    (accumulator, element) => {
+      // Time related
+      const charge = _get(element, "charge", 0);
+      const lockCtrlAfter = _get(element, "lockCtrlAfter", 0);
+      const cooldown = _get(element, "cooldown", 0);
+      // Damage related
+      const power = _get(element, "power[0]");
+      const actualCritMult = criticalHitMul * _get(element, "critMul", 1);
+      const canCrit = _get(element, "canCrit");
+
+      if (!canCrit) {
+        critAllowed = false;
+      }
+
+      return {
+        damageSum: accumulator.damageSum + power,
+        timeSum:
+          strikeChainArray.length === 1
+            ? accumulator.timeSum + charge + Math.max(lockCtrlAfter, cooldown)
+            : accumulator.timeSum + (charge + lockCtrlAfter),
+        critDamageSum: canCrit
+          ? accumulator.critDamageSum + power * actualCritMult
+          : accumulator.critDamageSum + power,
+      };
+    },
+    {
+      damageSum: 0,
+      critDamageSum: 0,
+      timeSum: 0,
+    },
+  );
+
   return {
-    dps: Math.round(damageSum / timeSum),
-    critDps: Math.round(critDamageSum / timeSum),
+    dps: Math.round(dpsObject.damageSum / dpsObject.timeSum),
+    critDps: Math.round(dpsObject.critDamageSum / dpsObject.timeSum),
+    critAllowed,
   };
 };
 
@@ -114,20 +121,22 @@ export const calculateDpsCombo = ({ strikeChainArray }) => {
   };
 };
 
-// WTF??? HEWWO??? GATLINK??? YOUKOOL??? PLS SAVE ME???
+// WTF??? HEWWO??? NOJA??? GATLINK??? YOUKOOL??? PLS SAVE ME???
 export const calculateDpsBoomerang = ({ strikeChainArray, itemJsonProps }) => {
   const strikeChainElement = strikeChainArray[0];
 
   const charge = _get(strikeChainElement, "charge", 0);
   const cooldown = _get(strikeChainElement, "coolDown", 0);
   const power = _get(strikeChainElement, "power[0]");
-  const tick = _get(itemJsonProps, "tick");
-  const count = _get(itemJsonProps, "count");
+  const tick = _get(itemJsonProps, "props.tick");
+  const count = _get(itemJsonProps, "props.count");
 
   return {
-    dps: Math.round(
-      (power / (tick * 10)) * (charge + cooldown + tick * count + 5),
-    ),
+    dps:
+      // What the formula should be (allegedly......)
+      Math.round(
+        (power * (count + 5)) / (charge + cooldown + tick * (count + 5)),
+      ),
     critDps: "", // No crit for boomerang
   };
 };
@@ -141,7 +150,7 @@ export const calculateDpsSonicCarbine = ({
   const charge = _get(strikeChainElement, "charge", 0);
   const power = _get(strikeChainElement, "power[0]");
   const tick = _get(strikeChainElement, "props.tick");
-  const ammo = _get(itemJsonProps, "ammo");
+  const ammo = _get(itemJsonProps, "props.ammo");
 
   const vanillaDps = (power * ammo) / (charge + tick * (ammo - 1));
 
@@ -166,9 +175,30 @@ export const calculateDpsQuickBow = ({ strikeChainArray }) => {
   };
 };
 
-export const calculateDpsRepeater = ({ strikeChainArray }) => {};
+export const calculateDpsLightning = ({ strikeChainArray }) => {
+  const strikeChainElement = strikeChainArray[0];
 
-export const calculateDpsLightning = ({ strikeChainArray }) => {};
+  const charge = _get(strikeChainElement, "charge", 0);
+  const power = _get(strikeChainElement, "power[0]");
+  const lockCtrlAfter = _get(strikeChainElement, "lockCtrlAfter", 0);
+  const tick = _get(strikeChainElement, "props.tick");
+  const threshold = _get(strikeChainElement, "props.threshold");
+  const limit = _get(strikeChainElement, "props.limit");
+  const critMul = _get(strikeChainElement, "critMul");
+
+  return {
+    dps: Math.round(
+      (power * limit * threshold) /
+        (charge + lockCtrlAfter + tick * limit * (threshold - 0.1)),
+    ),
+    critDps: Math.round(
+      (power *
+        limit *
+        (threshold + (1 - threshold) * (critMul * criticalHitMul))) /
+        (charge + lockCtrlAfter + tick * (limit - 2)),
+    ),
+  };
+};
 
 export const calculateDpsNerves = ({ strikeChainArray }) => {
   const strikeChainElement = strikeChainArray[0];
@@ -190,34 +220,59 @@ export const calculateDpsNerves = ({ strikeChainArray }) => {
 
 export const calculateDpsBoysAxe = ({ strikeChainArray }) => {};
 
-export const calculateDpsFireBlast = ({ strikeChainArray }) => {};
+export const calculateDpsFireBlast = ({ strikeChainArray, itemJsonProps }) => {
+  const strikeChainElement = strikeChainArray[0];
+
+  const charge = _get(strikeChainElement, "charge", 0);
+  const power = _get(strikeChainElement, "power[0]");
+  const duration = _get(itemJsonProps, "props.duration");
+  const lockCtrlAfter = _get(strikeChainElement, "lockCtrlAfter");
+  const tick = _get(strikeChainElement, "props.tick");
+  const limit = _get(strikeChainElement, "props.limit");
+  const critMult = _get(strikeChainElement, "critMul");
+  const fireDamageDps = _get(itemJsonProps, "props.dps");
+  const holdDuration = 5;
+
+  const baseDps = (power * holdDuration) / tick;
+
+  const dotDps =
+    (fireDamageDps * holdDuration * holdDuration) / limit / duration;
+
+  const totalDps = (baseDps + dotDps) / (charge + holdDuration + lockCtrlAfter);
+
+  return {
+    dps: Math.round(totalDps),
+    // WOOOOO figured this out myself hell yeah B)
+    critDps: Math.round(
+      (baseDps * 2 * critMult) / (charge + holdDuration + lockCtrlAfter) +
+        dotDps / (charge + holdDuration + lockCtrlAfter),
+    ),
+  };
+};
 
 export const calculateDps = ({
-  internalWeaponId,
+  internalId,
   strikeChainArray,
   itemJsonProps,
 }) => {
-  switch (internalWeaponId) {
+  switch (internalId) {
     case BOOMERANG.INTERNAL_ID:
       return calculateDpsBoomerang({ strikeChainArray, itemJsonProps });
 
     // case BOYS_AXE.INTERNAL_ID:
     //   return calculateDpsBoysAxe({ strikeChainArray, itemJsonProps });
 
-    // case FIRE_BLAST.INTERNAL_ID:
-    //   return calculateDpsFireBlast({ strikeChainArray, itemJsonProps });
+    case FIRE_BLAST.INTERNAL_ID:
+      return calculateDpsFireBlast({ strikeChainArray, itemJsonProps });
 
-    // case LIGHTNING_BOLT.INTERNAL_ID:
-    //   return calculateDpsLightning({ strikeChainArray, itemJsonProps });
+    case LIGHTNING_BOLT.INTERNAL_ID:
+      return calculateDpsLightning({ strikeChainArray, itemJsonProps });
 
     case NERVES_OF_STEEL.INTERNAL_ID:
       return calculateDpsNerves({ strikeChainArray, itemJsonProps });
 
     case QUICK_BOW.INTERNAL_ID:
       return calculateDpsQuickBow({ strikeChainArray, itemJsonProps });
-
-    // case REPEATER_CROSSBOW.INTERNAL_ID:
-    //   return calculateDpsRepeater({ strikeChainArray, itemJsonProps });
 
     case SONIC_CROSSBOW.INTERNAL_ID:
       return calculateDpsSonicCarbine({ strikeChainArray, itemJsonProps });

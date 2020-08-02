@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>July 19th 2020</h4>
 export default (
   <div>
+    <h4>July 19th 2020</h4>
     <li>Added damage over time values to applicable weapons</li>
     <li>
       Added more shortcut names, like pyro -> pyrotechnics, valmont -> valmont's

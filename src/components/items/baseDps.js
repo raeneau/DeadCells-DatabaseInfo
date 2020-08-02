@@ -6,7 +6,7 @@ import { calculateDps } from "../../utils/calculateDps";
 // -----------------------------------------------------------------------------
 
 function BaseDps(props) {
-  const { array, itemJson, internalWeaponId } = props;
+  const { array, itemJson, internalId } = props;
 
   // If is no data, just return
   if (array === undefined || array.length === 0) {
@@ -16,14 +16,19 @@ function BaseDps(props) {
   const dps = calculateDps({
     strikeChainArray: array,
     itemJsonProps: itemJson,
-    internalWeaponId,
+    internalId,
   });
+  const critDpsMessage =
+    dps.dps === dps.critDps || dps.critDps === ""
+      ? `(N/A) *weapon cannot crit in normal gameplay`
+      : `(${dps.critDps}) *crit has a special activation condition`;
+  const critDps = dps.critAllowed ? `(${dps.critDps})` : critDpsMessage;
 
   return (
     <tr>
       <td>Base DPS</td>
       <td>
-        {dps.dps} ({dps.critDps})
+        {dps.dps} {critDps}
       </td>
     </tr>
   );

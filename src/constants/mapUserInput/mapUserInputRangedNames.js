@@ -102,10 +102,11 @@ export default {
   JAVELIN: rangedWeaponNames.JAVELIN,
   THROWINGSPEAR: rangedWeaponNames.JAVELIN,
 
-  MAGICMISSLES: rangedWeaponNames.MAGIC_MISSLES,
-  MM: rangedWeaponNames.MAGIC_MISSLES,
-  MAGICSALVE: rangedWeaponNames.MAGIC_MISSLES,
-  MAGIC: rangedWeaponNames.MAGIC_MISSLES,
+  MAGICMISSLES: rangedWeaponNames.MAGIC_MISSILES,
+  MAGICMISSILES: rangedWeaponNames.MAGIC_MISSILES,
+  MM: rangedWeaponNames.MAGIC_MISSILES,
+  MAGICSALVE: rangedWeaponNames.MAGIC_MISSILES,
+  MAGIC: rangedWeaponNames.MAGIC_MISSILES,
 
   HEMORRHAGE: rangedWeaponNames.HEMORRHAGE,
   BLEEDAXE: rangedWeaponNames.HEMORRHAGE,

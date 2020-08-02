@@ -48,7 +48,7 @@ function App() {
     jsonArrays: [],
     nameConflict: false,
     resourceType: undefined,
-    internalWeaponId: undefined,
+    internalId: undefined,
   });
 
   const handleChange = (newValue) => {
@@ -81,7 +81,7 @@ function App() {
         searchTerm: newValue,
         jsonArrays: jsonArray,
         resourceType: type,
-        internalWeaponId: _get(mappedUserInput, "INTERNAL_ID"),
+        internalId: _get(mappedUserInput, "INTERNAL_ID"),
       });
     }
   };
@@ -91,17 +91,17 @@ function App() {
     jsonArrays = {},
     nameConflict,
     resourceType,
-    internalWeaponId,
+    internalId,
   } = value;
 
   return (
     <div id="App" className={cn.wrapper}>
       <UserInputScreen onChange={handleChange} />
       {resourceType === MELEE_WEAPON && (
-        <WeaponsScreen userInput={jsonArrays} />
+        <WeaponsScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {resourceType === RANGED_WEAPON && (
-        <RangedWeaponsScreen userInput={jsonArrays} />
+        <RangedWeaponsScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {resourceType === SHIELD && <ShieldsScreen userInput={jsonArrays} />}
       {resourceType === ENEMY && <EnemyScreen userInput={jsonArrays} />}

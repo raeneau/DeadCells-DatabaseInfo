@@ -15,7 +15,7 @@ import DamageOverTimeStatus from "../../components/items/damageOverTimeStatus";
 // -----------------------------------------------------------------------------
 
 const DamageScreen = (props) => {
-  const { itemJson, weaponJson, internalWeaponId } = props;
+  const { itemJson, weaponJson, internalId } = props;
 
   return (
     <div>
@@ -24,8 +24,8 @@ const DamageScreen = (props) => {
         <tbody>
           <BaseDps
             array={_get(weaponJson, "strikeChain")}
-            itemJson={_get(itemJson, "props")}
-            internalWeaponId={internalWeaponId}
+            itemJson={itemJson}
+            internalId={internalId}
           />
           <BasicDisplay
             name="Secondary Property Damage"

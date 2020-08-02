@@ -14,9 +14,6 @@ function NotFoundScreen() {
         <li>Traps / Turrets</li>
         <li>Enemies</li>
       </ul>
-      <div>
-        <b>*only searchable by internal ID</b>
-      </div>
     </Fragment>
   );
 }
