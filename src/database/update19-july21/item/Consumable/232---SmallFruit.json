@@ -1,0 +1,28 @@
+{
+  "props": {
+    "prct": 0.15,
+    "duration": 1.5
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "SmallFruit",
+  "icon": {
+    "x": 15,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Cerises",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "SmallHealConsumable"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 232
+}

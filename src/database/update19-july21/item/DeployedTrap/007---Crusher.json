@@ -1,0 +1,42 @@
+{
+  "props": {
+    "range": 3,
+    "power": [
+      200
+    ],
+    "effectCharge": 1.1,
+    "uses": 3,
+    "effectCD": 0.8
+  },
+  "gameplayDesc": "{Ralentit@IC} puis écrase violemment les ennemis pris dans sa zone d'effet.",
+  "moneyCost": 1750,
+  "group": 0,
+  "castCD": 14,
+  "id": "Crusher",
+  "icon": {
+    "x": 5,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Ecraseur",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 30,
+  "legendAffix": "AmmoRetrieval",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 7
+}

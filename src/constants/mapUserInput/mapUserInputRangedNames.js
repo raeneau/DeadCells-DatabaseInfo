@@ -84,6 +84,7 @@ export default {
   FLAMETHROWER: rangedWeaponNames.FIRE_BLAST,
 
   ICESHARD: rangedWeaponNames.ICE_SHARD,
+  ICESHARDS: rangedWeaponNames.ICE_SHARD,
   THROWINGICE: rangedWeaponNames.ICE_SHARD,
 
   PYROTECHNICS: rangedWeaponNames.PYROTECHNICS,
@@ -91,6 +92,7 @@ export default {
   PYRO: rangedWeaponNames.PYROTECHNICS,
 
   BOOMERANG: rangedWeaponNames.BOOMERANG,
+  BOOMER: rangedWeaponNames.BOOMERANG,
 
   BOYSAXE: rangedWeaponNames.BOYS_AXE,
   GODAXE: rangedWeaponNames.BOYS_AXE,
@@ -98,12 +100,13 @@ export default {
 
   WARJAVELIN: rangedWeaponNames.JAVELIN,
   JAVELIN: rangedWeaponNames.JAVELIN,
-  THROWINGSPREAR: rangedWeaponNames.JAVELIN,
+  THROWINGSPEAR: rangedWeaponNames.JAVELIN,
 
-  MAGICMISSLES: rangedWeaponNames.MAGIC_MISSLES,
-  MM: rangedWeaponNames.MAGIC_MISSLES,
-  MAGICSALVE: rangedWeaponNames.MAGIC_MISSLES,
-  MAGIC: rangedWeaponNames.MAGIC_MISSLES,
+  MAGICMISSLES: rangedWeaponNames.MAGIC_MISSILES,
+  MAGICMISSILES: rangedWeaponNames.MAGIC_MISSILES,
+  MM: rangedWeaponNames.MAGIC_MISSILES,
+  MAGICSALVE: rangedWeaponNames.MAGIC_MISSILES,
+  MAGIC: rangedWeaponNames.MAGIC_MISSILES,
 
   HEMORRHAGE: rangedWeaponNames.HEMORRHAGE,
   BLEEDAXE: rangedWeaponNames.HEMORRHAGE,

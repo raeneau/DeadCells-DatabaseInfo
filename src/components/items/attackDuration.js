@@ -1,10 +1,12 @@
 import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+
 import _get from "lodash.get";
 
 // -----------------------------------------------------------------------------
 
 function AttackDuration(props) {
-  const { array } = props;
+  const { array = [] } = props;
 
   // If there is no data, just return nothing
   if (array === undefined || array.length === 0) {
@@ -45,11 +47,18 @@ function AttackDuration(props) {
   );
 }
 
-AttackDuration.propTypes = {};
+AttackDuration.propTypes = {
+  array: PropTypes.arrayOf(
+    PropTypes.shape({
+      power: PropTypes.arrayOf(PropTypes.number),
+      charge: PropTypes.number,
+      lock: PropTypes.number,
+    }),
+  ),
+};
 
 AttackDuration.defaultProps = {
-  charge: undefined,
-  cooldown: undefined,
+  array: undefined,
 };
 
 // -----------------------------------------------------------------------------

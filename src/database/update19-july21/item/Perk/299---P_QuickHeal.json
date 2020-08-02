@@ -1,0 +1,30 @@
+{
+  "props": {
+    "power": [
+      130
+    ],
+    "duration2": 0.5,
+    "prct2": 0.45,
+    "prct": 3,
+    "duration": 3,
+    "ceilToolTipValues": true
+  },
+  "gameplayDesc": "Les potions de soin ne restaurent plus que ::prct2::% PV mais leur usage est accéléré de ::prct::% et elles vous protègent totalement pendant ::duration:: sec.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_QuickHeal",
+  "icon": {
+    "x": 8,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Soin d'urgence",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 299
+}

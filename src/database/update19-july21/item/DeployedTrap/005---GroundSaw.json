@@ -1,0 +1,41 @@
+{
+  "props": {
+    "dps": 50,
+    "life": 50,
+    "distance": 3,
+    "dotDps": 6,
+    "effectCD": 0.3,
+    "duration": 1.8
+  },
+  "gameplayDesc": "Inflige {saignement@BL} (::+dotDps:: DPS sur ::duration:: sec) aux ennemis qui marchent dessus.",
+  "moneyCost": 1500,
+  "group": 0,
+  "castCD": 8,
+  "id": "GroundSaw",
+  "icon": {
+    "x": 2,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Hachoir",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "NeedPower"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "cellCost": 30,
+  "legendAffix": "BleedPropagation",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 5
+}

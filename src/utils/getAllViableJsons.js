@@ -1,11 +1,13 @@
 // Local formatted JSON references.
-import mappedWeapons from "./jsonImports/weaponJsons";
-import itemMeleeJsons from "./jsonImports/itemMeleeJsons";
-import itemRangedJsons from "./jsonImports/itemRangedJsons";
-import itemShieldJsons from "./jsonImports/itemShieldJsons";
-import enemyJsons from "./jsonImports/enemyJsons";
-import itemGrenadeJsons from "./jsonImports/itemGrenadeJsons";
-import itemTrapJsons from "./jsonImports/itemTrapJsons";
+import {
+  weaponJsons,
+  itemMeleeJsons,
+  itemRangedJsons,
+  itemShieldJsons,
+  enemyJsons,
+  itemGrenadeJsons,
+  itemTrapJsons,
+} from "./jsonImports";
 
 // Local modules.
 import getJson from "./getJson";
@@ -36,7 +38,7 @@ const mapUserInput = (userInput) => {
     case MELEE_WEAPON: {
       return getJson({
         jsonPaths: [
-          `weapon${mappedWeapons[INTERNAL_ID]}`,
+          `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Melee${itemMeleeJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],
@@ -48,9 +50,15 @@ const mapUserInput = (userInput) => {
     // Ranged Weapons
     // -------------------------------------------------------------------------
     case RANGED_WEAPON: {
+      console.log(
+        "mhmhmhm",
+        INTERNAL_ID,
+        weaponJsons[INTERNAL_ID],
+        itemRangedJsons[INTERNAL_ID],
+      );
       return getJson({
         jsonPaths: [
-          `weapon${mappedWeapons[INTERNAL_ID]}`,
+          `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Ranged${itemRangedJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],
@@ -64,7 +72,7 @@ const mapUserInput = (userInput) => {
     case SHIELD: {
       return getJson({
         jsonPaths: [
-          `weapon${mappedWeapons[INTERNAL_ID]}`,
+          `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Shield${itemShieldJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],

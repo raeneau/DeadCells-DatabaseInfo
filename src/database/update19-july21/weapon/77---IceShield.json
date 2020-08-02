@@ -1,0 +1,38 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "IceShield",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "duration": 0.8
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 1,
+      "sfxCharge": "sfx/weapon_shield_charge.wav",
+      "charge": 0.37,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxHit": "sfx/weapon_iceshield_hit.wav",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 77
+}

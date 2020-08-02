@@ -144,14 +144,14 @@ export default {
     NAME: "The Boy's Axe",
   },
   JAVELIN: {
-    INTERNAL_ID: "THROWINGSPREAR",
+    INTERNAL_ID: "THROWINGSPEAR",
     TYPE: RANGED_WEAPON,
     NAME: "War Javelin",
   },
-  MAGIC_MISSLES: {
+  MAGIC_MISSILES: {
     INTERNAL_ID: "MAGICSALVE",
     TYPE: RANGED_WEAPON,
-    NAME: "Magic Missles",
+    NAME: "Magic Missiles",
   },
   HEMORRHAGE: {
     INTERNAL_ID: "BLEEDAXE",

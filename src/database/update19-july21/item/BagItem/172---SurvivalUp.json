@@ -1,0 +1,28 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Augmente les points de vie.",
+  "moneyCost": 1250,
+  "group": 8,
+  "castCD": 0,
+  "id": "SurvivalUp",
+  "icon": {
+    "x": 8,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Survie",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 172
+}

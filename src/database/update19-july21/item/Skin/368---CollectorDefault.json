@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Un habit en édition Collector !",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "CollectorDefault",
+  "icon": {
+    "x": 16,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue du Collecteur déchu",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 1000,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 368
+}

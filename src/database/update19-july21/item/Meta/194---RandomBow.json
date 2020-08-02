@@ -1,0 +1,24 @@
+{
+  "props": {
+    "revealedAtStart": true,
+    "reqUnlocks": 2
+  },
+  "gameplayDesc": "L'arc de départ est tiré aléatoirement parmi vos arcs débloqués.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "RandomBow",
+  "icon": {
+    "x": 0,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arc de départ aléatoire",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 65,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 194
+}

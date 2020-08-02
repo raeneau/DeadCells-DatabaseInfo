@@ -1,0 +1,98 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1
+  },
+  "genTags": 0,
+  "glowOuterColor": 16329772,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "Rapier",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerSewers",
+      "minDifficulty": 2
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "index": 8,
+  "volteDelay": 0.6,
+  "id": "Scorpio",
+  "weight": 10,
+  "icon": {
+    "x": 52,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Scorpion",
+  "glowInnerColor": 16770433,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 3,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 0.8,
+      "power": [
+        20
+      ],
+      "props": {
+        "dps": 4,
+        "duration": 3
+      },
+      "allowInAir": false,
+      "radius": 1.2,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_scorpion_charge1.wav",
+      "charge": 0.6,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "dps": 4,
+        "duration": 1.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_scorpion_charge2.wav",
+      "charge": 0.7,
+      "manual": false,
+      "id": "shoot",
+      "sfxRelease": "sfx/enm_zmb_shot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": -1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 8
+}

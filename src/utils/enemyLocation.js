@@ -7,7 +7,7 @@ import _isEmpty from "lodash.isempty";
 import locationNameMap from "../constants/biomes";
 
 // Local modules.
-import levelJsons from "./jsonImports/levelJsons";
+import { levelJsons } from "./jsonImports";
 import formatBossCellDifficulty from "./formatBossCellDifficulty";
 
 // -----------------------------------------------------------------------------

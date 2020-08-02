@@ -1,0 +1,136 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 2604964,
+    "viewerColor": 6666220,
+    "musicLoop": "music/Promenade.ogg",
+    "zDoorColor": 12814118,
+    "viewerY": 0.75,
+    "chromaColor": 65490,
+    "wind": -2,
+    "loadingDescColor": 6652612,
+    "loadingColor": 1510715
+  },
+  "lootFlags": 0,
+  "biome": "PrisonCourtyard2",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0.5,
+  "index": 1,
+  "id": "PrisonCourtyard",
+  "flags": 1,
+  "worldDepth": 1,
+  "icon": {
+    "x": 41,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Zombie",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Runner",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Shielder",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "BatDasher",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Grenader",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "ClusterGrenader",
+      "minDifficulty": 3,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Ninja",
+      "maxDifficulty": 3,
+      "minDifficulty": 2,
+      "quantityFactor": 2,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "AggressiveZombie",
+      "minDifficulty": 4,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "BatKamikaze",
+      "minDifficulty": 1,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Promenade des condamnés",
+  "mobDensity": 1.1,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 2500,
+  "tripleUps": 1,
+  "baseLootLevel": 2,
+  "loreDescriptions": [
+    {
+      "text": "C'est jamais bon signe quand ils vous envoient dans la cour. Ils ne sont pas nombreux à en revenir. Et quand on les revoit, ils ne sont plus jamais vraiment les mêmes..."
+    },
+    {
+      "text": "L'ambiance champètre de la forêt a laissé place à une ambiance pour le moins... surprenante, disons."
+    },
+    {
+      "text": "Depuis l'extérieur, on parvenait encore à entendre quelques sifflements d'oiseaux. Mais depuis quelques temps on entend plus que le croassement des corbeaux."
+    }
+  ],
+  "parallax": [],
+  "bonusTripleScrollAfterBC": "Hard",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 1
+}

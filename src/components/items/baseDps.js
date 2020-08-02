@@ -1,63 +1,52 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-import _get from "lodash.get";
+import { calculateDps } from "../../utils/calculateDps";
 
 // -----------------------------------------------------------------------------
 
 function BaseDps(props) {
-  const { array } = props;
+  const { array, itemJson, internalId } = props;
 
   // If is no data, just return
   if (array === undefined || array.length === 0) {
     return null;
   }
 
-  // If crit is not allowed on even a single attack, don't show crit DPS damage
-  let critAllowed = true;
-
-  const dpsObject = array.reduce(
-    (accumulator, element) => {
-      const charge = _get(element, "charge", 0);
-      const cooldown = _get(element, "coolDown", 0);
-      const lockControlAfter = _get(element, "lockCtrlAfter", 0);
-      const power = _get(element, "power[0]");
-      const critMult = _get(element, "critMul", 1);
-      const canCrit = _get(element, "canCrit");
-
-      if (!canCrit) {
-        critAllowed = false;
-      }
-
-      return {
-        attackDamage: accumulator.attackDamage + power,
-        attackDuration:
-          accumulator.attackDuration + (charge + lockControlAfter),
-        // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it?
-        attackCritDamage: accumulator.attackCritDamage + power * 2 * critMult,
-      };
-    },
-    {
-      attackDamage: 0,
-      attackDuration: 0,
-      // TODO: Make the CRIT MULTIPLIER a CONSTANT in case devs change it
-      attackCritDamage: 0,
-    },
-  );
-
-  const critDamage = critAllowed
-    ? ` (${Math.round(dpsObject.attackCritDamage / dpsObject.attackDuration)})`
-    : "";
+  const dps = calculateDps({
+    strikeChainArray: array,
+    itemJsonProps: itemJson,
+    internalId,
+  });
+  const critDpsMessage =
+    dps.dps === dps.critDps || dps.critDps === ""
+      ? `(N/A) *weapon cannot crit in normal gameplay`
+      : `(${dps.critDps}) *crit has a special activation condition`;
+  const critDps = dps.critAllowed ? `(${dps.critDps})` : critDpsMessage;
 
   return (
     <tr>
       <td>Base DPS</td>
       <td>
-        {Math.round(dpsObject.attackDamage / dpsObject.attackDuration)}
-        {critDamage}
+        {dps.dps} {critDps}
       </td>
     </tr>
   );
 }
+
+BaseDps.propTypes = {
+  array: PropTypes.arrayOf(
+    PropTypes.shape({
+      power: PropTypes.arrayOf(PropTypes.number),
+      charge: PropTypes.number,
+      lock: PropTypes.number,
+    }),
+  ),
+};
+
+BaseDps.defaultProps = {
+  array: undefined,
+};
 
 // -----------------------------------------------------------------------------
 
