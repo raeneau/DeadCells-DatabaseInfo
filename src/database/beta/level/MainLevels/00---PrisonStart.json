@@ -1,0 +1,199 @@
+{
+  "eliteRoomChance": 0.05,
+  "props": {
+    "minPerfectKillsMobCount": 0.5,
+    "doorColor": 7681473,
+    "musicIntro": "music/default/prisonstart_intro.ogg",
+    "viewerColor": 2370433,
+    "musicLoop": "music/default/prisonstart_loop.ogg",
+    "zDoorColor": 12684325,
+    "noAdditionalElite": false,
+    "viewerY": 1.25,
+    "chromaColor": 39679,
+    "loadingDescColor": 6652612,
+    "loadingColor": 464424
+  },
+  "lootFlags": 0,
+  "biome": "PrisonStart",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 0,
+  "id": "PrisonStart",
+  "flags": 0,
+  "worldDepth": 0,
+  "icon": {
+    "x": 50,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "AggressiveZombie",
+      "minDifficulty": 4,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "spawnWith": "Rat"
+      },
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Zombie",
+      "maxDifficulty": 3,
+      "minDifficulty": 0,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Enforcer",
+      "maxDifficulty": 3,
+      "minDifficulty": 2,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Enforcer",
+      "minDifficulty": 4,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Archer",
+      "maxDifficulty": 0,
+      "minDifficulty": 0,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          1,
+          2
+        ]
+      },
+      "mob": "Mage360",
+      "minDifficulty": 4,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          1,
+          2
+        ]
+      },
+      "mob": "Mage360",
+      "maxDifficulty": 3,
+      "minDifficulty": 2,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          0,
+          1
+        ]
+      },
+      "mob": "KunaiMaster",
+      "minDifficulty": 1,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Shield",
+      "maxDifficulty": 3,
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Shield",
+      "minDifficulty": 4,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          1,
+          2
+        ]
+      },
+      "mob": "Rat",
+      "minDifficulty": 1,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "Grenader",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Quartier des prisonniers",
+  "mobDensity": 0.8,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 3,
+      "kind": 2
+    }
+  ],
+  "specificSubBiome": [],
+  "minGold": 2500,
+  "tripleUps": 2,
+  "baseLootLevel": 1,
+  "loreDescriptions": [
+    {
+      "text": "Dans l'échelle sociale de l'île, il y a les rats et les chiens et, juste en dessous, les prisonniers."
+    },
+    {
+      "text": "Les prisonniers chanceux avaient une fenêtre dans leur cellule... Ils ont fini par respirer les cendres du Charnier."
+    },
+    {
+      "text": "La prison est directement reliée à la cour extérieure. Les prisonniers ont le choix entre les rats et les corbeaux."
+    }
+  ],
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 0
+}

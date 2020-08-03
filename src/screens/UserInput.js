@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 // Screens.
 import WhatsNewScreen from "./WhatsNewScreen";
 import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
+
+import DatabaseVersionToggle from "./DatabaseVersionToggle";
 
 // Styles.
 import "./UserInput.css";
@@ -49,6 +52,7 @@ function UserInputScreen(props) {
   }
 
   const { userInputValue } = value;
+  const { onDatabaseChange } = props;
 
   return (
     <div className="DisplayCard">
@@ -67,6 +71,7 @@ function UserInputScreen(props) {
           alt="Submit"
         />
       </div>
+      <DatabaseVersionToggle onChange={onDatabaseChange} />
       <div className={cn.notesWrapper}>
         {!inputSubmitted && <WhatsNewScreen />}
         <CurrentlySearchableScreen />
@@ -74,6 +79,10 @@ function UserInputScreen(props) {
     </div>
   );
 }
+
+UserInputScreen.propTypes = {
+  onChange: PropTypes.func.isRequired,
+};
 
 // -----------------------------------------------------------------------------
 

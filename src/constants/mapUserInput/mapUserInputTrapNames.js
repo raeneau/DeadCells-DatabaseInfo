@@ -35,4 +35,7 @@ export default {
   DOOR: trapNames.DOOR,
   EMERGENCYDOOR: trapNames.DOOR,
   PORTABLEDOOR: trapNames.DOOR,
+
+  TESLACOIL: trapNames.TESLA_COIL,
+  TESLA: trapNames.TESLA_COIL,
 };

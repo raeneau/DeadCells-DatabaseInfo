@@ -1,0 +1,38 @@
+{
+  "props": {
+    "ammo": 8
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} si la flèche est tirée au bon moment.",
+  "moneyCost": 1500,
+  "group": 5,
+  "castCD": 0,
+  "id": "PreciseBow",
+  "icon": {
+    "x": 20,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Nerfs d'acier",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 80,
+  "legendAffix": "FireBullet",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 117
+}

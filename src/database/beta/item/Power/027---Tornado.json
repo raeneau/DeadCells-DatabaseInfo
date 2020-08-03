@@ -1,0 +1,39 @@
+{
+  "props": {
+    "speed": 3,
+    "width": 4,
+    "dps": 80,
+    "bump": 0.2,
+    "height": 5,
+    "frict": 0.7,
+    "tick": 0.1,
+    "duration": 10
+  },
+  "gameplayDesc": "Inflige des dégâts à toutes les cibles prises dedans. Change de direction quand elle rencontre un mur. ",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 24,
+  "id": "Tornado",
+  "icon": {
+    "x": 15,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tornade",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 80,
+  "legendAffix": "PoisonCloudOnHit",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 27
+}

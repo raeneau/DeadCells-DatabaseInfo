@@ -1,0 +1,48 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "PreciseBow",
+  "strikeChain": [
+    {
+      "coolDown": 0.1,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 54015,
+        "fxOuterColor": 16754944
+      },
+      "lockCtrlAfter": 0.06,
+      "props": {
+        "range": 0.09,
+        "fullCharge": 1,
+        "scale": 0.5
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 3,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/bow_shot_ice.wav",
+      "animId": "nervesBow",
+      "sfxHit": "sfx/weapon_firecrossbow_shot.wav",
+      "hitFrame": 0,
+      "critMul": 3.2,
+      "glowColor": 16774912,
+      "animSpd": 5
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 57
+}

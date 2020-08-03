@@ -1,0 +1,34 @@
+{
+  "props": {
+    "range": 5,
+    "power": 10,
+    "power2": 25,
+    "duration": 2
+  },
+  "gameplayDesc": "{Parrer@PA} un coup {gèle@IC} les enemis proche. Les projectiles renvoyés {gêlent@IC} les ennemis au contact.",
+  "moneyCost": 1000,
+  "group": 6,
+  "castCD": 0,
+  "id": "IceShield",
+  "icon": {
+    "x": 29,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bouclier glaçant",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "Ice"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 40,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 142
+}

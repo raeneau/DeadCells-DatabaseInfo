@@ -1,0 +1,54 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "ExplosiveCrossBow",
+  "strikeChain": [
+    {
+      "coolDown": 0.2,
+      "power": [
+        100
+      ],
+      "fxProps": {
+        "fxInnerColor": 16711680,
+        "fxOuterColor": 16711680
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 4,
+        "duration2": 0.1,
+        "power2": [
+          90
+        ],
+        "bump": 0.5,
+        "duration": 0.2
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_firecrossbow_charge.wav",
+      "charge": 0.5,
+      "sfxProps": {
+        "sfxChargeVolume": 0.4
+      },
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_firecrossbow_shot.wav",
+      "animId": "explosiveCrossbow",
+      "sfxHit": "sfx/explode.wav",
+      "hitFrame": 0,
+      "critMul": 0.85,
+      "glowColor": 16711680,
+      "animSpd": 1.4
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 53
+}

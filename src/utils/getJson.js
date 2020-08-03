@@ -1,19 +1,24 @@
 import _isEmpty from "lodash.isempty";
 import _map from "lodash.map";
 
+// Constants
+import { BETA } from "../constants/databaseVersion";
+
 // -----------------------------------------------------------------------------
 
-const getJson = ({ jsonPaths, jsonNames, type }) => {
+const getJson = ({ jsonPaths, jsonNames, type, databaseVersion }) => {
   const returnedJsons = {};
+
+  const databaseType = databaseVersion === BETA ? "beta" : "stable";
 
   _map(jsonPaths, (jsonPath, index) => {
     let currentJson = {};
 
     try {
-      // Normally DON'T do this, but I'm not sure if path names change...
+      // Normally DON'T do this, but the path names might change between updates...
       // If they do, all the items' JSON names would be a nightmare to update
       // eslint-disable-next-line
-      currentJson = require(`../database/update19-july21/${jsonPath}`);
+      currentJson = require(`../database/${databaseType}/${jsonPath}`);
       returnedJsons[jsonNames[index]] = currentJson;
     } catch (e) {
       currentJson = undefined;

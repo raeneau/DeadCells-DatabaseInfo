@@ -53,4 +53,9 @@ export default {
     TYPE: TRAP,
     NAME: "Emergency Door",
   },
+  TESLA_COIL: {
+    INTERNAL_ID: "TESLACOIL",
+    TYPE: TRAP,
+    NAME: "Tesla Coil",
+  },
 };

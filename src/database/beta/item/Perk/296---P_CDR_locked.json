@@ -1,0 +1,26 @@
+{
+  "props": {
+    "scaledValueCap": 3,
+    "actcdrIncPerTier": 0.105,
+    "actcdr": 1
+  },
+  "gameplayDesc": "Frapper au corps à corps un ennemi {ralenti@IC}, {gelé@IC}, étourdi ou {enraciné@RO} réduis les délais de réutilisation des compétences de ::actcdr:: sec.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_CDR_locked",
+  "icon": {
+    "x": 1,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Coeur de glace",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 296
+}

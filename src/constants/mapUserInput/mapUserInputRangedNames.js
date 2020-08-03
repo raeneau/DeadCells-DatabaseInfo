@@ -116,4 +116,7 @@ export default {
   SONICREPEATER: rangedWeaponNames.SONIC_CROSSBOW,
 
   BLOWGUN: rangedWeaponNames.BLOWGUN,
+
+  BARRELLAUNCHER: rangedWeaponNames.BARREL_LAUNCHER,
+  BARRELS: rangedWeaponNames.BARREL_LAUNCHER,
 };

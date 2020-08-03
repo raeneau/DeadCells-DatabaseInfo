@@ -1,16 +1,6 @@
-// Local formatted JSON references.
-import {
-  weaponJsons,
-  itemMeleeJsons,
-  itemRangedJsons,
-  itemShieldJsons,
-  enemyJsons,
-  itemGrenadeJsons,
-  itemTrapJsons,
-} from "./jsonImports";
-
 // Local modules.
 import getJson from "./getJson";
+import swapDatabaseVersion from "./swapDatabaseVersions";
 
 // Constants.
 import inputTypes from "../constants/inputTypes";
@@ -28,14 +18,29 @@ const {
 } = inputTypes;
 
 // -----------------------------------------------------------------------------
-const mapUserInput = (userInput) => {
+const mapUserInput = ({ userInput, databaseVersion }) => {
   const { TYPE, INTERNAL_ID } = userInput;
+
+  const versionedDatabase = swapDatabaseVersion({ databaseVersion });
+
+  const {
+    weaponJsons,
+    itemMeleeJsons,
+    itemRangedJsons,
+    itemShieldJsons,
+    enemyJsons,
+    itemGrenadeJsons,
+    itemTrapJsons,
+  } = versionedDatabase;
 
   switch (TYPE) {
     // -------------------------------------------------------------------------
     // Melee Weapons
     // -------------------------------------------------------------------------
     case MELEE_WEAPON: {
+      if (weaponJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
@@ -43,6 +48,7 @@ const mapUserInput = (userInput) => {
         ],
         jsonNames: ["weaponJson", "itemJson"],
         type: "Melee",
+        databaseVersion,
       });
     }
 
@@ -50,12 +56,9 @@ const mapUserInput = (userInput) => {
     // Ranged Weapons
     // -------------------------------------------------------------------------
     case RANGED_WEAPON: {
-      console.log(
-        "mhmhmhm",
-        INTERNAL_ID,
-        weaponJsons[INTERNAL_ID],
-        itemRangedJsons[INTERNAL_ID],
-      );
+      if (weaponJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
@@ -63,6 +66,7 @@ const mapUserInput = (userInput) => {
         ],
         jsonNames: ["weaponJson", "itemJson"],
         type: "Ranged",
+        databaseVersion,
       });
     }
 
@@ -70,6 +74,9 @@ const mapUserInput = (userInput) => {
     // Shields
     // -------------------------------------------------------------------------
     case SHIELD: {
+      if (weaponJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
@@ -77,6 +84,7 @@ const mapUserInput = (userInput) => {
         ],
         jsonNames: ["weaponJson", "itemJson"],
         type: "Shield",
+        databaseVersion,
       });
     }
 
@@ -84,10 +92,14 @@ const mapUserInput = (userInput) => {
     // Enemies
     // -------------------------------------------------------------------------
     case ENEMY: {
+      if (enemyJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [`mob/General${enemyJsons[INTERNAL_ID]}`],
         jsonNames: ["enemyJson"],
         type: "Enemies",
+        databaseVersion,
       });
     }
 
@@ -95,10 +107,14 @@ const mapUserInput = (userInput) => {
     // Grenades (Skill)
     // -------------------------------------------------------------------------
     case GRENADE: {
+      if (itemGrenadeJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [`item/Grenade${itemGrenadeJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         type: "Grenade",
+        databaseVersion,
       });
     }
 
@@ -106,10 +122,14 @@ const mapUserInput = (userInput) => {
     // Traps (Skill)
     // -------------------------------------------------------------------------
     case TRAP: {
+      if (itemTrapJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
       return getJson({
         jsonPaths: [`item/DeployedTrap${itemTrapJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         type: "Trap",
+        databaseVersion,
       });
     }
 

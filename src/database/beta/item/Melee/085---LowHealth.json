@@ -1,0 +1,31 @@
+{
+  "props": {
+    "prct": 0.5
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} lorsque vous avez moins de ::prct::% de vie ou plus de ::prct::% de Mal-être.",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "L'arme de choix des combattants qui aiment vivre dangereusement. ",
+  "id": "LowHealth",
+  "icon": {
+    "x": 17,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Charognarde",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 25,
+  "legendAffix": "HealMidLife",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 85
+}

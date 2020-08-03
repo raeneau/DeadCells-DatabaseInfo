@@ -1,0 +1,27 @@
+{
+  "props": {
+    "scaledValueCap": 0.6,
+    "duration2": 3,
+    "prct": 0.1,
+    "duration": 5
+  },
+  "gameplayDesc": "Tuer un ennemi au corps à corps réduit les dégâts subis de ::+prct::% pendant ::duration:: sec. Vous ne pouvez pas subir de Mal-être pendant ::duration2:: sec.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DeathShield",
+  "icon": {
+    "x": 1,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Berserker",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 272
+}

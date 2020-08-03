@@ -4,7 +4,7 @@ import _isEmpty from "lodash.isempty";
 
 // Screens.
 import UserInputScreen from "./screens/UserInput";
-import WeaponsScreen from "./screens/ItemsWeapons";
+import WeaponsScreen from "./screens/ItemsMelee";
 import RangedWeaponsScreen from "./screens/ItemsRanged";
 import ShieldsScreen from "./screens/ItemsShields";
 import EnemyScreen from "./screens/EnemyScreen";
@@ -20,6 +20,7 @@ import formatInput from "./utils/formatInput";
 // Constants.
 import nameMappings from "./constants/mapUserInput";
 import inputTypes from "./constants/inputTypes";
+import { STABLE } from "./constants/databaseVersion";
 
 // Styles.
 import "./App.css";
@@ -38,6 +39,7 @@ const {
 
 // -----------------------------------------------------------------------------
 
+let databaseVersion = STABLE;
 const cnBase = "App";
 const cn = {
   wrapper: `${cnBase}__wrapper`,
@@ -51,10 +53,13 @@ function App() {
     internalId: undefined,
   });
 
-  const handleChange = (newValue) => {
+  const handleDatabaseChange = (updatedDatabaseVersion) => {
+    databaseVersion = updatedDatabaseVersion;
+  };
+
+  const handleUserInputChange = (newValue) => {
     // Format user input to be all uppercase with no spaces, to match the
     // file import object keys
-    // TODO: MOVE THIS IS A COMMON UTIL
     const formattedUserInput = formatInput(newValue);
 
     const mappedUserInput = nameMappings[formattedUserInput] || {
@@ -76,7 +81,10 @@ function App() {
     }
     // Otherwise, we found a match!
     else {
-      const jsonArray = getViableJsons(mappedUserInput);
+      const jsonArray = getViableJsons({
+        userInput: mappedUserInput,
+        databaseVersion,
+      });
       setValue({
         searchTerm: newValue,
         jsonArrays: jsonArray,
@@ -94,19 +102,32 @@ function App() {
     internalId,
   } = value;
 
+  const validJson = !_isEmpty(jsonArrays);
+
   return (
     <div id="App" className={cn.wrapper}>
-      <UserInputScreen onChange={handleChange} />
-      {resourceType === MELEE_WEAPON && (
+      <UserInputScreen
+        onChange={handleUserInputChange}
+        onDatabaseChange={handleDatabaseChange}
+      />
+      {validJson && resourceType === MELEE_WEAPON && (
         <WeaponsScreen userInput={jsonArrays} internalId={internalId} />
       )}
-      {resourceType === RANGED_WEAPON && (
+      {validJson && resourceType === RANGED_WEAPON && (
         <RangedWeaponsScreen userInput={jsonArrays} internalId={internalId} />
       )}
-      {resourceType === SHIELD && <ShieldsScreen userInput={jsonArrays} />}
-      {resourceType === ENEMY && <EnemyScreen userInput={jsonArrays} />}
-      {resourceType === GRENADE && <GrenadesScreen userInput={jsonArrays} />}
-      {resourceType === TRAP && <TrapScreen userInput={jsonArrays} />}
+      {validJson && resourceType === SHIELD && (
+        <ShieldsScreen userInput={jsonArrays} />
+      )}
+      {validJson && resourceType === ENEMY && (
+        <EnemyScreen userInput={jsonArrays} />
+      )}
+      {validJson && resourceType === GRENADE && (
+        <GrenadesScreen userInput={jsonArrays} />
+      )}
+      {validJson && resourceType === TRAP && (
+        <TrapScreen userInput={jsonArrays} />
+      )}
       {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
         <NotFoundScreen userSearchTerm={searchTerm} />
       )}

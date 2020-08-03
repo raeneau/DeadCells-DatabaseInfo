@@ -168,4 +168,9 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Blowgun",
   },
+  BARREL_LAUNCHER: {
+    INTERNAL_ID: "BARRELLAUNCHER",
+    TYPE: RANGED_WEAPON,
+    NAME: "Barrel Launcher",
+  },
 };

@@ -1,0 +1,50 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "ExplosiveCrossBowOffHand",
+  "strikeChain": [
+    {
+      "coolDown": 0.2,
+      "power": [
+        30
+      ],
+      "fxProps": {
+        "fxOffset": [
+          -1,
+          0
+        ]
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 5,
+        "bump": 1.8,
+        "duration": 0.5
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_oud_charge2.wav",
+      "charge": 0.35,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_oud_release1.wav",
+      "fxId": "fxExplosiveCrossbowAtkB",
+      "animId": "explosiveCrossBowAtkB",
+      "sfxHit": "sfx/weapon_pan_hit1.wav",
+      "hitFrame": 13,
+      "critMul": 1.75,
+      "glowColor": 16711680
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 54
+}

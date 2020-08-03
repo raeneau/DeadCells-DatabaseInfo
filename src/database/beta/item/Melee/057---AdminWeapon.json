@@ -1,0 +1,22 @@
+{
+  "props": {},
+  "gameplayDesc": "SHOULD NEVER DROP",
+  "moneyCost": 100000,
+  "group": 4,
+  "castCD": 0,
+  "id": "AdminWeapon",
+  "icon": {
+    "x": 9,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "ADMIN WEAPON",
+  "droppable": false,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 0,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 57
+}
