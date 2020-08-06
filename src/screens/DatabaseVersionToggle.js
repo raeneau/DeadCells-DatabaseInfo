@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-
-// Screens.
-import WhatsNewScreen from "./WhatsNewScreen";
-import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
+import React from "react";
 
 // Components.
 import Switch from "../components/common/Switch";

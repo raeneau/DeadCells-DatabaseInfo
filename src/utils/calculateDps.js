@@ -9,12 +9,12 @@ import rangedWeaponNames from "../constants/names/rangedWeaponNames";
 
 const {
   BOOMERANG,
-  BOYS_AXE,
+  // BOYS_AXE,
   FIRE_BLAST,
   LIGHTNING_BOLT,
   NERVES_OF_STEEL,
   QUICK_BOW,
-  REPEATER_CROSSBOW,
+  // REPEATER_CROSSBOW,
   SONIC_CROSSBOW,
 } = rangedWeaponNames;
 

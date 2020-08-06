@@ -5,7 +5,6 @@ import _get from "lodash.get";
 import BasicDisplay from "../../components/common/basicDisplay";
 import ArrayDisplay from "../../components/common/arrayDisplay";
 import BasicPercentageDisplay from "../../components/common/basicPercentageDisplay";
-import BaseDps from "../../components/items/baseDps";
 import BreachDps from "../../components/items/breachDps";
 import DamagePerHit from "../../components/items/damagePerHit";
 import BreachDamagePerHit from "../../components/items/breachDamagePerHit";
