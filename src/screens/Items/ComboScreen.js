@@ -22,6 +22,11 @@ const ComboScreen = (props) => {
             array={strikeChain}
             objectKey="lockCtrlAfter"
           />
+          <ArrayDisplay
+            name="Cooldown"
+            array={strikeChain}
+            objectKey="coolDown"
+          />
         </tbody>
       </table>
     </div>
