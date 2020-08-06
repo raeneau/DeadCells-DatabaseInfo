@@ -1,8 +1,26 @@
-/* The switch - the box around the slider */
+/* Based off of:
+*  https://www.w3schools.com/howto/howto_css_switch.asp
+*/
+
+/* Wrapper around entire Switch component */
+.Switch__wrapper {
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  padding: 5px;
+  text-align: center;
+}
+
+.Switch__label {
+  padding: 8px;
+  min-width: 185px;
+}
+
+/* Box around the slider */
 .Switch__labelWrapper {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 65px;
   height: 34px;
 }
 
@@ -25,9 +43,12 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
+
+  /* Round out the slider */
+  border-radius: 34px;
 }
 
-.Switch__span:before {
+.Switch__span::before {
   position: absolute;
   content: "";
   height: 26px;
@@ -37,27 +58,21 @@
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+
+  /* Round out the slider  */
+  border-radius: 50%;
 }
 
 input:checked + .Switch__span {
-  background-color: #2196f3;
+  background-color: rgba(164, 2, 57, 0.3);
 }
 
 input:focus + .Switch__span {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #f9cf87;
 }
 
-input:checked + .Switch__span:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Round out the slider */
-.Switch__span {
-  border-radius: 34px;
-}
-
-.Switch__span:before {
-  border-radius: 50%;
+input:checked + .Switch__span::before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
 }

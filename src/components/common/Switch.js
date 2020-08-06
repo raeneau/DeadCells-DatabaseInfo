@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 // Styles.
@@ -14,13 +14,29 @@ const cn = {
   labelWrapper: `${cnBase}__labelWrapper`,
 };
 function Switch(props) {
-  const { switchId, onChange, label, value } = props;
+  const { switchId, onChange, label, onLabel, offLabel } = props;
+  const [value, setValue] = useState({
+    variableLabel: offLabel,
+  });
+
+  function handleChange(event) {
+    setValue({
+      variableLabel: event.target.checked ? onLabel : offLabel,
+    });
+    // Here, we invoke the callback with the new value
+    onChange(event);
+  }
+
+  const { variableLabel } = value;
 
   return (
     <div className={cn.wrapper}>
-      <span className={cn.label}>{label}</span>
+      <span className={cn.label}>
+        {label}
+        <b>{variableLabel}</b>
+      </span>
       <label className={cn.labelWrapper} htmlFor={switchId}>
-        <input type="checkbox" id={switchId} onChange={onChange} />
+        <input type="checkbox" id={switchId} onChange={handleChange} />
         <span className={cn.span} />
       </label>
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>August 1st 2020</h4>
 export default (
   <div>
+    <h4>August 1st 2020</h4>
     <li>
       Changed DPS calculations to the ones provided by Noja (some are still
       inaccurate)

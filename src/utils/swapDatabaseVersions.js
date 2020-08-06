@@ -19,11 +19,7 @@ import {
   itemTrapJsons as itemTrapJsonsBeta,
 } from "./jsonImportsBeta";
 
-// Local modules.
-import getJson from "./getJson";
-
 // Constants.
-import inputTypes from "../constants/inputTypes";
 import { BETA, STABLE } from "../constants/databaseVersion";
 
 // -----------------------------------------------------------------------------

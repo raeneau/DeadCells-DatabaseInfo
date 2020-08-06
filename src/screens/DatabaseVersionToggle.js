@@ -41,7 +41,9 @@ function UserInputScreen(props) {
         <Switch
           switchId="DatabaseTypeSwitch"
           onChange={handleChange}
-          label="Toggle the database idk what to put here lolol"
+          label="Database Version: "
+          onLabel="Beta"
+          offLabel="Stable"
         />
       </div>
     </div>
