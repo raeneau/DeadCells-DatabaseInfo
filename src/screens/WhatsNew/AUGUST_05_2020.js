@@ -4,6 +4,7 @@ import React from "react";
 export default (
   <div>
     <li>Added toggle to switch between beta and stable databases</li>
+    <li>I can't promise the new weapons have accurate DPS ;)</li>
     <br />
     <b>CAUTION: These weapons have INACCURATE DPS:</b>
     <li>Valmont's Whip</li>
