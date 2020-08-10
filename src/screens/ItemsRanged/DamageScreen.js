@@ -15,7 +15,7 @@ import DamageOverTimeStatus from "../../components/items/damageOverTimeStatus";
 // -----------------------------------------------------------------------------
 
 const DamageScreen = (props) => {
-  const { itemJson, weaponJson, internalId } = props;
+  const { itemJson, strikeChain, internalId } = props;
 
   return (
     <div>
@@ -23,7 +23,7 @@ const DamageScreen = (props) => {
       <table>
         <tbody>
           <BaseDps
-            array={_get(weaponJson, "strikeChain")}
+            array={strikeChain}
             internalId={internalId}
             itemJson={itemJson}
           />
@@ -50,19 +50,19 @@ const DamageScreen = (props) => {
             requiredType="Shield"
             actualType={_get(itemJson, "__separator_group_Name")}
           />
-          <DamagePerHit array={_get(weaponJson, "strikeChain")} />
+          <DamagePerHit array={strikeChain} />
           <WeaponEffectDuration
             name="AOE Duration"
-            array={_get(weaponJson, "strikeChain")}
+            array={strikeChain}
             objectKey="props"
           />
           <ArrayDisplay
             name="Breach Bonus"
-            array={_get(weaponJson, "strikeChain")}
+            array={strikeChain}
             objectKey="breachBonus"
           />
-          <BreachDps array={_get(weaponJson, "strikeChain")} />
-          <BreachDamagePerHit array={_get(weaponJson, "strikeChain")} />
+          <BreachDps array={strikeChain} />
+          <BreachDamagePerHit array={strikeChain} />
         </tbody>
       </table>
     </div>
