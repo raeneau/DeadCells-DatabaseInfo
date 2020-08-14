@@ -1,0 +1,31 @@
+{
+  "props": {
+    "movePauseMul": 99999
+  },
+  "genTags": 0,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 1,
+  "canBeElite": false,
+  "index": 83,
+  "id": "Decoy",
+  "weight": 500,
+  "icon": {
+    "x": 39,
+    "y": 24,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": 120,
+  "name": "Leurre",
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 11562569,
+  "skill": [],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 83
+}

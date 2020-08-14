@@ -1,0 +1,47 @@
+{
+  "props": {
+    "range": 8,
+    "color2": 8061841,
+    "targetable": true,
+    "dps": [
+      50
+    ],
+    "dps2": 15,
+    "lightRange": 6,
+    "life": 150,
+    "color": 4998263,
+    "effectCD": 0.8
+  },
+  "gameplayDesc": "Lance un éclair sur un ennemi proche et inflige {choc@EL}.",
+  "moneyCost": 1750,
+  "group": 0,
+  "castCD": 10,
+  "id": "TeslaCoil",
+  "icon": {
+    "x": 32,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bobine Tesla",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 40,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 10
+}

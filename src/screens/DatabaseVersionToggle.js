@@ -1,10 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // Components.
 import Switch from "../components/common/Switch";
 
 // Constants.
-import { BETA, STABLE } from "../constants/databaseVersion";
+import {
+  BETA,
+  STABLE,
+  BETA_VERSION,
+  STABLE_VERSION,
+} from "../constants/databaseVersion";
 
 // Styles.
 import "./UserInput.css";
@@ -35,16 +41,21 @@ function UserInputScreen(props) {
     <div>
       <div className={cn.inputWrapper}>
         <Switch
+          disabled // TRUE when there is no current beta
           switchId="DatabaseTypeSwitch"
           onChange={handleChange}
           label="Database Version: "
-          onLabel="Beta"
-          offLabel="Stable"
+          onLabel={`Beta (${BETA_VERSION})`}
+          offLabel={`Stable (${STABLE_VERSION})`}
         />
       </div>
     </div>
   );
 }
+
+UserInputScreen.propTypes = {
+  onChange: PropTypes.func.isRequired,
+};
 
 // -----------------------------------------------------------------------------
 

@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "N'ayez plus peur d'aller parler aux gens.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerAphrodite",
+  "icon": {
+    "x": 23,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue Aphrodite",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 500,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 320
+}

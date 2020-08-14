@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 2474441,
     "viewerColor": 1441839,
-    "musicLoop": "music/ambiant3.ogg",
+    "musicLoop": "music/default/ambiant3.ogg",
     "chromaColor": 62719,
     "loadingDescColor": 6652612,
     "loadingColor": 1121065
@@ -33,7 +33,7 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,
-  "baseLootLevel": 3,
+  "baseLootLevel": 4,
   "loreDescriptions": [
     {
       "text": "Franchir les murailles de la prison est déjà un exploit en soit. Franchir le pont relève du miracle."

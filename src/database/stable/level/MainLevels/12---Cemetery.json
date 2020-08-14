@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 12397452,
     "viewerColor": 9520018,
-    "musicLoop": "music/Cemetery.ogg",
+    "musicLoop": "music/default/Cemetery.ogg",
     "zDoorColor": 2602949,
     "viewerY": 3,
     "chromaColor": 16711815,

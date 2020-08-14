@@ -3,10 +3,10 @@
   "props": {
     "levelTrapFrequency": 0.3,
     "doorColor": 10104763,
-    "musicIntro": "music/prisoncorrupt_intro.ogg",
+    "musicIntro": "music/default/prisoncorrupt_intro.ogg",
     "viewerColor": 7037069,
     "viewerOffsetX": -1,
-    "musicLoop": "music/prisoncorrupt_loop.ogg",
+    "musicLoop": "music/default/prisoncorrupt_loop.ogg",
     "zDoorColor": 2801540,
     "noAdditionalElite": false,
     "viewerY": 5,
@@ -90,9 +90,7 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat"
-      },
+      "props": {},
       "mob": "Samurai",
       "minDifficulty": 2,
       "quantityFactor": 0.8,
@@ -103,8 +101,8 @@
       "props": {
         "spawnWith": "Rat",
         "spawnWithNumber": [
-          1,
-          2
+          0,
+          1
         ]
       },
       "mob": "Rat",
@@ -114,9 +112,7 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat"
-      },
+      "props": {},
       "mob": "Zombie",
       "maxDifficulty": 1,
       "minDifficulty": 0,

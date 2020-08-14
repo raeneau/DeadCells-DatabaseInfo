@@ -1,0 +1,26 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "moneyCost": 2000,
+  "group": 10,
+  "castCD": 0,
+  "id": "TwitchBSUp",
+  "icon": {
+    "x": 47,
+    "y": 61,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Choix du Minotaure",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 223
+}

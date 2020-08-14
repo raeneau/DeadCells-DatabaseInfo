@@ -1,0 +1,28 @@
+{
+  "props": {
+    "power": 10000,
+    "disableFloatAnim": true,
+    "chance": 0,
+    "enableAutoPick": false,
+    "count": 20,
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Cet objet vous rapportera ::$power:: {iconCoin@img}, mais vous subirez une malédiction si vous le ramassez !",
+  "moneyCost": 0,
+  "group": 11,
+  "castCD": 0,
+  "id": "CursedGem",
+  "icon": {
+    "x": 9,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Artefact corrompu",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 263
+}

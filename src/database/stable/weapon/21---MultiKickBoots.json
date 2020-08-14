@@ -6,7 +6,7 @@
     {
       "coolDown": 0.25,
       "power": [
-        25
+        35
       ],
       "fxProps": {
         "fxInnerColor": 13688063
@@ -15,7 +15,7 @@
       "props": {},
       "breachBonus": -1,
       "dynamicCharge": 0,
-      "charge": 0.15,
+      "charge": 0.2,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -35,39 +35,7 @@
     {
       "coolDown": 0,
       "power": [
-        35
-      ],
-      "fxProps": {
-        "fxInnerColor": 8051967
-      },
-      "lockCtrlAfter": 0.06,
-      "props": {
-        "bump": 0.1
-      },
-      "breachBonus": -1,
-      "dynamicCharge": 0,
-      "charge": 0.08,
-      "sfxProps": {},
-      "canCrit": false,
-      "area": {
-        "width": 2.75,
-        "offsetCaseX": 0.3,
-        "offsetCaseY": -0.5,
-        "height": 0,
-        "shape": 0
-      },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
-      "fxId": "fxComboKickA",
-      "animId": "comboKickA",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
-      "hitFrame": 8,
-      "glowColor": 14667198,
-      "animSpd": 2
-    },
-    {
-      "coolDown": 0,
-      "power": [
-        40
+        45
       ],
       "fxProps": {
         "fxInnerColor": 16761353
@@ -78,7 +46,7 @@
       },
       "breachBonus": 0.25,
       "dynamicCharge": 0,
-      "charge": 0.25,
+      "charge": 0.2,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -98,22 +66,19 @@
     {
       "coolDown": 0,
       "power": [
-        76
+        70
       ],
       "fxProps": {
         "fxInnerColor": 16761353
       },
-      "lockCtrlAfter": 0.45,
+      "lockCtrlAfter": 0.3,
       "props": {
-        "power2": [
-          60
-        ],
         "bump": 1,
         "duration": 0.6
       },
       "breachBonus": 0.25,
       "dynamicCharge": 0,
-      "charge": 0.33,
+      "charge": 0.35,
       "sfxProps": {},
       "canCrit": false,
       "area": {

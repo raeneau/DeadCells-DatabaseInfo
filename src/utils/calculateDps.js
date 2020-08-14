@@ -9,12 +9,11 @@ import rangedWeaponNames from "../constants/names/rangedWeaponNames";
 
 const {
   BOOMERANG,
-  // BOYS_AXE,
+  BOYS_AXE,
   FIRE_BLAST,
   LIGHTNING_BOLT,
   NERVES_OF_STEEL,
   QUICK_BOW,
-  // REPEATER_CROSSBOW,
   SONIC_CROSSBOW,
 } = rangedWeaponNames;
 
@@ -48,7 +47,7 @@ export const newCalculateDps = ({ strikeChainArray }) => {
       // Time related
       const charge = _get(element, "charge", 0);
       const lockCtrlAfter = _get(element, "lockCtrlAfter", 0);
-      const cooldown = _get(element, "cooldown", 0);
+      const cooldown = _get(element, "coolDown", 0);
       // Damage related
       const power = _get(element, "power[0]");
       const actualCritMult = criticalHitMul * _get(element, "critMul", 1);
@@ -154,9 +153,11 @@ export const calculateDpsSonicCarbine = ({
 
   const vanillaDps = (power * ammo) / (charge + tick * (ammo - 1));
 
+  // Possible crit DPS if EE ever... fixes it?
+  //  Math.round(vanillaDps * 2)
   return {
     dps: Math.round(vanillaDps),
-    critDps: Math.round(vanillaDps * 2),
+    critDps: Math.round(vanillaDps),
   };
 };
 
@@ -218,7 +219,22 @@ export const calculateDpsNerves = ({ strikeChainArray }) => {
   };
 };
 
-export const calculateDpsBoysAxe = ({ strikeChainArray }) => {};
+export const calculateDpsBoysAxe = ({ strikeChainArray, itemJsonProps }) => {
+  const strikeChainElement = strikeChainArray[0];
+
+  const charge = _get(strikeChainElement, "charge", 0);
+  const power = _get(strikeChainElement, "power[0]");
+  const effectPower = _get(itemJsonProps, "props.power[0]");
+  const castTime = _get(itemJsonProps, "props.castTime");
+  const cooldown = _get(strikeChainElement, "coolDown");
+
+  const vanillaDps = (power + effectPower) / (charge + cooldown + castTime);
+
+  return {
+    dps: Math.round(vanillaDps),
+    critDps: "", // Boy's Axe doesn't crit, it has root damage instead
+  };
+};
 
 export const calculateDpsFireBlast = ({ strikeChainArray, itemJsonProps }) => {
   const strikeChainElement = strikeChainArray[0];
@@ -259,8 +275,8 @@ export const calculateDps = ({
     case BOOMERANG.INTERNAL_ID:
       return calculateDpsBoomerang({ strikeChainArray, itemJsonProps });
 
-    // case BOYS_AXE.INTERNAL_ID:
-    //   return calculateDpsBoysAxe({ strikeChainArray, itemJsonProps });
+    case BOYS_AXE.INTERNAL_ID:
+      return calculateDpsBoysAxe({ strikeChainArray, itemJsonProps });
 
     case FIRE_BLAST.INTERNAL_ID:
       return calculateDpsFireBlast({ strikeChainArray, itemJsonProps });

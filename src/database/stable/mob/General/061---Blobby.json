@@ -87,7 +87,7 @@
       "disableAnnounceFx": true,
       "sfxHit": "sfx/hit_blood.wav",
       "hitFrame": 0,
-      "breachResistance": 0,
+      "breachResistance": -0.2,
       "lockAiAfter": 0.5,
       "ignoreGlobalCD": false
     },

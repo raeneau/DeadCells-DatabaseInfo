@@ -1,0 +1,28 @@
+{
+  "props": {
+    "power": [
+      180
+    ],
+    "duration": 8,
+    "ceilToolTipValues": true
+  },
+  "gameplayDesc": "L'attaque qui suit une {parade@PA} réussie inflige +::+power:: dégâts.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DmgParry",
+  "icon": {
+    "x": 2,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Contre-attaque",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 289
+}

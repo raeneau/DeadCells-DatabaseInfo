@@ -2,7 +2,8 @@
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1,
-    "prct": 0.02,
+    "near": 4,
+    "prct": 0.01,
     "maxSpeed": 3,
     "bumpResistance": 0.3
   },

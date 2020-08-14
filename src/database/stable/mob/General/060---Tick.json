@@ -51,7 +51,7 @@
       "chargeAnim": "idleLoadAtk1",
       "coolDown": 2,
       "power": [
-        35
+        25
       ],
       "props": {
         "x": 2,
@@ -78,7 +78,7 @@
       "chargeAnim": "idleLoadAtk2",
       "coolDown": 0,
       "power": [
-        20
+        12
       ],
       "props": {
         "x": -5,
@@ -105,7 +105,7 @@
       "chargeAnim": "idleLoadSlash1",
       "coolDown": 1.5,
       "power": [
-        30
+        25
       ],
       "props": {
         "bump": 0.7,
@@ -132,7 +132,7 @@
       "chargeAnim": "idleLoadSlash2",
       "coolDown": 0,
       "power": [
-        15
+        12
       ],
       "props": {
         "bump": 1.2,

@@ -32,7 +32,7 @@ function BreachDamagePerHit(props) {
         <td>
           {power + power * breachBonus}
           {canCrit
-            ? `(${(
+            ? ` (${(
                 power * 2 * critMult +
                 power * 2 * critMult * breachBonus
               ).toFixed(0)})`

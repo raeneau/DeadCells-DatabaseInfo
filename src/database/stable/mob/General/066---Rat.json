@@ -2,9 +2,10 @@
   "props": {
     "walkAnimSpeed": 1.5,
     "movePauseMul": 0,
-    "far": 20,
+    "far": 8,
     "moveSpeedMul": 3,
-    "near": 5
+    "near": 4,
+    "directHitStunChance": 1
   },
   "genTags": 0,
   "glowOuterColor": 5186580,
@@ -24,7 +25,7 @@
     "size": 24
   },
   "life": [
-    40
+    20
   ],
   "name": "Rat Purulent",
   "glowInnerColor": 7741796,
@@ -37,7 +38,7 @@
   "skill": [
     {
       "chargeAnim": "loadAtk",
-      "coolDown": 5,
+      "coolDown": 2.8,
       "power": [
         5
       ],

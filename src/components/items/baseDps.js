@@ -20,7 +20,7 @@ function BaseDps(props) {
   });
   const critDpsMessage =
     dps.dps === dps.critDps || dps.critDps === ""
-      ? `(N/A) *weapon cannot crit in normal gameplay`
+      ? `(N/A) *crit damage equals normal damage (usually means the weapon cannot crit)`
       : `(${dps.critDps}) *crit has a special activation condition`;
   const critDps = dps.critAllowed ? `(${dps.critDps})` : critDpsMessage;
 
@@ -42,10 +42,12 @@ BaseDps.propTypes = {
       lock: PropTypes.number,
     }),
   ),
+  internalId: PropTypes.string,
 };
 
 BaseDps.defaultProps = {
   array: undefined,
+  internalId: undefined,
 };
 
 // -----------------------------------------------------------------------------

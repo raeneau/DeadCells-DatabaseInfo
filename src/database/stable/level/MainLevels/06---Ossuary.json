@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 10951708,
     "viewerColor": 7878920,
-    "musicLoop": "music/Ossuary.ogg",
+    "musicLoop": "music/default/Ossuary.ogg",
     "zDoorColor": 2540927,
     "viewerY": -0.5,
     "chromaColor": 16711680,

@@ -4,46 +4,9 @@
   "item": "ExplosiveCrossBowOffHand",
   "strikeChain": [
     {
-      "coolDown": 0,
+      "coolDown": 0.2,
       "power": [
-        65
-      ],
-      "fxProps": {
-        "fxScale": [
-          0.9,
-          0.9
-        ],
-        "fxOffset": [
-          1,
-          -10
-        ]
-      },
-      "lockCtrlAfter": 0.2,
-      "props": {},
-      "breachBonus": 1,
-      "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_oud_charge1.wav",
-      "charge": 0.47,
-      "sfxProps": {},
-      "canCrit": false,
-      "area": {
-        "width": 3,
-        "offsetCaseX": 0.75,
-        "offsetCaseY": -1,
-        "height": 4,
-        "shape": 1
-      },
-      "sfxRelease": "sfx/weapon_oud_release1.wav",
-      "fxId": "fxExplosiveCrossbowAtkA",
-      "animId": "explosiveCrossBowAtkA",
-      "sfxHit": "sfx/weapon_pan_hit1.wav",
-      "hitFrame": 13,
-      "glowColor": 16757760
-    },
-    {
-      "coolDown": 0,
-      "power": [
-        45
+        30
       ],
       "fxProps": {
         "fxOffset": [
@@ -51,16 +14,16 @@
           0
         ]
       },
-      "lockCtrlAfter": 0.25,
+      "lockCtrlAfter": 0.1,
       "props": {
-        "range": 8,
-        "bump": 1.5,
-        "duration": 0.8
+        "range": 5,
+        "bump": 1.8,
+        "duration": 0.5
       },
       "breachBonus": 0.5,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_oud_charge2.wav",
-      "charge": 0.47,
+      "charge": 0.35,
       "sfxProps": {},
       "canCrit": true,
       "area": {

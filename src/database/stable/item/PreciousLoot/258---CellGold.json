@@ -1,0 +1,27 @@
+{
+  "props": {
+    "power": 20,
+    "disableFloatAnim": true,
+    "chance": 0,
+    "enableAutoPick": true,
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Une petite cellule en or d'une valeur de ::$power::{iconCoin@img}.",
+  "moneyCost": 0,
+  "group": 11,
+  "castCD": 0,
+  "id": "CellGold",
+  "icon": {
+    "x": 5,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Cellule en or",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 258
+}

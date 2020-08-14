@@ -1,0 +1,45 @@
+{
+  "props": {
+    "ammo": 4
+  },
+  "gameplayDesc": "{Gèle@IC} brièvement les ennemis.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "FrostBow",
+  "icon": {
+    "x": 12,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arc de glace",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 30,
+  "legendAffix": "StrongIce",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 102
+}

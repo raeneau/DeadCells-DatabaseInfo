@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 14208601,
     "viewerColor": 6123284,
-    "musicLoop": "music/OldSewers.ogg",
+    "musicLoop": "music/default/OldSewers.ogg",
     "zDoorColor": 324756,
     "viewerY": 2.5,
     "chromaColor": 16771840,

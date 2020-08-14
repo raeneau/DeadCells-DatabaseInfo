@@ -4,9 +4,9 @@
   "item": "ExplosiveCrossBow",
   "strikeChain": [
     {
-      "coolDown": 0.3,
+      "coolDown": 0.2,
       "power": [
-        65
+        100
       ],
       "fxProps": {
         "fxInnerColor": 16711680,
@@ -15,17 +15,17 @@
       "lockCtrlAfter": 0.1,
       "props": {
         "range": 4,
-        "duration2": 0.8,
+        "duration2": 0.1,
         "power2": [
           90
         ],
-        "bump": 1,
-        "duration": 1
+        "bump": 0.5,
+        "duration": 0.2
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_firecrossbow_charge.wav",
-      "charge": 0.6,
+      "charge": 0.5,
       "sfxProps": {
         "sfxChargeVolume": 0.4
       },

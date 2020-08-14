@@ -5,7 +5,9 @@
   "strikeChain": [
     {
       "coolDown": 0.34,
-      "power": [24],
+      "power": [
+        24
+      ],
       "fxProps": {
         "fxInnerColor": 13094115,
         "fxStartFrame": 2,

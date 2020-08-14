@@ -1,7 +1,8 @@
 {
   "props": {
     "movePauseMul": 0,
-    "moveSpeedMul": 1
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1
   },
   "genTags": 0,
   "glowOuterColor": 7996189,
@@ -21,7 +22,7 @@
     "size": 24
   },
   "life": [
-    150
+    120
   ],
   "name": "Guerrier Lointain ",
   "glowInnerColor": 13526820,
@@ -52,8 +53,8 @@
       "sfxRelease": "sfx/enm_samurai_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 1,
-      "breachResistance": 0,
-      "lockAiAfter": 0.6,
+      "breachResistance": -10,
+      "lockAiAfter": 1,
       "ignoreGlobalCD": false
     },
     {
@@ -78,12 +79,12 @@
       "sfxRelease": "sfx/enm_samurai_release2.wav",
       "disableAnnounceFx": false,
       "hitFrame": 1,
-      "breachResistance": 0,
-      "lockAiAfter": 0.6,
+      "breachResistance": -10,
+      "lockAiAfter": 1,
       "ignoreGlobalCD": false
     },
     {
-      "coolDown": 0.5,
+      "coolDown": 1.5,
       "props": {
         "height": 2
       },

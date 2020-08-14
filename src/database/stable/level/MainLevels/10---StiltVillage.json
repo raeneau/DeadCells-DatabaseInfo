@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 3062659,
     "viewerColor": 3261821,
-    "musicLoop": "music/Village.ogg",
+    "musicLoop": "music/default/Village.ogg",
     "zDoorColor": 13286476,
     "viewerY": -1,
     "chromaColor": 65366,

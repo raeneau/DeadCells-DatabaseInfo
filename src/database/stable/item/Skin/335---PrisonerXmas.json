@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "Joyeuses fêtes !",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerXmas",
+  "icon": {
+    "x": 23,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue de fêtes",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 1,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 335
+}

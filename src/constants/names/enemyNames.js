@@ -95,6 +95,8 @@ export default {
     NAME: "Magistrate of Death",
   },
   LIBRARIAN: { INTERNAL_ID: "LIBRARIAN", TYPE: ENEMY, NAME: "Librarian" },
+
+  // ------------------------------ BAD SEED ------------------------------ //
   YEETER: { INTERNAL_ID: "PITCHER", TYPE: ENEMY, NAME: "Yeeter" },
   JERKSHROOM: {
     INTERNAL_ID: "THROWABLEMUSHROOM",
@@ -103,6 +105,8 @@ export default {
   },
   BANISHED: { INTERNAL_ID: "FUGITIVE", TYPE: ENEMY, NAME: "Banished" },
   BLOWGUNNER: { INTERNAL_ID: "BLOWGUNNER", TYPE: ENEMY, NAME: "Blowgunner" },
+
+  // --------------------------- BESTIARY UPDATE --------------------------- //
   RAT: { INTERNAL_ID: "RAT", TYPE: ENEMY, NAME: "Rancid Rat" },
   OVEN_KNIGHT: { INTERNAL_ID: "ENFORCER", TYPE: ENEMY, NAME: "Guardian" },
   BLOBBY: { INTERNAL_ID: "BLOBBY", TYPE: ENEMY, NAME: "Toxic Miasma" },
@@ -113,4 +117,13 @@ export default {
     NAME: "Corpulent Zombie",
   },
   DUELIST: { INTERNAL_ID: "DUELIST", TYPE: ENEMY, NAME: "Duelist" },
+
+  // ------------------------ BARRELS O' FUN UPDATE ------------------------ //
+  INFECTED_WORKER: {
+    INTERNAL_ID: "HURLER",
+    TYPE: ENEMY,
+    NAME: "Infected Worker",
+  },
+
+  LIVING_BARREL: { INTERNAL_ID: "MIMIC", TYPE: ENEMY, NAME: "Living Barrel" },
 };

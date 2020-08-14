@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 13247047,
     "viewerColor": 3104,
-    "musicLoop": "music/ambiant4.ogg",
+    "musicLoop": "music/default/ambiant4.ogg",
     "zDoorColor": 12397143,
     "brutalityTier": 17,
     "chromaColor": 16734720,
@@ -36,7 +36,7 @@
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 0,
-  "baseLootLevel": 5,
+  "baseLootLevel": 6,
   "loreDescriptions": [
     {
       "text": "C'est dans cette salle que la gardienne... Non, c'était dans cette salle... Enfin non, ce sera dans cette salle que... Heu, où en étions-nous, déjà ? "

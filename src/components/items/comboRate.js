@@ -23,7 +23,8 @@ function ComboRate(props) {
     const cooldown = _get(element, "coolDown", 0);
     const lockControlAfter = _get(element, "lockCtrlAfter", 0);
 
-    const durationForCurrentHit = charge + cooldown + lockControlAfter;
+    const durationForCurrentHit =
+      charge + Math.max(cooldown + lockControlAfter);
 
     durationByHit.push(
       <Fragment>

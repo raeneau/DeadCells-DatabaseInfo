@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 2409897,
     "viewerColor": 3425097,
-    "musicLoop": "music/ambiant5.ogg",
+    "musicLoop": "music/default/ambiant5.ogg",
     "zDoorColor": 2538921,
     "viewerY": 2.5,
     "chromaColor": 51199,

@@ -1,0 +1,27 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Améliore au choix votre Tactique ou votre Survie.",
+  "moneyCost": 2000,
+  "group": 10,
+  "castCD": 0,
+  "id": "TSUp",
+  "icon": {
+    "x": 10,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Parchemin du Gardien",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 216
+}

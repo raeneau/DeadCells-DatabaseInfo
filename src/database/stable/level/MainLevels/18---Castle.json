@@ -2,9 +2,9 @@
   "eliteRoomChance": 0,
   "props": {
     "doorColor": 13542177,
-    "musicIntro": "music/castle_intro.ogg",
+    "musicIntro": "music/default/castle_intro.ogg",
     "viewerColor": 16768303,
-    "musicLoop": "music/castle_loop.ogg",
+    "musicLoop": "music/default/castle_loop.ogg",
     "zDoorColor": 16050375,
     "viewerY": 1,
     "chromaColor": 16760576,

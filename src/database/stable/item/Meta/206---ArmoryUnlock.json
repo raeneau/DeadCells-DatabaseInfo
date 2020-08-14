@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Permet de choisir son équipement de départ entre 4 sets de 5 items contenant une arme de mélée, une arme à distance, un bouclier et deux capacités actives.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "ArmoryUnlock",
+  "icon": {
+    "x": 6,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tubes de Recyclage",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 150,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 206
+}

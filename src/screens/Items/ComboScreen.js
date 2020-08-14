@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // Local modules.
 import ArrayDisplay from "../../components/common/arrayDisplay";
@@ -17,8 +18,9 @@ const ComboScreen = (props) => {
         <tbody>
           <ComboRate array={strikeChain} />
           <AttackDuration array={strikeChain} />
+          <ArrayDisplay name="Charge" array={strikeChain} objectKey="charge" />
           <ArrayDisplay
-            name="Lock"
+            name="Lock (lockCtrlAfter)"
             array={strikeChain}
             objectKey="lockCtrlAfter"
           />
@@ -31,6 +33,20 @@ const ComboScreen = (props) => {
       </table>
     </div>
   );
+};
+
+ComboScreen.propTypes = {
+  strikeChain: PropTypes.arrayOf(
+    PropTypes.shape({
+      charge: PropTypes.number,
+      cooldown: PropTypes.number,
+      lockControlAfter: PropTypes.number,
+    }),
+  ),
+};
+
+ComboScreen.defaultProps = {
+  strikeChain: undefined,
 };
 
 // -----------------------------------------------------------------------------

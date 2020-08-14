@@ -3,9 +3,9 @@
   "props": {
     "minPerfectKillsMobCount": 0.5,
     "doorColor": 7681473,
-    "musicIntro": "music/prisonstart_intro.ogg",
+    "musicIntro": "music/default/prisonstart_intro.ogg",
     "viewerColor": 2370433,
-    "musicLoop": "music/prisonstart_loop.ogg",
+    "musicLoop": "music/default/prisonstart_loop.ogg",
     "zDoorColor": 12684325,
     "noAdditionalElite": false,
     "viewerY": 1.25,
@@ -42,7 +42,9 @@
     },
     {
       "singleRoom": false,
-      "props": {},
+      "props": {
+        "spawnWith": "Rat"
+      },
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 1,
@@ -85,7 +87,13 @@
     },
     {
       "singleRoom": false,
-      "props": {},
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          1,
+          2
+        ]
+      },
       "mob": "Mage360",
       "minDifficulty": 4,
       "quantityFactor": 1.5,
@@ -93,7 +101,13 @@
     },
     {
       "singleRoom": false,
-      "props": {},
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          1,
+          2
+        ]
+      },
       "mob": "Mage360",
       "maxDifficulty": 3,
       "minDifficulty": 2,
@@ -102,7 +116,13 @@
     },
     {
       "singleRoom": false,
-      "props": {},
+      "props": {
+        "spawnWith": "Rat",
+        "spawnWithNumber": [
+          0,
+          1
+        ]
+      },
       "mob": "KunaiMaster",
       "minDifficulty": 1,
       "quantityFactor": 2,
@@ -129,7 +149,10 @@
       "singleRoom": false,
       "props": {
         "spawnWith": "Rat",
-        "spawnWithNumber": 2
+        "spawnWithNumber": [
+          1,
+          2
+        ]
       },
       "mob": "Rat",
       "minDifficulty": 1,

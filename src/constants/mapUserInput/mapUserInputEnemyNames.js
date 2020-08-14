@@ -161,4 +161,11 @@ export default {
 
   DUELIST: enemyNames.DUELIST,
   DANCER: enemyNames.DUELIST,
+
+  INFECTEDWORKER: enemyNames.INFECTED_WORKER,
+  HURLER: enemyNames.INFECTED_WORKER,
+
+  LIVINGBARREL: enemyNames.LIVING_BARREL,
+  BARREL: enemyNames.LIVING_BARREL,
+  MIMIC: enemyNames.LIVING_BARREL,
 };

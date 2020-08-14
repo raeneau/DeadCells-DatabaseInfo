@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "Invoque un allié attaquant les ennemis proches.",
+  "moneyCost": 1500,
+  "group": 2,
+  "castCD": 15,
+  "id": "SideTurret",
+  "icon": {
+    "x": 57,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "\"Agression\" (allié)",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 25
+}

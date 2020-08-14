@@ -3,7 +3,7 @@
   "props": {
     "doorColor": 12677929,
     "viewerColor": 16639,
-    "musicLoop": "music/templecutpart1.ogg",
+    "musicLoop": "music/default/templecutpart1.ogg",
     "zDoorColor": 13070624,
     "viewerY": 1,
     "chromaColor": 16731904,

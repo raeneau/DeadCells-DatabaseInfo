@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Un vêtement pour les protéger tous.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "HotkDefault",
+  "icon": {
+    "x": 19,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue du Gardien",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 75,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 367
+}

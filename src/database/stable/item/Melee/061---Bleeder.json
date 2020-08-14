@@ -1,0 +1,36 @@
+{
+  "props": {
+    "dps": 5,
+    "duration": 12
+  },
+  "gameplayDesc": "Provoque {saignement@BL} (::+dps:: DPS pendant ::duration:: sec).",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "id": "Bleeder",
+  "icon": {
+    "x": 4,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bain de sang",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 5,
+  "legendAffix": "BleedDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 61
+}

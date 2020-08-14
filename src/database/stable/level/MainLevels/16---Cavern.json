@@ -4,7 +4,7 @@
     "levelTrapFrequency": 0.5,
     "doorColor": 2279852,
     "viewerColor": 8891837,
-    "musicLoop": "music/truecavern.ogg",
+    "musicLoop": "music/default/truecavern.ogg",
     "zDoorColor": 5622448,
     "viewerY": 3.5,
     "chromaColor": 51199,

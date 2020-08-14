@@ -24,6 +24,10 @@
   height: 34px;
 }
 
+.Switch__span.disabled {
+  cursor: not-allowed;
+}
+
 /* Hide default HTML checkbox */
 .Switch__labelWrapper input {
   opacity: 0;

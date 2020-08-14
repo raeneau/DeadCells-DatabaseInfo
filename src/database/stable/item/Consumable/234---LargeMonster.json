@@ -1,0 +1,28 @@
+{
+  "props": {
+    "prct": 0.5,
+    "duration": 1.5
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "LargeMonster",
+  "icon": {
+    "x": 12,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Gros oeil",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "LargeHealConsumable"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 234
+}

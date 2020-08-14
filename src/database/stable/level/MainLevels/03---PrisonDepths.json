@@ -3,10 +3,10 @@
   "props": {
     "minPerfectKillsMobCount": 0.5,
     "doorColor": 8268995,
-    "musicIntro": "music/PrisonDepth.ogg",
+    "musicIntro": "music/default/PrisonDepth.ogg",
     "viewerColor": 6310313,
     "viewerOffsetX": -1,
-    "musicLoop": "music/DC_Prison.ogg",
+    "musicLoop": "music/default/DC_Prison.ogg",
     "zDoorColor": 2540926,
     "noAdditionalElite": false,
     "viewerY": -1.5,

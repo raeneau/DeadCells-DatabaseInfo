@@ -14,7 +14,7 @@ const cn = {
   labelWrapper: `${cnBase}__labelWrapper`,
 };
 function Switch(props) {
-  const { switchId, onChange, label, onLabel, offLabel } = props;
+  const { switchId, onChange, label, onLabel, offLabel, disabled } = props;
   const [value, setValue] = useState({
     variableLabel: offLabel,
   });
@@ -36,8 +36,13 @@ function Switch(props) {
         <b>{variableLabel}</b>
       </span>
       <label className={cn.labelWrapper} htmlFor={switchId}>
-        <input type="checkbox" id={switchId} onChange={handleChange} />
-        <span className={cn.span} />
+        <input
+          disabled={disabled}
+          type="checkbox"
+          id={switchId}
+          onChange={handleChange}
+        />
+        <span className={`${cn.span} ${disabled ? "disabled" : ""}`} />
       </label>
     </div>
   );
@@ -45,10 +50,18 @@ function Switch(props) {
 
 Switch.propTypes = {
   switchId: PropTypes.string,
+  onChange: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
+  onLabel: PropTypes.string,
+  offLabel: PropTypes.string,
+  disabled: PropTypes.bool,
 };
 
 Switch.defaultProps = {
   switchId: "",
+  onLabel: "",
+  offLabel: "",
+  disabled: false,
 };
 
 // -----------------------------------------------------------------------------
