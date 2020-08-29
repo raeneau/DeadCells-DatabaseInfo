@@ -4,7 +4,7 @@ import React from "react";
 import "./WhatsNewScreen.css";
 
 // Current release notes.
-import currentNewFeatures from "./WhatsNew/AUGUST_13_2020";
+import currentNewFeatures from "./WhatsNew/AUGUST_28_2020";
 
 // -----------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ const cn = {
 function WhatsNewScreen() {
   return (
     <div className={cn.wrapper}>
-      <h4>What&apos;s new? - August 13th, 2020</h4>
+      <h4>What&apos;s new? - August 28th, 2020</h4>
       <ul>{currentNewFeatures}</ul>
     </div>
   );

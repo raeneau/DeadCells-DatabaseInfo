@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 import _isEmpty from "lodash.isempty";
 
@@ -6,9 +7,6 @@ import _isEmpty from "lodash.isempty";
 import { notFound } from "../../constants/stringConstants";
 
 // -----------------------------------------------------------------------------
-
-//
-const unwantedTags = ["UnlockInPublicEvent"];
 
 function Tags(props) {
   const { tagArray } = props;
@@ -23,38 +21,15 @@ function Tags(props) {
     );
   }
 
-  // Remove any internal tags (we don't want those on on the wiki)
-  const updatedTagArray = tagArray.filter((element) => {
-    const tag = _get(element, "tag", "");
-    return !unwantedTags.includes(tag);
-  });
-
-  // NOW if there are no tags, return N/A also
-  if (
-    updatedTagArray === null ||
-    updatedTagArray.length === 0 ||
-    _isEmpty(updatedTagArray[0])
-  ) {
-    return (
-      <tr>
-        <td>Tags</td>
-        <td>{notFound}</td>
-      </tr>
-    );
-  }
-
   const readableTags = (
     <span>
-      {updatedTagArray.map((element, index) => {
+      {tagArray.map((element, index) => {
         const tag = _get(element, "tag", "");
 
         // Don't add a comma to the end of the list
-        const isEndOfList = index + 1 === updatedTagArray.length;
+        const isEndOfList = index + 1 === tagArray.length;
 
-        // Regex to add spaces next to capital letters & trim whitespace
-        const tagWithSpaces = tag.replace(/([A-Z])/g, " $1").trim();
-
-        return `${tagWithSpaces}${isEndOfList ? "" : ", "}`;
+        return `${tag}${isEndOfList ? "" : ", "}`;
       })}
     </span>
   );
@@ -67,6 +42,19 @@ function Tags(props) {
   );
 }
 
+Tags.propTypes = {
+  tagArray: PropTypes.arrayOf(
+    PropTypes.shape({
+      power: PropTypes.arrayOf(PropTypes.number),
+      charge: PropTypes.number,
+      lock: PropTypes.number,
+    }),
+  ),
+};
+
+Tags.defaultProps = {
+  tagArray: [],
+};
 // -----------------------------------------------------------------------------
 
 export default Tags;

@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>August 13th 2020</h4>
 export default (
   <div>
+    <h4>August 13th 2020</h4>
     <li>Added "Charge" to the combo category</li>
     <li>Moved the 2.0 database to be the new stable</li>
     <li>Added disabling to database toggle for when there's no beta</li>
