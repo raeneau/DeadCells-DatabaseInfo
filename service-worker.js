@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DeadCells-DatabaseInfo/precache-manifest.e66bc3568e2b1643d7ed1d680af8d460.js"
+  "/DeadCells-DatabaseInfo/precache-manifest.fc1b21597bf7a36fadbc001245c0b545.js"
 );
 
 self.addEventListener('message', (event) => {
