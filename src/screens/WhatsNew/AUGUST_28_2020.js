@@ -15,5 +15,12 @@ export default (
     <li>Added drop rate, BC requirement, and enemy to "Blueprint" section</li>
     <li>Added a little itty bitty feedback panel</li>
     <li>Added date near database toggle to show when I last updated the CDB</li>
+    <br />
+    <b>CAUTION: These weapons have INACCURATE DPS:</b>
+    <li>Valmont's Whip</li>
+    <li>Tentacle</li>
+    <li>Flint</li>
+    <li>Explosive Crossbow</li>
+    <li>Boomerang</li>
   </div>
 );
