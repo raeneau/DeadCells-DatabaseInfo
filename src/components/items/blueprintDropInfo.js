@@ -20,7 +20,7 @@ function BlueprintDropInfo(props) {
   return (
     <Fragment>
       <tr>
-        <td>Drops from</td>
+        <td>Drops From</td>
         <td>{enemyDisplayName}</td>
       </tr>
       {!isSpecialDrop && (
