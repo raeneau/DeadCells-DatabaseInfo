@@ -129,7 +129,7 @@ export default {
   LIBRARIAN: enemyNames.LIBRARIAN,
 
   YEETER: enemyNames.YEETER,
-  PITCHER: enemyNames.PITCHER,
+  PITCHER: enemyNames.YEETER,
 
   JERKSHROOM: enemyNames.JERKSHROOM,
   MUSHROOM: enemyNames.JERKSHROOM,
@@ -137,6 +137,9 @@ export default {
   BANISHED: enemyNames.JERKSHROOM,
 
   BLOWGUNNER: enemyNames.BLOWGUNNER,
+
+  TICK: enemyNames.TICK,
+  GIANTTICK: enemyNames.TICK,
 
   RAT: enemyNames.RAT,
   RANCIDRAT: enemyNames.RAT,

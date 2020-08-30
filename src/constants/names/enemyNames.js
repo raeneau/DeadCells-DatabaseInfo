@@ -105,6 +105,7 @@ export default {
   },
   BANISHED: { INTERNAL_ID: "FUGITIVE", TYPE: ENEMY, NAME: "Banished" },
   BLOWGUNNER: { INTERNAL_ID: "BLOWGUNNER", TYPE: ENEMY, NAME: "Blowgunner" },
+  TICK: { INTERNAL_ID: "TICK", TYPE: ENEMY, NAME: "Giant Tick" },
 
   // --------------------------- BESTIARY UPDATE --------------------------- //
   RAT: { INTERNAL_ID: "RAT", TYPE: ENEMY, NAME: "Rancid Rat" },
