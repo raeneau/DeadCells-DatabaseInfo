@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
+import _get from "lodash.get";
+
 import getItemDropInfo from "../../utils/getItemDropInfo";
 
 import mapUserInputEnemyNames from "../../constants/mapUserInput/mapUserInputEnemyNames";
@@ -15,7 +17,7 @@ function BlueprintDropInfo(props) {
 
   const enemyDisplayName = isSpecialDrop
     ? "Special drop OR already unlocked"
-    : mapUserInputEnemyNames[blueprintInfo.enemyName].NAME;
+    : _get(mapUserInputEnemyNames[blueprintInfo.enemyName], "NAME");
 
   return (
     <Fragment>
