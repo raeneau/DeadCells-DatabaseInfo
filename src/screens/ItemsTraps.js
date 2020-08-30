@@ -9,13 +9,17 @@ import BlueprintScreen from "./Items/BlueprintScreen";
 // -----------------------------------------------------------------------------
 
 function ItemsTraps(props) {
-  const { itemJson } = props.userInput;
+  const itemJson = _get(props, "userInput.itemJson");
+  const internalId = _get(props, "internalId");
 
   return (
     <div className="DisplayCard">
       <ItemMetaScreen itemJson={itemJson} itemName={_get(itemJson, "id")} />
       <DamageScreen itemJson={itemJson} />
-      <BlueprintScreen cellCost={_get(itemJson, "cellCost")} />
+      <BlueprintScreen
+        cellCost={_get(itemJson, "cellCost")}
+        internalId={internalId}
+      />
     </div>
   );
 }

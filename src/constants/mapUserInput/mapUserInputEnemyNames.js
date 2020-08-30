@@ -168,4 +168,26 @@ export default {
   LIVINGBARREL: enemyNames.LIVING_BARREL,
   BARREL: enemyNames.LIVING_BARREL,
   MIMIC: enemyNames.LIVING_BARREL,
+
+  // ---------------------------------------------------------------------------
+  // BOSSES
+  // ---------------------------------------------------------------------------
+  CONCIERGE: enemyNames.CONCIERGE,
+
+  CONJUNCTIVIUS: enemyNames.CONJUNCTIVIUS,
+  CONJUNC: enemyNames.CONJUNCTIVIUS,
+  CONJ: enemyNames.CONJUNCTIVIUS,
+  CONJUNCT: enemyNames.CONJUNCTIVIUS,
+
+  MAMATICK: enemyNames.MAMA_TICK,
+
+  TIMEKEEPER: enemyNames.TIME_KEEPER,
+
+  GIANT: enemyNames.GIANT,
+
+  HOTK: enemyNames.HOTK,
+  HANDOFTHEKING: enemyNames.HOTK,
+  HAND: enemyNames.HOTK,
+
+  COLLECTOR: enemyNames.COLLECTOR,
 };

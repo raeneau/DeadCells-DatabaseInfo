@@ -1,0 +1,10 @@
+.DatabaseVersionToggleScreen__inputWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.DatabaseVersionToggleScreen__footer {
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+}

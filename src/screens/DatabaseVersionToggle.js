@@ -13,24 +13,25 @@ import {
 } from "../constants/databaseVersion";
 
 // Styles.
-import "./UserInput.css";
+import "./DatabaseVersionToggle.css";
 
 // -----------------------------------------------------------------------------
 
-const cnBase = "UserInputScreen";
+const cnBase = "DatabaseVersionToggleScreen";
 const cn = {
   wrapper: `${cnBase}__wrapper`,
   header: `${cnBase}__header`,
   inputWrapper: `${cnBase}__inputWrapper`,
   input: `${cnBase}__input`,
   button: `${cnBase}__button`,
+  footer: `${cnBase}__footer`,
 
   // TODO: Move this to another component
   notesWrapper: `${cnBase}__notesWrapper`,
   patchNotesWrapper: `${cnBase}__patchNotesWrapper`,
 };
 
-function UserInputScreen(props) {
+function DatabaseVersionToggleScreen(props) {
   function handleChange(event) {
     const databaseType = event.target.checked ? BETA : STABLE;
     // Here, we invoke the callback with the new value
@@ -49,14 +50,15 @@ function UserInputScreen(props) {
           offLabel={`Stable (${STABLE_VERSION})`}
         />
       </div>
+      <i className={cn.footer}>Last updated: August 29th, 2020</i>
     </div>
   );
 }
 
-UserInputScreen.propTypes = {
+DatabaseVersionToggleScreen.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
 // -----------------------------------------------------------------------------
 
-export default UserInputScreen;
+export default DatabaseVersionToggleScreen;

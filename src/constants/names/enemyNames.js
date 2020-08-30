@@ -126,4 +126,15 @@ export default {
   },
 
   LIVING_BARREL: { INTERNAL_ID: "MIMIC", TYPE: ENEMY, NAME: "Living Barrel" },
+
+  // ---------------------------------------------------------------------------
+  // BOSSES
+  // ---------------------------------------------------------------------------
+  CONCIERGE: { INTERNAL_ID: "BEHEMOTH", TYPE: ENEMY, NAME: "Concierge" },
+  CONJUCT: { INTERNAL_ID: "CONJONCTIVIUS", TYPE: ENEMY, NAME: "Conjunctivius" },
+  MAMA_TICK: { INTERNAL_ID: "MAMATICK", TYPE: ENEMY, NAME: "Mama Tick" },
+  TIME_KEEPER: { INTERNAL_ID: "TIMEKEEPER", TYPE: ENEMY, NAME: "Time Keeper" },
+  GIANT: { INTERNAL_ID: "GIANT", TYPE: ENEMY, NAME: "Giant" },
+  HOTK: { INTERNAL_ID: "KINGSHAND", TYPE: ENEMY, NAME: "Hand of the King" },
+  COLLECTOR: { INTERNAL_ID: "COLLECTOR", TYPE: ENEMY, NAME: "The Collector" },
 };

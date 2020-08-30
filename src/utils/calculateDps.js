@@ -153,11 +153,9 @@ export const calculateDpsSonicCarbine = ({
 
   const vanillaDps = (power * ammo) / (charge + tick * (ammo - 1));
 
-  // Possible crit DPS if EE ever... fixes it?
-  //  Math.round(vanillaDps * 2)
   return {
     dps: Math.round(vanillaDps),
-    critDps: Math.round(vanillaDps),
+    critDps: Math.round(vanillaDps * criticalHitMul),
   };
 };
 

@@ -13,6 +13,7 @@ function Items(props) {
   const weaponJson = _get(props, "userInput.weaponJson");
   const itemJson = _get(props, "userInput.itemJson");
   const strikeChain = _get(weaponJson, "strikeChain");
+  const internalId = _get(props, "internalId");
 
   return (
     <div className="DisplayCard">
@@ -20,10 +21,13 @@ function Items(props) {
       <DamageScreen
         itemJson={itemJson}
         strikeChain={strikeChain}
-        internalId={_get(props, "internalId")}
+        internalId={internalId}
       />
       <ComboScreen strikeChain={strikeChain} />
-      <BlueprintScreen cellCost={_get(itemJson, "cellCost")} />
+      <BlueprintScreen
+        cellCost={_get(itemJson, "cellCost")}
+        internalId={internalId}
+      />
     </div>
   );
 }

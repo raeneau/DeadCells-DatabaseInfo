@@ -26,11 +26,6 @@ function NotFoundScreen(props) {
             of the categories in the list at the top of the page, and that you
             are searching with the correct term.
           </div>
-          <br />
-          <div>
-            If you still think this is an error, please contact Raeneau on the
-            Dead Cells discord.
-          </div>
         </ul>
       </div>
     </div>

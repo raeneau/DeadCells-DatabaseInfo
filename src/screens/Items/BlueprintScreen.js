@@ -3,17 +3,19 @@ import React from "react";
 // Local modules.
 import CellUnlockCost from "../../components/items/cellUnlockCost";
 import img from "../../assets/cell.png";
+import BlueprintDropInfo from "../../components/items/blueprintDropInfo";
 
 // -----------------------------------------------------------------------------
 
 const BlueprintScreen = (props) => {
-  const { cellCost } = props;
+  const { cellCost, internalId } = props;
 
   return (
     <div>
       <h3 className="SubHeader">Blueprint</h3>
       <table>
         <tbody>
+          <BlueprintDropInfo internalId={internalId} />
           <CellUnlockCost
             name="Unlock Cost"
             value={cellCost}

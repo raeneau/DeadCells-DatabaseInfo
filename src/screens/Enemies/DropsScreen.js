@@ -7,7 +7,7 @@ import nameMappings from "../../constants/mapUserInput";
 
 // Local modules.
 import formatInput from "../../utils/formatInput";
-import { blueprintDropJsons } from "../../utils/jsonImports";
+import getDropChance from "../../utils/getDropChance";
 
 // Styles.
 import "./DropsScreen.css";
@@ -33,11 +33,7 @@ const DropsScreen = (props) => {
           <tbody>
             {blueprintsDropped.map((drop) => {
               const minDifficulty = _get(drop, "minDifficulty", 0);
-              const blueprintChance = (
-                _get(blueprintDropJsons, `${drop.rarity}.chance`) * 100
-              )
-                .toFixed(2)
-                .replace(/\.0+$/, "");
+              const blueprintChance = getDropChance({ rarity: drop.rarity });
 
               return (
                 <tr key={`Combo__location${drop.item}`}>

@@ -12,6 +12,7 @@ import BlueprintScreen from "./Items/BlueprintScreen";
 function Items(props) {
   const weaponJson = _get(props, "userInput.weaponJson");
   const itemJson = _get(props, "userInput.itemJson");
+  const internalId = _get(props, "internalId");
 
   return (
     <div className="DisplayCard">
@@ -19,10 +20,13 @@ function Items(props) {
       <DamageScreen
         itemJson={itemJson}
         weaponJson={weaponJson}
-        internalWeaponId={_get(props, "internalWeaponId")}
+        internalId={internalId}
       />
       <ComboScreen strikeChain={_get(weaponJson, "strikeChain")} />
-      <BlueprintScreen cellCost={_get(itemJson, "cellCost")} />
+      <BlueprintScreen
+        cellCost={_get(itemJson, "cellCost")}
+        internalId={internalId}
+      />
     </div>
   );
 }

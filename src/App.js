@@ -12,6 +12,7 @@ import GrenadesScreen from "./screens/ItemsGrenades";
 import TrapScreen from "./screens/ItemsTraps";
 import NotFoundScreen from "./screens/NotFound";
 import NameConflictScreen from "./screens/NameConflictScreen";
+import FeedbackScreen from "./screens/FeedbackScreen";
 
 // Local modules.
 import getViableJsons from "./utils/getAllViableJsons";
@@ -117,16 +118,16 @@ function App() {
         <RangedWeaponsScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {validJson && resourceType === SHIELD && (
-        <ShieldsScreen userInput={jsonArrays} />
+        <ShieldsScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {validJson && resourceType === ENEMY && (
         <EnemyScreen userInput={jsonArrays} />
       )}
       {validJson && resourceType === GRENADE && (
-        <GrenadesScreen userInput={jsonArrays} />
+        <GrenadesScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {validJson && resourceType === TRAP && (
-        <TrapScreen userInput={jsonArrays} />
+        <TrapScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
         <NotFoundScreen userSearchTerm={searchTerm} />
@@ -137,6 +138,7 @@ function App() {
           conflictTypes={resourceType}
         />
       )}
+      <FeedbackScreen />
     </div>
   );
 }
