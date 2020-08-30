@@ -173,11 +173,13 @@ export default {
   // BOSSES
   // ---------------------------------------------------------------------------
   CONCIERGE: enemyNames.CONCIERGE,
+  BEHEMOTH: enemyNames.CONCIERGE,
 
   CONJUNCTIVIUS: enemyNames.CONJUNCTIVIUS,
   CONJUNC: enemyNames.CONJUNCTIVIUS,
   CONJ: enemyNames.CONJUNCTIVIUS,
   CONJUNCT: enemyNames.CONJUNCTIVIUS,
+  CONJONCTIVIUS: enemyNames.CONJUNCTIVIUS,
 
   MAMATICK: enemyNames.MAMA_TICK,
 
@@ -188,6 +190,7 @@ export default {
   HOTK: enemyNames.HOTK,
   HANDOFTHEKING: enemyNames.HOTK,
   HAND: enemyNames.HOTK,
+  KINGSHAND: enemyNames.HOTK,
 
   COLLECTOR: enemyNames.COLLECTOR,
 };
