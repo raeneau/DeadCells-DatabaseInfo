@@ -20,9 +20,8 @@ const cn = {
 };
 
 const DropsScreen = (props) => {
-  const { userInput } = props;
+  const { blueprintsDropped } = props;
 
-  const blueprintsDropped = _get(userInput, "enemyJson.blueprints");
   const hasDrops = !_isEmpty(blueprintsDropped);
 
   return (

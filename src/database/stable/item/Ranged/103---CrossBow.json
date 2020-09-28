@@ -19,9 +19,6 @@
   "droppable": true,
   "tags": [
     {
-      "tag": "NoCritical"
-    },
-    {
       "tag": "HasBullets"
     },
     {

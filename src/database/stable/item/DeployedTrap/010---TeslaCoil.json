@@ -37,6 +37,9 @@
     },
     {
       "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "Electric"
     }
   ],
   "tier1": "Tactic",

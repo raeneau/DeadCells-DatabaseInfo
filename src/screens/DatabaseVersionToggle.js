@@ -50,7 +50,7 @@ function DatabaseVersionToggleScreen(props) {
           offLabel={`Stable (${STABLE_VERSION})`}
         />
       </div>
-      <i className={cn.footer}>Last updated: August 29th, 2020</i>
+      <i className={cn.footer}>Last updated: September 27th, 2020</i>
     </div>
   );
 }

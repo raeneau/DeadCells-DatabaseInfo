@@ -5,8 +5,6 @@ import enemyLocation from "../../utils/enemyLocation";
 
 // -----------------------------------------------------------------------------
 
-// const cnBase = "ItemProperties";
-
 const LocaationScreen = (props) => {
   const { userInput } = props;
 
