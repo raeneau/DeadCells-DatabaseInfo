@@ -14,7 +14,10 @@ const EnemyInfoScreen = (props) => {
       <h3 className="SubHeader">Enemy Info</h3>
       <table>
         <tbody>
-          <BasicDisplay name="Base HP" value={_get(enemyJson, "life[0]")} />
+          <BasicDisplay
+            name="Base HP"
+            value={_get(enemyJson, "life[0]") || _get(enemyJson, "life")}
+          />
           <BasicDisplay
             name="From DLC?"
             value={_get(enemyJson, "dlc") || "No"}

@@ -134,7 +134,7 @@ export default {
   JERKSHROOM: enemyNames.JERKSHROOM,
   MUSHROOM: enemyNames.JERKSHROOM,
 
-  BANISHED: enemyNames.JERKSHROOM,
+  BANISHED: enemyNames.BANISHED,
 
   BLOWGUNNER: enemyNames.BLOWGUNNER,
 
