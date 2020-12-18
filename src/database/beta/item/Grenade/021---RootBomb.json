@@ -30,7 +30,6 @@
     }
   ],
   "tier1": "Survival",
-  "tier2": "Tactic",
   "cellCost": 40,
   "legendAffix": "Oil",
   "__separator_group_ID": 1,

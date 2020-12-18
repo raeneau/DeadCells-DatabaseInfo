@@ -6,7 +6,7 @@
     "cellLoot": 5,
     "bumpResistance": 0.85
   },
-  "genTags": 32,
+  "genTags": 544,
   "glowOuterColor": 1508160,
   "pfCost": 4,
   "blueprints": [
@@ -23,7 +23,7 @@
   ],
   "maxPerRoom": 0,
   "group": 0,
-  "canBeElite": true,
+  "canBeElite": false,
   "index": 60,
   "volteDelay": 1,
   "id": "Tick",

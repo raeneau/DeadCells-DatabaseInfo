@@ -25,7 +25,6 @@
     }
   ],
   "tier1": "Brutality",
-  "tier2": "Tactic",
   "cellCost": 60,
   "legendAffix": "BackDamage",
   "__separator_group_ID": 4,

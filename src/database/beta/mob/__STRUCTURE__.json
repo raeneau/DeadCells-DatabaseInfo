@@ -86,7 +86,7 @@
       "name": "skill"
     },
     {
-      "typeStr": "10:SmallPlatforms,Flying,WorldBoss,Protector,StartOnCeiling,NoTeleportIfAggressive,WorldBossSideKick,NoTeleportIfElite",
+      "typeStr": "10:SmallPlatforms,Flying,WorldBoss,Protector,StartOnCeiling,NoTeleportIfAggressive,WorldBossSideKick,NoTeleportIfElite,DontSpawnInWater,NoInfectionSpawn",
       "name": "genTags"
     },
     {

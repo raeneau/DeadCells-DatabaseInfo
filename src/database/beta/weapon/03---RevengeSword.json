@@ -31,7 +31,7 @@
       "animId": "atkSaberA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 7,
-      "critMul": 1.2,
+      "critMul": 0.8,
       "glowColor": 2073322,
       "animSpd": 2
     },
@@ -63,7 +63,7 @@
       "animId": "atkSaberB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 4,
-      "critMul": 1.2,
+      "critMul": 0.8,
       "glowColor": 2073322
     },
     {
@@ -97,7 +97,7 @@
       "animId": "comboKickB",
       "sfxHit": "sfx/weapon_kick_hit.wav",
       "hitFrame": 5,
-      "critMul": 1.2,
+      "critMul": 0.8,
       "glowColor": 2073322,
       "animSpd": 0.75
     },
@@ -129,7 +129,7 @@
       "animId": "atkSaberB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 7,
-      "critMul": 1.2,
+      "critMul": 1,
       "glowColor": 15350303,
       "animSpd": 0.75
     }

@@ -48,7 +48,7 @@
     {
       "singleRoom": false,
       "props": {},
-      "mob": "Mage360",
+      "mob": "CrossbowMan",
       "minDifficulty": 4,
       "quantityFactor": 3,
       "minCombatRoomsBefore": 0

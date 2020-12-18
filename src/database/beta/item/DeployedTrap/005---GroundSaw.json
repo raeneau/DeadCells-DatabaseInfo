@@ -31,8 +31,7 @@
       "tag": "NeedPower"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Brutality",
+  "tier1": "Brutality",
   "cellCost": 30,
   "legendAffix": "BleedPropagation",
   "__separator_group_ID": 0,

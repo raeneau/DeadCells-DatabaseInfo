@@ -193,4 +193,9 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Crowbar",
   },
+  KATANA: {
+    INTERNAL_ID: "KATANA",
+    TYPE: MELEE_WEAPON,
+    NAME: "Katana",
+  },
 };

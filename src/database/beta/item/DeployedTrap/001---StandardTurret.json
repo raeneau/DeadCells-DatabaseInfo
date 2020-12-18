@@ -45,6 +45,7 @@
     }
   ],
   "tier1": "Tactic",
+  "tier2": "Brutality",
   "cellCost": 0,
   "legendAffix": "PoisonOnHit",
   "__separator_group_ID": 0,

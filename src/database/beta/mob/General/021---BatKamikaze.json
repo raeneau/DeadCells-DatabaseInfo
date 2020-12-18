@@ -4,12 +4,17 @@
     "cannotBeBackstabbed": true,
     "insensitiveSpike": true
   },
-  "genTags": 18,
+  "genTags": 530,
   "pfCost": 0,
   "blueprints": [
     {
       "rarity": "Rare",
       "item": "LowHealth",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerKamikaze",
       "minDifficulty": 0
     },
     {

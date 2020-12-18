@@ -25,8 +25,8 @@
       "tag": "Deployable"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Survival",
+  "tier1": "Survival",
+  "tier2": "Tactic",
   "cellCost": 0,
   "legendAffix": "OilDeploy",
   "__separator_group_ID": 0,

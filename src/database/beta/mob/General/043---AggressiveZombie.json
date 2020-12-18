@@ -8,7 +8,7 @@
     "climbEndDist": 1,
     "bumpResistance": 0.5
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 16777215,
   "pfCost": 0.75,
   "blueprints": [

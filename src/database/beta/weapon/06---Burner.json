@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        33
+        25
       ],
       "fxProps": {
         "fxInnerColor": 16773775,
@@ -41,7 +41,7 @@
     {
       "coolDown": 0,
       "power": [
-        50
+        45
       ],
       "fxProps": {
         "fxInnerColor": 16773775,
@@ -76,7 +76,7 @@
     {
       "coolDown": 0,
       "power": [
-        45
+        35
       ],
       "fxProps": {
         "fxInnerColor": 16773775,
@@ -111,7 +111,7 @@
     {
       "coolDown": 0,
       "power": [
-        65
+        55
       ],
       "fxProps": {
         "fxInnerColor": 16773775,

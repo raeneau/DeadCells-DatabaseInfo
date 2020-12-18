@@ -9,15 +9,7 @@ import nameMappings from "../../constants/mapUserInput";
 import formatInput from "../../utils/formatInput";
 import getDropChance from "../../utils/getDropChance";
 
-// Styles.
-import "./DropsScreen.css";
-
 // -----------------------------------------------------------------------------
-
-const cnBase = "DropsScreen";
-const cn = {
-  noDropsWrapper: `${cnBase}__noDropsWrapper`,
-};
 
 const DropsScreen = (props) => {
   const { blueprintsDropped } = props;
@@ -53,7 +45,7 @@ const DropsScreen = (props) => {
           </tbody>
         </table>
       ) : (
-        <div className={cn.noDropsWrapper}>N/A</div>
+        <div className="notFoundWrapper">N/A</div>
       )}
     </div>
   );

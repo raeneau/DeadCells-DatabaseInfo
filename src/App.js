@@ -121,7 +121,7 @@ function App() {
         <ShieldsScreen userInput={jsonArrays} internalId={internalId} />
       )}
       {validJson && resourceType === ENEMY && (
-        <EnemyScreen userInput={jsonArrays} />
+        <EnemyScreen userInput={jsonArrays} databaseVersion={databaseVersion} />
       )}
       {validJson && resourceType === GRENADE && (
         <GrenadesScreen userInput={jsonArrays} internalId={internalId} />

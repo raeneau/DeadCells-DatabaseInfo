@@ -105,8 +105,8 @@
       "props": {
         "spawnWithNumber": null
       },
-      "mob": "ClusterGrenader",
-      "minDifficulty": 1,
+      "mob": "CrossbowMan",
+      "minDifficulty": 0,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },

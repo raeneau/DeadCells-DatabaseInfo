@@ -45,7 +45,7 @@
     {
       "coolDown": 0,
       "power": [
-        90
+        80
       ],
       "fxProps": {
         "fxOffset": [
@@ -85,7 +85,7 @@
     {
       "coolDown": 0,
       "power": [
-        155
+        130
       ],
       "fxProps": {
         "fxOffset": [

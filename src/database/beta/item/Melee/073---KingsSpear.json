@@ -31,8 +31,7 @@
       "tag": "UnlockInPublicEvent"
     }
   ],
-  "tier1": "Brutality",
-  "tier2": "Survival",
+  "tier1": "Survival",
   "cellCost": 150,
   "legendAffix": "FullLifeDamage",
   "__separator_group_ID": 4,

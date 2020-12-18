@@ -7,7 +7,13 @@
   "genTags": 0,
   "glowOuterColor": 14021866,
   "pfCost": 0.5,
-  "blueprints": [],
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "P_DmgSkillRanged",
+      "minDifficulty": 0
+    }
+  ],
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": true,

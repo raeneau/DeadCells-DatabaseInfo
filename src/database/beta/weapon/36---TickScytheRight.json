@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        150
+        125
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.2,
@@ -39,7 +39,7 @@
     {
       "coolDown": 0,
       "power": [
-        250
+        200
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.25,

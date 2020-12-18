@@ -65,3 +65,10 @@ td {
 table tr:nth-child(even) td {
   background-color: rgba(166, 39, 78, 0.3);
 }
+
+.notFoundWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}

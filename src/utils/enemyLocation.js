@@ -5,15 +5,20 @@ import _isEmpty from "lodash.isempty";
 
 // Constants.
 import locationNameMap from "../constants/biomes";
+import { BETA } from "../constants/databaseVersion";
 
 // Local modules.
 import { levelJsons } from "./jsonImports";
+import { levelJsons as levelJsonsBeta } from "./jsonImportsBeta";
 import formatBossCellDifficulty from "./formatBossCellDifficulty";
 
 // -----------------------------------------------------------------------------
 
-export default ({ enemy }) => {
-  const levelJsonValues = Object.values(levelJsons);
+export default ({ enemy, databaseVersion }) => {
+  const levelJsonValues =
+    databaseVersion === BETA
+      ? Object.values(levelJsonsBeta)
+      : Object.values(levelJsons);
 
   // TODO: Move this to only be run once on startup
   // Take the giant level JSONs and only return an array of mobs along with

@@ -7,6 +7,12 @@ export default {
   ARCHER: enemyNames.ARCHER,
   UNDEADARCHER: enemyNames.ARCHER,
 
+  WALLWORM: enemyNames.S_WALLEGGWORM,
+  WALLEGGWORM: enemyNames.S_WALLEGGWORM,
+  EGGWORM: enemyNames.S_WALLEGGWORM,
+  SWAMPWORM: enemyNames.S_WALLEGGWORM,
+  WEAVERWORM: enemyNames.S_WALLEGGWORM,
+
   SHIELDBEARER: enemyNames.SHIELDBEARER,
   SHIELD: enemyNames.SHIELDBEARER, // !!! -- OVERLOADED VALUE
 
@@ -28,6 +34,11 @@ export default {
 
   HAMMER: enemyNames.HAMMER,
 
+  FLY: enemyNames.S_FLY,
+  HFLY: enemyNames.S_FLY,
+  HAMMERFLY: enemyNames.S_FLY,
+  DEPTHSFLY: enemyNames.S_FLY,
+
   SWEEPER: enemyNames.SWEEPER,
   MINIMOTH: enemyNames.SWEEPER,
 
@@ -38,10 +49,21 @@ export default {
   STILTZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
   WORMZOMBIE: enemyNames.PURULENT_ZOMBIE_S,
 
+  WORM: enemyNames.S_WORM,
+  CORPSEWORM: enemyNames.S_WORM,
+  ZOMBIEWORM: enemyNames.S_WORM,
+  TRASHWORM: enemyNames.S_WORM,
+  PURULENTWORM: enemyNames.S_WORM,
+
   PURULENTZOMBIEGRAVEYARD: enemyNames.PURULENT_ZOMBIE_G,
   GRAVEYARDZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
   CEMETARYZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
   FLYZOMBIE: enemyNames.PURULENT_ZOMBIE_G,
+
+  ZOMBIEFLY: enemyNames.S_ZOMBIEFLY,
+  CORPSEFLY: enemyNames.S_ZOMBIEFLY,
+  ZFLY: enemyNames.S_ZOMBIEFLY,
+  PURULENTFLY: enemyNames.S_ZOMBIEFLY,
 
   DISGUSTINGWORM: enemyNames.DISGUSTING_WORM,
   SEWERWORM: enemyNames.DISGUSTING_WORM,
@@ -171,6 +193,10 @@ export default {
   LIVINGBARREL: enemyNames.LIVING_BARREL,
   BARREL: enemyNames.LIVING_BARREL,
   MIMIC: enemyNames.LIVING_BARREL,
+
+  CROSSBOWMAN: enemyNames.CROSSBOW_MAN,
+  DEMOLISHER: enemyNames.CROSSBOW_MAN,
+  BOMBARCHER: enemyNames.CROSSBOW_MAN,
 
   // ---------------------------------------------------------------------------
   // BOSSES

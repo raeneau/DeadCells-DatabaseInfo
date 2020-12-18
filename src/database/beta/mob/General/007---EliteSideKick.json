@@ -4,7 +4,7 @@
     "moveSpeedMul": 1.1,
     "isTrashMob": true
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 12386346,
   "pfCost": 0,
   "blueprints": [],

@@ -39,6 +39,7 @@
     }
   ],
   "tier1": "Brutality",
+  "tier2": "Survival",
   "cellCost": 40,
   "legendAffix": "IceDamage",
   "__separator_group_ID": 1,

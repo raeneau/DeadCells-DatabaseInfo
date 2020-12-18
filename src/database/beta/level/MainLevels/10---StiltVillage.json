@@ -68,7 +68,7 @@
       "props": {},
       "mob": "Samurai",
       "minDifficulty": 0,
-      "quantityFactor": 5.5,
+      "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },
     {
@@ -82,7 +82,7 @@
     {
       "singleRoom": false,
       "props": {},
-      "mob": "KunaiMaster",
+      "mob": "CrossbowMan",
       "minDifficulty": 1,
       "quantityFactor": 3,
       "minCombatRoomsBefore": 0

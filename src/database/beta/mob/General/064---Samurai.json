@@ -7,7 +7,18 @@
   "genTags": 0,
   "glowOuterColor": 7996189,
   "pfCost": 0.5,
-  "blueprints": [],
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Katana",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerKillBill",
+      "minDifficulty": 1
+    }
+  ],
   "maxPerRoom": 3,
   "group": 0,
   "canBeElite": true,

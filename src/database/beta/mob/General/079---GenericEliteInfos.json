@@ -8,7 +8,7 @@
     "bumpResistance": 0.7,
     "cannotBeBackstabbed": true
   },
-  "genTags": 0,
+  "genTags": 512,
   "pfCost": 0,
   "blueprints": [],
   "maxPerRoom": 0,
@@ -227,7 +227,7 @@
       "radius": 0,
       "allowSameSkillNearby": false,
       "sfxCharge": "sfx/enm_tp_charge.wav",
-      "charge": 0.3,
+      "charge": 1,
       "manual": false,
       "id": "aggressiveTeleport",
       "sfxRelease": "sfx/enm_tp.wav",

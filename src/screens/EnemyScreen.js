@@ -9,13 +9,13 @@ import EnemyInfoScreen from "./Enemies/EnemyInfoScreen";
 // -----------------------------------------------------------------------------
 
 const EnemiesScreen = (props) => {
-  const { userInput } = props;
+  const { userInput, databaseVersion } = props;
   const enemyJson = _get(props, "userInput.enemyJson");
 
   return (
     <div className="DisplayCard">
       <EnemyInfoScreen enemyJson={enemyJson} />
-      <LocationScreen userInput={userInput} />
+      <LocationScreen userInput={userInput} databaseVersion={databaseVersion} />
       <DropsScreen
         blueprintsDropped={_get(userInput, "enemyJson.blueprints")}
       />

@@ -27,7 +27,7 @@
       "sfxProps": {
         "sfxReleasePitch": 1
       },
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 0,
         "offsetCaseX": 0,

@@ -4,4 +4,4 @@ export const STABLE = "DATABASE_STABLE";
 
 export const STABLE_VERSION = "2.0";
 
-export const BETA_VERSION = "N/A";
+export const BETA_VERSION = "2.1";

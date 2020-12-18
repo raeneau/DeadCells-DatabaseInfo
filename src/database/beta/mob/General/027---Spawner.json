@@ -8,7 +8,7 @@
     "bumpResistance": 1,
     "cannotBeBackstabbed": true
   },
-  "genTags": 32,
+  "genTags": 800,
   "pfCost": 1.5,
   "blueprints": [
     {

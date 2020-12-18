@@ -43,7 +43,7 @@
       "singleRoom": false,
       "props": {},
       "mob": "Enforcer",
-      "minDifficulty": 2,
+      "minDifficulty": 4,
       "quantityFactor": 4,
       "minCombatRoomsBefore": 0
     },
@@ -62,6 +62,14 @@
       "maxDifficulty": 0,
       "minDifficulty": 0,
       "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "mob": "CrossbowMan",
+      "minDifficulty": 1,
+      "quantityFactor": 4,
       "minCombatRoomsBefore": 0
     },
     {
@@ -100,7 +108,7 @@
       "singleRoom": false,
       "props": {},
       "mob": "Comboter",
-      "minDifficulty": 1,
+      "minDifficulty": 2,
       "quantityFactor": 1,
       "minCombatRoomsBefore": 0
     },
@@ -120,14 +128,6 @@
       "maxDifficulty": 2,
       "minDifficulty": 0,
       "quantityFactor": 7,
-      "minCombatRoomsBefore": 0
-    },
-    {
-      "singleRoom": false,
-      "props": {},
-      "mob": "Samurai",
-      "minDifficulty": 1,
-      "quantityFactor": 3,
       "minCombatRoomsBefore": 0
     }
   ],

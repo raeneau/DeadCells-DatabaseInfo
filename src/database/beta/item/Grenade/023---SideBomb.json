@@ -3,14 +3,14 @@
     "range": 20,
     "ammo": 8,
     "prct": 0.3,
-    "count": 4,
+    "count": 8,
     "sideKickMob": "S_HeroWorm",
     "duration": 30
   },
   "gameplayDesc": "Invoque ::count:: larves à votre service (cumulable jusqu'à ::ammo:: maximum)",
   "moneyCost": 1500,
   "group": 1,
-  "castCD": 0.8,
+  "castCD": 10,
   "id": "SideBomb",
   "icon": {
     "x": 19,
@@ -34,8 +34,7 @@
       "tag": "ShortCooldown"
     }
   ],
-  "tier1": "Brutality",
-  "tier2": "Survival",
+  "tier1": "Tactic",
   "cellCost": 30,
   "legendAffix": "PoisonOnHit",
   "__separator_group_ID": 1,

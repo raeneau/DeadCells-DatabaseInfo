@@ -19,6 +19,10 @@ const EnemyInfoScreen = (props) => {
             value={_get(enemyJson, "life[0]") || _get(enemyJson, "life")}
           />
           <BasicDisplay
+            name="Is Trash Mob?"
+            value={_get(enemyJson, "props.isTrashMob") ? "Yes" : "No"}
+          />
+          <BasicDisplay
             name="From DLC?"
             value={_get(enemyJson, "dlc") || "No"}
           />

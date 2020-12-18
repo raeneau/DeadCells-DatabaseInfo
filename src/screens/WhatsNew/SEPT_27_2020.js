@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>August 28th/29th 2020</h4>
 export default (
   <div>
+    <h4>September 27th, 2020</h4>
     <li>Updated database to most recent version</li>
     <li>Added base HP to enemies</li>
     <li>Added which DLC enemies are from. I dunno why. Cause I can?</li>

@@ -138,4 +138,7 @@ export default {
   RHYTHM: meleeWeaponNames.RHYTHM_N_BOUZOUKI,
 
   CROWBAR: meleeWeaponNames.CROWBAR,
+
+  KATANA: meleeWeaponNames.KATANA,
+  WEEB: meleeWeaponNames.KATANA,
 };

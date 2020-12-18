@@ -5,6 +5,11 @@ const { ENEMY } = inputTypes;
 export default {
   ZOMBIE: { INTERNAL_ID: "ZOMBIE", TYPE: ENEMY, NAME: "Zombie" },
   ARCHER: { INTERNAL_ID: "ARCHER", TYPE: ENEMY, NAME: "Undead Archer" },
+  S_WALLEGGWORM: {
+    INTERNAL_ID: "S_WALLEGGWORM",
+    TYPE: ENEMY,
+    NAME: "Worm (Wall Egg)",
+  },
   SHIELDBEARER: { INTERNAL_ID: "SHIELD", TYPE: ENEMY, NAME: "Shieldbearer" },
   GRENADIER: { INTERNAL_ID: "GRENADER", TYPE: ENEMY, NAME: "Grenadier" },
   BOMBARDIER: {
@@ -18,6 +23,11 @@ export default {
   INQUISITOR: { INTERNAL_ID: "MAGE360", TYPE: ENEMY, NAME: "Inquisitor" },
   PROTECTOR: { INTERNAL_ID: "SHIELDER", TYPE: ENEMY, NAME: "Protector" },
   HAMMER: { INTERNAL_ID: "HAMMER", TYPE: ENEMY, NAME: "Hammer" },
+  S_FLY: {
+    INTERNAL_ID: "S_FLY",
+    TYPE: ENEMY,
+    NAME: "Fly (Hammer)",
+  },
   SWEEPER: { INTERNAL_ID: "MINIMOTH", TYPE: ENEMY, NAME: "Sweeper" },
   BUZZCUTTER: { INTERNAL_ID: "FLY", TYPE: ENEMY, NAME: "Buzzcutter" },
   PURULENT_ZOMBIE_S: {
@@ -25,10 +35,20 @@ export default {
     TYPE: ENEMY,
     NAME: "Purulent Zombie (Sewers)",
   },
+  S_WORM: {
+    INTERNAL_ID: "S_WORM",
+    TYPE: ENEMY,
+    NAME: "Worm (Zombie)",
+  },
   PURULENT_ZOMBIE_G: {
     INTERNAL_ID: "FLYZOMBIE",
     TYPE: ENEMY,
     NAME: "Purulent Zombie (Graveyard)",
+  },
+  S_ZOMBIEFLY: {
+    INTERNAL_ID: "S_ZOMBIEFLY",
+    TYPE: ENEMY,
+    NAME: "Fly (Zombie)",
   },
   DISGUSTING_WORM: {
     INTERNAL_ID: "WORM",
@@ -96,7 +116,7 @@ export default {
   },
   LIBRARIAN: { INTERNAL_ID: "LIBRARIAN", TYPE: ENEMY, NAME: "Librarian" },
 
-  // ------------------------------ BAD SEED ------------------------------ //
+  // ------------------------------ BAD SEED -------------------------------- //
   YEETER: { INTERNAL_ID: "PITCHER", TYPE: ENEMY, NAME: "Yeeter" },
   JERKSHROOM: {
     INTERNAL_ID: "THROWABLEMUSHROOM",
@@ -107,7 +127,7 @@ export default {
   BLOWGUNNER: { INTERNAL_ID: "BLOWGUNNER", TYPE: ENEMY, NAME: "Blowgunner" },
   TICK: { INTERNAL_ID: "TICK", TYPE: ENEMY, NAME: "Giant Tick" },
 
-  // --------------------------- BESTIARY UPDATE --------------------------- //
+  // --------------------------- BESTIARY UPDATE ---------------------------- //
   RAT: { INTERNAL_ID: "RAT", TYPE: ENEMY, NAME: "Rancid Rat" },
   OVEN_KNIGHT: { INTERNAL_ID: "ENFORCER", TYPE: ENEMY, NAME: "Guardian" },
   BLOBBY: { INTERNAL_ID: "BLOBBY", TYPE: ENEMY, NAME: "Toxic Miasma" },
@@ -119,14 +139,16 @@ export default {
   },
   DUELIST: { INTERNAL_ID: "DUELIST", TYPE: ENEMY, NAME: "Duelist" },
 
-  // ------------------------ BARRELS O' FUN UPDATE ------------------------ //
+  // ------------------------ BARRELS O' FUN UPDATE ------------------------- //
   INFECTED_WORKER: {
     INTERNAL_ID: "HURLER",
     TYPE: ENEMY,
     NAME: "Infected Worker",
   },
-
   LIVING_BARREL: { INTERNAL_ID: "MIMIC", TYPE: ENEMY, NAME: "Living Barrel" },
+
+  // --------------------------- CHRISTMAS UPDATE --------------------------- //
+  CROSSBOW_MAN: { INTERNAL_ID: "CROSSBOWMAN", TYPE: ENEMY, NAME: "Demolisher" },
 
   // ---------------------------------------------------------------------------
   // BOSSES

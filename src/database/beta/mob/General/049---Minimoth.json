@@ -4,7 +4,7 @@
     "moveSpeedMul": 1,
     "bumpResistance": 0.5
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 13243412,
   "pfCost": 3,
   "blueprints": [

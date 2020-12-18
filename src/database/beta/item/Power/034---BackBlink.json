@@ -30,8 +30,8 @@
       "tag": "UnlockInPublicEvent"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Brutality",
+  "tier1": "Brutality",
+  "tier2": "Tactic",
   "cellCost": 35,
   "legendAffix": "PoisonOnUse",
   "__separator_group_ID": 3,

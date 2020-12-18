@@ -2,9 +2,9 @@
   "props": {
     "range": 9,
     "power": [
-      60
+      100
     ],
-    "distance": 18,
+    "distance": 10,
     "aoeDuration": 35
   },
   "gameplayDesc": "Applique de {l'huile inflammable@FI} dans sa zone d'effet.",
