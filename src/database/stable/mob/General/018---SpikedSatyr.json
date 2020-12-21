@@ -3,7 +3,7 @@
     "movePauseMul": 0,
     "moveSpeedMul": 0.9
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 16731469,
   "pfCost": 1,
   "blueprints": [
@@ -15,6 +15,11 @@
     {
       "rarity": "Uncommon",
       "item": "CeilTurret",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "P_Backpack_Shield",
       "minDifficulty": 0
     }
   ],

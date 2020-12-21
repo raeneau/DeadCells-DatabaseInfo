@@ -4,7 +4,7 @@
     "movePauseMul": 0,
     "moveSpeedMul": 1.5
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 7254783,
   "pfCost": 1,
   "blueprints": [],

@@ -4,7 +4,7 @@
     "moveSpeedMul": 1.2,
     "disableEliteSidekicks": true
   },
-  "genTags": 0,
+  "genTags": 512,
   "pfCost": 2,
   "blueprints": [
     {

@@ -28,8 +28,8 @@
       "tag": "HeavyWeapon"
     }
   ],
-  "tier1": "Brutality",
-  "tier2": "Survival",
+  "tier1": "Survival",
+  "tier2": "Brutality",
   "cellCost": 50,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",

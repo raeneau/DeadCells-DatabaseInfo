@@ -35,8 +35,7 @@
       "tag": "Electric"
     }
   ],
-  "tier1": "Brutality",
-  "tier2": "Tactic",
+  "tier1": "Tactic",
   "cellCost": 40,
   "legendAffix": "AmmoRetrieval",
   "__separator_group_ID": 1,

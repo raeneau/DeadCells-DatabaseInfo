@@ -4,7 +4,7 @@
     "movePauseMul": 0,
     "moveSpeedMul": 1
   },
-  "genTags": 0,
+  "genTags": 512,
   "pfCost": 1,
   "blueprints": [
     {

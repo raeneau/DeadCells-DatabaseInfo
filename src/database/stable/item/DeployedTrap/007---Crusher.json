@@ -2,7 +2,7 @@
   "props": {
     "range": 3,
     "power": [
-      200
+      150
     ],
     "effectCharge": 1.1,
     "uses": 3,
@@ -32,8 +32,8 @@
       "tag": "NeedPower"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Survival",
+  "tier1": "Survival",
+  "tier2": "Tactic",
   "cellCost": 30,
   "legendAffix": "AmmoRetrieval",
   "__separator_group_ID": 0,

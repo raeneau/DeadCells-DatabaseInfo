@@ -33,8 +33,8 @@
       "tag": "HasDuration"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Brutality",
+  "tier1": "Brutality",
+  "tier2": "Tactic",
   "cellCost": 60,
   "legendAffix": "BleedOnHit",
   "__separator_group_ID": 3,

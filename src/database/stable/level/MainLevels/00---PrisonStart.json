@@ -42,9 +42,7 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat"
-      },
+      "props": {},
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 1,
@@ -90,8 +88,8 @@
       "props": {
         "spawnWith": "Rat",
         "spawnWithNumber": [
-          1,
-          2
+          0,
+          1
         ]
       },
       "mob": "Mage360",
@@ -104,8 +102,8 @@
       "props": {
         "spawnWith": "Rat",
         "spawnWithNumber": [
-          1,
-          2
+          0,
+          1
         ]
       },
       "mob": "Mage360",
@@ -116,14 +114,9 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat",
-        "spawnWithNumber": [
-          0,
-          1
-        ]
-      },
+      "props": {},
       "mob": "KunaiMaster",
+      "maxDifficulty": 1,
       "minDifficulty": 1,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 1
@@ -131,9 +124,8 @@
     {
       "singleRoom": false,
       "props": {},
-      "mob": "Shield",
-      "maxDifficulty": 3,
-      "minDifficulty": 0,
+      "mob": "CrossbowMan",
+      "minDifficulty": 2,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },
@@ -141,8 +133,9 @@
       "singleRoom": false,
       "props": {},
       "mob": "Shield",
-      "minDifficulty": 4,
-      "quantityFactor": 1,
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },
     {
@@ -150,8 +143,8 @@
       "props": {
         "spawnWith": "Rat",
         "spawnWithNumber": [
-          1,
-          2
+          0,
+          1
         ]
       },
       "mob": "Rat",

@@ -10,7 +10,13 @@
   "genTags": 0,
   "glowOuterColor": 5186580,
   "pfCost": 0.3,
-  "blueprints": [],
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "P_Backpack_Melee",
+      "minDifficulty": 0
+    }
+  ],
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
@@ -31,7 +37,7 @@
   "glowInnerColor": 7741796,
   "minPfSize": 10,
   "metaItems": [],
-  "maxPerPlatform": 0,
+  "maxPerPlatform": 3,
   "score": 1,
   "flesh1": 5669211,
   "flesh2": 13429860,

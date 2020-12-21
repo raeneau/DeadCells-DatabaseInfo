@@ -4,9 +4,9 @@
     "color2": 8061841,
     "targetable": true,
     "dps": [
-      50
+      25
     ],
-    "dps2": 15,
+    "dps2": 20,
     "lightRange": 6,
     "life": 150,
     "color": 4998263,

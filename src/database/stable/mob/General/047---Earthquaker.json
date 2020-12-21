@@ -7,7 +7,7 @@
     "prct": 0.05,
     "bumpResistance": 0.9
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 0,
   "pfCost": 2.5,
   "blueprints": [

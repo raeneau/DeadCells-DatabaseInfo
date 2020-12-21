@@ -21,11 +21,15 @@
     },
     {
       "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "NoBackpackItem"
     }
   ],
   "tier1": "Brutality",
   "tier2": "Survival",
   "cellCost": 100,
+  "legendAffix": "CantPutInBackpack",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 68

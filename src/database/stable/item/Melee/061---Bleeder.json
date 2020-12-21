@@ -1,6 +1,6 @@
 {
   "props": {
-    "dps": 5,
+    "dps": 3.5,
     "duration": 12
   },
   "gameplayDesc": "Provoque {saignement@BL} (::+dps:: DPS pendant ::duration:: sec).",

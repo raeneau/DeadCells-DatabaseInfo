@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "Ayez la main verte. ",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerGardener",
+  "icon": {
+    "x": 24,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue de Jardinier",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 75,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 346
+}

@@ -7,10 +7,16 @@
     "maxSpeed": 3,
     "bumpResistance": 0.3
   },
-  "genTags": 0,
+  "genTags": 512,
   "glowOuterColor": 1586337,
   "pfCost": 1.4,
-  "blueprints": [],
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "P_AttackSpeed_Combo",
+      "minDifficulty": 0
+    }
+  ],
   "maxPerRoom": 1,
   "group": 0,
   "canBeElite": true,
@@ -27,7 +33,7 @@
   "life": [
     200
   ],
-  "name": "Gardien",
+  "name": "Oven Knight",
   "glowInnerColor": 1931711,
   "minPfSize": 8,
   "metaItems": [],

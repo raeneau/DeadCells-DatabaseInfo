@@ -1,0 +1,172 @@
+{
+  "props": {
+    "movePauseMul": 1,
+    "bumpResistance": 0.3
+  },
+  "genTags": 0,
+  "glowOuterColor": 16711680,
+  "pfCost": 1.4,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "P_Backpack_Ranged",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerCrossbowMan",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": false,
+  "index": 69,
+  "volteDelay": 0.3,
+  "id": "CrossbowMan",
+  "weight": 30,
+  "icon": {
+    "x": 58,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    180
+  ],
+  "name": "Bomb Arrows Archer",
+  "glowInnerColor": 16774912,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 5,
+  "flesh1": 1820100,
+  "flesh2": 4938373,
+  "skill": [
+    {
+      "chargeAnim": "loadAtkShoot",
+      "coolDown": 0.25,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.5,
+        "range": 4,
+        "canTriggerThroughWall": false,
+        "dps": 8,
+        "bump": 0.5,
+        "duration": 2.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/weapon_firecrossbow_charge.wav",
+      "charge": 1,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.1,
+      "execAnim": "atkShoot",
+      "id": "shoot",
+      "sfxRelease": "sfx/weapon_firecrossbow_shot.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/explosive_crossbow_hit.wav",
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkShoot",
+      "coolDown": 2,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 0.5,
+        "canTriggerThroughWall": false,
+        "dps": 10,
+        "count": 2,
+        "duration": 2.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/weapon_firecrossbow_charge.wav",
+      "charge": 1.5,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.1,
+      "execAnim": "atkShoot",
+      "id": "ark2",
+      "sfxRelease": "sfx/weapon_firecrossbow_shot.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/explosive_crossbow_hit.wav",
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 3.5,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": false,
+      "id": "swap",
+      "sfxRelease": "sfx/enm_archer_tp1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.85,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "id": "dodge",
+      "sfxRelease": "sfx/enm_archer_dodge1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkMelee",
+      "coolDown": 1,
+      "power": [
+        12
+      ],
+      "props": {
+        "x": 1,
+        "bump": 1
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_crossbowman_cac_charge.wav",
+      "charge": 0.7,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.75,
+      "execAnim": "atkMelee",
+      "id": "atkMelee",
+      "sfxRelease": "sfx/enm_crossbowman_cac_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 69
+}

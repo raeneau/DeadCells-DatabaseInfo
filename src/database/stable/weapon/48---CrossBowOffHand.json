@@ -11,7 +11,7 @@
       "breachBonus": 0,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_crossbow_charge2.wav",
-      "charge": 0.5,
+      "charge": 0.3,
       "sfxProps": {},
       "canCrit": false,
       "area": {

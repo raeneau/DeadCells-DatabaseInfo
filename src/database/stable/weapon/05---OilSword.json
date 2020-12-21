@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        53
+        45
       ],
       "fxProps": {
         "fxInnerColor": 2169918,
@@ -35,13 +35,13 @@
       "animId": "atkSaberA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 9,
-      "critMul": 0.75,
+      "critMul": 0.65,
       "glowColor": 2693711
     },
     {
       "coolDown": 0,
       "power": [
-        53
+        45
       ],
       "fxProps": {
         "fxInnerColor": 2169918,
@@ -69,7 +69,7 @@
       "animId": "atkSaberB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 8,
-      "critMul": 0.75,
+      "critMul": 0.65,
       "glowColor": 2693711
     }
   ],

@@ -27,8 +27,8 @@
       "tag": "HeavyWeapon"
     }
   ],
-  "tier1": "Brutality",
-  "tier2": "Survival",
+  "tier1": "Survival",
+  "tier2": "Brutality",
   "cellCost": 40,
   "legendAffix": "FullLifeDamage",
   "__separator_group_ID": 4,

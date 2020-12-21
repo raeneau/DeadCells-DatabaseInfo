@@ -42,7 +42,7 @@ function DatabaseVersionToggleScreen(props) {
     <div>
       <div className={cn.inputWrapper}>
         <Switch
-          disabled={false} // TRUE when there is no current beta
+          disabled // TRUE when there is no current beta
           switchId="DatabaseTypeSwitch"
           onChange={handleChange}
           label="Database Version: "
@@ -50,7 +50,7 @@ function DatabaseVersionToggleScreen(props) {
           offLabel={`Stable (${STABLE_VERSION})`}
         />
       </div>
-      <i className={cn.footer}>Last updated: December 17th, 2020</i>
+      <i className={cn.footer}>Last updated: December 21st, 2020</i>
     </div>
   );
 }

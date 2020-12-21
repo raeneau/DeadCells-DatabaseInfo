@@ -5,7 +5,7 @@
     "castTime": 0.1,
     "lock": 0.4,
     "prct": 0.4,
-    "distance": 10,
+    "distance": 13,
     "duration": 1
   },
   "gameplayDesc": "Attire un ennemi à vous. La prochaine attaque contre l'ennemi inflige +::+prct::% dégâts et l'étourdit pendant ::duration:: sec.",
@@ -33,8 +33,7 @@
       "tag": "ShortCooldown"
     }
   ],
-  "tier1": "Tactic",
-  "tier2": "Brutality",
+  "tier1": "Brutality",
   "cellCost": 35,
   "legendAffix": "ArrowsOnDestroy",
   "__separator_group_ID": 3,

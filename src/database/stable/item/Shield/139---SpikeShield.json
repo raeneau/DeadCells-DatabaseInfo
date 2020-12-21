@@ -1,0 +1,30 @@
+{
+  "props": {},
+  "gameplayDesc": "Inflige d'importants dégâts aux ennemis bloqués.",
+  "moneyCost": 1500,
+  "group": 6,
+  "castCD": 0,
+  "id": "SpikeShield",
+  "icon": {
+    "x": 4,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bouclier à pointes",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 40,
+  "legendAffix": "CounterAttack",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 139
+}

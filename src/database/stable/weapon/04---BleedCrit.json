@@ -31,7 +31,7 @@
       "animId": "atkKnifeB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 7,
-      "critMul": 1,
+      "critMul": 0.8,
       "glowColor": 16769869
     },
     {
@@ -62,7 +62,7 @@
       "animId": "atkKnifeA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 3,
-      "critMul": 1,
+      "critMul": 0.8,
       "glowColor": 16769869,
       "animSpd": 2
     },
@@ -94,7 +94,7 @@
       "animId": "atkKnifeA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 3,
-      "critMul": 1,
+      "critMul": 0.8,
       "glowColor": 16769869,
       "animSpd": 2
     },
@@ -126,7 +126,7 @@
       "animId": "atkKnifeB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 7,
-      "critMul": 1.2,
+      "critMul": 1,
       "glowColor": 16723759,
       "animSpd": 0.66
     }
