@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>December 17, 2020</h4>
 export default (
   <div>
+    <h4>December 17, 2020</h4>
     <li>Updated beta database to most recent version</li>
     <li>Added mapping to katana and demolisher</li>
     <li>Added check for if enemy is a trash mob</li>

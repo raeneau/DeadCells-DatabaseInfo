@@ -23,7 +23,7 @@
   ],
   "maxPerRoom": 0,
   "group": 0,
-  "canBeElite": false,
+  "canBeElite": true,
   "index": 60,
   "volteDelay": 1,
   "id": "Tick",
