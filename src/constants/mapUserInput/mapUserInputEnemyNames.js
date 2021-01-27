@@ -77,7 +77,7 @@ export default {
   SEWERTTCL: enemyNames.SEWER_TTCL,
 
   CATCHER: enemyNames.CATCHER,
-  HOOKER: enemyNames.HOOKER,
+  HOOKER: enemyNames.CATCHER,
 
   CLEAVER: enemyNames.CLEAVER,
   AXETHROWER: enemyNames.CLEAVER,
@@ -92,7 +92,7 @@ export default {
   SLASHER: enemyNames.SLASHER,
 
   LACERATOR: enemyNames.LACERATOR,
-  SPINNER: enemyNames.SPINNER,
+  SPINNER: enemyNames.LACERATOR,
 
   SHOCKER: enemyNames.SHOCKER,
 
@@ -101,7 +101,7 @@ export default {
   SPAWNER: enemyNames.SPAWNER,
 
   MASKER: enemyNames.MASKER,
-  FOGGER: enemyNames.FOGGER,
+  FOGGER: enemyNames.MASKER,
 
   CASTER: enemyNames.CASTER,
 
@@ -150,6 +150,7 @@ export default {
 
   LIBRARIAN: enemyNames.LIBRARIAN,
 
+  // ------------------------------ BAD SEED -------------------------------- //
   YEETER: enemyNames.YEETER,
   PITCHER: enemyNames.YEETER,
 
@@ -163,6 +164,7 @@ export default {
   TICK: enemyNames.TICK,
   GIANTTICK: enemyNames.TICK,
 
+  // --------------------------- BESTIARY UPDATE ---------------------------- //
   RAT: enemyNames.RAT,
   RANCIDRAT: enemyNames.RAT,
 
@@ -187,6 +189,7 @@ export default {
   DUELIST: enemyNames.DUELIST,
   DANCER: enemyNames.DUELIST,
 
+  // ------------------------ BARRELS O' FUN UPDATE ------------------------- //
   INFECTEDWORKER: enemyNames.INFECTED_WORKER,
   HURLER: enemyNames.INFECTED_WORKER,
 
@@ -194,9 +197,67 @@ export default {
   BARREL: enemyNames.LIVING_BARREL,
   MIMIC: enemyNames.LIVING_BARREL,
 
+  // --------------------------- CHRISTMAS UPDATE --------------------------- //
   CROSSBOWMAN: enemyNames.CROSSBOW_MAN,
   DEMOLISHER: enemyNames.CROSSBOW_MAN,
   BOMBARCHER: enemyNames.CROSSBOW_MAN,
+
+  // ----------------------------- FATAL FALLS ------------------------------ //
+  CROW: enemyNames.CROW,
+  ANNOYINGCROW: enemyNames.CROW,
+  MYOPICCROW: enemyNames.CROW,
+  FLYINGCROW: enemyNames.CROW,
+
+  JAVELINSNAKE: enemyNames.JAVELIN_SNAKE,
+  SNAKE: enemyNames.JAVELIN_SNAKE,
+  COLDBLOODED: enemyNames.JAVELIN_SNAKE,
+  COLDBLOODEDGUARDIAN: enemyNames.JAVELIN_SNAKE,
+
+  AXESTATUE: enemyNames.AXE_STATUE,
+  STATUEAXE: enemyNames.AXE_STATUE,
+  STONEWARDENAXE: enemyNames.AXE_STATUE,
+  AXESTONEWARDEN: enemyNames.AXE_STATUE,
+  AXEWARDEN: enemyNames.AXE_STATUE,
+  WARDENAXE: enemyNames.AXE_STATUE,
+
+  SPEARSTATUE: enemyNames.SPEAR_STATUE,
+  STATUESPEAR: enemyNames.SPEAR_STATUE,
+  STONEWARDENSPEAR: enemyNames.SPEAR_STATUE,
+  SPEARSTONEWARDEN: enemyNames.SPEAR_STATUE,
+  SPEARWARDEN: enemyNames.SPEAR_STATUE,
+  WARDENSPEAR: enemyNames.SPEAR_STATUE,
+
+  NECROMANCER: enemyNames.NECROMANCER,
+  NECRO: enemyNames.NECROMANCER,
+  APOSTATE: enemyNames.NECROMANCER,
+  NECROMANT: enemyNames.NECROMANCER,
+
+  BOOTLEGHOMUNCULUS: enemyNames.BOOTLEG_BLOB,
+  BOOTLEGHOMUN: enemyNames.BOOTLEG_BLOB,
+  DEFAULTHOMUNCULUS: enemyNames.BOOTLEG_BLOB,
+  BOOTLEGBLOB: enemyNames.BOOTLEG_BLOB,
+
+  BOOTLEGBOWHOMUNCULUS: enemyNames.BOOTLEG_BOW,
+  BOOTLEGBOWBLOB: enemyNames.BOOTLEG_BOW,
+  BOOTLEGHOMUNCULUSBOW: enemyNames.BOOTLEG_BOW,
+  BOOTLEGHOMUNBOW: enemyNames.BOOTLEG_BOW,
+  BOOTLEGBOWMAN: enemyNames.BOOTLEG_BOW,
+  BOOTLEGBOW: enemyNames.BOOTLEG_BOW,
+
+  BOOTLEGSWORDHOMUNCULUS: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGSWORDBLOB: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGHOMUNCULUSSWORD: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGHOMUNSWORD: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGSWORDSMAN: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGSWORDMAN: enemyNames.BOOTLEG_SWORD,
+  BOOTLEGSWORD: enemyNames.BOOTLEG_SWORD,
+
+  BOOTLEGSHOVELHOMUNCULUS: enemyNames.BOOTLEG_SHOVEL,
+  BOOTLEGSHOVELBLOB: enemyNames.BOOTLEG_SHOVEL,
+  BOOTLEGHOMUNCULUSSHOVEL: enemyNames.BOOTLEG_SHOVEL,
+  BOOTLEGHOMUNSHOVEL: enemyNames.BOOTLEG_SHOVEL,
+  BOOTLEGSHOVELMAN: enemyNames.BOOTLEG_SHOVEL,
+  BOOTLEGSHOVEL: enemyNames.BOOTLEG_SHOVEL,
 
   // ---------------------------------------------------------------------------
   // BOSSES
@@ -204,11 +265,11 @@ export default {
   CONCIERGE: enemyNames.CONCIERGE,
   BEHEMOTH: enemyNames.CONCIERGE,
 
-  CONJUNCTIVIUS: enemyNames.CONJUNCTIVIUS,
-  CONJUNC: enemyNames.CONJUNCTIVIUS,
-  CONJ: enemyNames.CONJUNCTIVIUS,
-  CONJUNCT: enemyNames.CONJUNCTIVIUS,
-  CONJONCTIVIUS: enemyNames.CONJUNCTIVIUS,
+  CONJUNCTIVIUS: enemyNames.CONJU,
+  CONJUNC: enemyNames.CONJU,
+  CONJ: enemyNames.CONJU,
+  CONJUNCT: enemyNames.CONJU,
+  CONJONCTIVIUS: enemyNames.CONJU,
 
   MAMATICK: enemyNames.MAMA_TICK,
 
@@ -222,4 +283,10 @@ export default {
   KINGSHAND: enemyNames.HOTK,
 
   COLLECTOR: enemyNames.COLLECTOR,
+
+  SCARECROW: enemyNames.SCARECROW,
+  GARDENER: enemyNames.SCARECROW,
+  ROYALGARDENER: enemyNames.SCARECROW,
+  THESCARECROW: enemyNames.SCARECROW,
+  THEGARDENER: enemyNames.SCARECROW,
 };

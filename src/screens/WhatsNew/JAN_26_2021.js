@@ -4,7 +4,8 @@ import React from "react";
 export default (
   <div>
     <li>Added Fatal Falls biomes to locations of old enemies</li>
-    <li>[IN PROGRESS] Adding Fatal Falls enemies and items</li>
+    <li>Added Fatal Falls enemies</li>
+    <li>[IN PROGRESS] Adding Fatal Falls items</li>
 
     <br />
     <b>CAUTION: These weapons have INACCURATE DPS:</b>

@@ -151,22 +151,57 @@ export default {
   CROSSBOW_MAN: { INTERNAL_ID: "CROSSBOWMAN", TYPE: ENEMY, NAME: "Demolisher" },
 
   // ----------------------------- FATAL FALLS ------------------------------ //
-  NECROMANCER: { INTERNAL_ID: "NECROMANT", TYPE: ENEMY, NAME: "Necromancer" },
-  CROW: { INTERNAL_ID: "FLYINGCROW", TYPE: ENEMY, NAME: "TODO" },
-  JAVELINSNAKE: {
+  CROW: { INTERNAL_ID: "FLYINGCROW", TYPE: ENEMY, NAME: "Myopic Crow" },
+  JAVELIN_SNAKE: {
     INTERNAL_ID: "JAVELINSNAKE",
     TYPE: ENEMY,
     NAME: "Cold Blooded Guardian",
+  },
+  AXE_STATUE: {
+    INTERNAL_ID: "AXESTATUE",
+    TYPE: ENEMY,
+    NAME: "Stone Warden (Axe)",
+  },
+  SPEAR_STATUE: {
+    INTERNAL_ID: "SPEARSTATUE",
+    TYPE: ENEMY,
+    NAME: "Stone Warden (Spear)",
+  },
+  NECROMANCER: { INTERNAL_ID: "NECROMANT", TYPE: ENEMY, NAME: "Apostate" },
+  BOOTLEG_BLOB: {
+    INTERNAL_ID: "BOOTLEGHOMUNCULUS",
+    TYPE: ENEMY,
+    NAME: "Failed Homunculus",
+  },
+  BOOTLEG_SWORD: {
+    INTERNAL_ID: "BOOTLEGSWORDSMAN",
+    TYPE: ENEMY,
+    NAME: "Clumsy Swordsman",
+  },
+  BOOTLEG_BOW: {
+    INTERNAL_ID: "BOOTLEGBOWMAN",
+    TYPE: ENEMY,
+    NAME: "Dastardly Archer",
+  },
+  BOOTLEG_SHOVEL: {
+    INTERNAL_ID: "BOOTLEGSHOVELMAN",
+    TYPE: ENEMY,
+    NAME: "Compulsive Gravedigger",
   },
 
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------
   CONCIERGE: { INTERNAL_ID: "BEHEMOTH", TYPE: ENEMY, NAME: "Concierge" },
-  CONJUCT: { INTERNAL_ID: "CONJONCTIVIUS", TYPE: ENEMY, NAME: "Conjunctivius" },
+  CONJU: { INTERNAL_ID: "CONJONCTIVIUS", TYPE: ENEMY, NAME: "Conjunctivius" },
   MAMA_TICK: { INTERNAL_ID: "MAMATICK", TYPE: ENEMY, NAME: "Mama Tick" },
   TIME_KEEPER: { INTERNAL_ID: "TIMEKEEPER", TYPE: ENEMY, NAME: "Time Keeper" },
   GIANT: { INTERNAL_ID: "GIANT", TYPE: ENEMY, NAME: "Giant" },
   HOTK: { INTERNAL_ID: "KINGSHAND", TYPE: ENEMY, NAME: "Hand of the King" },
   COLLECTOR: { INTERNAL_ID: "COLLECTOR", TYPE: ENEMY, NAME: "The Collector" },
+  SCARECROW: {
+    INTERNAL_ID: "GARDENERBOSS",
+    TYPE: ENEMY,
+    NAME: "The Scarecrow",
+  },
 };
