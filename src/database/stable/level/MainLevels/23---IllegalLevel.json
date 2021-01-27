@@ -29,6 +29,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "LeapingDuelyst",
       "minDifficulty": 0,
       "quantityFactor": 3,

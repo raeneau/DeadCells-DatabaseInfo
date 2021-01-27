@@ -38,6 +38,7 @@
     70
   ],
   "name": "Sarbacaneton",
+  "minPfHeight": 0,
   "glowInnerColor": 6481739,
   "minPfSize": 2,
   "metaItems": [],

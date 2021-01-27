@@ -37,6 +37,7 @@
     190
   ],
   "name": "Masqueur",
+  "minPfHeight": 0,
   "glowInnerColor": 16770338,
   "minPfSize": 0,
   "metaItems": [],

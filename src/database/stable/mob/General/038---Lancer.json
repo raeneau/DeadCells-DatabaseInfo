@@ -36,6 +36,7 @@
     150
   ],
   "name": "Lancier",
+  "minPfHeight": 0,
   "glowInnerColor": 16775594,
   "minPfSize": 6,
   "metaItems": [],

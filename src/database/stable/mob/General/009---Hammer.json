@@ -35,6 +35,7 @@
     390
   ],
   "name": "Hammer",
+  "minPfHeight": 0,
   "glowInnerColor": 10048255,
   "minPfSize": 9,
   "metaItems": [],

@@ -29,6 +29,7 @@
     100
   ],
   "name": "Crâne hurleur",
+  "minPfHeight": 0,
   "glowInnerColor": 7819992,
   "minPfSize": 3,
   "metaItems": [],

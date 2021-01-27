@@ -27,6 +27,7 @@
     100
   ],
   "name": "Tentacule des égouts",
+  "minPfHeight": 0,
   "glowInnerColor": 16754944,
   "minPfSize": 12,
   "metaItems": [],

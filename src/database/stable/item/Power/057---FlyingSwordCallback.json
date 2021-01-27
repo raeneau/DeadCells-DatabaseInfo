@@ -1,0 +1,38 @@
+{
+  "props": {
+    "offsetX": -10,
+    "offsetY": 1,
+    "dps": [
+      30
+    ],
+    "item": "FlyingSword",
+    "color": 14393124
+  },
+  "gameplayDesc": "Summon a flying sword that will deal damage to nearby targets and mark them. ::+dps::\nConsume the marks by grabbing the sword or it will get bored and go away!",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 0,
+  "id": "FlyingSwordCallback",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 29,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Épée volante ",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "PetBuff"
+    },
+    {
+      "tag": "ManualCooldown"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 0,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 57
+}

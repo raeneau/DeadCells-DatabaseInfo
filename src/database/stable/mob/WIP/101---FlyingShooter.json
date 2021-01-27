@@ -1,0 +1,60 @@
+{
+  "props": {
+    "speed": 0.1,
+    "duration": 1
+  },
+  "genTags": 514,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 4,
+  "group": 2,
+  "canBeElite": false,
+  "index": 101,
+  "volteDelay": 0.7,
+  "id": "FlyingShooter",
+  "weight": 0,
+  "icon": {
+    "x": 61,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    80
+  ],
+  "name": "Mauvais oeil",
+  "minPfHeight": 0,
+  "glowInnerColor": 7819992,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "skill": [
+    {
+      "coolDown": 0.15,
+      "power": [
+        4
+      ],
+      "props": {
+        "speed": 0.8,
+        "count": 2
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.6,
+      "manual": false,
+      "id": "shoot",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -10,
+      "lockAiAfter": 0.12,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 101
+}

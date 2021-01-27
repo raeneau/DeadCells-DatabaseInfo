@@ -1,0 +1,42 @@
+{
+  "props": {
+    "scaledValueCap": 1,
+    "speed": 0.2,
+    "duration2": 0.75,
+    "prct2": 0.2,
+    "buff": 0.5,
+    "prct": 0.5,
+    "customScaling": 0.025,
+    "duration": 10
+  },
+  "gameplayDesc": "Vous octroie ::*prct::% de votre vie manquante en {vie bonus@SH}, réduit de ::prct2::% les dégâts reçus et vous protège du Mal-être pendant ::duration:: secondes.",
+  "moneyCost": 1000,
+  "group": 3,
+  "castCD": 30,
+  "id": "ExtraHeal",
+  "icon": {
+    "x": 19,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tonique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "HasDuration"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "legendAffix": "RunSpeedOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 29
+}

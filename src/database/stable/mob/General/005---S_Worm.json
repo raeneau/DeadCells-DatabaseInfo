@@ -27,6 +27,7 @@
     30
   ],
   "name": "Ver à cadavre",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 0,
   "metaItems": [],

@@ -40,6 +40,7 @@
     220
   ],
   "name": "Attrapeur",
+  "minPfHeight": 0,
   "glowInnerColor": 8239871,
   "minPfSize": 6,
   "metaItems": [],

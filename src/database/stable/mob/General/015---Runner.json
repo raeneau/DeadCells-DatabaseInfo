@@ -40,6 +40,7 @@
     160
   ],
   "name": "Coureur",
+  "minPfHeight": 0,
   "glowInnerColor": 16775599,
   "minPfSize": 6,
   "metaItems": [],

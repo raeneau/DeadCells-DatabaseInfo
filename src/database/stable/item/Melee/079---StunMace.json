@@ -1,0 +1,33 @@
+{
+  "props": {
+    "prct": 0.75,
+    "duration": 1.1
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} si la cible est étourdie, {gelée@IC} ou {enracinée@RO}.",
+  "moneyCost": 1750,
+  "group": 4,
+  "castCD": 0,
+  "id": "StunMace",
+  "icon": {
+    "x": 3,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Casse noisettes",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "legendAffix": "StunDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 79
+}

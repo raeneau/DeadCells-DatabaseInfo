@@ -43,6 +43,7 @@
     150
   ],
   "name": "Protecteur",
+  "minPfHeight": 0,
   "minPfSize": 0,
   "metaItems": [],
   "maxPerPlatform": 0,

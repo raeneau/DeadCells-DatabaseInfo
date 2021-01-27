@@ -36,6 +36,7 @@
     100
   ],
   "name": "Scorpion",
+  "minPfHeight": 0,
   "glowInnerColor": 16770433,
   "minPfSize": 6,
   "metaItems": [],

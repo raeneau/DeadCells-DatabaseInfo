@@ -16,12 +16,15 @@ export default {
   STILT_VILLAGE: "Stilt Village",
   SLUMBERING_SANCTUARY: "Slumbering Sanctuary",
   GRAVEYARD: "Graveyard",
+  FRACTURED_SHRINES: "Fractured Shrines",
 
   CLOCK_TOWER: "Clock Tower",
   SUPULCHER: "Forgotten Sepulcher",
   CAVERN: "Cavern",
+  UNDYING_SHORES: "Undying Shores",
 
   CASTLE: "High Peak Castle",
+  DISTILLERY: "Derelict Distillery",
 
   ASTROLAB: "Astrolab",
 };

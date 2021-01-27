@@ -35,6 +35,7 @@
     250
   ],
   "name": "Frappeur",
+  "minPfHeight": 0,
   "glowInnerColor": 16764555,
   "minPfSize": 13,
   "metaItems": [],

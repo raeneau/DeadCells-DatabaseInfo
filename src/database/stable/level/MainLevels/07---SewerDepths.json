@@ -33,6 +33,7 @@
       "singleRoom": false,
       "props": {},
       "maxCombatRoomsBefore": 0,
+      "spawnWith": [],
       "mob": "Spiker",
       "minDifficulty": 0,
       "quantityFactor": 0.1,
@@ -42,6 +43,7 @@
       "singleRoom": false,
       "props": {},
       "maxCombatRoomsBefore": 0,
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 3,
       "minDifficulty": 0,
@@ -51,6 +53,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "AggressiveZombie",
       "minDifficulty": 4,
       "quantityFactor": 4,
@@ -59,6 +62,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Spiker",
       "minDifficulty": 0,
       "quantityFactor": 3,
@@ -67,6 +71,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "SewerTtcl",
       "minDifficulty": 0,
       "quantityFactor": 3,
@@ -75,6 +80,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Worm",
       "minDifficulty": 0,
       "quantityFactor": 6,
@@ -83,6 +89,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shield",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -91,6 +98,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatKamikaze",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -100,6 +108,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatKamikaze",
       "minDifficulty": 1,
       "quantityFactor": 6,
@@ -112,6 +121,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "WormZombie",
       "minDifficulty": 0,
       "quantityFactor": 10,

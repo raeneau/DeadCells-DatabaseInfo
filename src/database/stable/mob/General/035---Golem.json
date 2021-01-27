@@ -31,6 +31,7 @@
     400
   ],
   "name": "Golem",
+  "minPfHeight": 0,
   "glowInnerColor": 16764555,
   "minPfSize": 13,
   "metaItems": [],

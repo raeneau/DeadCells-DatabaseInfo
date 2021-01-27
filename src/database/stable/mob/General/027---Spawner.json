@@ -4,6 +4,7 @@
     "movePauseMul": 9999,
     "moveSpeedMul": 0,
     "actionCost": 50,
+    "cannotBeNecromanced": true,
     "cannotChangeDir": true,
     "bumpResistance": 1,
     "cannotBeBackstabbed": true
@@ -33,6 +34,7 @@
     1000
   ],
   "name": "Crache-mort",
+  "minPfHeight": 0,
   "minPfSize": 11,
   "metaItems": [],
   "maxPerPlatform": 0,

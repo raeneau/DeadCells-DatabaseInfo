@@ -39,6 +39,7 @@
     1500
   ],
   "name": "Tique Géante",
+  "minPfHeight": 0,
   "glowInnerColor": 4528782,
   "minPfSize": 20,
   "metaItems": [],

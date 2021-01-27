@@ -40,6 +40,7 @@
     300
   ],
   "name": "Garde-tombe",
+  "minPfHeight": 0,
   "glowInnerColor": 8395366,
   "minPfSize": 10,
   "metaItems": [],

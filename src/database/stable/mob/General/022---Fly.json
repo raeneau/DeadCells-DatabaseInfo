@@ -2,6 +2,7 @@
   "props": {
     "cellRatioCount": 0.85,
     "cannotBeShield": true,
+    "cannotBeNecromanced": true,
     "insensitiveSpike": true
   },
   "genTags": 530,
@@ -36,6 +37,7 @@
     40
   ],
   "name": "Bourdon lacérateur",
+  "minPfHeight": 0,
   "glowInnerColor": 16776379,
   "minPfSize": 0,
   "metaItems": [],

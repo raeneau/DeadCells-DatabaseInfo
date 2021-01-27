@@ -34,6 +34,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "KingsFinger",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -43,6 +44,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Archer",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -52,6 +54,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "KingsFinger",
       "minDifficulty": 1,
       "quantityFactor": 0.4,
@@ -60,6 +63,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "ClusterGrenader",
       "minDifficulty": 0,
       "quantityFactor": 0.6,
@@ -68,6 +72,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "CastleKnight",
       "minDifficulty": 0,
       "quantityFactor": 0.6,
@@ -76,6 +81,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "KunaiMaster",
       "maxDifficulty": 3,
       "minDifficulty": 1,
@@ -85,6 +91,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Demon",
       "minDifficulty": 4,
       "quantityFactor": 0.7,
@@ -97,6 +104,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 2,
@@ -105,6 +113,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Lancer",
       "maxDifficulty": 2,
       "minDifficulty": 0,
@@ -114,6 +123,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Lancer",
       "minDifficulty": 3,
       "quantityFactor": 1,

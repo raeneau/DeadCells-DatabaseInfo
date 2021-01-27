@@ -1,0 +1,50 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "LanternOffHand",
+  "strikeChain": [
+    {
+      "coolDown": 0.3,
+      "power": [
+        75
+      ],
+      "fxProps": {
+        "fxInnerColor": 16739840,
+        "fxOuterColor": 16753408
+      },
+      "lockCtrlAfter": 0.5,
+      "props": {
+        "speed": 1,
+        "fullCharge": 15,
+        "pct": 0.25,
+        "tick": 0.05
+      },
+      "onionSkinFrame": 7,
+      "breachBonus": -1,
+      "onionSkinOffX": -7,
+      "dynamicCharge": 3,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_lantern_soul_shot.wav",
+      "animId": "AtkLanternCast",
+      "sfxHit": "sfx/weapon_lantern_soul_hit.wav",
+      "hitFrame": 4,
+      "critMul": 2,
+      "glowColor": 16753408,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 42
+}

@@ -1,0 +1,43 @@
+{
+  "props": {
+    "range": 20,
+    "ammo": 8,
+    "prct": 0.3,
+    "count": 8,
+    "sideKickMob": "S_HeroWorm",
+    "duration": 30
+  },
+  "gameplayDesc": "Invoque ::count:: larves à votre service (cumulable jusqu'à ::ammo:: maximum)",
+  "moneyCost": 1500,
+  "group": 1,
+  "castCD": 10,
+  "id": "SideBomb",
+  "icon": {
+    "x": 19,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Nuée",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "NoCooldownReadySfx"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 30,
+  "legendAffix": "PoisonOnHit",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 21
+}

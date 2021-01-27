@@ -25,6 +25,7 @@
     90
   ],
   "name": "Zombie coureur",
+  "minPfHeight": 0,
   "glowInnerColor": 12713983,
   "minPfSize": 7,
   "metaItems": [],

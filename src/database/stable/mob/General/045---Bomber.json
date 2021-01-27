@@ -38,6 +38,7 @@
     120
   ],
   "name": "Voltigeur",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 3,
   "metaItems": [],

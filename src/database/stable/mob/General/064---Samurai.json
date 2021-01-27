@@ -36,6 +36,7 @@
     120
   ],
   "name": "Guerrier Lointain ",
+  "minPfHeight": 0,
   "glowInnerColor": 13526820,
   "minPfSize": 8,
   "metaItems": [],

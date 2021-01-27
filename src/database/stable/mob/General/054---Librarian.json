@@ -28,6 +28,7 @@
     80
   ],
   "name": "Bibliothécaire",
+  "minPfHeight": 0,
   "glowInnerColor": 4376539,
   "minPfSize": 8,
   "metaItems": [],

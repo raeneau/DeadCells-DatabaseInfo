@@ -31,6 +31,7 @@
     150
   ],
   "name": "Danseur",
+  "minPfHeight": 0,
   "glowInnerColor": 56831,
   "minPfSize": 8,
   "metaItems": [],

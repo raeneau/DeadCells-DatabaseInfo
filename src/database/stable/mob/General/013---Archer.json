@@ -44,6 +44,7 @@
     60
   ],
   "name": "Archer mort-vivant",
+  "minPfHeight": 0,
   "minPfSize": 6,
   "metaItems": [],
   "maxPerPlatform": 0,

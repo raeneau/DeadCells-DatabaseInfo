@@ -34,6 +34,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 1,
@@ -42,6 +43,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Enforcer",
       "minDifficulty": 4,
       "quantityFactor": 4,
@@ -50,6 +52,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Minimoth",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -58,6 +61,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Archer",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -75,6 +79,7 @@
     {
       "singleRoom": true,
       "props": {},
+      "spawnWith": [],
       "mob": "Fly",
       "minDifficulty": 0,
       "quantityFactor": 1.5,
@@ -87,6 +92,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Fly",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -99,6 +105,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Mage360",
       "minDifficulty": 0,
       "quantityFactor": 2,
@@ -107,6 +114,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Comboter",
       "minDifficulty": 2,
       "quantityFactor": 1,
@@ -115,6 +123,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shield",
       "maxDifficulty": 1,
       "minDifficulty": 0,
@@ -124,10 +133,20 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 2,
       "minDifficulty": 0,
       "quantityFactor": 7,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Samurai",
+      "minDifficulty": 1,
+      "quantityFactor": 3,
       "minCombatRoomsBefore": 0
     }
   ],

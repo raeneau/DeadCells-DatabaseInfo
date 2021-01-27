@@ -1,0 +1,63 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "directHitStunChance": 1
+  },
+  "genTags": 512,
+  "glowOuterColor": 16723200,
+  "pfCost": 2,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "index": 106,
+  "volteDelay": 0.5,
+  "id": "Blazer",
+  "weight": 10,
+  "icon": {
+    "x": 47,
+    "y": 74,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    170
+  ],
+  "name": "Aoe périodique",
+  "minPfHeight": 0,
+  "glowInnerColor": 16646038,
+  "minPfSize": 9,
+  "metaItems": [],
+  "maxPerPlatform": 3,
+  "score": 0,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "shards": 0,
+  "skill": [
+    {
+      "coolDown": 2.5,
+      "power": [
+        2
+      ],
+      "props": {
+        "speed": 0.35,
+        "duration": 1.5
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": false,
+      "id": "blaze",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -1,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 106
+}

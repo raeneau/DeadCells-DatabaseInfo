@@ -34,6 +34,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Librarian",
       "minDifficulty": 0,
       "quantityFactor": 4,
@@ -42,6 +43,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "DeathMage",
       "minDifficulty": 0,
       "quantityFactor": 4,
@@ -50,6 +52,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Stomper",
       "minDifficulty": 0,
       "quantityFactor": 6,
@@ -58,6 +61,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Defender",
       "minDifficulty": 0,
       "quantityFactor": 5,
@@ -66,6 +70,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Bomber",
       "minDifficulty": 0,
       "quantityFactor": 8,
@@ -78,6 +83,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "AggressiveZombie",
       "minDifficulty": 0,
       "quantityFactor": 8,

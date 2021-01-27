@@ -1,0 +1,29 @@
+{
+  "props": {
+    "prct2": 0.85,
+    "chance": 0.3,
+    "prct": 0.25,
+    "customScaling": 0.01,
+    "duration": 15,
+    "ceilToolTipValues": true
+  },
+  "gameplayDesc": "Votre potion de soins vous soigne à ::prct2::%, son effet est étalé sur ::duration:: sec et vous infligez +::*prct::% de dégâts sur cette durée. ",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_Hot",
+  "icon": {
+    "x": 7,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Soin prolongé",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 306
+}

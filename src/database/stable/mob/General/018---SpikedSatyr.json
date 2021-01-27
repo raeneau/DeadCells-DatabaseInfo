@@ -40,6 +40,7 @@
     125
   ],
   "name": "Epineux",
+  "minPfHeight": 0,
   "glowInnerColor": 11197250,
   "minPfSize": 9,
   "metaItems": [],

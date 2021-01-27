@@ -34,6 +34,7 @@
     200
   ],
   "name": "Oven Knight",
+  "minPfHeight": 0,
   "glowInnerColor": 1931711,
   "minPfSize": 8,
   "metaItems": [],

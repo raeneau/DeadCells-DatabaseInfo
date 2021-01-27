@@ -25,6 +25,7 @@
     100
   ],
   "name": "Lieutenant d'Élite",
+  "minPfHeight": 0,
   "glowInnerColor": 16580433,
   "minPfSize": 0,
   "metaItems": [],

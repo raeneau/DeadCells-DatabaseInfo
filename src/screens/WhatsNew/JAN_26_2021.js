@@ -1,0 +1,17 @@
+import React from "react";
+
+// <h4>January 26, 2021</h4>
+export default (
+  <div>
+    <li>Added Fatal Falls biomes to locations of old enemies</li>
+    <li>[IN PROGRESS] Adding Fatal Falls enemies and items</li>
+
+    <br />
+    <b>CAUTION: These weapons have INACCURATE DPS:</b>
+    <li>Valmont's Whip</li>
+    <li>Tentacle</li>
+    <li>Flint</li>
+    <li>Explosive Crossbow</li>
+    <li>Boomerang</li>
+  </div>
+);

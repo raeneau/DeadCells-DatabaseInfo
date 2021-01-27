@@ -33,6 +33,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 1,
       "minDifficulty": 0,
@@ -42,6 +43,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Runner",
       "minDifficulty": 0,
       "quantityFactor": 2,
@@ -50,6 +52,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shielder",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -58,6 +61,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatDasher",
       "minDifficulty": 0,
       "quantityFactor": 3,
@@ -66,6 +70,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Grenader",
       "maxDifficulty": 2,
       "minDifficulty": 0,
@@ -75,6 +80,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "ClusterGrenader",
       "minDifficulty": 3,
       "quantityFactor": 2,
@@ -83,6 +89,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Ninja",
       "maxDifficulty": 3,
       "minDifficulty": 2,
@@ -96,6 +103,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "AggressiveZombie",
       "minDifficulty": 4,
       "quantityFactor": 2,
@@ -104,6 +112,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatKamikaze",
       "minDifficulty": 1,
       "quantityFactor": 3,

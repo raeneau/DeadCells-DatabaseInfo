@@ -32,6 +32,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Enforcer",
       "minDifficulty": 2,
       "quantityFactor": 1.5,
@@ -40,6 +41,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "TimeKeeperBot",
       "minDifficulty": 0,
       "quantityFactor": 1.5,
@@ -48,6 +50,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "CrossbowMan",
       "minDifficulty": 4,
       "quantityFactor": 3,
@@ -56,6 +59,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "LeapingDuelyst",
       "minDifficulty": 0,
       "quantityFactor": 2,
@@ -64,6 +68,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "ClusterGrenader",
       "minDifficulty": 0,
       "quantityFactor": 3.8,
@@ -72,6 +77,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Archer",
       "maxDifficulty": 3,
       "minDifficulty": 0,
@@ -81,6 +87,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Ninja",
       "minDifficulty": 0,
       "quantityFactor": 8,

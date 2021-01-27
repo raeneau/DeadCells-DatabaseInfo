@@ -37,6 +37,7 @@
     90
   ],
   "name": "Lanceur de couteaux",
+  "minPfHeight": 0,
   "glowInnerColor": 16754302,
   "minPfSize": 8,
   "metaItems": [],

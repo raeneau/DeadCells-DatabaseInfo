@@ -22,10 +22,12 @@ import ClockTower from "../database/stable/level/MainLevels/13---ClockTower.json
 import Crypt from "../database/stable/level/MainLevels/14---Crypt.json";
 import Cavern from "../database/stable/level/MainLevels/16---Cavern.json";
 import Castle from "../database/stable/level/MainLevels/18---Castle.json";
-import Astrolab from "../database/stable/level/MainLevels/19---Distillery.json";
-import Distillery from "../database/stable/level/MainLevels/21---Astrolab.json";
+import Distillery from "../database/stable/level/MainLevels/19---Distillery.json";
+import Astrolab from "../database/stable/level/MainLevels/21---Astrolab.json";
 import Greenhouse from "../database/stable/level/MainLevels/25---Greenhouse.json";
 import Swamp from "../database/stable/level/MainLevels/26---Swamp.json";
+import Tumulus from "../database/stable/level/MainLevels/28---Tumulus.json";
+import Cliff from "../database/stable/level/MainLevels/29---Cliff.json";
 
 // -----------------------------------------------------------------------------
 
@@ -57,6 +59,8 @@ export const levelJsons = {
   Astrolab,
   Greenhouse,
   Swamp,
+  Tumulus,
+  Cliff,
 };
 
 // -----------------------------------------------------------------------------

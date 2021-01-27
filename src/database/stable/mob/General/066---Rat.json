@@ -34,6 +34,7 @@
     20
   ],
   "name": "Rat Purulent",
+  "minPfHeight": 0,
   "glowInnerColor": 7741796,
   "minPfSize": 10,
   "metaItems": [],

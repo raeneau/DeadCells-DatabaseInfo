@@ -34,6 +34,7 @@
     200
   ],
   "name": "Chef Pirate",
+  "minPfHeight": 0,
   "glowInnerColor": 5752063,
   "minPfSize": 6,
   "metaItems": [],

@@ -30,6 +30,7 @@
     250
   ],
   "name": "Travailleur Infecté",
+  "minPfHeight": 0,
   "glowInnerColor": 16711849,
   "minPfSize": 0,
   "metaItems": [],

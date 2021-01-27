@@ -36,6 +36,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Fogger",
       "minDifficulty": 0,
       "quantityFactor": 0.8,
@@ -44,6 +45,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Hammer",
       "minDifficulty": 0,
       "quantityFactor": 1.5,
@@ -52,6 +54,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Comboter",
       "minDifficulty": 0,
       "quantityFactor": 3,
@@ -60,6 +63,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 2,
@@ -68,6 +72,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Spinner",
       "minDifficulty": 0,
       "quantityFactor": 3,
@@ -76,6 +81,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Archer",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -85,6 +91,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "KunaiMaster",
       "minDifficulty": 1,
       "quantityFactor": 3,
@@ -93,6 +100,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatKamikaze",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -101,6 +109,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 2,
       "minDifficulty": 0,

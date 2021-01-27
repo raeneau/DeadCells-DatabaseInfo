@@ -1,6 +1,7 @@
 {
   "props": {
     "cannotBeShield": true,
+    "cannotBeNecromanced": true,
     "cannotBeBackstabbed": true,
     "insensitiveSpike": true
   },
@@ -33,6 +34,7 @@
   },
   "life": 1,
   "name": "Chauve-souris",
+  "minPfHeight": 0,
   "minPfSize": 0,
   "metaItems": [],
   "maxPerPlatform": 0,

@@ -33,6 +33,7 @@
     30
   ],
   "name": "Défenseur",
+  "minPfHeight": 0,
   "glowInnerColor": 8773375,
   "minPfSize": 10,
   "metaItems": [],

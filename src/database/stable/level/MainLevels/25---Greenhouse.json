@@ -36,6 +36,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "BatDasher",
       "maxDifficulty": 3,
       "minDifficulty": 0,
@@ -45,6 +46,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 0.8,
@@ -52,13 +54,16 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "ThrowableMushroom",
-        "spawnWithNumber": [
-          0,
-          2
-        ]
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            2
+          ],
+          "type": "ThrowableMushroom"
+        }
+      ],
       "mob": "Pitcher",
       "minDifficulty": 0,
       "quantityFactor": 1.8,
@@ -67,6 +72,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "SpikedSatyr",
       "minDifficulty": 0,
       "quantityFactor": 0.5,
@@ -75,6 +81,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Spiker",
       "minDifficulty": 1,
       "quantityFactor": 0.2,
@@ -83,6 +90,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 2,
       "minDifficulty": 0,
@@ -92,6 +100,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Fly",
       "minDifficulty": 4,
       "quantityFactor": 1.5,
@@ -104,6 +113,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "ThrowableMushroom",
       "minDifficulty": 0,
       "quantityFactor": 1.2,

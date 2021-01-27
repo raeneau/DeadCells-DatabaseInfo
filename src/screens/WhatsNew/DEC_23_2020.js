@@ -1,8 +1,8 @@
 import React from "react";
 
-// <h4>December 23, 2020</h4>
 export default (
   <div>
+    <h4>December 23, 2020</h4>
     <li>Updated database to most recent stable version</li>
 
     <br />

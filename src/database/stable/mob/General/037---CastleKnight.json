@@ -34,6 +34,7 @@
     300
   ],
   "name": "Chevalier Gardien",
+  "minPfHeight": 0,
   "glowInnerColor": 11197250,
   "minPfSize": 10,
   "metaItems": [],

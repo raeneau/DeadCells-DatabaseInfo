@@ -1,0 +1,26 @@
+{
+  "props": {
+    "scaledValueCap": 0.25,
+    "prct": 0.02,
+    "limit": 1.2
+  },
+  "gameplayDesc": "Augmente votre santé de +::+prct::%. ",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_ScaledHealth",
+  "icon": {
+    "x": 4,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Endurance guerrière",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 284
+}

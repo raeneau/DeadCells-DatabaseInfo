@@ -36,6 +36,7 @@
     100
   ],
   "name": "Grenadier",
+  "minPfHeight": 0,
   "glowInnerColor": 16473257,
   "minPfSize": 0,
   "metaItems": [],

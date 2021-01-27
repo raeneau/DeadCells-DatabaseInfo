@@ -30,6 +30,7 @@
     250
   ],
   "name": "Garde rapprochée",
+  "minPfHeight": 0,
   "glowInnerColor": 15681785,
   "minPfSize": 10,
   "metaItems": [],

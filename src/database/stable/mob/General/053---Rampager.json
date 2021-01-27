@@ -33,6 +33,7 @@
     150
   ],
   "name": "Furie",
+  "minPfHeight": 0,
   "glowInnerColor": 16735021,
   "minPfSize": 10,
   "metaItems": [],

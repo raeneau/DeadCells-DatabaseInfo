@@ -40,6 +40,7 @@
     250
   ],
   "name": "Fouetard",
+  "minPfHeight": 0,
   "glowInnerColor": 16754944,
   "minPfSize": 8,
   "metaItems": [],

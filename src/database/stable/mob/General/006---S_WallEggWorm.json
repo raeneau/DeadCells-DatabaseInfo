@@ -26,6 +26,7 @@
     50
   ],
   "name": "Ver tisseur",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 5,
   "metaItems": [],

@@ -37,6 +37,7 @@
     120
   ],
   "name": "Fugitif",
+  "minPfHeight": 0,
   "glowInnerColor": 16167211,
   "minPfSize": 8,
   "metaItems": [],

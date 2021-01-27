@@ -1,0 +1,23 @@
+{
+  "props": {
+    "revealedAtStart": true
+  },
+  "gameplayDesc": "Une tenue sans DRM !",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerGOG",
+  "icon": {
+    "x": 22,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue Galaxy",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 351
+}

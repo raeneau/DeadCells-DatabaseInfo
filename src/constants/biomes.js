@@ -2,89 +2,52 @@ import biomeNameConstants from "./names/biomes";
 
 export default {
   // ----------------------------
-  // Prisoners Quarters
+  // Stage 1
   // ----------------------------
   PrisonStart: biomeNameConstants.PRISONERS_QUARTERS,
 
   // ----------------------------
-  // Promenade of the Condemned
+  // Stage 2
   // ----------------------------
   PrisonCourtyard: biomeNameConstants.PROMENADE,
-
-  // ----------------------------
-  // Toxic Sewers
-  // ----------------------------
   SewerShort: biomeNameConstants.TOXIC_SEWERS,
-
-  // ----------------------------
-  // Dilapidated Arboretum
-  // ----------------------------
   Greenhouse: biomeNameConstants.ARBORETUM,
 
   // ----------------------------
-  // Prison Depths
+  // Stage 2.5
   // ----------------------------
   PrisonDepths: biomeNameConstants.PRISON_DEPTHS,
-
-  // ----------------------------
-  // Corrupted Prison
-  // ----------------------------
   PrisonCorrupt: biomeNameConstants.CORRUPTED_PRISON,
 
   // ----------------------------
-  // Morass of the Banished
+  // Stage 3
   // ----------------------------
   Swamp: biomeNameConstants.MORASS,
-
-  // ----------------------------
-  // Ossuary
-  // ----------------------------
   Ossuary: biomeNameConstants.OSSUARY,
-
-  // ----------------------------
-  // Ramparts
-  // ----------------------------
   PrisonRoof: biomeNameConstants.RAMPARTS,
-
-  // ----------------------------
-  // Ancient Sewers
-  // ----------------------------
   SewerDepths: biomeNameConstants.ANCIENT_SEWERS,
 
   // ----------------------------
-  // Stilt Village
+  // Stage 4
   // ----------------------------
   StiltVillage: biomeNameConstants.STILT_VILLAGE,
-
-  // ----------------------------
-  // Slumbering Sanctuary
-  // ----------------------------
   AncientTemple: biomeNameConstants.SLUMBERING_SANCTUARY,
-
-  // ----------------------------
-  // Graveyard
-  // ----------------------------
   Cemetary: biomeNameConstants.GRAVEYARD,
+  Tumulus: biomeNameConstants.FRACTURED_SHRINES,
 
   // ----------------------------
-  // Clock Tower
+  // Stage 5
   // ----------------------------
   ClockTower: biomeNameConstants.CLOCK_TOWER,
-
-  // ----------------------------
-  // Forgotten Sepulcher
-  // ----------------------------
   Crypt: biomeNameConstants.SUPULCHER,
-
-  // ----------------------------
-  // Cavern
-  // ----------------------------
   Cavern: biomeNameConstants.CAVERN,
+  Cliff: biomeNameConstants.UNDYING_SHORES,
 
   // ----------------------------
-  // High Peak Castle
+  // Stage 6
   // ----------------------------
   Castle: biomeNameConstants.CASTLE,
+  Distillery: biomeNameConstants.DISTILLERY,
 
   // ----------------------------
   // Astrolab

@@ -28,6 +28,7 @@
     80
   ],
   "name": "Gardienne Mécanique",
+  "minPfHeight": 0,
   "glowInnerColor": 16754944,
   "minPfSize": 8,
   "metaItems": [],

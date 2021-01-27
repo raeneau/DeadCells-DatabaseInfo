@@ -30,6 +30,7 @@
     150
   ],
   "name": "Lanceur d'Orbe",
+  "minPfHeight": 0,
   "glowInnerColor": 16580375,
   "minPfSize": 10,
   "metaItems": [],

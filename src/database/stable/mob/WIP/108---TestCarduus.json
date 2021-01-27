@@ -1,0 +1,110 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 512,
+  "glowOuterColor": 16723200,
+  "pfCost": 2,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "index": 108,
+  "volteDelay": 0.5,
+  "id": "TestCarduus",
+  "weight": 10,
+  "icon": {
+    "x": 19,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    140
+  ],
+  "name": "Test Thomas",
+  "minPfHeight": 0,
+  "glowInnerColor": 16646038,
+  "minPfSize": 9,
+  "metaItems": [],
+  "maxPerPlatform": 3,
+  "score": 0,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "skill": [
+    {
+      "coolDown": 0.2,
+      "power": [
+        11
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.7,
+      "allowSameSkillNearby": true,
+      "charge": 0.6,
+      "manual": false,
+      "id": "cc",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1,
+      "power": [
+        22
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.8,
+      "allowSameSkillNearby": false,
+      "charge": 0.85,
+      "manual": false,
+      "id": "heavy",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "chance": 0.6
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.03,
+      "manual": true,
+      "id": "crawl",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "distance": 7
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.15,
+      "manual": true,
+      "id": "jumpBack",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 108
+}

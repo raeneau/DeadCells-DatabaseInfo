@@ -35,6 +35,7 @@
     210
   ],
   "name": "Expérience ratée",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 9,
   "metaItems": [],

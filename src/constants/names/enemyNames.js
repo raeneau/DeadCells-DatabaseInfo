@@ -150,6 +150,15 @@ export default {
   // --------------------------- CHRISTMAS UPDATE --------------------------- //
   CROSSBOW_MAN: { INTERNAL_ID: "CROSSBOWMAN", TYPE: ENEMY, NAME: "Demolisher" },
 
+  // ----------------------------- FATAL FALLS ------------------------------ //
+  NECROMANCER: { INTERNAL_ID: "NECROMANT", TYPE: ENEMY, NAME: "Necromancer" },
+  CROW: { INTERNAL_ID: "FLYINGCROW", TYPE: ENEMY, NAME: "TODO" },
+  JAVELINSNAKE: {
+    INTERNAL_ID: "JAVELINSNAKE",
+    TYPE: ENEMY,
+    NAME: "Cold Blooded Guardian",
+  },
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------

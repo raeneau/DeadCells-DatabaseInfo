@@ -25,6 +25,7 @@
     20
   ],
   "name": "Mouche à cadavre",
+  "minPfHeight": 0,
   "glowInnerColor": 14352315,
   "minPfSize": 0,
   "metaItems": [],

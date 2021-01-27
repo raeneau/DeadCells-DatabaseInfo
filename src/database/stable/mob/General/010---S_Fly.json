@@ -25,6 +25,7 @@
     45
   ],
   "name": "Mouche des profondeurs",
+  "minPfHeight": 0,
   "glowInnerColor": 16759805,
   "minPfSize": 0,
   "metaItems": [],

@@ -1,0 +1,99 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "FlyingSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "fxProps": {
+        "fxStartFrame": 15
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "offsetX": -3,
+        "bump": 0.03
+      },
+      "breachBonus": -0.4,
+      "dynamicCharge": 0,
+      "charge": 1.1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release1.wav",
+      "fxId": "fxFlyingSwordSoloAtkA",
+      "animId": "atkA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 15,
+      "glowColor": 13369344
+    },
+    {
+      "coolDown": 0,
+      "fxProps": {
+        "fxStartFrame": 15
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "offsetX": -3,
+        "bump": 0.1
+      },
+      "breachBonus": -0.3,
+      "dynamicCharge": 0,
+      "charge": 0.7,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release2.wav",
+      "fxId": "fxFlyingSwordSoloAtkB",
+      "animId": "atkB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 14,
+      "glowColor": 13369344
+    },
+    {
+      "coolDown": 0,
+      "fxProps": {
+        "fxStartFrame": 15
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "offsetX": -3,
+        "bump": 0.1
+      },
+      "breachBonus": -0.3,
+      "dynamicCharge": 0,
+      "charge": 1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release3.wav",
+      "fxId": "fxFlyingSwordSoloAtkC",
+      "animId": "atkC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 15,
+      "glowColor": 13369344
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 43
+}

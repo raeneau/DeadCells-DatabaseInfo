@@ -40,6 +40,7 @@
     110
   ],
   "name": "Bombardier",
+  "minPfHeight": 0,
   "glowInnerColor": 16473257,
   "minPfSize": 0,
   "metaItems": [],

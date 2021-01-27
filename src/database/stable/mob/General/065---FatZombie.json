@@ -5,7 +5,7 @@
   },
   "genTags": 512,
   "glowOuterColor": 349699,
-  "pfCost": 2,
+  "pfCost": 1,
   "blueprints": [],
   "maxPerRoom": 2,
   "group": 0,
@@ -24,6 +24,7 @@
     200
   ],
   "name": "Gros Zombie",
+  "minPfHeight": 0,
   "glowInnerColor": 2737543,
   "minPfSize": 13,
   "metaItems": [],

@@ -24,6 +24,7 @@
     250
   ],
   "name": "Miasme Toxique",
+  "minPfHeight": 0,
   "glowInnerColor": 10001407,
   "minPfSize": 13,
   "metaItems": [],

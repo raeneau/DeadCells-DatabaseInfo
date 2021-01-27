@@ -41,6 +41,7 @@
     150
   ],
   "name": "Ver dégoutant",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 8,
   "metaItems": [],

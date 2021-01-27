@@ -40,6 +40,7 @@
     100
   ],
   "name": "Inquisiteur",
+  "minPfHeight": 0,
   "glowInnerColor": 7819992,
   "minPfSize": 3,
   "metaItems": [],

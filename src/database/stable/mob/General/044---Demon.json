@@ -39,6 +39,7 @@
     150
   ],
   "name": "Démon",
+  "minPfHeight": 0,
   "glowInnerColor": 16777181,
   "minPfSize": 3,
   "metaItems": [],

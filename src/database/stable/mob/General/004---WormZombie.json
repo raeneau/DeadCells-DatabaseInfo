@@ -35,6 +35,7 @@
     140
   ],
   "name": "Zombie purulent",
+  "minPfHeight": 0,
   "glowInnerColor": 16758097,
   "minPfSize": 8,
   "metaItems": [],

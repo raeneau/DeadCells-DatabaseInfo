@@ -46,6 +46,7 @@
     100
   ],
   "name": "Porteur de bouclier",
+  "minPfHeight": 0,
   "minPfSize": 8,
   "metaItems": [],
   "maxPerPlatform": 0,

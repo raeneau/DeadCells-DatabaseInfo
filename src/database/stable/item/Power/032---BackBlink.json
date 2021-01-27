@@ -1,0 +1,40 @@
+{
+  "props": {
+    "power": [
+      70
+    ],
+    "prct": 1.5,
+    "distance": 11
+  },
+  "gameplayDesc": "Vous téléporte dans le dos de l'ennemi. La prochaine attaque inflige +::+power:: dégâts.",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 2,
+  "id": "BackBlink",
+  "icon": {
+    "x": 7,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Déphasage",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "ShortCooldown"
+    },
+    {
+      "tag": "MoveHero"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 35,
+  "legendAffix": "PoisonOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 32
+}

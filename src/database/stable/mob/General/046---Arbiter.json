@@ -36,6 +36,7 @@
     100
   ],
   "name": "Arbitre",
+  "minPfHeight": 0,
   "glowInnerColor": 7819992,
   "minPfSize": 3,
   "metaItems": [],

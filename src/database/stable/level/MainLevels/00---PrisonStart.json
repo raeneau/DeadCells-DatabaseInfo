@@ -35,6 +35,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "AggressiveZombie",
       "minDifficulty": 4,
       "quantityFactor": 0.5,
@@ -43,6 +44,15 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 1,
@@ -51,6 +61,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 3,
       "minDifficulty": 0,
@@ -60,6 +71,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Enforcer",
       "maxDifficulty": 3,
       "minDifficulty": 2,
@@ -69,6 +81,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Enforcer",
       "minDifficulty": 4,
       "quantityFactor": 1,
@@ -77,6 +90,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Archer",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -85,13 +99,16 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat",
-        "spawnWithNumber": [
-          0,
-          1
-        ]
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "Mage360",
       "minDifficulty": 4,
       "quantityFactor": 1.5,
@@ -99,13 +116,16 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat",
-        "spawnWithNumber": [
-          0,
-          1
-        ]
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "Mage360",
       "maxDifficulty": 3,
       "minDifficulty": 2,
@@ -115,8 +135,16 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "KunaiMaster",
-      "maxDifficulty": 1,
       "minDifficulty": 1,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 1
@@ -132,21 +160,34 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shield",
-      "maxDifficulty": 1,
+      "maxDifficulty": 3,
       "minDifficulty": 0,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat",
-        "spawnWithNumber": [
-          0,
-          1
-        ]
-      },
+      "props": {},
+      "spawnWith": [],
+      "mob": "Shield",
+      "minDifficulty": 4,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "Rat",
       "minDifficulty": 1,
       "quantityFactor": 2,
@@ -155,6 +196,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Grenader",
       "maxDifficulty": 1,
       "minDifficulty": 0,

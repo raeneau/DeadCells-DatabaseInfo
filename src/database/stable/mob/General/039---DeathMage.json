@@ -32,6 +32,7 @@
     110
   ],
   "name": "Magistrat de mort",
+  "minPfHeight": 0,
   "glowInnerColor": 7819992,
   "minPfSize": 8,
   "metaItems": [],

@@ -29,6 +29,7 @@
     195
   ],
   "name": "Empalleur",
+  "minPfHeight": 0,
   "glowInnerColor": 6204189,
   "minPfSize": 0,
   "metaItems": [],

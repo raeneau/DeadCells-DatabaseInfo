@@ -39,6 +39,7 @@
     120
   ],
   "name": "Zombie",
+  "minPfHeight": 0,
   "glowInnerColor": 11197250,
   "minPfSize": 8,
   "metaItems": [],

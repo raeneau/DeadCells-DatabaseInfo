@@ -36,6 +36,7 @@
     170
   ],
   "name": "Lanceur",
+  "minPfHeight": 0,
   "glowInnerColor": 16777215,
   "minPfSize": 10,
   "metaItems": [],

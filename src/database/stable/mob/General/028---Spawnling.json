@@ -25,6 +25,7 @@
     35
   ],
   "name": "Fluide de cadavre",
+  "minPfHeight": 0,
   "glowInnerColor": 8503158,
   "minPfSize": 5,
   "metaItems": [],

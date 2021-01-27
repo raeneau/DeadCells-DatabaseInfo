@@ -1,0 +1,109 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "NotFlyingSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "fxProps": {
+        "fxStartFrame": 9
+      },
+      "lockCtrlAfter": 0.23,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0.1,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5.1,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release1.wav",
+      "fxId": "fxFlyingSwordAtkA",
+      "animId": "AtkFlyingSwordA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 9,
+      "critMul": 2,
+      "glowColor": 445922,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxStartFrame": 5
+      },
+      "lockCtrlAfter": 0.26,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0.2,
+      "dynamicCharge": 0,
+      "charge": 0.16,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release2.wav",
+      "fxId": "fxFlyingSwordAtkB",
+      "animId": "AtkFlyingSwordB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 2,
+      "glowColor": 445922
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {
+        "fxStartFrame": 8
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "charge": 0.26,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -1,
+        "height": 5,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_flyingsword_release3.wav",
+      "fxId": "fxFlyingSwordAtkC",
+      "animId": "AtkFlyingSwordC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 8,
+      "critMul": 2,
+      "glowColor": 445922
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 44
+}

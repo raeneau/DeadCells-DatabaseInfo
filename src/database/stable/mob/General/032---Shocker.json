@@ -3,6 +3,7 @@
     "cannotBeShield": false,
     "movePauseMul": 9999,
     "moveSpeedMul": 0,
+    "directHitStunChance": 1,
     "cannotBeBackstabbed": true
   },
   "genTags": 545,
@@ -36,6 +37,7 @@
     90
   ],
   "name": "Electrocuteur",
+  "minPfHeight": 0,
   "glowInnerColor": 54015,
   "minPfSize": 6,
   "metaItems": [],

@@ -37,6 +37,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Blobby",
       "minDifficulty": 0,
       "quantityFactor": 0.7,
@@ -45,6 +46,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Stomper",
       "minDifficulty": 0,
       "quantityFactor": 0.2,
@@ -53,6 +55,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shielder",
       "minDifficulty": 1,
       "quantityFactor": 0.2,
@@ -61,6 +64,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Shocker",
       "maxDifficulty": 0,
       "minDifficulty": 0,
@@ -69,9 +73,12 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat"
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
       "mob": "Grenader",
       "maxDifficulty": 2,
       "minDifficulty": 0,
@@ -80,9 +87,12 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat"
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
       "mob": "Mage360",
       "minDifficulty": 3,
       "quantityFactor": 0.4,
@@ -91,6 +101,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Samurai",
       "minDifficulty": 2,
       "quantityFactor": 0.8,
@@ -98,13 +109,16 @@
     },
     {
       "singleRoom": false,
-      "props": {
-        "spawnWith": "Rat",
-        "spawnWithNumber": [
-          0,
-          1
-        ]
-      },
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            0,
+            1
+          ],
+          "type": "Rat"
+        }
+      ],
       "mob": "Rat",
       "minDifficulty": 0,
       "quantityFactor": 1,
@@ -113,6 +127,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "Zombie",
       "maxDifficulty": 1,
       "minDifficulty": 0,

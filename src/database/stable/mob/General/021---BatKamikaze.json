@@ -38,6 +38,7 @@
   },
   "life": 1,
   "name": "Kamikaze",
+  "minPfHeight": 0,
   "minPfSize": 0,
   "metaItems": [],
   "maxPerPlatform": 0,
