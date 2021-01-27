@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DeadCells-DatabaseInfo/static/css/main.c5be1d91.chunk.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.4b8b6d8d.chunk.js",
-    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.4b8b6d8d.chunk.js.map",
+    "main.css": "/DeadCells-DatabaseInfo/static/css/main.7fde40d3.chunk.css",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.e8db8c40.chunk.js",
+    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.e8db8c40.chunk.js.map",
     "runtime-main.js": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js",
     "runtime-main.js.map": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js.map",
-    "static/js/2.03fb42b6.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.03fb42b6.chunk.js",
-    "static/js/2.03fb42b6.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.03fb42b6.chunk.js.map",
+    "static/js/2.2c05f41f.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.2c05f41f.chunk.js",
+    "static/js/2.2c05f41f.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.2c05f41f.chunk.js.map",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
-    "precache-manifest.0e299ec99b8d1059187a94b6186a16d2.js": "/DeadCells-DatabaseInfo/precache-manifest.0e299ec99b8d1059187a94b6186a16d2.js",
+    "precache-manifest.346b4f4446b443ee7729336eebc2490a.js": "/DeadCells-DatabaseInfo/precache-manifest.346b4f4446b443ee7729336eebc2490a.js",
     "service-worker.js": "/DeadCells-DatabaseInfo/service-worker.js",
-    "static/css/main.c5be1d91.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.c5be1d91.chunk.css.map",
-    "static/js/2.03fb42b6.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.03fb42b6.chunk.js.LICENSE.txt",
+    "static/css/main.7fde40d3.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.7fde40d3.chunk.css.map",
+    "static/js/2.2c05f41f.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.2c05f41f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/DeadCells-DatabaseInfo/static/media/islandBackground.77547194.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.13a4b7b1.js",
-    "static/js/2.03fb42b6.chunk.js",
-    "static/css/main.c5be1d91.chunk.css",
-    "static/js/main.4b8b6d8d.chunk.js"
+    "static/js/2.2c05f41f.chunk.js",
+    "static/css/main.7fde40d3.chunk.css",
+    "static/js/main.e8db8c40.chunk.js"
   ]
 }
