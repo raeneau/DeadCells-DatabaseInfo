@@ -193,7 +193,7 @@ export default {
   // BOSSES
   // ---------------------------------------------------------------------------
   CONCIERGE: { INTERNAL_ID: "BEHEMOTH", TYPE: ENEMY, NAME: "Concierge" },
-  CONJU: { INTERNAL_ID: "CONJONCTIVIUS", TYPE: ENEMY, NAME: "Conjunctivius" },
+  CONJU: { INTERNAL_ID: "BEHOLDER", TYPE: ENEMY, NAME: "Conjunctivius" },
   MAMA_TICK: { INTERNAL_ID: "MAMATICK", TYPE: ENEMY, NAME: "Mama Tick" },
   TIME_KEEPER: { INTERNAL_ID: "TIMEKEEPER", TYPE: ENEMY, NAME: "Time Keeper" },
   GIANT: { INTERNAL_ID: "GIANT", TYPE: ENEMY, NAME: "Giant" },

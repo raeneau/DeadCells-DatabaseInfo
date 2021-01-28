@@ -270,6 +270,7 @@ export default {
   CONJ: enemyNames.CONJU,
   CONJUNCT: enemyNames.CONJU,
   CONJONCTIVIUS: enemyNames.CONJU,
+  BEHOLDER: enemyNames.CONJU,
 
   MAMATICK: enemyNames.MAMA_TICK,
 
