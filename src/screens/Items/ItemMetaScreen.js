@@ -6,6 +6,7 @@ import BasicDisplay from "../../components/common/basicDisplay";
 import Scaling from "../../components/items/scaling";
 import Tags from "../../components/items/tags";
 import img from "../../assets/goldcoin.png";
+import Sprite from "../../components/items/sprite";
 
 // -----------------------------------------------------------------------------
 
@@ -18,9 +19,9 @@ const ItemMetaScreen = (props) => {
       <table>
         <tbody>
           <BasicDisplay name="Internal Name" value={itemName} />
-          {/* ADD PICTURE HERE */}
           {/* ADD DESCRIPTION HERE */}
           {/* ADD AMBIENT DESCRIPTION HERE */}
+          <Sprite value={itemJson} />
           <BasicDisplay
             name="Type"
             value={_get(itemJson, "__separator_group_Name")}

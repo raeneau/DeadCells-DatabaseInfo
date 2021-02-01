@@ -141,4 +141,29 @@ export default {
 
   KATANA: meleeWeaponNames.KATANA,
   WEEB: meleeWeaponNames.KATANA,
+
+  // ----------------------------- FATAL FALLS ------------------------------ //
+  SNAKEFANG: meleeWeaponNames.SNAKE_FANG,
+  SNAKEFANGS: meleeWeaponNames.SNAKE_FANG,
+  SNAKEDAGGER: meleeWeaponNames.SNAKE_FANG,
+  SNAKEDAGGERS: meleeWeaponNames.SNAKE_FANG,
+  FANGS: meleeWeaponNames.SNAKE_FANG,
+
+  GIANTSTAFF: meleeWeaponNames.IRON_STAFF,
+  IRONSTAFF: meleeWeaponNames.IRON_STAFF,
+  STAFF: meleeWeaponNames.IRON_STAFF,
+
+  LANTERN: meleeWeaponNames.LANTERN,
+  FERRYLANTERN: meleeWeaponNames.LANTERN,
+  FERRYMANLANTERN: meleeWeaponNames.LANTERN,
+  FERRYMANSLANTERN: meleeWeaponNames.LANTERN,
+
+  LANTERNOFFHAND: meleeWeaponNames.LANTERN_OFFHAND,
+  FERRYLANTERNOFFHAND: meleeWeaponNames.LANTERN_OFFHAND,
+  FERRYMANLANTERNOFFHAND: meleeWeaponNames.LANTERN_OFFHAND,
+  FERRYMANSLANTERNOFFHAND: meleeWeaponNames.LANTERN_OFFHAND,
+
+  SERENADEMELEE: meleeWeaponNames.SERENADE_MELEE,
+  SERENADEHELD: meleeWeaponNames.SERENADE_MELEE,
+  SERENADESWORD: meleeWeaponNames.SERENADE_MELEE,
 };

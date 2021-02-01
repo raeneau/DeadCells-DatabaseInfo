@@ -198,4 +198,32 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Katana",
   },
+
+  // ----------------------------- FATAL FALLS ------------------------------ //
+  SNAKE_FANG: {
+    INTERNAL_ID: "SNAKEFANG",
+    TYPE: MELEE_WEAPON,
+    NAME: "Snake Fang",
+  },
+  IRON_STAFF: {
+    INTERNAL_ID: "GIANTSTAFF",
+    TYPE: MELEE_WEAPON,
+    NAME: "Iron Staff",
+  },
+  LANTERN: {
+    INTERNAL_ID: "LANTERN",
+    TYPE: MELEE_WEAPON,
+    NAME: "Lantern",
+    HAS_OFFHAND: true, // TODO: Make this work :)
+  },
+  LANTERN_OFFHAND: {
+    INTERNAL_ID: "LANTERNOFFHAND",
+    TYPE: MELEE_WEAPON,
+    NAME: "Lantern (Offhand)",
+  },
+  SERENADE_MELEE: {
+    INTERNAL_ID: "NOTFLYINGSWORD",
+    TYPE: MELEE_WEAPON,
+    NAME: "Serenade (Melee version)",
+  },
 };
