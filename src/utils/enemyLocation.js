@@ -10,7 +10,7 @@ import { BETA } from "../constants/databaseVersion";
 // Local modules.
 import { levelJsons } from "./jsonImports";
 import { levelJsons as levelJsonsBeta } from "./jsonImportsBeta";
-import formatBossCellDifficulty from "./formatBossCellDifficulty";
+import { formatDifficultyWithObjects } from "./formatBossCellDifficulty";
 
 // -----------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ export default ({ enemy, databaseVersion }) => {
 
       const locationName = _get(element, "id");
       currentEnemyLocations.push({
-        difficulty: formatBossCellDifficulty({
+        difficulty: formatDifficultyWithObjects({
           minDifficultyObject: minDifficulty,
           maxDifficultyObject: maxDifficulty,
         }),

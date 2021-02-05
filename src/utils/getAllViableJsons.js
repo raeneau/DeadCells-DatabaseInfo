@@ -15,6 +15,7 @@ const {
   ENEMY,
   GRENADE,
   TRAP,
+  LEVEL,
 } = inputTypes;
 
 // -----------------------------------------------------------------------------
@@ -31,6 +32,7 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
     enemyJsons,
     itemGrenadeJsons,
     itemTrapJsons,
+    levelJsonPath,
   } = versionedDatabase;
 
   switch (TYPE) {
@@ -41,13 +43,13 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (weaponJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Melee${itemMeleeJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],
-        type: "Melee",
         databaseVersion,
       });
     }
@@ -59,13 +61,13 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (weaponJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Ranged${itemRangedJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],
-        type: "Ranged",
         databaseVersion,
       });
     }
@@ -77,13 +79,13 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (weaponJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [
           `weapon${weaponJsons[INTERNAL_ID]}`,
           `item/Shield${itemShieldJsons[INTERNAL_ID]}`,
         ],
         jsonNames: ["weaponJson", "itemJson"],
-        type: "Shield",
         databaseVersion,
       });
     }
@@ -95,10 +97,10 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (enemyJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [`mob/General${enemyJsons[INTERNAL_ID]}`],
         jsonNames: ["enemyJson"],
-        type: "Enemies",
         databaseVersion,
       });
     }
@@ -110,10 +112,10 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (itemGrenadeJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [`item/Grenade${itemGrenadeJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
-        type: "Grenade",
         databaseVersion,
       });
     }
@@ -125,10 +127,26 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       if (itemTrapJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
+
       return getJson({
         jsonPaths: [`item/DeployedTrap${itemTrapJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
-        type: "Trap",
+        databaseVersion,
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // Levels
+    // -------------------------------------------------------------------------
+    case LEVEL: {
+      if (levelJsonPath[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
+
+      console.log(levelJsonPath[INTERNAL_ID]);
+      return getJson({
+        jsonPaths: [`level/MainLevels${levelJsonPath[INTERNAL_ID]}`],
+        jsonNames: ["itemJson"],
         databaseVersion,
       });
     }

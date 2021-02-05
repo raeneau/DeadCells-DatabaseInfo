@@ -12,18 +12,23 @@ export default {
   EGGWORM: enemyNames.S_WALLEGGWORM,
   SWAMPWORM: enemyNames.S_WALLEGGWORM,
   WEAVERWORM: enemyNames.S_WALLEGGWORM,
+  S_WALLEGGWORM: enemyNames.S_WALLEGGWORM,
 
   SHIELDBEARER: enemyNames.SHIELDBEARER,
   SHIELD: enemyNames.SHIELDBEARER, // !!! -- OVERLOADED VALUE
 
   GRENADIER: enemyNames.GRENADIER,
+  GRENADER: enemyNames.GRENADIER,
 
   BOMBARDIER: enemyNames.BOMBARDIER,
+  CLUSTERGRENADER: enemyNames.BOMBARDIER,
 
   BAT: enemyNames.BAT,
   DASHBAT: enemyNames.BAT,
+  BATDASHER: enemyNames.BAT,
 
   KAMIKAZE: enemyNames.KAMIKAZE,
+  BATKAMIKAZE: enemyNames.KAMIKAZE,
 
   RUNNER: enemyNames.RUNNER,
 
@@ -31,6 +36,7 @@ export default {
   MAGE360: enemyNames.INQUISITOR,
 
   PROTECTOR: enemyNames.PROTECTOR,
+  SHIELDER: enemyNames.PROTECTOR,
 
   HAMMER: enemyNames.HAMMER,
 
@@ -88,8 +94,10 @@ export default {
   KNIFETHROWER: enemyNames.KNIFE_THROWER,
   KUNAI: enemyNames.KNIFE_THROWER,
   KUNAITHROWER: enemyNames.KNIFE_THROWER,
+  KUNAIMASTER: enemyNames.KNIFE_THROWER,
 
   SLASHER: enemyNames.SLASHER,
+  COMBOTER: enemyNames.SLASHER,
 
   LACERATOR: enemyNames.LACERATOR,
   SPINNER: enemyNames.LACERATOR,
@@ -97,6 +105,7 @@ export default {
   SHOCKER: enemyNames.SHOCKER,
 
   THORNY: enemyNames.THORNY,
+  SPIKEDSATYR: enemyNames.THORNY,
 
   SPAWNER: enemyNames.SPAWNER,
 
@@ -111,6 +120,7 @@ export default {
   NINJA: enemyNames.DARK_TRACKER,
 
   CANNIBAL: enemyNames.CANNIBAL,
+  LEAPINGDUELYST: enemyNames.CANNIBAL,
 
   AUTOMATON: enemyNames.AUTOMATON,
   TIMEKEEPERBOT: enemyNames.AUTOMATON,
@@ -127,6 +137,7 @@ export default {
 
   SLAMMER: enemyNames.SLAMMER,
   BIRD: enemyNames.SLAMMER,
+  STOMPER: enemyNames.SLAMMER,
 
   DEMON: enemyNames.DEMON,
 
@@ -142,6 +153,7 @@ export default {
   FAILEDEXPERIMENT: enemyNames.FAILED_EXP,
   EXPERIMENT: enemyNames.FAILED_EXP,
   FAILED: enemyNames.FAILED_EXP,
+  AGGRESSIVEZOMBIE: enemyNames.FAILED_EXP,
 
   DEFENDER: enemyNames.DEFENDER,
 
@@ -156,6 +168,7 @@ export default {
 
   JERKSHROOM: enemyNames.JERKSHROOM,
   MUSHROOM: enemyNames.JERKSHROOM,
+  THROWABLEMUSHROOM: enemyNames.JERKSHROOM,
 
   BANISHED: enemyNames.BANISHED,
 

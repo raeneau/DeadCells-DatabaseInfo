@@ -1,30 +1,90 @@
+import inputTypes from "../inputTypes";
+
+const { LEVEL } = inputTypes;
+
 export default {
-  PRISONERS_QUARTERS: "Prisoners' Quarters",
+  PRISONERS_QUARTERS: {
+    INTERNAL_ID: "PRISONSTART",
+    TYPE: LEVEL,
+    NAME: "Prisoners' Quarters",
+  },
 
-  PROMENADE: "Promenade of the Condemned", // PQ
-  TOXIC_SEWERS: "Toxic Sewers",
-  ARBORETUM: "Dilapidated Arboretum",
+  PROMENADE: {
+    INTERNAL_ID: "PRISONCOURTYARD",
+    TYPE: LEVEL,
+    NAME: "Promenade of the Condemned",
+  },
+  TOXIC_SEWERS: {
+    INTERNAL_ID: "SEWERSHORT",
+    TYPE: LEVEL,
+    NAME: "Toxic Sewers",
+  },
+  ARBORETUM: {
+    INTERNAL_ID: "GREENHOUSE",
+    TYPE: LEVEL,
+    NAME: "Dilapidated Arboretum",
+  },
 
-  PRISON_DEPTHS: "Prison Depths",
-  CORRUPTED_PRISON: "Corrupted Prison",
+  PRISON_DEPTHS: {
+    INTERNAL_ID: "PRISONDEPTHS",
+    TYPE: LEVEL,
+    NAME: "Prison Depths",
+  },
+  CORRUPTED_PRISON: {
+    INTERNAL_ID: "PRISONCORRUPT",
+    TYPE: LEVEL,
+    NAME: "Corrupted Prison",
+  },
 
-  MORASS: "Morass of the Banished",
-  OSSUARY: "Ossuary",
-  RAMPARTS: "Ramparts",
-  ANCIENT_SEWERS: "Ancient Sewers",
+  MORASS: {
+    INTERNAL_ID: "SWAMP",
+    TYPE: LEVEL,
+    NAME: "Morass of the Banished",
+  },
+  OSSUARY: { INTERNAL_ID: "OSSUARY", TYPE: LEVEL, NAME: "Ossuary" },
+  RAMPARTS: { INTERNAL_ID: "PRISONROOF", TYPE: LEVEL, NAME: "Ramparts" },
+  ANCIENT_SEWERS: {
+    INTERNAL_ID: "SEWERDEPTHS",
+    TYPE: LEVEL,
+    NAME: "Ancient Sewers",
+  },
 
-  STILT_VILLAGE: "Stilt Village",
-  SLUMBERING_SANCTUARY: "Slumbering Sanctuary",
-  GRAVEYARD: "Graveyard",
-  FRACTURED_SHRINES: "Fractured Shrines",
+  STILT_VILLAGE: {
+    INTERNAL_ID: "STILTVILLAGE",
+    TYPE: LEVEL,
+    NAME: "Stilt Village",
+  },
+  SLUMBERING_SANCTUARY: {
+    INTERNAL_ID: "ANCIENTTEMPLE",
+    TYPE: LEVEL,
+    NAME: "Slumbering Sanctuary",
+  },
+  GRAVEYARD: { INTERNAL_ID: "CEMETARY", TYPE: LEVEL, NAME: "Graveyard" },
+  FRACTURED_SHRINES: {
+    INTERNAL_ID: "TUMULUS",
+    TYPE: LEVEL,
+    NAME: "Fractured Shrines",
+  },
 
-  CLOCK_TOWER: "Clock Tower",
-  SUPULCHER: "Forgotten Sepulcher",
-  CAVERN: "Cavern",
-  UNDYING_SHORES: "Undying Shores",
+  CLOCK_TOWER: { INTERNAL_ID: "CLOCKTOWER", TYPE: LEVEL, NAME: "Clock Tower" },
+  SUPULCHER: {
+    INTERNAL_ID: "CRYPT",
+    TYPE: LEVEL,
+    NAME: "Forgotten Sepulcher",
+  },
+  CAVERN: { INTERNAL_ID: "CAVERN", TYPE: LEVEL, NAME: "Cavern" },
+  UNDYING_SHORES: {
+    INTERNAL_ID: "CLIFF",
+    TYPE: LEVEL,
+    NAME: "Undying Shores",
+  },
 
-  CASTLE: "High Peak Castle",
-  DISTILLERY: "Derelict Distillery",
+  CASTLE: { INTERNAL_ID: "CASTLE", TYPE: LEVEL, NAME: "High Peak Castle" },
+  DISTILLERY: {
+    INTERNAL_ID: "DISTILLERY",
+    TYPE: LEVEL,
+    NAME: "Derelict Distillery",
+  },
 
-  ASTROLAB: "Astrolab",
+  ASTROLAB: { INTERNAL_ID: "ASTROLAB", TYPE: LEVEL, NAME: "Astrolab" },
 };
