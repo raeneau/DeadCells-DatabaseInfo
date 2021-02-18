@@ -143,7 +143,6 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
         return undefined;
       }
 
-      console.log(levelJsonPath[INTERNAL_ID]);
       return getJson({
         jsonPaths: [`level/MainLevels${levelJsonPath[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
