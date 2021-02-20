@@ -9,39 +9,39 @@ import cardIcons from "../../assets/cardIcons.png";
 // -----------------------------------------------------------------------------
 
 // TODO: Display cropped sprite so it's easy to copy/paste?
-function getCroppedImg(x, y, size) {
-  // eslint-disable-next-line
-  const img1 = new Image(2048, 2048); // Image constructor
-  img1.src = "";
+// const getCroppedImg = (x, y, size) => {
+//   // eslint-disable-next-line
+//   const img1 = new Image(2048, 2048); // Image constructor
+//   img1.src = "";
 
-  // eslint-disable-next-line
-  const canvas = document.createElement("canvas");
-  const ctx = canvas.getContext("2d");
-  canvas.width = size;
-  canvas.height = size;
+//   // eslint-disable-next-line
+//   const canvas = document.createElement("canvas");
+//   const ctx = canvas.getContext("2d");
+//   canvas.width = size;
+//   canvas.height = size;
 
-  ctx.drawImage(
-    img1,
-    0,
-    0,
-    x * size, // (snake fangs) 30 * 24, crop x
-    y * size, // 5 * 24, crop y
-    size, // crop width
-    size, // crop height
-    0,
-    0,
-    size,
-    size,
-  );
+//   ctx.drawImage(
+//     img1,
+//     0,
+//     0,
+//     x * size, // (snake fangs) 30 * 24, crop x
+//     y * size, // 5 * 24, crop y
+//     size, // crop width
+//     size, // crop height
+//     0,
+//     0,
+//     size,
+//     size,
+//   );
 
-  // Test canvas
-  // ctx.beginPath();
-  // ctx.rect(0, 0, 1000, 1000);
-  // ctx.fillStyle = "blue";
-  // ctx.fill();
+//   // Test canvas
+//   // ctx.beginPath();
+//   // ctx.rect(0, 0, 1000, 1000);
+//   // ctx.fillStyle = "blue";
+//   // ctx.fill();
 
-  return canvas.toDataURL();
-}
+//   return canvas.toDataURL();
+// };
 
 const Sprite = (props) => {
   const { value } = props;

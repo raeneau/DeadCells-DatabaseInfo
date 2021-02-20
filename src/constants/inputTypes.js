@@ -6,4 +6,5 @@ export default {
   GRENADE: "GRENADE",
   POWER: "POWER",
   TRAP: "TRAP",
+  LEVEL: "LEVEL",
 };

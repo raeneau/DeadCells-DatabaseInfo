@@ -7,6 +7,8 @@ import {
   enemyJsons as enemyJsonsStable,
   itemGrenadeJsons as itemGrenadeJsonsStable,
   itemTrapJsons as itemTrapJsonsStable,
+  levelJsons as levelJsonsStable,
+  levelJsonPath as levelJsonPathStable,
 } from "./jsonImports";
 
 import {
@@ -17,6 +19,8 @@ import {
   enemyJsons as enemyJsonsBeta,
   itemGrenadeJsons as itemGrenadeJsonsBeta,
   itemTrapJsons as itemTrapJsonsBeta,
+  levelJsons as levelJsonsBeta,
+  levelJsonPath as levelJsonPathBeta,
 } from "./jsonImportsBeta";
 
 // Constants.
@@ -34,6 +38,8 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
       enemyJsons: enemyJsonsBeta,
       itemGrenadeJsons: itemGrenadeJsonsBeta,
       itemTrapJsons: itemTrapJsonsBeta,
+      levelJsons: levelJsonsStable,
+      levelJsonPath: levelJsonPathStable,
     };
   }
   return {
@@ -44,6 +50,8 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
     enemyJsons: enemyJsonsStable,
     itemGrenadeJsons: itemGrenadeJsonsStable,
     itemTrapJsons: itemTrapJsonsStable,
+    levelJsons: levelJsonsBeta,
+    levelJsonPath: levelJsonPathBeta,
   };
 };
 

@@ -4,53 +4,53 @@ export default {
   // ----------------------------
   // Stage 1
   // ----------------------------
-  PrisonStart: biomeNameConstants.PRISONERS_QUARTERS,
+  PrisonStart: biomeNameConstants.PRISONERS_QUARTERS.NAME,
 
   // ----------------------------
   // Stage 2
   // ----------------------------
-  PrisonCourtyard: biomeNameConstants.PROMENADE,
-  SewerShort: biomeNameConstants.TOXIC_SEWERS,
-  Greenhouse: biomeNameConstants.ARBORETUM,
+  PrisonCourtyard: biomeNameConstants.PROMENADE.NAME,
+  SewerShort: biomeNameConstants.TOXIC_SEWERS.NAME,
+  Greenhouse: biomeNameConstants.ARBORETUM.NAME,
 
   // ----------------------------
   // Stage 2.5
   // ----------------------------
-  PrisonDepths: biomeNameConstants.PRISON_DEPTHS,
-  PrisonCorrupt: biomeNameConstants.CORRUPTED_PRISON,
+  PrisonDepths: biomeNameConstants.PRISON_DEPTHS.NAME,
+  PrisonCorrupt: biomeNameConstants.CORRUPTED_PRISON.NAME,
 
   // ----------------------------
   // Stage 3
   // ----------------------------
-  Swamp: biomeNameConstants.MORASS,
-  Ossuary: biomeNameConstants.OSSUARY,
-  PrisonRoof: biomeNameConstants.RAMPARTS,
-  SewerDepths: biomeNameConstants.ANCIENT_SEWERS,
+  Swamp: biomeNameConstants.MORASS.NAME,
+  Ossuary: biomeNameConstants.OSSUARY.NAME,
+  PrisonRoof: biomeNameConstants.RAMPARTS.NAME,
+  SewerDepths: biomeNameConstants.ANCIENT_SEWERS.NAME,
 
   // ----------------------------
   // Stage 4
   // ----------------------------
-  StiltVillage: biomeNameConstants.STILT_VILLAGE,
-  AncientTemple: biomeNameConstants.SLUMBERING_SANCTUARY,
-  Cemetary: biomeNameConstants.GRAVEYARD,
-  Tumulus: biomeNameConstants.FRACTURED_SHRINES,
+  StiltVillage: biomeNameConstants.STILT_VILLAGE.NAME,
+  AncientTemple: biomeNameConstants.SLUMBERING_SANCTUARY.NAME,
+  Cemetary: biomeNameConstants.GRAVEYARD.NAME,
+  Tumulus: biomeNameConstants.FRACTURED_SHRINES.NAME,
 
   // ----------------------------
   // Stage 5
   // ----------------------------
-  ClockTower: biomeNameConstants.CLOCK_TOWER,
-  Crypt: biomeNameConstants.SUPULCHER,
-  Cavern: biomeNameConstants.CAVERN,
-  Cliff: biomeNameConstants.UNDYING_SHORES,
+  ClockTower: biomeNameConstants.CLOCK_TOWER.NAME,
+  Crypt: biomeNameConstants.SUPULCHER.NAME,
+  Cavern: biomeNameConstants.CAVERN.NAME,
+  Cliff: biomeNameConstants.UNDYING_SHORES.NAME,
 
   // ----------------------------
   // Stage 6
   // ----------------------------
-  Castle: biomeNameConstants.CASTLE,
-  Distillery: biomeNameConstants.DISTILLERY,
+  Castle: biomeNameConstants.CASTLE.NAME,
+  Distillery: biomeNameConstants.DISTILLERY.NAME,
 
   // ----------------------------
-  // Astrolab
+  // Spoiler
   // ----------------------------
-  Astrolab: biomeNameConstants.ASTROLAB,
+  Astrolab: biomeNameConstants.ASTROLAB.NAME,
 };

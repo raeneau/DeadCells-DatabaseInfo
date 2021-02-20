@@ -6,7 +6,7 @@ import { BETA } from "../constants/databaseVersion";
 
 // -----------------------------------------------------------------------------
 
-const getJson = ({ jsonPaths, jsonNames, type, databaseVersion }) => {
+const getJson = ({ jsonPaths, jsonNames, databaseVersion }) => {
   const returnedJsons = {};
 
   const databaseType = databaseVersion === BETA ? "beta" : "stable";
@@ -32,7 +32,6 @@ const getJson = ({ jsonPaths, jsonNames, type, databaseVersion }) => {
 
   return {
     ...returnedJsons,
-    type,
   };
 };
 

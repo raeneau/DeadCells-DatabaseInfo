@@ -63,6 +63,12 @@ export const levelJsons = {
   Cliff,
 };
 
+export const levelJsonPath = formatJsonImport(
+  require
+    .context("../database/stable/level/MainLevels", true, /\.json$/)
+    .keys(),
+);
+
 // -----------------------------------------------------------------------------
 // Enemies
 // -----------------------------------------------------------------------------

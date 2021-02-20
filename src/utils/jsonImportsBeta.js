@@ -59,6 +59,10 @@ export const levelJsons = {
   Swamp,
 };
 
+export const levelJsonPath = formatJsonImport(
+  require.context("../database/beta/level/MainLevels", true, /\.json$/).keys(),
+);
+
 // -----------------------------------------------------------------------------
 // Enemies
 // -----------------------------------------------------------------------------

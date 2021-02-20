@@ -10,6 +10,7 @@ import ShieldsScreen from "./screens/ItemsShields";
 import EnemyScreen from "./screens/EnemyScreen";
 import GrenadesScreen from "./screens/ItemsGrenades";
 import TrapScreen from "./screens/ItemsTraps";
+import BiomesScreen from "./screens/LevelsScreen";
 import NotFoundScreen from "./screens/NotFound";
 import NameConflictScreen from "./screens/NameConflictScreen";
 import FeedbackScreen from "./screens/FeedbackScreen";
@@ -36,6 +37,7 @@ const {
   ENEMY,
   GRENADE,
   TRAP,
+  LEVEL,
 } = inputTypes;
 
 // -----------------------------------------------------------------------------
@@ -128,6 +130,9 @@ function App() {
       )}
       {validJson && resourceType === TRAP && (
         <TrapScreen userInput={jsonArrays} internalId={internalId} />
+      )}
+      {validJson && resourceType === LEVEL && (
+        <BiomesScreen userInput={jsonArrays} />
       )}
       {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
         <NotFoundScreen userSearchTerm={searchTerm} />
