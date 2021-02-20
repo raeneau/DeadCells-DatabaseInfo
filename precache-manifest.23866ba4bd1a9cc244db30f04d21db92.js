@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be237c327f2cfff4bed90dbfe4ec8d03",
+    "revision": "815c1050092a7260d5a3d818066a97fd",
     "url": "/DeadCells-DatabaseInfo/index.html"
   },
   {
-    "revision": "ccc0cc20d0b153a4f816",
-    "url": "/DeadCells-DatabaseInfo/static/css/main.4570219b.chunk.css"
+    "revision": "9be4fadfc45d1795004a",
+    "url": "/DeadCells-DatabaseInfo/static/css/main.2655ad38.chunk.css"
   },
   {
-    "revision": "a4961786e7113e095388",
-    "url": "/DeadCells-DatabaseInfo/static/js/2.a3212703.chunk.js"
+    "revision": "66b5271d5d1ceab86f9e",
+    "url": "/DeadCells-DatabaseInfo/static/js/2.bd33d9e9.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/DeadCells-DatabaseInfo/static/js/2.a3212703.chunk.js.LICENSE.txt"
+    "url": "/DeadCells-DatabaseInfo/static/js/2.bd33d9e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccc0cc20d0b153a4f816",
-    "url": "/DeadCells-DatabaseInfo/static/js/main.0cfe80b2.chunk.js"
+    "revision": "9be4fadfc45d1795004a",
+    "url": "/DeadCells-DatabaseInfo/static/js/main.89327e00.chunk.js"
   },
   {
     "revision": "2d905ff4938804650d1b",
