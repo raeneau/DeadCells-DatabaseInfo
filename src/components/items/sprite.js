@@ -75,7 +75,9 @@ const Sprite = (props) => {
 };
 
 Sprite.propTypes = {
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  value: PropTypes.shape({
+    icon: PropTypes.shape({ x: PropTypes.number, y: PropTypes.number }),
+  }),
 };
 
 Sprite.defaultProps = {

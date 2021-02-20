@@ -32,7 +32,7 @@ export default {
   // ----------------------------
   StiltVillage: biomeNameConstants.STILT_VILLAGE.NAME,
   AncientTemple: biomeNameConstants.SLUMBERING_SANCTUARY.NAME,
-  Cemetary: biomeNameConstants.GRAVEYARD.NAME,
+  Cemetery: biomeNameConstants.GRAVEYARD.NAME,
   Tumulus: biomeNameConstants.FRACTURED_SHRINES.NAME,
 
   // ----------------------------

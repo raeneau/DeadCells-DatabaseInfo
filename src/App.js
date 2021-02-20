@@ -93,6 +93,7 @@ function App() {
         jsonArrays: jsonArray,
         resourceType: type,
         internalId: _get(mappedUserInput, "INTERNAL_ID"),
+        name: _get(mappedUserInput, "NAME"),
       });
     }
   };
@@ -103,6 +104,7 @@ function App() {
     nameConflict,
     resourceType,
     internalId,
+    name,
   } = value;
 
   const validJson = !_isEmpty(jsonArrays);
@@ -114,25 +116,49 @@ function App() {
         onDatabaseChange={handleDatabaseChange}
       />
       {validJson && resourceType === MELEE_WEAPON && (
-        <WeaponsScreen userInput={jsonArrays} internalId={internalId} />
+        <WeaponsScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
       )}
       {validJson && resourceType === RANGED_WEAPON && (
-        <RangedWeaponsScreen userInput={jsonArrays} internalId={internalId} />
+        <RangedWeaponsScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
       )}
       {validJson && resourceType === SHIELD && (
-        <ShieldsScreen userInput={jsonArrays} internalId={internalId} />
+        <ShieldsScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
       )}
       {validJson && resourceType === ENEMY && (
-        <EnemyScreen userInput={jsonArrays} databaseVersion={databaseVersion} />
+        <EnemyScreen
+          userInput={jsonArrays}
+          databaseVersion={databaseVersion}
+          ok={name}
+        />
       )}
       {validJson && resourceType === GRENADE && (
-        <GrenadesScreen userInput={jsonArrays} internalId={internalId} />
+        <GrenadesScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
       )}
       {validJson && resourceType === TRAP && (
-        <TrapScreen userInput={jsonArrays} internalId={internalId} />
+        <TrapScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
       )}
       {validJson && resourceType === LEVEL && (
-        <BiomesScreen userInput={jsonArrays} />
+        <BiomesScreen userInput={jsonArrays} name={name} />
       )}
       {!nameConflict && !_isEmpty(searchTerm) && _isEmpty(jsonArrays) && (
         <NotFoundScreen userSearchTerm={searchTerm} />

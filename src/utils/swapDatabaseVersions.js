@@ -38,8 +38,8 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
       enemyJsons: enemyJsonsBeta,
       itemGrenadeJsons: itemGrenadeJsonsBeta,
       itemTrapJsons: itemTrapJsonsBeta,
-      levelJsons: levelJsonsStable,
-      levelJsonPath: levelJsonPathStable,
+      levelJsons: levelJsonsBeta,
+      levelJsonPath: levelJsonPathBeta,
     };
   }
   return {
@@ -50,8 +50,8 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
     enemyJsons: enemyJsonsStable,
     itemGrenadeJsons: itemGrenadeJsonsStable,
     itemTrapJsons: itemTrapJsonsStable,
-    levelJsons: levelJsonsBeta,
-    levelJsonPath: levelJsonPathBeta,
+    levelJsons: levelJsonsStable,
+    levelJsonPath: levelJsonPathStable,
   };
 };
 

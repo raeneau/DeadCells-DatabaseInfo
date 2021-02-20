@@ -1,0 +1,6 @@
+.ResultsHeader__wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}

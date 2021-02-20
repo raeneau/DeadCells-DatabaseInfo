@@ -59,7 +59,7 @@ export default {
     TYPE: LEVEL,
     NAME: "Slumbering Sanctuary",
   },
-  GRAVEYARD: { INTERNAL_ID: "CEMETARY", TYPE: LEVEL, NAME: "Graveyard" },
+  GRAVEYARD: { INTERNAL_ID: "CEMETERY", TYPE: LEVEL, NAME: "Graveyard" },
   FRACTURED_SHRINES: {
     INTERNAL_ID: "TUMULUS",
     TYPE: LEVEL,

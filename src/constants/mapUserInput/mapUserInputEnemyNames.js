@@ -128,6 +128,7 @@ export default {
   LANCER: enemyNames.LANCER,
 
   GUARDIANKNIGHT: enemyNames.GUARDIAN_KNIGHT,
+  CASTLEKNIGHT: enemyNames.GUARDIAN_KNIGHT,
 
   ROYALGUARD: enemyNames.ROYAL_GUARD,
   FINGEROFTHEKING: enemyNames.ROYAL_GUARD,
@@ -144,9 +145,11 @@ export default {
   ARBITER: enemyNames.ARBITER,
 
   GROUNDSHAKER: enemyNames.GROUND_SHAKER,
+  EARTHQUAKER: enemyNames.GROUND_SHAKER,
 
   SKELETON: enemyNames.SKELETON,
   BIGBOOTS: enemyNames.SKELETON,
+  STOMPSKELETON: enemyNames.SKELETON,
 
   RAMPAGER: enemyNames.RAMPAGER,
 
@@ -159,6 +162,7 @@ export default {
 
   MAGISTRATE: enemyNames.MAGISTRATE,
   MAGISTRATEOFDEATH: enemyNames.MAGISTRATE,
+  DEATHMAGE: enemyNames.MAGISTRATE,
 
   LIBRARIAN: enemyNames.LIBRARIAN,
 
@@ -171,6 +175,7 @@ export default {
   THROWABLEMUSHROOM: enemyNames.JERKSHROOM,
 
   BANISHED: enemyNames.BANISHED,
+  FUGITIVE: enemyNames.BANISHED,
 
   BLOWGUNNER: enemyNames.BLOWGUNNER,
 

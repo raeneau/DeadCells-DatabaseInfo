@@ -15,6 +15,7 @@ import formatInput from "./formatInput";
 export default ({ jsonMobsArray }) => {
   const allEnemies = _map(jsonMobsArray, (mob) => ({
     name: _get(mob, "mob"),
+    requiredLevel: _get(mob, "requiredLevel"),
     minDifficulty: _get(mob, "minDifficulty", 0),
     // If maximum is undefined, then the max is the current highest difficulty (5BC)
     maxDifficulty: _get(mob, "maxDifficulty", 5),
@@ -47,6 +48,8 @@ export default ({ jsonMobsArray }) => {
         maxDifficultyObject: maxDifficulty,
       }),
       name: mapUserInputEnemyNames[formatInput(enemyKey)],
+      // Add any special spawning conditions to name (for Undying Shores)
+      requiredLevel: _get(currentEnemyEntries[0], "requiredLevel"),
     });
   });
 

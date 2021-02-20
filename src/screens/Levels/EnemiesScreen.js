@@ -3,6 +3,8 @@ import _isEmpty from "lodash.isempty";
 import _get from "lodash.get";
 
 import getBiomeEnemies from "../../utils/getBiomeEnemies";
+import mapUserInputBiomeNames from "../../constants/mapUserInput/mapUserInputBiomeNames";
+import formatInput from "../../utils/formatInput";
 
 // -----------------------------------------------------------------------------
 
@@ -20,12 +22,27 @@ const Enemies = (props) => {
       {!_isEmpty(enemiesWithDifficulties) ? (
         <table>
           <tbody>
-            {enemiesWithDifficulties.map((enemy) => (
-              <tr key={`Enemies__enemy${enemy.name.NAME}`}>
-                <td>{enemy.name.NAME}</td>
-                <td>{enemy.difficulty}</td>
-              </tr>
-            ))}
+            {enemiesWithDifficulties.map((enemy) => {
+              // Retrieve the required biome (for undying shores) and format the name
+              const requiredLevel = _get(
+                mapUserInputBiomeNames[
+                  formatInput(_get(enemy, "requiredLevel", ""))
+                ],
+                "NAME",
+                undefined,
+              );
+              const name = _get(enemy, "name.NAME", "");
+
+              return (
+                <tr key={`Enemies__enemy${name}`}>
+                  <td>
+                    <span>{name}</span>
+                    {requiredLevel && <i> (Visited {requiredLevel})</i>}
+                  </td>
+                  <td>{enemy.difficulty}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       ) : (

@@ -6,6 +6,7 @@ import DamageScreen from "./ItemsRanged/DamageScreen";
 import ItemMetaScreen from "./Items/ItemMetaScreen";
 import ComboScreen from "./Items/ComboScreen";
 import BlueprintScreen from "./Items/BlueprintScreen";
+import ResultsHeader from "../components/common/resultsHeader";
 
 // -----------------------------------------------------------------------------
 
@@ -14,9 +15,11 @@ function Items(props) {
   const itemJson = _get(props, "userInput.itemJson");
   const strikeChain = _get(weaponJson, "strikeChain");
   const internalId = _get(props, "internalId");
+  const name = _get(props, "name");
 
   return (
     <div className="DisplayCard">
+      <ResultsHeader value={name} />
       <ItemMetaScreen itemJson={itemJson} itemName={_get(weaponJson, "item")} />
       <DamageScreen
         itemJson={itemJson}

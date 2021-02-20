@@ -62,6 +62,7 @@ export default {
   SANC: biomeNames.SLUMBERING_SANCTUARY,
 
   GRAVEYARD: biomeNames.GRAVEYARD,
+  CEMETERY: biomeNames.GRAVEYARD,
   CEMETARY: biomeNames.GRAVEYARD,
 
   FRACTUREDSHRINES: biomeNames.FRACTURED_SHRINES,
@@ -89,6 +90,7 @@ export default {
   CASTLE: biomeNames.CASTLE,
   HIGHPEAKCASTLE: biomeNames.CASTLE,
   HIGHPEAK: biomeNames.CASTLE,
+  HPC: biomeNames.CASTLE,
 
   DISTILLERY: biomeNames.DISTILLERY,
   DERELICTDISTILLERY: biomeNames.DISTILLERY,
