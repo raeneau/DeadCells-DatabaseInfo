@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "815c1050092a7260d5a3d818066a97fd",
+    "revision": "59e33907b91026b153d57da87efec580",
     "url": "/DeadCells-DatabaseInfo/index.html"
   },
   {
-    "revision": "9be4fadfc45d1795004a",
+    "revision": "0427b7f857907e3eade0",
     "url": "/DeadCells-DatabaseInfo/static/css/main.2655ad38.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DeadCells-DatabaseInfo/static/js/2.bd33d9e9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9be4fadfc45d1795004a",
-    "url": "/DeadCells-DatabaseInfo/static/js/main.89327e00.chunk.js"
+    "revision": "0427b7f857907e3eade0",
+    "url": "/DeadCells-DatabaseInfo/static/js/main.c7ac626a.chunk.js"
   },
   {
     "revision": "2d905ff4938804650d1b",
