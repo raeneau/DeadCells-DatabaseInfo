@@ -2,9 +2,13 @@ import React from "react";
 
 import _get from "lodash.get";
 
+// Constants.
+import { criticalHitMul } from "../../constants/truelleConstants";
+
 // -----------------------------------------------------------------------------
 
-function BaseDps(props) {
+// TODO: Change to use DPS util
+function BreachDPS(props) {
   const { array } = props;
 
   // If is no data, just return
@@ -17,7 +21,7 @@ function BaseDps(props) {
       const charge = _get(element, "charge", 0);
       const cooldown = _get(element, "coolDown", 0);
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
-      const power = _get(element, "power[0]");
+      const power = _get(element, "power[0]", 0);
       const critMult = _get(element, "critMul", 1);
       const breachBonus = _get(element, "breachBonus");
 
@@ -25,17 +29,15 @@ function BaseDps(props) {
         attackDamage: accumulator.attackDamage + (power + power * breachBonus),
         attackDuration:
           accumulator.attackDuration + (charge + cooldown + lockControlAfter),
-        // TODO: Make the CRIT MULTIPLIER (2) a CONSTANT in case devs change it
         attackCritDamage:
           accumulator.attackCritDamage +
-          power * 2 * critMult +
-          power * 2 * critMult * breachBonus,
+          power * criticalHitMul * critMult +
+          power * criticalHitMul * critMult * breachBonus,
       };
     },
     {
       attackDamage: 0,
       attackDuration: 0,
-      // TODO: Make the CRIT MULTIPLIER a CONSTANT in case devs change it
       attackCritDamage: 0,
     },
   );
@@ -56,4 +58,4 @@ function BaseDps(props) {
 
 // -----------------------------------------------------------------------------
 
-export default BaseDps;
+export default BreachDPS;

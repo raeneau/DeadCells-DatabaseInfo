@@ -1,0 +1,107 @@
+{
+  "props": {
+    "range": 20,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 528,
+  "glowOuterColor": 15223583,
+  "pfCost": 0.75,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "SmokeBomb",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerFugitive",
+      "minDifficulty": 2
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 57,
+  "volteDelay": 0.5,
+  "id": "Fugitive",
+  "dlc": "TheBadSeed",
+  "weight": 10,
+  "icon": {
+    "x": 64,
+    "y": 29,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "Fugitif",
+  "minPfHeight": 0,
+  "glowInnerColor": 16167211,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 8265246,
+  "flesh2": 10963538,
+  "skill": [
+    {
+      "chargeAnim": "chargeLoad",
+      "coolDown": 0.8,
+      "power": [
+        15
+      ],
+      "props": {
+        "speed": 5,
+        "range": 2,
+        "delay": 0.45,
+        "height": 0.5,
+        "distance": 15
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_fugitive_shout.wav",
+      "charge": 0.2,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "charge",
+      "id": "charge",
+      "sfxRelease": "sfx/enm_fugitive_charge_atk.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtk",
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_fugitive_charge1.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atk",
+      "id": "thrust",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 57
+}

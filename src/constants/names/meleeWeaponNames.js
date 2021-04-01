@@ -226,4 +226,26 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Serenade (Melee version)",
   },
+
+  // ---------------------------- WHACK A MOLE ------------------------------ //
+  TOMBSTONE: {
+    INTERNAL_ID: "TOMBSTONE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Tombstone",
+  },
+  HEAVY_AXE: {
+    INTERNAL_ID: "HEAVYAXE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Oven Axe",
+  },
+  CLUB: {
+    INTERNAL_ID: "CLUB",
+    TYPE: MELEE_WEAPON,
+    NAME: "Toothpick",
+  },
+  CLUB_BROKEN: {
+    INTERNAL_ID: "CLUBBROKEN",
+    TYPE: MELEE_WEAPON,
+    NAME: "Broken Toothpick",
+  },
 };

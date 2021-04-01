@@ -1,0 +1,119 @@
+{
+  "props": {
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.6,
+    "climbEndDist": 1,
+    "directHitStunChance": 0.8
+  },
+  "genTags": 544,
+  "glowOuterColor": 9896191,
+  "pfCost": 0.25,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 5,
+  "volteDelay": 0.4,
+  "id": "S_WallEggWorm",
+  "weight": 2,
+  "icon": {
+    "x": 40,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    50
+  ],
+  "name": "Ver tisseur",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 5,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "skill": [
+    {
+      "coolDown": 0.6,
+      "power": [
+        5
+      ],
+      "props": {
+        "dps": 4,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 1.1,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_smallworm_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": -1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "distance": 5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": false,
+      "id": "jump",
+      "sfxRelease": "sfx/enm_smallworm_jump.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3,
+      "props": {
+        "distance": 5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.1,
+      "manual": false,
+      "id": "jumpAbove",
+      "sfxRelease": "sfx/enm_smallworm_jumpatk.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "stunTime": 0.6
+      },
+      "allowInAir": false,
+      "radius": 9,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": true,
+      "id": "teleport",
+      "sfxRelease": "sfx/enm_tp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 5
+}

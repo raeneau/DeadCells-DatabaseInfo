@@ -45,7 +45,8 @@
       "fxProps": {},
       "lockCtrlAfter": 0.2,
       "props": {
-        "bump": 0.1
+        "bump": 0.1,
+        "duration": 2.5
       },
       "breachBonus": 1,
       "dynamicCharge": 0,

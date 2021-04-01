@@ -10,6 +10,7 @@ import {
   STABLE,
   BETA_VERSION,
   STABLE_VERSION,
+  UPDATE_DATE,
 } from "../constants/databaseVersion";
 
 // Styles.
@@ -50,7 +51,7 @@ function DatabaseVersionToggleScreen(props) {
           offLabel={`Stable (${STABLE_VERSION})`}
         />
       </div>
-      <i className={cn.footer}>Last updated: January 26th, 2021</i>
+      <i className={cn.footer}>Database last updated: {UPDATE_DATE}</i>
     </div>
   );
 }

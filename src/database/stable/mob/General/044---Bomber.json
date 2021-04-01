@@ -1,0 +1,171 @@
+{
+  "props": {
+    "walkAnimSpeed": 2,
+    "delay": 0.6,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.1,
+    "climbEndDist": 1
+  },
+  "genTags": 162,
+  "glowOuterColor": 9896191,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "SismicBlade",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerAladdin",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerRoom": 4,
+  "group": 0,
+  "canBeElite": true,
+  "index": 44,
+  "volteDelay": 0.35,
+  "id": "Bomber",
+  "weight": 10,
+  "icon": {
+    "x": 41,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "Voltigeur",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 3,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 2,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "skill": [
+    {
+      "chargeAnim": "atkBLoad",
+      "coolDown": 0.3,
+      "power": [
+        4
+      ],
+      "props": {
+        "dps": 4,
+        "bump": 0.4,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 3.4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_smallworm_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "cc",
+      "sfxRelease": "sfx/enm_bomber_cc_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 0,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkALoad",
+      "coolDown": 2,
+      "power": [
+        5
+      ],
+      "props": {
+        "range": 3,
+        "distance": 8,
+        "triggerDelay": 1.25
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_bomber_bomb_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "bomb",
+      "sfxRelease": "sfx/enm_zmb_fuse1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 0,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkCLoad",
+      "coolDown": 1.7,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 0.2,
+        "range": 4,
+        "canTriggerThroughWall": true,
+        "max": 6,
+        "bump": 0.9,
+        "height": 2,
+        "distance": 4,
+        "triggerDistance": 3
+      },
+      "allowInAir": true,
+      "radius": 4.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_bomber_dive_charge.wav",
+      "charge": 0.35,
+      "manual": false,
+      "execAnimSpd": 1.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkC",
+      "id": "skyDive",
+      "sfxRelease": "sfx/enm_bomber_dive.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_bomber_stomp_hit.wav",
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0.8,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "land",
+      "coolDown": 0,
+      "props": {
+        "speed": 0.08,
+        "max": 25,
+        "bump": 0.4,
+        "frict": 0.85,
+        "lock": 1.8,
+        "tick": 0.2
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "rise",
+      "id": "fly",
+      "sfxRelease": "sfx/enm_bomber_fly_start.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.21,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 44
+}

@@ -1,0 +1,84 @@
+{
+  "props": {
+    "hideInStatPanel": true
+  },
+  "genTags": 512,
+  "glowOuterColor": 16737536,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 90,
+  "id": "ExplosiveBarrel",
+  "icon": {
+    "x": 37,
+    "y": 71,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Baril Explosif",
+  "glowInnerColor": 16711849,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 3919614,
+  "flesh2": 5391038,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": 20,
+      "props": {
+        "triggerDelay2": 0,
+        "x": 0.3,
+        "y": 0.6,
+        "ang": 0.1,
+        "power2": 150,
+        "bump": 1,
+        "duration": 1,
+        "triggerDelay": 0.7
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "id": "Explode",
+      "sfxRelease": "sfx/active_grenade_explo.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": 20,
+      "props": {
+        "triggerDelay2": 0.7,
+        "x": 0.55,
+        "y": 0.55,
+        "ang": 0.1,
+        "bump": 1,
+        "duration": 0.4,
+        "triggerDelay": 0.5
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "id": "Launched",
+      "sfxRelease": "sfx/active_grenade_explo.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 90
+}

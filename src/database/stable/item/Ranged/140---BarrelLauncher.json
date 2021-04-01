@@ -1,0 +1,34 @@
+{
+  "props": {
+    "bump": 0.2
+  },
+  "gameplayDesc": "Tire un tonneau explosif. Inflige un {coup critique@CC} si le tonneau a rebondi contre un mur avant d'exploser.",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "id": "BarrelLauncher",
+  "icon": {
+    "x": 33,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Lance tonneau",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 80,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 140
+}

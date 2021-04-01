@@ -1,0 +1,139 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 512,
+  "glowOuterColor": 16712440,
+  "pfCost": 4,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "P_DmgFirstHit",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": true,
+  "index": 49,
+  "volteDelay": 0.3,
+  "id": "KingsFinger",
+  "weight": 20,
+  "icon": {
+    "x": 60,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    250
+  ],
+  "name": "Garde rapprochée",
+  "minPfHeight": 0,
+  "glowInnerColor": 15681785,
+  "minPfSize": 10,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 5,
+  "flesh1": 15077887,
+  "flesh2": 12779775,
+  "skill": [
+    {
+      "chargeAnim": "runShieldLoad",
+      "coolDown": 2,
+      "power": [
+        4
+      ],
+      "props": {
+        "speed": 0.65,
+        "range": 20,
+        "x": 1,
+        "distance": 10,
+        "stayDuration": 0.1,
+        "effectCD": 1.7,
+        "duration": 0.4,
+        "triggerDelay": 0.25
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_finger_charge.wav",
+      "charge": 0.55,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "runShield",
+      "id": "shieldCharge",
+      "sfxRelease": "sfx/enm_finger_shield.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "stompLoad",
+      "coolDown": 2,
+      "power": [
+        9
+      ],
+      "props": {
+        "speed": 2,
+        "range": 5,
+        "x": 1,
+        "bump": 0.9,
+        "height": 2,
+        "move": 1.1,
+        "distance": 7,
+        "tick": 0.12,
+        "effectCD": 1.5,
+        "duration": 1.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_finger_jump_full.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "stomp",
+      "id": "stomp",
+      "sfxRelease": "sfx/enm_finger_stomp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 18,
+      "breachResistance": 1,
+      "lockAiAfter": 2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "jumpLoad",
+      "coolDown": 1,
+      "props": {
+        "range": 5,
+        "height": 0,
+        "move": 1.3,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.15,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "jump",
+      "id": "jumpBack",
+      "sfxRelease": "sfx/enm_finger_jump.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 49
+}

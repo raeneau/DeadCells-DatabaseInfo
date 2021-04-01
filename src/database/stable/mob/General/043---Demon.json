@@ -1,0 +1,188 @@
+{
+  "props": {
+    "speed": 1,
+    "cannotBeShield": true,
+    "delay": 0.6,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.1,
+    "climbEndDist": 1
+  },
+  "genTags": 674,
+  "glowOuterColor": 16720384,
+  "pfCost": 0.75,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "BulletBlade",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerHyperlight",
+      "minDifficulty": 2
+    }
+  ],
+  "maxPerRoom": 5,
+  "group": 0,
+  "canBeElite": true,
+  "index": 43,
+  "volteDelay": 0.35,
+  "id": "Demon",
+  "weight": 10,
+  "icon": {
+    "x": 49,
+    "y": 23,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Démon",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777181,
+  "minPfSize": 3,
+  "metaItems": [],
+  "maxPerPlatform": 3,
+  "score": 2,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "skill": [
+    {
+      "chargeAnim": "atkBLoad",
+      "coolDown": 0.7,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.5
+      },
+      "allowInAir": true,
+      "radius": 3.4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_demon_charge1.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "cc",
+      "sfxRelease": "sfx/enm_demon_cc1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkCLoad",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.3
+      },
+      "allowInAir": false,
+      "radius": 3.7,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkC",
+      "id": "chain1",
+      "sfxRelease": "sfx/enm_demon_cc1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 5,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkBLoad",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.3
+      },
+      "allowInAir": false,
+      "radius": 3.4,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "chain2",
+      "sfxRelease": "sfx/enm_demon_cc1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 5,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkALoad",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 1,
+        "delay": 9,
+        "ang": 0.37,
+        "lock": 3,
+        "count": 4,
+        "triggerDistance": 6
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_demon_shot_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "airShoot",
+      "sfxRelease": "sfx/enm_demon_shot_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 12,
+      "breachResistance": -1,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "land",
+      "coolDown": 1,
+      "props": {
+        "speed": 0.12,
+        "max": 25,
+        "bump": 0.22,
+        "frict": 0.82,
+        "lock": 1.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.25,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "rise",
+      "id": "fly",
+      "sfxRelease": "sfx/enm_demon_fly.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.21,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 43
+}

@@ -27,7 +27,7 @@ function WeaponEffectDuration(props) {
       durationByHit.push(
         <Fragment>
           <td className="BulletedCell">
-            <li>Hit {index + 1}</li>
+            <li>Hit {durationByHit.length + 1}</li>
           </td>
           <td>{duration}</td>
         </Fragment>,
@@ -37,7 +37,7 @@ function WeaponEffectDuration(props) {
       aoeDurationByHit.push(
         <Fragment>
           <td className="BulletedCell">
-            <li>Hit {index + 1}</li>
+            <li>Hit {aoeDurationByHit.length + 1}</li>
           </td>
           <td>{aoeDuration}</td>
         </Fragment>,

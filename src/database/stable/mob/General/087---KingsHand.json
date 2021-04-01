@@ -1,0 +1,474 @@
+{
+  "props": {
+    "combatMusic": "music/default/throne.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.4,
+    "cellLoot": 40,
+    "bumpResistance": 0.9
+  },
+  "genTags": 516,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "SeismicStomp",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "HotkDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Hotk1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Hotk2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Hotk3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Hotk4",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 87,
+  "volteDelay": 0.4,
+  "id": "KingsHand",
+  "weight": 50,
+  "icon": {
+    "x": 40,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    5900
+  ],
+  "name": "La Main du Roi",
+  "minPfHeight": 0,
+  "glowInnerColor": 11197250,
+  "minPfSize": 0,
+  "metaItems": [
+    {
+      "item": "BossRune1",
+      "minDifficulty": 0
+    },
+    {
+      "item": "BossRune2",
+      "minDifficulty": 1
+    },
+    {
+      "item": "BossRune3",
+      "minDifficulty": 2
+    },
+    {
+      "item": "BossRune4",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "chargeAnim": "runShieldLoad",
+      "coolDown": 4,
+      "props": {
+        "distance": 5,
+        "duration": 0.4
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "parry",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadD",
+      "coolDown": 0,
+      "power": [
+        17
+      ],
+      "props": {
+        "height": 6.5,
+        "distance": 7
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_cccharge1.wav",
+      "charge": 0.9,
+      "manual": true,
+      "execAnim": "atkD",
+      "id": "ccHeavy1",
+      "sfxRelease": "sfx/enm_hand_ccrelease1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 13,
+      "breachResistance": 1,
+      "lockAiAfter": 0.7,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadC",
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 9
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_hum.wav",
+      "charge": 0.4,
+      "manual": true,
+      "execAnim": "atkC",
+      "id": "ccStomp1",
+      "sfxRelease": "sfx/enm_hand_prejumpcharge.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 1,
+      "lockAiAfter": 0.25,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "stompLoad",
+      "coolDown": 0,
+      "power": [
+        9
+      ],
+      "props": {
+        "speed": 2,
+        "bump": 0.9,
+        "move": 0.8,
+        "distance": 7,
+        "tick": 0.12,
+        "effectCD": 1.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_jump.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 2.75,
+      "execAnim": "stomp",
+      "id": "ccStomp2",
+      "sfxRelease": "sfx/enm_hammer_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 15,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadA",
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "bump": 0.4,
+        "move": 0.3,
+        "distance": 11
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_cccharge1.wav",
+      "charge": 0.45,
+      "manual": true,
+      "execAnim": "atkA",
+      "id": "ccCharge1",
+      "sfxRelease": "sfx/enm_hand_ccrelease1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 12,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadB",
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "bump": 0.4,
+        "move": -0.2,
+        "distance": 9,
+        "triggerDelay": 0.1
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_hum.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnim": "atkB",
+      "id": "ccCharge2",
+      "sfxRelease": "sfx/enm_hand_prejumpcharge.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadC",
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "bump": 0.7,
+        "move": 0.5,
+        "distance": 12.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_shout.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnim": "atkC",
+      "id": "ccCharge3",
+      "sfxRelease": "sfx/enm_hand_ccrelease1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadB",
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 9
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_berserk_hookcharge.wav",
+      "charge": 0.85,
+      "manual": true,
+      "execAnim": "atkB",
+      "id": "ccCircle1",
+      "sfxRelease": "sfx/enm_berserk_hookshot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadC",
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 9
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_berserk_hookcharge.wav",
+      "charge": 0.4,
+      "manual": true,
+      "execAnim": "atkC",
+      "id": "ccCircle2",
+      "sfxRelease": "sfx/enm_berserk_hookshot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "stompLoad",
+      "coolDown": 0,
+      "power": [
+        15
+      ],
+      "props": {
+        "bump": 0.2,
+        "count": 2,
+        "effectCD": 2,
+        "duration": 0.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_bigjump.wav",
+      "charge": 2,
+      "manual": true,
+      "execAnim": "stomp",
+      "id": "globalStomp",
+      "sfxRelease": "sfx/enm_behemoth_shockw_release.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 43,
+      "breachResistance": 1,
+      "lockAiAfter": 2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "runShieldLoad",
+      "coolDown": 0,
+      "power": [
+        4
+      ],
+      "props": {
+        "speed": 0.65,
+        "range": 20,
+        "distance": 6,
+        "effectCD": 1.7,
+        "duration": 0.4,
+        "triggerDelay": 0.25
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_cccharge1.wav",
+      "charge": 0.55,
+      "manual": true,
+      "execAnim": "runShield",
+      "id": "shieldCharge",
+      "sfxRelease": "sfx/enm_hand_ccrelease1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "throwLoad",
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "range": 12,
+        "triggerDelay2": 1.8,
+        "count": 3,
+        "distance": 6,
+        "triggerDelay": 1
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_hum.wav",
+      "charge": 0.15,
+      "manual": true,
+      "execAnim": "throw",
+      "id": "grenade",
+      "sfxRelease": "sfx/enm_hand_throw.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "summon",
+      "coolDown": 0,
+      "props": {
+        "duration2": 20,
+        "duration": 30
+      },
+      "allowInAir": true,
+      "radius": 12,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_summon1.wav",
+      "charge": 2.75,
+      "manual": true,
+      "id": "castElites",
+      "sfxRelease": "sfx/enm_hand_summon2.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm_hand_summon3.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 2.5,
+      "props": {
+        "max": 3
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "castTrashes",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "castBombLoad",
+      "coolDown": 0,
+      "power": [
+        6
+      ],
+      "props": {
+        "delay": 1,
+        "power2": [
+          13
+        ],
+        "life": 120,
+        "count": 3,
+        "triggerDelay": 7
+      },
+      "allowInAir": true,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_hand_castbomb1.wav",
+      "charge": 0.3,
+      "manual": true,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "castBomb",
+      "id": "castMegaBomb",
+      "sfxRelease": "sfx/enm_hand_castbomb2.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 87
+}

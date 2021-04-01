@@ -17,7 +17,7 @@
   },
   "lootFlags": 0,
   "biome": "Tumulus",
-  "doubleUps": 2,
+  "doubleUps": 1,
   "group": 0,
   "quarterUpsBC3": 1,
   "quarterUpsBC4": 1,
@@ -142,7 +142,7 @@
   "specificLoots": [],
   "specificSubBiome": [],
   "minGold": 3000,
-  "tripleUps": 1,
+  "tripleUps": 2,
   "baseLootLevel": 4,
   "loreDescriptions": [
     {
@@ -664,6 +664,7 @@
       "scrollY": 0.2
     }
   ],
+  "bonusTripleScrollAfterBC": "Expert",
   "__separator_group_ID": 0,
   "__separator_group_Name": "MainLevels",
   "__original_Index": 28

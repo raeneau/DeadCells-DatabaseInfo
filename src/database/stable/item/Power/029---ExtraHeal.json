@@ -9,7 +9,7 @@
     "customScaling": 0.025,
     "duration": 10
   },
-  "gameplayDesc": "Vous octroie ::*prct::% de votre vie manquante en {vie bonus@SH}, réduit de ::prct2::% les dégâts reçus et vous protège du Mal-être pendant ::duration:: secondes.",
+  "gameplayDesc": "Vous octroie ::*prct::% de votre vie manquante en {vie bonus@SH} et réduit de ::prct2::% les dégâts reçus pendant ::duration:: secondes.",
   "moneyCost": 1000,
   "group": 3,
   "castCD": 30,

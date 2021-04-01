@@ -113,7 +113,7 @@
       "props": {},
       "spawnWith": [],
       "mob": "CrossbowMan",
-      "minDifficulty": 1,
+      "minDifficulty": 0,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 0
     },

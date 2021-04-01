@@ -1,0 +1,87 @@
+{
+  "props": {
+    "noContactAttack": true,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 512,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "FireBall",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "index": 33,
+  "volteDelay": 0.25,
+  "id": "OrbLauncher",
+  "weight": 10,
+  "icon": {
+    "x": 58,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Lanceur d'Orbe",
+  "minPfHeight": 0,
+  "glowInnerColor": 16580375,
+  "minPfSize": 10,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 3,
+  "flesh1": 5660545,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 1.5,
+      "power": [
+        25
+      ],
+      "props": {
+        "range": 15,
+        "stunTime": 3,
+        "distance": 0,
+        "tick": 0.1
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_orb_charge.wav",
+      "charge": 0.6,
+      "manual": false,
+      "id": "launch",
+      "sfxRelease": "sfx/enm_orb_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.5,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.25,
+      "manual": false,
+      "id": "smokeBomb",
+      "sfxRelease": "sfx/enm_orb_tprelease.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 33
+}

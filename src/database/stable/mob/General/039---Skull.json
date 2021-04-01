@@ -1,0 +1,68 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.55,
+    "maxSpeed": 0.04,
+    "isTrashMob": true,
+    "duration": 5,
+    "minSpeed": 0.03
+  },
+  "genTags": 545,
+  "pfCost": 1.7,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "index": 39,
+  "volteDelay": 0,
+  "id": "Skull",
+  "dlc": "RiseOfTheGiant",
+  "weight": 15,
+  "icon": {
+    "x": 55,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Crâne hurleur",
+  "minPfHeight": 0,
+  "glowInnerColor": 7819992,
+  "minPfSize": 3,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 3,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "skill": [
+    {
+      "coolDown": 0.1,
+      "power": [
+        5
+      ],
+      "props": {
+        "stunTime": 0.2,
+        "bump": 0.55,
+        "distance": 9,
+        "triggerDelay": 0.7
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "wall",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.6,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 39
+}

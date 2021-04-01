@@ -1,0 +1,478 @@
+{
+  "props": {
+    "reducedGravityFactor": 2,
+    "speed": 0.4,
+    "fallResistance": 0.8,
+    "combatMusic": "music/default/gardener_music_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "movePauseMul": 0.5,
+    "moveSpeedMul": 4,
+    "combatMusicIntro": "music/default/Gardener_music_intro.ogg",
+    "climbEndDist": 4,
+    "stunDurationAfterFall": 1.5,
+    "directHitStunDuration": 0.1,
+    "noCollideHero": true,
+    "cellLoot": 25,
+    "lockAiPhase": 0.8,
+    "directHitBumpForce": 2,
+    "bumpResistance": 0.9
+  },
+  "genTags": 516,
+  "glowOuterColor": 424261,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "GardenerSickles",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "GardenerDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Gardener1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Gardener2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Gardener3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Gardener4",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 86,
+  "volteDelay": 0.1,
+  "id": "GardenerBoss",
+  "dlc": "FatalFalls",
+  "weight": 100,
+  "icon": {
+    "x": 58,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    4500
+  ],
+  "name": "Le Jardinier Royal",
+  "minPfHeight": 0,
+  "glowInnerColor": 449154,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 9418700,
+  "flesh2": 10682623,
+  "skill": [
+    {
+      "chargeAnim": "loadAtkHoe",
+      "coolDown": 0.4,
+      "power": [
+        8
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_gardener_hoe_charge.wav",
+      "charge": 0.6,
+      "manual": true,
+      "execAnim": "atkHoe",
+      "id": "hoe",
+      "sfxRelease": "sfx/enm_gardener_hoe_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAtkPitchfork",
+      "coolDown": 1,
+      "power": [
+        12
+      ],
+      "props": {
+        "distance": 2,
+        "duration": 1.1
+      },
+      "allowInAir": true,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 2,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "atkPitchfork",
+      "id": "pitchForkAtk",
+      "sfxRelease": "sfx/enm_gardener_pitchfork.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAtkSickleA",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "charge": 1.2,
+      "manual": true,
+      "execAnim": "atkSickleA",
+      "id": "sickleAtkA",
+      "sfxRelease": "sfx/enm_gardener_sickleAtk.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 10,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAtkSickleB",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "charge": 1.2,
+      "manual": true,
+      "execAnim": "atkSickleB",
+      "id": "sickleAtkB",
+      "sfxRelease": "sfx/enm_gardener_sickleAtkB.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 10,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 1.1,
+        "speed2": 0.1,
+        "max": 1,
+        "bump": 0.3,
+        "tick": 0.5,
+        "limit": 1.5
+      },
+      "allowInAir": true,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnim": "spin",
+      "id": "sickle",
+      "sfxRelease": "sfx/enm_gardener_weapon_sickles.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAtkShovel",
+      "coolDown": 0.6,
+      "power": [
+        14
+      ],
+      "props": {
+        "distance": 5,
+        "duration": 2,
+        "triggerDelay": 0.2
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_gardener_shovelAtk_charge.wav",
+      "charge": 0.4,
+      "manual": true,
+      "execAnim": "atkShovel",
+      "id": "shovel",
+      "sfxRelease": "sfx/enm_gardener_shovelAtk.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadShovelBurry",
+      "coolDown": 0.8,
+      "props": {},
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 2.5,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "shovelBurry",
+      "id": "shovelBurry",
+      "sfxRelease": "sfx/enm_gardener_hide.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0.7,
+      "props": {},
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "charge": 0.25,
+      "manual": true,
+      "execAnimSpd": 2,
+      "execAnim": "shovelAppear",
+      "id": "shovelAppear",
+      "sfxRelease": "sfx/enm_gardener_rise.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "charge": 0.25,
+      "manual": true,
+      "execAnimSpd": 2,
+      "execAnim": "shovelDisappear",
+      "id": "shovelDisappear",
+      "sfxRelease": "sfx/enm_gardener_hide.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 1.5,
+      "manual": true,
+      "execAnim": "shovelEndAppear",
+      "id": "shovelEndAppear",
+      "sfxRelease": "sfx/enm_gardener_rise.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0.5,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "execAnim": "shovelUp",
+      "id": "shovelUp",
+      "sfxRelease": "sfx/enm_gardener_digUp.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 10,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "appear",
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 0.5,
+        "range": 0,
+        "triggerDelay2": 0,
+        "x": 0,
+        "y": 0,
+        "ang": 0,
+        "bump": 0.2,
+        "life": 10000,
+        "duration": 600,
+        "triggerDelay": 0
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_gardener_mushroom_switch.wav",
+      "charge": 0,
+      "manual": false,
+      "execAnim": "throw",
+      "id": "mushroom",
+      "sfxRelease": "sfx/enm_gardener_mushroom_popUp.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_gardener_mushroom_explode.wav",
+      "hitFrame": 0,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadVine",
+      "coolDown": 1,
+      "power": [
+        0
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "charge": 0.5,
+      "manual": true,
+      "execAnim": "vine",
+      "id": "vineAtk",
+      "sfxRelease": "sfx/enm_gardener_ligaments.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": -1,
+      "power": [
+        3
+      ],
+      "props": {
+        "speed": 0.1,
+        "duration": 6
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": -1,
+      "manual": true,
+      "execAnim": "atkCan",
+      "id": "wateringCan",
+      "sfxRelease": "sfx/enm_gardener_wateringCan.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 10,
+      "lockAiAfter": -1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "LoadAtkSeed",
+      "coolDown": 0.6,
+      "power": [
+        6
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.4,
+      "manual": true,
+      "execAnimSpd": 1.5,
+      "chargeAnimSpd": 2,
+      "execAnim": "atkSeed",
+      "id": "sporeAtk",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "speed": 1
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "seed",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0.6,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": -1,
+      "manual": true,
+      "execAnim": "stomp",
+      "id": "stomp",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "Atk",
+      "id": "ronce",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 86
+}

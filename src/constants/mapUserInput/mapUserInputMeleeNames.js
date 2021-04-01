@@ -166,4 +166,29 @@ export default {
   SERENADEMELEE: meleeWeaponNames.SERENADE_MELEE,
   SERENADEHELD: meleeWeaponNames.SERENADE_MELEE,
   SERENADESWORD: meleeWeaponNames.SERENADE_MELEE,
+
+  // ---------------------------- WHACK A MOLE ------------------------------ //
+
+  TOMBSTONE: meleeWeaponNames.TOMBSTONE,
+  GRAVESTONE: meleeWeaponNames.TOMBSTONE,
+  GRAVE: meleeWeaponNames.TOMBSTONE,
+
+  HEAVYAXE: meleeWeaponNames.HEAVY_AXE,
+  OVENAXE: meleeWeaponNames.HEAVY_AXE,
+  BIGAXE: meleeWeaponNames.HEAVY_AXE,
+  THEBIGAXE: meleeWeaponNames.HEAVY_AXE,
+
+  CLUB: meleeWeaponNames.CLUB,
+  TOOTHPICK: meleeWeaponNames.CLUB,
+  BIGCLUB: meleeWeaponNames.CLUB,
+  THEBIGCLUB: meleeWeaponNames.CLUB,
+
+  CLUBBROKEN: meleeWeaponNames.CLUB_BROKEN,
+  TOOTHPICKBROKEN: meleeWeaponNames.CLUB,
+  BIGCLUBBROKEN: meleeWeaponNames.CLUB,
+  THEBIGCLUBBROKEN: meleeWeaponNames.CLUB,
+  BROKENCLUB: meleeWeaponNames.CLUB_BROKEN,
+  BROKENTOOTHPICK: meleeWeaponNames.CLUB,
+  BROKENBIGCLUB: meleeWeaponNames.CLUB,
+  BROKENTHEBIGCLUB: meleeWeaponNames.CLUB,
 };

@@ -49,9 +49,9 @@ export const newCalculateDps = ({ strikeChainArray }) => {
       const lockCtrlAfter = _get(element, "lockCtrlAfter", 0);
       const cooldown = _get(element, "coolDown", 0);
       // Damage related
-      const power = _get(element, "power[0]");
+      const power = _get(element, "power[0]", 0);
       const actualCritMult = criticalHitMul * _get(element, "critMul", 1);
-      const canCrit = _get(element, "canCrit");
+      const canCrit = _get(element, "canCrit", false);
 
       if (!canCrit) {
         critAllowed = false;

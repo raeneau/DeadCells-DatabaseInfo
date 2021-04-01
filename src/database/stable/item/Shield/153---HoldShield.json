@@ -1,0 +1,50 @@
+{
+  "props": {
+    "bonus": 0.5,
+    "castTime": 0.15,
+    "ammo": 10,
+    "effectCharge": 35,
+    "lock": 1,
+    "prct": 0.15,
+    "duration": 3
+  },
+  "gameplayDesc": "Génère un champ de force temporaire tant qu'il est maintenu. Il se regénère lentement quand le bouclier n'est plus maintenu. Les {parades@PA} accélèrent le processus.",
+  "moneyCost": 1500,
+  "group": 6,
+  "castCD": 0,
+  "id": "HoldShield",
+  "icon": {
+    "x": 14,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bubulle",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "CanPrepareWithoutAmmo"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "legendAffix": "PoisonShield",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 153
+}

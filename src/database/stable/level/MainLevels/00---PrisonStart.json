@@ -44,15 +44,7 @@
     {
       "singleRoom": false,
       "props": {},
-      "spawnWith": [
-        {
-          "number": [
-            0,
-            1
-          ],
-          "type": "Rat"
-        }
-      ],
+      "spawnWith": [],
       "mob": "Rampager",
       "minDifficulty": 3,
       "quantityFactor": 1,
@@ -135,16 +127,9 @@
     {
       "singleRoom": false,
       "props": {},
-      "spawnWith": [
-        {
-          "number": [
-            0,
-            1
-          ],
-          "type": "Rat"
-        }
-      ],
+      "spawnWith": [],
       "mob": "KunaiMaster",
+      "maxDifficulty": 1,
       "minDifficulty": 1,
       "quantityFactor": 2,
       "minCombatRoomsBefore": 1
@@ -152,6 +137,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "CrossbowMan",
       "minDifficulty": 2,
       "quantityFactor": 2,
@@ -162,18 +148,9 @@
       "props": {},
       "spawnWith": [],
       "mob": "Shield",
-      "maxDifficulty": 3,
+      "maxDifficulty": 1,
       "minDifficulty": 0,
       "quantityFactor": 2,
-      "minCombatRoomsBefore": 0
-    },
-    {
-      "singleRoom": false,
-      "props": {},
-      "spawnWith": [],
-      "mob": "Shield",
-      "minDifficulty": 4,
-      "quantityFactor": 1,
       "minCombatRoomsBefore": 0
     },
     {

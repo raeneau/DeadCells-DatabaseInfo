@@ -1,0 +1,31 @@
+{
+  "props": {
+    "isTrashMob": true,
+    "cannotBeNecromanced": true
+  },
+  "genTags": 512,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 77,
+  "id": "FlyingCrow",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 17,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Corbeau Ennuyant",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "skill": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 77
+}

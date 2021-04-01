@@ -1,10 +1,13 @@
 import React from "react";
 
+// Current release notes.
+import currentNewFeatures from "./WhatsNew/MARCH_31_2021";
+
+// Constants.
+import { UPDATE_DATE } from "../constants/databaseVersion";
+
 // Styles.
 import "./WhatsNewScreen.css";
-
-// Current release notes.
-import currentNewFeatures from "./WhatsNew/FEB_20_2021";
 
 // -----------------------------------------------------------------------------
 
@@ -16,7 +19,7 @@ const cn = {
 function WhatsNewScreen() {
   return (
     <div className={cn.wrapper}>
-      <h4>What&apos;s new? - February 20, 2021</h4>
+      <h4>What&apos;s new? - {UPDATE_DATE}</h4>
       <ul>{currentNewFeatures}</ul>
     </div>
   );

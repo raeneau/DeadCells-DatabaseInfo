@@ -1,0 +1,165 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "HeavyAxe",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        150
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "speed": 0.35,
+        "duration2": 0.1,
+        "offsetX": -3,
+        "offsetY": 2,
+        "fullCharge": 17,
+        "bump": 0.5,
+        "duration": 0.2,
+        "threshold": 21
+      },
+      "breachBonus": 3,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_axe_charge1.wav",
+      "charge": 0.6,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_axe_release1.wav",
+      "animId": "AtkOvenAxeA",
+      "sfxHit": "sfx/weapon_axe_hit.wav",
+      "hitFrame": 18,
+      "glowColor": 5256098,
+      "animSpd": 0.9
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        215
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "speed": 0.5,
+        "duration2": 0.2,
+        "offsetX": 2,
+        "offsetY": 2,
+        "fullCharge": 26,
+        "bump": 0.5,
+        "duration": 0.2,
+        "threshold": 28
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_axe_charge2.wav",
+      "charge": 0.94,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 5.5,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_axe_release2.wav",
+      "animId": "AtkOvenAxeB",
+      "sfxHit": "sfx/weapon_axe_hit.wav",
+      "hitFrame": 27,
+      "glowColor": 5256098,
+      "animSpd": 0.9
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        250
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.46,
+      "props": {
+        "speed": 1,
+        "duration2": 0.2,
+        "offsetX": -3,
+        "offsetY": 1.5,
+        "fullCharge": 26,
+        "pct": 0.5,
+        "bump": 1,
+        "duration": 0.2,
+        "threshold": 34
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_axe_charge3.wav",
+      "charge": 1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_axe_release3.wav",
+      "animId": "AtkOvenAxeC",
+      "sfxHit": "sfx/weapon_axe_hit.wav",
+      "hitFrame": 29,
+      "earlyCombo": 0.5,
+      "glowColor": 5256098,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        250
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.46,
+      "props": {
+        "speed": 1,
+        "duration2": 0.2,
+        "offsetX": -3,
+        "offsetY": 1.5,
+        "fullCharge": 34,
+        "pct": 0.5,
+        "bump": 1,
+        "duration": 0.2,
+        "threshold": 42
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_axe_charge4.wav",
+      "charge": 0.8,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_axe_release4.wav",
+      "animId": "AtkOvenAxeSPIN",
+      "sfxHit": "sfx/weapon_axe_hit.wav",
+      "hitFrame": 36,
+      "critMul": 1,
+      "earlyCombo": 0.5,
+      "glowColor": 14380096,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 46
+}

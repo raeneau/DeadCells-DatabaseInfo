@@ -1,0 +1,74 @@
+{
+  "props": {
+    "cannotBeShield": false,
+    "movePauseMul": 9999,
+    "moveSpeedMul": 0,
+    "directHitStunChance": 1,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 545,
+  "glowOuterColor": 16711680,
+  "pfCost": 0.8,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "FireTurret",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerCloud",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "index": 31,
+  "id": "Shocker",
+  "weight": 10,
+  "icon": {
+    "x": 54,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    90
+  ],
+  "name": "Electrocuteur",
+  "minPfHeight": 0,
+  "glowInnerColor": 54015,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 3,
+  "skill": [
+    {
+      "coolDown": 1.4,
+      "power": [
+        6
+      ],
+      "props": {
+        "distance": 8,
+        "duration": 0.8
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_shoker_charge.wav",
+      "charge": 1.3,
+      "manual": false,
+      "id": "shock",
+      "sfxRelease": "sfx/enm_shoker_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": -0.2,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 31
+}

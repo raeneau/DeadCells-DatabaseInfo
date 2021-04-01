@@ -21,7 +21,7 @@
     "duration": 15,
     "limit": 48
   },
-  "gameplayDesc": "Vous fait flotter en l'air et inflige des dégâtsde zone.  Inflige {choc@EL} (::+dps2:: DPS en zone pendant ::*ShockAffectDuration:: sec).",
+  "gameplayDesc": "Vous fait flotter en l'air pendant ::duration:: secondes et inflige des dégâts de zone ainsi que l'effet {choc@EL} (::+dps2:: DPS pendant ::*ShockAffectDuration:: sec).",
   "moneyCost": 1500,
   "group": 3,
   "castCD": 15,

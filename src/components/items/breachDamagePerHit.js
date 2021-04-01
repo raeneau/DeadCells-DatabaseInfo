@@ -24,23 +24,28 @@ function BreachDamagePerHit(props) {
     const critMult = _get(element, "critMul", 1);
     const canCrit = _get(element, "canCrit", 1);
 
-    damageByHit.push(
-      <Fragment>
-        <td className="BulletedCell">
-          <li>Hit {index + 1}</li>
-        </td>
-        <td>
-          {power + power * breachBonus}
-          {canCrit
-            ? ` (${(
-                power * 2 * critMult +
-                power * 2 * critMult * breachBonus
-              ).toFixed(0)})`
-            : ""}
-        </td>
-      </Fragment>,
-    );
-    damageByHitKeys.push(index);
+    if (power) {
+      damageByHit.push(
+        // Use current array length to determine what Hit # we
+        // are on, otherwise phantom non-damageable hits may mess up numbering
+        // if the index in the original array in the JSON is used
+        <Fragment>
+          <td className="BulletedCell">
+            <li>Hit {damageByHit.length + 1}</li>
+          </td>
+          <td>
+            {power + power * breachBonus}
+            {canCrit
+              ? ` (${(
+                  power * 2 * critMult +
+                  power * 2 * critMult * breachBonus
+                ).toFixed(0)})`
+              : ""}
+          </td>
+        </Fragment>,
+      );
+      damageByHitKeys.push(index);
+    }
   }, "");
 
   return (

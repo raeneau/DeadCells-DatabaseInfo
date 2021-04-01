@@ -71,6 +71,7 @@
     {
       "singleRoom": false,
       "props": {},
+      "spawnWith": [],
       "mob": "CrossbowMan",
       "minDifficulty": 1,
       "quantityFactor": 4,
@@ -138,15 +139,6 @@
       "maxDifficulty": 2,
       "minDifficulty": 0,
       "quantityFactor": 7,
-      "minCombatRoomsBefore": 0
-    },
-    {
-      "singleRoom": false,
-      "props": {},
-      "spawnWith": [],
-      "mob": "Samurai",
-      "minDifficulty": 1,
-      "quantityFactor": 3,
       "minCombatRoomsBefore": 0
     }
   ],

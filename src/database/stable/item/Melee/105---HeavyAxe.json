@@ -1,0 +1,31 @@
+{
+  "props": {
+    "duration": 1.2
+  },
+  "gameplayDesc": "Enchaînez le dernier coup du combo pour infliger des {dégâts critiques@CC}.",
+  "moneyCost": 1750,
+  "group": 4,
+  "castCD": 0,
+  "id": "HeavyAxe",
+  "icon": {
+    "x": 30,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Hache du Four",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "LongerComboWindow"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 105
+}

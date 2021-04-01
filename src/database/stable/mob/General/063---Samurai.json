@@ -1,0 +1,119 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1
+  },
+  "genTags": 0,
+  "glowOuterColor": 7996189,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Katana",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerKillBill",
+      "minDifficulty": 1
+    }
+  ],
+  "maxPerRoom": 3,
+  "group": 0,
+  "canBeElite": true,
+  "index": 63,
+  "volteDelay": 1,
+  "id": "Samurai",
+  "weight": 10,
+  "icon": {
+    "x": 58,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "Guerrier Lointain ",
+  "minPfHeight": 0,
+  "glowInnerColor": 13526820,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "skill": [
+    {
+      "chargeAnim": "loadAtkA",
+      "coolDown": 3,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 2
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_samurai_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "slash",
+      "sfxRelease": "sfx/enm_samurai_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -10,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkA",
+      "coolDown": 3,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 2
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_samurai_charge2.wav",
+      "charge": 0.8,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "backSlash",
+      "sfxRelease": "sfx/enm_samurai_release2.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -10,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1.5,
+      "props": {
+        "height": 2
+      },
+      "allowInAir": false,
+      "radius": 12,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "defensiveStance",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 63
+}
