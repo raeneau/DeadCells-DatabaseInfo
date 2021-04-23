@@ -16,6 +16,7 @@ const {
   GRENADE,
   TRAP,
   LEVEL,
+  POWER,
 } = inputTypes;
 
 // -----------------------------------------------------------------------------
@@ -32,6 +33,7 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
     enemyJsons,
     itemGrenadeJsons,
     itemTrapJsons,
+    itemPowerJsons,
     levelJsonPath,
   } = versionedDatabase;
 
@@ -130,6 +132,21 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
 
       return getJson({
         jsonPaths: [`item/DeployedTrap${itemTrapJsons[INTERNAL_ID]}`],
+        jsonNames: ["itemJson"],
+        databaseVersion,
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // Powers (Skill)
+    // -------------------------------------------------------------------------
+    case POWER: {
+      if (itemPowerJsons[INTERNAL_ID] === undefined) {
+        return undefined;
+      }
+
+      return getJson({
+        jsonPaths: [`item/Power${itemPowerJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         databaseVersion,
       });

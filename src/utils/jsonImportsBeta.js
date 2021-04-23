@@ -107,3 +107,8 @@ export const itemGrenadeJsons = formatJsonImport(
 export const itemTrapJsons = formatJsonImport(
   require.context("../database/beta/item/DeployedTrap", true, /\.json$/).keys(),
 );
+
+// Powers
+export const itemPowerJsons = formatJsonImport(
+  require.context("../database/beta/item/Power", true, /\.json$/).keys(),
+);
