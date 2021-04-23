@@ -9,7 +9,7 @@ export default (
     </li>
     <li>Move DPS warning to individual weapon results</li>
     <li>
-      Add mappings to "actual names" for skins. i.e. "Bobby Outfit" instead of
+      Add mappings to actual names for skins. i.e. "Bobby Outfit" instead of
       "PrisonerBobby"
     </li>
     <li>Organized patch notes to maybe make an app history page for fun :)</li>

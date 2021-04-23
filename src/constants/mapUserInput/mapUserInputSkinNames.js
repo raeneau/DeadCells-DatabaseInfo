@@ -1,6 +1,105 @@
 import skinNames from "../names/skinNames";
 
-// InternalId: Object of {Type, Internal ID}
+// InternalId: Object of {Typ: skinNames.Internal ID},
 export default {
   CLASSIC: skinNames.CLASSIC,
+  PRISONERGOLD: skinNames.GOLDEN,
+  PRISONERSONGOKU: skinNames.LEGENDARYWARRIOR,
+  PRISONERBLACK: skinNames.NINJA,
+  PRISONERGHOST: skinNames.GHOST,
+  PRISONERSEWERS: skinNames.DONATELLO,
+  PRISONERSANTA: skinNames.FESTIVE,
+  PRISONERSTILT: skinNames.FISHERMAN,
+  PRISONERSKELETON: skinNames.SKELETON,
+  PRISONERCARDUUS: skinNames.CARDUUS,
+  PRISONERAPHRODITE: skinNames.APHRODITE,
+  PRISONERSHAMAN: skinNames.SHAMAN,
+  PRISONERCLOUD: skinNames.CLOUD,
+  PRISONERHYPERLIGHT: skinNames.DRIFTER,
+  PRISONERALADDIN: skinNames.ATHOUSANDANDONENIGHTS,
+  PRISONERBISON: skinNames.DICTATOR,
+  PRISONERWARRIOR: skinNames.WARRIOR,
+  PRISONERMAGE: skinNames.MAGE,
+  PRISONERNEON: skinNames.NEON,
+  PRISONERBOBBY: skinNames.BOBBY,
+  PRISONERDEMON: skinNames.DEMON,
+  PRISONERSYLVANIAN: skinNames.ROBINHOOD,
+  PRISONERSAND: skinNames.DESERTDWELLER,
+  PRISONERGOG: skinNames.GALAXY,
+  PRISONERFRENCH: skinNames.BAGUETTE,
+  PRISONERXMAS: skinNames.FLYINGALCOHOLIC,
+  PRISONERGARDENER: skinNames.GARDENERS,
+  PRISONERFRIENDLYHARDY: skinNames.MUSHROOMBOIS,
+  PRISONERMUSHROOM: skinNames.MUSHROOMKING,
+  PRISONERFUGITIVE: skinNames.BANISHEDS,
+  PRISONERBLOWGUNNER: skinNames.BLOWGUNNERS,
+  PRISONERTICK: skinNames.TICKTRAINER,
+  ROYALGARDENER: skinNames.ROYALGARDENERS,
+  PRISONERRETRO: skinNames.RETRO,
+  FREEMANSKIN: skinNames.HEV,
+  PRISONERKAMIKAZEE: skinNames.KAMIKAZEE,
+  PRISONERCROSSBOWMAN: skinNames.ARBALESTERS,
+  PRISONERKILLBILL: skinNames.BLADEMASTERS,
+  SANTAKLOS: skinNames.REVERSEBURGLARS,
+  SNOWMAN: skinNames.WINTER,
+  PRISONERJAVELINSNAKE: skinNames.LIZARD,
+  PRISONERNECROMANT: skinNames.APOSTATE,
+  PRISONERBOOTLEG: skinNames.ALMOSTYOURSELF,
+  CULTIST: skinNames.CULTIST,
+  STATUE: skinNames.ROCKY,
+
+  // ----------------------------- CONCIERGE -------------------------------- //
+  BEHEMOTHDEFAULT: skinNames.CONCIERGEDEFAULT,
+  BEHEMOTH1: skinNames.CONCIERGE1,
+  BEHEMOTH2: skinNames.CONCIERGE2,
+  BEHEMOTH3: skinNames.CONCIERGE3,
+  BEHEMOTH4: skinNames.CONCIERGE4,
+
+  // --------------------------- CONJUNCTIVIUS ------------------------------ //
+  BEHOLDERDEFAULT: skinNames.CONJDEFAULT,
+  BEHOLDER1: skinNames.CONJ1,
+  BEHOLDER2: skinNames.CONJ2,
+  BEHOLDER3: skinNames.CONJ3,
+  BEHOLDER4: skinNames.CONJ4,
+
+  // ----------------------------- MAMA TICK -------------------------------- //
+  TICKDEFAULT: skinNames.TICKDEFAULT,
+  TICK1: skinNames.TICK1,
+  TICK2: skinNames.TICK2,
+  TICK3: skinNames.TICK3,
+  TICK4: skinNames.TICK4,
+  TICKSACRIFICE: skinNames.TICKSACRIFICE,
+
+  // ---------------------------- TIME KEEPER ------------------------------- //
+  ASSASSINDEFAULT: skinNames.TIMEKEEPERDEFAULT,
+  ASSASSIN1: skinNames.TIMEKEEPER1,
+  ASSASSIN2: skinNames.TIMEKEEPER2,
+  ASSASSIN3: skinNames.TIMEKEEPER3,
+  ASSASSIN4: skinNames.TIMEKEEPER4,
+
+  // ------------------------------- GIANT ---------------------------------- //
+  GIANTDEFAULT: skinNames.GIANTDEFAULT,
+  GIANT1: skinNames.GIANT1,
+  GIANT2: skinNames.GIANT2,
+  GIANT3: skinNames.GIANT3,
+  GIANT4: skinNames.GIANT4,
+
+  // ----------------------------- SCARECROW -------------------------------- //
+  GARDENERDEFAULT: skinNames.SCARECROWDEFAULT,
+  GARDENER1: skinNames.SCARECROW1,
+  GARDENER2: skinNames.SCARECROW2,
+  GARDENER3: skinNames.SCARECROW3,
+  GARDENER4: skinNames.SCARECROW4,
+
+  // -------------------------------- HOTK ---------------------------------- //
+  HOTKDEFAULT: skinNames.HOTKDEFAULT,
+  HOTK1: skinNames.HOTK1,
+  HOTK2: skinNames.HOTK2,
+  HOTK3: skinNames.HOTK3,
+  HOTK4: skinNames.HOTK4,
+
+  // ------------------------------ SPOILER --------------------------------- //
+  KINGDEFAULT: skinNames.KING,
+  KINGWHITE: skinNames.KINGWHITE,
+  COLLECTORDEFAULT: skinNames.FALLENCOLLECTOR,
 };

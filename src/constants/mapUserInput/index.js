@@ -4,9 +4,10 @@ import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
 import mapUserInputRangedNames from "./mapUserInputRangedNames";
 import mapUserInputGrenadeNames from "./mapUserInputGrenadeNames";
 import mapUserInputTrapNames from "./mapUserInputTrapNames";
-import mapUserInputBiomeNames from "./mapUserInputBiomeNames";
-import mapNameConflicts from "./mapNameConflicts";
 import mapUserInputPowerNames from "./mapUserInputPowerNames";
+import mapUserInputBiomeNames from "./mapUserInputBiomeNames";
+import mapUserInputSkinNames from "./mapUserInputSkinNames";
+import mapNameConflicts from "./mapNameConflicts";
 
 /**
  * These files are used for mapping whatever weird user input is entered in the
@@ -29,5 +30,6 @@ export default {
   ...mapUserInputTrapNames,
   ...mapUserInputPowerNames,
   ...mapUserInputBiomeNames,
+  ...mapUserInputSkinNames,
   ...mapNameConflicts,
 };

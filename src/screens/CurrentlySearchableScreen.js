@@ -12,7 +12,9 @@ function NotFoundScreen() {
         <li>Shields</li>
         <li>Grenades</li>
         <li>Traps / Turrets</li>
+        <li>Powers</li>
         <li>Enemies (including bosses)</li>
+        <li>Levels (excluding boss levels)</li>
       </ul>
     </Fragment>
   );
