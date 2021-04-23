@@ -4,6 +4,7 @@ import _get from "lodash.get";
 import { criticalHitMul } from "../constants/truelleConstants";
 
 import rangedWeaponNames from "../constants/names/rangedWeaponNames";
+import meleeWeaponNames from "../constants/names/meleeWeaponNames";
 
 // -----------------------------------------------------------------------------
 
@@ -15,7 +16,10 @@ const {
   NERVES_OF_STEEL,
   QUICK_BOW,
   SONIC_CROSSBOW,
+  EXPLOSIVE_CROSSBOW,
 } = rangedWeaponNames;
+
+const { FLINT, TENTACLE, VALMONTS_WHIP } = meleeWeaponNames;
 
 // -----------------------------------------------------------------------------
 
@@ -82,6 +86,14 @@ export const newCalculateDps = ({ strikeChainArray }) => {
   };
 };
 
+export const newCalculateDpsInaccurate = ({ strikeChainArray }) => {
+  const dps = newCalculateDps({ strikeChainArray });
+  return {
+    ...dps,
+    isInaccurate: true,
+  };
+};
+
 export const calculateDpsCombo = ({ strikeChainArray }) => {
   // If crit is not allowed on even a single attack, don't show crit DPS damage
   let critAllowed = true;
@@ -137,6 +149,7 @@ export const calculateDpsBoomerang = ({ strikeChainArray, itemJsonProps }) => {
         (power * (count + 5)) / (charge + cooldown + tick * (count + 5)),
       ),
     critDps: "", // No crit for boomerang
+    isInaccurate: true,
   };
 };
 
@@ -290,6 +303,12 @@ export const calculateDps = ({
 
     case SONIC_CROSSBOW.INTERNAL_ID:
       return calculateDpsSonicCarbine({ strikeChainArray, itemJsonProps });
+
+    case FLINT.INTERNAL_ID:
+    case TENTACLE.INTERNAL_ID:
+    case VALMONTS_WHIP.INTERNAL_ID:
+    case EXPLOSIVE_CROSSBOW.INTERNAL_ID:
+      return newCalculateDpsInaccurate({ strikeChainArray });
 
     default:
       return newCalculateDps({ strikeChainArray });

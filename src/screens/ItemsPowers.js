@@ -5,6 +5,7 @@ import _get from "lodash.get";
 import ItemMetaScreen from "./Items/ItemMetaScreen";
 import BlueprintScreen from "./Items/BlueprintScreen";
 import ResultsHeader from "../components/common/resultsHeader";
+import DamageScreen from "./ItemsPowers/DamageScreen";
 
 // -----------------------------------------------------------------------------
 
@@ -17,6 +18,7 @@ function ItemsTraps(props) {
     <div className="DisplayCard">
       <ResultsHeader value={name} />
       <ItemMetaScreen itemJson={itemJson} itemName={_get(itemJson, "id")} />
+      <DamageScreen itemJson={itemJson} />
       <BlueprintScreen
         cellCost={_get(itemJson, "cellCost")}
         internalId={internalId}
