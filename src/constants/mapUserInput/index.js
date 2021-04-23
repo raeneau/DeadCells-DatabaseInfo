@@ -4,9 +4,9 @@ import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
 import mapUserInputRangedNames from "./mapUserInputRangedNames";
 import mapUserInputGrenadeNames from "./mapUserInputGrenadeNames";
 import mapUserInputTrapNames from "./mapUserInputTrapNames";
-import mapUserInputPowerNames from "./mapUserInputPowerNames";
 import mapUserInputBiomeNames from "./mapUserInputBiomeNames";
 import mapNameConflicts from "./mapNameConflicts";
+import mapUserInputPowerNames from "./mapUserInputPowerNames";
 
 /**
  * These files are used for mapping whatever weird user input is entered in the

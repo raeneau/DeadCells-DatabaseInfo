@@ -70,6 +70,7 @@ function App() {
     const mappedUserInput = nameMappings[formattedUserInput] || {
       INTERNAL_ID: formattedUserInput,
     };
+
     const type = _get(mappedUserInput, "TYPE");
 
     // If the type is an array, there are multiple entries!
