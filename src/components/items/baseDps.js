@@ -28,6 +28,12 @@ function BaseDps(props) {
     <tr>
       <td>Base DPS</td>
       <td>
+        {dps.isInaccurate && (
+          <span>
+            [<b>CAUTION</b> - DPS may be inaccurate]
+            <br />
+          </span>
+        )}
         {dps.dps} {critDps}
       </td>
     </tr>

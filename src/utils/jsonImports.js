@@ -111,3 +111,8 @@ export const itemTrapJsons = formatJsonImport(
     .context("../database/stable/item/DeployedTrap", true, /\.json$/)
     .keys(),
 );
+
+// Powers
+export const itemPowerJsons = formatJsonImport(
+  require.context("../database/stable/item/Power", true, /\.json$/).keys(),
+);

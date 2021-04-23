@@ -4,7 +4,9 @@ import mapUserInputMeleeNames from "./mapUserInputMeleeNames";
 import mapUserInputRangedNames from "./mapUserInputRangedNames";
 import mapUserInputGrenadeNames from "./mapUserInputGrenadeNames";
 import mapUserInputTrapNames from "./mapUserInputTrapNames";
+import mapUserInputPowerNames from "./mapUserInputPowerNames";
 import mapUserInputBiomeNames from "./mapUserInputBiomeNames";
+import mapUserInputSkinNames from "./mapUserInputSkinNames";
 import mapNameConflicts from "./mapNameConflicts";
 
 /**
@@ -26,6 +28,8 @@ export default {
   ...mapUserInputRangedNames,
   ...mapUserInputGrenadeNames,
   ...mapUserInputTrapNames,
+  ...mapUserInputPowerNames,
   ...mapUserInputBiomeNames,
+  ...mapUserInputSkinNames,
   ...mapNameConflicts,
 };

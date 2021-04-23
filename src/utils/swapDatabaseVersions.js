@@ -7,6 +7,7 @@ import {
   enemyJsons as enemyJsonsStable,
   itemGrenadeJsons as itemGrenadeJsonsStable,
   itemTrapJsons as itemTrapJsonsStable,
+  itemPowerJsons as itemPowerJsonsStable,
   levelJsons as levelJsonsStable,
   levelJsonPath as levelJsonPathStable,
 } from "./jsonImports";
@@ -19,6 +20,7 @@ import {
   enemyJsons as enemyJsonsBeta,
   itemGrenadeJsons as itemGrenadeJsonsBeta,
   itemTrapJsons as itemTrapJsonsBeta,
+  itemPowerJsons as itemPowerJsonsBeta,
   levelJsons as levelJsonsBeta,
   levelJsonPath as levelJsonPathBeta,
 } from "./jsonImportsBeta";
@@ -38,6 +40,7 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
       enemyJsons: enemyJsonsBeta,
       itemGrenadeJsons: itemGrenadeJsonsBeta,
       itemTrapJsons: itemTrapJsonsBeta,
+      itemPowerJsons: itemPowerJsonsBeta,
       levelJsons: levelJsonsBeta,
       levelJsonPath: levelJsonPathBeta,
     };
@@ -50,6 +53,7 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
     enemyJsons: enemyJsonsStable,
     itemGrenadeJsons: itemGrenadeJsonsStable,
     itemTrapJsons: itemTrapJsonsStable,
+    itemPowerJsons: itemPowerJsonsStable,
     levelJsons: levelJsonsStable,
     levelJsonPath: levelJsonPathStable,
   };

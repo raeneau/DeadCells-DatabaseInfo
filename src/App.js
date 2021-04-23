@@ -7,9 +7,10 @@ import UserInputScreen from "./screens/UserInput";
 import WeaponsScreen from "./screens/ItemsMelee";
 import RangedWeaponsScreen from "./screens/ItemsRanged";
 import ShieldsScreen from "./screens/ItemsShields";
-import EnemyScreen from "./screens/EnemyScreen";
 import GrenadesScreen from "./screens/ItemsGrenades";
 import TrapScreen from "./screens/ItemsTraps";
+import PowersScreen from "./screens/ItemsPowers";
+import EnemyScreen from "./screens/EnemyScreen";
 import BiomesScreen from "./screens/LevelsScreen";
 import NotFoundScreen from "./screens/NotFound";
 import NameConflictScreen from "./screens/NameConflictScreen";
@@ -38,6 +39,7 @@ const {
   GRENADE,
   TRAP,
   LEVEL,
+  POWER,
 } = inputTypes;
 
 // -----------------------------------------------------------------------------
@@ -68,6 +70,7 @@ function App() {
     const mappedUserInput = nameMappings[formattedUserInput] || {
       INTERNAL_ID: formattedUserInput,
     };
+
     const type = _get(mappedUserInput, "TYPE");
 
     // If the type is an array, there are multiple entries!
@@ -152,6 +155,13 @@ function App() {
       )}
       {validJson && resourceType === TRAP && (
         <TrapScreen
+          userInput={jsonArrays}
+          internalId={internalId}
+          name={name}
+        />
+      )}
+      {validJson && resourceType === POWER && (
+        <PowersScreen
           userInput={jsonArrays}
           internalId={internalId}
           name={name}
