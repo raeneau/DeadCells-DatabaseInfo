@@ -48,7 +48,7 @@
       ],
       "props": {
         "speed": 2,
-        "shockwavePower": [
+        "power2": [
           8
         ],
         "move": 6
@@ -75,7 +75,7 @@
       ],
       "props": {
         "speed": 2,
-        "shockwavePower": [
+        "power2": [
           8
         ],
         "move": 6
@@ -191,7 +191,7 @@
       ],
       "props": {
         "speed": 2,
-        "shockwavePower": [
+        "power2": [
           8
         ],
         "move": 6

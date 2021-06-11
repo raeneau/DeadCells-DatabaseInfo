@@ -1,9 +1,10 @@
 {
   "props": {
-    "scaledValueCap": 0.03,
+    "scaledValueCap": 0.06,
     "minPerks": 0,
-    "prct": 0.01,
-    "customScaling": 1.05
+    "prct": 0.02,
+    "customScaling": 1.05,
+    "duration": 30
   },
   "gameplayDesc": "Recupère ::+prct::% PV après avoir {paré@PA} une attaque de corps à corps.",
   "moneyCost": 0,

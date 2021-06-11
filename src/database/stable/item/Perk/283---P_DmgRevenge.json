@@ -2,7 +2,7 @@
   "props": {
     "duration2": 3,
     "prct2": 0.3,
-    "prct": 0.3,
+    "prct": 0.6,
     "customScaling": 0.01,
     "duration": 8
   },

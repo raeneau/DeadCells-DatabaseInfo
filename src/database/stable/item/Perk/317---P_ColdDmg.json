@@ -1,8 +1,9 @@
 {
   "props": {
     "dps": [
-      40
-    ]
+      65
+    ],
+    "tick": 0.2
   },
   "gameplayDesc": "Le ennemis subissent ::+dps:: DPS tant qu'ils sont {ralentis@IC}.",
   "moneyCost": 0,

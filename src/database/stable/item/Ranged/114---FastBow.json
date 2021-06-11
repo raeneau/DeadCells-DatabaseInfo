@@ -3,7 +3,7 @@
     "speed": 1.5,
     "range": 8,
     "ammo": 15,
-    "count": 2
+    "count": 3
   },
   "gameplayDesc": "Inflige un {coup critique@CC} si la cible a ::count:: flèches ou plus dans le corps.",
   "moneyCost": 2000,

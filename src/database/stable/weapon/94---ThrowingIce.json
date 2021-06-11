@@ -6,7 +6,7 @@
     {
       "coolDown": 0.32,
       "power": [
-        22
+        20
       ],
       "fxProps": {
         "fxInnerColor": 5342913,
@@ -38,7 +38,7 @@
       "animId": "throw",
       "sfxHit": "sfx/weapon_iceshock_hit.wav",
       "hitFrame": 5,
-      "critMul": 0.75,
+      "critMul": 0.65,
       "glowColor": 313599
     }
   ],

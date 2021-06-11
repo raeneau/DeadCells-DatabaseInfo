@@ -19,7 +19,7 @@
   "eliteWanderChance": 1,
   "index": 13,
   "id": "ClockTower",
-  "flags": 128,
+  "flags": 256,
   "worldDepth": 5,
   "icon": {
     "x": 41,

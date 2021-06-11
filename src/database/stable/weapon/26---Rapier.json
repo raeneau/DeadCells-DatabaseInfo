@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        30
+        40
       ],
       "fxProps": {
         "fxInnerColor": 13107162,
@@ -31,13 +31,13 @@
       "animId": "atkRapierA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 6,
-      "critMul": 1.6,
+      "critMul": 1.5,
       "glowColor": 7723159
     },
     {
       "coolDown": 0,
       "power": [
-        20
+        35
       ],
       "fxProps": {
         "fxInnerColor": 15007670,
@@ -62,13 +62,13 @@
       "animId": "atkRapierB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 2,
-      "critMul": 1.1,
+      "critMul": 1,
       "glowColor": 7723159
     },
     {
       "coolDown": 0,
       "power": [
-        20
+        35
       ],
       "fxProps": {
         "fxInnerColor": 15007670,
@@ -93,13 +93,13 @@
       "animId": "atkRapierB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 2,
-      "critMul": 1.1,
+      "critMul": 1,
       "glowColor": 7723159
     },
     {
       "coolDown": 0,
       "power": [
-        20
+        35
       ],
       "fxProps": {
         "fxInnerColor": 15007670,
@@ -124,7 +124,7 @@
       "animId": "atkRapierB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 2,
-      "critMul": 1.1,
+      "critMul": 1,
       "glowColor": 7723159
     }
   ],

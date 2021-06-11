@@ -25,6 +25,9 @@
     },
     {
       "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "HasBullets"
     }
   ],
   "tier1": "Tactic",

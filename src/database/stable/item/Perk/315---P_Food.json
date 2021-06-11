@@ -1,6 +1,6 @@
 {
   "props": {
-    "prct2": 1,
+    "prct2": 0.65,
     "prct": 0.1,
     "customScaling": 0.01,
     "duration": 300

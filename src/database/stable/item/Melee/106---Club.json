@@ -1,7 +1,7 @@
 {
   "props": {
     "item": "ClubBroken",
-    "duration": 10
+    "duration": 6
   },
   "gameplayDesc": "Chargez l'attaque pour frapper fort, mais le gourdin se brisera pour ::duration:: secondes.",
   "moneyCost": 1800,

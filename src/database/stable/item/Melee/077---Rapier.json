@@ -1,6 +1,6 @@
 {
   "props": {
-    "duration": 0.6
+    "duration": 0.8
   },
   "gameplayDesc": "Inflige un {coup critique@CC} juste après une roulade ou une parade.",
   "moneyCost": 1500,

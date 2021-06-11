@@ -1,6 +1,6 @@
 {
   "props": {
-    "dps": 50,
+    "dps": 75,
     "prct": 0.3,
     "effectCD": 0.33,
     "duration": 8

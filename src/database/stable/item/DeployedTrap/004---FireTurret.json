@@ -1,10 +1,10 @@
 {
   "props": {
     "targetable": true,
-    "dps": 9,
+    "dps": 8,
     "life": 150,
     "effectCD": 0,
-    "duration": 2,
+    "duration": 1.7,
     "aoeDuration": 2
   },
   "gameplayDesc": "{Brûle@FI} les ennemis proches (::+dps:: DPS sur ::duration:: sec).",

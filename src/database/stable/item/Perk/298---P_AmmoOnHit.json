@@ -1,10 +1,10 @@
 {
   "props": {
     "power": [
-      95
+      118
     ],
     "minPerks": 0,
-    "count": 3
+    "count": 6
   },
   "gameplayDesc": "Toucher au corps à corps un ennemi fait tomber jusqu'à ::count:: flèches plantées sur lui, chacune infligeant ::+power:: dégâts.",
   "moneyCost": 0,

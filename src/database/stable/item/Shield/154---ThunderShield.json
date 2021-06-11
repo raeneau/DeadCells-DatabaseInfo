@@ -2,15 +2,15 @@
   "props": {
     "speed": 0.12,
     "range": 6,
-    "duration2": 1.25,
+    "duration2": 0.8,
     "width": 7,
-    "dps": 50,
+    "dps": 32,
     "dps2": [
-      50
+      32
     ],
     "prct": 0.5,
-    "tick": 0.12,
-    "dotDps": 15,
+    "tick": 0.2,
+    "dotDps": 12,
     "duration": 8,
     "aoeDuration": 2,
     "ceilToolTipValues": false

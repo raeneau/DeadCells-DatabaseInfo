@@ -1,7 +1,7 @@
 {
   "props": {
     "distance": 2,
-    "duration": 5
+    "duration": 3
   },
   "gameplayDesc": "{Ralenti@IC} les ennemis pendant ::duration:: sec. Inflige des {coups critiques@CC} sur les cibles dans l'eau ou couvertes {d'huile@FI}.",
   "moneyCost": 1750,

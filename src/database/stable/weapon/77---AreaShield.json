@@ -6,12 +6,12 @@
     {
       "coolDown": 0,
       "power": [
-        50
+        40
       ],
       "fxProps": {},
       "lockCtrlAfter": 0,
       "props": {
-        "range": 11,
+        "range": 10,
         "duration2": 0.2,
         "bump": 0.1,
         "duration": 1

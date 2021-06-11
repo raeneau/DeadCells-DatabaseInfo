@@ -5,9 +5,9 @@
     "duration2": 0.75,
     "prct2": 0.2,
     "buff": 0.5,
-    "prct": 0.5,
+    "prct": 0.4,
     "customScaling": 0.025,
-    "duration": 10
+    "duration": 9
   },
   "gameplayDesc": "Vous octroie ::*prct::% de votre vie manquante en {vie bonus@SH} et réduit de ::prct2::% les dégâts reçus pendant ::duration:: secondes.",
   "moneyCost": 1000,

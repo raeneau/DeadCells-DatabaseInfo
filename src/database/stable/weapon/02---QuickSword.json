@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        20
+        25
       ],
       "fxProps": {
         "fxInnerColor": 16367179,
@@ -38,7 +38,7 @@
     {
       "coolDown": 0,
       "power": [
-        27
+        34
       ],
       "fxProps": {
         "fxInnerColor": 16367179,
@@ -70,7 +70,7 @@
     {
       "coolDown": 0,
       "power": [
-        27
+        34
       ],
       "fxProps": {
         "fxInnerColor": 16367179,
@@ -104,7 +104,7 @@
     {
       "coolDown": 0,
       "power": [
-        27
+        34
       ],
       "fxProps": {
         "fxInnerColor": 16367179,
@@ -136,7 +136,7 @@
     {
       "coolDown": 0,
       "power": [
-        27
+        34
       ],
       "fxProps": {
         "fxInnerColor": 16776336,
@@ -168,7 +168,7 @@
     {
       "coolDown": 0,
       "power": [
-        45
+        54
       ],
       "fxProps": {
         "fxInnerColor": 16727315,

@@ -29,7 +29,7 @@
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
-      "fxId": "fxAtkStaffA",
+      "fxId": "FxBeheadedStaffA/fxAtkStaffA",
       "animId": "AtkStaffA",
       "sfxHit": "sfx/weapon_hit_floor.wav",
       "hitFrame": 10,
@@ -61,7 +61,7 @@
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
-      "fxId": "fxAtkStaffB",
+      "fxId": "FxBeheadedStaffB/fxAtkStaffB",
       "animId": "AtkStaffB",
       "sfxHit": "sfx/weapon_hit_floor.wav",
       "hitFrame": 11,
@@ -93,7 +93,7 @@
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
-      "fxId": "fxAtkStaffC",
+      "fxId": "FxBeheadedStaffC/fxAtkStaffC",
       "animId": "AtkStaffC",
       "sfxHit": "sfx/weapon_hit_floor.wav",
       "hitFrame": 13,

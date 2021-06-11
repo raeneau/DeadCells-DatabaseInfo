@@ -3,7 +3,7 @@
     "deployTimer": 0.2,
     "targetable": false,
     "dps": [
-      52
+      80
     ],
     "debuff": 1.5,
     "life": 20,

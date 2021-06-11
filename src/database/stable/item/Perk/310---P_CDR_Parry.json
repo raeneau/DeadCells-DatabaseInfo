@@ -1,8 +1,8 @@
 {
   "props": {
-    "scaledValueCap": 5,
+    "scaledValueCap": 6,
     "actcdrIncPerTier": 0.105,
-    "actcdr": 2.5
+    "actcdr": 2.8
   },
   "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec pour chaque {parade@PA} réussie.",
   "moneyCost": 0,

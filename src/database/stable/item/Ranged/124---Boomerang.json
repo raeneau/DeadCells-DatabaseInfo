@@ -1,8 +1,8 @@
 {
   "props": {
-    "speed": 0.2,
-    "range": 9,
-    "ang": 0.7,
+    "speed": 0.22,
+    "range": 13,
+    "ang": 0.95,
     "ammo": 1,
     "bump": 1.4,
     "frict": 0.8,

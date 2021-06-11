@@ -1,7 +1,7 @@
 {
   "props": {
-    "dps": 20,
-    "duration": 6
+    "dps": 13,
+    "duration": 4
   },
   "gameplayDesc": "{Empoisonne@TO} les victimes (::+dps:: DPS sur ::duration:: sec).",
   "moneyCost": 2000,

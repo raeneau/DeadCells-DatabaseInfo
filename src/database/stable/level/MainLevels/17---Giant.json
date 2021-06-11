@@ -20,7 +20,7 @@
   "index": 17,
   "id": "Giant",
   "dlc": "RiseOfTheGiant",
-  "flags": 8192,
+  "flags": 16384,
   "worldDepth": 6,
   "icon": {
     "x": 64,

@@ -6,20 +6,20 @@
     {
       "coolDown": 0,
       "power": [
-        50
+        70
       ],
       "fxProps": {},
-      "lockCtrlAfter": 0.2,
+      "lockCtrlAfter": 0.1,
       "props": {
         "speed": 0.1,
         "duration2": 0.4,
         "bump": 0.2,
         "duration": 0.3
       },
-      "breachBonus": 1,
+      "breachBonus": 2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_tombstone_charge1.wav",
-      "charge": 0.47,
+      "charge": 0.4,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -39,10 +39,10 @@
     {
       "coolDown": 0,
       "power": [
-        50
+        80
       ],
       "fxProps": {},
-      "lockCtrlAfter": 0.15,
+      "lockCtrlAfter": 0.1,
       "props": {
         "speed": 0.2,
         "duration2": 0.4,
@@ -52,7 +52,7 @@
       "breachBonus": 2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_tombstone_charge2.wav",
-      "charge": 0.5,
+      "charge": 0.45,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -85,10 +85,10 @@
         "duration": 0.4,
         "scale": 1.2
       },
-      "breachBonus": 1,
+      "breachBonus": 2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_tombstone_charge3.wav",
-      "charge": 0.75,
+      "charge": 0.6,
       "sfxProps": {
         "sfxAlt": "sfx/weapon_tombstone_multi.wav"
       },

@@ -15,7 +15,7 @@
       "lockCtrlAfter": 0.18,
       "props": {
         "range": 3,
-        "aoeDuration": 6
+        "aoeDuration": 3
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,

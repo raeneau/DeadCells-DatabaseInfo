@@ -35,7 +35,7 @@
       "animId": "atkSaberA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 9,
-      "critMul": 0.65,
+      "critMul": 0.85,
       "glowColor": 2693711
     },
     {
@@ -69,7 +69,7 @@
       "animId": "atkSaberB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 8,
-      "critMul": 0.65,
+      "critMul": 0.85,
       "glowColor": 2693711
     }
   ],

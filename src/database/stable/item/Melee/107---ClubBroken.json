@@ -1,6 +1,6 @@
 {
   "props": {
-    "autoTransformAfter": 10,
+    "autoTransformAfter": 6,
     "item": "Club"
   },
   "gameplayDesc": "BROKEN_CLUB_DESC Se retransforme après ::autoTransformAfter:: secondes.",
@@ -19,6 +19,9 @@
   "tags": [
     {
       "tag": "AutoTransformInto"
+    },
+    {
+      "tag": "NoCritical"
     }
   ],
   "tier1": "Survival",

@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        30
+        50
       ],
       "fxProps": {
         "fxStartFrame": 11,
@@ -34,13 +34,14 @@
       "animId": "perfectHalberdAtkA",
       "sfxHit": "sfx/hit_broadsword.wav",
       "hitFrame": 13,
+      "critMul": 0.85,
       "glowColor": 16777215,
       "animSpd": 1
     },
     {
       "coolDown": 0,
       "power": [
-        60
+        55
       ],
       "fxProps": {
         "fxOuterColor": 7621119
@@ -68,13 +69,14 @@
       "animId": "perfectHalberdAtkB",
       "sfxHit": "sfx/hit_broadsword.wav",
       "hitFrame": 6,
+      "critMul": 0.85,
       "glowColor": 16777215,
       "animSpd": 1
     },
     {
       "coolDown": 0,
       "power": [
-        50
+        60
       ],
       "fxProps": {
         "fxOuterColor": 16726016

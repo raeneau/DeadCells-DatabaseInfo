@@ -1,8 +1,8 @@
 {
   "props": {
-    "scaledValueCap": 0.5,
-    "prct": 0.3,
-    "customScaling": 0.01
+    "scaledValueCap": 0.8,
+    "prct": 0.4,
+    "customScaling": 0.015
   },
   "gameplayDesc": "Close-ranged ranged attacks inflicts ::*prct::% bonus damages.",
   "moneyCost": 0,

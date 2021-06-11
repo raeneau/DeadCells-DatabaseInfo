@@ -2,11 +2,12 @@
   "props": {
     "range": 3,
     "power": [
-      150
+      135
     ],
     "effectCharge": 1.1,
     "uses": 3,
-    "effectCD": 0.8
+    "effectCD": 0.8,
+    "duration": 0.2
   },
   "gameplayDesc": "{Ralentit@IC} puis écrase violemment les ennemis pris dans sa zone d'effet.",
   "moneyCost": 1750,

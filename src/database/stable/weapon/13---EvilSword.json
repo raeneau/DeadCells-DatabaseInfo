@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        120
+        135
       ],
       "fxProps": {
         "fxInnerColor": 16731904,
@@ -19,7 +19,7 @@
       "dynamicCharge": 0,
       "charge": 0.3,
       "sfxProps": {},
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 3.1,
         "offsetCaseX": 0,
@@ -32,12 +32,13 @@
       "animId": "atkSaberA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 9,
+      "critMul": 0.5,
       "glowColor": 16731904
     },
     {
       "coolDown": 0,
       "power": [
-        120
+        135
       ],
       "fxProps": {
         "fxInnerColor": 16731904,
@@ -50,7 +51,7 @@
       "dynamicCharge": 0,
       "charge": 0.16,
       "sfxProps": {},
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 3.3,
         "offsetCaseX": 0,
@@ -63,12 +64,13 @@
       "animId": "atkSaberB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 8,
+      "critMul": 0.5,
       "glowColor": 16731904
     },
     {
       "coolDown": 0,
       "power": [
-        180
+        200
       ],
       "fxProps": {
         "fxInnerColor": 16731904,
@@ -81,7 +83,7 @@
       "dynamicCharge": 0,
       "charge": 0.15,
       "sfxProps": {},
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 3.1,
         "offsetCaseX": 0,
@@ -94,6 +96,7 @@
       "animId": "atkSaberA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 4,
+      "critMul": 0.5,
       "glowColor": 16731904,
       "animSpd": 2
     }

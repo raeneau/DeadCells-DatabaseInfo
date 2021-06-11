@@ -32,7 +32,7 @@
       "animId": "atkFanA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 5,
-      "critMul": 0.75,
+      "critMul": 0.85,
       "glowColor": 16449353,
       "animSpd": 1.25
     },
@@ -65,7 +65,7 @@
       "animId": "atkFanB",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 12,
-      "critMul": 0.75,
+      "critMul": 0.85,
       "glowColor": 16449353,
       "animSpd": 1.5
     },
@@ -98,7 +98,7 @@
       "animId": "atkFanC",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 7,
-      "critMul": 0.75,
+      "critMul": 0.85,
       "glowColor": 16449353,
       "animSpd": 2
     }

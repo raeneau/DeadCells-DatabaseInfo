@@ -1,9 +1,9 @@
 {
   "props": {
-    "scaledValueCap": 3,
+    "scaledValueCap": 2,
     "cooldown": 0.5,
     "actcdrIncPerTier": 0.105,
-    "actcdr": 1
+    "actcdr": 0.6
   },
   "gameplayDesc": "Attaquer un ennemi {gelé@IC}, étourdi ou {enraciné@RO} a courte portée réduis les délais de réutilisation des compétences de ::actcdr:: sec. Fonctionne avec des armes à distance ou de mélée. ",
   "moneyCost": 0,

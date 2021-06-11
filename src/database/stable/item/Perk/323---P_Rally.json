@@ -1,7 +1,7 @@
 {
   "props": {
     "minPerks": 0,
-    "count": 2
+    "count": 3
   },
   "gameplayDesc": "Temps disponible pour récupérer votre santé après un coup x::count::.",
   "moneyCost": 0,

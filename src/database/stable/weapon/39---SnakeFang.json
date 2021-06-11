@@ -6,7 +6,7 @@
     {
       "coolDown": 0.3,
       "power": [
-        25
+        27
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.12,
@@ -33,14 +33,14 @@
       "animId": "AtkFangsB",
       "sfxHit": "sfx/weapon_snakefangs_hit.wav",
       "hitFrame": 5,
-      "critMul": 0.75,
+      "critMul": 0.8,
       "glowColor": 6149376,
       "animSpd": 1
     },
     {
       "coolDown": 0,
       "power": [
-        30
+        33
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.12,
@@ -67,7 +67,7 @@
       "animId": "AtkFangsA",
       "sfxHit": "sfx/weapon_snakefangs_hit.wav",
       "hitFrame": 6,
-      "critMul": 0.75,
+      "critMul": 0.8,
       "glowColor": 6149376,
       "animSpd": 1
     }

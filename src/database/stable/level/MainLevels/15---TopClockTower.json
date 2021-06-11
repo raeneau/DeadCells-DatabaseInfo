@@ -20,7 +20,7 @@
   "eliteWanderChance": 0,
   "index": 15,
   "id": "TopClockTower",
-  "flags": 8192,
+  "flags": 16384,
   "worldDepth": 6,
   "icon": {
     "x": 41,

@@ -1,9 +1,9 @@
 {
   "props": {
     "dps": [
-      50
+      32
     ],
-    "tick": 0.3
+    "tick": 0.4
   },
   "gameplayDesc": "Inflicts ::+dps:: dps per arrow stuck to enemies.",
   "moneyCost": 0,

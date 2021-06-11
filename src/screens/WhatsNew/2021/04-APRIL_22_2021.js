@@ -1,8 +1,8 @@
 import React from "react";
 
 export default (
-  // <h4>April 22nd, 2021</h4>
   <div>
+    <h4>April 22nd, 2021</h4>
     <li>Update database to current one on Steam (22nd of April)</li>
     <li>
       <b>Add powers to search</b>

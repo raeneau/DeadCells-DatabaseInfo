@@ -1,11 +1,11 @@
 {
   "props": {
     "duration2": 0.7,
-    "dps": 60,
+    "dps": 48,
     "ammo": 2,
-    "distance": 8,
+    "distance": 5,
     "effectCD": 0.33,
-    "duration": 20
+    "duration": 15
   },
   "gameplayDesc": "Marque l'ennemi qui subit +::+dps:: DPS sur ::duration:: sec. S'il meurt, la marque se propage.",
   "moneyCost": 2250,

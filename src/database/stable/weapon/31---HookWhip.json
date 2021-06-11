@@ -17,7 +17,7 @@
         "duration": 0.2,
         "limit": 2.5
       },
-      "breachBonus": -0.5,
+      "breachBonus": 3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_whip_charge.wav",
       "charge": 0.2,
@@ -52,7 +52,7 @@
         "duration": 0,
         "limit": 2.5
       },
-      "breachBonus": -0.5,
+      "breachBonus": 3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_whip_charge.wav",
       "charge": 0.2,
@@ -85,7 +85,7 @@
         "duration": 0,
         "limit": 2.5
       },
-      "breachBonus": 0.25,
+      "breachBonus": 1,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_whip_charge.wav",
       "charge": 0.3,

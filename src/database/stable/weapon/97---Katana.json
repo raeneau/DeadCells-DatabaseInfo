@@ -13,10 +13,10 @@
       "props": {
         "range": 5,
         "power2": 2.5,
-        "bump": 0.3,
+        "bump": 0.15,
         "color": 9487615,
         "count": 1,
-        "duration": 0.3,
+        "duration": 0,
         "threshold": 0.5
       },
       "breachBonus": 0.4,
@@ -51,10 +51,10 @@
       "props": {
         "range": 5,
         "power2": 2.5,
-        "bump": 0.3,
+        "bump": 0.15,
         "color": 9487615,
         "count": 1,
-        "duration": 0.3,
+        "duration": 0,
         "threshold": 0.5
       },
       "breachBonus": 0.4,
@@ -92,7 +92,7 @@
         "bump": 0.3,
         "color": 9487615,
         "count": 1,
-        "duration": 0.3,
+        "duration": 0,
         "threshold": 0.5
       },
       "breachBonus": 0.4,

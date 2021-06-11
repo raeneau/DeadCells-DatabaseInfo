@@ -19,7 +19,7 @@
   "eliteWanderChance": 0,
   "index": 9,
   "id": "BeholderPit",
-  "flags": 8192,
+  "flags": 16384,
   "worldDepth": 3,
   "icon": {
     "x": 47,

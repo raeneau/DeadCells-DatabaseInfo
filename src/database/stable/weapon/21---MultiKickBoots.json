@@ -6,7 +6,7 @@
     {
       "coolDown": 0.25,
       "power": [
-        35
+        55
       ],
       "fxProps": {
         "fxInnerColor": 13688063
@@ -15,7 +15,7 @@
       "props": {},
       "breachBonus": -1,
       "dynamicCharge": 0,
-      "charge": 0.2,
+      "charge": 0.25,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -35,7 +35,7 @@
     {
       "coolDown": 0,
       "power": [
-        45
+        65
       ],
       "fxProps": {
         "fxInnerColor": 16761353
@@ -46,7 +46,7 @@
       },
       "breachBonus": 0.25,
       "dynamicCharge": 0,
-      "charge": 0.2,
+      "charge": 0.25,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -66,7 +66,7 @@
     {
       "coolDown": 0,
       "power": [
-        70
+        75
       ],
       "fxProps": {
         "fxInnerColor": 16761353

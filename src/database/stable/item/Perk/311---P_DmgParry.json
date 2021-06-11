@@ -1,7 +1,7 @@
 {
   "props": {
     "power": [
-      180
+      210
     ],
     "duration": 8,
     "ceilToolTipValues": true

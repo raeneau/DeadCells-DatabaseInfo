@@ -1,7 +1,7 @@
 {
   "props": {
     "power2": [
-      90
+      200
     ]
   },
   "gameplayDesc": "Le dernier coup inflige des dégâts de zone et repousse les ennemis. ::+power2:: dégâts supplémentaires s'ils sont projetés contre un mur.",

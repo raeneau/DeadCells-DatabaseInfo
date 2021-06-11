@@ -13,7 +13,9 @@
       },
       "lockCtrlAfter": 0.1,
       "props": {
-        "bump": 0
+        "duration2": 1,
+        "bump": 0,
+        "duration": 0.5
       },
       "breachBonus": 0,
       "dynamicCharge": 0,

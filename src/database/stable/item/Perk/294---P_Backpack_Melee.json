@@ -3,7 +3,7 @@
     "width": 4,
     "cooldown": 3,
     "height": 2,
-    "prct": 0.5,
+    "prct": 0.75,
     "customScaling": 0.01
   },
   "gameplayDesc": "Rolling through enemies attacks them with the melee weapon in {backpack@BA} for ::*prct::% of the usual damages.",

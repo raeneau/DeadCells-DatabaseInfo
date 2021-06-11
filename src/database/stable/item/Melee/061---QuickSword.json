@@ -1,8 +1,8 @@
 {
   "props": {
-    "prct": 0.5,
+    "prct": 0.9,
     "count": 10,
-    "duration": 6
+    "duration": 8
   },
   "gameplayDesc": "Les dégâts augmentent jusqu'à +::prct::% tant que vous enchainez les coups. Inflige des {coups critiques@CC} après ::count:: coups enchainés.",
   "moneyCost": 1500,

@@ -15,7 +15,7 @@
       "props": {
         "range": 9,
         "power2": [
-          10
+          35
         ],
         "bump": 0.2,
         "count": 2
@@ -85,7 +85,7 @@
       "props": {
         "range": 12,
         "power2": [
-          20
+          50
         ],
         "bump": 0.2,
         "count": 3

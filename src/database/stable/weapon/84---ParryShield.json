@@ -6,11 +6,12 @@
     {
       "coolDown": 0,
       "power": [
-        20
+        26
       ],
       "fxProps": {},
       "lockCtrlAfter": 0,
       "props": {
+        "pct": 0.35,
         "duration": 1.5
       },
       "breachBonus": 0,

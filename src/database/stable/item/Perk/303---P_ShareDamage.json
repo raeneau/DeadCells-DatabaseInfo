@@ -1,7 +1,7 @@
 {
   "props": {
     "scaledValueCap": 0.75,
-    "prct": 0.2,
+    "prct": 0.35,
     "tick": 0.2,
     "customScaling": 1.05
   },

@@ -6,7 +6,7 @@
     {
       "coolDown": 0.55,
       "power": [
-        5
+        20
       ],
       "fxProps": {
         "fxInnerColor": 16735032,

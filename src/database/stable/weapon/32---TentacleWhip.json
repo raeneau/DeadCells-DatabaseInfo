@@ -6,7 +6,7 @@
     {
       "coolDown": 0.3,
       "power": [
-        45
+        52
       ],
       "fxProps": {
         "fxStartFrame": 9,
@@ -80,7 +80,7 @@
     {
       "coolDown": 0,
       "power": [
-        65
+        80
       ],
       "fxProps": {
         "fxInnerColor": 16776626,

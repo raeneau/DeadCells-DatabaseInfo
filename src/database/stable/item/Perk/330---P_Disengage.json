@@ -1,7 +1,7 @@
 {
   "props": {
     "duration2": 120,
-    "prct": 0.2,
+    "prct": 0.15,
     "duration": 5
   },
   "gameplayDesc": "Si vos PV tombent sous ::prct::%, un bouclier vous protège pendant ::duration:: sec. Ne peut se produire qu'une fois toutes les ::duration2:: sec.",

@@ -6,7 +6,7 @@
     {
       "coolDown": 0.25,
       "power": [
-        10
+        70
       ],
       "fxProps": {
         "fxInnerColor": 846066,
@@ -19,7 +19,7 @@
         "duration": 0.1
       },
       "onionSkinFrame": 8,
-      "breachBonus": 0,
+      "breachBonus": 0.5,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_boi_charge.wav",
       "charge": 0.07,

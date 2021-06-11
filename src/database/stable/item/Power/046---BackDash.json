@@ -3,7 +3,7 @@
     "speed": 5,
     "range": 13,
     "power": [
-      10
+      42
     ],
     "autoTransformAfter": 3,
     "buff": 0.2,

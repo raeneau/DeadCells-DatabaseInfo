@@ -66,7 +66,7 @@
       ],
       "props": {
         "speed": 1,
-        "shockwavePower": [
+        "power2": [
           8
         ],
         "height": 4,

@@ -2,7 +2,7 @@
   "props": {
     "scaledValueCap": 1,
     "actcdrIncPerTier": 0.04,
-    "effectCD": 0.45,
+    "effectCD": 0.2,
     "actcdr": 0.08
   },
   "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec en cas de {coup critique@CC}.",

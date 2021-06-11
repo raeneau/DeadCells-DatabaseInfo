@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        30
+        40
       ],
       "fxProps": {
         "fxInnerColor": 16763392,
@@ -14,7 +14,7 @@
       },
       "lockCtrlAfter": 0,
       "props": {},
-      "breachBonus": 0,
+      "breachBonus": 0.3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_dualdg_charge1.wav",
       "charge": 0.2,
@@ -36,7 +36,7 @@
     {
       "coolDown": 0,
       "power": [
-        45
+        55
       ],
       "fxProps": {
         "fxInnerColor": 16763392,
@@ -44,7 +44,7 @@
       },
       "lockCtrlAfter": 0,
       "props": {},
-      "breachBonus": 0.8,
+      "breachBonus": 1.2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_dualdg_charge2.wav",
       "charge": 0.25,

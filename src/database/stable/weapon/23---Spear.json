@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        35
+        60
       ],
       "fxProps": {
         "fxInnerColor": 54015,
@@ -16,10 +16,10 @@
       "props": {
         "bump": 0.4
       },
-      "breachBonus": 0,
+      "breachBonus": 2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_spear_charge1.wav",
-      "charge": 0.45,
+      "charge": 0.38,
       "sfxProps": {},
       "canCrit": true,
       "area": {
@@ -34,14 +34,14 @@
       "animId": "atkSpear2A",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 13,
-      "critMul": 1.1,
+      "critMul": 0.85,
       "glowColor": 10743807,
       "animSpd": 1.33
     },
     {
       "coolDown": 0,
       "power": [
-        57
+        65
       ],
       "fxProps": {
         "fxInnerColor": 54015,
@@ -51,7 +51,7 @@
       "props": {
         "bump": 0.2
       },
-      "breachBonus": 0,
+      "breachBonus": 1,
       "dynamicCharge": 0,
       "charge": 0.1,
       "sfxProps": {},
@@ -68,13 +68,13 @@
       "animId": "atkSpear2B",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 2,
-      "critMul": 1,
+      "critMul": 0.85,
       "glowColor": 10743807
     },
     {
       "coolDown": 0,
       "power": [
-        50
+        70
       ],
       "fxProps": {
         "fxInnerColor": 54015,
@@ -84,7 +84,7 @@
       "props": {
         "bump": 0.15
       },
-      "breachBonus": 0,
+      "breachBonus": 1,
       "dynamicCharge": 0,
       "charge": 0.2,
       "sfxProps": {},
@@ -101,7 +101,7 @@
       "animId": "atkSpear2C",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 2,
-      "critMul": 1,
+      "critMul": 0.85,
       "glowColor": 10743807
     }
   ],

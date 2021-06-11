@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        150
+        200
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.2,
@@ -16,7 +16,7 @@
         "offsetX": -3,
         "offsetY": 2,
         "fullCharge": 17,
-        "bump": 0.5,
+        "bump": 0.2,
         "duration": 0.2,
         "threshold": 21
       },
@@ -43,7 +43,7 @@
     {
       "coolDown": 0,
       "power": [
-        215
+        230
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.25,
@@ -53,14 +53,14 @@
         "offsetX": 2,
         "offsetY": 2,
         "fullCharge": 26,
-        "bump": 0.5,
+        "bump": 0.2,
         "duration": 0.2,
         "threshold": 28
       },
-      "breachBonus": 2,
+      "breachBonus": 3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_axe_charge2.wav",
-      "charge": 0.94,
+      "charge": 0.75,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -91,14 +91,14 @@
         "offsetY": 1.5,
         "fullCharge": 26,
         "pct": 0.5,
-        "bump": 1,
+        "bump": 0.5,
         "duration": 0.2,
         "threshold": 34
       },
-      "breachBonus": 1,
+      "breachBonus": 3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_axe_charge3.wav",
-      "charge": 1,
+      "charge": 0.8,
       "sfxProps": {},
       "canCrit": false,
       "area": {

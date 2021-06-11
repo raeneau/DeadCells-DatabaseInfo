@@ -1,11 +1,11 @@
 {
   "props": {
-    "range": 5,
+    "range": 6,
     "coolDown": 0.6,
     "power": [
-      30
+      45
     ],
-    "duration": 2.5
+    "duration": 3.5
   },
   "gameplayDesc": "Étourdit les ennemis (::duration:: sec).",
   "moneyCost": 1500,

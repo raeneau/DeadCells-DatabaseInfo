@@ -1,6 +1,6 @@
 {
   "props": {
-    "power": 120
+    "power": 140
   },
   "gameplayDesc": "Les parades réussies et les tirs renvoyés infligent ::+power:: dégâts.",
   "moneyCost": 0,
