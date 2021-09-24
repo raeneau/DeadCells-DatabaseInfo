@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import WhatsNewScreen from "./WhatsNewScreen";
 import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
 
-import DatabaseVersionToggle from "./DatabaseVersionToggle";
+import DatabaseVersionDropdown from "./DatabaseVersionDropdown";
 
 // Styles.
 import "./UserInput.css";
@@ -71,7 +71,7 @@ function UserInputScreen(props) {
           alt="Submit"
         />
       </div>
-      <DatabaseVersionToggle onChange={onDatabaseChange} />
+      <DatabaseVersionDropdown onChange={onDatabaseChange} />
       <div className={cn.notesWrapper}>
         {!inputSubmitted && <WhatsNewScreen />}
         <CurrentlySearchableScreen />

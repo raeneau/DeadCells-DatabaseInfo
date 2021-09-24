@@ -4,7 +4,7 @@ import _filter from "lodash.filter";
 import _map from "lodash.map";
 
 // Local modules.
-import { enemyJsons } from "./jsonImports";
+import { getEnemyJsons } from "./jsonImports";
 import getJson from "./getJson";
 import getDropChance from "./getDropChance";
 
@@ -18,7 +18,7 @@ export default ({ databaseVersion = STABLE, internalId }) => {
   // to use the internal weapon name as the key.
   // Also, remove any entries that are undefined.
   return _filter(
-    _map(enemyJsons, (enemyJsonName, enemyName) => {
+    _map(getEnemyJsons(databaseVersion), (enemyJsonName, enemyName) => {
       const enemyJsonParsed = getJson({
         jsonPaths: [`mob/General${enemyJsonName}`],
         jsonNames: ["enemyJson"],

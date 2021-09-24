@@ -37,3 +37,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 #### `npm run lint`
 
 Runs linter using ESLint and Prettier, displays code styling warnings and errors.
+
+#### Unpacking CDB
+
+./PAKTool.exe -Expand -outdir "Unpacked-<Date>" -refpak "../res.pak"
+../CDBTool.exe -EXPAND -OUTDIR ./ExpandedDB -REFCDB ./data.cdb

@@ -39,7 +39,7 @@ export const blueprintDropJsons = { Always, Common, Uncommon, Rare, Legendary };
 // -----------------------------------------------------------------------------
 // Biomes / Levels
 // -----------------------------------------------------------------------------
-export const levelJsons = {
+export const getLevelJsons = {
   PrisonStart,
   PrisonCourtyard,
   SewerShort,
@@ -63,56 +63,65 @@ export const levelJsons = {
   Cliff,
 };
 
-export const levelJsonPath = formatJsonImport(
-  require
-    .context("../database/stable/level/MainLevels", true, /\.json$/)
-    .keys(),
-);
+export const getLevelJsonPath = (databaseVersion) =>
+  formatJsonImport(
+    require
+      .context("../database/stable/level/MainLevels", true, /\.json$/)
+      .keys(),
+  );
 
 // -----------------------------------------------------------------------------
 // Enemies
 // -----------------------------------------------------------------------------
-export const enemyJsons = formatJsonImport(
-  require.context("../database/stable/mob/General", true, /\.json$/).keys(),
-);
+export const getEnemyJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/mob/General", true, /\.json$/).keys(),
+  );
 
 // -----------------------------------------------------------------------------
 // Gear (Weapons, Traps, Powers, etc)
 // -----------------------------------------------------------------------------
 
 // Weapon (same spot for every weapon type)
-export const weaponJsons = formatJsonImport(
-  require.context("../database/stable/weapon", true, /\.json$/).keys(),
-);
+export const getWeaponJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/weapon", true, /\.json$/).keys(),
+  );
 
 // Melee
-export const itemMeleeJsons = formatJsonImport(
-  require.context("../database/stable/item/Melee", true, /\.json$/).keys(),
-);
+export const getItemMeleeJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context(`../database/stable/item/Melee`, true, /\.json$/).keys(),
+  );
 
 // Ranged
-export const itemRangedJsons = formatJsonImport(
-  require.context("../database/stable/item/Ranged", true, /\.json$/).keys(),
-);
+export const getItemRangedJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/item/Ranged", true, /\.json$/).keys(),
+  );
 
 // Shield
-export const itemShieldJsons = formatJsonImport(
-  require.context("../database/stable/item/Shield", true, /\.json$/).keys(),
-);
+export const getItemShieldJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/item/Shield", true, /\.json$/).keys(),
+  );
 
 // Grenades
-export const itemGrenadeJsons = formatJsonImport(
-  require.context("../database/stable/item/Grenade", true, /\.json$/).keys(),
-);
+export const getItemGrenadeJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/item/Grenade", true, /\.json$/).keys(),
+  );
 
 // Traps
-export const itemTrapJsons = formatJsonImport(
-  require
-    .context("../database/stable/item/DeployedTrap", true, /\.json$/)
-    .keys(),
-);
+export const getItemTrapJsons = (databaseVersion) =>
+  formatJsonImport(
+    require
+      .context("../database/stable/item/DeployedTrap", true, /\.json$/)
+      .keys(),
+  );
 
 // Powers
-export const itemPowerJsons = formatJsonImport(
-  require.context("../database/stable/item/Power", true, /\.json$/).keys(),
-);
+export const getItemPowerJsons = (databaseVersion) =>
+  formatJsonImport(
+    require.context("../database/stable/item/Power", true, /\.json$/).keys(),
+  );

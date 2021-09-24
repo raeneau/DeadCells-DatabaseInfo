@@ -23,7 +23,7 @@ import formatInput from "./utils/formatInput";
 // Constants.
 import nameMappings from "./constants/mapUserInput";
 import inputTypes from "./constants/inputTypes";
-import { STABLE } from "./constants/databaseVersion";
+import { STABLE_VERSION } from "./constants/databaseVersion";
 
 // Styles.
 import "./App.css";
@@ -44,7 +44,7 @@ const {
 
 // -----------------------------------------------------------------------------
 
-let databaseVersion = STABLE;
+let databaseVersion = STABLE_VERSION;
 const cnBase = "App";
 const cn = {
   wrapper: `${cnBase}__wrapper`,
