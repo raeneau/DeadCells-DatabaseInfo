@@ -1,0 +1,27 @@
+{
+  "id": "GreedGem",
+  "name": "Dent en or",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 35,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 0
+  },
+  "group": 11,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 3
+  },
+  "gameplayDesc": "Une dent d'une valeur de ::$power:: OR, il l'avait bien cherché...",
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 169
+}

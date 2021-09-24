@@ -1,0 +1,25 @@
+{
+  "id": "Flask2",
+  "name": "Potion de soin II",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Flask1",
+    "revealedAtStart": true
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 2
+  },
+  "cellCost": 50,
+  "moneyCost": 0,
+  "gameplayDesc": "La potion de soin peut être utilisée 2 fois.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 133
+}

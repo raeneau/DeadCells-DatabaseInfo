@@ -1,0 +1,32 @@
+{
+  "id": "T_AfterBridge",
+  "biome": "PrisonDepths",
+  "viewerY": -0.5,
+  "mobs": [],
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 3584,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 1,
+  "musicLoop": "music/dc_colletor2.ogg",
+  "index": 30,
+  "lootLevel": 4,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 0,
+  "name": "Collecteur",
+  "chromaColor": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 5,
+  "props": {
+    "timedDoor": 17.5,
+    "timedBlueprint": "RootBomb"
+  },
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 30
+}

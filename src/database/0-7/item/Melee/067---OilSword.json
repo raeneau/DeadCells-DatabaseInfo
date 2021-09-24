@@ -1,0 +1,32 @@
+{
+  "id": "OilSword",
+  "name": "Epée huileuse",
+  "moneyCost": 2000,
+  "cellCost": 25,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Oil"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 2
+  },
+  "gameplayDesc": "Applique de {l'huile inflammable@FI} sur les ennemis.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "legendAffix": "PoisonOnHit",
+  "legendaryName": "Lame de l'Alchimiste",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 67
+}

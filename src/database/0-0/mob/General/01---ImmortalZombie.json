@@ -1,0 +1,66 @@
+{
+  "id": "ImmortalZombie",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.7,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0,
+    "immortalityDuration": 2,
+    "immortalityLifeMul": 0.5
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        12
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "chance": 0.01,
+      "item": "SpikeShield"
+    }
+  ],
+  "index": 1,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 39,
+    "y": 22
+  },
+  "name": "Zombie",
+  "glowInnerColor": 16758097,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    130
+  ],
+  "cells": 1,
+  "cellChance": 0.33,
+  "volteDelay": 0.7,
+  "weight": 10,
+  "glowOuterColor": 12386346,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 1
+}

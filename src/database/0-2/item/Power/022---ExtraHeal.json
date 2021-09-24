@@ -1,0 +1,36 @@
+{
+  "id": "ExtraHeal",
+  "name": "Tonique",
+  "moneyCost": 450,
+  "cellCost": 60,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "SingleUse"
+    },
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    }
+  ],
+  "props": {
+    "power": 75,
+    "duration": 10
+  },
+  "index": 22,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 6
+  },
+  "gameplayDesc": "Vous soigne de ::+power:: PV et vous protège totalement pendant ::duration:: sec. Usage unique.",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 22
+}

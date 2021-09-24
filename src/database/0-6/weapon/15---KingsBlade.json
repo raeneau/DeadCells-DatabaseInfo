@@ -1,0 +1,161 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.37,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 9,
+      "area": {
+        "shape": 0,
+        "width": 3.7,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0.15
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0
+      },
+      "animId": "atkSwordB",
+      "fxId": "fxSwordAtkB",
+      "glowColor": 6718973,
+      "fxInnerColor": 16777215,
+      "power": [
+        45
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.9,
+      "animSpd": 0.75
+    },
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "hitFrame": 15,
+      "area": {
+        "shape": 0,
+        "width": 3.5,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0.5
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.07
+      },
+      "animId": "atkSaberA",
+      "glowColor": 11172844,
+      "fxInnerColor": 16777215,
+      "power": [
+        50
+      ],
+      "critMul": 0.9,
+      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxId": "fxSaberA",
+      "animSpd": 1
+    },
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 4.2,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.6,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.07
+      },
+      "animId": "atkSwordA",
+      "fxId": "fxSwordAtkA",
+      "glowColor": 16367595,
+      "fxInnerColor": 16777215,
+      "power": [
+        60
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxHit": "sfx/weapon_stunmace_release3.wav",
+      "critMul": 0.8
+    },
+    {
+      "charge": 0.35,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 5.5,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.4
+      },
+      "animId": "atkSwordA",
+      "fxId": "fxSwordAtkA",
+      "glowColor": 16769417,
+      "fxInnerColor": 15349264,
+      "power": [
+        95
+      ],
+      "critMul": 0.7,
+      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxHit": "sfx/weapon_stunmace_release3.wav",
+      "animSpd": 0.8,
+      "onionSkinFrame": 9
+    },
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.4,
+      "hitFrame": 8,
+      "area": {
+        "shape": 0,
+        "width": 4.4,
+        "height": 0,
+        "offsetCaseY": -0.6,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2
+      },
+      "animId": "atkSwordB",
+      "fxId": "fxHammerC",
+      "glowColor": 16737067,
+      "fxInnerColor": 16765739,
+      "power": [
+        150
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release3.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 1
+    }
+  ],
+  "item": "KingsBlade",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 15
+}

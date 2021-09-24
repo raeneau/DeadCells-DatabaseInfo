@@ -1,0 +1,101 @@
+{
+  "id": "Ossuary",
+  "biome": "Ossuary",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 0.3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Spawner",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "Shocker",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3,
+      "props": {}
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "SpikedSatyr",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    }
+  ],
+  "mobDensity": 1.2,
+  "flags": 0,
+  "group": 0,
+  "name": "Charnier",
+  "lootFlags": 0,
+  "musicLoop": "music/Ossuary.ogg",
+  "goldBonus": 0.1,
+  "specificLoots": [],
+  "viewerY": -0.5,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "doorColor": 10951708,
+  "index": 4,
+  "lootLevel": 4,
+  "viewerOffX": 0,
+  "cellBonus": 0.8,
+  "viewerColor": 7878920,
+  "chromaColor": 16711680,
+  "tripleUps": 2,
+  "doubleUps": 3,
+  "baseMobTier": 6,
+  "props": {
+    "timedDoor": 5.5,
+    "timedBlueprint": "LongBow",
+    "timedScrolls": 2
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 4
+}

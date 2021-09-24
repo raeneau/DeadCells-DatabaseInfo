@@ -1,0 +1,21 @@
+{
+  "id": "Cell",
+  "name": "NOT MEANT TO BE SEEN",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 10,
+  "gameplayDesc": "NOT MEANT TO BE SEEN",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 74
+  },
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 207
+}

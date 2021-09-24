@@ -1,0 +1,31 @@
+{
+  "id": "T_PrisonDepths",
+  "biome": "PrisonDepths",
+  "mobs": [],
+  "mobDensity": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 1,
+  "transitionTo": "PrisonDepths",
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 25,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 5,
+  "props": {
+    "musicLoop": "music/dc_colletor2.ogg",
+    "viewerOffsetX": -1
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 1,
+  "loreDescriptions": [],
+  "name": "Passage vers les Profondeurs de la Prison",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 25
+}

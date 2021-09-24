@@ -1,0 +1,108 @@
+{
+  "id": "ClusterGrenader",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 0,
+  "pfCost": 1.5,
+  "maxPerRoom": 3,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "mainGrenade",
+      "charge": 0.55,
+      "coolDown": 2.5,
+      "hitFrame": 1,
+      "lockAiAfter": 0.5,
+      "radius": 3.5,
+      "breachResistance": 0.5,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDelay": 1.1,
+        "canTriggerThroughWall": true
+      },
+      "sfxCharge": "sfx/enm_grd_charge.wav",
+      "sfxRelease": "sfx/enm_pirate_shot.wav"
+    },
+    {
+      "id": "subGrenade",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 2.75,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDelay": 0.4,
+        "count": 3
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_grd_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_fuse1.wav"
+    },
+    {
+      "id": "dodge",
+      "charge": 0.18,
+      "coolDown": 0.9,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 5
+      },
+      "sfxRelease": "sfx/jump1b.wav"
+    }
+  ],
+  "genTags": 1,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "Shockwave"
+    },
+    {
+      "rarity": "Common",
+      "item": "ExplosiveGrenade"
+    }
+  ],
+  "index": 12,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 5
+  },
+  "name": "Bombardier",
+  "glowInnerColor": 16473257,
+  "glowOuterColor": 16473257,
+  "flesh1": 16473257,
+  "flesh2": 16473257,
+  "life": [
+    110
+  ],
+  "volteDelay": 0.5,
+  "weight": 15,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 12
+}

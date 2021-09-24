@@ -1,0 +1,162 @@
+{
+  "id": "AncientTemple",
+  "biome": "AncientTemple",
+  "viewerColor": 16639,
+  "viewerOffX": 0,
+  "viewerY": 1,
+  "mobs": [
+    {
+      "mob": "Golem",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      },
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      },
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      },
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      },
+      "minDifficulty": 0,
+      "maxDifficulty": 2
+    },
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 1.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {
+        "inStone": true
+      }
+    },
+    {
+      "mob": "OrbLauncher",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Fogger",
+      "quantityFactor": 0.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 4
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    }
+  ],
+  "cellBonus": 0.8,
+  "mobDensity": 0.9,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "flags": 0,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0.1,
+  "index": 11,
+  "group": 0,
+  "name": "Sanctuaire endormi",
+  "musicLoop": "music/templecutpart1.ogg",
+  "doorColor": 16743424,
+  "zDoorColor": 16743424,
+  "chromaColor": 16731904,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "baseMobTier": 12,
+  "extraMobTier": 2,
+  "props": {},
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 11
+}

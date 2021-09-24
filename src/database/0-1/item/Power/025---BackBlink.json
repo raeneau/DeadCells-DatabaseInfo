@@ -1,0 +1,30 @@
+{
+  "id": "BackBlink",
+  "name": "Déphasage",
+  "moneyCost": 2000,
+  "cellCost": 35,
+  "droppable": true,
+  "castCD": 1.8,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {
+    "distance": 9,
+    "prct": 1.5
+  },
+  "index": 25,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 6
+  },
+  "gameplayDesc": "Vous vous téléportez dans le dos de votre victime. Les dégâts de votre prochaine attaque au corps à corps sont augmentés de ::prct::%.",
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 25
+}

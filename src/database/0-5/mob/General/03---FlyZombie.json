@@ -1,0 +1,67 @@
+{
+  "id": "FlyZombie",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        25
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "ToxicCloud"
+    },
+    {
+      "rarity": "Rare",
+      "item": "Shovel"
+    }
+  ],
+  "index": 3,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 21
+  },
+  "name": "Zombie purulent",
+  "glowInnerColor": 14090221,
+  "glowOuterColor": 839871,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.7,
+  "weight": 10,
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 3
+}

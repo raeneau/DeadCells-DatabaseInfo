@@ -1,0 +1,94 @@
+{
+  "item": "DualDaggers",
+  "strikeChain": [
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "power": [
+        30
+      ],
+      "animId": "atkA",
+      "fxId": "rFxAtkA",
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 7,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 3,
+        "height": 0,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16763392,
+      "fxInnerColor": 16763392,
+      "fxOuterColor": 16763392,
+      "sfxRelease": "sfx/weapon_dualdg_release1.wav",
+      "sfxCharge": "sfx/weapon_dualdg_charge1.wav"
+    },
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "power": [
+        45
+      ],
+      "animId": "atkB",
+      "fxId": "rFxAtkB",
+      "dynamicCharge": 0,
+      "breachBonus": 0.8,
+      "props": {},
+      "hitFrame": 7,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 3,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16763392,
+      "fxInnerColor": 16763392,
+      "fxOuterColor": 16763392,
+      "sfxRelease": "sfx/weapon_dualdg_release2.wav",
+      "sfxCharge": "sfx/weapon_dualdg_charge2.wav"
+    },
+    {
+      "charge": 0.42,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "power": [
+        90
+      ],
+      "animId": "atkC",
+      "fxId": "rFxAtkC",
+      "dynamicCharge": 0,
+      "breachBonus": 1.5,
+      "props": {},
+      "hitFrame": 8,
+      "canCrit": true,
+      "area": {
+        "shape": 1,
+        "width": 3.5,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16737536,
+      "fxInnerColor": 16737536,
+      "fxOuterColor": 16737536,
+      "sfxRelease": "sfx/weapon_dualdg_release3.wav",
+      "sfxCharge": "sfx/weapon_dualdg_charge3.wav",
+      "fxStartFrame": 7
+    }
+  ],
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 7
+}

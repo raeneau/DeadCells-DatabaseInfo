@@ -1,0 +1,94 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "power": [
+        60
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 3329400,
+      "fxInnerColor": 12376805,
+      "fxOuterColor": 12376805,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxHit": "sfx/arrow_hit.wav",
+      "animSpd": 3.5,
+      "animId": "dualBow"
+    },
+    {
+      "charge": 0.45,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.15,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animSpd": 3,
+      "glowColor": 3329400,
+      "fxInnerColor": 12376805,
+      "fxOuterColor": 12376805,
+      "power": [
+        90
+      ],
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxHit": "sfx/arrow_hit.wav"
+    },
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animSpd": 2.5,
+      "glowColor": 16723200,
+      "fxInnerColor": 12376805,
+      "fxOuterColor": 12376805,
+      "power": [
+        220
+      ],
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxHit": "sfx/arrow_hit.wav"
+    }
+  ],
+  "item": "DualBow",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 35
+}

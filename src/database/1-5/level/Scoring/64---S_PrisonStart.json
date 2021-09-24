@@ -1,0 +1,90 @@
+{
+  "id": "S_PrisonStart",
+  "biome": "PrisonStart",
+  "mobs": [
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0.05,
+  "flags": 0,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "index": 64,
+  "group": 4,
+  "name": "Quartier des prisonniers",
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 0.75,
+    "viewerColor": 5661695,
+    "doorColor": 10110973,
+    "chromaColor": 7602431,
+    "musicIntro": "music/PrisonIntro.ogg",
+    "musicLoop": "music/PrisonLoop.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 7
+  },
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 64
+}

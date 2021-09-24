@@ -1,0 +1,29 @@
+{
+  "id": "ParryShield",
+  "name": "Bouclier de contre",
+  "moneyCost": 1500,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 7
+  },
+  "gameplayDesc": "Ne peut être maintenu. Les grenades et tirs bloqués sont renvoyés avec plus de puissance.",
+  "tier1": "Survival",
+  "hasLevels": true,
+  "legendAffix": "DoubleDamageFree",
+  "legendaryName": "Arrogance",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 102
+}

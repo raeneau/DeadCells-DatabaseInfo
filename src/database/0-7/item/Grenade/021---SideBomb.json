@@ -1,0 +1,35 @@
+{
+  "id": "SideBomb",
+  "name": "Nuée",
+  "moneyCost": 1500,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "Deployable"
+    }
+  ],
+  "props": {
+    "sideKickMob": "S_HeroWorm",
+    "count": 4,
+    "duration": 10,
+    "life": 120
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 0
+  },
+  "gameplayDesc": "Crée un groupe de larves à votre service.",
+  "tier1": "Brutality",
+  "hasLevels": false,
+  "tier2": "Survival",
+  "legendAffix": "PoisonOnHit",
+  "legendaryName": "Contamination",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 21
+}

@@ -1,0 +1,70 @@
+{
+  "biome": "PrisonDepths",
+  "name": "Debug Seb",
+  "id": "DebugSeb",
+  "mobs": [
+    {
+      "mob": "Defender",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Demon",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1,
+  "group": 2,
+  "lootFlags": 32,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 51,
+  "cellBonus": 0,
+  "tripleUps": 1,
+  "doubleUps": 1,
+  "props": {
+    "zDoorColor": 16772096,
+    "timedDoor": 15
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 17
+  },
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 51
+}

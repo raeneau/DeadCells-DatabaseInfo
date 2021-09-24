@@ -1,0 +1,27 @@
+{
+  "id": "GreedShield",
+  "name": "Bouclier Greedy",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 3
+  },
+  "gameplayDesc": "Fait tomber les dents des ennemis que vous bloquez (une fois max par ennemi). Transforme aussi les flèches en or.",
+  "cellCost": 0,
+  "moneyCost": 1750,
+  "tier1": "Survival",
+  "hasLevels": true,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 91
+}

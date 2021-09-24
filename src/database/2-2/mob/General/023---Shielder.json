@@ -1,0 +1,57 @@
+{
+  "props": {
+    "range": 15,
+    "noContactAttack": true,
+    "cannotBeShield": true,
+    "movePauseMul": 99999,
+    "cannotChangeDir": true,
+    "bumpResistance": 0.5,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 546,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "DamageBuff",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "Decoy",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerWarrior",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": false,
+  "index": 23,
+  "id": "Shielder",
+  "weight": 0,
+  "icon": {
+    "x": 52,
+    "y": 71,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Protecteur",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 5,
+  "flesh1": 12218164,
+  "flesh2": 11247005,
+  "skill": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 23
+}

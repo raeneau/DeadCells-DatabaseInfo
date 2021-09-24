@@ -1,0 +1,186 @@
+{
+  "id": "Earthquaker",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 10,
+  "pfCost": 2.5,
+  "maxPerRoom": 1,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0,
+    "cannotBeShield": true,
+    "bumpResistance": 0.9,
+    "walkAnimSpeed": 1.4,
+    "prct": 0.05
+  },
+  "skill": [
+    {
+      "id": "cc1",
+      "charge": 0.8,
+      "coolDown": 0,
+      "hitFrame": 8,
+      "lockAiAfter": 0.3,
+      "radius": 5.5,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "bump": 0.1,
+        "speed": 1
+      },
+      "power": [
+        15
+      ],
+      "sfxCharge": "sfx/enm_quaker_shout.wav",
+      "chargeAnim": "atkALoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_quaker_release4.wav",
+      "sfxHit": "sfx/enm_quaker_release1.wav"
+    },
+    {
+      "id": "cc2",
+      "charge": 0.15,
+      "coolDown": 0,
+      "hitFrame": 5,
+      "lockAiAfter": 0.3,
+      "radius": 5.5,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.1
+      },
+      "chargeAnim": "atkBLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "execAnimSpd": 1.75,
+      "power": [
+        20
+      ],
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_quaker_release4.wav",
+      "sfxHit": "sfx/enm_quaker_release2.wav"
+    },
+    {
+      "id": "cc3",
+      "charge": 0.15,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 0.3,
+      "radius": 6,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.1
+      },
+      "chargeAnim": "atkALoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 1.5,
+      "power": [
+        15
+      ],
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_quaker_release4.wav",
+      "sfxHit": "sfx/enm_golem_stomp.wav"
+    },
+    {
+      "id": "cc4",
+      "charge": 2,
+      "coolDown": 0,
+      "hitFrame": 12,
+      "lockAiAfter": 0.75,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.6,
+        "speed": 0.6,
+        "distance": 14,
+        "x": 3
+      },
+      "chargeAnim": "atkCLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkC",
+      "execAnimSpd": 0.7,
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/enm_quaker_release4.wav",
+      "sfxHit": "sfx/enm_quaker_release2.wav"
+    },
+    {
+      "id": "earthquake",
+      "charge": 0.3,
+      "coolDown": 3,
+      "hitFrame": 7,
+      "lockAiAfter": 1.3,
+      "radius": 15,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "speed": 0.45,
+        "chance": 0.4,
+        "delay": 0.4
+      },
+      "chargeAnim": "atkDLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkD",
+      "execAnimSpd": 1,
+      "power": [
+        10
+      ],
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_quaker_shout2.wav",
+      "sfxHit": "sfx/enm_quaker_release3.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "minDifficulty": 0,
+      "item": "GodAxe"
+    }
+  ],
+  "metaItems": [],
+  "index": 47,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 48,
+    "y": 23
+  },
+  "name": "Garde-tombe",
+  "glowInnerColor": 8395366,
+  "glowOuterColor": 0,
+  "flesh1": 7294784,
+  "flesh2": 12303527,
+  "life": [
+    300
+  ],
+  "volteDelay": 0.4,
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 47
+}

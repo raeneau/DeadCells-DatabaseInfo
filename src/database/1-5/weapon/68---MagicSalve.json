@@ -1,0 +1,172 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.18,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "props": {},
+      "animId": "throw",
+      "fxId": "fxAtkPunchA",
+      "hitFrame": 4,
+      "power": [
+        15
+      ],
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 4646873,
+      "fxInnerColor": 3997440,
+      "fxOuterColor": 762200,
+      "animSpd": 1.4,
+      "fxStartFrame": 5,
+      "sfxRelease": "sfx/weapon_magicmiss1.wav",
+      "critMul": 0.75,
+      "sfxHit": "sfx/weapon_iceshock_hit.wav",
+      "onionSkinFrame": 7,
+      "onionSkinOffX": -7
+    },
+    {
+      "charge": 0.21,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 7,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "throw",
+      "animSpd": 1.6,
+      "fxStartFrame": 3,
+      "glowColor": 4646873,
+      "fxInnerColor": 4646823,
+      "fxOuterColor": 762200,
+      "power": [
+        15
+      ],
+      "fxId": "fxAtkPunchA",
+      "sfxRelease": "sfx/weapon_magicmiss2.wav",
+      "critMul": 0.75,
+      "sfxHit": "sfx/weapon_iceshock_hit.wav",
+      "onionSkinFrame": 5,
+      "onionSkinOffX": -7
+    },
+    {
+      "charge": 0.21,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 7,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "throw",
+      "animSpd": 1.6,
+      "fxStartFrame": 3,
+      "fxId": "fxAtkPunchA",
+      "glowColor": 4646873,
+      "fxInnerColor": 4646823,
+      "fxOuterColor": 762200,
+      "power": [
+        20
+      ],
+      "critMul": 0.75,
+      "sfxRelease": "sfx/weapon_magicmiss2.wav",
+      "sfxHit": "sfx/weapon_iceshock_hit.wav",
+      "onionSkinFrame": 5,
+      "onionSkinOffX": -7
+    },
+    {
+      "charge": 0.21,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 7,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "throw",
+      "animSpd": 1.6,
+      "fxStartFrame": 3,
+      "fxId": "fxAtkPunchA",
+      "glowColor": 14620953,
+      "fxInnerColor": 16751872,
+      "fxOuterColor": 16731676,
+      "power": [
+        35
+      ],
+      "critMul": 0.75,
+      "sfxRelease": "sfx/weapon_magicmiss2.wav",
+      "sfxHit": "sfx/weapon_iceshock_hit.wav",
+      "onionSkinFrame": 5,
+      "onionSkinOffX": -7
+    },
+    {
+      "charge": 0.21,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 4,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "atkPunchC",
+      "animSpd": 1,
+      "fxStartFrame": 3,
+      "fxId": "fxAtkPunchB",
+      "glowColor": 14620953,
+      "fxInnerColor": 16715535,
+      "fxOuterColor": 16733268,
+      "power": [
+        50
+      ],
+      "critMul": 0.75,
+      "sfxRelease": "sfx/weapon_magicmiss1.wav",
+      "sfxHit": "sfx/weapon_iceshock_hit.wav",
+      "onionSkinFrame": 7,
+      "onionSkinOffX": 10
+    }
+  ],
+  "item": "MagicSalve",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 68
+}

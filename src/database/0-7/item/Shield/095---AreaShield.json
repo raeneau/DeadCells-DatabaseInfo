@@ -1,0 +1,29 @@
+{
+  "id": "AreaShield",
+  "name": "Punition",
+  "moneyCost": 1500,
+  "cellCost": 100,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 22,
+    "y": 8
+  },
+  "gameplayDesc": "Les attaques bloquées infligent des dégâts aux ennemis proches. {Coups critiques@CC} si {parade@PA} réussie.",
+  "tier1": "Survival",
+  "legendAffix": "DoubleDamageFree",
+  "legendaryName": "Injustice",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 95
+}

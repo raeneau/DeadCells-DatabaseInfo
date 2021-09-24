@@ -1,0 +1,37 @@
+{
+  "id": "FlameThrower",
+  "name": "Lance-flammes",
+  "moneyCost": 1750,
+  "cellCost": 20,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {
+    "duration": 2,
+    "dps": 10,
+    "aoeDuration": 6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 23,
+    "y": 1
+  },
+  "ambiantDesc": "Cuisson à coeur.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 82
+}

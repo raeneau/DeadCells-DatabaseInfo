@@ -1,0 +1,24 @@
+{
+  "id": "BleedCrit",
+  "name": "Dague de cultiste sadique",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [],
+  "ambiantDesc": "Conçue pour appuyer là où ça fait mal.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE si la cible saigne, brûle ou est empoisonnée.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 1
+  },
+  "cellCost": 25,
+  "moneyCost": 1500,
+  "index": 39,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 39
+}

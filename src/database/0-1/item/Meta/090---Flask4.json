@@ -1,0 +1,27 @@
+{
+  "id": "Flask4",
+  "name": "Potion de soin IV",
+  "moneyCost": 0,
+  "cellCost": 350,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Flask3",
+    "reqUnlocks": 20,
+    "revealedAtStart": true
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 3
+  },
+  "gameplayDesc": "Votre fiole de soin peut être utilisée 4 fois.",
+  "index": 90,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 90
+}

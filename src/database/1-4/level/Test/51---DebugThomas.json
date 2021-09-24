@@ -1,0 +1,35 @@
+{
+  "id": "DebugThomas",
+  "biome": "PrisonHub",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1,
+  "flags": 0,
+  "group": 2,
+  "name": "Debug Thomas",
+  "lootFlags": 27,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 51,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {},
+  "specificSubBiome": [],
+  "baseLootLevel": 1,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 51
+}

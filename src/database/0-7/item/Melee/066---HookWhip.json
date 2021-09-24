@@ -1,0 +1,29 @@
+{
+  "id": "HookWhip",
+  "name": "Fouet d'entrave",
+  "moneyCost": 1800,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 6
+  },
+  "gameplayDesc": "Ignore les boucliers, attire les victimes et inflige un {coup critique@CC} au 3ème coup.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "legendaryName": "Echardes",
+  "legendAffix": "BleedOnHit",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 66
+}

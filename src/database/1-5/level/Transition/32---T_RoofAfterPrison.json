@@ -1,0 +1,33 @@
+{
+  "id": "T_RoofAfterPrison",
+  "biome": "PrisonRoof",
+  "worldDepth": 1,
+  "mobs": [],
+  "props": {
+    "viewerY": -1,
+    "musicLoop": "music/dc_colletor2.ogg",
+    "zDoorColor": 324756
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 1024,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "loreDescriptions": [],
+  "index": 32,
+  "group": 1,
+  "name": "Passage vers les Toits de la Prison",
+  "transitionTo": "PrisonRoof",
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 32
+}

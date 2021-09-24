@@ -1,0 +1,62 @@
+{
+  "id": "PrisonCourtyard",
+  "biome": "PrisonCourtyard2",
+  "mobs": [
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Grenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Runner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1
+    }
+  ],
+  "mobDensity": 1.1,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0,
+  "viewerY": -1,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 3,
+      "kind": 0
+    }
+  ],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Promenade des condamnés",
+  "doorColor": 16760576,
+  "musicLoop": "music/Promenade.ogg",
+  "index": 2,
+  "mobTier": 2,
+  "lootLevel": 2,
+  "chosenUps": 1,
+  "randomUps": 1,
+  "itemUps": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 2
+}

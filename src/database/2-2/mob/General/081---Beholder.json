@@ -1,0 +1,194 @@
+{
+  "props": {
+    "combatMusic": "music/default/Watcher.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 2,
+    "climbEndDist": 4,
+    "cellLoot": 20,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "genTags": 532,
+  "glowOuterColor": 13243412,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "TentacleWhip",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "BeholderDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "EvilSword",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Food",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Rally",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "ForgeRefine1",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Beholder1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Beholder2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Beholder3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Beholder4",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 81,
+  "id": "Beholder",
+  "weight": 50,
+  "icon": {
+    "x": 61,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    4000
+  ],
+  "name": "Conjonctivius",
+  "minPfHeight": 0,
+  "glowInnerColor": 16754944,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": [
+        15
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 0.4
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_beholder_charge2.wav",
+      "charge": 0.5,
+      "manual": true,
+      "id": "dash",
+      "sfxRelease": "sfx/enm_beholder_charge1.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_beholder_hit.wav",
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 5,
+      "power": [
+        5
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 0.5,
+        "triggerDelay": 0.35
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_beholder_charge1.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "spikesShoot",
+      "sfxRelease": "sfx/enm_beholder_shot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 6,
+      "power": [
+        8
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_shoker_charge.wav",
+      "charge": 0.75,
+      "manual": false,
+      "id": "shock",
+      "sfxRelease": "sfx/enm_shoker_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 40,
+      "power": [
+        5
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "triggerDelay": 0.25
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_beholder_charge2.wav",
+      "charge": 1,
+      "manual": true,
+      "id": "megaSpikesShoot",
+      "sfxRelease": "sfx/enm_beholder_shot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 81
+}

@@ -1,0 +1,39 @@
+{
+  "id": "BulletBlade",
+  "name": "Lame à fragmentation",
+  "moneyCost": 2000,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 130,
+    "ammo": 27
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 13
+  },
+  "gameplayDesc": "Projète des fragments métalliques infligeant environ ::+dps:: dégâts/sec.",
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 65
+}

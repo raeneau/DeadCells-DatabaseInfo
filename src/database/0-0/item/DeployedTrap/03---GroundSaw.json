@@ -1,0 +1,30 @@
+{
+  "id": "GroundSaw",
+  "group": 0,
+  "name": "Hachoir",
+  "props": {
+    "size": 5,
+    "dps": [
+      60
+    ],
+    "effectCD": 0.3
+  },
+  "castCD": 5,
+  "droppable": true,
+  "hasTier": false,
+  "tags": [],
+  "gameplayDesc": "Inflige ::+dps:: dégâts/sec aux ennemis qui posent le pied dessus.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1500,
+  "index": 3,
+  "hasLevels": true,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 3
+}

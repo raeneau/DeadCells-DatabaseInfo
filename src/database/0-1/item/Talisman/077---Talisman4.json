@@ -1,0 +1,24 @@
+{
+  "id": "Talisman4",
+  "name": "Talisman aurifère",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 5
+  },
+  "ambiantDesc": "Un bel objet habilement dissimulé sous vos vêtements, pour que les graphistes aient moins de boulot.",
+  "gameplayDesc": "Les pendentifs n'occupent pas d'emplacement d'équipement, mais vous ne pouvez en avoir qu'un à la fois.",
+  "cellCost": 0,
+  "moneyCost": 2000,
+  "index": 77,
+  "hasLevels": false,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 77
+}

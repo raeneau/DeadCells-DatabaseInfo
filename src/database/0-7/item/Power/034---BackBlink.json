@@ -1,0 +1,36 @@
+{
+  "id": "BackBlink",
+  "name": "Déphasage",
+  "moneyCost": 2000,
+  "cellCost": 35,
+  "droppable": true,
+  "castCD": 3.6,
+  "tags": [
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "props": {
+    "distance": 11,
+    "prct": 1.5,
+    "power": [
+      70
+    ]
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 6
+  },
+  "gameplayDesc": "Vous téléporte dans le dos de l'ennemi. La prochaine attaque inflige +::+power:: dégâts.",
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "tier2": "Brutality",
+  "legendaryName": "Vipère",
+  "legendAffix": "PoisonOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 34
+}

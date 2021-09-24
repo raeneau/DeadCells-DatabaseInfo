@@ -1,0 +1,39 @@
+{
+  "id": "ExtraHealEmpty",
+  "name": "Tonique (vide)",
+  "moneyCost": 1000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoUse"
+    },
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "Depleted"
+    }
+  ],
+  "props": {
+    "item": "ExtraHeal"
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 8
+  },
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "gameplayDesc": "Se régénère lorsque vous quittez le niveau.",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 31
+}

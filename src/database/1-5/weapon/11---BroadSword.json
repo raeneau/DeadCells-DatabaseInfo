@@ -1,0 +1,98 @@
+{
+  "item": "BroadSword",
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "animId": "atkBroadSwordA",
+      "power": [
+        80
+      ],
+      "fxId": "fxAtkBroadSwordA",
+      "dynamicCharge": 0,
+      "breachBonus": 1,
+      "props": {},
+      "hitFrame": 8,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 4.1,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "glowColor": 7762137,
+      "fxInnerColor": 28159,
+      "fxOuterColor": 28159,
+      "sfxRelease": "sfx/weapon_broadsword_release1.wav",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge1.wav"
+    },
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "animId": "atkBroadSwordB",
+      "power": [
+        90
+      ],
+      "fxId": "fxAtkBroadSwordB",
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {},
+      "hitFrame": 12,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 4.5,
+        "height": 0,
+        "offsetCaseX": -1,
+        "offsetCaseY": -1
+      },
+      "glowColor": 16751872,
+      "fxInnerColor": 16775604,
+      "fxOuterColor": 16757760,
+      "sfxRelease": "sfx/weapon_broadsword_release2.wav",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge2.wav",
+      "critMul": 0.75
+    },
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.4,
+      "animId": "atkBroadSwordC",
+      "power": [
+        200
+      ],
+      "fxId": "fxAtkBroadSwordC",
+      "dynamicCharge": 0,
+      "breachBonus": -0.5,
+      "props": {},
+      "hitFrame": 16,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 6.5,
+        "height": 0,
+        "offsetCaseX": -2,
+        "offsetCaseY": -0.2
+      },
+      "glowColor": 16751872,
+      "fxInnerColor": 16775604,
+      "fxOuterColor": 16757760,
+      "sfxRelease": "sfx/weapon_broadsword_release3.wav",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge3.wav",
+      "critMul": 1
+    }
+  ],
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 11
+}

@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerHyperlight",
+  "name": "Tenue Drifter",
+  "moneyCost": 0,
+  "cellCost": 300,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 16
+  },
+  "gameplayDesc": "Un vêtement pour ceux qui ont du cœur.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 303
+}

@@ -1,0 +1,110 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.6,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 18,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 1,
+        "offsetCaseX": 0.2,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2
+      },
+      "animId": "halberdAtkA",
+      "power": [
+        70
+      ],
+      "glowColor": 9017264,
+      "fxInnerColor": 16056137,
+      "fxOuterColor": 14238464,
+      "sfxRelease": "sfx/weapon_doublelance_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.75,
+      "sfxCharge": "sfx/weapon_spear_charge1.wav",
+      "fxId": "halberdFxAtkA",
+      "fxStartFrame": 17,
+      "onionSkinFrame": 18,
+      "onionSkinOffX": 40
+    },
+    {
+      "charge": 0.17,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 5,
+      "area": {
+        "shape": 1,
+        "width": 11.5,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": -5.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "halberdAtkB",
+      "power": [
+        90
+      ],
+      "glowColor": 9017264,
+      "fxInnerColor": 16056137,
+      "fxOuterColor": 14238464,
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.75,
+      "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
+      "sfxRelease": "sfx/weapon_doublelance_release2.wav",
+      "fxStartFrame": 0,
+      "fxId": "halberdFxAtkB"
+    },
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.35,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 6.5,
+        "height": 1,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.5
+      },
+      "animId": "halberdAtkC",
+      "glowColor": 9017264,
+      "fxInnerColor": 16056137,
+      "fxOuterColor": 14238464,
+      "power": [
+        145
+      ],
+      "critMul": 0.75,
+      "sfxCharge": "sfx/weapon_broadsword_charge3.wav",
+      "sfxRelease": "sfx/weapon_doublelance_release3.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "onionSkinFrame": 9,
+      "fxId": "halberdFxAtkC",
+      "fxStartFrame": 9,
+      "onionSkinOffX": 80
+    }
+  ],
+  "item": "KingsSpear",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 25
+}

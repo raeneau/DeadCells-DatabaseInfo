@@ -1,0 +1,29 @@
+{
+  "id": "P_Caltrops",
+  "name": "Chausse-trape",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": [
+      50
+    ],
+    "count": 9,
+    "ammo": 3,
+    "duration": 1.5
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 14
+  },
+  "gameplayDesc": "Effectuer une roulade laisse derrière vous ::ammo:: chausses-trape (avec un maximum de ::count::) infligeant ::+power:: dégâts et ralentissant les ennemis pour ::duration:: sec.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 268
+}

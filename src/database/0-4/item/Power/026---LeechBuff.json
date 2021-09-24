@@ -1,0 +1,38 @@
+{
+  "id": "LeechBuff",
+  "name": "Vampirisme",
+  "moneyCost": 1500,
+  "cellCost": 45,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "TransformOnUse"
+    }
+  ],
+  "props": {
+    "duration": 10,
+    "power": 3,
+    "item": "LeechBuffEmpty"
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 8
+  },
+  "gameplayDesc": "Vous récupérez ::+power:: PV par coup que vous portez pendant ::duration:: sec.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 26
+}

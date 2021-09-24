@@ -1,0 +1,86 @@
+{
+  "id": "StompSkeleton",
+  "score": 3,
+  "canBeElite": false,
+  "minPfSize": 10,
+  "pfCost": 2,
+  "maxPerRoom": 1,
+  "maxPerPlatform": 1,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "skill": [
+    {
+      "id": "jump",
+      "charge": 0.18,
+      "coolDown": 0.9,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 0,
+      "disableAnnounceFx": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 4,
+        "speed": 0.7
+      },
+      "sfxRelease": "sfx/jump1b.wav"
+    },
+    {
+      "id": "stompHell",
+      "charge": 1,
+      "coolDown": 5,
+      "hitFrame": 0,
+      "lockAiAfter": 1.5,
+      "radius": 10,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 1,
+        "shockwavePower": [
+          8
+        ],
+        "move": 6,
+        "height": 4
+      },
+      "power": [
+        17
+      ],
+      "sfxCharge": "sfx/enm_stompskell_charge.wav",
+      "sfxHit": "sfx/enm_stompskell_hit.wav",
+      "sfxRelease": "sfx/enm_stompskell_jump.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 52,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 10
+  },
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "life": [
+    200
+  ],
+  "weight": 10,
+  "volteDelay": 0.3,
+  "name": "Pantin",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 52
+}

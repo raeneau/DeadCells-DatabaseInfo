@@ -1,0 +1,74 @@
+{
+  "name": "Profondeurs de la Prison",
+  "biome": "PrisonDepths",
+  "id": "PrisonDepths",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "singleRoom": false,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 4,
+      "props": {}
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3,
+      "props": {}
+    },
+    {
+      "mob": "Hammer",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "SpikedSatyr",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1.2,
+  "group": 0,
+  "lootFlags": 0,
+  "goldBonus": 0.1,
+  "musicLoop": "music/PrisonDepth.ogg",
+  "specificLoots": [],
+  "viewerY": -0.75,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "doorColor": 11092735,
+  "index": 2,
+  "lootLevel": 3,
+  "viewerOffX": -1,
+  "cellBonus": 0,
+  "viewerColor": 6310313,
+  "chromaColor": 10551551,
+  "tripleUps": 1,
+  "doubleUps": 1,
+  "extraMobTier": 2,
+  "baseMobTier": 5,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 2
+}

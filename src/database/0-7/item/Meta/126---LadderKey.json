@@ -1,0 +1,26 @@
+{
+  "id": "LadderKey",
+  "name": "Rune des vignes",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "props": {},
+  "group": 9,
+  "gameplayDesc": "Cette rune {permanente@PE} permet de faire pousser des vignes grimpantes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 3
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 126
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Runner",
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 4.5
+  },
+  "group": 0,
+  "weight": 10,
+  "index": 15,
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.45,
+      "coolDown": 0.7,
+      "radius": 1.5,
+      "props": {},
+      "lockAiAfter": 0.5,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": -0.5,
+      "allowInAir": false,
+      "power": [
+        15
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 5,
+      "manual": false,
+      "sfxCharge": "sfx/enm_grd_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "teleport",
+      "charge": 0.3,
+      "coolDown": 0.2,
+      "lockAiAfter": 0,
+      "radius": 9,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "disableAnnounce": true,
+      "hitFrame": 0,
+      "manual": true,
+      "sfxRelease": "sfx/enm_tp.wav",
+      "sfxCharge": "sfx/enm_tp_charge.wav"
+    }
+  ],
+  "life": [
+    160
+  ],
+  "shards": 0,
+  "genTags": 0,
+  "minPfSize": 6,
+  "name": "Coureur",
+  "score": 5,
+  "maxPerRoom": 3,
+  "canBeElite": true,
+  "glowInnerColor": 16775599,
+  "glowOuterColor": 14393464,
+  "volteDelay": 0.2,
+  "flesh1": 15253658,
+  "flesh2": 16771288,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 11
+  },
+  "blueprints": [
+    {
+      "item": "GroundSaw",
+      "rarity": "Uncommon"
+    },
+    {
+      "rarity": "Always",
+      "item": "BumpBoots"
+    },
+    {
+      "item": "BackBlink",
+      "rarity": "Rare"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 15
+}

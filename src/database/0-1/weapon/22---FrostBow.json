@@ -1,0 +1,40 @@
+{
+  "item": "FrostBow",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0.4,
+      "lockCtrlAfter": 0.1,
+      "power": [
+        10
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": -1,
+      "props": {
+        "duration": 2.5,
+        "range": 2
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 51199,
+      "fxInnerColor": 51199,
+      "fxOuterColor": 51199,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot_ice.wav"
+    }
+  ],
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 22
+}

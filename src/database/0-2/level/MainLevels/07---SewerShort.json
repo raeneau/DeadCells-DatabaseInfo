@@ -1,0 +1,60 @@
+{
+  "id": "SewerShort",
+  "biome": "Sewer",
+  "mobs": [
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "mobDensity": 1.05,
+  "flags": 8,
+  "group": 0,
+  "name": "Egouts toxiques",
+  "lootFlags": 0,
+  "musicLoop": "music/Sewers.ogg",
+  "goldBonus": 0,
+  "specificLoots": [],
+  "viewerY": 0.5,
+  "eliteWanderChance": 0.7,
+  "eliteRoomChance": 0.05,
+  "doorColor": 9423400,
+  "index": 7,
+  "mobTier": 3,
+  "lootLevel": 3,
+  "chosenUps": 1,
+  "randomUps": 1,
+  "itemUps": 1,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 6276947,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 7
+}

@@ -1,0 +1,27 @@
+{
+  "id": "TentacleWhip",
+  "name": "Bras tentacule",
+  "moneyCost": 1800,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "bump": 1,
+    "speed": 1
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 26,
+    "y": 2
+  },
+  "tier1": "Brutality",
+  "gameplayDesc": "Ignore les boucliers et vous projette vers l'ennemi. Inflige un {coup critique@CC} après avoir été projeté.",
+  "ambiantDesc": "Câlins gratuits !",
+  "tier2": "Tactic",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 84
+}

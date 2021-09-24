@@ -1,0 +1,69 @@
+{
+  "item": "Burner",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 7,
+      "area": {
+        "shape": 0,
+        "width": 3,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.8,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "atkTorchA",
+      "fxId": "fxTorchAtkA",
+      "glowColor": 16717312,
+      "fxInnerColor": 16773775,
+      "fxOuterColor": 16731904,
+      "power": [
+        40
+      ],
+      "animSpd": 1.66,
+      "sfxRelease": "sfx/weapon_dualdg_charge1.wav",
+      "sfxHit": "sfx/hit_fire.wav",
+      "fxFrame": 0
+    },
+    {
+      "charge": 0.39,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "hitFrame": 19,
+      "area": {
+        "shape": 1,
+        "width": 3.6,
+        "height": 3.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "atkTorchB",
+      "fxId": "fxTorchAtkB",
+      "glowColor": 16717312,
+      "fxInnerColor": 16773775,
+      "fxOuterColor": 16731904,
+      "power": [
+        60
+      ],
+      "animSpd": 1.66,
+      "sfxRelease": "sfx/weapon_dualdg_release2.wav",
+      "sfxHit": "sfx/hit_fire.wav",
+      "fxFrame": 0
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 4
+}

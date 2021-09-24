@@ -1,0 +1,41 @@
+{
+  "id": "SonicCrossbow",
+  "name": "Arbalète sonique",
+  "moneyCost": 2500,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 20
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 13
+  },
+  "gameplayDesc": "Traverse ses victimes et tire en rafale quand elle est maintenue. Inflige des {coups critiques@CC} aux ennemis derrière la première cible. ",
+  "tier1": "Tactic",
+  "legendAffix": "FireBullet",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 90
+}

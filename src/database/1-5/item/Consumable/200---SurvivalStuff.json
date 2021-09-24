@@ -1,0 +1,24 @@
+{
+  "id": "SurvivalStuff",
+  "name": "Survie",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 2
+  },
+  "gameplayDesc": "Your classical warrior, equipped with heavy weaponry and a shield.",
+  "tier1": "Survival",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 200
+}

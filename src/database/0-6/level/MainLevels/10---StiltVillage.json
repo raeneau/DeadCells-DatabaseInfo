@@ -1,0 +1,121 @@
+{
+  "id": "StiltVillage",
+  "biome": "StiltVillage",
+  "mobs": [
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ],
+      "minDifficulty": 0
+    },
+    {
+      "mob": "PirateChief",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 5,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "S_WallEggWorm",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 6,
+      "props": {
+        "inEgg": true
+      },
+      "packSize": [
+        1,
+        2
+      ],
+      "minDifficulty": 0
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "maxCombatRoomsBefore": 4,
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "Fogger",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "Runner",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 1
+    }
+  ],
+  "mobDensity": 1,
+  "viewerY": -1,
+  "flags": 261,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Gué des Brumes",
+  "musicLoop": "music/Village.ogg",
+  "eliteWanderChance": 0.75,
+  "eliteRoomChance": 0,
+  "doorColor": 3261834,
+  "index": 10,
+  "zDoorColor": 16772451,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 3261821,
+  "chromaColor": 65366,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "extraMobTier": 2,
+  "baseMobTier": 11,
+  "props": {
+    "timedDoor": 19,
+    "timedScrolls": 1
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 10
+}

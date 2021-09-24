@@ -1,0 +1,107 @@
+{
+  "id": "Golem",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 13,
+  "pfCost": 2,
+  "maxPerRoom": 1,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0,
+    "cannotBeShield": true
+  },
+  "skill": [
+    {
+      "id": "megaPunch",
+      "charge": 0.4,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.75,
+      "radius": 1.2,
+      "breachResistance": 0.8,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 0.5,
+        "distance": 11
+      },
+      "power": [
+        25
+      ],
+      "sfxCharge": "sfx/enm_golem_shout.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "stunGround",
+      "charge": 0.5,
+      "coolDown": 2,
+      "hitFrame": 5,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 0.8,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 2,
+        "range": 12
+      },
+      "power": [
+        5
+      ],
+      "sfxRelease": "sfx/stomp_floorbreak.wav",
+      "sfxCharge": "sfx/enm_golem_shout.wav"
+    },
+    {
+      "id": "teleport",
+      "charge": 1,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 15,
+      "breachResistance": 1,
+      "disableAnnounce": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "sfxCharge": "sfx/enm_tp_charge.wav",
+      "sfxRelease": "sfx/enm_tp.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "Wings"
+    }
+  ],
+  "index": 61,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 45,
+    "y": 4
+  },
+  "name": "Golem",
+  "glowInnerColor": 16764555,
+  "glowOuterColor": 1800932,
+  "flesh1": 7294784,
+  "flesh2": 12303527,
+  "life": [
+    400
+  ],
+  "volteDelay": 0.3,
+  "weight": 10,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 61
+}

@@ -1,0 +1,162 @@
+{
+  "id": "Beholder",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "bumpResistance": 1,
+    "climbEndDist": 4,
+    "movePauseMul": 0,
+    "moveSpeedMul": 2,
+    "insensitiveSpike": true,
+    "cannotBeBackstabbed": true,
+    "cellLoot": 20,
+    "combatMusic": "music/Watcher.ogg",
+    "dmgSoftCap": [
+      0,
+      0.05
+    ]
+  },
+  "skill": [
+    {
+      "id": "dash",
+      "charge": 0.5,
+      "coolDown": 1,
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 0.4
+      },
+      "radius": 0,
+      "power": [
+        15
+      ],
+      "lockAiAfter": 0.2,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": true,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": true,
+      "sfxCharge": "sfx/enm_beholder_charge2.wav",
+      "sfxRelease": "sfx/enm_beholder_charge1.wav",
+      "sfxHit": "sfx/enm_beholder_hit.wav"
+    },
+    {
+      "id": "spikesShoot",
+      "charge": 0.5,
+      "coolDown": 5,
+      "hitFrame": 0,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 0.5
+      },
+      "power": [
+        5
+      ],
+      "sfxCharge": "sfx/enm_beholder_charge1.wav",
+      "sfxRelease": "sfx/enm_beholder_shot.wav"
+    },
+    {
+      "id": "shock",
+      "charge": 0.75,
+      "coolDown": 6,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 3,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.5,
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/enm_shoker_charge.wav",
+      "sfxRelease": "sfx/enm_shoker_release.wav"
+    },
+    {
+      "id": "megaSpikesShoot",
+      "charge": 1,
+      "coolDown": 20,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true,
+        "triggerDelay": 0.25
+      },
+      "power": [
+        5
+      ],
+      "sfxCharge": "sfx/enm_beholder_charge2.wav",
+      "sfxRelease": "sfx/enm_beholder_shot.wav"
+    }
+  ],
+  "genTags": 20,
+  "index": 39,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 61,
+    "y": 3
+  },
+  "name": "La Créature des Égouts",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "life": [
+    4096
+  ],
+  "weight": 50,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "ExtraHeal"
+    },
+    {
+      "item": "EvilSword",
+      "rarity": "Always"
+    },
+    {
+      "rarity": "Always",
+      "item": "P_DmgParry"
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Food"
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Rally"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 39
+}

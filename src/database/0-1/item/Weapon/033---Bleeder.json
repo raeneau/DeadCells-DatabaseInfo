@@ -1,0 +1,33 @@
+{
+  "id": "Bleeder",
+  "name": "Bain de sang",
+  "castCD": 0,
+  "props": {
+    "dps": 18,
+    "duration": 1.5
+  },
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Bleed"
+    }
+  ],
+  "gameplayDesc": "Provoque des Saignements (::+dps:: dégâts/sec).",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 1
+  },
+  "cellCost": 5,
+  "moneyCost": 1500,
+  "index": 33,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 33
+}

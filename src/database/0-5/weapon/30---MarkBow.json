@@ -1,0 +1,40 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0.25,
+      "lockCtrlAfter": 0.1,
+      "power": [
+        10
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.7,
+      "props": {
+        "speed": 1.05
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16740352,
+      "fxInnerColor": 16774912,
+      "fxOuterColor": 16774912,
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "animSpd": 3
+    }
+  ],
+  "item": "MarkBow",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 30
+}

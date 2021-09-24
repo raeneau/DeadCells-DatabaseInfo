@@ -1,0 +1,54 @@
+{
+  "id": "BeholderPit",
+  "biome": "BeholderPit",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 8192,
+  "lootFlags": 19,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 9,
+  "group": 0,
+  "name": "Crypte nauséabonde",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 2,
+    "viewerColor": 7180,
+    "doorColor": 12461767,
+    "chromaColor": 12914640,
+    "musicLoop": "music/ambiant2.ogg",
+    "loadingColor": 857123,
+    "loadingDescColor": 6669487,
+    "zDoorColor": 2342320
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 3,
+  "loreDescriptions": [
+    {
+      "text": "Les gardiens ont stocké beaucoup de choses dans cette ancienne crypte. Des armes, des vivres...et des chaînes, juste au cas où. "
+    },
+    {
+      "text": "Certains gardes racontent qu'ils sont obligés de lui balancer des corps pour la nourir. Ou peut-être qu'elle joue simplement avec ?"
+    },
+    {
+      "text": "On entend des cris étranges quand on s'approche de la réserve. Sûrement pas des cris humains, non."
+    },
+    {
+      "text": "Le Roi avait décidé de convertir cette ancienne crypte en réserve. C'est vrai qu'à l'époque, il y avait encore assez de place dans le cimetière."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 13
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 9
+}

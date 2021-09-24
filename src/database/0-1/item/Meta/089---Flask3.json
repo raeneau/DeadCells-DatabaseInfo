@@ -1,0 +1,27 @@
+{
+  "id": "Flask3",
+  "name": "Potion de soin III",
+  "moneyCost": 0,
+  "cellCost": 200,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Flask2",
+    "reqUnlocks": 8,
+    "revealedAtStart": true
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 4
+  },
+  "gameplayDesc": "Votre fiole de soin peut être utilisée 3 fois.",
+  "index": 89,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 89
+}

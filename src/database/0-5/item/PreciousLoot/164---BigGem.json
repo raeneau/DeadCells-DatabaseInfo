@@ -1,0 +1,27 @@
+{
+  "id": "BigGem",
+  "name": "Saphir bleu",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 1000,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 6
+  },
+  "group": 11,
+  "gameplayDesc": "Une magnifique pierre d'une valeur de ::$power:: OR !",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 164
+}

@@ -1,0 +1,146 @@
+{
+  "id": "Cemetery",
+  "biome": "Cemetery",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Comboter",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 6,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Cimetière du Val",
+  "index": 13,
+  "cellBonus": 0.2,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "props": {
+    "viewerY": 3,
+    "viewerColor": 9520018,
+    "doorColor": 12397452,
+    "zDoorColor": 2602949,
+    "chromaColor": 16711815,
+    "musicLoop": "music/Cemetery.ogg",
+    "loadingColor": 2690090,
+    "loadingDescColor": 12871055
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 4,
+  "loreDescriptions": [
+    {
+      "text": "Ca fait des générations qu'on enterre les morts dans le Val, mais depuis quelques temps, on y manque un peu de place."
+    },
+    {
+      "text": "Les villageois venaient souvent se receuillir ici pour rendre hommage à leurs proches. La population locale à bien changé."
+    },
+    {
+      "text": "Toutes les tombes du cimetière sont celles de villageois inconnus, bien trop ordinaires pour avoir leur place dans le sépulcre."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 66,
+    "y": 30
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 13
+}

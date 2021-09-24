@@ -1,0 +1,34 @@
+{
+  "id": "Pokebomb",
+  "name": "Grenade de complétion",
+  "moneyCost": 7500,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "SingleUse"
+    }
+  ],
+  "props": {
+    "range": 5.5,
+    "prct": 0.4
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 8
+  },
+  "gameplayDesc": "Lancez cette bombe sur un monstre pour l'énerver un peu. Combattez-le puis, lorsqu'il lui reste ::prct::% de vie ou moins, utilisez l'objet Extraction pour obtenir un Schéma de ce monstre.",
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "ambiantDesc": "Attrapez-les tous !",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 21
+}

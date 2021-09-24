@@ -1,0 +1,139 @@
+{
+  "id": "StiltVillage",
+  "biome": "StiltVillage",
+  "mobs": [
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ],
+      "minDifficulty": 0
+    },
+    {
+      "mob": "PirateChief",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "S_WallEggWorm",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 6,
+      "props": {
+        "inEgg": true
+      },
+      "packSize": [
+        1,
+        2
+      ],
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "Rampager",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "maxCombatRoomsBefore": 4,
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 1
+    }
+  ],
+  "mobDensity": 1,
+  "flags": 261,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Gué des Brumes",
+  "eliteWanderChance": 0.75,
+  "eliteRoomChance": 0,
+  "index": 11,
+  "cellBonus": 0,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "props": {
+    "viewerY": -1,
+    "viewerColor": 3261821,
+    "doorColor": 3062659,
+    "zDoorColor": 13286476,
+    "chromaColor": 65366,
+    "musicLoop": "music/Village.ogg",
+    "loadingColor": 6673,
+    "loadingDescColor": 6669474
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 4,
+  "loreDescriptions": [
+    {
+      "text": "Le village était aux premières loges quand le Mal-être s'est propagé. Au début ils enterrèrent leurs morts. Puis rapidement, ils durent se battre contre eux."
+    },
+    {
+      "text": "La pêche était la principale activité de ce petit hameau jusqu'à ce que l'eau commence à se troubler."
+    },
+    {
+      "text": "Avant, il fallait plusieurs jours aux poissons avant qu'ils ne dégagent une odeur putride."
+    },
+    {
+      "text": "C'était un chouette village avant. Avant que tout ce qui s'y trouve ne cherche à vous dévorer, en fait."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 26
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 11
+}

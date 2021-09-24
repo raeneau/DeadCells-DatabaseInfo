@@ -1,0 +1,44 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.3,
+      "coolDown": 0.1,
+      "lockCtrlAfter": 0.06,
+      "power": [
+        30
+      ],
+      "dynamicCharge": 3,
+      "breachBonus": 0.5,
+      "props": {
+        "scale": 0.5,
+        "fullCharge": 1,
+        "range": 0.09
+      },
+      "hitFrame": 0,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16774912,
+      "fxInnerColor": 54015,
+      "fxOuterColor": 16754944,
+      "sfxRelease": "sfx/bow_shot_ice.wav",
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "critMul": 1.4,
+      "animSpd": 5,
+      "sfxHit": "sfx/weapon_firecrossbow_shot.wav"
+    }
+  ],
+  "item": "PreciseBow",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 34
+}

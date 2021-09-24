@@ -1,0 +1,27 @@
+{
+  "id": "P_Curse",
+  "name": "Aliénation",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.05,
+    "effectCharge": 2,
+    "prct2": 0.5,
+    "count": 2,
+    "uses": 5
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 11
+  },
+  "gameplayDesc": "Réduire une malédiction restaure ::prct::% PV, mais augmente de ::prct2::% le nombre d'ennemis à éliminer pour la lever.\nRéduire une malédiction ::uses:: fois enlève ::count:: points de Mal-être.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 285
+}

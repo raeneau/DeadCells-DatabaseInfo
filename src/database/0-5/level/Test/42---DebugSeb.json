@@ -1,0 +1,58 @@
+{
+  "biome": "SewerOld",
+  "name": "Debug Seb",
+  "id": "DebugSeb",
+  "mobs": [
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ],
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1,
+  "group": 2,
+  "lootFlags": 32,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "viewerY": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 42,
+  "lootLevel": 1,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 0,
+  "chromaColor": 0,
+  "tripleUps": 1,
+  "doubleUps": 1,
+  "baseMobTier": 1,
+  "props": {},
+  "zDoorColor": 16772096,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 42
+}

@@ -1,0 +1,31 @@
+{
+  "id": "T_Cavern",
+  "biome": "Cemetery",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 37,
+  "group": 1,
+  "transitionTo": "IllegalLevel",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 0,
+  "props": {
+    "viewerY": 3,
+    "musicLoop": "music/dc_colletor2.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 4,
+  "loreDescriptions": [],
+  "name": "Passage vers la Caverne",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 37
+}

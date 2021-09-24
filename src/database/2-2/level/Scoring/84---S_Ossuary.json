@@ -1,0 +1,142 @@
+{
+  "eliteRoomChance": 0.8,
+  "props": {
+    "doorColor": 10951708,
+    "viewerColor": 10691344,
+    "musicLoop": "music/default/Ossuary.ogg",
+    "viewerY": 2.5,
+    "chromaColor": 16711680
+  },
+  "lootFlags": 24,
+  "biome": "Ossuary",
+  "doubleUps": 0,
+  "group": 4,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0.2,
+  "index": 84,
+  "id": "S_Ossuary",
+  "flags": 0,
+  "worldDepth": 0,
+  "icon": {
+    "x": 10,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 0,
+      "spawnWith": [],
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 0,
+      "spawnWith": [],
+      "mob": "Shocker",
+      "minDifficulty": 0,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 0,
+      "spawnWith": [],
+      "mob": "Zombie",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Spawner",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Shocker",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Shield",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "SpikedSatyr",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Zombie",
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1
+    }
+  ],
+  "name": "Charnier",
+  "mobDensity": 1.2,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "maxDistToSpawn": 2,
+      "kind": 4
+    },
+    {
+      "minDistToSpawn": 3,
+      "maxDistToSpawn": 6,
+      "kind": 4
+    },
+    {
+      "minDistToSpawn": 1,
+      "maxDistToSpawn": 3,
+      "kind": 1
+    }
+  ],
+  "specificSubBiome": [],
+  "minGold": 0,
+  "tripleUps": 4,
+  "baseLootLevel": 2,
+  "loreDescriptions": [],
+  "parallax": [],
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 84
+}

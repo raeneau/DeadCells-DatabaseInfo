@@ -1,0 +1,88 @@
+{
+  "id": "CastleKnight",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 10,
+  "pfCost": 2,
+  "maxPerRoom": 1,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 0.75,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.75,
+      "coolDown": 0.8,
+      "power": [
+        25
+      ],
+      "radius": 3,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0.95,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 9,
+      "manual": false,
+      "sfxCharge": "sfx/enm_knight_charge1.wav",
+      "sfxRelease": "sfx/enm_knight_release1.wav"
+    },
+    {
+      "id": "spin",
+      "charge": 0.75,
+      "coolDown": 6,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 5,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 3,
+        "range": 20,
+        "tick": 0.1,
+        "height": 8
+      },
+      "power": [
+        2
+      ],
+      "sfxCharge": "sfx/enm_knight_charge2.wav",
+      "sfxRelease": "sfx/enm_knight_release2.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "Tornado"
+    }
+  ],
+  "index": 36,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 4
+  },
+  "name": "Chevalier Gardien",
+  "glowInnerColor": 11197250,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    300
+  ],
+  "volteDelay": 0.35,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 36
+}

@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Cette rune (permanente@PE) vous permet de stocker une arme/bouclier dans votre sac à dos.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "BackPackKey",
+  "icon": {
+    "x": 21,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Rune du Voyageur",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 197
+}

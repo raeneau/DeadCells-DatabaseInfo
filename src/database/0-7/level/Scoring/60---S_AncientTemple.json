@@ -1,0 +1,93 @@
+{
+  "id": "S_AncientTemple",
+  "biome": "AncientTemple",
+  "worldDepth": 0,
+  "mobs": [
+    {
+      "mob": "OrbLauncher",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Fogger",
+      "quantityFactor": 0.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "baseMobTier": 2,
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 16639,
+    "doorColor": 16743424,
+    "zDoorColor": 16743424,
+    "chromaColor": 16731904,
+    "musicLoop": "music/templecutpart1.ogg",
+    "loadingColor": 200988,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "cellBonus": 0,
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "mobDensity": 0.9,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "flags": 0,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "loreDescriptions": [],
+  "index": 60,
+  "group": 4,
+  "name": "Sanctuaire endormi",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 60
+}

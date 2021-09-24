@@ -1,0 +1,52 @@
+{
+  "id": "Test",
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "group": 2,
+  "weight": 10,
+  "index": 45,
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 1,
+      "coolDown": 0.5,
+      "power": 25,
+      "props": {},
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false
+    }
+  ],
+  "life": [
+    300
+  ],
+  "shards": 0,
+  "genTags": 0,
+  "minPfSize": 0,
+  "name": "Monstre de test (admin)",
+  "score": 1,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "flesh1": 14031386,
+  "flesh2": 14926711,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 37,
+    "y": 17
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 45
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ThrowingIce",
+  "name": "Éclat de glace",
+  "moneyCost": 1750,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    }
+  ],
+  "props": {
+    "duration": 1.5,
+    "distance": 2
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 7
+  },
+  "tier1": "Brutality",
+  "gameplayDesc": "Ralenti les victimes. Inflige des dégâts critiques sur les cibles dans l'eau ou couvertes d'huile.",
+  "hasLevels": true,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 79
+}

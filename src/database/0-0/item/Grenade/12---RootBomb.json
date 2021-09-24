@@ -1,0 +1,33 @@
+{
+  "id": "RootBomb",
+  "name": "Bombe de lière",
+  "droppable": true,
+  "hasTier": false,
+  "castCD": 5,
+  "props": {
+    "duration": 4,
+    "range": 7,
+    "tick": 0.3,
+    "dps": 30
+  },
+  "group": 1,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "gameplayDesc": "Immobilise toutes les cibles proches pendant ::duration:: secondes. Elles subissent ::+dps:: dégâts / sec tant qu'elles sont emprisonnées.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1250,
+  "index": 12,
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 12
+}

@@ -1,0 +1,37 @@
+{
+  "props": {
+    "distance": 2,
+    "duration": 5
+  },
+  "gameplayDesc": "{Ralenti@IC} les ennemis pendant ::duration:: sec. Inflige des {coups critiques@CC} sur les cibles dans l'eau ou couvertes {d'huile@FI}.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "ThrowingIce",
+  "icon": {
+    "x": 19,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Éclats de glace",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 60,
+  "legendAffix": "SlowDamage",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 130
+}

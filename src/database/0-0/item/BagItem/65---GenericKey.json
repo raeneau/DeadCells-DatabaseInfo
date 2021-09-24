@@ -1,0 +1,26 @@
+{
+  "id": "GenericKey",
+  "name": "Clé",
+  "castCD": 0,
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 6,
+  "droppable": false,
+  "hasTier": false,
+  "tags": [],
+  "gameplayDesc": "Ouvre les portes verrouillées (original, non ?)",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 0
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 65,
+  "hasLevels": false,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 65
+}

@@ -1,0 +1,110 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "movePauseMul": 0,
+    "moveSpeedMul": 2
+  },
+  "genTags": 672,
+  "glowOuterColor": 16723200,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "Wings",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": true,
+  "index": 35,
+  "volteDelay": 0.3,
+  "id": "Golem",
+  "weight": 10,
+  "icon": {
+    "x": 45,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    400
+  ],
+  "name": "Golem",
+  "minPfHeight": 0,
+  "glowInnerColor": 16764555,
+  "minPfSize": 13,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 10,
+  "flesh1": 7294784,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": [
+        25
+      ],
+      "props": {
+        "stunTime": 0.5,
+        "distance": 11
+      },
+      "allowInAir": false,
+      "radius": 1.2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_golem_atkcharge.wav",
+      "charge": 0.4,
+      "manual": false,
+      "id": "megaPunch",
+      "sfxRelease": "sfx/enm_golem_atkrelease.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.75,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "power": [
+        15
+      ],
+      "props": {
+        "range": 12,
+        "stunTime": 1
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_golem_chargestomp.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "stunGround",
+      "sfxRelease": "sfx/enm_golem_stomp.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.65,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_golem_tpcharge.wav",
+      "charge": 1,
+      "manual": true,
+      "id": "teleport",
+      "sfxRelease": "sfx/enm_golem_tprelease.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 35
+}

@@ -1,0 +1,29 @@
+{
+  "id": "P_CorruptedHealing",
+  "name": "Soin corrompu",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.3,
+    "dps": 180,
+    "duration": 12,
+    "effectCD": 0.25,
+    "ceilToolTipValues": true
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 11
+  },
+  "gameplayDesc": "Vos potions de soin ne restaurent plus que ::prct::% PV mais elles ajoutent +::+dps:: dégâts/sec pendant ::duration:: sec à l'utilisation.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 179
+}

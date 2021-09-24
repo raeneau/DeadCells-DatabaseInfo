@@ -1,0 +1,66 @@
+{
+  "id": "GodAxe",
+  "name": "Hache de Boï",
+  "moneyCost": 1500,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "AmmoComesBackImmediately"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "speed": 1.4,
+    "ammo": 1,
+    "tick": 0.3,
+    "color": 1931836,
+    "power": [
+      80
+    ],
+    "aoeDuration": 0.4,
+    "bump": 0.3,
+    "lock": 0.3,
+    "castTime": 0.5,
+    "limit": 3,
+    "uses": 10
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 13
+  },
+  "gameplayDesc": "Immobilise la victime. La hache inflige ::+power:: dégâts lorsqu'elle est rappelée.",
+  "ambiantDesc": "Boï.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 101
+}

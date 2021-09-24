@@ -1,0 +1,35 @@
+{
+  "id": "Elite",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 0,
+  "maxPerRoom": 0,
+  "props": {
+    "bumpResistance": 0.7,
+    "movePauseMul": 99999,
+    "cannotBeBackstabbed": true,
+    "cannotBeShield": true,
+    "range": 20,
+    "duration": 5,
+    "cellLoot": 7
+  },
+  "skill": [],
+  "genTags": 0,
+  "index": 44,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 0
+  },
+  "name": "Créature élite",
+  "weight": 0,
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 44
+}

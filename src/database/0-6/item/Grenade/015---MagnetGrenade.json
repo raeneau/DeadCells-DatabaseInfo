@@ -1,0 +1,38 @@
+{
+  "id": "MagnetGrenade",
+  "name": "Grenade magnétique",
+  "droppable": true,
+  "castCD": 16,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "range": 9,
+    "dps": [
+      12
+    ],
+    "effectCD": 0.2,
+    "duration": 5.5
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 4
+  },
+  "gameplayDesc": "Attire tout ce qui est proche et inflige ::+dps:: dégâts/sec.",
+  "cellCost": 40,
+  "moneyCost": 1800,
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 15
+}

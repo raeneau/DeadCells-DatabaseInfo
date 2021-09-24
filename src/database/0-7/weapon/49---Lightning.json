@@ -1,0 +1,45 @@
+{
+  "item": "Lightning",
+  "airControlAlways": false,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.53,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "breachBonus": -1,
+      "dynamicCharge": 1,
+      "props": {
+        "tick": 0.2,
+        "limit": 10,
+        "threshold": 0.4
+      },
+      "animId": "idleCastA",
+      "fxId": "fxFireballA",
+      "hitFrame": 15,
+      "power": [
+        30
+      ],
+      "canCrit": true,
+      "area": {
+        "shape": 1,
+        "width": 11,
+        "height": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 42495,
+      "fxInnerColor": 42495,
+      "fxOuterColor": 42495,
+      "sfxCharge": "sfx/magic_cast1.wav",
+      "sfxRelease": "sfx/spell_thunder.wav",
+      "critMul": 1.55,
+      "fxStartFrame": 4
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 49
+}

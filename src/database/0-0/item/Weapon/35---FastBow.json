@@ -1,0 +1,38 @@
+{
+  "id": "FastBow",
+  "name": "Arc rapide",
+  "droppable": true,
+  "hasTier": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 9,
+    "count": 3
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 3
+  },
+  "ambiantDesc": "La rapidité au détriment de la précision.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE si la cible a ::count:: flèches ou plus plantées dans le corps.",
+  "cellCost": 10,
+  "moneyCost": 2250,
+  "index": 35,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 35
+}

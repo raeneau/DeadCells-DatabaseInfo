@@ -1,0 +1,39 @@
+{
+  "item": "LightningWhip",
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 5,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.7,
+        "height": 3
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "range": 7.5
+      },
+      "power": [
+        20
+      ],
+      "fxFrame": 0,
+      "glowColor": 16777215,
+      "sfxRelease": "sfx/weapon_whipelec_release.wav",
+      "sfxHit": "sfx/weapon_whip_hit.wav",
+      "animId": "throw",
+      "fxId": "fxThrow"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 29
+}

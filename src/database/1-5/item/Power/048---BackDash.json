@@ -1,0 +1,45 @@
+{
+  "id": "BackDash",
+  "name": "Retour",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "TransformOnUse"
+    },
+    {
+      "tag": "MoveHero"
+    },
+    {
+      "tag": "AutoTransformInto"
+    }
+  ],
+  "props": {
+    "power": [
+      10
+    ],
+    "range": 13,
+    "item": "Dash",
+    "autoTransformAfter": 3,
+    "speed": 5,
+    "limit": 0.75,
+    "height": 0.75,
+    "buff": 0.2
+  },
+  "group": 3,
+  "gameplayDesc": "Foncez en avant et infligez ::+power:: dégâts aux ennemis que vous traversez. Réactivez en fin de course pour revenir en sens contraire.",
+  "tier1": "Tactic",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 25,
+    "y": 3
+  },
+  "ambiantDesc": "...et ça revient.",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 48
+}

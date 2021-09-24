@@ -1,0 +1,26 @@
+{
+  "id": "P_CDR_Crit",
+  "name": "Inspiration du maître d'armes",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "actcdr": 0.08,
+    "scaledValueCap": 1,
+    "effectCD": 0.45,
+    "actcdrIncPerTier": 0.04
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 13
+  },
+  "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec en cas de {coup critique@CC}.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 277
+}

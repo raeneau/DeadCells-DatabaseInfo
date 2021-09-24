@@ -1,0 +1,31 @@
+{
+  "id": "BulletKiller",
+  "name": "Déflecteur",
+  "droppable": false,
+  "castCD": 3,
+  "props": {
+    "range": 15,
+    "duration": 3,
+    "power": [
+      70
+    ],
+    "life": 0,
+    "effectCharge": 0.7
+  },
+  "group": 3,
+  "tags": [],
+  "gameplayDesc": "Détruit tous les projectiles proches. Le lanceur de ce projectile subit ::+power:: dégâts et est étourdit ::effectCharge:: secondes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 0
+  },
+  "cellCost": 0,
+  "moneyCost": 1600,
+  "index": 23,
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 23
+}

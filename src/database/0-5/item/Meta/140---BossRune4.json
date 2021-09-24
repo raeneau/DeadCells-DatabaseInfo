@@ -1,0 +1,26 @@
+{
+  "id": "BossRune4",
+  "name": "BossRune4",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "BossRune"
+    }
+  ],
+  "props": {},
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 27,
+    "y": 1
+  },
+  "gameplayDesc": "UNUSED",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 140
+}

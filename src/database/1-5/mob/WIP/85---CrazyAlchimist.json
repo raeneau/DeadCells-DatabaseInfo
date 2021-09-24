@@ -1,0 +1,62 @@
+{
+  "id": "CrazyAlchimist",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 8,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 3,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "grenade",
+      "charge": 0.6,
+      "coolDown": 2.6,
+      "power": [
+        15
+      ],
+      "radius": 2.9,
+      "props": {
+        "triggerDelay": 1.5,
+        "canTriggerThroughWall": true,
+        "count": 3
+      },
+      "lockAiAfter": 0.3,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": -10,
+      "allowInAir": false,
+      "hitFrame": 2,
+      "manual": false,
+      "sfxCharge": "sfx/enm_grd_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_fuse1.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 85,
+  "group": 2,
+  "name": "Alchimiste Fou",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 40
+  },
+  "glowInnerColor": 11197250,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    120
+  ],
+  "volteDelay": 1,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 85
+}

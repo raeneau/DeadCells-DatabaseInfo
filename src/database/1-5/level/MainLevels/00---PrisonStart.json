@@ -1,0 +1,138 @@
+{
+  "id": "PrisonStart",
+  "biome": "PrisonStart",
+  "mobs": [
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 2
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {},
+      "maxDifficulty": 2
+    },
+    {
+      "mob": "Rampager",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    }
+  ],
+  "mobDensity": 0.8,
+  "flags": 0,
+  "group": 0,
+  "name": "Quartier des prisonniers",
+  "lootFlags": 4,
+  "goldBonus": 0.15,
+  "specificLoots": [
+    {
+      "kind": 2,
+      "minDistToSpawn": 3
+    }
+  ],
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0.05,
+  "index": 0,
+  "cellBonus": 0,
+  "tripleUps": 2,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 1.25,
+    "viewerColor": 2370433,
+    "doorColor": 7681473,
+    "chromaColor": 39679,
+    "musicIntro": "music/prisonstart_intro.ogg",
+    "musicLoop": "music/prisonstart_loop.ogg",
+    "loadingColor": 464424,
+    "loadingDescColor": 6652612,
+    "minPerfectKillsMobCount": 0.5,
+    "zDoorColor": 12684325,
+    "noAdditionalElite": false
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 1,
+  "worldDepth": 0,
+  "loreDescriptions": [
+    {
+      "text": "Dans l'échelle sociale de l'île, il y a les rats et les chiens et, juste en dessous, les prisonniers."
+    },
+    {
+      "text": "Les prisonniers chanceux avaient une fenêtre dans leur cellule... Ils ont fini par respirer les cendres du Charnier."
+    },
+    {
+      "text": "La prison est directement reliée à la cour extérieure. Les prisonniers ont le choix entre les rats et les corbeaux."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 15
+  },
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 0
+}

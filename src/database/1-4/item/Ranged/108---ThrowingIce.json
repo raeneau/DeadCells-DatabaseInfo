@@ -1,0 +1,49 @@
+{
+  "id": "ThrowingIce",
+  "name": "Éclats de glace",
+  "moneyCost": 1750,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "duration": 3,
+    "distance": 2,
+    "ammo": 3,
+    "ammoRecoveryStart": 1.75,
+    "ammoRecoveryTick": 0.1
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 7
+  },
+  "tier1": "Tactic",
+  "gameplayDesc": "{Ralenti@IC} les ennemis pendant ::duration:: sec. Inflige des {coups critiques@CC} sur les cibles dans l'eau ou couvertes {d'huile@FI}.",
+  "tier2": "Brutality",
+  "legendAffix": "SlowDamage",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 108
+}

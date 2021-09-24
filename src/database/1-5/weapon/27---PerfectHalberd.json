@@ -1,0 +1,136 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.45,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 13,
+      "area": {
+        "shape": 0,
+        "width": 4.2,
+        "height": 0,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": -1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.1
+      },
+      "animId": "perfectHalberdAtkA",
+      "animSpd": 1,
+      "fxId": "fxPerfectHalberdAtkA",
+      "glowColor": 16777215,
+      "fxOuterColor": 7621119,
+      "power": [
+        30
+      ],
+      "sfxRelease": "sfx/weapon_perfectsw_release1.wav",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge3.wav",
+      "fxStartFrame": 11
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 6,
+      "area": {
+        "shape": 1,
+        "width": 5.5,
+        "height": 1.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.33,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2
+      },
+      "power": [
+        60
+      ],
+      "animId": "perfectHalberdAtkB",
+      "glowColor": 16777215,
+      "fxOuterColor": 7621119,
+      "fxId": "fxPerfectHalberdAtkB",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "animSpd": 1,
+      "onionSkinFrame": 6,
+      "onionSkinOffX": 80,
+      "sfxRelease": "sfx/weapon_perfectsw_release2.wav"
+    },
+    {
+      "charge": 0.55,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 18,
+      "area": {
+        "shape": 0,
+        "width": 4.6,
+        "height": 0,
+        "offsetCaseX": -1,
+        "offsetCaseY": -0.25
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.1
+      },
+      "animId": "perfectHalberdAtkC",
+      "animSpd": 1,
+      "fxId": "fxPerfectHalberdAtkC",
+      "glowColor": 16764764,
+      "fxOuterColor": 16726016,
+      "power": [
+        50
+      ],
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxRelease": "sfx/weapon_perfectsw_release3.wav",
+      "critMul": 1.1
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.4,
+      "hitFrame": 5,
+      "area": {
+        "shape": 1,
+        "width": 6.5,
+        "height": 1.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2
+      },
+      "animId": "perfectHalberdAtkD",
+      "animSpd": 1,
+      "fxId": "fxPerfectHalberdAtkD",
+      "onionSkinOffX": 60,
+      "glowColor": 16764764,
+      "fxOuterColor": 16726016,
+      "power": [
+        100
+      ],
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "sfxRelease": "sfx/weapon_perfectsw_release4.wav",
+      "critMul": 1.65,
+      "onionSkinFrame": 5
+    }
+  ],
+  "item": "PerfectHalberd",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 27
+}

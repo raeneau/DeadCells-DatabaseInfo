@@ -1,0 +1,26 @@
+{
+  "id": "GenericUp",
+  "name": "Parchemin de puissance",
+  "droppable": false,
+  "hasTier": false,
+  "castCD": 0,
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 8,
+  "tags": [],
+  "gameplayDesc": "Améliore l'une de vos 3 caractéristiques au choix !",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "index": 83,
+  "hasLevels": false,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 83
+}

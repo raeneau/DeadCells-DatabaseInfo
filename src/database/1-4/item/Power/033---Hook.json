@@ -1,0 +1,42 @@
+{
+  "id": "Hook",
+  "name": "Grappin",
+  "moneyCost": 1500,
+  "cellCost": 35,
+  "droppable": true,
+  "castCD": 3,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "props": {
+    "distance": 10,
+    "duration": 1,
+    "prct": 0.4,
+    "scaledValueCap": 4.5,
+    "duration2": 2.5,
+    "lock": 0.4
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 5
+  },
+  "gameplayDesc": "Attire un ennemi à vous. La prochaine attaque contre l'ennemi inflige +::+prct::% dégâts et l'étourdit pendant ::duration:: sec.",
+  "ambiantDesc": "Oui, comme Scorpion dans Mortal Kombat.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "legendAffix": "ArrowSalve",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 33
+}

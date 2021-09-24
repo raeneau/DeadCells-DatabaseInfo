@@ -1,0 +1,42 @@
+{
+  "id": "FastGrenade",
+  "name": "Grenade d'infanterie",
+  "moneyCost": 1250,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 4,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "ShortCooldown"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      70
+    ],
+    "range": 4.5
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 8
+  },
+  "gameplayDesc": "Rapide à utiliser, mais inflige des dégâts modérés.",
+  "tier1": "Brutality",
+  "legendAffix": "Oil",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 13
+}

@@ -1,0 +1,36 @@
+{
+  "item": "InfiniteBow",
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "strikeChain": [
+    {
+      "charge": 0.3,
+      "coolDown": 0.25,
+      "lockCtrlAfter": 0.2,
+      "power": [
+        42
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": -0.5,
+      "props": {},
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16774912,
+      "fxInnerColor": 16774912,
+      "fxOuterColor": 16774912,
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxCharge": "sfx/bow_charge1.wav"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 12
+}

@@ -1,0 +1,48 @@
+{
+  "id": "Shielder",
+  "props": {
+    "bumpResistance": 0.5,
+    "movePauseMul": 99999,
+    "cannotBeBackstabbed": true,
+    "cannotBeShield": true,
+    "noContactAttack": true,
+    "range": 15,
+    "cannotChangeDir": true
+  },
+  "skill": [],
+  "genTags": 0,
+  "index": 22,
+  "group": 0,
+  "life": [
+    150
+  ],
+  "weight": 0,
+  "minPfSize": 0,
+  "name": "Protecteur",
+  "score": 5,
+  "maxPerRoom": 1,
+  "canBeElite": false,
+  "flesh1": 12218164,
+  "flesh2": 11247005,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 52,
+    "y": 71
+  },
+  "blueprints": [
+    {
+      "item": "DamageBuff",
+      "rarity": "Rare"
+    },
+    {
+      "rarity": "Rare",
+      "item": "Decoy"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 22
+}

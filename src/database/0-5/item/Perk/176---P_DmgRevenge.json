@@ -1,0 +1,28 @@
+{
+  "id": "P_DmgRevenge",
+  "name": "Vengeance",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 200,
+    "effectCD": 0.2,
+    "duration": 7,
+    "minPerks": 0
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 9
+  },
+  "gameplayDesc": "+::+dps:: dégâts/sec environ pendant ::duration:: sec après avoir subit une blessure.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 176
+}

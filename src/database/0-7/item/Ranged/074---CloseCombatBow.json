@@ -1,0 +1,39 @@
+{
+  "id": "CloseCombatBow",
+  "name": "Arc de fantassin",
+  "castCD": 0,
+  "props": {
+    "ammo": 5
+  },
+  "group": 5,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "ambiantDesc": "Un arc spécialement conçu pour le corps à corps.",
+  "gameplayDesc": "Inflige un {coup critique@CC} à courte portée.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 1
+  },
+  "cellCost": 30,
+  "moneyCost": 2000,
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "tier2": "Brutality",
+  "legendAffix": "BleedOnHit",
+  "legendaryName": "Barbelure",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 74
+}

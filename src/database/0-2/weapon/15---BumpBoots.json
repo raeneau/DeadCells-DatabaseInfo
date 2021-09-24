@@ -1,0 +1,42 @@
+{
+  "item": "BumpBoots",
+  "airControlAlways": true,
+  "isACancel": true,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0.6,
+      "lockCtrlAfter": 0.25,
+      "animId": "kick",
+      "power": [
+        40
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {
+        "bump": 0.8,
+        "duration": 0.5
+      },
+      "hitFrame": 5,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 2,
+        "height": 1,
+        "offsetCaseY": 0.3,
+        "offsetCaseX": 0.8
+      },
+      "glowColor": 14667198,
+      "animSpd": 1,
+      "fxId": "fxKick",
+      "fxFrame": 4,
+      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "sfxRelease": "sfx/weapon_kick_release.wav"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 15
+}

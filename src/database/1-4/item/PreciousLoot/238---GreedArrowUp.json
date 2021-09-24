@@ -1,0 +1,27 @@
+{
+  "id": "GreedArrowUp",
+  "name": "Flêche en diamant",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 100,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 0,
+    "enableAutoPick": true
+  },
+  "group": 11,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 23,
+    "y": 3
+  },
+  "gameplayDesc": "Une flêche transmutée d'une valeur de ::$power::{iconCoin@img}. Pour un carquois bourgeois.",
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 238
+}

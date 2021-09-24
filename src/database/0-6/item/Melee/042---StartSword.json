@@ -1,0 +1,30 @@
+{
+  "id": "StartSword",
+  "name": "Epée rouillée",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "NeverLegendary"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "ambiantDesc": "Peut servir à tuer des gens.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 0
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "tier1": "Brutality",
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 42
+}

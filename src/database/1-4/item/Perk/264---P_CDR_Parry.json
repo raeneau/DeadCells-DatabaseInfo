@@ -1,0 +1,26 @@
+{
+  "id": "P_CDR_Parry",
+  "name": "Inspiration inébranlable",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "actcdr": 2.5,
+    "scaledValueCap": 5,
+    "actcdrIncPerTier": 0.105
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 13
+  },
+  "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec pour chaque {parade@PA} réussie.",
+  "tier1": "Survival",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 264
+}

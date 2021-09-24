@@ -1,0 +1,56 @@
+{
+  "id": "Spawnling",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 5,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0.07,
+    "isTrashMob": true
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.3,
+      "coolDown": 0.7,
+      "hitFrame": 24,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": -1,
+      "disableAnnounce": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "manual": false,
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/enm_slime_release.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 32,
+  "group": 0,
+  "name": "Fluide de cadavre",
+  "glowInnerColor": 8503158,
+  "glowOuterColor": 4754256,
+  "life": [
+    35
+  ],
+  "volteDelay": 0.25,
+  "weight": 10,
+  "pfCost": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 37,
+    "y": 13
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 32
+}

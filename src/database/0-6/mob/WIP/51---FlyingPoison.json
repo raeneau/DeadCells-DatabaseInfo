@@ -1,0 +1,60 @@
+{
+  "id": "FlyingPoison",
+  "flesh1": 15659003,
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 8,
+  "maxPerRoom": 4,
+  "props": {
+    "directHitStunChance": 1,
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.5
+  },
+  "skill": [
+    {
+      "id": "shoot",
+      "charge": 0.6,
+      "coolDown": 0.25,
+      "power": [
+        5
+      ],
+      "props": {
+        "duration": 2,
+        "dps": 6
+      },
+      "lockAiAfter": 0.1,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": -10,
+      "allowInAir": true,
+      "disableAnnounce": false,
+      "hitFrame": 1,
+      "manual": false
+    }
+  ],
+  "genTags": 2,
+  "index": 51,
+  "group": 2,
+  "name": "Fantôme",
+  "glowInnerColor": 7819992,
+  "flesh2": 15147554,
+  "life": [
+    100
+  ],
+  "volteDelay": 0.7,
+  "weight": 0,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 13
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 51
+}

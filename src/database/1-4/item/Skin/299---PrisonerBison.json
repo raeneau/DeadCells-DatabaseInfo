@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerBison",
+  "name": "Tenue du Bison",
+  "moneyCost": 0,
+  "cellCost": 750,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 22,
+    "y": 16
+  },
+  "gameplayDesc": "Une tenue pour les vrais combattants.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 299
+}

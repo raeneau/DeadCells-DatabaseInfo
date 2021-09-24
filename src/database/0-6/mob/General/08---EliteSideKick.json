@@ -1,0 +1,60 @@
+{
+  "id": "EliteSideKick",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 0,
+  "pfCost": 0,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1.1,
+    "movePauseMul": 0,
+    "isTrashMob": true
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 1.1,
+      "coolDown": 0.3,
+      "power": [
+        6
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 8,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 21
+  },
+  "name": "Lieutenant",
+  "glowInnerColor": 16580433,
+  "glowOuterColor": 12386346,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    100
+  ],
+  "volteDelay": 0.9,
+  "weight": 0,
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 8
+}

@@ -1,0 +1,28 @@
+{
+  "id": "BackStabber",
+  "name": "Dague d'assassin",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "ambiantDesc": "Légère mais mortelle si elle maniée comme il faut.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous frappez dans le dos.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 1
+  },
+  "cellCost": 30,
+  "moneyCost": 1500,
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 46
+}

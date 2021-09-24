@@ -1,0 +1,42 @@
+{
+  "id": "FastBow",
+  "name": "Arc rapide",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 9,
+    "count": 2
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 3
+  },
+  "ambiantDesc": "La rapidité au détriment de la précision.",
+  "gameplayDesc": "Inflige un {coup critique@CC} si la cible a ::count:: flèches ou plus dans le corps.",
+  "cellCost": 35,
+  "moneyCost": 2250,
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "legendAffix": "PoisonOnHit",
+  "legendaryName": "Arc de Noja",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 75
+}

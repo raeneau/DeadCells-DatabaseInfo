@@ -1,0 +1,133 @@
+{
+  "item": "SpikedBoots",
+  "airControlAlways": true,
+  "isACancel": true,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "animId": "kick",
+      "power": [
+        20
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": -1,
+      "props": {
+        "bump": 0.2
+      },
+      "hitFrame": 5,
+      "canCrit": true,
+      "area": {
+        "shape": 1,
+        "width": 2,
+        "height": 1,
+        "offsetCaseY": 0.3,
+        "offsetCaseX": 0.8
+      },
+      "glowColor": 14667198,
+      "animSpd": 1,
+      "critMul": 1.2,
+      "fxId": "fxKick",
+      "fxInnerColor": 16713993,
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxRelease": "sfx/weapon_kick_release.wav"
+    },
+    {
+      "charge": 0.07,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 8,
+      "area": {
+        "shape": 0,
+        "width": 2.75,
+        "offsetCaseY": -0.5,
+        "offsetCaseX": 0.3,
+        "height": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.05
+      },
+      "animId": "comboKickA",
+      "fxId": "fxComboKickA",
+      "glowColor": 14667198,
+      "fxInnerColor": 16713993,
+      "power": [
+        25
+      ],
+      "critMul": 1.2,
+      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "animSpd": 1.5
+    },
+    {
+      "charge": 0.07,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "hitFrame": 8,
+      "area": {
+        "shape": 0,
+        "width": 2.75,
+        "offsetCaseY": -0.5,
+        "offsetCaseX": 0.3,
+        "height": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.05
+      },
+      "animId": "kick",
+      "animSpd": 1.5,
+      "fxId": "fxKick",
+      "glowColor": 14667198,
+      "fxInnerColor": 16713993,
+      "power": [
+        25
+      ],
+      "critMul": 1.3,
+      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxHit": "sfx/weapon_kick_hit.wav"
+    },
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 8,
+      "area": {
+        "shape": 0,
+        "width": 2.75,
+        "offsetCaseY": -0.5,
+        "offsetCaseX": 0.3,
+        "height": 0
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.25,
+        "duration": 1.5
+      },
+      "animId": "comboKickB",
+      "fxId": "fxComboKickB",
+      "glowColor": 14667198,
+      "fxInnerColor": 16713993,
+      "power": [
+        50
+      ],
+      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "critMul": 1.8,
+      "animSpd": 0.7
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 18
+}

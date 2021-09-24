@@ -1,0 +1,132 @@
+{
+  "id": "Comboter",
+  "score": 6,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "maxPerRoom": 2,
+  "props": {
+    "moveSpeedMul": 1.2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "slash0",
+      "charge": 0.5,
+      "coolDown": 1.5,
+      "hitFrame": 5,
+      "lockAiAfter": 0,
+      "radius": 2.15,
+      "breachResistance": 0.4,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.5
+      },
+      "power": [
+        12
+      ],
+      "sfxCharge": "sfx/enm_comboter_charge.wav",
+      "sfxRelease": "sfx/enm_comboter_release.wav"
+    },
+    {
+      "id": "slash1",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 5,
+      "lockAiAfter": 0,
+      "radius": 2.15,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 0.55
+      },
+      "power": [
+        12
+      ],
+      "sfxCharge": "sfx/enm_comboter_charge2.wav",
+      "sfxRelease": "sfx/enm_comboter_release.wav"
+    },
+    {
+      "id": "slash2",
+      "charge": 0.7,
+      "coolDown": 0,
+      "hitFrame": 5,
+      "lockAiAfter": 0.8,
+      "radius": 2.15,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 1.1,
+        "distance": 8.5
+      },
+      "power": [
+        20
+      ],
+      "sfxCharge": "sfx/enm_comboter_charge2.wav",
+      "sfxRelease": "sfx/enm_comboter_release.wav"
+    },
+    {
+      "id": "blink",
+      "charge": 0.03,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 13
+      },
+      "sfxRelease": "sfx/enm_zmb_release2.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 28,
+  "group": 0,
+  "name": "Lacérateur",
+  "life": [
+    215
+  ],
+  "weight": 20,
+  "glowInnerColor": 8239871,
+  "glowOuterColor": 4065964,
+  "volteDelay": 0.3,
+  "flesh1": 13418155,
+  "flesh2": 9985867,
+  "pfCost": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 65,
+    "y": 4
+  },
+  "blueprints": [
+    {
+      "item": "ClusterBomb",
+      "rarity": "Uncommon"
+    },
+    {
+      "rarity": "Rare",
+      "item": "HeavyTurret"
+    }
+  ],
+  "maxPerPlatform": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 28
+}

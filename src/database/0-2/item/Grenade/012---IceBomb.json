@@ -1,0 +1,43 @@
+{
+  "id": "IceBomb",
+  "name": "Bombe givrante",
+  "moneyCost": 1250,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 9,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "NegligibleDamage"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      35
+    ],
+    "range": 6,
+    "duration": 5
+  },
+  "index": 12,
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 5
+  },
+  "gameplayDesc": "Explose en infligeant ::+power:: dégâts. Gèle les victimes.",
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 12
+}

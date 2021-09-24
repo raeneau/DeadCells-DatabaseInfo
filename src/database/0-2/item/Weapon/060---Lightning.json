@@ -1,0 +1,34 @@
+{
+  "id": "Lightning",
+  "name": "Eclair",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "dps": 20,
+    "duration": 2
+  },
+  "group": 4,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Electric"
+    }
+  ],
+  "ambiantDesc": "Devenez Palpatine.",
+  "gameplayDesc": "Maintenez longtemps pour infliger des coups critiques.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 1
+  },
+  "cellCost": 20,
+  "moneyCost": 1750,
+  "index": 60,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 60
+}

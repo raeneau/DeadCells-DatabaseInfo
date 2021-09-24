@@ -1,0 +1,44 @@
+{
+  "id": "FireBomb",
+  "name": "Bombe incendiaire",
+  "droppable": true,
+  "castCD": 8,
+  "props": {
+    "range": 6.5,
+    "duration": 3,
+    "power": [
+      12
+    ],
+    "dps": 25,
+    "aoeDuration": 7
+  },
+  "group": 1,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "NegligibleDamage"
+    }
+  ],
+  "gameplayDesc": "Inflige ::+power:: dégats et enflamme les ennemis proches pendant ::duration:: secondes (::+dps:: dégâts / sec).",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1500,
+  "index": 13,
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 13
+}

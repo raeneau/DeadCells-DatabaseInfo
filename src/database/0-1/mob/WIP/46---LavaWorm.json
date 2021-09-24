@@ -1,0 +1,53 @@
+{
+  "id": "LavaWorm",
+  "score": 2,
+  "minPfSize": 8,
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 1,
+    "moveSpeedMul": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.7,
+      "lockAiAfter": 0.1,
+      "radius": 1.4,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 1,
+        "dps": 4
+      },
+      "power": 0,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false
+    }
+  ],
+  "genTags": 0,
+  "index": 46,
+  "group": 2,
+  "name": "Larve de feu",
+  "life": [
+    50
+  ],
+  "weight": 10,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 54,
+    "y": 4
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 46
+}

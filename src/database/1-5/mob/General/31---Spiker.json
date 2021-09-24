@@ -1,0 +1,86 @@
+{
+  "id": "Spiker",
+  "score": 6,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "maxPerRoom": 1,
+  "props": {
+    "bumpResistance": 0.9,
+    "cannotBeBackstabbed": true,
+    "movePauseMul": 99999
+  },
+  "skill": [
+    {
+      "id": "spikes",
+      "charge": 1.75,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 15,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true,
+        "distance": 5
+      },
+      "power": [
+        25
+      ],
+      "sfxCharge": "sfx/enm_mushroom_charge.wav",
+      "sfxRelease": "sfx/enm_mushroom_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "singleSpike",
+      "charge": 1.4,
+      "coolDown": 0.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 19,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": 0,
+      "sfxRelease": "sfx/enm_mushroom_release.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 32,
+  "index": 31,
+  "group": 0,
+  "name": "Empalleur",
+  "life": [
+    195
+  ],
+  "weight": 10,
+  "flesh1": 9279089,
+  "glowInnerColor": 6204189,
+  "flesh2": 12266797,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 53,
+    "y": 5
+  },
+  "blueprints": [
+    {
+      "item": "BleedCrit",
+      "rarity": "Uncommon",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 31
+}

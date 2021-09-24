@@ -1,0 +1,76 @@
+{
+  "id": "FastZombie",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 7,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1.5,
+    "movePauseMul": 0,
+    "cellRatioCount": 0.4
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.5,
+      "coolDown": 0.1,
+      "power": [
+        5
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "breachResistance": -0.9,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "dodge",
+      "charge": 0,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_archer_dodge1.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 1,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 38,
+    "y": 11
+  },
+  "name": "Zombie coureur",
+  "glowInnerColor": 12713983,
+  "glowOuterColor": 7254783,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    90
+  ],
+  "volteDelay": 0.4,
+  "weight": 10,
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 1
+}

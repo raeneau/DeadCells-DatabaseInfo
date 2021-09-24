@@ -1,0 +1,89 @@
+{
+  "id": "PrisonRoofCorrupt",
+  "biome": "PrisonRoofCorrupt",
+  "viewerColor": 16768303,
+  "viewerOffX": 0,
+  "viewerY": -1.5,
+  "mobs": [
+    {
+      "mob": "Fly",
+      "singleRoom": true,
+      "packSize": [
+        3,
+        5
+      ],
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": true,
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 3,
+      "props": {}
+    },
+    {
+      "mob": "Fly",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 7,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    }
+  ],
+  "lootLevel": 0,
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 20,
+  "group": 0,
+  "name": "Toits corrompus",
+  "musicIntro": "music/remparts_intro.ogg",
+  "musicLoop": "music/remparts_loop.ogg",
+  "doorColor": 16760576,
+  "chromaColor": 16760576,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 1,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 20
+}

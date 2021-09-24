@@ -1,0 +1,33 @@
+{
+  "id": "BumpBoots",
+  "name": "Sandales de spartiate",
+  "moneyCost": 1600,
+  "cellCost": 5,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "DefenseWeapon"
+    }
+  ],
+  "props": {
+    "grenadeKickPow": 0.45
+  },
+  "index": 66,
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 6
+  },
+  "gameplayDesc": "Repousse les victimes et interrompt les attaques.",
+  "ambiantDesc": "This. Is. DEAD CELLS!",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 66
+}

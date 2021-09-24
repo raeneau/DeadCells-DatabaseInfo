@@ -1,0 +1,81 @@
+{
+  "biome": "PrisonRoof",
+  "name": "Toits de la Prison",
+  "id": "PrisonRoof",
+  "mobs": [
+    {
+      "mob": "Fly",
+      "singleRoom": true,
+      "packSize": [
+        3,
+        5
+      ],
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": true,
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "Fly",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 7,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "flags": 1,
+  "mobDensity": 1,
+  "group": 0,
+  "lootFlags": 0,
+  "musicLoop": "music/remparts_loop.ogg",
+  "goldBonus": 0,
+  "specificLoots": [],
+  "viewerY": -1.5,
+  "musicIntro": "music/remparts_intro.ogg",
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "doorColor": 16760576,
+  "index": 4,
+  "mobTier": 4,
+  "lootLevel": 3,
+  "chosenUps": 1,
+  "randomUps": 4,
+  "itemUps": 2,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 16768303,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 4
+}

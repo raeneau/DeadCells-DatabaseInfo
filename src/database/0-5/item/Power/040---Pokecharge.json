@@ -1,0 +1,33 @@
+{
+  "id": "Pokecharge",
+  "name": "Extraction de schéma",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0.2,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {
+    "duration": 1.3,
+    "prct": 0.4,
+    "noAffix": true,
+    "castTime": 0.18,
+    "distance": 10
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 8
+  },
+  "gameplayDesc": "Utilisez sur un monstre transformé par la \"Bombe du Chasseur\" et avec moins de ::prct::% de vie restante.",
+  "hasLevels": false,
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 40
+}

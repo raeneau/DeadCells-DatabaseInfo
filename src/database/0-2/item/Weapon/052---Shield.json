@@ -1,0 +1,30 @@
+{
+  "id": "Shield",
+  "name": "Bouclier solide",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "gameplayDesc": "Permet de bloquer les attaques et d'étourdir les ennemis. ",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "index": 52,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 52
+}

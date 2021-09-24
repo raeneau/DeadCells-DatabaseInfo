@@ -1,0 +1,59 @@
+{
+  "id": "WormZombie",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        25
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmbworm_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 4,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 38,
+    "y": 22
+  },
+  "name": "Zombie purulent",
+  "glowInnerColor": 16758097,
+  "glowOuterColor": 4175415,
+  "flesh1": 5669211,
+  "flesh2": 6200517,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.7,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 4
+}

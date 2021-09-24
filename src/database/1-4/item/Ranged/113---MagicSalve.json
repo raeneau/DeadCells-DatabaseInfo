@@ -1,0 +1,39 @@
+{
+  "id": "MagicSalve",
+  "name": "Missiles magiques",
+  "moneyCost": 1750,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "range": 1.2,
+    "speed": 1.6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 12
+  },
+  "gameplayDesc": "Cible automatiquement l'ennemi le plus proche.",
+  "tier1": "Tactic",
+  "legendAffix": "SuperPierce",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 113
+}

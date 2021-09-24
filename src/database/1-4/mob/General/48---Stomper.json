@@ -1,0 +1,132 @@
+{
+  "id": "Stomper",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 13,
+  "pfCost": 1.75,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.35,
+      "coolDown": 0.5,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 6,
+      "breachResistance": 9.99,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "count": 1,
+        "move": 2,
+        "distance": 8,
+        "effectCD": 0.5
+      },
+      "power": [
+        12
+      ],
+      "sfxRelease": "sfx/enm_stomper_release.wav",
+      "chargeAnim": "atkLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atk",
+      "execAnimSpd": 0.5,
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_stomper_charge1.wav"
+    },
+    {
+      "id": "jump",
+      "charge": 0.25,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 8,
+        "stunTime": 0,
+        "bump": 0.4,
+        "speed": 2.4,
+        "triggerDelay": 3,
+        "effectCD": 0.1,
+        "triggerDistance": 5,
+        "height": 1
+      },
+      "chargeAnim": "jumpLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "jumpLoop",
+      "execAnimSpd": 0.5,
+      "sfxHit": "sfx/enm_stomper_land.wav",
+      "sfxRelease": "sfx/enm_stomper_fly2.wav",
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_stomper_shout.wav"
+    },
+    {
+      "id": "teleportJump",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.33,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 13,
+        "speed": 0.06,
+        "height": 60,
+        "frict": 0.65,
+        "bump": 0.4,
+        "stunTime": 0,
+        "lock": 1.5
+      },
+      "chargeAnim": "jumpLoad",
+      "chargeAnimSpd": 1,
+      "sfxRelease": "sfx/enm_stomper_fly1.wav",
+      "sfxHit": "sfx/enm_stomper_land.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 160,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "PerfectHalberd"
+    }
+  ],
+  "metaItems": [],
+  "index": 48,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 61,
+    "y": 21
+  },
+  "name": "Frappeur",
+  "glowInnerColor": 16764555,
+  "glowOuterColor": 16723200,
+  "flesh1": 7294784,
+  "flesh2": 12303527,
+  "life": [
+    250
+  ],
+  "volteDelay": 0.3,
+  "weight": 20,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 48
+}

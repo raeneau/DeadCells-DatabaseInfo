@@ -1,0 +1,41 @@
+{
+  "id": "Shockwave",
+  "name": "Onde de déni",
+  "moneyCost": 1750,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 7.5,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "props": {
+    "power": [
+      20
+    ],
+    "distance": 6,
+    "speed": 1.2,
+    "power2": [
+      40
+    ]
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 7
+  },
+  "gameplayDesc": "Repousse tous les ennemis proches. Si l'ennemi est projeté contre un mur, il subit +::+power2:: dégâts.",
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "legendAffix": "DoubleDamageFree",
+  "legendaryName": "Mépris",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 38
+}

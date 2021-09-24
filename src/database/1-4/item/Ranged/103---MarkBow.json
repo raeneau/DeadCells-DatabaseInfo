@@ -1,0 +1,51 @@
+{
+  "id": "MarkBow",
+  "name": "Arc du Hokuto ",
+  "moneyCost": 2250,
+  "cellCost": 80,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 2,
+    "duration": 20,
+    "duration2": 0.7,
+    "dps": 75,
+    "effectCD": 0.33,
+    "distance": 8
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 8
+  },
+  "gameplayDesc": "Marque l'ennemi qui subit +::+dps:: DPS sur ::duration:: sec. S'il meurt, la marque se propage.",
+  "tier1": "Tactic",
+  "ambiantDesc": "Tu ne le sais pas encore, mais tu es déjà mort.",
+  "tier2": "Brutality",
+  "legendAffix": "SuperPierce",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 103
+}

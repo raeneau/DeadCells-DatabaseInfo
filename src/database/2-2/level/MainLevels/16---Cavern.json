@@ -1,0 +1,134 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "levelTrapFrequency": 0.5,
+    "doorColor": 2279852,
+    "viewerColor": 8891837,
+    "musicLoop": "music/default/truecavern.ogg",
+    "zDoorColor": 5622448,
+    "viewerY": 3.5,
+    "chromaColor": 51199,
+    "loadingDescColor": 4646881,
+    "levelSpecificTrap": 0,
+    "loadingColor": 399638
+  },
+  "lootFlags": 0,
+  "biome": "Cavern",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 4,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 1,
+  "index": 16,
+  "id": "Cavern",
+  "dlc": "RiseOfTheGiant",
+  "flags": 180225,
+  "worldDepth": 5,
+  "icon": {
+    "x": 39,
+    "y": 28,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0.8,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Demon",
+      "minDifficulty": 1,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Earthquaker",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Stomper",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "StompSkeleton",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Arbiter",
+      "minDifficulty": 0,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Enforcer",
+      "minDifficulty": 2,
+      "quantityFactor": 2.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "AggressiveZombie",
+      "minDifficulty": 4,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Demon",
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Caverne",
+  "mobDensity": 0.7,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 3500,
+  "tripleUps": 4,
+  "baseLootLevel": 7,
+  "loreDescriptions": [
+    {
+      "text": "De précieux cristaux ont été prélevés dans cette caverne sur ordre du Roi. Nul ne sait quelle était leur utilité."
+    },
+    {
+      "text": "Mineur était le métier le plus ingrat de l'île. Nombre d'entre eux sont morts sous des gravats, à cause de vapeurs toxiques ou tués par d'étranges créatures..."
+    },
+    {
+      "text": "La Caverne est un étrange endroit dans lequel cohabitent glace et lave. L'Alchimiste n'a jamais percé ce mystère."
+    },
+    {
+      "text": "Record de temps passé sans accident dans la caverne : 45 secondes"
+    }
+  ],
+  "parallax": [],
+  "bonusTripleScrollAfterBC": "Nightmare",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 16
+}

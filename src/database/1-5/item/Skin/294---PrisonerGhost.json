@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerGhost",
+  "name": "Tenue Fantôme",
+  "moneyCost": 0,
+  "cellCost": 300,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 23,
+    "y": 14
+  },
+  "gameplayDesc": "Le costume parfait pour Halloween.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 294
+}

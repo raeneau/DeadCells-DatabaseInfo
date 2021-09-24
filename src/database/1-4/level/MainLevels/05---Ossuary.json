@@ -1,0 +1,165 @@
+{
+  "id": "Ossuary",
+  "biome": "Ossuary",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 0.3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "Spawner",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shocker",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 1.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "SpikedSatyr",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.1,
+  "flags": 0,
+  "group": 0,
+  "name": "Charnier",
+  "lootFlags": 0,
+  "goldBonus": -0.15,
+  "specificLoots": [],
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "index": 5,
+  "cellBonus": 0.8,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "props": {
+    "viewerY": -0.5,
+    "viewerColor": 7878920,
+    "doorColor": 10951708,
+    "chromaColor": 16711680,
+    "musicLoop": "music/Ossuary.ogg",
+    "loadingColor": 1640982,
+    "loadingDescColor": 12871013,
+    "zDoorColor": 2540927
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 2,
+  "loreDescriptions": [
+    {
+      "text": "Après les émeutes de la Nuit Sanglante, les gardiens ont décidé de condamner toute une aile de la prison pour y balancer les corps."
+    },
+    {
+      "text": "Une épaisse couche de cendre à recouvert les murs de cet endroit. La crasse s'est déposée jusque dans les moindres recoins."
+    },
+    {
+      "text": "Un des pires endroits de l'île... Ou l'un des plus sûrs, selon certains."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 23
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 5
+}

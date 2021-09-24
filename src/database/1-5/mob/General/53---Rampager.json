@@ -1,0 +1,170 @@
+{
+  "id": "Rampager",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 10,
+  "pfCost": 1,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 1,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "speed": 8,
+    "delay": 0.8,
+    "near": -25
+  },
+  "skill": [
+    {
+      "id": "chain 1",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 2,
+      "lockAiAfter": 0,
+      "radius": 4.5,
+      "breachResistance": 0,
+      "disableAnnounceFx": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3,
+        "distance": 8,
+        "speed": 1.5
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_rampage_claw_charge1.wav",
+      "sfxRelease": "sfx/enm_rampage_claw_release.wav",
+      "chargeAnim": "atkLoadA",
+      "execAnim": "atkA",
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1
+    },
+    {
+      "id": "chain 2",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 2,
+      "lockAiAfter": 0,
+      "radius": 4.5,
+      "breachResistance": 0,
+      "disableAnnounceFx": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3,
+        "distance": 8,
+        "speed": 1.5
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_rampage_claw_charge2.wav",
+      "sfxRelease": "sfx/enm_rampage_claw_release.wav",
+      "chargeAnim": "atkLoadB",
+      "execAnim": "atkB",
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1
+    },
+    {
+      "id": "jumpBack",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.5,
+      "radius": 8,
+      "breachResistance": 0,
+      "disableAnnounceFx": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 6,
+        "speed": 2.4
+      },
+      "sfxRelease": "sfx/enm_rampage_jump.wav",
+      "chargeAnim": "jumpLoad",
+      "chargeAnimSpd": 1
+    },
+    {
+      "id": "rampage",
+      "charge": 0.3,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "height": 1
+      },
+      "sfxCharge": "sfx/enm_rampage_shout.wav"
+    },
+    {
+      "id": "teleportJump",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.33,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 13,
+        "speed": 0.1,
+        "height": 60,
+        "frict": 0.65,
+        "bump": 0.4,
+        "stunTime": 0,
+        "lock": 1.5
+      },
+      "sfxRelease": "sfx/enm_rampage_jump_tp.wav",
+      "sfxHit": "sfx/enm_rampager_land.wav",
+      "chargeAnim": "jumpLoad",
+      "chargeAnimSpd": 1
+    }
+  ],
+  "genTags": 160,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "minDifficulty": 0,
+      "item": "P_DodgeHeal"
+    }
+  ],
+  "metaItems": [],
+  "index": 53,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 41,
+    "y": 12
+  },
+  "name": "Furie",
+  "glowInnerColor": 16735021,
+  "flesh1": 10965671,
+  "flesh2": 12303527,
+  "life": [
+    150
+  ],
+  "volteDelay": 1,
+  "weight": 20,
+  "glowOuterColor": 9122844,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 53
+}

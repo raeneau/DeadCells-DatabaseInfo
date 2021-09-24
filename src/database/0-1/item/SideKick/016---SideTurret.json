@@ -1,0 +1,25 @@
+{
+  "id": "SideTurret",
+  "name": "\"Agression\" (allié)",
+  "castCD": 10,
+  "props": {
+    "sideKickMob": "SideTurret"
+  },
+  "group": 2,
+  "droppable": false,
+  "tags": [],
+  "gameplayDesc": "Invoque un allié attaquant les ennemis proches.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 48,
+    "y": 25
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "index": 16,
+  "hasLevels": false,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 16
+}

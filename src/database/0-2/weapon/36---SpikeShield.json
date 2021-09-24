@@ -1,0 +1,36 @@
+{
+  "item": "SpikeShield",
+  "airControlAlways": false,
+  "isACancel": true,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.45,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {
+        "duration": 1.5
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "sfxHit": "sfx/weapon_shield_block3.wav",
+      "sfxCharge": "sfx/weapon_shield_charge.wav",
+      "power": [
+        95
+      ]
+    }
+  ],
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 36
+}

@@ -1,0 +1,112 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "movePauseMul": 0,
+    "moveSpeedMul": 2,
+    "directHitStunDuration": 1
+  },
+  "genTags": 544,
+  "glowOuterColor": 1776975,
+  "pfCost": 1.1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "ThunderShield",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "index": 42,
+  "volteDelay": 0.1,
+  "id": "Defender",
+  "dlc": "RiseOfTheGiant",
+  "weight": 10,
+  "icon": {
+    "x": 47,
+    "y": 73,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    30
+  ],
+  "name": "Défenseur",
+  "minPfHeight": 0,
+  "glowInnerColor": 8773375,
+  "minPfSize": 10,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "chargeAnim": "atkLoad",
+      "coolDown": 1.3,
+      "power": [
+        8
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "charge": 0.3,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atk",
+      "id": "cc",
+      "sfxRelease": "sfx/enm_defender_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "power2": 0.8,
+        "tick": 0.1,
+        "duration": 0.2
+      },
+      "allowInAir": false,
+      "radius": 13,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "shield",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3,
+      "props": {
+        "speed": 3,
+        "max": 10,
+        "triggerDistance": 6,
+        "duration": 1.1
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "id": "run",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 42
+}

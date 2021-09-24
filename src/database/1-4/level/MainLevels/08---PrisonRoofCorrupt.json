@@ -1,0 +1,85 @@
+{
+  "id": "PrisonRoofCorrupt",
+  "biome": "PrisonRoofCorrupt",
+  "mobs": [
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Arbiter",
+      "singleRoom": false,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 7,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 8,
+  "group": 0,
+  "name": "Toits corrompus",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": -1.5,
+    "viewerColor": 16768303,
+    "doorColor": 8792775,
+    "chromaColor": 16760576,
+    "musicIntro": "music/music4_intro.ogg",
+    "musicLoop": "music/music4_loop.ogg",
+    "zDoorColor": 2604944
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 0,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 3
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 8
+}

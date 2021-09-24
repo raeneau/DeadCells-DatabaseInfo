@@ -1,0 +1,24 @@
+{
+  "id": "P_Health",
+  "name": "Mort à l'intérieur",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.5,
+    "size": 6
+  },
+  "group": 12,
+  "gameplayDesc": "PV +::prct::%. La nourriture ne vous soigne plus. Votre barre de Mal-être est rallongée de +::size::.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 14
+  },
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 278
+}

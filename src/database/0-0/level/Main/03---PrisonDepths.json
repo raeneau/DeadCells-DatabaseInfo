@@ -1,0 +1,69 @@
+{
+  "name": "Profondeurs de la Prison",
+  "biome": "PrisonDepths",
+  "id": "PrisonDepths",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "singleRoom": false,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 4
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Hammer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1.5,
+  "group": 0,
+  "lootFlags": 0,
+  "goldBonus": 0.33,
+  "musicLoop": "music/music1_loop.ogg",
+  "specificLoots": [],
+  "viewerY": 0.5,
+  "eliteWanderChance": 0.15,
+  "eliteRoomChance": 0.7,
+  "doorColor": 11092735,
+  "index": 3,
+  "mobTier": 5,
+  "lootLevel": 5,
+  "chosenUps": 2,
+  "randomUps": 3,
+  "itemUps": 2,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Main",
+  "__original_Index": 3
+}

@@ -1,0 +1,85 @@
+{
+  "id": "OrbLauncher",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 10,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0,
+    "noContactAttack": true
+  },
+  "skill": [
+    {
+      "id": "launch",
+      "charge": 0.6,
+      "coolDown": 1.5,
+      "hitFrame": 5,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0.5,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 0,
+        "range": 15,
+        "tick": 0.1,
+        "stunTime": 3
+      },
+      "sfxCharge": "sfx/enm_orb_charge.wav",
+      "sfxRelease": "sfx/enm_orb_release.wav",
+      "power": [
+        25
+      ]
+    },
+    {
+      "id": "smokeBomb",
+      "charge": 0.25,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_orb_tprelease.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "FireBall"
+    }
+  ],
+  "index": 38,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 58,
+    "y": 21
+  },
+  "name": "Lanceur d'Orbe",
+  "glowInnerColor": 16580375,
+  "flesh1": 5660545,
+  "flesh2": 12303527,
+  "life": [
+    200
+  ],
+  "volteDelay": 0.25,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 38
+}

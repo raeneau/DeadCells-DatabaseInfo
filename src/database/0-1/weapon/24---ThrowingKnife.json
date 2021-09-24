@@ -1,0 +1,39 @@
+{
+  "item": "ThrowingKnife",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.1,
+      "coolDown": 0.25,
+      "lockCtrlAfter": 0,
+      "dynamicCharge": 0,
+      "animId": "throw",
+      "breachBonus": -1,
+      "props": {},
+      "hitFrame": 5,
+      "fxId": "fxThrow",
+      "fxFrame": 2,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "power": [
+        5
+      ],
+      "glowColor": 6386096,
+      "fxInnerColor": 6386096,
+      "fxOuterColor": 6386096,
+      "sfxRelease": "sfx/weapon_kunai_release.wav"
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 24
+}

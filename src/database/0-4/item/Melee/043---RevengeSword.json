@@ -1,0 +1,24 @@
+{
+  "id": "RevengeSword",
+  "name": "Désespoir",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [],
+  "ambiantDesc": "Une arme rouillée dont la puissance se révèle dans les moments difficiles.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE si vous avez subi des dégâts récemment.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 1
+  },
+  "cellCost": 30,
+  "moneyCost": 1400,
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 43
+}

@@ -1,0 +1,33 @@
+{
+  "id": "BloodShield",
+  "name": "Bouclier sanguinaire",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "dps": 20,
+    "duration": 3
+  },
+  "group": 6,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "Bleed"
+    }
+  ],
+  "gameplayDesc": "Inflige un Saignement (::+dps:: dégâts/sec pendant ::duration:: sec) quand vous bloquez un ennemi. Le saignement s'étend à tous les ennemis proches en cas de Parade réussie.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 1
+  },
+  "cellCost": 40,
+  "moneyCost": 2250,
+  "tier1": "Survival",
+  "hasLevels": true,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 92
+}

@@ -1,0 +1,78 @@
+{
+  "id": "Lancer",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 10,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.4,
+      "coolDown": 0.3,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -0.5,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 4
+      },
+      "power": [
+        7
+      ]
+    },
+    {
+      "id": "dash",
+      "charge": 1,
+      "coolDown": 3.5,
+      "hitFrame": 3,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 0.5,
+      "disableAnnounce": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 13,
+        "tick": 0.15
+      },
+      "manual": false,
+      "power": [
+        18
+      ]
+    }
+  ],
+  "genTags": 0,
+  "index": 55,
+  "group": 2,
+  "name": "Lancier",
+  "life": [
+    200
+  ],
+  "weight": 10,
+  "glowInnerColor": 16775594,
+  "glowOuterColor": 12339967,
+  "volteDelay": 0.8,
+  "flesh1": 6788729,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 59,
+    "y": 23
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 55
+}

@@ -1,0 +1,38 @@
+{
+  "id": "MultiCrossBow",
+  "name": "Arbalète à répétition",
+  "moneyCost": 1750,
+  "cellCost": 80,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 15
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 6
+  },
+  "gameplayDesc": "Tire de puissantes rafales de carreaux.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 74
+}

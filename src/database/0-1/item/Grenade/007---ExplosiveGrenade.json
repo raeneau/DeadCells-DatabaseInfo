@@ -1,0 +1,36 @@
+{
+  "id": "ExplosiveGrenade",
+  "name": "Grenade",
+  "castCD": 2.8,
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      80
+    ],
+    "range": 5.5
+  },
+  "group": 1,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    }
+  ],
+  "gameplayDesc": "Explose en infligeant ::+power:: dégâts.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 0
+  },
+  "cellCost": 0,
+  "moneyCost": 1000,
+  "index": 7,
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 7
+}

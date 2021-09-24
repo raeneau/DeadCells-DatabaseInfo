@@ -1,0 +1,124 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 6,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "power": [
+        30
+      ],
+      "animId": "atkRapierA",
+      "critMul": 1.6,
+      "glowColor": 7723159,
+      "fxInnerColor": 13107162,
+      "fxOuterColor": 1160343,
+      "fxId": "fxRapierA",
+      "sfxRelease": "sfx/weapon_rapier_release.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 0.5,
+        "offsetCaseX": 1,
+        "offsetCaseY": -0.5
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkRapierB",
+      "power": [
+        20
+      ],
+      "critMul": 1.1,
+      "glowColor": 7723159,
+      "fxInnerColor": 15007670,
+      "fxOuterColor": 1160343,
+      "fxId": "fxRapierB",
+      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 0.5,
+        "offsetCaseX": 1,
+        "offsetCaseY": 0.1
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkRapierB",
+      "glowColor": 7723159,
+      "fxInnerColor": 15007670,
+      "fxOuterColor": 1160343,
+      "power": [
+        20
+      ],
+      "critMul": 1.1,
+      "fxId": "fxRapierC",
+      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 0.5,
+        "offsetCaseX": 1,
+        "offsetCaseY": -0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkRapierB",
+      "glowColor": 7723159,
+      "fxInnerColor": 15007670,
+      "fxOuterColor": 1160343,
+      "power": [
+        20
+      ],
+      "critMul": 1.1,
+      "fxId": "fxRapierD",
+      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    }
+  ],
+  "item": "Rapier",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 26
+}

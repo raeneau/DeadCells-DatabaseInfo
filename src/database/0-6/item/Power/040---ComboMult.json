@@ -1,0 +1,31 @@
+{
+  "id": "ComboMult",
+  "name": "Bonus de points",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "SingleUse"
+    },
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {
+    "duration": 20,
+    "noAffix": true
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 11
+  },
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 40
+}

@@ -1,0 +1,73 @@
+{
+  "id": "Crypt",
+  "biome": "Crypt",
+  "viewerY": 1.5,
+  "mobs": [
+    {
+      "mob": "Spinner",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 9,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 7,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "packSize": 2
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 17,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "mobTier": 6,
+  "lootLevel": 5,
+  "chosenUps": 3,
+  "randomUps": 2,
+  "itemUps": 3,
+  "mobDensity": 1.15,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0.5,
+  "flags": 64,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 13,
+  "group": 0,
+  "name": "Sépulcre oublié",
+  "musicLoop": "music/crypt.ogg",
+  "doorColor": 10951708,
+  "viewerOffX": 2,
+  "cellBonus": 0.3,
+  "viewerColor": 4078514,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 13
+}

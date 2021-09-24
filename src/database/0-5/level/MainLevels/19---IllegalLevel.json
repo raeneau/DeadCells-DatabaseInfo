@@ -1,0 +1,40 @@
+{
+  "id": "IllegalLevel",
+  "biome": "Cemetery",
+  "viewerColor": 16711680,
+  "viewerOffX": 0,
+  "viewerY": 3,
+  "mobs": [
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "packSize": 2
+    }
+  ],
+  "lootLevel": 0,
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 64,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 19,
+  "group": 0,
+  "name": "Repos des architectes",
+  "musicLoop": "music/Cemetery.ogg",
+  "doorColor": 10951708,
+  "chromaColor": 10951708,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 25,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 19
+}

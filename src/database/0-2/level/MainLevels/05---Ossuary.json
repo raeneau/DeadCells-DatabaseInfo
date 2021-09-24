@@ -1,0 +1,87 @@
+{
+  "id": "Ossuary",
+  "biome": "Ossuary",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 0.3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 0.4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "maxCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Spawner",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "Shocker",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "SpikedSatyr",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1
+    }
+  ],
+  "mobDensity": 1.2,
+  "flags": 0,
+  "group": 0,
+  "name": "Charnier",
+  "lootFlags": 0,
+  "musicLoop": "music/Ossuary.ogg",
+  "goldBonus": 0.1,
+  "specificLoots": [],
+  "viewerY": 2.5,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "doorColor": 10951708,
+  "index": 5,
+  "mobTier": 5,
+  "lootLevel": 4,
+  "chosenUps": 1,
+  "randomUps": 3,
+  "itemUps": 2,
+  "viewerOffX": 0,
+  "cellBonus": 0.8,
+  "viewerColor": 10691344,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 5
+}

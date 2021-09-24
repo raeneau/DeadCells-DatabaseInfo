@@ -1,0 +1,214 @@
+{
+  "id": "GiantHand",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "fallResistance": 1,
+    "directHitStunChance": 0,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true,
+    "dmgSoftCap": [
+      0,
+      0.2
+    ],
+    "highlightOnKill": false
+  },
+  "skill": [
+    {
+      "id": "stomp",
+      "charge": 0.5,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 2,
+        "shockwavePower": [
+          8
+        ],
+        "move": 6
+      },
+      "power": [
+        17
+      ],
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_giant_stomp_hit.wav",
+      "sfxCharge": "sfx/enm_giant_stomp_charge.wav",
+      "sfxRelease": "sfx/enm_giant_stomp_release.wav"
+    },
+    {
+      "id": "doubleStomp",
+      "charge": 0.5,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 2,
+        "shockwavePower": [
+          8
+        ],
+        "move": 6
+      },
+      "power": [
+        20
+      ],
+      "sfxCharge": "sfx/enm_giant_stomp_charge.wav",
+      "sfxRelease": "sfx/enm_giant_stomp_release.wav",
+      "sfxHit": "sfx/enm_giant_stomp_hit.wav"
+    },
+    {
+      "id": "swipe",
+      "charge": 0.5,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 1,
+        "move": 6
+      },
+      "power": [
+        15
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_giant_swipe_charge.wav",
+      "sfxRelease": "sfx/enm_giant_rattle_loop.wav"
+    },
+    {
+      "id": "shootGrid",
+      "charge": 0.7,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true,
+        "speed": 8,
+        "move": 6
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/enm_giant_shoot_charge.wav",
+      "sfxRelease": "sfx/enm_giant_shoot_release.wav"
+    },
+    {
+      "id": "chargeSuper",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": true,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "sfxCharge": "sfx/enm_giant_super_charge_loop.wav",
+      "sfxRelease": "sfx/enm_giant_super_release.wav"
+    },
+    {
+      "id": "bulletHell",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true,
+        "speed": 9,
+        "move": 6
+      },
+      "power": [
+        15
+      ],
+      "sfxCharge": "sfx/enm_giant_hell_bullet_charge.wav"
+    },
+    {
+      "id": "stompHell",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 1.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 2,
+        "shockwavePower": [
+          8
+        ],
+        "move": 6
+      },
+      "power": [
+        17
+      ],
+      "sfxCharge": "sfx/enm_giant_hell_charge.wav"
+    }
+  ],
+  "genTags": 84,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 62,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 41,
+    "y": 21
+  },
+  "name": "La Main du Gigantus",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "life": [
+    800
+  ],
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 62
+}

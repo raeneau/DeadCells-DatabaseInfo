@@ -1,0 +1,43 @@
+{
+  "id": "StartBow",
+  "name": "Arc du fils du geolier",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "RustyItem"
+    }
+  ],
+  "props": {
+    "ammo": 6,
+    "sideHandOnly": true
+  },
+  "group": 5,
+  "ambiantDesc": "C'est le jouet du fils du geolier. On doit bien pouvoir tuer quelques trucs avec ça.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "gameplayDesc": "Les munitions reviennent quand vous achevez les ennemis.",
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 70
+}

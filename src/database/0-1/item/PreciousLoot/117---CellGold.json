@@ -1,0 +1,28 @@
+{
+  "id": "CellGold",
+  "name": "Cellule en or",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 20,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 0
+  },
+  "index": 117,
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 5
+  },
+  "gameplayDesc": "Une petite cellule en or d'une valeur de ::$power:: OR.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 117
+}

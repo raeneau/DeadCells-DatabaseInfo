@@ -1,0 +1,42 @@
+{
+  "item": "LongBow",
+  "strikeChain": [
+    {
+      "charge": 0.2,
+      "coolDown": 0.4,
+      "lockCtrlAfter": 0.2,
+      "power": [
+        30
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": -0.7,
+      "props": {
+        "range": 7
+      },
+      "hitFrame": 0,
+      "canCrit": true,
+      "critMul": 3,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16711680,
+      "fxInnerColor": 16711680,
+      "fxOuterColor": 16711680,
+      "sfxRelease": "sfx/bow_shot2.wav",
+      "sfxCharge": "sfx/bow_charge2.wav",
+      "animSpd": 4,
+      "animId": "longBow"
+    }
+  ],
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 37
+}

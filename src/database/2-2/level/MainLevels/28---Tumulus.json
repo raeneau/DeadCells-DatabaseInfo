@@ -1,0 +1,670 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "propsOuterGlow": 1213545,
+    "doorColor": 14085636,
+    "musicIntro": "music/default/Tumulus_intro.ogg",
+    "viewerColor": 6666220,
+    "musicLoop": "music/default/Tumulus_loop.ogg",
+    "zDoorColor": 59903,
+    "viewerY": -3,
+    "droneMusic": "music/default/Garden_underground.ogg",
+    "chromaColor": 65490,
+    "propsInnerGlow": 7303223,
+    "wind": 5,
+    "loadingDescColor": 14871551,
+    "loadingColor": 730418
+  },
+  "lootFlags": 0,
+  "biome": "Tumulus",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0,
+  "index": 28,
+  "id": "Tumulus",
+  "dlc": "FatalFalls",
+  "flags": 129,
+  "worldDepth": 4,
+  "icon": {
+    "x": 65,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "JavelinSnake",
+      "minDifficulty": 0,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inDoor": true
+      },
+      "spawnWith": [],
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "ClusterGrenader",
+      "minDifficulty": 2,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Mage360",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inDoor": true
+      },
+      "spawnWith": [],
+      "mob": "Zombie",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Archer",
+      "maxDifficulty": 3,
+      "minDifficulty": 0,
+      "quantityFactor": 0.55,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inDoor": false
+      },
+      "spawnWith": [],
+      "mob": "Shocker",
+      "minDifficulty": 1,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inDoor": false
+      },
+      "spawnWith": [],
+      "mob": "Hooker",
+      "minDifficulty": 4,
+      "quantityFactor": 0.35,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Grenader",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Bomber",
+      "minDifficulty": 3,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Temples barbares",
+  "mobDensity": 0.75,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 1,
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "Le roi tolérait tout juste ces temples dédiés à des croyances lointaines. Et \"tolérer\" était un grand mot."
+    },
+    {
+      "text": "On peut dire que les Sanctuaires fissurés sont devenus un vrai nid de vipères ces derniers temps..."
+    },
+    {
+      "text": "Comment les anciens ont-ils pu construire ces épées géantes avec leur technologie primitive ? Certains pensent qu'elles viennent d'au-delà des mers, d'autres regardent le ciel, affublés de chapeaux étranges."
+    },
+    {
+      "text": "La vue est magnifique, mais les habitants du coin sont, paraît-il, plutôt acariâtres avec les étrangers."
+    },
+    {
+      "text": "L'une des rares fois où un édit du Roi reçut l'approbation générale fut quand il repoussa le culte païen dans les zones sauvages de l'île."
+    },
+    {
+      "text": "Par souci de sécurité, le Roi interdit à ses sujets de s'aventurer dans les Sanctuaires fissurés. Une loi somme toute superflue vu que personne ne voulait y mettre les pieds."
+    },
+    {
+      "text": "Le Roi ne voulait pas que son peuple s'approche des Sanctuaires, les Païens ne voulaient pas que le peuple s'approche des Sanctuaires, le peuple ne voulait pas s'approcher des Sanctuaires..."
+    }
+  ],
+  "goldBonus": 0,
+  "parallax": [
+    {
+      "tileName": "",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "midDensity": 0.03,
+        "topDensity": 0.08,
+        "alpha": 0.1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_FrontClouds",
+      "color": 16741401,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 2,
+      "scrollY": 1.5
+    },
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": false,
+        "alpha": 0.3,
+        "flipY": true,
+        "disableInZDoor": true,
+        "customDepth": 15
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.2
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 0.7
+      },
+      "name": "TU_CavGradient",
+      "color": 16741401,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "TU_TopGradient",
+      "color": 16741401,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax5",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.55,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_BigSword",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.06,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax7",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0.2,
+      "pivotY": 0.2,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_TopCloud",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.4,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "bg/paralax8",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0.2,
+      "pivotY": 0.2,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_TopTOPCloud",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.3,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Godrays",
+      "color": 15067559,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/radialCorner",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.3
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1
+      },
+      "name": "TU_RadialGradient",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.05,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/paralax0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.55,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Sword1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.4,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.55,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Cliff1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.55,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Cliff2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.1,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 0.7
+      },
+      "name": "TU_TopGradient2",
+      "color": 1016732,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.6,
+      "pivotY": 0.75,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_FloatingIsland1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.05,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "bg/paralax4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.55,
+      "pivotY": 0.75,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_FloatingIsland2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.05,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": false,
+        "alpha": 0.5,
+        "flipY": true,
+        "disableInZDoor": true,
+        "customDepth": 15
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.5
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 0.7
+      },
+      "name": "TU_CavGradient2",
+      "color": 16770304,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/paralax6",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0.2,
+      "pivotY": 0.75,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Clouds",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.02,
+      "scrollY": 0.06
+    },
+    {
+      "tileName": "bg/clockMoon",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.25,
+        "levelY": 0.3
+      },
+      "pivotX": 0.55,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "TU_Sun",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0.02,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "bg/sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "TU_Sky",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.2
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 28
+}

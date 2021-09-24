@@ -1,0 +1,146 @@
+{
+  "id": "Castle",
+  "biome": "Castle",
+  "mobs": [
+    {
+      "mob": "CastleKnight",
+      "quantityFactor": 1.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "KingsFinger",
+      "quantityFactor": 0.3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Lancer",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Hooker",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Rampager",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Demon",
+      "quantityFactor": 0.7,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {},
+      "packSize": 2
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1.1,
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 17,
+  "group": 0,
+  "name": "Château de Haute-Cime",
+  "tripleUps": 1,
+  "doubleUps": 2,
+  "props": {
+    "numHallway": 3,
+    "viewerY": 1,
+    "viewerColor": 16768303,
+    "doorColor": 13542177,
+    "zDoorColor": 16050375,
+    "chromaColor": 16760576,
+    "musicIntro": "music/castle_intro.ogg",
+    "musicLoop": "music/castle_loop.ogg",
+    "loadingColor": 2821936,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [
+    {
+      "biome": "CastleAlchemy",
+      "zDoorColor": 371186
+    },
+    {
+      "biome": "CastleTorture",
+      "zDoorColor": 15996416
+    },
+    {
+      "biome": "CastleVegan",
+      "zDoorColor": 10742794
+    }
+  ],
+  "baseLootLevel": 6,
+  "worldDepth": 7,
+  "loreDescriptions": [
+    {
+      "text": "La garde royale, en restant enfermée en lieu sûr derrière les murs de Haute-Cime, aura mené l'île à sa perte."
+    },
+    {
+      "text": "Les hautes personnalités de l'île venaient dans ces murs pour échanger avec le Roi. Les visiteurs ont bien changé, dernièrement."
+    },
+    {
+      "text": "Le Roi a permis à l'Alchimiste d'établir ses quartiers dans une aile du château. C'était pendant la toute dernière retraite."
+    },
+    {
+      "text": "Haute-Cime est bien loin de sa gloire passée... Le dernier \"banquet\" qui y ait été célébré était à base de chair humaine."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 4
+  },
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 17
+}

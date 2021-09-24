@@ -1,0 +1,90 @@
+{
+  "id": "PirateChief",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 6,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "slash",
+      "charge": 0.7,
+      "coolDown": 1.5,
+      "hitFrame": 8,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 0.25,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "tick": 0.25,
+        "count": 3,
+        "stunTime": 0.5
+      },
+      "power": [
+        6
+      ],
+      "sfxCharge": "sfx/enm_comboter_charge.wav",
+      "sfxRelease": "sfx/enm_comboter_release.wav"
+    },
+    {
+      "id": "bomb",
+      "charge": 0.25,
+      "coolDown": 2,
+      "hitFrame": 14,
+      "lockAiAfter": 0.5,
+      "radius": 4,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDelay": 2,
+        "canTriggerThroughWall": false,
+        "distance": 20
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_pirate_shoot_charge.wav",
+      "sfxRelease": "sfx/enm_pirate_shot.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "HookWhip"
+    }
+  ],
+  "index": 30,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 17
+  },
+  "name": "Chef Pirate",
+  "glowInnerColor": 5752063,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    200
+  ],
+  "volteDelay": 0.5,
+  "weight": 20,
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 30
+}

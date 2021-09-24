@@ -1,0 +1,64 @@
+{
+  "id": "PrisonCorrupt",
+  "biome": "PrisonCorrupt",
+  "viewerColor": 7037069,
+  "viewerOffX": 0,
+  "viewerY": 3,
+  "mobs": [
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "lootLevel": 6,
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0.05,
+  "flags": 0,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 9,
+  "group": 0,
+  "name": "Prison corrompue",
+  "musicLoop": "music/DC_Prison.ogg",
+  "doorColor": 13780989,
+  "chromaColor": 16711793,
+  "zDoorColor": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 9,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 9
+}

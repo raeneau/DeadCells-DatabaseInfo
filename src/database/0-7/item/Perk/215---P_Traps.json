@@ -1,0 +1,24 @@
+{
+  "id": "P_Traps",
+  "name": "Peau dure",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.8
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 12
+  },
+  "gameplayDesc": "Réduit les dégâts infligés par les pièges de ::prct::%.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 215
+}

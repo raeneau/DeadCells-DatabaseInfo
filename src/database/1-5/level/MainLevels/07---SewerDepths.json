@@ -1,0 +1,145 @@
+{
+  "id": "SewerDepths",
+  "biome": "SewerOld",
+  "mobs": [
+    {
+      "mob": "Spiker",
+      "quantityFactor": 0.1,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Spiker",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "SewerTtcl",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 1,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.1,
+  "flags": 131080,
+  "group": 0,
+  "name": "Ancien réseau d'égouts",
+  "lootFlags": 0,
+  "goldBonus": 0.2,
+  "specificLoots": [],
+  "eliteWanderChance": 0.1,
+  "eliteRoomChance": 1,
+  "index": 7,
+  "cellBonus": 0,
+  "tripleUps": 3,
+  "doubleUps": 2,
+  "props": {
+    "viewerY": 2.5,
+    "viewerColor": 6123284,
+    "doorColor": 14208601,
+    "chromaColor": 16771840,
+    "musicLoop": "music/OldSewers.ogg",
+    "loadingColor": 2037019,
+    "zDoorColor": 324756,
+    "loadingDescColor": 10315204
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 2,
+  "loreDescriptions": [
+    {
+      "text": "Même les gardiens semblaient tout ignorer de l'existence de cette partie des égouts. Enfin... Possible aussi qu'ils aient tous préféré taire son existence."
+    },
+    {
+      "text": "Et toujours cette substance verdâtre, qui dégage une odeur pestinentielle."
+    },
+    {
+      "text": "La moisissure est omniprésente, les spores volent au fil de l'air. La parfaite combinaison pour un écosystème acceuillant."
+    },
+    {
+      "text": "Un jour, un tas de déchets s'est mis à grogner. Depuis, on a condamnée l'accès à cette partie des égoûts."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 43,
+    "y": 19
+  },
+  "quarterUpsBC3": 3,
+  "quarterUpsBC4": 2,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 7
+}

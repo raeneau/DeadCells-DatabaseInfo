@@ -1,0 +1,27 @@
+{
+  "id": "Money1",
+  "name": "Sauvetage de l'or I",
+  "moneyCost": 0,
+  "cellCost": 5,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.25,
+    "revealedAtStart": true,
+    "reqItem": "Flask1"
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 3
+  },
+  "gameplayDesc": "Vous conservez ::prct::% de votre or en mourrant.",
+  "index": 96,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 96
+}

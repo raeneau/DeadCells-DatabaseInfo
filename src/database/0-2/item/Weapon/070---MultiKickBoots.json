@@ -1,0 +1,30 @@
+{
+  "id": "MultiKickBoots",
+  "name": "Bottes de Hayabusa",
+  "moneyCost": 1600,
+  "cellCost": 80,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "SpecificBlueprintDrop"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {},
+  "index": 70,
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 7
+  },
+  "gameplayDesc": "Le dernier coup inflige des dégâts de zone et repousse les ennemis.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 70
+}

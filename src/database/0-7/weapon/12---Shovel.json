@@ -1,0 +1,105 @@
+{
+  "item": "Shovel",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "animId": "atkShovelA",
+      "power": [
+        65
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.7,
+      "props": {},
+      "hitFrame": 13,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 4,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "glowColor": 16776649,
+      "fxInnerColor": 16775890,
+      "fxOuterColor": 16726016,
+      "sfxRelease": "sfx/weapon_shovel_release1.wav",
+      "sfxHit": "sfx/weapon_shovel_hit.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelA",
+      "sfxCharge": "sfx/weapon_shovel_charge1.wav"
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "animId": "atkShovelB",
+      "power": [
+        45
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.5,
+      "props": {
+        "bump": 0.3
+      },
+      "hitFrame": 6,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 5,
+        "height": 0,
+        "offsetCaseX": -1,
+        "offsetCaseY": -1
+      },
+      "glowColor": 16776649,
+      "fxInnerColor": 16775890,
+      "fxOuterColor": 16726016,
+      "sfxRelease": "sfx/weapon_shovel_release2.wav",
+      "sfxHit": "sfx/weapon_shovel_hit.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelB",
+      "fxStartFrame": 4
+    },
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "animId": "atkShovelC",
+      "power": [
+        120
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 2,
+      "props": {
+        "duration": 1,
+        "bump": 1.2
+      },
+      "hitFrame": 9,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 6,
+        "height": 0,
+        "offsetCaseX": -2,
+        "offsetCaseY": -1
+      },
+      "glowColor": 16777215,
+      "fxInnerColor": 16757760,
+      "fxOuterColor": 16711680,
+      "sfxRelease": "sfx/weapon_shovel_release3.wav",
+      "sfxHit": "sfx/weapon_shovel_hit3.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelC",
+      "sfxCharge": "sfx/weapon_shovel_charge3.wav",
+      "fxStartFrame": 7
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 12
+}

@@ -1,0 +1,52 @@
+{
+  "id": "Bridge",
+  "biome": "Bridge",
+  "mobs": [],
+  "mobDensity": 0,
+  "flags": 8245,
+  "group": 0,
+  "name": "Pont noir",
+  "lootFlags": 17,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 7,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerColor": 1441839,
+    "doorColor": 2474441,
+    "chromaColor": 62719,
+    "musicLoop": "music/ambiant3.ogg",
+    "loadingColor": 1121065,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 3,
+  "loreDescriptions": [
+    {
+      "text": "Franchir les murailles de la prison est déjà un exploit en soit. Franchir le pont relève du miracle."
+    },
+    {
+      "text": "Il paraît que le directeur de la Prison était personnellement impliqué dans la garde du pont. Il paraît..."
+    },
+    {
+      "text": "Autrefois, le pont reliait le village à la prison, et n'était emprunté qu'à titre exceptionnel. Autrefois..."
+    },
+    {
+      "text": "On raconte que certains pêcheurs se sont approchés de la prison en contournant le pont par le fleuve, et ne sont jamais revenus."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 23
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 7
+}

@@ -1,0 +1,101 @@
+{
+  "id": "SewerDepths",
+  "biome": "SewerOld",
+  "mobs": [
+    {
+      "mob": "Spiker",
+      "quantityFactor": 0.1,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Spiker",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Fly",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 2,
+      "packSize": [
+        1,
+        3
+      ],
+      "props": {}
+    },
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    }
+  ],
+  "mobDensity": 1.1,
+  "flags": 8,
+  "group": 0,
+  "name": "Ancien réseau d'égouts",
+  "lootFlags": 0,
+  "musicLoop": "music/OldSewers.ogg",
+  "goldBonus": 0.1,
+  "specificLoots": [],
+  "viewerY": 2.5,
+  "eliteWanderChance": 0.1,
+  "eliteRoomChance": 1,
+  "doorColor": 14208601,
+  "index": 6,
+  "lootLevel": 3,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 6123284,
+  "chromaColor": 16771840,
+  "tripleUps": 2,
+  "doubleUps": 2,
+  "extraMobTier": 3,
+  "baseMobTier": 5,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 6
+}

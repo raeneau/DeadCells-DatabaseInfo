@@ -1,0 +1,37 @@
+{
+  "id": "LightningWhip",
+  "name": "Fouet électrique",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Electric"
+    },
+    {
+      "tag": "UtilityWeapon"
+    }
+  ],
+  "props": {},
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 5
+  },
+  "gameplayDesc": "Vise automatiquement les enemis proches.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 79
+}

@@ -1,0 +1,73 @@
+{
+  "id": "Cemetery",
+  "biome": "Cemetery",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Comboter",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 6
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "viewerY": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Cimetière du Val",
+  "musicLoop": "music/Cemetery.ogg",
+  "doorColor": 12914640,
+  "index": 10,
+  "mobTier": 8,
+  "lootLevel": 6,
+  "chosenUps": 1,
+  "randomUps": 2,
+  "itemUps": 2,
+  "zDoorColor": 3662064,
+  "viewerOffX": 0,
+  "cellBonus": 0.2,
+  "viewerColor": 9520018,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 10
+}

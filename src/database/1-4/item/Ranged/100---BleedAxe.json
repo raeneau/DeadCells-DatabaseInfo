@@ -1,0 +1,50 @@
+{
+  "id": "BleedAxe",
+  "name": "Ventrèche",
+  "moneyCost": 1750,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "AmmoComesBackImmediately"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 25,
+    "duration": 3,
+    "speed": 1.1,
+    "ammo": 5
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 13
+  },
+  "gameplayDesc": "Provoque {saignement@BL} (::+dps:: DPS pendant ::duration:: sec). Inflige un {coup critique@CC} si la cible {saigne@BL} ou est {empoisonnée@TO}.",
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 100
+}

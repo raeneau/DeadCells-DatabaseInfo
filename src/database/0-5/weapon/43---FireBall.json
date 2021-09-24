@@ -1,0 +1,157 @@
+{
+  "item": "FireBall",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.2,
+      "coolDown": 0.16,
+      "lockCtrlAfter": 0.1,
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "props": {
+        "range": 1,
+        "aoeDuration": 1,
+        "dps": [
+          30
+        ],
+        "scale": 0.5,
+        "duration": 1
+      },
+      "animId": "throw",
+      "fxId": "fxThrow",
+      "hitFrame": 4,
+      "power": [
+        30
+      ],
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 12655104,
+      "fxInnerColor": 16773773,
+      "fxOuterColor": 12655104,
+      "animSpd": 1,
+      "fxStartFrame": 1,
+      "sfxRelease": "sfx/weapon_fireball_release1.wav"
+    },
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 4,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "range": 1,
+        "aoeDuration": 1,
+        "dps": [
+          30
+        ],
+        "scale": 0.55,
+        "duration": 1
+      },
+      "animId": "throw",
+      "animSpd": 1,
+      "fxStartFrame": 1,
+      "glowColor": 12655104,
+      "fxInnerColor": 16773773,
+      "fxOuterColor": 12655104,
+      "power": [
+        20
+      ],
+      "fxId": "fxThrow",
+      "sfxRelease": "sfx/weapon_fireball_release2.wav"
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0.16,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 2,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "range": 2,
+        "aoeDuration": 1,
+        "dps": [
+          30
+        ],
+        "scale": 0.35,
+        "duration": 2
+      },
+      "animId": "throw",
+      "animSpd": 2,
+      "fxStartFrame": 1,
+      "fxId": "fxThrow",
+      "glowColor": 12655104,
+      "fxInnerColor": 16773773,
+      "fxOuterColor": 12655104,
+      "power": [
+        15
+      ],
+      "sfxRelease": "sfx/weapon_fireball_release2.wav"
+    },
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "props": {
+        "range": 4,
+        "aoeDuration": 5,
+        "dps": [
+          30
+        ],
+        "scale": 1.25,
+        "duration": 3
+      },
+      "animId": "atkFireballB",
+      "hitFrame": 8,
+      "fxId": "fxFireballB",
+      "power": [
+        65
+      ],
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16773773,
+      "fxInnerColor": 16773773,
+      "fxOuterColor": 12655104,
+      "animSpd": 1.5,
+      "fxStartFrame": 3,
+      "sfxCharge": "sfx/weapon_fireball_charge2.wav",
+      "sfxRelease": "sfx/weapon_fireball_release3.wav"
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 43
+}

@@ -1,0 +1,186 @@
+{
+  "id": "Demon",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 3,
+  "pfCost": 0.75,
+  "maxPerRoom": 5,
+  "maxPerPlatform": 3,
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.1,
+    "delay": 0.6,
+    "speed": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.7,
+      "lockAiAfter": 0.2,
+      "radius": 3.4,
+      "breachResistance": 0.25,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.5
+      },
+      "power": [
+        5
+      ],
+      "hitFrame": 5,
+      "manual": false,
+      "sfxCharge": "sfx/enm_demon_charge1.wav",
+      "sfxRelease": "sfx/enm_demon_cc1.wav",
+      "chargeAnim": "atkBLoad",
+      "execAnim": "atkB",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "chain1",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 5,
+      "lockAiAfter": 0.2,
+      "radius": 3.7,
+      "breachResistance": 0.25,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3
+      },
+      "power": [
+        5
+      ],
+      "chargeAnim": "atkCLoad",
+      "execAnim": "atkC",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1,
+      "disableAnnounceFx": true,
+      "sfxRelease": "sfx/enm_demon_cc1.wav"
+    },
+    {
+      "id": "chain2",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 5,
+      "lockAiAfter": 0.2,
+      "radius": 3.4,
+      "breachResistance": 0.25,
+      "disableAnnounceFx": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3
+      },
+      "chargeAnim": "atkBLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "execAnimSpd": 1,
+      "power": [
+        5
+      ],
+      "sfxRelease": "sfx/enm_demon_cc1.wav"
+    },
+    {
+      "id": "airShoot",
+      "charge": 0.5,
+      "coolDown": 0,
+      "hitFrame": 12,
+      "lockAiAfter": 0.1,
+      "radius": 0,
+      "breachResistance": -1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 1,
+        "triggerDistance": 6,
+        "ang": 0.37,
+        "lock": 3,
+        "count": 4,
+        "delay": 9
+      },
+      "chargeAnim": "atkALoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 0.5,
+      "power": [
+        5
+      ],
+      "sfxCharge": "sfx/enm_demon_shot_charge.wav",
+      "sfxRelease": "sfx/enm_demon_shot_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "fly",
+      "charge": 0.25,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.21,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "bump": 0.22,
+        "speed": 0.12,
+        "frict": 0.82,
+        "lock": 1.5,
+        "max": 25
+      },
+      "chargeAnim": "land",
+      "chargeAnimSpd": 1,
+      "execAnim": "rise",
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_demon_fly.wav"
+    }
+  ],
+  "genTags": 162,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "BulletBlade"
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 2,
+      "item": "PrisonerHyperlight"
+    }
+  ],
+  "metaItems": [],
+  "index": 44,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 23
+  },
+  "name": "Démon",
+  "glowInnerColor": 16777181,
+  "glowOuterColor": 16720384,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "life": [
+    150
+  ],
+  "volteDelay": 0.35,
+  "weight": 10,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 44
+}

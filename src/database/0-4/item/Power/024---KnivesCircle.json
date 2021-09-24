@@ -1,0 +1,44 @@
+{
+  "id": "KnivesCircle",
+  "name": "Danse des couteaux",
+  "castCD": 16,
+  "props": {
+    "power": [
+      5
+    ],
+    "duration": 4,
+    "dps": 40,
+    "count": 16
+  },
+  "group": 3,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "gameplayDesc": "Lance tout autour de vous des couteaux provoquant des Saignements pendant ::duration:: secondes (::+dps:: dégâts/sec).",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1000,
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 24
+}

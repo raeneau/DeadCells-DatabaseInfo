@@ -1,0 +1,26 @@
+{
+  "id": "P_CDR_Distance",
+  "name": "Inspiration du chasseur",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "actcdr": 0.3,
+    "scaledValueCap": 2.5,
+    "actcdrIncPerTier": 0.12
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 13
+  },
+  "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec pour chaque ennemi tué sans utiliser d'attaque au corps à corps.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 256
+}

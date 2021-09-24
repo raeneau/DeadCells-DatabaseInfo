@@ -1,0 +1,48 @@
+{
+  "id": "HorizontalTurret",
+  "group": 0,
+  "name": "Auto-balète double",
+  "props": {
+    "dps": [
+      45
+    ],
+    "effectCD": 0.4,
+    "targetable": true,
+    "life": 100,
+    "duration2": 0.09,
+    "count": 2
+  },
+  "castCD": 10,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "gameplayDesc": "Tire sur ::count:: ennemis proches à la fois, chaque tir infligeant ::+dps:: DPS.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 0
+  },
+  "cellCost": 15,
+  "moneyCost": 1750,
+  "tier1": "Tactic",
+  "legendAffix": "Pierce",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 0
+}

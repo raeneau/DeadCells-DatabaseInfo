@@ -1,0 +1,147 @@
+{
+  "id": "SpikedSatyr",
+  "score": 5,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 0.9,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "spikes",
+      "charge": 0,
+      "coolDown": 0,
+      "props": {},
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 0,
+      "power": [
+        12
+      ],
+      "manual": true,
+      "sfxRelease": "sfx/enm_satyr_shout.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "turnBack",
+      "charge": 0.8,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 2
+      },
+      "sfxCharge": "sfx/enm_satyr_turn_charge.wav",
+      "sfxRelease": "sfx/enm_satyr_shout.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "roll",
+      "charge": 0.7,
+      "coolDown": 5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -0.5,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 2,
+        "distance": 10
+      },
+      "power": [
+        25
+      ],
+      "sfxCharge": "sfx/enm_satyr_roll_charge2.wav",
+      "sfxRelease": "sfx/enm_satyr_roll_charge.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jumpBack",
+      "charge": 0.15,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 4
+      },
+      "sfxRelease": "sfx/enm_satyr_jumpback.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jumpOver",
+      "charge": 0.35,
+      "coolDown": 1.2,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 8
+      },
+      "sfxRelease": "sfx/jump1b.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "SpikedBoots",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "CeilTurret",
+      "minDifficulty": 0
+    }
+  ],
+  "index": 18,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 5
+  },
+  "name": "Epineux",
+  "glowInnerColor": 11197250,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    125
+  ],
+  "volteDelay": 0.8,
+  "weight": 10,
+  "maxPerPlatform": 1,
+  "glowOuterColor": 16731469,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 18
+}

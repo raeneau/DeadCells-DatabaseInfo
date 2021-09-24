@@ -1,0 +1,97 @@
+{
+  "id": "KunaiMaster",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "pfCost": 2,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "firstShot",
+      "charge": 0.6,
+      "coolDown": 1,
+      "hitFrame": 7,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.7,
+        "canTriggerThroughWall": true,
+        "count": 3
+      },
+      "power": 3
+    },
+    {
+      "id": "quickShot",
+      "charge": 0.03,
+      "coolDown": 0,
+      "hitFrame": 7,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.7,
+        "canTriggerThroughWall": true
+      },
+      "power": 3
+    },
+    {
+      "id": "flee",
+      "charge": 0.1,
+      "coolDown": 0.4,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 4,
+        "speed": 0.85
+      }
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 54,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 1
+  },
+  "name": "Lanceur de couteaux",
+  "glowInnerColor": 16646038,
+  "glowOuterColor": 16723200,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.1,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 54
+}

@@ -1,0 +1,26 @@
+{
+  "id": "PrisonerCloth",
+  "name": "Collier de prisonnier",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {},
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 4
+  },
+  "ambiantDesc": "Rien de notable, si ce n'est une odeur persistante de rat crevé.",
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 95
+}

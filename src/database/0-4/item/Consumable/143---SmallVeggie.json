@@ -1,0 +1,29 @@
+{
+  "id": "SmallVeggie",
+  "name": "Carotte",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "duration": 1.5,
+    "prct": 0.15
+  },
+  "group": 10,
+  "tags": [
+    {
+      "tag": "SmallHealConsumable"
+    }
+  ],
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 4
+  },
+  "cellCost": 0,
+  "moneyCost": 200,
+  "hasLevels": false,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 143
+}

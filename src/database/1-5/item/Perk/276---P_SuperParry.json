@@ -1,0 +1,24 @@
+{
+  "id": "P_SuperParry",
+  "name": "Vindicte",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 120
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 12
+  },
+  "gameplayDesc": "Les parades réussies et les tirs renvoyés infligent ::+power:: dégâts.",
+  "tier1": "Survival",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 276
+}

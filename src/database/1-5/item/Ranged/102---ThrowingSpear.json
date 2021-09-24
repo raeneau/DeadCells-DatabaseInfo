@@ -1,0 +1,59 @@
+{
+  "id": "ThrowingSpear",
+  "name": "Javelot de guerre",
+  "moneyCost": 1250,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 1,
+    "power2": [
+      90
+    ],
+    "speed": 1.8,
+    "duration": 10,
+    "duration2": 0.5
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 12
+  },
+  "gameplayDesc": "Empale tous les ennemis sur son passage. S'ils sont proches d'un mur, ils subissent ::+power2:: dégâts supplémentaires. L'arme doit être ramassée (sinon elle revient après ::duration:: sec).",
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 102
+}

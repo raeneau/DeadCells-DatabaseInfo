@@ -1,0 +1,30 @@
+{
+  "id": "T_TopClockTower",
+  "biome": "ClockTower",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 1536,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 38,
+  "group": 1,
+  "transitionTo": "TopClockTower",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 14,
+  "props": {
+    "musicLoop": "music/dc_colletor2.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 5,
+  "loreDescriptions": [],
+  "name": "Passage vers la Salle de l'Horloge",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 38
+}

@@ -1,0 +1,60 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.5,
+    "directHitStunChance": 1
+  },
+  "genTags": 514,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "index": 99,
+  "volteDelay": 0.3,
+  "id": "BuriedBat",
+  "weight": 5,
+  "icon": {
+    "x": 43,
+    "y": 27,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    40
+  ],
+  "name": "Oiseau des sables",
+  "minPfHeight": 0,
+  "glowInnerColor": 7819992,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 1,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "skill": [
+    {
+      "coolDown": 0.25,
+      "power": [
+        5
+      ],
+      "props": {
+        "duration": 3
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.6,
+      "manual": false,
+      "id": "shoot",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -10,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 99
+}

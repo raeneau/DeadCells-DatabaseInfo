@@ -1,0 +1,88 @@
+{
+  "id": "S_SewerShort",
+  "biome": "Sewer",
+  "viewerColor": 6276947,
+  "viewerOffX": 0,
+  "viewerY": 0.5,
+  "mobs": [
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1.05,
+  "eliteWanderChance": 0.7,
+  "eliteRoomChance": 0.05,
+  "flags": 8,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "index": 59,
+  "group": 4,
+  "name": "Egouts toxiques",
+  "musicLoop": "music/Sewers.ogg",
+  "doorColor": 9423400,
+  "chromaColor": 10682112,
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "baseMobTier": 2,
+  "props": {},
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 59
+}

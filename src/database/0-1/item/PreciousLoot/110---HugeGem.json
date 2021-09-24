@@ -1,0 +1,28 @@
+{
+  "id": "HugeGem",
+  "name": "Rubis",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "power": 1500,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 3
+  },
+  "group": 9,
+  "tags": [],
+  "gameplayDesc": "Une pierre précieuse d'une pureté rarissime, qui vous rapportera la bagatelle de ::$power:: OR !",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 110,
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 110
+}

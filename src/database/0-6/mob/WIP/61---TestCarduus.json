@@ -1,0 +1,109 @@
+{
+  "id": "TestCarduus",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 9,
+  "pfCost": 2,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 3,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.2,
+      "hitFrame": 1,
+      "lockAiAfter": 0,
+      "radius": 1.7,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        11
+      ]
+    },
+    {
+      "id": "heavy",
+      "charge": 0.85,
+      "coolDown": 1,
+      "hitFrame": 1,
+      "lockAiAfter": 0,
+      "radius": 1.8,
+      "breachResistance": 0.8,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        22
+      ]
+    },
+    {
+      "id": "crawl",
+      "charge": 0.03,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "chance": 0.6
+      }
+    },
+    {
+      "id": "jumpBack",
+      "charge": 0.15,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 7
+      }
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 61,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 4
+  },
+  "name": "Test Thomas",
+  "glowInnerColor": 16646038,
+  "glowOuterColor": 16723200,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.5,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 61
+}

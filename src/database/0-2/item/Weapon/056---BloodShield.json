@@ -1,0 +1,36 @@
+{
+  "id": "BloodShield",
+  "name": "Bouclier sanguinaire",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "dps": 20,
+    "duration": 3
+  },
+  "group": 4,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Bleed"
+    }
+  ],
+  "gameplayDesc": "Bloque les attaques, tout  en infligeant des Saignements (::+dps:: dégâts/sec pendant ::duration:: sec) à tous les ennemis proches.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 1
+  },
+  "cellCost": 40,
+  "moneyCost": 2250,
+  "index": 56,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 56
+}

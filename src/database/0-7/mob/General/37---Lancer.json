@@ -1,0 +1,154 @@
+{
+  "id": "Lancer",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 6,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0,
+    "range": 7
+  },
+  "skill": [
+    {
+      "id": "cc1",
+      "charge": 0.6,
+      "coolDown": 3,
+      "hitFrame": 13,
+      "lockAiAfter": 0.1,
+      "radius": 0,
+      "breachResistance": 0.7,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        7
+      ],
+      "sfxCharge": "sfx/enm_lancer_charge1.wav",
+      "sfxRelease": "sfx/enm_lancer_release1.wav"
+    },
+    {
+      "id": "cc2",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 0.1,
+      "radius": 0,
+      "breachResistance": 0.6,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        7
+      ],
+      "sfxRelease": "sfx/enm_lancer_release1.wav",
+      "sfxCharge": "sfx/enm_lancer_charge2.wav"
+    },
+    {
+      "id": "cc3",
+      "charge": 0.4,
+      "coolDown": 0,
+      "hitFrame": 13,
+      "lockAiAfter": 1,
+      "radius": 0,
+      "breachResistance": 0.6,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        7
+      ],
+      "sfxRelease": "sfx/enm_lancer_release1.wav",
+      "sfxCharge": "sfx/enm_lancer_charge2.wav"
+    },
+    {
+      "id": "ccBot",
+      "charge": 1,
+      "coolDown": 2,
+      "hitFrame": 4,
+      "lockAiAfter": 0.4,
+      "radius": 0,
+      "breachResistance": 0.3,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/enm_lancer_release1.wav",
+      "sfxCharge": "sfx/enm_lancer_charge3.wav"
+    },
+    {
+      "id": "ccTop",
+      "charge": 1,
+      "coolDown": 2,
+      "hitFrame": 5,
+      "lockAiAfter": 0.4,
+      "radius": 0,
+      "breachResistance": 0.3,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/enm_lancer_release1.wav",
+      "sfxCharge": "sfx/enm_lancer_charge3.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "QuickFists"
+    }
+  ],
+  "index": 37,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 59,
+    "y": 23
+  },
+  "name": "Lancier",
+  "glowInnerColor": 16775594,
+  "glowOuterColor": 12339967,
+  "flesh1": 6788729,
+  "life": [
+    150
+  ],
+  "volteDelay": 0.8,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 37
+}

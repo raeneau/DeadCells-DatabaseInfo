@@ -1,0 +1,47 @@
+{
+  "props": {
+    "targetable": true,
+    "dps": 9,
+    "life": 150,
+    "effectCD": 0,
+    "duration": 2,
+    "aoeDuration": 2
+  },
+  "gameplayDesc": "{Brûle@FI} les ennemis proches (::+dps:: DPS sur ::duration:: sec).",
+  "moneyCost": 1500,
+  "group": 0,
+  "castCD": 12,
+  "id": "FireTurret",
+  "icon": {
+    "x": 3,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tourelle lance-flammes",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "cellCost": 30,
+  "legendAffix": "DeployedDmg",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 4
+}

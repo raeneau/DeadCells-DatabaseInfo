@@ -1,0 +1,91 @@
+{
+  "id": "Worm",
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.2
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.7,
+      "lockAiAfter": 0.1,
+      "radius": 1,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        10
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_leech_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "egg",
+      "charge": 0,
+      "coolDown": 0,
+      "lockAiAfter": 0,
+      "radius": 1.8,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 6,
+        "triggerDelay": 1.25
+      },
+      "power": [
+        10
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_leech_egg_charge.wav"
+    }
+  ],
+  "index": 20,
+  "group": 0,
+  "weight": 20,
+  "shards": 0,
+  "life": [
+    150
+  ],
+  "genTags": 0,
+  "minPfSize": 8,
+  "name": "Ver dégoutant",
+  "score": 3,
+  "maxPerRoom": 0,
+  "canBeElite": true,
+  "glowInnerColor": 16777215,
+  "glowOuterColor": 9896191,
+  "volteDelay": 0.2,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "pfCost": 1.7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 45,
+    "y": 13
+  },
+  "blueprints": [
+    {
+      "item": "SideBomb",
+      "rarity": "Rare"
+    },
+    {
+      "item": "Whip",
+      "rarity": "Rare"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 20
+}

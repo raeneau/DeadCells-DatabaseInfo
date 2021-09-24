@@ -1,0 +1,28 @@
+{
+  "id": "P_AmmoOnHit",
+  "name": "Arrachage",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "minPerks": 0,
+    "count": 3,
+    "power": [
+      95
+    ]
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 10
+  },
+  "gameplayDesc": "Toucher au corps à corps un ennemi fait tomber jusqu'à ::count:: flèches plantées sur lui, chacune infligeant ::+power:: dégâts.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 263
+}

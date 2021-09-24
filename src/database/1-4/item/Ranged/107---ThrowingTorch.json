@@ -1,0 +1,44 @@
+{
+  "id": "ThrowingTorch",
+  "name": "Torches de lancer",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 19,
+    "duration": 3,
+    "aoeDuration": 3,
+    "speed": 0.75,
+    "distance": 3
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 6
+  },
+  "gameplayDesc": "{Brûle@FI} les ennemis et le sol (::+dps:: DPS pendant ::duration:: sec).",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "legendAffix": "FireDamage",
+  "ambiantDesc": "Allumer le feu !",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 107
+}

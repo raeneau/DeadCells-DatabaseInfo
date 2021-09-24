@@ -1,0 +1,24 @@
+{
+  "id": "SpeedBlade",
+  "name": "Epée de promptitude",
+  "moneyCost": 1750,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 7
+  },
+  "gameplayDesc": "Inflige un COUP CRITIQUE si vous bénéficiez d'un mouvement accéléré.",
+  "ambiantDesc": "Prendre son temps ? Quel blague. Frapper vite et fort, voilà la recette qui marche.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 52
+}

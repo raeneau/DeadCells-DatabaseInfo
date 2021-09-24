@@ -1,0 +1,27 @@
+{
+  "id": "P_DmgKill",
+  "name": "Enchaînement",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 90,
+    "effectCD": 0.33,
+    "duration": 15
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 9
+  },
+  "gameplayDesc": " +::+dps:: DPS sur ::duration:: sec après avoir tué un ennemi.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 190
+}

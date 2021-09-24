@@ -1,0 +1,27 @@
+{
+  "id": "CourtyardKey",
+  "name": "Clé du jardinier",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Key"
+    }
+  ],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 8,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 10
+  },
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 111
+}

@@ -1,0 +1,35 @@
+{
+  "id": "HoldShield",
+  "name": "Bouclier de première ligne",
+  "moneyCost": 800,
+  "cellCost": 5,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {
+    "prct": 0.9
+  },
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 7
+  },
+  "gameplayDesc": "Absorbe plus de dégâts. {Parade@PA} impossible.",
+  "tier1": "Survival",
+  "tier2": "Brutality",
+  "hasLevels": false,
+  "legendAffix": "QuadDamageFree",
+  "legendaryName": "Surprise",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 103
+}

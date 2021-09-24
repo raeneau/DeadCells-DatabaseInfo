@@ -1,0 +1,39 @@
+{
+  "id": "ExplosiveGrenade",
+  "name": "Grenade puissante",
+  "castCD": 15,
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      70
+    ],
+    "range": 7
+  },
+  "group": 1,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    }
+  ],
+  "gameplayDesc": "Provoque une large explosion.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1250,
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "tier2": "Survival",
+  "legendAffix": "DeathExplosion",
+  "legendaryName": "Dévastation",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 12
+}

@@ -1,0 +1,30 @@
+{
+  "id": "OilSword",
+  "name": "Epée huileuse",
+  "droppable": true,
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Oil"
+    }
+  ],
+  "gameplayDesc": "Applique de l'huile inflammable aux victimes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 2
+  },
+  "cellCost": 25,
+  "moneyCost": 2000,
+  "index": 70,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 70
+}

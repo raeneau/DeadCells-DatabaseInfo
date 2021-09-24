@@ -1,0 +1,110 @@
+{
+  "id": "Defender",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 10,
+  "pfCost": 1.1,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0,
+    "cannotBeShield": true,
+    "directHitStunDuration": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.3,
+      "coolDown": 1.3,
+      "power": [
+        8
+      ],
+      "radius": 3,
+      "props": {},
+      "lockAiAfter": 0.3,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxRelease": "sfx/enm_defender_release.wav",
+      "disableAnnounceFx": false,
+      "chargeAnim": "atkLoad",
+      "execAnim": "atk",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1
+    },
+    {
+      "id": "shield",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 13,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.2,
+        "tick": 0.1,
+        "power2": 0.8
+      },
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "run",
+      "charge": 0,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 1.1,
+        "speed": 3,
+        "triggerDistance": 6,
+        "max": 10
+      },
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 32,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "ThunderShield"
+    }
+  ],
+  "metaItems": [],
+  "index": 42,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 73
+  },
+  "name": "Défenseur",
+  "glowInnerColor": 8773375,
+  "glowOuterColor": 1776975,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    30
+  ],
+  "volteDelay": 0.1,
+  "weight": 10,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 42
+}

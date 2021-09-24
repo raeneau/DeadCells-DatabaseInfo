@@ -1,0 +1,34 @@
+{
+  "id": "LeechBuff",
+  "name": "Vampirisme",
+  "moneyCost": 2500,
+  "cellCost": 45,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 25,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    }
+  ],
+  "props": {
+    "duration": 10,
+    "prct": 0.75,
+    "power": 1
+  },
+  "index": 21,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 6
+  },
+  "gameplayDesc": "Vous récupérez ::+power:: PV par coup que vous portez au corps à corps pendant ::duration:: sec. Vous subissez également +::prct::% dégâts supplémentaires pendant cette période.",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 21
+}

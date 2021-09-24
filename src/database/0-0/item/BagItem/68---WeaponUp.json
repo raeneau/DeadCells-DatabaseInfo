@@ -1,0 +1,26 @@
+{
+  "id": "WeaponUp",
+  "name": "Force +1",
+  "droppable": false,
+  "hasTier": false,
+  "castCD": 0,
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 6,
+  "tags": [],
+  "gameplayDesc": "Augmente les dégâts des armes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 1250,
+  "index": 68,
+  "hasLevels": false,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 68
+}

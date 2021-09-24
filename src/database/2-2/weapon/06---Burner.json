@@ -1,0 +1,152 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Burner",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 16773775,
+        "fxStartFrame": 0,
+        "fxOuterColor": 16731904
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 1,
+        "aoeDuration": 2
+      },
+      "breachBonus": 0.8,
+      "dynamicCharge": 0,
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_torch_release.wav",
+      "fxId": "fxTorchAtkA",
+      "animId": "atkTorchA",
+      "sfxHit": "sfx/hit_fire.wav",
+      "hitFrame": 7,
+      "glowColor": 16717312,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxInnerColor": 16773775,
+        "fxStartFrame": 0,
+        "fxOuterColor": 16731904
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 2,
+        "aoeDuration": 2
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "charge": 0.32,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3.6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 3.7,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_burner_release2.wav",
+      "fxId": "fxTorchAtkB",
+      "animId": "atkTorchB",
+      "sfxHit": "sfx/hit_fire.wav",
+      "hitFrame": 19,
+      "glowColor": 16717312,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "fxProps": {
+        "fxInnerColor": 16773775,
+        "fxStartFrame": 0,
+        "fxOuterColor": 16731904
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 2,
+        "aoeDuration": 5
+      },
+      "breachBonus": 0.8,
+      "dynamicCharge": 0,
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_torch_release.wav",
+      "fxId": "fxTorchAtkA",
+      "animId": "atkTorchA",
+      "sfxHit": "sfx/hit_fire.wav",
+      "hitFrame": 7,
+      "glowColor": 16717312,
+      "animSpd": 1.66
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        55
+      ],
+      "fxProps": {
+        "fxInnerColor": 16773775,
+        "fxStartFrame": 0,
+        "fxOuterColor": 16731904
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "range": 4,
+        "aoeDuration": 6
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "charge": 0.39,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3.6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 3.7,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_burner_release2.wav",
+      "fxId": "fxTorchAtkB",
+      "animId": "atkTorchB",
+      "sfxHit": "sfx/hit_fire.wav",
+      "hitFrame": 19,
+      "glowColor": 16717312,
+      "animSpd": 1.66
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 6
+}

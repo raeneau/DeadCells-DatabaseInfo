@@ -1,0 +1,92 @@
+{
+  "id": "Scorpio",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 6,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.8,
+      "power": [
+        20
+      ],
+      "radius": 1.2,
+      "props": {
+        "duration": 3,
+        "dps": 4
+      },
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_scorpion_charge1.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "shoot",
+      "charge": 0.7,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 1.5,
+        "dps": 4
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_scorpion_charge2.wav",
+      "sfxRelease": "sfx/enm_zmb_shot.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 8,
+  "group": 0,
+  "name": "Scorpion",
+  "glowInnerColor": 16770433,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    100
+  ],
+  "volteDelay": 0.6,
+  "weight": 10,
+  "glowOuterColor": 16329772,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 52,
+    "y": 12
+  },
+  "blueprints": [
+    {
+      "item": "Rapier",
+      "rarity": "Rare"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 8
+}

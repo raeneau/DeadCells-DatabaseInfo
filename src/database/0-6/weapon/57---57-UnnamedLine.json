@@ -1,0 +1,10 @@
+{
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 57
+}

@@ -1,0 +1,44 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "power": [
+        12
+      ],
+      "dynamicCharge": 3,
+      "breachBonus": 0,
+      "props": {
+        "count": 4,
+        "fullCharge": 0.9,
+        "bump": 0.3,
+        "duration": 1
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16749056,
+      "fxInnerColor": 16749056,
+      "fxOuterColor": 16749056,
+      "sfxCharge": "sfx/weapon_icecrossbow_charge.wav",
+      "sfxRelease": "sfx/weapon_icecrossbow_release.wav",
+      "critMul": 1.6,
+      "animSpd": 0.9
+    }
+  ],
+  "item": "FrostCrossBow",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 28
+}

@@ -1,0 +1,107 @@
+{
+  "item": "Shovel",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.45,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "animId": "atkShovelA",
+      "power": [
+        60
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.7,
+      "props": {},
+      "hitFrame": 13,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 4,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "glowColor": 16776649,
+      "fxInnerColor": 16775890,
+      "fxOuterColor": 16726016,
+      "sfxRelease": "sfx/weapon_broadsword_release1.wav",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge1.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelA",
+      "fxFrame": 12
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "animId": "atkShovelB",
+      "power": [
+        40
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.5,
+      "props": {
+        "bump": 0.3
+      },
+      "hitFrame": 6,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 5,
+        "height": 0,
+        "offsetCaseX": -1,
+        "offsetCaseY": -1
+      },
+      "glowColor": 16776649,
+      "fxInnerColor": 16775890,
+      "fxOuterColor": 16726016,
+      "sfxRelease": "sfx/weapon_broadsword_release2.wav",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge2.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelB",
+      "fxFrame": 5
+    },
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.4,
+      "animId": "atkShovelC",
+      "power": [
+        110
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 2,
+      "props": {
+        "duration": 1,
+        "bump": 1.2
+      },
+      "hitFrame": 9,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 6,
+        "height": 0,
+        "offsetCaseX": -2,
+        "offsetCaseY": -1
+      },
+      "glowColor": 16777215,
+      "fxInnerColor": 16757760,
+      "fxOuterColor": 16711680,
+      "sfxRelease": "sfx/weapon_broadsword_release3.wav",
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_broadsword_charge3.wav",
+      "animSpd": 1,
+      "fxId": "fxShovelC",
+      "fxFrame": 8
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 12
+}

@@ -1,0 +1,25 @@
+{
+  "id": "KingsBlade",
+  "name": "Tueuse de géants",
+  "moneyCost": 4500,
+  "cellCost": 100,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 11
+  },
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "gameplayDesc": "Inflige un COUP CRITIQUE si la victime est un Elite ou un Boss.",
+  "ambiantDesc": "Même pas peur.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 54
+}

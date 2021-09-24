@@ -1,0 +1,53 @@
+{
+  "id": "Giant",
+  "biome": "Giant",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 8192,
+  "lootFlags": 19,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 18,
+  "group": 0,
+  "name": "Repaire du Gardien",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 2.5,
+    "viewerColor": 3425097,
+    "musicLoop": "music/ambiant5.ogg",
+    "chromaColor": 51199,
+    "doorColor": 2409897,
+    "zDoorColor": 2538921,
+    "loadingColor": 399638,
+    "loadingDescColor": 12657264
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 7,
+  "worldDepth": 6,
+  "loreDescriptions": [
+    {
+      "text": "Le Géant venait régulièrement se ressourcer au fond de la Caverne, rien ne vaut une bon bain de lave."
+    },
+    {
+      "text": "Le Géant n'aimait pas la Main du Roi et la Main du Roi n'aimait pas le Géant. Mais ils s'accordaient sur un point : personne n'aimait l'Alchimiste."
+    },
+    {
+      "text": "On raconte que parfois on pouvait entendre des sanglots au fond de cet antre. Le Géant semblait être quelqu'un de sensible..."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 64,
+    "y": 3
+  },
+  "quarterUpsBC3": 3,
+  "quarterUpsBC4": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 18
+}

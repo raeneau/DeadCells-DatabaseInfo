@@ -1,0 +1,84 @@
+{
+  "props": {
+    "delay": 0
+  },
+  "genTags": 32,
+  "glowOuterColor": 16587804,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "P_InvisibilityOnKill",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 51,
+  "id": "TimeKeeperBot",
+  "weight": 5,
+  "icon": {
+    "x": 39,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    80
+  ],
+  "name": "Gardienne Mécanique",
+  "minPfHeight": 0,
+  "glowInnerColor": 16754944,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 14803425,
+  "flesh2": 6908265,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": [
+        11
+      ],
+      "props": {
+        "speed": 5,
+        "distance": 15
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_timebot_charge.wav",
+      "charge": 0.9,
+      "manual": true,
+      "id": "dash",
+      "sfxRelease": "sfx/enm_timebot_release.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/active_slash_hit.wav",
+      "hitFrame": 20,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": false,
+      "radius": 30,
+      "allowSameSkillNearby": false,
+      "charge": 0.8,
+      "manual": true,
+      "id": "smokeBomb",
+      "sfxRelease": "sfx/enm_timebot_smoke.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": -1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 51
+}

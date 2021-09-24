@@ -1,0 +1,36 @@
+{
+  "id": "Hook",
+  "name": "Grappin",
+  "moneyCost": 1750,
+  "cellCost": 35,
+  "droppable": true,
+  "castCD": 3,
+  "tags": [
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "props": {
+    "distance": 10,
+    "power": 1,
+    "duration": 1,
+    "prct": 0.6
+  },
+  "index": 24,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 5
+  },
+  "gameplayDesc": "Attire un ennemi à vous. La prochaine attaque de corps à corps contre la victime inflige ::prct::% dégâts supplémentaires.",
+  "ambiantDesc": "Oui, comme Scorpion dans Mortal Kombat.",
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 24
+}

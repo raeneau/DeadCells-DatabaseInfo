@@ -1,0 +1,96 @@
+{
+  "item": "StunMace",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "animId": "AtkHammerA",
+      "power": [
+        50
+      ],
+      "fxId": "fxHammerA",
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {},
+      "hitFrame": 12,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 5,
+        "height": 0,
+        "offsetCaseY": -0.15,
+        "offsetCaseX": 0
+      },
+      "glowColor": 16187230,
+      "fxInnerColor": 65422,
+      "fxOuterColor": 36803,
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
+      "sfxRelease": "sfx/weapon_stunmace_release1.wav"
+    },
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "animId": "AtkHammerB",
+      "power": [
+        45
+      ],
+      "fxId": "fxAtkBroadSwordA",
+      "dynamicCharge": 0,
+      "breachBonus": 0.5,
+      "props": {},
+      "hitFrame": 11,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 3.1,
+        "height": 0,
+        "offsetCaseY": -0.5,
+        "offsetCaseX": 0.5
+      },
+      "glowColor": 16187230,
+      "fxInnerColor": 65422,
+      "fxOuterColor": 36803,
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_stunmace_charge2.wav",
+      "sfxRelease": "sfx/weapon_stunmace_release2.wav"
+    },
+    {
+      "charge": 0.5,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.4,
+      "animId": "AtkHammerC",
+      "power": [
+        120
+      ],
+      "fxId": "fxHammerC",
+      "dynamicCharge": 0,
+      "breachBonus": 2,
+      "props": {},
+      "hitFrame": 15,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 4.5,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": -1
+      },
+      "glowColor": 15204190,
+      "fxInnerColor": 16740352,
+      "fxOuterColor": 14876672,
+      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxCharge": "sfx/weapon_stunmace_charge3.wav",
+      "sfxRelease": "sfx/weapon_stunmace_release3.wav"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 15
+}

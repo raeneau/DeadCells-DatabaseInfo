@@ -1,0 +1,26 @@
+{
+  "id": "P_DmgFirstHit",
+  "name": "Initiative",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": [
+      100
+    ]
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 15
+  },
+  "gameplayDesc": "La première attaque au corps à corps contre un ennemi inflige +::+power:: dommages.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 262
+}

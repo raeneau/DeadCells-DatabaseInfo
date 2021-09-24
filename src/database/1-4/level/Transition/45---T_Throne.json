@@ -1,0 +1,32 @@
+{
+  "id": "T_Throne",
+  "biome": "Throne",
+  "mobs": [],
+  "props": {
+    "viewerY": 1,
+    "musicLoop": "music/dc_colletor2.ogg",
+    "perfectKillsDoor": 1,
+    "zDoorColor": 389769
+  },
+  "specificSubBiome": [],
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 45,
+  "group": 1,
+  "transitionTo": "Throne",
+  "baseLootLevel": 5,
+  "worldDepth": 7,
+  "loreDescriptions": [],
+  "name": "Passage vers la Salle du trône",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 45
+}

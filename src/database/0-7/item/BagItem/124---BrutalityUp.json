@@ -1,0 +1,29 @@
+{
+  "id": "BrutalityUp",
+  "name": "Brutalité",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 8,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "gameplayDesc": "Augmente les dégâts des armes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "tier1": "Brutality",
+  "hasLevels": false,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 124
+}

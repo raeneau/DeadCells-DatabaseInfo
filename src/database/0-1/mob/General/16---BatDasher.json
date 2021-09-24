@@ -1,0 +1,63 @@
+{
+  "id": "BatDasher",
+  "props": {
+    "cannotBeShield": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "skill": [
+    {
+      "id": "charge",
+      "charge": 1,
+      "coolDown": 2.8,
+      "lockAiAfter": 0.5,
+      "radius": 7,
+      "breachResistance": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        10
+      ],
+      "allowInAir": true,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_bat_charge.wav",
+      "sfxRelease": "sfx/enm_bat_release.wav"
+    }
+  ],
+  "index": 16,
+  "group": 0,
+  "life": 1,
+  "weight": 0,
+  "genTags": 18,
+  "minPfSize": 0,
+  "name": "Chauve-souris",
+  "score": 3,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "volteDelay": 0,
+  "flesh1": 11286327,
+  "pfCost": 0.3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 13
+  },
+  "blueprints": [
+    {
+      "item": "KnivesCircle",
+      "rarity": "Rare"
+    },
+    {
+      "item": "OilSword",
+      "rarity": "Uncommon"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 16
+}

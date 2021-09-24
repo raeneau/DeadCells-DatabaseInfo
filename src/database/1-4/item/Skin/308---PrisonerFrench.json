@@ -1,0 +1,23 @@
+{
+  "id": "PrisonerFrench",
+  "name": "Tenue Baguette",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "revealedAtStart": true
+  },
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 22,
+    "y": 18
+  },
+  "gameplayDesc": "Vendue sans béret ni moustache.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 308
+}

@@ -1,0 +1,151 @@
+{
+  "id": "Crypt",
+  "biome": "Crypt",
+  "mobs": [
+    {
+      "mob": "Spinner",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 2
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 9,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 9,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 3,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 7,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "packSize": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 17,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.15,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0.5,
+  "flags": 131136,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 14,
+  "group": 0,
+  "name": "Sépulcre oublié",
+  "cellBonus": 0,
+  "tripleUps": 3,
+  "doubleUps": 2,
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 4078514,
+    "doorColor": 11809416,
+    "chromaColor": 13762699,
+    "musicLoop": "music/crypt.ogg",
+    "loadingColor": 2361623,
+    "loadingDescColor": 12871013,
+    "zDoorColor": 2802573
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 5,
+  "loreDescriptions": [
+    {
+      "text": "Autrefois réservée aux hauts dignitaires, le sépulcre est devenu un labyrinthe tortueux dont plus personne ne connait les murs..."
+    },
+    {
+      "text": "Pour sortir vivant de ce lieu, il suffit de suivre la lumière. Non pas celle-là, l'autre... Oui voilà, celle... Non, heu... Attendez, on est où, là ?"
+    },
+    {
+      "text": "Les hauts dignitaires étaient embaumés dans des sarcophages et les crânes de leur délégation finissaient sur les murs la pièce, au terme d'une cérémonie pour le moins brutale. "
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 37,
+    "y": 15
+  },
+  "quarterUpsBC3": 3,
+  "quarterUpsBC4": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 14
+}

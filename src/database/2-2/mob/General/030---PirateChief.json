@@ -1,0 +1,98 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 512,
+  "pfCost": 1.6,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "HookWhip",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Common",
+      "item": "P_CDR_locked",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "index": 30,
+  "volteDelay": 0.5,
+  "id": "PirateChief",
+  "weight": 20,
+  "icon": {
+    "x": 68,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "Chef Pirate",
+  "minPfHeight": 0,
+  "glowInnerColor": 5752063,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 4,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 1.5,
+      "power": [
+        9
+      ],
+      "props": {
+        "stunTime": 0.5,
+        "count": 3,
+        "tick": 0.25
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pirate_charge.wav",
+      "charge": 0.7,
+      "manual": false,
+      "id": "slash",
+      "sfxRelease": "sfx/enm_pirate_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "power": [
+        15
+      ],
+      "props": {
+        "canTriggerThroughWall": false,
+        "distance": 20,
+        "triggerDelay": 2
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pirate_shoot_charge.wav",
+      "charge": 0.25,
+      "manual": false,
+      "id": "bomb",
+      "sfxRelease": "sfx/enm_pirate_shot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 14,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 30
+}

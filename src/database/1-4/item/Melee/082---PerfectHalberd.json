@@ -1,0 +1,32 @@
+{
+  "id": "PerfectHalberd",
+  "name": "Perfection",
+  "moneyCost": 1750,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "lock": 15
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 14
+  },
+  "gameplayDesc": "Inflige des {coups critiques@CC} si vous n'avez subit aucun dégât depuis ::lock:: sec.",
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 82
+}

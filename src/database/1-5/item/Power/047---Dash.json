@@ -1,0 +1,40 @@
+{
+  "id": "Dash",
+  "name": "Assault",
+  "moneyCost": 2000,
+  "cellCost": 75,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "MoveHero"
+    }
+  ],
+  "props": {
+    "power": [
+      90
+    ],
+    "range": 13,
+    "item": "BackDash",
+    "speed": 5,
+    "limit": 0.75,
+    "autoTransformAfter": 0.25,
+    "speed2": 0.25,
+    "height": 0.75,
+    "buff": 0.2
+  },
+  "group": 3,
+  "gameplayDesc": "Foncez en avant et infligez ::+power:: dégâts aux ennemis que vous traversez. Réactivez en fin de course pour revenir en sens contraire.",
+  "tier1": "Tactic",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 25,
+    "y": 2
+  },
+  "ambiantDesc": "Ça s'en va...",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 47
+}

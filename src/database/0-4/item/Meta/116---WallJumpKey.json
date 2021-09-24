@@ -1,0 +1,22 @@
+{
+  "id": "WallJumpKey",
+  "name": "Rune de l'Araignée",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 6
+  },
+  "gameplayDesc": "Cette RUNE PERMANENTE vous permet de vous agripper aux murs.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 116
+}

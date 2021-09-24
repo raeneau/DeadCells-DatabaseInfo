@@ -1,0 +1,27 @@
+{
+  "id": "LowHealth",
+  "name": "Charognarde",
+  "moneyCost": 1500,
+  "cellCost": 25,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.5
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 4
+  },
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous avez moins de ::prct::% de vie.",
+  "ambiantDesc": "L'arme de choix des combattants qui aiment vivre dangereusement. ",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "tier2": "Tactic",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 65
+}

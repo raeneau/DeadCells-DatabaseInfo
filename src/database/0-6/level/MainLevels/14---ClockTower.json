@@ -1,0 +1,91 @@
+{
+  "id": "ClockTower",
+  "biome": "ClockTower",
+  "viewerColor": 14053150,
+  "viewerOffX": 0,
+  "viewerY": -1,
+  "mobs": [
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "packSize": 2
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1.1,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0.4,
+  "flags": 128,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 14,
+  "group": 0,
+  "name": "Tour de l'Horloge",
+  "doorColor": 16711770,
+  "chromaColor": 16711770,
+  "musicLoop": "music/clocktower.ogg",
+  "tripleUps": 2,
+  "doubleUps": 3,
+  "extraMobTier": 2,
+  "baseMobTier": 16,
+  "props": {},
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 14
+}

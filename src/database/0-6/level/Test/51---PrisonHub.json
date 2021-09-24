@@ -1,0 +1,65 @@
+{
+  "id": "PrisonHub",
+  "biome": "PrisonStart",
+  "viewerColor": 2370433,
+  "viewerOffX": 0,
+  "viewerY": 0.75,
+  "mobs": [
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "baseMobTier": 1,
+  "props": {},
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "chromaColor": 39679,
+  "index": 51,
+  "group": 2,
+  "extraMobTier": 0,
+  "musicLoop": "music/prisonstart_loop.ogg",
+  "doorColor": 10110973,
+  "specificSubBiome": [],
+  "baseLootLevel": 1,
+  "musicIntro": "music/prisonstart_intro.ogg",
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 51
+}

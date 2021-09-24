@@ -1,0 +1,99 @@
+{
+  "item": "BumpBoots",
+  "airControlAlways": true,
+  "isACancel": true,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.1,
+      "coolDown": 0.2,
+      "lockCtrlAfter": 0.25,
+      "animId": "kick",
+      "power": [
+        10
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {
+        "bump": 1.25,
+        "duration": 0.5
+      },
+      "hitFrame": 6,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 2.5,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "animSpd": 1,
+      "fxId": "fxKick",
+      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "sfxRelease": "sfx/weapon_kick_release.wav"
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0.2,
+      "lockCtrlAfter": 0.25,
+      "hitFrame": 6,
+      "area": {
+        "shape": 1,
+        "width": 2.5,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 1.25,
+        "duration": 0.5
+      },
+      "animId": "kick",
+      "animSpd": 1,
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxHit": "sfx/weapon_kick_bump.wav"
+    },
+    {
+      "charge": 0.25,
+      "coolDown": 0.2,
+      "lockCtrlAfter": 0.4,
+      "hitFrame": 12,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 2,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0.8
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 2,
+        "duration": 0.5
+      },
+      "animId": "kick",
+      "animSpd": 0.5,
+      "fxId": "fxKick",
+      "glowColor": 16711680,
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "onionSkinFrame": 5,
+      "onionSkinOffX": 40,
+      "fxInnerColor": 16731904
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 19
+}

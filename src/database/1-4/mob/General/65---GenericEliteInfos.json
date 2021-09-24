@@ -1,0 +1,244 @@
+{
+  "id": "GenericEliteInfos",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 0,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 0.7,
+    "movePauseMul": 99999,
+    "cannotBeBackstabbed": true,
+    "cannotBeShield": true,
+    "range": 20,
+    "duration": 5,
+    "cellLoot": 7
+  },
+  "skill": [
+    {
+      "id": "rotor",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 8,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 60,
+        "speed": 0.045,
+        "range": 10,
+        "tick": 0.1,
+        "triggerDistance": 2,
+        "dps": 20
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "aoeShock",
+      "charge": 1.25,
+      "coolDown": 5.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 5,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "tick": 0.1,
+        "dps": 15,
+        "duration": 0.5,
+        "bump": 0.3
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "firefly",
+      "charge": 0.3,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 10,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.08,
+        "distance": 7,
+        "frict": 0.91,
+        "tick": 0.2,
+        "count": 5,
+        "range": 20
+      },
+      "power": [
+        8
+      ],
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "shieldPylon",
+      "charge": 0,
+      "coolDown": 6,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "count": 2,
+        "distance": 9,
+        "life": 200
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "groundShock",
+      "charge": 0.85,
+      "coolDown": 4,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "tick": 0.1,
+        "dps": 15,
+        "duration": 0.45,
+        "height": 30,
+        "distance": 9
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "clone",
+      "charge": 0,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "life": 0.55,
+        "bump": 0.3,
+        "stunTime": 0.8
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "cage",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "x": 24,
+        "y": 12,
+        "bump": 0.3,
+        "stunTime": 0.2,
+        "duration": 5
+      },
+      "power": [
+        20
+      ],
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "invisibility",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "horizontalWall",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "range": 14,
+        "speed": 2.5,
+        "duration": 2.5,
+        "y": 2,
+        "tick": 0.1,
+        "dps": 10,
+        "bump": 0.5
+      },
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "aggressiveTeleport",
+      "charge": 0.65,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.75,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "lock": 0.85,
+        "stayDuration": 2
+      },
+      "sfxCharge": "sfx/enm_tp_charge.wav",
+      "sfxRelease": "sfx/enm_tp.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 65,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 48,
+    "y": 23
+  },
+  "name": "Mob élite",
+  "weight": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 65
+}

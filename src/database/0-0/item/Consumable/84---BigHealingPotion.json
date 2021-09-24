@@ -1,0 +1,31 @@
+{
+  "id": "BigHealingPotion",
+  "name": "Volaille",
+  "droppable": false,
+  "hasTier": true,
+  "castCD": 0,
+  "props": {
+    "power": 100,
+    "duration": 1.5
+  },
+  "group": 8,
+  "tags": [
+    {
+      "tag": "Heal"
+    }
+  ],
+  "gameplayDesc": "Soigne ::+power:: PV.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 4
+  },
+  "cellCost": 0,
+  "moneyCost": 500,
+  "index": 84,
+  "hasLevels": false,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 84
+}

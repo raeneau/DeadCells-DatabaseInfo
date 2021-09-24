@@ -1,0 +1,35 @@
+{
+  "id": "DashSword",
+  "name": "Perce-carne",
+  "moneyCost": 1500,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 7
+  },
+  "gameplayDesc": "Permet de passer dans le dos de l'ennemi.",
+  "ambiantDesc": "Tu me vois, tu me vois plus.",
+  "tier1": "Brutality",
+  "legendAffix": "BackDamage",
+  "tier2": "Tactic",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 71
+}

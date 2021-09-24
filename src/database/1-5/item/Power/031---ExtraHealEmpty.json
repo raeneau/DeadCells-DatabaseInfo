@@ -1,0 +1,40 @@
+{
+  "id": "ExtraHealEmpty",
+  "name": "Tonique (vide)",
+  "moneyCost": 1000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoUse"
+    },
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "Depleted"
+    },
+    {
+      "tag": "RefillOnFlaskUse"
+    }
+  ],
+  "props": {
+    "item": "ExtraHeal"
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 8
+  },
+  "gameplayDesc": "Cet objet est vide. Vous pouvez le re-remplir en consommant une potion de soin.",
+  "tier1": "Survival",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 31
+}

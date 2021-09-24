@@ -1,0 +1,26 @@
+{
+  "id": "CemeteryKey",
+  "name": "Clé de la crypte",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasTier": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "highActivationPriority": true
+  },
+  "index": 66,
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 0
+  },
+  "gameplayDesc": "Ouvre les portes des enfers...",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 66
+}

@@ -1,0 +1,98 @@
+{
+  "id": "WormZombie",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        25
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmbworm_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "hurl",
+      "charge": 0.6,
+      "coolDown": 0.8,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 1.5,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 4,
+        "max": 5,
+        "canTriggerThroughWall": true,
+        "stunTime": 0.2,
+        "bump": 0.2
+      },
+      "sfxCharge": "sfx/enm_zmbworm_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release2.wav",
+      "chargeAnim": "atkLoadA",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 2,
+      "power": 0
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "HoldShield",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 1,
+      "item": "PrisonerStilt"
+    }
+  ],
+  "index": 4,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 38,
+    "y": 22
+  },
+  "name": "Zombie purulent",
+  "glowInnerColor": 16758097,
+  "glowOuterColor": 4175415,
+  "flesh1": 5669211,
+  "flesh2": 6200517,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.7,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 4
+}

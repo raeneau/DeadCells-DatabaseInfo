@@ -1,0 +1,48 @@
+{
+  "id": "Chicken",
+  "name": "Poulet infernal",
+  "moneyCost": 1750,
+  "cellCost": 80,
+  "droppable": false,
+  "castCD": 1,
+  "tags": [
+    {
+      "tag": "Pet"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    }
+  ],
+  "props": {
+    "frict": 0.85,
+    "distance": 8,
+    "speed": 0.1,
+    "range": 9,
+    "effectCharge": 0.03,
+    "effectCD": 0.6,
+    "lock": 10,
+    "dps": [
+      55
+    ],
+    "bump": 0.5,
+    "power": [
+      60
+    ],
+    "speed2": 0.1
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 18
+  },
+  "gameplayDesc": "Côt côt.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 45
+}

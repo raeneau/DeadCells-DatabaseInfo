@@ -1,0 +1,127 @@
+{
+  "id": "Crypt",
+  "biome": "Crypt",
+  "viewerY": 1,
+  "mobs": [
+    {
+      "mob": "Spinner",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {}
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 9,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 4
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 9,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {},
+      "packSize": [
+        1,
+        2
+      ]
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 3,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 7,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "packSize": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 17,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.15,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0.5,
+  "flags": 64,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 13,
+  "group": 0,
+  "name": "Sépulcre oublié",
+  "musicLoop": "music/crypt.ogg",
+  "doorColor": 10298484,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 4078514,
+  "chromaColor": 13762699,
+  "tripleUps": 3,
+  "doubleUps": 2,
+  "extraMobTier": 2,
+  "baseMobTier": 15,
+  "props": {
+    "timedDoor": 24,
+    "timedScrolls": 2
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 13
+}

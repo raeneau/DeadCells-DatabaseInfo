@@ -1,0 +1,42 @@
+{
+  "id": "DebugSebG",
+  "biome": "PrisonCourtyard",
+  "worldDepth": 0,
+  "mobs": [
+    {
+      "mob": "Grenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 0
+    }
+  ],
+  "props": {},
+  "specificSubBiome": [],
+  "baseLootLevel": 0,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "loreDescriptions": [],
+  "index": 60,
+  "group": 2,
+  "name": "Debug Seb G",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 41,
+    "y": 78
+  },
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 60
+}

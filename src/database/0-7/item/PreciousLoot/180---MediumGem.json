@@ -1,0 +1,27 @@
+{
+  "id": "MediumGem",
+  "name": "Améthyste",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "power": 500,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 15
+  },
+  "group": 11,
+  "tags": [],
+  "gameplayDesc": "Cette jolie pierre vous rapportera ::$power::{iconCoin@img} ! Ma précieuuuuse...",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 180
+}

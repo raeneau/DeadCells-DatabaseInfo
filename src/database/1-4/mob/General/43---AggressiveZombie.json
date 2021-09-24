@@ -1,0 +1,217 @@
+{
+  "id": "AggressiveZombie",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "pfCost": 0.75,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 0.7,
+    "obstruateDoors": false,
+    "bumpResistance": 0.5,
+    "near": 2,
+    "far": 10
+  },
+  "skill": [
+    {
+      "id": "cc0",
+      "charge": 0.5,
+      "coolDown": 1.4,
+      "lockAiAfter": 0.2,
+      "radius": 4,
+      "breachResistance": 0.25,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2,
+        "dps": 4,
+        "bump": 0,
+        "x": 0.7
+      },
+      "power": [
+        3
+      ],
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_aggrozmb_charge1.wav",
+      "sfxRelease": "sfx/enm_aggrozmb_release1.wav",
+      "chargeAnim": "atkLoadA",
+      "execAnim": "atkA",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "cc1",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 2,
+      "lockAiAfter": 0.06,
+      "radius": 4,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2,
+        "dps": 4,
+        "count": 2,
+        "bump": 0.2,
+        "x": 0.7
+      },
+      "chargeAnim": "atkLoadB",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "execAnimSpd": 1,
+      "power": [
+        4
+      ],
+      "sfxCharge": "sfx/enm_smallworm_charge.wav",
+      "sfxRelease": "sfx/enm_aggrozmb_release2.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "cc2",
+      "charge": 0.1,
+      "coolDown": 1.4,
+      "hitFrame": 3,
+      "lockAiAfter": 0.06,
+      "radius": 4.4,
+      "breachResistance": 0.25,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2,
+        "dps": 4,
+        "bump": 0.45,
+        "x": 1.2
+      },
+      "chargeAnim": "atkLoadA",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 2,
+      "power": [
+        5
+      ],
+      "sfxCharge": "sfx/enm_smallworm_charge.wav",
+      "sfxRelease": "sfx/enm_aggrozmb_release1.wav"
+    },
+    {
+      "id": "cc3",
+      "charge": 0.85,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 1.5,
+      "radius": 4.5,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3,
+        "x": 0.7
+      },
+      "power": [
+        20
+      ],
+      "chargeAnim": "atkLoadC",
+      "execAnim": "atkC",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1,
+      "sfxCharge": "sfx/enm_orb_charge.wav",
+      "sfxRelease": "sfx/enm_aggrozmb_release2.wav",
+      "sfxHit": "sfx/enm_behemoth_land.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump",
+      "charge": 0.5,
+      "coolDown": 2.4,
+      "hitFrame": 12,
+      "lockAiAfter": 0.33,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 8,
+        "speed": 3.6
+      },
+      "sfxRelease": "sfx/enm_aggrozmb_release3.wav",
+      "power": [
+        7
+      ],
+      "sfxCharge": "sfx/enm_aggrozmb_charge2.wav",
+      "execAnim": "atkD",
+      "chargeAnim": "atkLoadD",
+      "execAnimSpd": 1.2,
+      "chargeAnimSpd": 1,
+      "sfxHit": "sfx/enm_behemoth_land.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "swap",
+      "charge": 0,
+      "coolDown": 15,
+      "hitFrame": 0,
+      "lockAiAfter": 0.55,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "triggerDistance": 8,
+        "distance": 3,
+        "duration": 0.3,
+        "speed": 7
+      },
+      "disableAnnounceFx": true,
+      "sfxRelease": "sfx/enm_archer_dodge1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "P_DeathShield"
+    }
+  ],
+  "metaItems": [],
+  "index": 43,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 76
+  },
+  "name": "Expérience ratée",
+  "glowInnerColor": 16777215,
+  "glowOuterColor": 16777215,
+  "flesh1": 2746584,
+  "flesh2": 2395579,
+  "life": [
+    210
+  ],
+  "volteDelay": 0.3,
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 43
+}

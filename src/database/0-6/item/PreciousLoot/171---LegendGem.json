@@ -1,0 +1,27 @@
+{
+  "id": "LegendGem",
+  "name": "Fragment de Pierre Philosophale",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 75000,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 0
+  },
+  "group": 11,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 11
+  },
+  "gameplayDesc": "Vous êtes officiellement la créature la plus riche de l'île. Ce petit bijou sans la moindre imperfection vaut ::$power:: OR !",
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 171
+}

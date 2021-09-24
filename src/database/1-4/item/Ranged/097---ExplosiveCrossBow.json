@@ -1,0 +1,50 @@
+{
+  "id": "ExplosiveCrossBow",
+  "name": "Arbalète explosive",
+  "moneyCost": 1750,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 4,
+    "ammoRecoveryStart": 1,
+    "ammoRecoveryTick": 0.25
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 3
+  },
+  "gameplayDesc": "Les carreaux explosent en zone. Un ennemi touché par un carreau subit un {coup critique@CC}.",
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "legendAffix": "Pierce",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 97
+}

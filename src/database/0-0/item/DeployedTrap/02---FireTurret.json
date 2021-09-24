@@ -1,0 +1,37 @@
+{
+  "id": "FireTurret",
+  "name": "Tourelle lance-flammes",
+  "props": {
+    "duration": 2,
+    "effectCD": 1.6,
+    "life": 30,
+    "targetable": true,
+    "dps": 20
+  },
+  "group": 0,
+  "castCD": 6,
+  "droppable": true,
+  "hasTier": false,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    }
+  ],
+  "gameplayDesc": "Brûle les ennemis proches pendant ::duration:: secondes (::+fire:: dégâts / sec).",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 0
+  },
+  "cellCost": 15,
+  "moneyCost": 1500,
+  "index": 2,
+  "hasLevels": true,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 2
+}

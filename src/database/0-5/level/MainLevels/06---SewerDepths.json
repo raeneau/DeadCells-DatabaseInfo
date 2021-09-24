@@ -1,0 +1,111 @@
+{
+  "id": "SewerDepths",
+  "biome": "SewerOld",
+  "mobs": [
+    {
+      "mob": "Spiker",
+      "quantityFactor": 0.1,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Spiker",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 1,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.1,
+  "flags": 8,
+  "group": 0,
+  "name": "Ancien réseau d'égouts",
+  "lootFlags": 0,
+  "musicLoop": "music/OldSewers.ogg",
+  "goldBonus": 0.1,
+  "specificLoots": [],
+  "viewerY": 2.5,
+  "eliteWanderChance": 0.1,
+  "eliteRoomChance": 1,
+  "doorColor": 14208601,
+  "index": 6,
+  "lootLevel": 3,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 6123284,
+  "chromaColor": 16771840,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "extraMobTier": 3,
+  "baseMobTier": 7,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 6
+}

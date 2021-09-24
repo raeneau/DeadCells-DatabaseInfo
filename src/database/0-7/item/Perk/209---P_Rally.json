@@ -1,0 +1,25 @@
+{
+  "id": "P_Rally",
+  "name": "Récupération",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "minPerks": 0,
+    "count": 2
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 10
+  },
+  "gameplayDesc": "Temps disponible pour récupérer votre santé après un coup x::count::.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 209
+}

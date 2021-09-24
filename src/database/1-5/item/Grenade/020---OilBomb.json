@@ -1,0 +1,43 @@
+{
+  "id": "OilBomb",
+  "name": "Bombe à huile",
+  "droppable": true,
+  "castCD": 10,
+  "props": {
+    "range": 9,
+    "power": [
+      60
+    ],
+    "distance": 18,
+    "aoeDuration": 35
+  },
+  "group": 1,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Oil"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "gameplayDesc": "Applique de {l'huile inflammable@FI} dans sa zone d'effet.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 0
+  },
+  "cellCost": 20,
+  "moneyCost": 1000,
+  "tier1": "Brutality",
+  "legendAffix": "DeathFire",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 20
+}

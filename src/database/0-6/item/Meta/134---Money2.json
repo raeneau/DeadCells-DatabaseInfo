@@ -1,0 +1,26 @@
+{
+  "id": "Money2",
+  "name": "Sauvetage de l'or II",
+  "moneyCost": 0,
+  "cellCost": 35,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Money1",
+    "revealedAtStart": true,
+    "power": 6000
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 7
+  },
+  "gameplayDesc": "Vous conservez jusqu'à ::power:: OR en mourrant.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 134
+}

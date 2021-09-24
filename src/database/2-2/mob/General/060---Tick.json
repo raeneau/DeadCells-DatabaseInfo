@@ -1,0 +1,194 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 4,
+    "gemDropSize": 1,
+    "cellLoot": 5,
+    "bumpResistance": 0.85
+  },
+  "genTags": 544,
+  "glowOuterColor": 1508160,
+  "pfCost": 4,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "RhythmicBlade",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerTick",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "index": 60,
+  "volteDelay": 1,
+  "id": "Tick",
+  "dlc": "TheBadSeed",
+  "weight": 30,
+  "icon": {
+    "x": 48,
+    "y": 76,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    1500
+  ],
+  "name": "Tique Géante",
+  "minPfHeight": 0,
+  "glowInnerColor": 4528782,
+  "minPfSize": 20,
+  "metaItems": [],
+  "maxPerPlatform": 3,
+  "score": 5,
+  "flesh1": 8265246,
+  "flesh2": 10963538,
+  "skill": [
+    {
+      "chargeAnim": "idleLoadAtk1",
+      "coolDown": 2,
+      "power": [
+        25
+      ],
+      "props": {
+        "x": 2,
+        "height": 6
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_tick_shout.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 5,
+      "execAnim": "atk1",
+      "id": "highSlash",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleLoadAtk2",
+      "coolDown": 0,
+      "power": [
+        12
+      ],
+      "props": {
+        "x": -5,
+        "bump": 1.5,
+        "height": 6
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": true,
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.25,
+      "execAnim": "atk2",
+      "id": "followUp_highSlash",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleLoadSlash1",
+      "coolDown": 1.5,
+      "power": [
+        25
+      ],
+      "props": {
+        "bump": 0.7,
+        "height": 1.5
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_tick_shout2.wav",
+      "charge": 0.4,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 5,
+      "execAnim": "slash1",
+      "id": "longSlash",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleLoadSlash2",
+      "coolDown": 0,
+      "power": [
+        12
+      ],
+      "props": {
+        "bump": 1.2,
+        "height": 1.5
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": true,
+      "charge": 0.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "slash2",
+      "id": "followUp_longSlash",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.7,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleLoadJump1",
+      "coolDown": 2.5,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 1.05,
+        "range": 6,
+        "y": 0.5,
+        "height": 5,
+        "count": 4,
+        "distance": 20,
+        "tick": 0.8
+      },
+      "allowInAir": false,
+      "radius": 13,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_tick_shout2.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 5,
+      "execAnim": "jump1",
+      "id": "jumpOver",
+      "sfxRelease": "sfx/enm_tick_jump.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 60
+}

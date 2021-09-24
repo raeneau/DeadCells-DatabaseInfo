@@ -1,0 +1,42 @@
+{
+  "item": "FastBow",
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0.1,
+      "lockCtrlAfter": 0.2,
+      "power": [
+        15
+      ],
+      "dynamicCharge": 2,
+      "breachBonus": -1,
+      "props": {
+        "tick": 0.25
+      },
+      "hitFrame": 0,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16774912,
+      "fxInnerColor": 16774912,
+      "fxOuterColor": 16774912,
+      "sfxRelease": "sfx/bow_shot3.wav",
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "critMul": 1.45,
+      "animSpd": 4,
+      "animId": "fastBow"
+    }
+  ],
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 26
+}

@@ -1,0 +1,113 @@
+{
+  "biome": "PrisonRoof",
+  "name": "Toits de la Prison",
+  "id": "PrisonRoof",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Fly",
+      "singleRoom": true,
+      "packSize": [
+        2,
+        4
+      ],
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Fly",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 7,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    }
+  ],
+  "flags": 1,
+  "mobDensity": 1,
+  "group": 0,
+  "lootFlags": 0,
+  "musicLoop": "music/roof.ogg",
+  "goldBonus": 0,
+  "specificLoots": [],
+  "viewerY": 0.75,
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "doorColor": 16760576,
+  "index": 3,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 16756527,
+  "chromaColor": 16751872,
+  "tripleUps": 2,
+  "doubleUps": 2,
+  "extraMobTier": 2,
+  "baseMobTier": 6,
+  "props": {
+    "timedDoor": 8.5,
+    "timedGoldMul": 1.25,
+    "timedScrolls": 2,
+    "wind": 3
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 3
+}

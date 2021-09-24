@@ -1,0 +1,142 @@
+{
+  "id": "Zombie",
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "radius": 1.35,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump",
+      "charge": 0.95,
+      "coolDown": 4,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 6
+      },
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 0,
+      "power": [
+        20
+      ],
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_jump.wav",
+      "sfxRelease": "sfx/enm_zmb_release2.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "cc2",
+      "charge": 0.35,
+      "coolDown": 0,
+      "hitFrame": 4,
+      "lockAiAfter": 0.2,
+      "radius": 1.8,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.4
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "cc3",
+      "charge": 0.2,
+      "coolDown": 0,
+      "hitFrame": 4,
+      "lockAiAfter": 0.2,
+      "radius": 1.8,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.8
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "index": 0,
+  "group": 0,
+  "weight": 10,
+  "genTags": 0,
+  "minPfSize": 8,
+  "name": "Zombie",
+  "score": 2,
+  "maxPerRoom": 0,
+  "canBeElite": true,
+  "glowInnerColor": 11197250,
+  "volteDelay": 1,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "item": "HorizontalTurret",
+      "rarity": "Rare",
+      "minDifficulty": 0
+    },
+    {
+      "item": "Bleeder",
+      "rarity": "Always",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 1,
+      "item": "PrisonerBobby"
+    }
+  ],
+  "maxPerPlatform": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 38,
+    "y": 24
+  },
+  "life": [
+    120
+  ],
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 0
+}

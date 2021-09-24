@@ -1,0 +1,40 @@
+{
+  "id": "StartBow",
+  "name": "Arc du fils du geolier",
+  "droppable": false,
+  "hasTier": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 5,
+    "sideHandOnly": true
+  },
+  "group": 4,
+  "ambiantDesc": "C'est le jouet du fils du geolier. On doit bien pouvoir tuer quelques trucs avec ça.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 31,
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 31
+}

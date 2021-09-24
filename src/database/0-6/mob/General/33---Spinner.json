@@ -1,0 +1,67 @@
+{
+  "id": "Spinner",
+  "flesh1": 13243412,
+  "score": 5,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "maxPerRoom": 2,
+  "props": {
+    "moveSpeedMul": 0.9,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "spin",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 3,
+      "lockAiAfter": 0.4,
+      "radius": 3,
+      "breachResistance": 0.9,
+      "disableAnnounce": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "tick": 0.15,
+        "stunTime": 0.2,
+        "duration": 1.5,
+        "bump": 0.55
+      },
+      "manual": false,
+      "sfxCharge": "sfx/enm_spinner_charge.wav",
+      "sfxRelease": "sfx/enm_spinner_release.wav",
+      "power": 8
+    }
+  ],
+  "genTags": 0,
+  "index": 33,
+  "group": 0,
+  "name": "Fouetard",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh2": 5458806,
+  "life": [
+    250
+  ],
+  "volteDelay": 0.6,
+  "weight": 20,
+  "pfCost": 1.5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 53,
+    "y": 16
+  },
+  "blueprints": [
+    {
+      "item": "Crusher",
+      "rarity": "Common"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 33
+}

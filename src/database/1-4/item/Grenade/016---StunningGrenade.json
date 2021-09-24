@@ -1,0 +1,44 @@
+{
+  "id": "StunningGrenade",
+  "name": "Grenade étourdissante",
+  "castCD": 18,
+  "props": {
+    "coolDown": 0.6,
+    "duration": 2.5,
+    "range": 5,
+    "power": [
+      30
+    ]
+  },
+  "group": 1,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "Stun"
+    }
+  ],
+  "gameplayDesc": "Étourdit les ennemis (::duration:: sec).",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 0
+  },
+  "cellCost": 60,
+  "moneyCost": 2000,
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "legendAffix": "LongStun",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 16
+}

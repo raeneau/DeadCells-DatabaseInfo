@@ -1,0 +1,78 @@
+{
+  "id": "BeholderTtcl",
+  "score": 20,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "bumpResistance": 1,
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "insensitiveSpike": true
+  },
+  "skill": [
+    {
+      "id": "stroke",
+      "charge": 0.6,
+      "coolDown": 2,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "radius": 1,
+      "power": [
+        5
+      ],
+      "lockAiAfter": 2,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false
+    },
+    {
+      "id": "sweep",
+      "charge": 0,
+      "coolDown": 10,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 1,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        8
+      ]
+    }
+  ],
+  "genTags": 4,
+  "index": 38,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 45,
+    "y": 75
+  },
+  "name": "Tentacule du Watcher",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "life": [
+    300
+  ],
+  "weight": 30,
+  "volteDelay": 0,
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 38
+}

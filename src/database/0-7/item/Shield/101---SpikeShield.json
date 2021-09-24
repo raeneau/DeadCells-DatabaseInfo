@@ -1,0 +1,29 @@
+{
+  "id": "SpikeShield",
+  "name": "Bouclier à pointes",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 5
+  },
+  "gameplayDesc": "Inflige d'importants dégâts aux ennemis bloqués.",
+  "tier1": "Survival",
+  "hasLevels": true,
+  "legendAffix": "CounterAttack",
+  "legendaryName": "Bon-accueil",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 101
+}

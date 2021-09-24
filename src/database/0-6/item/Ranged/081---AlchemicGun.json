@@ -1,0 +1,40 @@
+{
+  "id": "AlchemicGun",
+  "name": "Pistolet alchimique",
+  "moneyCost": 1750,
+  "cellCost": 100,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Poison"
+    }
+  ],
+  "props": {
+    "dps": 20,
+    "duration": 6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 3
+  },
+  "gameplayDesc": "Empoisonne les victimes et leur inflige ::+dps:: dégâts/sec pendant ::duration:: sec.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 81
+}

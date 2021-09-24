@@ -1,0 +1,33 @@
+{
+  "id": "DashShield",
+  "name": "Bouclier d'assaut",
+  "droppable": true,
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "SpecificBlueprintDrop"
+    }
+  ],
+  "gameplayDesc": "Bloque les attaques tout en chargeant en avant.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 1
+  },
+  "cellCost": 35,
+  "moneyCost": 1750,
+  "index": 53,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 53
+}

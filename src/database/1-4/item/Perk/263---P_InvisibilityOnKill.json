@@ -1,0 +1,27 @@
+{
+  "id": "P_InvisibilityOnKill",
+  "name": "Prédateur",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 1,
+    "customScaling": 1.06,
+    "scaledValueCap": 3.5,
+    "prct": 0.05
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 15
+  },
+  "gameplayDesc": "Tuer un ennemi au corps à corps vous octroie une invisibilité pendant ::+duration:: secondes.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 263
+}

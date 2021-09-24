@@ -1,0 +1,27 @@
+{
+  "id": "P_DodgeHeal",
+  "name": "Adrénaline",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 3,
+    "prct": 1.5E-05,
+    "customScaling": 1.085,
+    "scaledValueCap": 0.00015
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 15
+  },
+  "tier1": "Brutality",
+  "gameplayDesc": "Vos attaques au corps à corps vous font récupérer une petite portion de vos PV en fonction des dégats infligés pendant ::duration:: secondes après avoir esquivé une attaque au dernier moment.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 255
+}

@@ -1,0 +1,67 @@
+{
+  "id": "PrisonHub",
+  "biome": "PrisonHub",
+  "mobs": [
+    {
+      "mob": "BatDasher",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Spinner",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "mob": "Runner",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "mobDensity": 1,
+  "flags": 0,
+  "lootFlags": 0,
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Quartier des prisonniers",
+  "specificLoots": [],
+  "musicLoop": "music/music4_loop.ogg",
+  "musicIntro": "music/music4_intro.ogg",
+  "viewerY": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0.4,
+  "doorColor": 14769730,
+  "index": 1,
+  "mobTier": 2,
+  "lootLevel": 2,
+  "chosenUps": 0,
+  "randomUps": 2,
+  "itemUps": 0,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 1
+}

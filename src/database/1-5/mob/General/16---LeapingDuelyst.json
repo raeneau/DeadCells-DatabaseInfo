@@ -1,0 +1,160 @@
+{
+  "id": "LeapingDuelyst",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "pfCost": 1.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "jump1",
+      "charge": 0.5,
+      "coolDown": 1.6,
+      "props": {
+        "distance": 5,
+        "bump": 0.6
+      },
+      "lockAiAfter": 0.4,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0.8,
+      "allowInAir": false,
+      "hitFrame": 1,
+      "power": [
+        9
+      ],
+      "manual": false,
+      "sfxCharge": "sfx/enm_cannibal_charge1.wav",
+      "sfxRelease": "sfx/enm_cannibal_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump2",
+      "charge": 0.15,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 0.2,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 2,
+        "bump": 0.4
+      },
+      "power": [
+        9
+      ],
+      "sfxCharge": "sfx/enm_cannibal_charge2.wav",
+      "sfxRelease": "sfx/enm_cannibal_release2.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump3",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 0.7,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 2,
+        "bump": 0.5
+      },
+      "power": [
+        12
+      ],
+      "sfxCharge": "sfx/enm_cannibal_charge2.wav",
+      "sfxRelease": "sfx/enm_cannibal_release2.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "dodge",
+      "charge": 0.1,
+      "coolDown": 1.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0.4,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 8
+      },
+      "sfxRelease": "sfx/enm_cannibal_dodge.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "grenade",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 2.2,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "range": 4,
+        "duration": 0.5,
+        "bump": 0.3,
+        "triggerDelay": 0.9
+      },
+      "power": [
+        5
+      ],
+      "sfxRelease": "sfx/enm_cannibal_grenade.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "MarkBow",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 4,
+      "item": "PrisonerBison"
+    }
+  ],
+  "index": 16,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 2
+  },
+  "name": "Cannibale",
+  "glowInnerColor": 10769627,
+  "flesh1": 6587826,
+  "flesh2": 12303527,
+  "life": [
+    230
+  ],
+  "volteDelay": 0.3,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 16
+}

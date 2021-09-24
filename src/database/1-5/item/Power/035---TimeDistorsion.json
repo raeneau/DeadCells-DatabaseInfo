@@ -1,0 +1,32 @@
+{
+  "id": "TimeDistorsion",
+  "name": "Distorsion temporelle",
+  "moneyCost": 2000,
+  "cellCost": 100,
+  "droppable": false,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "duration": 3.5,
+    "tick": 0.1
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 14
+  },
+  "gameplayDesc": "Ralenti tous les ennemis pendant ::duration:: sec.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 35
+}

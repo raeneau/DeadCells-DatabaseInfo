@@ -1,0 +1,162 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.6
+  },
+  "genTags": 544,
+  "glowOuterColor": 16731904,
+  "pfCost": 1.2,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "ParryBlade",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerMushroom",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerRoom": 3,
+  "group": 0,
+  "canBeElite": true,
+  "index": 56,
+  "volteDelay": 0.2,
+  "id": "Pitcher",
+  "dlc": "TheBadSeed",
+  "weight": 10,
+  "icon": {
+    "x": 46,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    170
+  ],
+  "name": "Lanceur",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 10,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 11813838,
+  "flesh2": 13502825,
+  "skill": [
+    {
+      "chargeAnim": "idleLoadAtk",
+      "coolDown": 1.5,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 2,
+        "range": 14,
+        "stunTime": 0.3,
+        "bump": 0.5,
+        "height": 6,
+        "distance": 3,
+        "triggerDistance": 4
+      },
+      "allowInAir": false,
+      "radius": 2.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pitcher_shout2.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 0.75,
+      "chargeAnimSpd": 5,
+      "execAnim": "atk",
+      "id": "throw",
+      "sfxRelease": "sfx/enm_pitcher_hard_grab.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pitcher_call.wav",
+      "charge": 20,
+      "manual": false,
+      "chargeAnimSpd": 1,
+      "id": "grabHardy",
+      "sfxRelease": "sfx/enm_pitcher_hard_grab.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleLoadThrow",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "duration2": 1,
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pitcher_shout2.wav",
+      "charge": 0.25,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "throw",
+      "id": "throwHardy",
+      "sfxRelease": "sfx/enm_pitcher_throwhardy.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 0.8,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "idleLoadAtkC",
+      "coolDown": 2,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 1.6,
+        "ang": 0.3,
+        "bump": 1,
+        "distance": 13,
+        "triggerDistance": 6,
+        "duration": 1
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_pitcher_rock_charge.wav",
+      "charge": 1,
+      "manual": false,
+      "execAnimSpd": 0.7,
+      "chargeAnimSpd": 0.7,
+      "execAnim": "atkC",
+      "id": "throwRock",
+      "sfxRelease": "sfx/enm_pitcher_rock_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 0,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 56
+}

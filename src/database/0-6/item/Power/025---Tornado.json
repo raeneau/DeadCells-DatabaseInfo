@@ -1,0 +1,36 @@
+{
+  "id": "Tornado",
+  "name": "Tornade",
+  "moneyCost": 2000,
+  "cellCost": 80,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 24,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "props": {
+    "speed": 3,
+    "duration": 10,
+    "width": 4,
+    "height": 5,
+    "bump": 0.2,
+    "dps": 80,
+    "tick": 0.1,
+    "frict": 0.7
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 11
+  },
+  "gameplayDesc": "Inflige ::+dps:: dégâts/sec à toutes les cibles prises dedans. Elle change de direction quand elle rencontre un mur. ",
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 25
+}

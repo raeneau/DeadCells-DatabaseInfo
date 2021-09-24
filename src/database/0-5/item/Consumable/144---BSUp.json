@@ -1,0 +1,28 @@
+{
+  "id": "BSUp",
+  "name": "Parchemin du Minotaure",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 8
+  },
+  "gameplayDesc": "Améliore au choix votre Brutalité ou votre Survie.",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 144
+}

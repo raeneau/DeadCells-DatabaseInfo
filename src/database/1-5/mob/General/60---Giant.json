@@ -1,0 +1,102 @@
+{
+  "id": "Giant",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 1,
+    "fallResistance": 1,
+    "cannotChangeDir": true,
+    "speed": 0.16,
+    "cannotBeBackstabbed": true,
+    "combatMusic": "music/giant_loop.ogg",
+    "highlightOnKill": false,
+    "cellLoot": 30
+  },
+  "skill": [
+    {
+      "id": "laserVise",
+      "charge": 0.8,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": true,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 2.5
+      },
+      "power": [
+        5
+      ],
+      "sfxRelease": "sfx/enm_giant_laser_shot.wav",
+      "sfxCharge": "sfx/enm_giant_laser_charge.wav"
+    }
+  ],
+  "genTags": 20,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "GiantKiller"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "GiantDefault"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "GiantWhistle"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 1,
+      "item": "Giant1"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 2,
+      "item": "Giant2"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 3,
+      "item": "Giant3"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 4,
+      "item": "Giant4"
+    }
+  ],
+  "metaItems": [],
+  "index": 60,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 23
+  },
+  "name": "Le Gigantus",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "life": [
+    4096
+  ],
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 60
+}

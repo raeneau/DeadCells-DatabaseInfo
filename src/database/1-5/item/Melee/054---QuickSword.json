@@ -1,0 +1,31 @@
+{
+  "id": "QuickSword",
+  "name": "Epée équilibrée",
+  "moneyCost": 1500,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "duration": 4,
+    "count": 10,
+    "prct": 1
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 6
+  },
+  "gameplayDesc": "Les dégâts augmentent jusqu'à +::prct::% tant que vous enchainez les coups. Inflige des {coups critiques@CC} après ::count:: coups enchainés.",
+  "tier1": "Brutality",
+  "legendAffix": "PoisonOnHit",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 54
+}

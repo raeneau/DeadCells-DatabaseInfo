@@ -1,0 +1,109 @@
+{
+  "props": {
+    "range": 20,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1
+  },
+  "genTags": 545,
+  "glowOuterColor": 4433719,
+  "pfCost": 0.75,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Blowgun",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "PrisonerBlowgunner",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 59,
+  "volteDelay": 0.2,
+  "id": "Blowgunner",
+  "dlc": "TheBadSeed",
+  "weight": 10,
+  "icon": {
+    "x": 68,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    70
+  ],
+  "name": "Sarbacaneton",
+  "minPfHeight": 0,
+  "glowInnerColor": 6481739,
+  "minPfSize": 2,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 2744639,
+  "flesh2": 840228,
+  "skill": [
+    {
+      "chargeAnim": "idleAtkLoad",
+      "coolDown": 1.5,
+      "power": [
+        12
+      ],
+      "props": {
+        "speed": 0.75,
+        "canTriggerThroughWall": true,
+        "x": 0.5,
+        "y": -1,
+        "distance": 2.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_blowgunner_charge.wav",
+      "charge": 0.7,
+      "manual": false,
+      "chargeAnimSpd": 2,
+      "id": "shoot",
+      "sfxRelease": "sfx/weapon_blowgun_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 30,
+      "breachResistance": -10,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "jumpLoad",
+      "coolDown": 2,
+      "props": {
+        "speed": 0.1,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.75,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/jump2.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/land.wav",
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 59
+}

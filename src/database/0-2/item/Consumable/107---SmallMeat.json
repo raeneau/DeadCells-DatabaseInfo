@@ -1,0 +1,30 @@
+{
+  "id": "SmallMeat",
+  "name": "Brochette",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "power": 25,
+    "duration": 1.5
+  },
+  "group": 8,
+  "tags": [
+    {
+      "tag": "SmallHealConsumable"
+    }
+  ],
+  "gameplayDesc": "Soigne ::+power:: PV.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 6
+  },
+  "cellCost": 0,
+  "moneyCost": 200,
+  "index": 107,
+  "hasLevels": false,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 107
+}

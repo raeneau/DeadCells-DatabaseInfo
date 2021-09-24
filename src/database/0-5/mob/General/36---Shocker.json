@@ -1,0 +1,63 @@
+{
+  "id": "Shocker",
+  "score": 3,
+  "canBeElite": false,
+  "minPfSize": 6,
+  "maxPerRoom": 2,
+  "props": {
+    "movePauseMul": 9999,
+    "moveSpeedMul": 0
+  },
+  "skill": [
+    {
+      "id": "shock",
+      "charge": 1.1,
+      "coolDown": 1.35,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 10,
+      "breachResistance": 0.1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.8,
+        "distance": 8
+      },
+      "power": [
+        6
+      ],
+      "sfxCharge": "sfx/enm_shoker_charge.wav",
+      "sfxRelease": "sfx/enm_shoker_release.wav"
+    }
+  ],
+  "genTags": 1,
+  "index": 36,
+  "group": 0,
+  "name": "Electrocuteur",
+  "life": [
+    90
+  ],
+  "pfCost": 0.8,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 54,
+    "y": 9
+  },
+  "blueprints": [
+    {
+      "item": "FireTurret",
+      "rarity": "Rare"
+    }
+  ],
+  "weight": 10,
+  "maxPerPlatform": 1,
+  "glowInnerColor": 54015,
+  "glowOuterColor": 16711680,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 36
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ToxicCloud",
+  "name": "Nuage corrosif",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "Poison"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 8,
+    "duration": 2,
+    "aoeDuration": 15,
+    "range": 8
+  },
+  "group": 3,
+  "gameplayDesc": "Crée un large nuage infligeant des saignements et des empoisonnements (::+dps:: DPS sur ::duration:: sec) pendant ::aoeDuration:: sec. ",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 6
+  },
+  "tier1": "Tactic",
+  "legendAffix": "LightningAoe",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 36
+}

@@ -1,0 +1,25 @@
+{
+  "id": "P_Curse",
+  "name": "Aliénation",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.1,
+    "effectCharge": 2
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 11
+  },
+  "gameplayDesc": "Lorsque vous êtes maudit, chaque victime réduisant la malédiction vous rend ::prct::% PV.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 205
+}

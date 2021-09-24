@@ -1,0 +1,27 @@
+{
+  "id": "P_ShareDamage",
+  "name": "Réseautage",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.2,
+    "customScaling": 1.05,
+    "scaledValueCap": 0.75,
+    "tick": 0.2
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 15
+  },
+  "tier1": "Tactic",
+  "gameplayDesc": "Les ennemis avec des flèches plantées dans le corps partagent ::+prct::% des dommages subis.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 267
+}

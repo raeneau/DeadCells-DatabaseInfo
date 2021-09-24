@@ -1,0 +1,24 @@
+{
+  "id": "PermanentPoisonRemedy",
+  "name": "DEPRECATED",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "neverCompensateCost": true,
+    "prct": 0.33
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 3
+  },
+  "gameplayDesc": "DEPRECATED",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 224
+}

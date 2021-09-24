@@ -1,0 +1,142 @@
+{
+  "id": "PrisonCorrupt",
+  "biome": "PrisonCorrupt",
+  "mobs": [
+    {
+      "mob": "Stomper",
+      "quantityFactor": 0.3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 0.2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 0.2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Grenader",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Archer",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 2
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 0.8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "Ninja",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 2,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 0.7,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 4,
+  "group": 0,
+  "name": "Prison corrompue",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 3,
+    "viewerColor": 7037069,
+    "doorColor": 10104763,
+    "chromaColor": 16711793,
+    "musicLoop": "music/prisoncorrupt_loop.ogg",
+    "zDoorColor": 2801540,
+    "levelSpecificTrap": 2,
+    "levelTrapFrequency": 0.3,
+    "noAdditionalElite": false,
+    "loadingColor": 3148076,
+    "loadingDescColor": 12753375,
+    "musicIntro": "music/prisoncorrupt_intro.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 1,
+  "loreDescriptions": [
+    {
+      "text": "“Donner son corps à la science” prend un tout autre sens lorsqu’on est encore vivant."
+    },
+    {
+      "text": "Qui aurait pu penser que même la pierre pouvait être infectée ?"
+    },
+    {
+      "text": "Les gardiens furent les premiers touchés. A moins que personne ne remarqua la différence sur les prisonniers ? "
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 11
+  },
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 4
+}

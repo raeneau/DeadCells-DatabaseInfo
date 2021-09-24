@@ -1,0 +1,30 @@
+{
+  "id": "LargeMonster",
+  "name": "Gros oeil",
+  "moneyCost": 500,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "LargeHealConsumable"
+    }
+  ],
+  "props": {
+    "power": 60,
+    "duration": 1.5
+  },
+  "index": 107,
+  "group": 8,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 6
+  },
+  "gameplayDesc": "Soigne ::+power:: PV.",
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 107
+}

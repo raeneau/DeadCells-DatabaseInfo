@@ -1,0 +1,28 @@
+{
+  "id": "TacticUp",
+  "name": "Tactique",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 8,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "gameplayDesc": "Augmente les dégâts des compétences actives et réduit leur délai d'utilisation.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "tier1": "Tactic",
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 159
+}

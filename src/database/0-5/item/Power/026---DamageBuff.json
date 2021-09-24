@@ -1,0 +1,33 @@
+{
+  "id": "DamageBuff",
+  "name": "Puissance corrompue",
+  "castCD": 30,
+  "props": {
+    "duration": 8,
+    "prct": 0.3,
+    "effectCD": 0.33,
+    "dps": 50
+  },
+  "group": 3,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "gameplayDesc": "Vous infligez environ ::+dps:: DPS supplémentaires pendant ::duration:: sec. Vous subissez également +::prct::% dégâts supplémentaires pendant cette période.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 0
+  },
+  "cellCost": 40,
+  "moneyCost": 2000,
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "tier2": "Survival",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 26
+}

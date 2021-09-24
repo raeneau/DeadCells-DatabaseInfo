@@ -1,0 +1,72 @@
+{
+  "item": "ImpaleSpear",
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 1,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.3
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.05
+      },
+      "animId": "atkSpearB",
+      "power": [
+        30
+      ],
+      "fxId": "fxSpearB",
+      "glowColor": 14352375,
+      "fxInnerColor": 16770211,
+      "fxOuterColor": 16737536,
+      "sfxRelease": "sfx/weapon_impaler_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.8
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 1,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.07
+      },
+      "animId": "atkSpearC",
+      "power": [
+        32
+      ],
+      "fxId": "fxSpearC",
+      "glowColor": 14352375,
+      "fxInnerColor": 16770211,
+      "fxOuterColor": 16737536,
+      "sfxRelease": "sfx/weapon_impaler_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 1.05
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 51
+}

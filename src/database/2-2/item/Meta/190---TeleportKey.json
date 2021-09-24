@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Cette rune {permanente@PE} permet d'utiliser les stèles de téléportation.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "TeleportKey",
+  "icon": {
+    "x": 6,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Rune de téléportation",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 190
+}

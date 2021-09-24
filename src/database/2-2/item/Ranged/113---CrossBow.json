@@ -1,0 +1,50 @@
+{
+  "props": {
+    "ammo": 15,
+    "item": "CrossBowOffHand"
+  },
+  "gameplayDesc": "Tire plusieurs carreaux à la fois à courte portée.",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "Un carnage à bout portant.",
+  "id": "CrossBow",
+  "icon": {
+    "x": 13,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arbalète lourde",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "DualWeaponBase"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 40,
+  "legendAffix": "Pierce",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 113
+}

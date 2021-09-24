@@ -1,0 +1,34 @@
+{
+  "id": "DarknessLantern",
+  "name": "Veilleuse",
+  "moneyCost": 1500,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 120,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NoQualityUpgrade"
+    }
+  ],
+  "props": {
+    "range": 4
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 7
+  },
+  "gameplayDesc": "Eclaire votre chemin.",
+  "hasLevels": false,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 11
+}

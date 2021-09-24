@@ -1,0 +1,61 @@
+{
+  "id": "ImmortalZombie",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.7,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0,
+    "immortalityDuration": 2,
+    "immortalityLifeMul": 0.5
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        12
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 65,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 24
+  },
+  "name": "Zombie",
+  "glowInnerColor": 65422,
+  "glowOuterColor": 47247,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    130
+  ],
+  "volteDelay": 0.7,
+  "weight": 10,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 65
+}

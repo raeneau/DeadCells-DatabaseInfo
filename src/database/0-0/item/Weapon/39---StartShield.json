@@ -1,0 +1,33 @@
+{
+  "id": "StartShield",
+  "name": "Vieux bouclier en bois",
+  "droppable": false,
+  "hasTier": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {
+    "sideHandOnly": true
+  },
+  "group": 4,
+  "gameplayDesc": "Permet de bloquer les attaques.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 3
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 39,
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 39
+}

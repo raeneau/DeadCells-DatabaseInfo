@@ -1,0 +1,35 @@
+{
+  "id": "BehemothHammer",
+  "name": "Silex",
+  "moneyCost": 1800,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "CanPrepareWithoutAmmo"
+    },
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "props": {
+    "power": [
+      70
+    ]
+  },
+  "group": 4,
+  "tier1": "Brutality",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 4
+  },
+  "gameplayDesc": "Un coup maintenu inflige un {coup critique@CC} et projette une trainée de flamme infligeant ::+power:: dégâts.",
+  "ambiantDesc": "Laissez le Concierge vous donner un coup de main.",
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 83
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ForgeRefine1",
+  "name": "Forge avancée I",
+  "moneyCost": 0,
+  "cellCost": 2000,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Money4",
+    "reqUnlocks": 40
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 10
+  },
+  "gameplayDesc": "Vous pouvez augmenter la qualité d'un objet à la forge 2 fois au lieu d'une.",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 186
+}

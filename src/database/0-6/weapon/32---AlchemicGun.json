@@ -1,0 +1,43 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.5,
+      "coolDown": 0.6,
+      "lockCtrlAfter": 0.18,
+      "power": [
+        20
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": -0.7,
+      "props": {
+        "range": 3,
+        "aoeDuration": 6
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "critMul": 1,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 4189803,
+      "fxInnerColor": 3322456,
+      "fxOuterColor": 3322456,
+      "sfxRelease": "sfx/weapon_firecrossbow_shot.wav",
+      "animSpd": 2,
+      "sfxHit": "sfx/glass_break.wav",
+      "sfxCharge": "sfx/bow_charge1.wav"
+    }
+  ],
+  "item": "AlchemicGun",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 32
+}

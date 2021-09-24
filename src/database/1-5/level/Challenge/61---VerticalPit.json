@@ -1,0 +1,76 @@
+{
+  "id": "VerticalPit",
+  "biome": "Cemetery",
+  "worldDepth": 5,
+  "mobs": [
+    {
+      "mob": "Shocker",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Earthquaker",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "packSize": 1
+    },
+    {
+      "mob": "Demon",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "packSize": 2
+    },
+    {
+      "mob": "Arbiter",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 0,
+      "props": {}
+    }
+  ],
+  "props": {
+    "viewerY": 3,
+    "viewerColor": 5401462,
+    "doorColor": 62719,
+    "chromaColor": 51199
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 7,
+  "cellBonus": 0,
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "mobDensity": 1,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "loreDescriptions": [],
+  "index": 61,
+  "group": 3,
+  "name": "Le Puits",
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Challenge",
+  "__original_Index": 61
+}

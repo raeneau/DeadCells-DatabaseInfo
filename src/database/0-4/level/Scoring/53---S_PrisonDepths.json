@@ -1,0 +1,89 @@
+{
+  "id": "S_PrisonDepths",
+  "biome": "PrisonDepths",
+  "viewerColor": 6310313,
+  "viewerOffX": 0,
+  "viewerY": 0,
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "singleRoom": false,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 3,
+      "props": {}
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "Hammer",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 2,
+      "props": {}
+    },
+    {
+      "mob": "SpikedSatyr",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    }
+  ],
+  "lootLevel": 2,
+  "cellBonus": 0,
+  "mobDensity": 1.2,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "flags": 0,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "index": 53,
+  "group": 4,
+  "name": "Profondeurs de la Prison",
+  "musicLoop": "music/PrisonDepth.ogg",
+  "doorColor": 11092735,
+  "chromaColor": 9109759,
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "baseMobTier": 2,
+  "props": {},
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 53
+}

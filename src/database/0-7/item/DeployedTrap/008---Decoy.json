@@ -1,0 +1,39 @@
+{
+  "id": "Decoy",
+  "name": "Leurre explosif",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "Explosive"
+    }
+  ],
+  "props": {
+    "duration": 2.5,
+    "power": [
+      110
+    ],
+    "distance": 7,
+    "debuff": 1
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 6
+  },
+  "gameplayDesc": "Vous rend invisible pendant ::duration:: sec et attire les ennemis proches. Explose après ::duration:: sec.",
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "legendaryName": "Attrape-moi si tu peux",
+  "legendAffix": "RunSpeedOnKill",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 8
+}

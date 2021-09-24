@@ -1,0 +1,40 @@
+{
+  "id": "LeechBuff",
+  "name": "Vampirisme",
+  "moneyCost": 1500,
+  "cellCost": 45,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "TransformOnUse"
+    }
+  ],
+  "props": {
+    "duration": 20,
+    "prct": 0.05,
+    "item": "LeechBuffEmpty",
+    "range": 12,
+    "dps": 40
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 8
+  },
+  "gameplayDesc": "Les ennemis proches {saignent@BL} (::+dps:: DPS pendant ::duration:: sec) et lachent un remède en mourrant (soigne ::prct::% PV).",
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "legendAffix": "RunSpeedOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 28
+}

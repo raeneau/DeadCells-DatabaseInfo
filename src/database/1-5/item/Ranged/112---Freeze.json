@@ -1,0 +1,47 @@
+{
+  "id": "Freeze",
+  "name": "Congélation",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 4,
+    "ammoRecoveryStart": 2,
+    "ammoRecoveryTick": 0.8
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 2
+  },
+  "gameplayDesc": "{Gèle@IC} les ennemis devant vous. Aucun dégât si la cible est déjà {gelée@IC}.",
+  "tier1": "Tactic",
+  "legendAffix": "StrongIce",
+  "tier2": "Survival",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 112
+}

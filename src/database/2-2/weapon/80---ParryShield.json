@@ -1,0 +1,38 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "ParryShield",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "duration": 1.5
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_parryshield_release.wav",
+      "charge": 0.37,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxHit": "sfx/weapon_shield_block2.wav",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 80
+}

@@ -1,0 +1,177 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.06,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 4,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 0.1
+      },
+      "power": [
+        20
+      ],
+      "animId": "atkRapierA",
+      "glowColor": 5935871,
+      "fxInnerColor": 8188927,
+      "fxOuterColor": 9457663,
+      "fxId": "fxRapierA",
+      "sfxRelease": "sfx/weapon_chargesw_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "animSpd": 2
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.06,
+      "hitFrame": 6,
+      "area": {
+        "shape": 1,
+        "width": 4,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": -0.2
+      },
+      "animId": "atkSwordA",
+      "animSpd": 2,
+      "fxFrame": 6,
+      "fxId": "fxSwordAtkA",
+      "glowColor": 5935871,
+      "fxInnerColor": 8188927,
+      "fxOuterColor": 9457663,
+      "power": [
+        20
+      ],
+      "sfxRelease": "sfx/weapon_chargesw_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.35,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 7.5,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.4,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 1.2,
+        "duration": 0.3,
+        "threshold": -1
+      },
+      "animId": "atkRapierA",
+      "power": [
+        50
+      ],
+      "glowColor": 13270783,
+      "fxInnerColor": 13872895,
+      "fxOuterColor": 9457663,
+      "fxId": "fxRapierA",
+      "sfxRelease": "sfx/weapon_chargesw_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "sfxCharge": "sfx/weapon_spear_charge1.wav"
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.35,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 7.5,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.4,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 1.2,
+        "duration": 0.3,
+        "threshold": -1
+      },
+      "animId": "atkRapierA",
+      "fxId": "fxSwordAtkA",
+      "glowColor": 13270783,
+      "fxInnerColor": 13872895,
+      "fxOuterColor": 9457663,
+      "power": [
+        75
+      ],
+      "sfxCharge": "sfx/weapon_spear_charge1.wav",
+      "sfxRelease": "sfx/weapon_chargesw_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxOffset": [
+        10,
+        4
+      ]
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.55,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 7.5,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0.4,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "bump": 1.2,
+        "duration": 0.3,
+        "threshold": -1
+      },
+      "animId": "atkRapierA",
+      "fxId": "fxSwordAtkA",
+      "glowColor": 13270783,
+      "fxInnerColor": 13872895,
+      "fxOuterColor": 9457663,
+      "power": [
+        140
+      ],
+      "sfxCharge": "sfx/weapon_spear_charge1.wav",
+      "sfxRelease": "sfx/weapon_chargesw_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxOffset": [
+        20,
+        4
+      ]
+    }
+  ],
+  "item": "DashSword",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 29
+}

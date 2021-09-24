@@ -1,0 +1,27 @@
+{
+  "id": "P_HealOnKill",
+  "name": "Nécromancie",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 2,
+    "minPerks": 0,
+    "ceilToolTipValues": true
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 9
+  },
+  "gameplayDesc": "Récupère ::+power:: PV après la mort d'un ennemi.",
+  "tier1": "Survival",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 203
+}

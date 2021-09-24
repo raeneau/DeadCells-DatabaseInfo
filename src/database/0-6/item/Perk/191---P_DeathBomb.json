@@ -1,0 +1,29 @@
+{
+  "id": "P_DeathBomb",
+  "name": "Cadeau de départ",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": [
+      65
+    ],
+    "range": 6,
+    "duration": 0.7
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 10
+  },
+  "gameplayDesc": "Fait apparaître une bombe infligeant ::+power:: dégâts quand vous tuez un ennemi autrement qu'au corps à corps.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 191
+}

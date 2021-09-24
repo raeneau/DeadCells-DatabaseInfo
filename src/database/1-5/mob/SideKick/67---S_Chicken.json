@@ -1,0 +1,95 @@
+{
+  "id": "S_Chicken",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 8,
+  "pfCost": 0,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "movePauseMul": 0.17,
+    "moveSpeedMul": 2,
+    "cannotBeShield": true,
+    "fallResistance": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.1,
+      "coolDown": 0.2,
+      "lockAiAfter": 0.1,
+      "radius": 1,
+      "breachResistance": 1,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.3
+      },
+      "power": [
+        20
+      ],
+      "hitFrame": 0,
+      "manual": false,
+      "sfxRelease": "sfx/hit_flesh.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "fly",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounceFx": true,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.45,
+        "bump": 0.25,
+        "frict": 0.96,
+        "delay": 0.2
+      }
+    },
+    {
+      "id": "pickGround",
+      "charge": 0,
+      "coolDown": 1.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.6
+      }
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 67,
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 18
+  },
+  "name": "Poulet",
+  "flesh1": 13509833,
+  "flesh2": 8590010,
+  "life": 100,
+  "volteDelay": 0.2,
+  "weight": 1,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 67
+}

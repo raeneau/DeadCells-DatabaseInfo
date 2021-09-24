@@ -1,0 +1,21 @@
+{
+  "id": "Giant1",
+  "name": "Tenue du Gigantus déçu",
+  "moneyCost": 0,
+  "cellCost": 150,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 26,
+    "y": 15
+  },
+  "gameplayDesc": "Un costume XXL !",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 333
+}

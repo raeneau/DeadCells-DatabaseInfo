@@ -1,0 +1,31 @@
+{
+  "id": "T_BeholderPit",
+  "biome": "BeholderPit",
+  "mobs": [],
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 1,
+  "transitionTo": "BeholderPit",
+  "index": 31,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 11,
+  "props": {
+    "viewerY": 2,
+    "musicLoop": "music/dc_colletor2.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 2,
+  "loreDescriptions": [],
+  "name": "Passage vers la Crypte nauséabonde",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 31
+}

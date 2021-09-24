@@ -1,0 +1,252 @@
+{
+  "id": "Collector",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0,
+    "bumpResistance": 0.9,
+    "dmgSoftCap": [
+      0,
+      0.05
+    ]
+  },
+  "skill": [
+    {
+      "id": "bigStomp",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 3,
+      "lockAiAfter": 0.5,
+      "radius": 10,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 5,
+        "power2": [
+          7
+        ],
+        "distance": 2.5
+      },
+      "power": [
+        75
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_stomp_charge.wav",
+      "sfxRelease": "sfx/enm_collector_stomp_release.wav"
+    },
+    {
+      "id": "smallDash",
+      "charge": 0.75,
+      "coolDown": 5,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 8,
+        "count": 3,
+        "delay": 0.35
+      },
+      "power": [
+        25
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_vox1.wav",
+      "sfxRelease": "sfx/enm_collector_dash_release.wav"
+    },
+    {
+      "id": "spin",
+      "charge": 1,
+      "coolDown": 8,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 3,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 2.5,
+        "tick": 0.1,
+        "bump": 6.5,
+        "stunTime": 0.2
+      },
+      "power": [
+        5
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_spin_charge.wav",
+      "sfxRelease": "sfx/enm_collector_spin_release.wav"
+    },
+    {
+      "id": "spikeBall",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        5
+      ],
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/trap_shot.wav"
+    },
+    {
+      "id": "fireWalls",
+      "charge": 0.75,
+      "coolDown": 0,
+      "hitFrame": 6,
+      "lockAiAfter": 0,
+      "radius": 1,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "height": 15,
+        "tick": 0.5,
+        "speed": 0.3,
+        "count": 3
+      },
+      "power": [
+        30
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_fire_charge.wav",
+      "sfxRelease": "sfx/enm_collector_fire_release.wav"
+    },
+    {
+      "id": "laserBeam",
+      "charge": 0.5,
+      "coolDown": 1,
+      "hitFrame": 5,
+      "lockAiAfter": 0,
+      "radius": 0.55,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.5,
+        "count": 3,
+        "height": 6
+      },
+      "power": [
+        50
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_laser_charge.wav",
+      "sfxRelease": "sfx/enm_collector_laser_release.wav"
+    },
+    {
+      "id": "throwBomb",
+      "charge": 1,
+      "coolDown": 1,
+      "hitFrame": 7,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        10
+      ],
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_collector_bomb_release.wav"
+    },
+    {
+      "id": "energyBall",
+      "charge": 0.7,
+      "coolDown": 0,
+      "hitFrame": 4,
+      "lockAiAfter": 0,
+      "radius": 1,
+      "breachResistance": 10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 3,
+        "speed": 1.5
+      },
+      "power": [
+        30
+      ],
+      "disableAnnounceFx": false,
+      "sfxCharge": "sfx/enm_collector_energy_charge.wav",
+      "sfxRelease": "sfx/enm_collector_energy_release.wav"
+    },
+    {
+      "id": "switchRoom",
+      "charge": 2,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1000,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {}
+    }
+  ],
+  "genTags": 4,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "CollectorSpin"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "CollectorDefault"
+    }
+  ],
+  "metaItems": [],
+  "index": 64,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 10
+  },
+  "name": "Le Collecteur",
+  "glowInnerColor": 4376539,
+  "flesh1": 5664385,
+  "flesh2": 10987964,
+  "life": 750000,
+  "volteDelay": 0.4,
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 64
+}

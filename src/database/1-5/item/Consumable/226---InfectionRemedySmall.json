@@ -1,0 +1,24 @@
+{
+  "id": "InfectionRemedySmall",
+  "name": "Petit sirop pour la toux",
+  "moneyCost": 3000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "neverCompensateCost": true,
+    "power": 1
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 22,
+    "y": 4
+  },
+  "gameplayDesc": "Réduit votre infection au Mal-être de ::power::.",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 226
+}

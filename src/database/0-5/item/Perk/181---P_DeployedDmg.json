@@ -1,0 +1,28 @@
+{
+  "id": "P_DeployedDmg",
+  "name": "Soutien",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 45,
+    "effectCD": 0.33,
+    "duration": 1,
+    "minPerks": 0
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 10
+  },
+  "tier1": "Tactic",
+  "gameplayDesc": "+::+dps:: dégâts/sec environ tant que vous êtes proche d'une capacité active déployée.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 181
+}

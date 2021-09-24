@@ -1,0 +1,143 @@
+{
+  "id": "KunaiMaster",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.9,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 2,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "directHitStunChance": 1,
+    "walkAnimSpeed": 1.5
+  },
+  "skill": [
+    {
+      "id": "first",
+      "charge": 0.5,
+      "coolDown": 1.5,
+      "hitFrame": 5,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.8,
+        "count": 3,
+        "ang": 0.3,
+        "dps": 2,
+        "duration": 2,
+        "lock": 2
+      },
+      "power": 1,
+      "chargeAnim": "atkLoad",
+      "execAnim": "atk",
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/weapon_kunai_release.wav"
+    },
+    {
+      "id": "chain",
+      "charge": 0.06,
+      "coolDown": 0,
+      "hitFrame": 2,
+      "lockAiAfter": 0.06,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.8,
+        "ang": 0.05,
+        "dps": 2,
+        "duration": 2
+      },
+      "power": 1,
+      "chargeAnim": "atkLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atk",
+      "execAnimSpd": 2.5,
+      "disableAnnounceFx": true,
+      "sfxRelease": "sfx/weapon_kunai_release.wav"
+    },
+    {
+      "id": "swap",
+      "charge": 0.5,
+      "coolDown": 3.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0.85,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_archer_tp1.wav"
+    },
+    {
+      "id": "flee",
+      "charge": 0,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 5,
+        "speed": 0.85,
+        "duration": 0.2,
+        "range": 6
+      },
+      "disableAnnounceFx": true,
+      "sfxRelease": "sfx/enm_archer_dodge1.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "Owl"
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 3,
+      "item": "PrisonerSonGoku"
+    }
+  ],
+  "metaItems": [],
+  "index": 41,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 1
+  },
+  "name": "Lanceur de couteaux",
+  "glowInnerColor": 16754302,
+  "glowOuterColor": 16252928,
+  "flesh1": 9710122,
+  "flesh2": 10081509,
+  "life": [
+    90
+  ],
+  "volteDelay": 0.1,
+  "weight": 10,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 41
+}

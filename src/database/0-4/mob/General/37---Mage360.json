@@ -1,0 +1,111 @@
+{
+  "id": "Mage360",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 3,
+  "maxPerRoom": 3,
+  "props": {
+    "directHitStunChance": 1,
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.5
+  },
+  "skill": [
+    {
+      "id": "shoot",
+      "charge": 0.7,
+      "coolDown": 0.15,
+      "power": [
+        8
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "speed": 0.5
+      },
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": -10,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 30,
+      "manual": false,
+      "sfxCharge": "sfx/enm_mage_charge.wav",
+      "sfxRelease": "sfx/enm_mage_release.wav"
+    },
+    {
+      "id": "dodge",
+      "charge": 0,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 2
+      }
+    },
+    {
+      "id": "multiShoot",
+      "charge": 0.7,
+      "coolDown": 0.15,
+      "hitFrame": 30,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": -10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true,
+        "count": 4,
+        "speed": 0.5
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/enm_mage_charge.wav",
+      "sfxRelease": "sfx/enm_mage_release.wav"
+    }
+  ],
+  "genTags": 1,
+  "index": 37,
+  "group": 0,
+  "name": "Inquisiteur",
+  "life": [
+    100
+  ],
+  "weight": 15,
+  "glowInnerColor": 7819992,
+  "volteDelay": 0.7,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "pfCost": 1.7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 46,
+    "y": 78
+  },
+  "blueprints": [
+    {
+      "item": "Lightning",
+      "rarity": "Uncommon"
+    },
+    {
+      "rarity": "Rare",
+      "item": "LeechBuff"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 37
+}

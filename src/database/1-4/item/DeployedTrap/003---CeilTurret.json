@@ -1,0 +1,49 @@
+{
+  "id": "CeilTurret",
+  "name": "Bernacle",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": [
+      52
+    ],
+    "effectCD": 0.38,
+    "targetable": false,
+    "life": 20,
+    "deployTimer": 0.2,
+    "duration": 9,
+    "debuff": 1.5
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 6
+  },
+  "gameplayDesc": "Tire sur les ennemis qui passent en dessous.",
+  "tier1": "Tactic",
+  "legendAffix": "Oil",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 3
+}

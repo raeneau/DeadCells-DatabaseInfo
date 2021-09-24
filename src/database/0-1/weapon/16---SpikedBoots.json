@@ -1,0 +1,44 @@
+{
+  "item": "SpikedBoots",
+  "airControlAlways": true,
+  "isACancel": true,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.15,
+      "coolDown": 0.25,
+      "lockCtrlAfter": 0.15,
+      "animId": "kick",
+      "power": [
+        20
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {
+        "bump": 0.2,
+        "duration": 1.1
+      },
+      "hitFrame": 5,
+      "canCrit": true,
+      "area": {
+        "shape": 1,
+        "width": 2,
+        "height": 1,
+        "offsetCaseY": 0.3,
+        "offsetCaseX": 0.8
+      },
+      "glowColor": 14667198,
+      "animSpd": 1,
+      "critMul": 1.5,
+      "fxId": "fxKick",
+      "fxFrame": 4,
+      "fxInnerColor": 16713993,
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxRelease": "sfx/weapon_kick_release.wav"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 16
+}

@@ -1,0 +1,82 @@
+{
+  "id": "BatKamikaze",
+  "props": {
+    "cannotBeShield": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "skill": [
+    {
+      "id": "explosion",
+      "charge": 0.71,
+      "coolDown": 0,
+      "lockAiAfter": 0,
+      "radius": 1.5,
+      "breachResistance": 0,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 4,
+        "canTriggerThroughWall": false
+      },
+      "power": [
+        25
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_kamikaze_charge.wav",
+      "sfxRelease": "sfx/enm_kamikaze_release.wav"
+    },
+    {
+      "id": "turbo",
+      "charge": 0,
+      "coolDown": 4,
+      "lockAiAfter": 0,
+      "radius": 6,
+      "breachResistance": 0,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2.5,
+        "canTriggerThroughWall": true
+      },
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxRelease": "sfx/enm_kamikaze_turbo.wav"
+    }
+  ],
+  "index": 15,
+  "group": 0,
+  "life": 1,
+  "genTags": 18,
+  "weight": 0,
+  "minPfSize": 0,
+  "name": "Kamikaze",
+  "score": 2,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "volteDelay": 0,
+  "flesh1": 9024537,
+  "pfCost": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 9
+  },
+  "blueprints": [
+    {
+      "chance": 0.02,
+      "item": "LowHealth"
+    }
+  ],
+  "cells": 1,
+  "cellChance": 0.33,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 15
+}

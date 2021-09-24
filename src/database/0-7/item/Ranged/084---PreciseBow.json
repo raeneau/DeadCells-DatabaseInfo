@@ -1,0 +1,38 @@
+{
+  "id": "PreciseBow",
+  "name": "Nerfs d'acier",
+  "moneyCost": 1500,
+  "cellCost": 80,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 4
+  },
+  "tier1": "Tactic",
+  "gameplayDesc": "Inflige un {coup critique@CC} si la flèche est tirée au bon moment.",
+  "tier2": "Survival",
+  "legendAffix": "FireBullet",
+  "legendaryName": "Etincelle de Skool",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 84
+}

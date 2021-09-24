@@ -1,0 +1,39 @@
+{
+  "id": "ExtraHeal",
+  "name": "Tonique",
+  "moneyCost": 1000,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "TransformOnUse"
+    },
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    }
+  ],
+  "props": {
+    "power": 10,
+    "duration": 3,
+    "item": "ExtraHealEmpty",
+    "prct": 0.04,
+    "scaledValueCap": 0.25
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 8
+  },
+  "gameplayDesc": "Soigne ::+prct::% PV et protège totalement (::duration:: sec).",
+  "tier1": "Survival",
+  "legendAffix": "RunSpeedOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 30
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Hammer",
+  "flesh1": 9732831,
+  "score": 10,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "maxPerRoom": 2,
+  "props": {
+    "moveSpeedMul": 1.2,
+    "movePauseMul": 0,
+    "disableEliteSidekicks": true
+  },
+  "skill": [
+    {
+      "id": "grenade",
+      "charge": 0.4,
+      "coolDown": 1.5,
+      "props": {
+        "count": 4,
+        "triggerDelay": 1.5
+      },
+      "lockAiAfter": 0,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "breachResistance": 1,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "power": [
+        10
+      ],
+      "manual": false,
+      "sfxRelease": "sfx/enm_hammer_release2.wav",
+      "sfxCharge": "sfx/enm_hammer_charge2.wav"
+    },
+    {
+      "id": "invoke",
+      "charge": 0.3,
+      "coolDown": 0.4,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 12,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "count": 3,
+        "max": 6
+      },
+      "sfxCharge": "sfx/enm_hammer_charge1.wav",
+      "sfxRelease": "sfx/enm_hammer_release1.wav"
+    },
+    {
+      "id": "jumpBack",
+      "charge": 0.3,
+      "coolDown": 1.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 5
+      },
+      "power": 2,
+      "sfxRelease": "sfx/jump.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 9,
+  "group": 0,
+  "name": "Hammer",
+  "glowInnerColor": 10048255,
+  "flesh2": 3022450,
+  "life": [
+    390
+  ],
+  "volteDelay": 0.6,
+  "weight": 20,
+  "pfCost": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 53,
+    "y": 22
+  },
+  "blueprints": [
+    {
+      "item": "Spear",
+      "rarity": "Uncommon"
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "OilBomb"
+    }
+  ],
+  "maxPerPlatform": 1,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 9
+}

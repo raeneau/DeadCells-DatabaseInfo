@@ -1,0 +1,27 @@
+{
+  "id": "QuickSword",
+  "name": "Epée équilibrée",
+  "moneyCost": 1500,
+  "cellCost": 0,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {},
+  "index": 31,
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 6
+  },
+  "gameplayDesc": "Soigneusement équilibrée pour enchainer des attaques rapides.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 31
+}

@@ -1,0 +1,72 @@
+{
+  "id": "Shield",
+  "props": {
+    "movePauseMul": 0,
+    "bumpResistance": 0.3,
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "dash",
+      "charge": 0.8,
+      "coolDown": 3.6,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "distance": 8,
+        "duration": 0.6,
+        "stunTime": 1
+      },
+      "power": [
+        10
+      ],
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_charge.wav",
+      "sfxRelease": "sfx/enm_shield_release.wav"
+    }
+  ],
+  "index": 14,
+  "group": 0,
+  "life": [
+    100
+  ],
+  "weight": 20,
+  "shards": 0,
+  "genTags": 0,
+  "minPfSize": 8,
+  "name": "Porteur de bouclier",
+  "score": 8,
+  "maxPerRoom": 0,
+  "canBeElite": true,
+  "volteDelay": 0.6,
+  "flesh1": 11493844,
+  "flesh2": 12211505,
+  "pfCost": 1.2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 44,
+    "y": 71
+  },
+  "blueprints": [
+    {
+      "item": "Rampart",
+      "rarity": "Uncommon"
+    },
+    {
+      "item": "BloodShield",
+      "rarity": "Legendary"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 14
+}

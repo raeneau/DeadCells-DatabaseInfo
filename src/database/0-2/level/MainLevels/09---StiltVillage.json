@@ -1,0 +1,65 @@
+{
+  "id": "StiltVillage",
+  "biome": "StiltVillage",
+  "mobs": [
+    {
+      "mob": "PirateChief",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "Runner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "mob": "FastZombie",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "packSize": [
+        2,
+        4
+      ]
+    }
+  ],
+  "mobDensity": 1,
+  "viewerY": 0,
+  "flags": 5,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Gué des Brumes",
+  "musicLoop": "music/Village.ogg",
+  "eliteWanderChance": 0.75,
+  "eliteRoomChance": 0,
+  "doorColor": 3261834,
+  "index": 9,
+  "mobTier": 6,
+  "lootLevel": 5,
+  "chosenUps": 1,
+  "randomUps": 2,
+  "itemUps": 1,
+  "zDoorColor": 16772451,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 3261821,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 9
+}

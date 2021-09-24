@@ -1,0 +1,30 @@
+{
+  "id": "Rampart",
+  "name": "Rempart",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 1
+  },
+  "gameplayDesc": "Permet de bloquer les attaques. Génère un champ de force quand vous y parvenez.",
+  "cellCost": 30,
+  "moneyCost": 1750,
+  "index": 54,
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 54
+}

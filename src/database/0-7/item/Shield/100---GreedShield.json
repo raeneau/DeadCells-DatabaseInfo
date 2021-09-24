@@ -1,0 +1,29 @@
+{
+  "id": "GreedShield",
+  "name": "Bouclier de cupidité",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 3
+  },
+  "gameplayDesc": "Les attaques bloquées font tomber les dents des ennemis (1 par ennemi). Transforme les flèches en or.",
+  "cellCost": 0,
+  "moneyCost": 1750,
+  "tier1": "Survival",
+  "hasLevels": true,
+  "legendAffix": "DoubleDamageFree",
+  "legendaryName": "Cupidon",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 100
+}

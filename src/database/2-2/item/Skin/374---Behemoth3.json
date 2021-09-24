@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "La conciergerie dans la peau !",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Behemoth3",
+  "icon": {
+    "x": 17,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue du concierge transcendé",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 500,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 374
+}

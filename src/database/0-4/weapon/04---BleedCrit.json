@@ -1,0 +1,127 @@
+{
+  "item": "BleedCrit",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "power": [
+        25
+      ],
+      "animId": "atkKnifeB",
+      "fxId": "fxKnifeB",
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 7,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 3,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16769869,
+      "fxInnerColor": 329479,
+      "fxOuterColor": 329479,
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.75
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 3,
+      "area": {
+        "shape": 1,
+        "width": 3.25,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkKnifeA",
+      "animSpd": 2,
+      "fxId": "fxKnifeA",
+      "glowColor": 16769869,
+      "fxInnerColor": 329479,
+      "fxOuterColor": 329479,
+      "power": [
+        25
+      ],
+      "critMul": 0.8,
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 3,
+      "area": {
+        "shape": 1,
+        "width": 3.25,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkKnifeA",
+      "animSpd": 2,
+      "fxId": "fxKnifeA",
+      "glowColor": 16769869,
+      "fxInnerColor": 329479,
+      "fxOuterColor": 329479,
+      "power": [
+        25
+      ],
+      "critMul": 0.85,
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "animId": "atkKnifeB",
+      "fxId": "fxKnifeB",
+      "power": [
+        50
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 7,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 3,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16723759,
+      "fxInnerColor": 2686976,
+      "fxOuterColor": 2686976,
+      "sfxHit": "sfx/hit_blade.wav",
+      "sfxRelease": "sfx/weapon_saber_release2.wav",
+      "animSpd": 0.66,
+      "critMul": 1
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 4
+}

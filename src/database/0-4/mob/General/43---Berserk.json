@@ -1,0 +1,214 @@
+{
+  "id": "Berserk",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 0.9,
+    "climbEndDist": 4,
+    "movePauseMul": 0,
+    "moveSpeedMul": 5,
+    "cellLoot": 20,
+    "noContactAttack": true
+  },
+  "skill": [
+    {
+      "id": "front",
+      "charge": 0.5,
+      "coolDown": 1,
+      "hitFrame": 14,
+      "lockAiAfter": 0.5,
+      "radius": 2,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 0.75,
+        "tick": 0.2,
+        "duration": 1
+      },
+      "power": [
+        30
+      ],
+      "sfxCharge": "sfx/enm_berserk_charge1.wav",
+      "sfxRelease": "sfx/enm_berserk_release1.wav"
+    },
+    {
+      "id": "dash",
+      "charge": 0.6,
+      "coolDown": 5,
+      "hitFrame": 20,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 14,
+        "speed": 2.5
+      },
+      "power": [
+        40
+      ],
+      "sfxCharge": "sfx/enm_berserk_charge3.wav",
+      "sfxRelease": "sfx/enm_berserk_release2.wav"
+    },
+    {
+      "id": "hook",
+      "charge": 0.5,
+      "coolDown": 6,
+      "hitFrame": 10,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 12,
+        "stunTime": 0.5
+      },
+      "power": [
+        0.1
+      ],
+      "sfxRelease": "sfx/active_hookshot.wav"
+    },
+    {
+      "id": "swordRain",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 24,
+      "lockAiAfter": 0.5,
+      "radius": 2,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.75
+      },
+      "power": [
+        40
+      ],
+      "sfxRelease": "sfx/active_orb.wav"
+    },
+    {
+      "id": "levelUpRadius",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 24,
+      "lockAiAfter": 0,
+      "radius": 3,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_shoker_charge.wav"
+    },
+    {
+      "id": "shuriken",
+      "charge": 0.4,
+      "coolDown": 2,
+      "hitFrame": 10,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        16
+      ],
+      "sfxRelease": "sfx/weapon_kunai_release.wav"
+    },
+    {
+      "id": "smokeBomb",
+      "charge": 0.25,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/active_grenade_flash.wav"
+    },
+    {
+      "id": "bigFront",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 14,
+      "lockAiAfter": 1.5,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 1
+      },
+      "power": [
+        100
+      ]
+    }
+  ],
+  "genTags": 4,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "ThrowingIce"
+    },
+    {
+      "rarity": "Always",
+      "item": "FrostCrossBow"
+    }
+  ],
+  "index": 43,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 65,
+    "y": 28
+  },
+  "name": "L'Assassin",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 16587804,
+  "flesh2": 6908265,
+  "life": [
+    4096
+  ],
+  "weight": 50,
+  "flesh1": 14803425,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 43
+}

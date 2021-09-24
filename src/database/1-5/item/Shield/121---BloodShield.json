@@ -1,0 +1,36 @@
+{
+  "id": "BloodShield",
+  "name": "Bouclier sanguinaire",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "dps": 20,
+    "duration": 3
+  },
+  "group": 6,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "gameplayDesc": "Les attaques bloquées infligent {saignement@BL} (::+dps:: DPS sur ::duration:: sec). Effet étendu aux ennemis proches si {parade@PA} réussie.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 1
+  },
+  "cellCost": 40,
+  "moneyCost": 2250,
+  "tier1": "Survival",
+  "legendAffix": "PoisonOnHit",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 121
+}

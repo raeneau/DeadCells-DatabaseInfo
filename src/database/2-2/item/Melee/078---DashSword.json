@@ -1,0 +1,33 @@
+{
+  "props": {
+    "duration": 1.5
+  },
+  "gameplayDesc": "Le premier coup permet de passer dans le dos des ennemis. Les coups suivants infligent des {coups critiques@CC} aux enemis traversés ainsi. ",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Tu me vois, tu me vois plus.",
+  "id": "DashSword",
+  "icon": {
+    "x": 13,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Perce-carne",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 60,
+  "legendAffix": "BackDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 78
+}

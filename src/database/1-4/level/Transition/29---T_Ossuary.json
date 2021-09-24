@@ -1,0 +1,33 @@
+{
+  "id": "T_Ossuary",
+  "biome": "Ossuary",
+  "mobs": [],
+  "mobDensity": 0,
+  "flags": 1024,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 1,
+  "transitionTo": "Ossuary",
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 29,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "musicLoop": "music/dc_colletor2.ogg",
+    "timedDoor": 8,
+    "timedBlueprint": "LongBow",
+    "perfectKillsDoor": 1,
+    "zDoorColor": 323720
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 1,
+  "loreDescriptions": [],
+  "name": "Passage vers le Charnier",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 29
+}

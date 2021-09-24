@@ -1,0 +1,30 @@
+{
+  "id": "HoldShield",
+  "name": "Bouclier maintenu",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "gameplayDesc": "Maintenez pour bloquer les attaques.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 49,
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 49
+}

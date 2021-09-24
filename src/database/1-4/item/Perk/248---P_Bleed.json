@@ -1,0 +1,27 @@
+{
+  "id": "P_Bleed",
+  "name": "Blessures ouvertes",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 1.5,
+    "effectCD": 0.4,
+    "dps": 18,
+    "count": 50
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 9
+  },
+  "gameplayDesc": "Vos attaques au corps à corps infligent des {saignements@BL} (::+dps:: DPS sur ::duration:: sec)",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 248
+}

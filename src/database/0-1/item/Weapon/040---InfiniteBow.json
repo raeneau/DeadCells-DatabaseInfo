@@ -1,0 +1,34 @@
+{
+  "id": "InfiniteBow",
+  "name": "Arc et carquois sans fond",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 3
+  },
+  "ambiantDesc": "On n'a jamais trop de flèches - Legolas",
+  "gameplayDesc": "Munitions illimitées.",
+  "cellCost": 35,
+  "moneyCost": 1750,
+  "index": 40,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 40
+}

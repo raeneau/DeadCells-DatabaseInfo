@@ -1,0 +1,34 @@
+{
+  "id": "Shovel",
+  "name": "Pelle",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "grenadeKickPow": 0.2
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 6
+  },
+  "gameplayDesc": "Projette les ennemis et les bombes.",
+  "ambiantDesc": "Tout objet peut devenir une arme mortelle avec une vélocité suffisante.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 49
+}

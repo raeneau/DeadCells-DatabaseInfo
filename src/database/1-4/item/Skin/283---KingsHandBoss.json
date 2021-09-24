@@ -1,0 +1,25 @@
+{
+  "id": "KingsHandBoss",
+  "name": "NOT MEANT TO BE SEEN",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NotRealItem"
+    }
+  ],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 43,
+    "y": 0
+  },
+  "gameplayDesc": "NOT MEANT TO BE SEEN",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 283
+}

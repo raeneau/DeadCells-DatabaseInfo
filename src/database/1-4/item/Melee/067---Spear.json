@@ -1,0 +1,35 @@
+{
+  "id": "Spear",
+  "name": "Lance de guerre",
+  "moneyCost": 1500,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 2
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} lorsque vous touchez plusieurs cibles à la fois.",
+  "ambiantDesc": "Une arme offrant une grande allonge au détriment de la rapidité.",
+  "tier1": "Brutality",
+  "legendAffix": "RunSpeedOnCrit",
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 67
+}

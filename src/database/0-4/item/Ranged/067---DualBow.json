@@ -1,0 +1,41 @@
+{
+  "id": "DualBow",
+  "name": "Arc à double-encoche",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 12,
+    "count": 2,
+    "range": 6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 7
+  },
+  "gameplayDesc": "Tire ::count:: flèches à la fois.",
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 67
+}

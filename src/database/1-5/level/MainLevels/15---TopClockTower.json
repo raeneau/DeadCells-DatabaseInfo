@@ -1,0 +1,54 @@
+{
+  "id": "TopClockTower",
+  "biome": "TopClockTower",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 8192,
+  "lootFlags": 18,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 15,
+  "group": 0,
+  "name": "Salle de l'Horloge",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "brutalityTier": 17,
+    "survivalTier": 17,
+    "viewerColor": 3104,
+    "doorColor": 13247047,
+    "chromaColor": 16734720,
+    "musicLoop": "music/ambiant4.ogg",
+    "loadingColor": 1118493,
+    "loadingDescColor": 12871051,
+    "zDoorColor": 12397143
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 6,
+  "loreDescriptions": [
+    {
+      "text": "C'est dans cette salle que la gardienne... Non, c'était dans cette salle... Enfin non, ce sera dans cette salle que... Heu, où en étions-nous, déjà ? "
+    },
+    {
+      "text": "La Gardienne surplombe presque toute l'île, d'ici. Toute l'île, excepté le château du Roi."
+    },
+    {
+      "text": "Un millième de seconde de décalage dans le réglage de l'Horloge pourrait avoir de graves conséquences."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 25
+  },
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 15
+}

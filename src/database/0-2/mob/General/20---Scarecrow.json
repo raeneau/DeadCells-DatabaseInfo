@@ -1,0 +1,30 @@
+{
+  "id": "Scarecrow",
+  "props": {
+    "movePauseMul": 99999
+  },
+  "skill": [],
+  "index": 20,
+  "group": 0,
+  "life": 100000,
+  "weight": 500,
+  "genTags": 0,
+  "minPfSize": 0,
+  "name": "Scarecrow",
+  "score": 0,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "flesh1": 11562569,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 44,
+    "y": 23
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 20
+}

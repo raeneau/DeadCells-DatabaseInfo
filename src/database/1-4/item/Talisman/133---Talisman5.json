@@ -1,0 +1,25 @@
+{
+  "id": "Talisman5",
+  "name": "Talisman de pierre de lune",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {},
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 5
+  },
+  "ambiantDesc": "Un bel objet habilement dissimulé sous vos vêtements, pour que les graphistes aient moins de boulot.",
+  "cellCost": 0,
+  "moneyCost": 5000,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 133
+}

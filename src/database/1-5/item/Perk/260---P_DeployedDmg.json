@@ -1,0 +1,27 @@
+{
+  "id": "P_DeployedDmg",
+  "name": "Soutien",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 65,
+    "effectCD": 0.33,
+    "duration": 1,
+    "minPerks": 0
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 10
+  },
+  "tier1": "Tactic",
+  "gameplayDesc": " +::+dps:: DPS si vous êtes proche d'une compétence déployée.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 260
+}

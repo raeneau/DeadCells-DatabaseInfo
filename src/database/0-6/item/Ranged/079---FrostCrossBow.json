@@ -1,0 +1,41 @@
+{
+  "id": "FrostCrossBow",
+  "name": "Arbalète de glace",
+  "moneyCost": 2250,
+  "cellCost": 80,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "props": {
+    "ammo": 9
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 8
+  },
+  "gameplayDesc": "Un tir bref congèle les ennemis. Un tir maintenu inflige de lourds dégâts critiques.",
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 79
+}

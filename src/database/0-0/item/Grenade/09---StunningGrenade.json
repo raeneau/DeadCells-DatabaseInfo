@@ -1,0 +1,35 @@
+{
+  "id": "StunningGrenade",
+  "name": "Grenade étourdissante",
+  "castCD": 7,
+  "props": {
+    "coolDown": 0.6,
+    "duration": 3,
+    "range": 6,
+    "power": [
+      30
+    ]
+  },
+  "group": 1,
+  "droppable": true,
+  "hasTier": false,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "gameplayDesc": "Inflige ::+power:: dégâts et étourdit les ennemis proches pendant ::duration:: secondes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 0
+  },
+  "cellCost": 0,
+  "moneyCost": 2000,
+  "index": 9,
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 9
+}

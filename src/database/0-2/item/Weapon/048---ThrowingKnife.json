@@ -1,0 +1,46 @@
+{
+  "id": "ThrowingKnife",
+  "name": "Couteau de lancer",
+  "castCD": 0,
+  "props": {
+    "ammo": 8,
+    "dps": 20,
+    "duration": 2
+  },
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "gameplayDesc": "Provoque des Saignements (::+dps:: dégâts/sec pendant ::duration:: sec). L'attaque cible automatiquement l'ennemi le plus proche.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 1750,
+  "index": 48,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 48
+}

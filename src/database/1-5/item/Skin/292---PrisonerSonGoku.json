@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerSonGoku",
+  "name": "Tenue du Guerrier Légendaire",
+  "moneyCost": 0,
+  "cellCost": 500,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 14
+  },
+  "gameplayDesc": "Queue de singe non fournie.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 292
+}

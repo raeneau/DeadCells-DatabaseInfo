@@ -1,0 +1,53 @@
+{
+  "id": "Owl",
+  "name": "Grand-duc de combat",
+  "moneyCost": 1750,
+  "cellCost": 80,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "Pet"
+    },
+    {
+      "tag": "TransformOnUse"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "frict": 0.92,
+    "distance": 3.8,
+    "speed": 0.02,
+    "range": 11,
+    "effectCharge": 0.03,
+    "effectCD": 0.2,
+    "lock": 0.1,
+    "item": "OwlUp",
+    "dps": [
+      32
+    ],
+    "bonus": 1,
+    "dps2": 105
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 14
+  },
+  "gameplayDesc": "Invoque un Grand-duc allié (::+dps:: dégâts/sec). Vous pouvez le renforcer (::+dps2:: dégâts/sec) en activant cette compétence à nouveau. Le Grand-duc disparaît si vous subissez des dégâts.",
+  "ambiantDesc": "Ouh. Ouh.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 43
+}

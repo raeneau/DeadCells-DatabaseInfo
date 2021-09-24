@@ -1,0 +1,54 @@
+{
+  "id": "Throne",
+  "biome": "Throne",
+  "mobs": [],
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 2230528,
+    "doorColor": 12659861,
+    "zDoorColor": 16760576,
+    "chromaColor": 12410623,
+    "musicLoop": "music/ambiant1.ogg",
+    "loadingColor": 464424,
+    "loadingDescColor": 6652612,
+    "wind": -3
+  },
+  "specificSubBiome": [],
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 8193,
+  "lootFlags": 18,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 19,
+  "group": 0,
+  "name": "Salle du trône",
+  "baseLootLevel": 6,
+  "worldDepth": 8,
+  "loreDescriptions": [
+    {
+      "text": "D'ici, on peut admirer toute la splendeur de l'île. Et toute l'étendue de l'infection par le Mal-être."
+    },
+    {
+      "text": "Le trône du Roi a été sculpté à même la roche. Ça a pris des mois mais c'est très joli."
+    },
+    {
+      "text": "La Main du Roi vit reclut ici depuis très longtemps... Personne ne sait vraiment de quoi il se nourrit."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 39,
+    "y": 4
+  },
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 19
+}

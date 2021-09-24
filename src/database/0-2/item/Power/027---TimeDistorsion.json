@@ -1,0 +1,25 @@
+{
+  "id": "TimeDistorsion",
+  "name": "Distorsion temporelle",
+  "moneyCost": 1500,
+  "cellCost": 50,
+  "droppable": false,
+  "castCD": 16,
+  "tags": [],
+  "props": {
+    "duration": 4
+  },
+  "index": 27,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 66,
+    "y": 0
+  },
+  "gameplayDesc": "Ralenti tous les ennemis pendant ::duration::s.",
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 27
+}

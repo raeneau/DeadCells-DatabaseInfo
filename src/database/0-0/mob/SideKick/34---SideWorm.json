@@ -1,0 +1,56 @@
+{
+  "id": "SideWorm",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1.7,
+  "maxPerRoom": 0,
+  "props": {
+    "movePauseMul": 0.17,
+    "moveSpeedMul": 1.3,
+    "cannotBeShield": true
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.2,
+      "coolDown": 0.3,
+      "lockAiAfter": 0.1,
+      "radius": 1,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        12
+      ],
+      "disableAnnounce": true,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_leech_charge.wav",
+      "sfxRelease": "sfx/hit_flesh.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 34,
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 45,
+    "y": 13
+  },
+  "name": "Ver de cadavre",
+  "life": [
+    35
+  ],
+  "volteDelay": 0.2,
+  "weight": 100,
+  "flesh1": 12205089,
+  "flesh2": 8392463,
+  "blueprints": [],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 34
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Flask1",
+  "name": "Potion de soin I",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "revealedAtStart": true
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 2
+  },
+  "cellCost": 5,
+  "moneyCost": 0,
+  "gameplayDesc": "Vous disposez d'une Fiole de Soin utilisable à tout moment.",
+  "index": 87,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 87
+}

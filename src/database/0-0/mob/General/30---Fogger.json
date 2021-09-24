@@ -1,0 +1,46 @@
+{
+  "id": "Fogger",
+  "score": 5,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "maxPerRoom": 1,
+  "props": {
+    "bumpResistance": 0.7,
+    "movePauseMul": 99999,
+    "cannotBeBackstabbed": true,
+    "cannotBeShield": true,
+    "range": 20,
+    "duration": 5
+  },
+  "skill": [],
+  "genTags": 0,
+  "index": 30,
+  "group": 0,
+  "name": "Masqueur",
+  "life": [
+    190
+  ],
+  "weight": 10,
+  "pfCost": 1.5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 78
+  },
+  "blueprints": [
+    {
+      "chance": 0.04,
+      "item": "FlameThrower"
+    }
+  ],
+  "cells": [
+    1,
+    2
+  ],
+  "cellChance": 1,
+  "glowInnerColor": 16770338,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 30
+}

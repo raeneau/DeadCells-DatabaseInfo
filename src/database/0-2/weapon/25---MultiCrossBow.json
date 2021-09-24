@@ -1,0 +1,226 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": true,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.48,
+      "coolDown": 0.5,
+      "lockCtrlAfter": 0,
+      "power": [
+        30
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16749056,
+      "fxInnerColor": 16749056,
+      "fxOuterColor": 16749056,
+      "sfxCharge": "sfx/crossbow_charge1.wav",
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        20
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        20
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        20
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        20
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    }
+  ],
+  "item": "MultiCrossBow",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 25
+}

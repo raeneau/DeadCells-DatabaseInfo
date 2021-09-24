@@ -1,0 +1,38 @@
+{
+  "id": "FlameThrower",
+  "name": "Lance-flammes",
+  "moneyCost": 1750,
+  "cellCost": 20,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "props": {
+    "duration": 2,
+    "dps": 10,
+    "aoeDuration": 6
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 2
+  },
+  "ambiantDesc": "Cuisson à coeur.",
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "tier2": "Brutality",
+  "gameplayDesc": "{Brûle@FI} les ennemis et le sol à courte portée.",
+  "legendAffix": "FireDamage",
+  "legendaryName": "Pyrolyse",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 91
+}

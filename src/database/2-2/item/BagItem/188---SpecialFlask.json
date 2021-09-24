@@ -1,0 +1,23 @@
+{
+  "props": {
+    "prct": 2
+  },
+  "gameplayDesc": "Que peut-elle bien renfermer ?",
+  "moneyCost": 0,
+  "group": 8,
+  "castCD": 0,
+  "id": "SpecialFlask",
+  "icon": {
+    "x": 14,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Potion secrète de ???",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 188
+}

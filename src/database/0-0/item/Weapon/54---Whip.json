@@ -1,0 +1,25 @@
+{
+  "id": "Whip",
+  "name": "Fouet",
+  "droppable": true,
+  "hasTier": false,
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "tags": [],
+  "ambiantDesc": "Une arme simple en apparence, mais dévastatrice entre des mains expertes.",
+  "gameplayDesc": "Ignore les boucliers. Inflige un COUP CRITIQUE si le coup est porté par l'extrêmité du fouet.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 2
+  },
+  "cellCost": 10,
+  "moneyCost": 1800,
+  "index": 54,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 54
+}

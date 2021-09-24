@@ -1,0 +1,35 @@
+{
+  "id": "Burner",
+  "name": "Torche",
+  "moneyCost": 1500,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Fire"
+    }
+  ],
+  "props": {
+    "dps": 15,
+    "duration": 2.7
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 2
+  },
+  "gameplayDesc": "{Brûle@FI} vos ennemis (::+dps:: DPS sur ::duration:: sec).",
+  "ambiantDesc": "Ambiance garantie.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "legendAffix": "FireDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 68
+}

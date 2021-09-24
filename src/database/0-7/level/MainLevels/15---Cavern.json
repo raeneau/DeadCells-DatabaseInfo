@@ -1,0 +1,32 @@
+{
+  "id": "Cavern",
+  "biome": "Cavern",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 15,
+  "group": 0,
+  "name": "Caverne",
+  "tripleUps": 3,
+  "doubleUps": 1,
+  "baseMobTier": 13,
+  "props": {
+    "viewerY": 3,
+    "viewerColor": 5401462,
+    "doorColor": 62719,
+    "chromaColor": 51199
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 7,
+  "worldDepth": 5,
+  "loreDescriptions": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 15
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Money4",
+  "name": "Sauvetage de l'or IV",
+  "moneyCost": 0,
+  "cellCost": 400,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Money3",
+    "prct": 0.85,
+    "reqUnlocks": 12,
+    "revealedAtStart": true
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 3
+  },
+  "gameplayDesc": "Vous conservez ::prct::% de votre or en mourrant.",
+  "index": 99,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 99
+}

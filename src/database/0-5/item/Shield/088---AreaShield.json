@@ -1,0 +1,27 @@
+{
+  "id": "AreaShield",
+  "name": "Punition",
+  "moneyCost": 1500,
+  "cellCost": 70,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "props": {},
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 22,
+    "y": 8
+  },
+  "gameplayDesc": "Inflige des dégâts à tous les enemis proches quand vous bloquez des attaques. Les dégâts sont critiques en cas de PARADE réussie.",
+  "tier1": "Survival",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 88
+}

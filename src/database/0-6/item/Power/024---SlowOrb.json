@@ -1,0 +1,37 @@
+{
+  "id": "SlowOrb",
+  "name": "Orbe de mort",
+  "castCD": 16,
+  "props": {
+    "speed": 0.11,
+    "size": 2,
+    "duration": 15,
+    "dps": 115,
+    "power": 50,
+    "tick": 0.18
+  },
+  "group": 3,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "gameplayDesc": "Invoque une orbe dévastatrice (::+dps:: dégâts/sec) qui se déplace lentement.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 0
+  },
+  "cellCost": 35,
+  "moneyCost": 1750,
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 24
+}

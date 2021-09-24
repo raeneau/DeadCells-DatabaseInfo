@@ -1,0 +1,25 @@
+{
+  "id": "Pan",
+  "name": "Vorpoêle",
+  "moneyCost": 1700,
+  "cellCost": 25,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {}
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 23,
+    "y": 6
+  },
+  "gameplayDesc": "Inflige des {coups critiques@CC} si l'adversaire vous fait face.",
+  "ambiantDesc": "Tout vient à point à qui sait attendre.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 85
+}

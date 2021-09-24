@@ -1,0 +1,39 @@
+{
+  "id": "Lightning",
+  "name": "Eclair",
+  "moneyCost": 1750,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Electric"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 20,
+    "duration": 2,
+    "power2": 2
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 1
+  },
+  "gameplayDesc": "Maintenir pour infliger des {coups critiques@CC}.",
+  "ambiantDesc": "Devenez Palpatine.",
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "legendAffix": "DoubleDamageFree",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 110
+}

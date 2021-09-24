@@ -1,0 +1,29 @@
+{
+  "id": "LargeMeat",
+  "name": "Grosse volaille",
+  "moneyCost": 500,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "LargeHealConsumable"
+    }
+  ],
+  "props": {
+    "duration": 1.5,
+    "prct": 0.5
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 4
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "hasLevels": false,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 151
+}

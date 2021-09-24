@@ -1,0 +1,42 @@
+{
+  "id": "MultiCrossBow",
+  "name": "Arbalète à répétition",
+  "moneyCost": 1750,
+  "cellCost": 80,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "ammo": 30
+  },
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 6
+  },
+  "gameplayDesc": "Tire des carreaux rapidement. Immobilise la cible périodiquement. Inflige des {coups critiques@CC} sur les cibles immobilisées.",
+  "tier1": "Tactic",
+  "legendAffix": "FireBullet",
+  "tier2": "Survival",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 95
+}

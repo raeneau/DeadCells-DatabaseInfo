@@ -1,0 +1,83 @@
+{
+  "id": "Fly",
+  "score": 1,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "maxPerRoom": 4,
+  "props": {
+    "cannotBeShield": true,
+    "insensitiveSpike": true,
+    "cellRatioCount": 0.85
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.4,
+      "coolDown": 0.4,
+      "hitFrame": 0,
+      "lockAiAfter": 0.4,
+      "radius": 1.1,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_fly_charge.wav",
+      "sfxRelease": "sfx/enm_fly_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "flee",
+      "charge": 0,
+      "coolDown": 0.4,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "chance": 0.8
+      },
+      "sfxRelease": "sfx/enm_fly_fly.wav",
+      "disableAnnounceFx": true
+    }
+  ],
+  "genTags": 18,
+  "index": 22,
+  "group": 0,
+  "name": "Bourdon lacérateur",
+  "life": [
+    40
+  ],
+  "weight": 5,
+  "glowInnerColor": 16776379,
+  "glowOuterColor": 15216232,
+  "volteDelay": 0.3,
+  "pfCost": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 46,
+    "y": 5
+  },
+  "flesh1": 8018405,
+  "blueprints": [
+    {
+      "item": "RevengeSword",
+      "rarity": "Legendary",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 22
+}

@@ -1,0 +1,98 @@
+{
+  "id": "S_AncientTempleAlt",
+  "biome": "AncientTemple",
+  "worldDepth": 0,
+  "mobs": [
+    {
+      "mob": "Golem",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 16639,
+    "doorColor": 16743424,
+    "zDoorColor": 16743424,
+    "chromaColor": 16731904,
+    "musicLoop": "music/templecutpart1.ogg",
+    "loadingColor": 200988,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "cellBonus": 0,
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "mobDensity": 0.9,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "flags": 0,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "loreDescriptions": [],
+  "index": 68,
+  "group": 4,
+  "name": "Sanctuaire endormi",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 7
+  },
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 68
+}

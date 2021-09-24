@@ -1,0 +1,24 @@
+{
+  "id": "DualDaggers",
+  "name": "Dagues jumelles",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [],
+  "ambiantDesc": "Deux dagues pour le prix d'une, toujours plus de violence.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE à la 3ème attaque consécutive.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 1800,
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 47
+}

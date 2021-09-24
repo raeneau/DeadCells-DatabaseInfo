@@ -1,0 +1,28 @@
+{
+  "id": "KingsSpear",
+  "name": "Lance symétrique",
+  "moneyCost": 2000,
+  "cellCost": 150,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "count": 2,
+    "duration": 6,
+    "duration2": 1.5
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 11
+  },
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "gameplayDesc": "Si vous tuez rapidement ::count:: ennemis avec cette arme, cette arme inflige des COUPS CRITIQUES pendant les ::duration:: sec suivantes.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 57
+}

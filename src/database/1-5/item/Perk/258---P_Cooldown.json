@@ -1,0 +1,26 @@
+{
+  "id": "P_Cooldown",
+  "name": "DEPRECATED",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Deprecated"
+    }
+  ],
+  "props": {},
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 3
+  },
+  "gameplayDesc": "-::cdr::% délai d'utilisation des compétences (hors grenades).",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 258
+}

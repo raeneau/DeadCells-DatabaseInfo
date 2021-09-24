@@ -1,0 +1,22 @@
+{
+  "id": "DeathMoney",
+  "name": "Sac du déchu",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 3
+  },
+  "gameplayDesc": "Ce sac contient l'or que vous aviez lors de votre précédente... tentative.",
+  "cellCost": 0,
+  "moneyCost": 0,
+  "hasLevels": false,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 155
+}

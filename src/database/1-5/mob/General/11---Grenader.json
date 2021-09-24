@@ -1,0 +1,95 @@
+{
+  "id": "Grenader",
+  "props": {
+    "moveSpeedMul": 1.75,
+    "movePauseMul": 0,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "grenade",
+      "charge": 0.6,
+      "coolDown": 2.6,
+      "hitFrame": 2,
+      "lockAiAfter": 0.3,
+      "radius": 2.9,
+      "breachResistance": -10,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDelay": 1.5,
+        "canTriggerThroughWall": true,
+        "count": 3
+      },
+      "power": [
+        15
+      ],
+      "sfxRelease": "sfx/enm_zmb_fuse1.wav",
+      "sfxCharge": "sfx/enm_grd_charge.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump",
+      "charge": 0.18,
+      "coolDown": 0.9,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 4,
+        "speed": 0.7
+      },
+      "sfxRelease": "sfx/jump1b.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "index": 11,
+  "group": 0,
+  "life": [
+    100
+  ],
+  "weight": 15,
+  "shards": 0,
+  "genTags": 33,
+  "minPfSize": 0,
+  "name": "Grenadier",
+  "score": 3,
+  "maxPerRoom": 3,
+  "canBeElite": true,
+  "glowInnerColor": 16473257,
+  "glowOuterColor": 16473257,
+  "volteDelay": 0.5,
+  "flesh1": 16473257,
+  "flesh2": 16473257,
+  "pfCost": 1.5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 0
+  },
+  "blueprints": [
+    {
+      "item": "FireBomb",
+      "rarity": "Uncommon",
+      "minDifficulty": 0
+    },
+    {
+      "item": "MagnetGrenade",
+      "rarity": "Rare",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 11
+}

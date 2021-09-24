@@ -1,0 +1,25 @@
+{
+  "id": "BossRune1",
+  "name": "Cellule Souche I",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "BossRune"
+    }
+  ],
+  "props": {},
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 11
+  },
+  "gameplayDesc": "Modifie la difficulté du jeu et débloque de nouvelles options.",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 190
+}

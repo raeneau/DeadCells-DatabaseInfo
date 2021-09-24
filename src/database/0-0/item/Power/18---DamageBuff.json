@@ -1,0 +1,32 @@
+{
+  "id": "DamageBuff",
+  "name": "Dégâts",
+  "castCD": 20,
+  "props": {
+    "duration": 8,
+    "power": 60,
+    "effectCD": 0.2
+  },
+  "group": 3,
+  "droppable": true,
+  "hasTier": false,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "gameplayDesc": "Inflige ::+power:: dégâts supplémentaires à chaque attaque pendant ::duration:: secondes.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 0
+  },
+  "cellCost": 30,
+  "moneyCost": 2200,
+  "index": 18,
+  "hasLevels": false,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 18
+}

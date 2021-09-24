@@ -1,0 +1,24 @@
+{
+  "id": "P_YoloDepleted",
+  "name": "Ygdar Orus Li Ox",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "minPerks": 0,
+    "perkInFirstShopOnly": false
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 13
+  },
+  "gameplayDesc": "Aucun effet. Ne peut être retiré.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 280
+}

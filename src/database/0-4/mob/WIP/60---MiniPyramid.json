@@ -1,0 +1,61 @@
+{
+  "id": "MiniPyramid",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "moveSpeedMul": 1.5,
+    "movePauseMul": 0,
+    "noContactAttack": true,
+    "fallResistance": 100
+  },
+  "skill": [
+    {
+      "id": "fall",
+      "charge": 0.1,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 1
+      },
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "power": [
+        10
+      ]
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 60,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 44,
+    "y": 19
+  },
+  "name": "Pyramide sur pattes",
+  "glowInnerColor": 16580375,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    10
+  ],
+  "volteDelay": 0.25,
+  "weight": 10,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 60
+}

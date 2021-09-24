@@ -1,0 +1,24 @@
+{
+  "id": "Spear",
+  "name": "Lance de guerre",
+  "droppable": true,
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "tags": [],
+  "ambiantDesc": "Une arme offrant une grande allonge au détriment de la rapidité.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous touchez plusieurs cibles à la fois.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 2
+  },
+  "cellCost": 30,
+  "moneyCost": 1500,
+  "index": 62,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 62
+}

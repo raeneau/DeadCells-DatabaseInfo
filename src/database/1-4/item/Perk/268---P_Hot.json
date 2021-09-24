@@ -1,0 +1,29 @@
+{
+  "id": "P_Hot",
+  "name": "Soin prolongé",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 160,
+    "duration": 15,
+    "effectCD": 0.33,
+    "ceilToolTipValues": true,
+    "prct": 0.85,
+    "prct2": 0.3
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 11
+  },
+  "tier1": "Survival",
+  "gameplayDesc": "Votre potion de soins vous soigne à ::prct::%, son effet est étalé sur ::duration:: sec et elle ajoute +::+dps:: DPS sur cette durée. Tuer un Elite donne parfois un petit remède contre le Mal-être.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 268
+}

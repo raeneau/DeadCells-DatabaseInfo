@@ -1,0 +1,41 @@
+{
+  "biome": "PrisonDepths",
+  "name": "Debug Seb",
+  "id": "DebugSeb",
+  "mobs": [
+    {
+      "mob": "Ninja",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "packSize": 2
+    },
+    {
+      "mob": "Shield",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1,
+  "group": 2,
+  "lootFlags": 4,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "viewerY": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "index": 29,
+  "mobTier": 1,
+  "lootLevel": 3,
+  "chosenUps": 3,
+  "randomUps": 0,
+  "itemUps": 0,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Test",
+  "__original_Index": 29
+}

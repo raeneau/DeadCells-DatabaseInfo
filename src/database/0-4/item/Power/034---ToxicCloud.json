@@ -1,0 +1,32 @@
+{
+  "id": "ToxicCloud",
+  "name": "Nuage toxique",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {
+    "dps": 15,
+    "duration": 4,
+    "aoeDuration": 8,
+    "range": 7
+  },
+  "group": 3,
+  "gameplayDesc": "Génère un large nuage de poison infligeant ::+dps:: dégâts/sec pendant ::duration:: sec.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 6
+  },
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 34
+}

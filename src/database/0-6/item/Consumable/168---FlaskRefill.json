@@ -1,0 +1,22 @@
+{
+  "id": "FlaskRefill",
+  "name": "Recharge de potion",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 2
+  },
+  "gameplayDesc": "Restitue 1 charge de potion.",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 168
+}

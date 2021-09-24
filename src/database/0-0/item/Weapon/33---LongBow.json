@@ -1,0 +1,37 @@
+{
+  "id": "LongBow",
+  "name": "Arc long de chasseur",
+  "castCD": 0,
+  "props": {
+    "ammo": 2
+  },
+  "group": 4,
+  "droppable": true,
+  "hasTier": false,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    }
+  ],
+  "ambiantDesc": "Dévastateur à longue portée, c'est le sniper en bois.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous tirez à longue portée.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 1
+  },
+  "cellCost": 20,
+  "moneyCost": 2500,
+  "index": 33,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 33
+}

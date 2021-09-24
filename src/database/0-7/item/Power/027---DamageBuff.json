@@ -1,0 +1,35 @@
+{
+  "id": "DamageBuff",
+  "name": "Puissance corrompue",
+  "castCD": 30,
+  "props": {
+    "duration": 8,
+    "prct": 0.3,
+    "effectCD": 0.33,
+    "dps": 50
+  },
+  "group": 3,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "gameplayDesc": "Ajoute des dégâts (+::+dps:: DPS sur ::duration:: sec) à chaque attaque.Vous subissez +::prct::% de dégâts sur cette période.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 0
+  },
+  "cellCost": 40,
+  "moneyCost": 2000,
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "tier2": "Survival",
+  "legendAffix": "RunSpeedOnUse",
+  "legendaryName": "Anomalie",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 27
+}

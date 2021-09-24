@@ -1,0 +1,89 @@
+{
+  "id": "Minimoth",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 3,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "bumpResistance": 0.5,
+    "movePauseMul": 0.5,
+    "moveSpeedMul": 1
+  },
+  "skill": [
+    {
+      "id": "shockWave",
+      "charge": 0.6,
+      "coolDown": 1.8,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0.65,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 3,
+        "range": 10
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_minimoth_shout.wav",
+      "sfxRelease": "sfx/enm_minimoth_stomp.wav"
+    },
+    {
+      "id": "roll",
+      "charge": 0,
+      "coolDown": 1.3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "range": 3,
+        "duration": 0.6
+      },
+      "sfxRelease": "sfx/enm_minimoth_roll.wav",
+      "sfxHit": "sfx/enm_minimoth_wall_hit.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "minDifficulty": 0,
+      "item": "P_DmgSkl"
+    }
+  ],
+  "metaItems": [],
+  "index": 49,
+  "group": 0,
+  "name": "Balayeur",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 53,
+    "y": 20
+  },
+  "flesh1": 9418700,
+  "flesh2": 16754944,
+  "glowOuterColor": 13243412,
+  "glowInnerColor": 16754944,
+  "life": [
+    120
+  ],
+  "weight": 20,
+  "volteDelay": 0.3,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 49
+}

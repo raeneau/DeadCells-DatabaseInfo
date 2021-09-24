@@ -1,0 +1,29 @@
+{
+  "id": "SmallGem",
+  "name": "Malachite",
+  "droppable": false,
+  "hasTier": true,
+  "castCD": 0,
+  "props": {
+    "power": 250,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 20
+  },
+  "group": 9,
+  "tags": [],
+  "gameplayDesc": "Bien que commune, vous en tirerez ::$power:: OR sans trop de difficulté.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 2
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 91,
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 91
+}

@@ -1,0 +1,166 @@
+{
+  "id": "Arbiter",
+  "score": 1,
+  "canBeElite": true,
+  "minPfSize": 3,
+  "pfCost": 1,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 1,
+  "props": {
+    "directHitStunChance": 1,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.5
+  },
+  "skill": [
+    {
+      "id": "shoot0",
+      "charge": 0.8,
+      "coolDown": 1.75,
+      "power": [
+        8
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "speed": 0.55,
+        "count": 3,
+        "ang": 1.5,
+        "lock": 2.5,
+        "distance": 4
+      },
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": -10,
+      "allowInAir": false,
+      "hitFrame": 8,
+      "manual": false,
+      "sfxCharge": "sfx/enm_arbiter_charge1.wav",
+      "sfxRelease": "sfx/enm_arbiter_release1.wav",
+      "chargeAnim": "atkLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "shoot1",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 7,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -10,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.55
+      },
+      "power": [
+        8
+      ],
+      "sfxRelease": "sfx/enm_arbiter_release2.wav",
+      "execAnim": "atkB",
+      "execAnimSpd": 1.5,
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "shoot2",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -10,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "speed": 0.55
+      },
+      "execAnim": "atkC",
+      "execAnimSpd": 1.5,
+      "power": [
+        8
+      ],
+      "sfxRelease": "sfx/enm_arbiter_release3.wav",
+      "disableAnnounceFx": true
+    },
+    {
+      "id": "dodge",
+      "charge": 0,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 4
+      },
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "deathGift",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 6,
+        "speed": 0.5
+      },
+      "power": [
+        8
+      ],
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_arbiter_die.wav"
+    }
+  ],
+  "genTags": 33,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "minDifficulty": 0,
+      "item": "MagicSalve"
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 4,
+      "item": "PrisonerShaman"
+    }
+  ],
+  "metaItems": [],
+  "index": 46,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 54,
+    "y": 7
+  },
+  "name": "Arbitre",
+  "glowInnerColor": 7819992,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "life": [
+    100
+  ],
+  "volteDelay": 0.3,
+  "weight": 5,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 46
+}

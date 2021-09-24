@@ -1,0 +1,113 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.8
+  },
+  "genTags": 0,
+  "glowOuterColor": 839871,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "ToxicCloud",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "Shovel",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Common",
+      "item": "P_ShareDamage",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "index": 2,
+  "volteDelay": 0.7,
+  "id": "FlyZombie",
+  "weight": 10,
+  "icon": {
+    "x": 50,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    140
+  ],
+  "name": "Zombie purulent",
+  "minPfHeight": 0,
+  "glowInnerColor": 14090221,
+  "minPfSize": 8,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 3,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 0.2,
+      "power": [
+        25
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_zmbfly_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 4,
+      "props": {
+        "speed": 0.01,
+        "count": 5
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "charge": 0.2,
+      "manual": false,
+      "id": "birdCage",
+      "disableAnnounceFx": true,
+      "hitFrame": 2,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 4,
+      "props": {
+        "speed": 6,
+        "range": 6,
+        "distance": 4
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.2,
+      "manual": false,
+      "id": "rush",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 2
+}

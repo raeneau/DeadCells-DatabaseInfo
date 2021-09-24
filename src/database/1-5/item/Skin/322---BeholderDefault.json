@@ -1,0 +1,21 @@
+{
+  "id": "BeholderDefault",
+  "name": "Tenue du Conjonctivius classique",
+  "moneyCost": 0,
+  "cellCost": 75,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 14
+  },
+  "gameplayDesc": "Vous aimez les tentacules ?",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 322
+}

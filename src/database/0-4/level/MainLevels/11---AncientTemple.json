@@ -1,0 +1,115 @@
+{
+  "id": "AncientTemple",
+  "biome": "AncientTemple",
+  "viewerColor": 16639,
+  "viewerOffX": 0,
+  "viewerY": 0.5,
+  "mobs": [
+    {
+      "mob": "Golem",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      }
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      }
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      }
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true,
+        "outOfStoneInstantly": true
+      }
+    },
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 0,
+      "props": {
+        "inStone": true
+      }
+    },
+    {
+      "mob": "OrbLauncher",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 1,
+      "props": {}
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Fogger",
+      "quantityFactor": 0.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    }
+  ],
+  "lootLevel": 6,
+  "cellBonus": 0.8,
+  "mobDensity": 0.9,
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "flags": 0,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0.1,
+  "index": 11,
+  "group": 0,
+  "name": "Sanctuaire endormi",
+  "musicLoop": "music/templecutpart1.ogg",
+  "doorColor": 16743424,
+  "zDoorColor": 16743424,
+  "chromaColor": 16731904,
+  "tripleUps": 2,
+  "doubleUps": 1,
+  "baseMobTier": 9,
+  "extraMobTier": 2,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 11
+}

@@ -1,0 +1,102 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.25,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "animId": "atkSwordB",
+      "power": [
+        45
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.25,
+      "props": {
+        "bump": 0.2,
+        "duration": 1.1
+      },
+      "hitFrame": 9,
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 3.7,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0.15
+      },
+      "glowColor": 14855679,
+      "fxInnerColor": 983851,
+      "sfxRelease": "sfx/weapon_swipe_release1.wav",
+      "fxId": "fxSwordAtkB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 0.7
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 5,
+      "area": {
+        "shape": 0,
+        "width": 3.2,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2,
+        "duration": 1.1
+      },
+      "animId": "atkSaberB",
+      "glowColor": 14855679,
+      "fxInnerColor": 983851,
+      "power": [
+        50
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxId": "fxSaberB",
+      "critMul": 0.75
+    },
+    {
+      "charge": 0.35,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 8,
+      "area": {
+        "shape": 0,
+        "width": 4.4,
+        "height": 0,
+        "offsetCaseY": -0.6,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2,
+        "duration": 1.1
+      },
+      "animId": "atkSwordB",
+      "glowColor": 14855679,
+      "fxInnerColor": 16765739,
+      "power": [
+        70
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release3.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxId": "fxHammerC",
+      "critMul": 0.8
+    }
+  ],
+  "item": "SpeedBlade",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 14
+}

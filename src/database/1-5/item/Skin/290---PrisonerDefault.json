@@ -1,0 +1,23 @@
+{
+  "id": "PrisonerDefault",
+  "name": "Tenue classique",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "revealedAtStart": true
+  },
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 14
+  },
+  "gameplayDesc": "Avec elle, vous avez fait (et ferez encore) les 400 coups.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 290
+}

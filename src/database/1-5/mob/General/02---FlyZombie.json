@@ -1,0 +1,112 @@
+{
+  "id": "FlyZombie",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 0.8,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.2,
+      "power": [
+        25
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmbfly_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "birdCage",
+      "charge": 0.2,
+      "coolDown": 4,
+      "hitFrame": 2,
+      "lockAiAfter": 0,
+      "radius": 4,
+      "breachResistance": 0,
+      "disableAnnounceFx": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 5,
+        "speed": 0.01
+      }
+    },
+    {
+      "id": "rush",
+      "charge": 0.2,
+      "coolDown": 4,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounceFx": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "range": 6,
+        "speed": 6,
+        "distance": 4
+      }
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "ToxicCloud",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "Shovel",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Common",
+      "minDifficulty": 0,
+      "item": "P_ShareDamage"
+    }
+  ],
+  "index": 2,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 50,
+    "y": 21
+  },
+  "name": "Zombie purulent",
+  "glowInnerColor": 14090221,
+  "glowOuterColor": 839871,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.7,
+  "weight": 10,
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 2
+}

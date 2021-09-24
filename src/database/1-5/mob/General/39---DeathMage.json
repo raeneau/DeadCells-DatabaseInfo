@@ -1,0 +1,134 @@
+{
+  "id": "DeathMage",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 1,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.2,
+    "directHitStunChance": 0,
+    "cannotBeShield": true
+  },
+  "skill": [
+    {
+      "id": "shoot",
+      "charge": 1,
+      "coolDown": 1.25,
+      "props": {
+        "triggerDistance": 4
+      },
+      "lockAiAfter": 0.4,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "breachResistance": 1,
+      "allowInAir": false,
+      "hitFrame": 9,
+      "manual": false,
+      "sfxCharge": "sfx/enm_deathmage_summon.wav",
+      "sfxRelease": "sfx/enm_deathmage_release.wav",
+      "execAnim": "atk",
+      "chargeAnim": "atkLoad",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 1.5,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "blink",
+      "charge": 0.3,
+      "coolDown": 4,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 10,
+        "speed": 0.9,
+        "range": 7
+      },
+      "chargeAnim": "dodgeLoad",
+      "chargeAnimSpd": 1,
+      "execAnimSpd": 2,
+      "execAnim": "dodge",
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_archer_tp1.wav"
+    },
+    {
+      "id": "walkAway",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDistance": 5,
+        "speed": 0.2
+      },
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "dodge",
+      "charge": 0.15,
+      "coolDown": 1.6,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDistance": 4,
+        "bump": 0.8
+      },
+      "chargeAnim": "dodgeLoad",
+      "chargeAnimSpd": 1,
+      "execAnim": "dodge",
+      "execAnimSpd": 1,
+      "disableAnnounceFx": false,
+      "sfxRelease": "sfx/enm_archer_dodge1.wav"
+    }
+  ],
+  "genTags": 32,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "minDifficulty": 0,
+      "item": "BleedAxe"
+    }
+  ],
+  "metaItems": [],
+  "index": 39,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 79
+  },
+  "name": "Magistrat de mort",
+  "glowInnerColor": 7819992,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "life": [
+    110
+  ],
+  "volteDelay": 0.4,
+  "weight": 15,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 39
+}

@@ -1,0 +1,27 @@
+{
+  "id": "P_NoMobAround",
+  "name": "Tranquilité",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 0.2,
+    "effectCD": 0.33,
+    "dps": 65,
+    "range": 5
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 10
+  },
+  "gameplayDesc": " +::+dps:: DPS si aucun ennemi n'est proche de vous.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 262
+}

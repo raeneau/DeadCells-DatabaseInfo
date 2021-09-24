@@ -1,0 +1,46 @@
+{
+  "id": "HeavyTurret",
+  "name": "Tourelle lourde",
+  "moneyCost": 1900,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    }
+  ],
+  "props": {
+    "dps": [
+      60
+    ],
+    "effectCD": 1,
+    "targetable": true,
+    "life": 200,
+    "duration": 0.8,
+    "prct": 0.15
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 6
+  },
+  "gameplayDesc": "Tire sur tous les ennemis proches et inflige ::+dps:: dégâts/sec. Vos propres dégâts sont augmentés de ::prct::% si vous êtes proche de la tourelle.",
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "tier2": "Survival",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 2
+}

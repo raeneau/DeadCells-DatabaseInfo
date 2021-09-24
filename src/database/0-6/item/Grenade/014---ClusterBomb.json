@@ -1,0 +1,40 @@
+{
+  "id": "ClusterBomb",
+  "name": "Grappe explosive",
+  "moneyCost": 1800,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 16,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      42
+    ],
+    "range": 3.5,
+    "count": 6
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 5
+  },
+  "gameplayDesc": "Explose en ::count:: petites bombes infligeant ::+power:: dégâts chacune.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 14
+}

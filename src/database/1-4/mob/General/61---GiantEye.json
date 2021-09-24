@@ -1,0 +1,45 @@
+{
+  "id": "GiantEye",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "fallResistance": 1,
+    "directHitStunChance": 0,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true,
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "highlightOnKill": false
+  },
+  "skill": [],
+  "genTags": 84,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 61,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 61,
+    "y": 3
+  },
+  "name": "L'Oeil du Gigantus",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "life": [
+    2500
+  ],
+  "weight": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 61
+}

@@ -1,0 +1,80 @@
+{
+  "id": "SewerTtcl",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 12,
+  "pfCost": 2,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 3,
+  "props": {
+    "bumpResistance": 1,
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "insensitiveSpike": true,
+    "prct": 0.1
+  },
+  "skill": [
+    {
+      "id": "stroke",
+      "charge": 0.6,
+      "coolDown": 1.5,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "radius": 1,
+      "power": [
+        5
+      ],
+      "lockAiAfter": 2,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "hitFrame": 0,
+      "manual": true,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "sweep",
+      "charge": 0,
+      "coolDown": 10,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 1,
+      "breachResistance": 10,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        8
+      ],
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 32,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 55,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 51,
+    "y": 78
+  },
+  "name": "Tentacule des égouts",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "life": [
+    100
+  ],
+  "volteDelay": 0,
+  "weight": 30,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 55
+}

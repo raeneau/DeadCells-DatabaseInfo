@@ -1,0 +1,133 @@
+{
+  "id": "S_SewerDepths",
+  "biome": "SewerOld",
+  "mobs": [
+    {
+      "mob": "Spiker",
+      "quantityFactor": 0.1,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "maxCombatRoomsBefore": 0,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Spiker",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Fly",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0,
+      "packSize": [
+        1,
+        3
+      ],
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 6,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0.1,
+  "eliteRoomChance": 1,
+  "flags": 8,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "index": 66,
+  "group": 4,
+  "name": "Ancien réseau d'égouts",
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 10853204,
+    "doorColor": 14208601,
+    "chromaColor": 16771840,
+    "musicLoop": "music/OldSewers.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 7
+  },
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 66
+}

@@ -1,0 +1,168 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.5,
+    "directHitStunChance": 1
+  },
+  "genTags": 545,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "MagicSalve",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerShaman",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": true,
+  "index": 46,
+  "volteDelay": 0.3,
+  "id": "Arbiter",
+  "dlc": "RiseOfTheGiant",
+  "weight": 5,
+  "icon": {
+    "x": 54,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Arbitre",
+  "minPfHeight": 0,
+  "glowInnerColor": 7819992,
+  "minPfSize": 3,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 1,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "skill": [
+    {
+      "chargeAnim": "atkLoad",
+      "coolDown": 1.75,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.55,
+        "canTriggerThroughWall": true,
+        "ang": 1.5,
+        "lock": 2.5,
+        "count": 3,
+        "distance": 4
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_arbiter_charge1.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "shoot0",
+      "sfxRelease": "sfx/enm_arbiter_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": -10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.55
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.1,
+      "manual": true,
+      "execAnimSpd": 1.5,
+      "execAnim": "atkB",
+      "id": "shoot1",
+      "sfxRelease": "sfx/enm_arbiter_release2.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 7,
+      "breachResistance": -10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.55
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.1,
+      "manual": true,
+      "execAnimSpd": 1.5,
+      "execAnim": "atkC",
+      "id": "shoot2",
+      "sfxRelease": "sfx/enm_arbiter_release3.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": -10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "distance": 4
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "id": "dodge",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.5,
+        "count": 6
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 1,
+      "manual": false,
+      "id": "deathGift",
+      "sfxRelease": "sfx/enm_arbiter_die.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 46
+}

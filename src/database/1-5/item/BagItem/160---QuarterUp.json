@@ -1,0 +1,27 @@
+{
+  "id": "QuarterUp",
+  "name": "Quart de parchemin",
+  "moneyCost": 1000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 8,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 16
+  },
+  "gameplayDesc": "Réunissez-en 4 pour obtenir une augmentation de caractéristique.",
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 160
+}

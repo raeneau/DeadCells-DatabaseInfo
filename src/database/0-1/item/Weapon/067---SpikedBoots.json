@@ -1,0 +1,25 @@
+{
+  "id": "SpikedBoots",
+  "name": "Bottes cloutées",
+  "moneyCost": 1600,
+  "cellCost": 35,
+  "droppable": true,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "grenadeKickPow": 0.25
+  },
+  "index": 67,
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 6
+  },
+  "gameplayDesc": "Inflige un coup critique si le coup de pied interrompt une attaque.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 67
+}

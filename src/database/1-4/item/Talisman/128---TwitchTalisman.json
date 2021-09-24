@@ -1,0 +1,24 @@
+{
+  "id": "TwitchTalisman",
+  "name": "Anneau de la Communauté",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {},
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 0
+  },
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 128
+}

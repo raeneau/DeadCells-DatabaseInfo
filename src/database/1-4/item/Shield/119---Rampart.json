@@ -1,0 +1,33 @@
+{
+  "id": "Rampart",
+  "name": "Rempart",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "prct": 0.85,
+    "duration": 2.5
+  },
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 1
+  },
+  "gameplayDesc": "Absorbe plus de dégâts. Génère un champ de force (::duration:: sec) si {parade@PA} réussie.",
+  "cellCost": 40,
+  "moneyCost": 1750,
+  "tier1": "Survival",
+  "legendAffix": "FrostShield",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 119
+}

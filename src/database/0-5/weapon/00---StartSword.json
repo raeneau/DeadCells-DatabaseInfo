@@ -1,0 +1,95 @@
+{
+  "item": "StartSword",
+  "airControlAlways": false,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.1,
+      "coolDown": 0.5,
+      "lockCtrlAfter": 0,
+      "animId": "atkBackStabberA",
+      "fxId": "fxAtkBackstabberA",
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 5,
+      "canCrit": false,
+      "power": [
+        25
+      ],
+      "area": {
+        "shape": 0,
+        "width": 2.7,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 12306151,
+      "fxInnerColor": 7901874,
+      "fxOuterColor": 7901874,
+      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "animSpd": 1.5
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "animId": "atkBackStabberB",
+      "fxId": "fxAtkBackstabberB",
+      "dynamicCharge": 0,
+      "breachBonus": 0.5,
+      "props": {},
+      "hitFrame": 7,
+      "canCrit": false,
+      "power": [
+        25
+      ],
+      "area": {
+        "shape": 0,
+        "width": 2.7,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 12306151,
+      "fxInnerColor": 7901874,
+      "fxOuterColor": 7901874,
+      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "animSpd": 2
+    },
+    {
+      "charge": 0.24,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "hitFrame": 9,
+      "area": {
+        "shape": 1,
+        "width": 3.5,
+        "height": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "atkSaberA",
+      "fxId": "fxSaberA",
+      "glowColor": 12306151,
+      "fxInnerColor": 16449353,
+      "fxOuterColor": 16753939,
+      "power": [
+        32
+      ],
+      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 0
+}

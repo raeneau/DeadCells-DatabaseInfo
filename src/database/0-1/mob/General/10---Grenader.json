@@ -1,0 +1,72 @@
+{
+  "id": "Grenader",
+  "props": {
+    "moveSpeedMul": 1.75,
+    "movePauseMul": 0,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "grenade",
+      "charge": 0.6,
+      "coolDown": 2.6,
+      "hitFrame": 3,
+      "lockAiAfter": 0.3,
+      "radius": 2.9,
+      "breachResistance": -10,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "triggerDelay": 1.5,
+        "canTriggerThroughWall": true
+      },
+      "power": [
+        10
+      ],
+      "sfxRelease": "sfx/enm_zmb_fuse1.wav",
+      "sfxCharge": "sfx/enm_grd_charge.wav"
+    }
+  ],
+  "index": 10,
+  "group": 0,
+  "life": [
+    100
+  ],
+  "weight": 15,
+  "shards": 0,
+  "genTags": 1,
+  "minPfSize": 0,
+  "name": "Grenadier",
+  "score": 5,
+  "maxPerRoom": 3,
+  "canBeElite": true,
+  "glowInnerColor": 16760353,
+  "glowOuterColor": 9703761,
+  "volteDelay": 0.5,
+  "flesh1": 14233648,
+  "flesh2": 16760353,
+  "pfCost": 1.5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 0
+  },
+  "blueprints": [
+    {
+      "item": "FireBomb",
+      "rarity": "Uncommon"
+    },
+    {
+      "item": "MagnetGrenade",
+      "rarity": "Rare"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 10
+}

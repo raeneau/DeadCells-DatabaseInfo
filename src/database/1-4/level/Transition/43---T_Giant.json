@@ -1,0 +1,32 @@
+{
+  "id": "T_Giant",
+  "biome": "Giant",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 3072,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 43,
+  "group": 1,
+  "transitionTo": "Giant",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 2.5,
+    "musicLoop": "music/dc_colletor2.ogg",
+    "perfectKillsDoor": 1,
+    "zDoorColor": 389267
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 8,
+  "worldDepth": 0,
+  "loreDescriptions": [],
+  "name": "Passage vers le Repaire du Gardien",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 43
+}

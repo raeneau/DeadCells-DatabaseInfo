@@ -1,0 +1,114 @@
+{
+  "id": "S_Worm",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 0,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.2,
+    "directHitStunChance": 1
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.37,
+      "coolDown": 0.7,
+      "lockAiAfter": 0.1,
+      "radius": 1.1,
+      "breachResistance": -0.3,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2,
+        "dps": 4
+      },
+      "power": [
+        5
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_leech_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "jump",
+      "charge": 0.3,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 5
+      }
+    },
+    {
+      "id": "jumpAbove",
+      "charge": 0.1,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 5
+      }
+    },
+    {
+      "id": "teleport",
+      "charge": 0.7,
+      "coolDown": 1.3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 9,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "stunTime": 0.6
+      }
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 6,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 42,
+    "y": 15
+  },
+  "name": "Ver à cadavre",
+  "glowInnerColor": 16777215,
+  "glowOuterColor": 9896191,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "life": [
+    70
+  ],
+  "volteDelay": 0.2,
+  "weight": 2,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 6
+}

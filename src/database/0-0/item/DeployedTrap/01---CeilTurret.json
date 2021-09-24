@@ -1,0 +1,38 @@
+{
+  "id": "CeilTurret",
+  "name": "Tourelle de plafond",
+  "moneyCost": 1500,
+  "cellCost": 50,
+  "droppable": false,
+  "hasTier": false,
+  "castCD": 5,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    }
+  ],
+  "props": {
+    "dps": [
+      45
+    ],
+    "effectCD": 0.2,
+    "targetable": true,
+    "life": 60
+  },
+  "index": 1,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 56,
+    "y": 2
+  },
+  "gameplayDesc": "Tire rapidement sur tous les ennemis qui passent en dessous, infligeant ::+dps:: dégâts/sec.",
+  "hasLevels": true,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 1
+}

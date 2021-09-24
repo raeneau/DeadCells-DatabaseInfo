@@ -1,0 +1,62 @@
+{
+  "id": "PrisonCorrupt",
+  "biome": "PrisonCorrupt",
+  "mobs": [
+    {
+      "mob": "DeathMage",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "ImmortalZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 524288,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 10,
+  "group": 0,
+  "name": "Prison corrompue",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 3,
+    "viewerColor": 7037069,
+    "doorColor": 10104763,
+    "chromaColor": 16711793,
+    "musicLoop": "music/DC_Prison.ogg",
+    "zDoorColor": 2801540,
+    "levelSpecificTrap": 2,
+    "levelTrapFrequency": 0.3
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 6,
+  "worldDepth": 3,
+  "loreDescriptions": [],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 3
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 10
+}

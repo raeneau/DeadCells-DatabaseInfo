@@ -1,0 +1,31 @@
+{
+  "id": "SideBomb",
+  "name": "Nuée",
+  "droppable": true,
+  "castCD": 7,
+  "tags": [
+    {
+      "tag": "Deployable"
+    }
+  ],
+  "props": {
+    "sideKickMob": "S_HeroWorm",
+    "count": 4,
+    "duration": 10
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 6,
+    "y": 4
+  },
+  "gameplayDesc": "Invoque un groupe de créatures à votre service.",
+  "cellCost": 30,
+  "moneyCost": 1500,
+  "index": 16,
+  "hasLevels": false,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 16
+}

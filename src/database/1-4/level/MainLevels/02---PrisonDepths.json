@@ -1,0 +1,129 @@
+{
+  "name": "Profondeurs de la Prison",
+  "biome": "PrisonDepths",
+  "id": "PrisonDepths",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "singleRoom": false,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Hammer",
+      "singleRoom": false,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Comboter",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 2
+    },
+    {
+      "mob": "Rampager",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    }
+  ],
+  "flags": 0,
+  "mobDensity": 1,
+  "group": 0,
+  "lootFlags": 32,
+  "goldBonus": 0.1,
+  "specificLoots": [],
+  "eliteWanderChance": 0.2,
+  "eliteRoomChance": 0.8,
+  "index": 2,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": -1.5,
+    "viewerColor": 6310313,
+    "doorColor": 8268995,
+    "chromaColor": 10551551,
+    "loadingColor": 1184554,
+    "loadingDescColor": 7562692,
+    "viewerOffsetX": -1,
+    "musicIntro": "music/PrisonDepth.ogg",
+    "musicLoop": "music/DC_Prison.ogg",
+    "minPerfectKillsMobCount": 0.5,
+    "zDoorColor": 2540926
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 1,
+  "loreDescriptions": [
+    {
+      "text": "Les pires prisonniers étaient enfermés ici, en compagnie des pires gardiens."
+    },
+    {
+      "text": "Peu de prisonniers ont réussi à purger leur peine dans ces quartiers et à en sortir vivants. Aucun, en fait."
+    },
+    {
+      "text": "\"Etre transféré dans les Profondeurs\", ça revient à dire qu'on va s'faire exécuter. Et à vrai dire, vous préféreriez qu'ils vous pendent."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 22
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 2
+}

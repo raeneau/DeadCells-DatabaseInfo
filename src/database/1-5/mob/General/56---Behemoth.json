@@ -1,0 +1,192 @@
+{
+  "id": "Behemoth",
+  "score": 20,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 0.9,
+    "climbEndDist": 4,
+    "movePauseMul": 0.5,
+    "cellLoot": 12,
+    "combatMusic": "music/Bridge.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ]
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.5,
+      "coolDown": 1,
+      "props": {},
+      "radius": 2,
+      "power": [
+        14
+      ],
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_cc_charge.wav",
+      "sfxRelease": "sfx/enm_behemoth_cc_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "shockWave",
+      "charge": 0.6,
+      "coolDown": 3.5,
+      "props": {
+        "distance": 99
+      },
+      "power": [
+        10
+      ],
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_shockw_charge.wav",
+      "sfxRelease": "sfx/enm_behemoth_shockw_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jump",
+      "charge": 0.5,
+      "coolDown": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 10
+      },
+      "power": [
+        20
+      ],
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_jump_charge.wav",
+      "sfxRelease": "sfx/jump.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "blazeArmor",
+      "charge": 1,
+      "coolDown": 10,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 3,
+        "duration": 3
+      },
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_auracharge.wav",
+      "sfxRelease": "sfx/enm_behemoth_shout.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 4,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "BehemothHammer"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "BehemothDefault"
+    },
+    {
+      "item": "CrossBow",
+      "rarity": "Always",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "ImpaleSpear",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_ManyMobsAround",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_NoMobAround",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_Curse",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 1,
+      "item": "Behemoth1"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 2,
+      "item": "Behemoth2"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 3,
+      "item": "Behemoth3"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 4,
+      "item": "Behemoth4"
+    }
+  ],
+  "index": 56,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 23
+  },
+  "name": "Le Concierge",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 9418700,
+  "flesh2": 16754944,
+  "life": [
+    4000
+  ],
+  "weight": 200,
+  "metaItems": [
+    {
+      "item": "ScoringKey",
+      "minDifficulty": 0
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 56
+}

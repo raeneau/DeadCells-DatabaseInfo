@@ -1,0 +1,45 @@
+{
+  "item": "Freeze",
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.4,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 21,
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "props": {
+        "duration": 3,
+        "range": 8
+      },
+      "animId": "atkFireballC",
+      "fxId": "fxFireballC",
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 8,
+        "height": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 7922654,
+      "fxInnerColor": 7922654,
+      "fxOuterColor": 7922654,
+      "sfxCharge": "sfx/magic_cast1.wav",
+      "sfxRelease": "sfx/spell_ice_release.wav",
+      "sfxHit": "sfx/spell_ice_hit.wav",
+      "animSpd": 1.875,
+      "fxStartFrame": 0,
+      "power": [
+        35
+      ]
+    }
+  ],
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 49
+}

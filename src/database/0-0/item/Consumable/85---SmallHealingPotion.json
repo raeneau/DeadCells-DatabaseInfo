@@ -1,0 +1,31 @@
+{
+  "id": "SmallHealingPotion",
+  "name": "Carotte",
+  "droppable": false,
+  "hasTier": true,
+  "castCD": 0,
+  "props": {
+    "power": 25,
+    "duration": 1.5
+  },
+  "group": 8,
+  "tags": [
+    {
+      "tag": "Heal"
+    }
+  ],
+  "gameplayDesc": "Soigne ::+power:: PV.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 4
+  },
+  "cellCost": 0,
+  "moneyCost": 200,
+  "index": 85,
+  "hasLevels": false,
+  "__separator_group_ID": 8,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 85
+}

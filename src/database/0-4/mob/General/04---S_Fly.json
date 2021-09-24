@@ -1,0 +1,76 @@
+{
+  "id": "S_Fly",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 0,
+  "maxPerRoom": 4,
+  "props": {
+    "cannotBeShield": true,
+    "insensitiveSpike": true
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.6,
+      "coolDown": 0.4,
+      "hitFrame": 0,
+      "lockAiAfter": 0.4,
+      "radius": 1.1,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        6
+      ],
+      "sfxCharge": "sfx/enm_fly_charge.wav",
+      "sfxRelease": "sfx/enm_fly_release.wav"
+    },
+    {
+      "id": "flee",
+      "charge": 0,
+      "coolDown": 5,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "chance": 0.5
+      },
+      "sfxRelease": "sfx/enm_fly_fly.wav"
+    }
+  ],
+  "genTags": 18,
+  "blueprints": [],
+  "index": 4,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 5
+  },
+  "name": "Mouche à cadavre",
+  "glowInnerColor": 14352315,
+  "glowOuterColor": 3074108,
+  "flesh1": 12303527,
+  "life": [
+    45
+  ],
+  "volteDelay": 0.3,
+  "weight": 5,
+  "flesh2": 12303527,
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 4
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ClusterBomb",
+  "name": "Grappe explosive",
+  "moneyCost": 1800,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      50
+    ],
+    "range": 4,
+    "count": 6,
+    "bump": 2,
+    "castTime": 0.4,
+    "duration": 0.4,
+    "bonus": 0.66,
+    "power2": [
+      50
+    ]
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 5
+  },
+  "gameplayDesc": "Se sépare en ::count:: bombes (::+power:: dégâts chacune).",
+  "tier1": "Brutality",
+  "legendAffix": "IceDamage",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 14
+}

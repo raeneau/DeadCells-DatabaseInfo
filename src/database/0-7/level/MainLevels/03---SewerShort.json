@@ -1,0 +1,118 @@
+{
+  "id": "SewerShort",
+  "biome": "Sewer",
+  "mobs": [
+    {
+      "mob": "Scorpio",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Worm",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Grenader",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    }
+  ],
+  "mobDensity": 1.05,
+  "flags": 8,
+  "group": 0,
+  "name": "Égouts toxiques",
+  "lootFlags": 0,
+  "goldBonus": 0,
+  "specificLoots": [],
+  "eliteWanderChance": 0.7,
+  "eliteRoomChance": 0.05,
+  "index": 3,
+  "cellBonus": 0,
+  "tripleUps": 1,
+  "doubleUps": 2,
+  "extraMobTier": 2,
+  "baseMobTier": 3,
+  "props": {
+    "timedDoor": 2,
+    "timedScrolls": 1,
+    "viewerY": 2.5,
+    "viewerColor": 3190858,
+    "doorColor": 9423400,
+    "chromaColor": 327424,
+    "musicLoop": "music/Sewers.ogg",
+    "loadingColor": 5643,
+    "loadingDescColor": 6669441
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "worldDepth": 1,
+  "loreDescriptions": [
+    {
+      "text": "Ils furent nombreux à penser que la route des égouts était la voie de la liberté. Personne n'en est jamais ressorti."
+    },
+    {
+      "text": "A force de balancer tous les immondices de la prison dans les galeries inférieures, fallait pas s'étonner qu'un truc horrible en ressorte un jour !"
+    },
+    {
+      "text": "Une substance verdâtre s'est répendue dans plusieurs tuyaux, par ici. Et elle ne fait que grossir."
+    },
+    {
+      "text": "Hum...cette odeur, c'est normal ?"
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 3
+}

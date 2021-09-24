@@ -1,0 +1,26 @@
+{
+  "id": "P_Yolo",
+  "name": "Ygdar Orus Li Ox",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.25,
+    "minPerks": 0,
+    "perkInFirstShopOnly": true
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 4
+  },
+  "gameplayDesc": "Vous sauve UNE fois en cas de décès prématuré.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 200
+}

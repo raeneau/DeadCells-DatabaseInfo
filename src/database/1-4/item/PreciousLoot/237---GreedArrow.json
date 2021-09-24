@@ -1,0 +1,27 @@
+{
+  "id": "GreedArrow",
+  "name": "Flêche en or",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "power": 35,
+    "disableFloatAnim": true,
+    "highActivationPriority": true,
+    "chance": 0,
+    "enableAutoPick": true
+  },
+  "group": 11,
+  "gameplayDesc": "Une flêche transmutée d'une valeur de ::$power::{iconCoin@img}. Pour un carquois bourgeois.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 6
+  },
+  "__separator_group_ID": 11,
+  "__separator_group_Name": "PreciousLoot",
+  "__original_Index": 237
+}

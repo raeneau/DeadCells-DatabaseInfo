@@ -1,0 +1,25 @@
+{
+  "id": "Whip",
+  "name": "Fouet de Valmont",
+  "moneyCost": 1800,
+  "cellCost": 20,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 2
+  },
+  "gameplayDesc": "Ignore les boucliers. Inflige un COUP CRITIQUE si le coup est porté par l'extrêmité du fouet.",
+  "ambiantDesc": "La famille Valmont recommande ce fouet.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 65
+}

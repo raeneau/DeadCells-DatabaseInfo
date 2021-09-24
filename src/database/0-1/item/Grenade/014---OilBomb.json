@@ -1,0 +1,39 @@
+{
+  "id": "OilBomb",
+  "name": "Bombe à huile",
+  "droppable": true,
+  "castCD": 4,
+  "props": {
+    "duration": 20,
+    "range": 9,
+    "power": [
+      20
+    ]
+  },
+  "group": 1,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Oil"
+    }
+  ],
+  "gameplayDesc": "Inflige ::+power:: dégâts et applique de l'huile inflammable dans sa zone d'effet.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 0
+  },
+  "cellCost": 30,
+  "moneyCost": 2000,
+  "index": 14,
+  "hasLevels": true,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 14
+}

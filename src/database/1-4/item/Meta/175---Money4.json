@@ -1,0 +1,26 @@
+{
+  "id": "Money4",
+  "name": "Sauvetage de l'or IV",
+  "moneyCost": 0,
+  "cellCost": 400,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Money3",
+    "reqUnlocks": 15,
+    "revealedAtStart": true,
+    "power": 15000
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 7
+  },
+  "gameplayDesc": "Conserve jusqu'à ::power:: {iconCoin@img} à votre mort.",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 175
+}

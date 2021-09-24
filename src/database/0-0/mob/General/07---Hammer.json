@@ -1,0 +1,90 @@
+{
+  "id": "Hammer",
+  "flesh1": 9732831,
+  "score": 10,
+  "canBeElite": true,
+  "minPfSize": 9,
+  "maxPerRoom": 2,
+  "props": {
+    "moveSpeedMul": 1.2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 1,
+      "power": [
+        20
+      ],
+      "radius": 0,
+      "props": {
+        "distance": 4
+      },
+      "lockAiAfter": 0.2,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "breachResistance": 0.8,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_hammer_charge1.wav",
+      "sfxRelease": "sfx/enm_hammer_release1.wav"
+    },
+    {
+      "id": "shoot",
+      "charge": 0.5,
+      "coolDown": 6,
+      "props": {
+        "count": 4,
+        "triggerDelay": 1.5
+      },
+      "lockAiAfter": 0,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "breachResistance": 0.1,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "power": [
+        12
+      ],
+      "manual": false,
+      "sfxRelease": "sfx/enm_hammer_release2.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 7,
+  "group": 0,
+  "name": "Hammer",
+  "glowInnerColor": 10048255,
+  "flesh2": 3022450,
+  "life": [
+    420
+  ],
+  "volteDelay": 0.6,
+  "weight": 20,
+  "pfCost": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 53,
+    "y": 22
+  },
+  "cells": [
+    3,
+    4
+  ],
+  "blueprints": [
+    {
+      "chance": 0.03,
+      "item": "Spear"
+    }
+  ],
+  "cellChance": 0.66,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 7
+}

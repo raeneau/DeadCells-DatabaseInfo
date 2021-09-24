@@ -1,0 +1,30 @@
+{
+  "id": "Rapier",
+  "name": "Rapière",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "duration": 0.4
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 2
+  },
+  "gameplayDesc": "Inflige un COUP CRITIQUE juste après une roulade.",
+  "ambiantDesc": "Tout en finesse.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 58
+}

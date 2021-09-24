@@ -1,0 +1,122 @@
+{
+  "id": "Cemetery",
+  "biome": "Cemetery",
+  "mobs": [
+    {
+      "mob": "Fogger",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "Hooker",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Comboter",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 6,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "FlyZombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "viewerY": 3,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Cimetière du Val",
+  "musicLoop": "music/Cemetery.ogg",
+  "doorColor": 13635471,
+  "index": 12,
+  "zDoorColor": 3662064,
+  "viewerOffX": 0,
+  "cellBonus": 0.2,
+  "viewerColor": 9520018,
+  "chromaColor": 16711815,
+  "tripleUps": 2,
+  "doubleUps": 3,
+  "extraMobTier": 2,
+  "baseMobTier": 12,
+  "props": {
+    "timedDoor": 19.5,
+    "timedScrolls": 2
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 12
+}

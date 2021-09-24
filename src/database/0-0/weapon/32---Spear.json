@@ -1,0 +1,96 @@
+{
+  "item": "Spear",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.6,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 18,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 0.5,
+        "offsetCaseX": 0.2,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "power": [
+        45
+      ],
+      "animId": "atkSpearA",
+      "critMul": 1,
+      "fxFrame": 18,
+      "fxId": "fxSpearA",
+      "glowColor": 54015,
+      "fxInnerColor": 54015,
+      "fxOuterColor": 54015,
+      "sfxRelease": "sfx/weapon_spear_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 0.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.4
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkSpearB",
+      "power": [
+        50
+      ],
+      "critMul": 1,
+      "fxId": "fxSpearB",
+      "glowColor": 54015,
+      "fxInnerColor": 54015,
+      "fxOuterColor": 54015,
+      "sfxRelease": "sfx/weapon_spear_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    },
+    {
+      "charge": 0.2,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 2,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 0.5,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0.2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {},
+      "animId": "atkSpearC",
+      "power": [
+        60
+      ],
+      "critMul": 1,
+      "fxId": "fxSpearC",
+      "glowColor": 54015,
+      "fxInnerColor": 54015,
+      "fxOuterColor": 54015,
+      "sfxRelease": "sfx/weapon_spear_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav"
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 32
+}

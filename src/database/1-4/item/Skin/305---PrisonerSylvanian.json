@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerSylvanian",
+  "name": "Tenue d'archer sylvestre romantique",
+  "moneyCost": 0,
+  "cellCost": 750,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 18
+  },
+  "gameplayDesc": "La flèche est plus forte que l'épée.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 305
+}

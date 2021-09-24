@@ -1,0 +1,22 @@
+{
+  "id": "ScoringKey",
+  "name": "Rune du Challenger",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 9,
+  "gameplayDesc": "Cette RUNE PERMANENTE vous permet d'ouvrir la porte menant au défi quotidien dans le Quartier des Prisonniers.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 19,
+    "y": 6
+  },
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 114
+}

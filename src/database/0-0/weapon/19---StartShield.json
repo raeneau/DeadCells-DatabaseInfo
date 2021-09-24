@@ -1,0 +1,35 @@
+{
+  "item": "StartShield",
+  "airControlAlways": false,
+  "isACancel": true,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.45,
+      "coolDown": 0.15,
+      "lockCtrlAfter": 0,
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {
+        "duration": 0.8
+      },
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "sfxCharge": "sfx/weapon_shield_charge.wav",
+      "sfxHit": "sfx/weapon_shield_block.wav",
+      "power": [
+        15
+      ]
+    }
+  ],
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 19
+}

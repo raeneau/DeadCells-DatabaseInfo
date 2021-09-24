@@ -1,0 +1,24 @@
+{
+  "id": "ShopCategories",
+  "name": "Catégories de marchandises",
+  "moneyCost": 0,
+  "cellCost": 300,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqUnlocks": 30
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 8
+  },
+  "gameplayDesc": "Les marchands proposeront un plus grand choix de catégories.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 147
+}

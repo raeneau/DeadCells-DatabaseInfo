@@ -1,0 +1,41 @@
+{
+  "id": "FrostBow",
+  "name": "Arc de glace",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "ammo": 4
+  },
+  "group": 5,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NegligibleDamage"
+    }
+  ],
+  "gameplayDesc": "Congèle les ennemis.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 1
+  },
+  "cellCost": 30,
+  "moneyCost": 1750,
+  "tier1": "Tactic",
+  "hasLevels": true,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 72
+}

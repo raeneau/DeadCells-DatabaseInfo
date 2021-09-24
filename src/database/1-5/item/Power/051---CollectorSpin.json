@@ -1,0 +1,48 @@
+{
+  "id": "CollectorSpin",
+  "name": "Seringue du Collecteur",
+  "moneyCost": 4000,
+  "cellCost": 1,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "NeedUnlockToDropAsLegendary"
+    },
+    {
+      "tag": "DontDropInDailies"
+    }
+  ],
+  "props": {
+    "duration": 5,
+    "height": 3,
+    "tick": 0.1,
+    "duration2": 0.5,
+    "castTime": 0.5,
+    "uses": 6,
+    "width": 6,
+    "dps": [
+      40
+    ],
+    "color": 467236,
+    "speed": 0.5,
+    "speed2": 0.3
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 24,
+    "y": 4
+  },
+  "ambiantDesc": "Mon manège à moi c'est moi.",
+  "gameplayDesc": "Vous fait tourner sur vous même pour infliger des dégâts. Réactivez pour ajouter  ::+dps:: dégats/sec (jusqu'à 5 fois) et ::duration:: secondes. Chaque activation après la première coûte des cellules.",
+  "tier1": "Survival",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 51
+}

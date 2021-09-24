@@ -1,0 +1,33 @@
+{
+  "id": "Freeze",
+  "name": "Congélation",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "props": {},
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 2
+  },
+  "gameplayDesc": "Congèle les ennemis devant vous. N'inflige pas de dégât si la cible est déjà gelée.",
+  "tier1": "Tactic",
+  "hasLevels": false,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 85
+}

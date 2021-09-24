@@ -1,0 +1,39 @@
+{
+  "id": "LongBow",
+  "name": "Arc de tireur d'élite",
+  "castCD": 0,
+  "props": {
+    "ammo": 3
+  },
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "SpecificBlueprintDrop"
+    }
+  ],
+  "ambiantDesc": "Dévastateur à longue portée, c'est le sniper en bois.",
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous tirez à longue portée.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 1
+  },
+  "cellCost": 30,
+  "moneyCost": 2500,
+  "index": 42,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 42
+}

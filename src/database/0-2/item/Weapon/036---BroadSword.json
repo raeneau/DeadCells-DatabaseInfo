@@ -1,0 +1,31 @@
+{
+  "id": "BroadSword",
+  "name": "Epée large",
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "SpecificBlueprintDrop"
+    }
+  ],
+  "ambiantDesc": "Lourde et lente, mais tellement violente.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 7,
+    "y": 1
+  },
+  "cellCost": 20,
+  "moneyCost": 1500,
+  "index": 36,
+  "hasLevels": true,
+  "gameplayDesc": "Fait de très gros dégâts.",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 36
+}

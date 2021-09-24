@@ -1,0 +1,28 @@
+{
+  "id": "Money3",
+  "name": "Sauvetage de l'or III",
+  "moneyCost": 0,
+  "cellCost": 160,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Money2",
+    "prct": 0.65,
+    "reqUnlocks": 6,
+    "revealedAtStart": true
+  },
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 3
+  },
+  "gameplayDesc": "Vous conservez ::prct::% de votre or en mourrant.",
+  "index": 98,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 98
+}

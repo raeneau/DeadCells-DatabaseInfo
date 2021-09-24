@@ -1,0 +1,78 @@
+{
+  "id": "PrisonStart",
+  "biome": "PrisonStart",
+  "mobs": [
+    {
+      "mob": "Grenader",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 1
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 10,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 0.8,
+  "flags": 0,
+  "group": 0,
+  "name": "Quartier des prisonniers",
+  "lootFlags": 4,
+  "musicLoop": "music/PrisonStart.ogg",
+  "goldBonus": 0.15,
+  "specificLoots": [
+    {
+      "kind": 2,
+      "minDistToSpawn": 3
+    }
+  ],
+  "viewerY": 0.75,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0.05,
+  "doorColor": 10110973,
+  "index": 0,
+  "lootLevel": 1,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 2370433,
+  "chromaColor": 39679,
+  "tripleUps": 2,
+  "doubleUps": 0,
+  "baseMobTier": 1,
+  "extraMobTier": 0,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 0
+}

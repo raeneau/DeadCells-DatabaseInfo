@@ -1,0 +1,133 @@
+{
+  "id": "Morpher",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 4,
+  "pfCost": 0.7,
+  "maxPerRoom": 3,
+  "maxPerPlatform": 1,
+  "props": {
+    "moveSpeedMul": 1.2,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.8,
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "radius": 1.2,
+      "props": {},
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 10,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "morph",
+      "charge": 4,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 8,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 2
+      }
+    },
+    {
+      "id": "mobA",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 2,
+        "mob": "Ninja"
+      }
+    },
+    {
+      "id": "mobB",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "count": 2,
+        "mob": "FlyingShooter"
+      }
+    },
+    {
+      "id": "shoot",
+      "charge": 0,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "speed": 0.6,
+        "count": 8,
+        "max": 48
+      },
+      "power": [
+        5
+      ]
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 48,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 48,
+    "y": 45
+  },
+  "name": "Expérience instable",
+  "glowInnerColor": 14369346,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    120
+  ],
+  "volteDelay": 1,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 48
+}

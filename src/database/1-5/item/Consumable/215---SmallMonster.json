@@ -1,0 +1,28 @@
+{
+  "id": "SmallMonster",
+  "name": "Viscères",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "SmallHealConsumable"
+    }
+  ],
+  "props": {
+    "duration": 1.5,
+    "prct": 0.15
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 11,
+    "y": 6
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 215
+}

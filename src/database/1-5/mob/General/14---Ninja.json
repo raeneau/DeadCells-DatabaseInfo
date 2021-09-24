@@ -1,0 +1,149 @@
+{
+  "id": "Ninja",
+  "score": 3,
+  "canBeElite": true,
+  "minPfSize": 7,
+  "pfCost": 0.75,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 3,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 2.5
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.65,
+      "coolDown": 0.2,
+      "hitFrame": 6,
+      "lockAiAfter": 0.4,
+      "radius": 1.25,
+      "breachResistance": 0,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        12
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxCharge": "sfx/enm_ninja_charge.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "heavy",
+      "charge": 0.95,
+      "coolDown": 1,
+      "hitFrame": 1,
+      "lockAiAfter": 0.55,
+      "radius": 1.8,
+      "breachResistance": 0.8,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxCharge": "sfx/enm_ninja_backstabcharge.wav",
+      "sfxRelease": "sfx/enm_ninja_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "crawl",
+      "charge": 0.03,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "chance": 0.6
+      },
+      "sfxRelease": "sfx/enm_ninja_crawl.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "jumpBack",
+      "charge": 0.15,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 7
+      },
+      "sfxRelease": "sfx/enm_archer_dodge1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "teleport",
+      "charge": 0.3,
+      "coolDown": 0.2,
+      "hitFrame": 0,
+      "lockAiAfter": 0.1,
+      "radius": 9,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "stunTime": 0.5
+      },
+      "sfxRelease": "sfx/enm_archer_tp1.wav",
+      "disableAnnounceFx": true
+    }
+  ],
+  "genTags": 160,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "MultiCrossBow",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "minDifficulty": 1,
+      "item": "MultiKickBoots"
+    },
+    {
+      "rarity": "Rare",
+      "minDifficulty": 2,
+      "item": "PrisonerBlack"
+    }
+  ],
+  "index": 14,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 48,
+    "y": 26
+  },
+  "name": "Traqueur noir",
+  "glowInnerColor": 16646038,
+  "glowOuterColor": 16723200,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.5,
+  "weight": 10,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 14
+}

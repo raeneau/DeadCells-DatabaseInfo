@@ -1,0 +1,35 @@
+{
+  "id": "StartShield",
+  "name": "Vieux bouclier en bois",
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "RustyItem"
+    }
+  ],
+  "props": {
+    "sideHandOnly": true
+  },
+  "group": 6,
+  "gameplayDesc": "Maintenir pour absorber une partie des dégâts.\nAppuyer brièvement pour tenter une {parade@PA} et annuler les dégâts.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 0,
+    "y": 3
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "tier1": "Survival",
+  "hasLevels": false,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 93
+}

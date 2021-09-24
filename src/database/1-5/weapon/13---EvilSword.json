@@ -1,0 +1,97 @@
+{
+  "item": "EvilSword",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": true,
+  "strikeChain": [
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "animId": "atkSaberA",
+      "power": [
+        120
+      ],
+      "fxId": "fxSaberA",
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 9,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 3.1,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16731904,
+      "fxInnerColor": 16731904,
+      "fxOuterColor": 16731904,
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxStartFrame": 7
+    },
+    {
+      "charge": 0.16,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "animId": "atkSaberB",
+      "power": [
+        120
+      ],
+      "fxId": "fxSaberB",
+      "dynamicCharge": 0,
+      "breachBonus": 0,
+      "props": {},
+      "hitFrame": 8,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 3.3,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16731904,
+      "fxInnerColor": 16731904,
+      "fxOuterColor": 16731904,
+      "sfxRelease": "sfx/weapon_saber_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxStartFrame": 7
+    },
+    {
+      "charge": 0.15,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "hitFrame": 4,
+      "area": {
+        "shape": 1,
+        "width": 3.1,
+        "height": 2.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {},
+      "animId": "atkSaberA",
+      "fxId": "fxSaberA",
+      "power": [
+        180
+      ],
+      "animSpd": 2,
+      "glowColor": 16731904,
+      "fxInnerColor": 16731904,
+      "fxOuterColor": 16731904,
+      "sfxRelease": "sfx/weapon_saber_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "fxStartFrame": 7
+    }
+  ],
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 13
+}

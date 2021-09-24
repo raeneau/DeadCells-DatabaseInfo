@@ -1,0 +1,53 @@
+{
+  "id": "StandardTurret",
+  "name": "Tranche-ligaments",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": [
+      20
+    ],
+    "effectCD": 0.1,
+    "life": 80,
+    "effectCharge": 0.5,
+    "targetable": true,
+    "dps2": 10,
+    "duration": 1.5,
+    "count": 3
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 9
+  },
+  "gameplayDesc": "Tire des scies circulaires sur les ennemis proches et inflige {saignement@BL} (::+dps2:: DPS sur ::duration:: sec).",
+  "tier1": "Tactic",
+  "legendAffix": "PoisonOnHit",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 1
+}

@@ -1,0 +1,52 @@
+{
+  "id": "FrostArcher",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "maxPerRoom": 0,
+  "props": {},
+  "skill": [
+    {
+      "id": "shoot",
+      "charge": 1.5,
+      "coolDown": 0.25,
+      "power": [
+        5
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "duration": 2
+      },
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": -1,
+      "allowInAir": false,
+      "hitFrame": 60,
+      "manual": false,
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 1,
+  "index": 76,
+  "group": 2,
+  "name": "Archer gelé",
+  "life": [
+    100
+  ],
+  "weight": 15,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 13
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 76
+}

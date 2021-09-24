@@ -1,0 +1,36 @@
+{
+  "id": "SismicBlade",
+  "name": "Frappe sismique",
+  "moneyCost": 2000,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "tick": 0.1,
+    "duration": 2
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 13
+  },
+  "gameplayDesc": "Provoque des ondes de choc terrestres qui immobilisent les victimes.",
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 66
+}

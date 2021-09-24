@@ -1,0 +1,37 @@
+{
+  "item": "BloodShield",
+  "airControlAlways": false,
+  "isACancel": true,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.37,
+      "coolDown": 0,
+      "lockCtrlAfter": 0,
+      "hitFrame": 0,
+      "breachBonus": 0,
+      "dynamicCharge": 1,
+      "canCrit": true,
+      "props": {
+        "duration": 0.9,
+        "range": 9
+      },
+      "power": [
+        15
+      ],
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "sfxHit": "sfx/weapon_shield_block.wav",
+      "sfxCharge": "sfx/weapon_shield_charge.wav"
+    }
+  ],
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 39
+}

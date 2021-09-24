@@ -1,0 +1,31 @@
+{
+  "id": "GiantWhistle",
+  "name": "Sifflet du géant",
+  "moneyCost": 2000,
+  "cellCost": 75,
+  "droppable": true,
+  "castCD": 20,
+  "tags": [],
+  "props": {
+    "power": [
+      500
+    ],
+    "bump": 1.5,
+    "duration": 1,
+    "distance": 3,
+    "duration2": 1.1
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 27,
+    "y": 2
+  },
+  "ambiantDesc": "Tape m'en cinq!",
+  "gameplayDesc": "Inflige ::+power:: dégâts à l'ennemi à portée que le géant juge le plus dangereux.",
+  "tier1": "Survival",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 49
+}

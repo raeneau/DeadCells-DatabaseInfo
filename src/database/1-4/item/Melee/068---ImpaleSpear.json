@@ -1,0 +1,29 @@
+{
+  "id": "ImpaleSpear",
+  "name": "Empaleuse",
+  "moneyCost": 1500,
+  "cellCost": 45,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "distance": 4
+  },
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 3
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} si la victime est contre un mur.",
+  "tier1": "Brutality",
+  "legendAffix": "RunSpeedOnCrit",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 68
+}

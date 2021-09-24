@@ -1,0 +1,126 @@
+{
+  "id": "Cavern",
+  "biome": "Cavern",
+  "mobs": [
+    {
+      "mob": "Stomper",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Earthquaker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "StompSkeleton",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Arbiter",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Demon",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "Demon",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {},
+      "packSize": 2
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 0.7,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0,
+  "flags": 180225,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 16,
+  "group": 0,
+  "name": "Caverne",
+  "tripleUps": 4,
+  "doubleUps": 2,
+  "props": {
+    "viewerY": 3.5,
+    "viewerColor": 8891837,
+    "doorColor": 2279852,
+    "chromaColor": 51199,
+    "levelSpecificTrap": 0,
+    "levelTrapFrequency": 0.5,
+    "zDoorColor": 5622448,
+    "loadingColor": 399638,
+    "loadingDescColor": 4646881,
+    "musicLoop": "music/truecavern.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 7,
+  "worldDepth": 5,
+  "loreDescriptions": [
+    {
+      "text": "De précieux cristaux ont été prélevés dans cette caverne sur ordre du Roi. Nul ne sait quelle était leur utilité."
+    },
+    {
+      "text": "Mineur était le métier le plus ingrat de l'île. Nombre d'entre eux sont morts sous des gravats, à cause de vapeurs toxiques ou tués par d'étranges créatures..."
+    },
+    {
+      "text": "La Caverne est un étrange endroit dans lequel cohabitent glace et lave. L'Alchimiste n'a jamais percé ce mystère."
+    },
+    {
+      "text": "Record de temps passé sans accident dans la caverne : 45 secondes"
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 39,
+    "y": 28
+  },
+  "quarterUpsBC3": 4,
+  "quarterUpsBC4": 1,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 16
+}

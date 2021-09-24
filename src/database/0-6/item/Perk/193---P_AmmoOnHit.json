@@ -1,0 +1,29 @@
+{
+  "id": "P_AmmoOnHit",
+  "name": "Arrachage",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "minPerks": 0,
+    "count": 1,
+    "power": [
+      60
+    ]
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 10
+  },
+  "gameplayDesc": "Taper un ennemi au corps à corps qui a une flèche plantée sur lui la fait tomber et inflige ::+power:: dégâts.",
+  "tier1": "Tactic",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 193
+}

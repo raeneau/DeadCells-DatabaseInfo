@@ -1,0 +1,28 @@
+{
+  "props": {
+    "scaledValueCap": 3,
+    "range": 15,
+    "duration2": 3,
+    "customScaling": 1.048,
+    "duration": 1
+  },
+  "gameplayDesc": "Esquiver une attaque au dernier moment {ralentit@IC} tous les ennemis aux alentours pour ::+duration:: secondes. ",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DodgeSlow",
+  "icon": {
+    "x": 4,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Retraite stratégique",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 301
+}

@@ -1,0 +1,40 @@
+{
+  "id": "DamageAura",
+  "name": "Aura de lacération",
+  "moneyCost": 1500,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 12,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "duration": 4,
+    "dps": [
+      85
+    ],
+    "tick": 0.1,
+    "count": 16,
+    "distance": 5,
+    "speed": 0.06
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 12,
+    "y": 7
+  },
+  "gameplayDesc": "Inflige des dégâts aux cibles proches.",
+  "tier1": "Tactic",
+  "legendAffix": "BleedOnHit",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 37
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Talisman1",
+  "name": "Talisman de rubis",
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "props": {},
+  "group": 7,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 5
+  },
+  "ambiantDesc": "Un bel objet habilement dissimulé sous vos vêtements, pour que les graphistes aient moins de boulot.",
+  "gameplayDesc": "Les pendentifs n'occupent pas d'emplacement d'équipement, mais vous ne pouvez en avoir qu'un à la fois.",
+  "cellCost": 0,
+  "moneyCost": 2000,
+  "hasLevels": false,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 96
+}

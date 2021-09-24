@@ -1,0 +1,37 @@
+{
+  "id": "Wings",
+  "name": "Ailes de Corbeau",
+  "moneyCost": 1500,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 24,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "props": {
+    "duration": 4,
+    "prct": 0.4,
+    "effectCD": 0.25,
+    "count": 3,
+    "range": 8,
+    "dps": [
+      75
+    ],
+    "bump": -0.05
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 7
+  },
+  "gameplayDesc": "Vous fait flotter en l'air et inflige des dégâts aux ennemis en dessous.",
+  "ambiantDesc": "Croâââ !",
+  "tier1": "Tactic",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 39
+}

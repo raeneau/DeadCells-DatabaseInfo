@@ -1,0 +1,25 @@
+{
+  "id": "Recycling2",
+  "name": "Recyclage II",
+  "moneyCost": 0,
+  "cellCost": 120,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "reqItem": "Recycling1",
+    "revealedAtStart": true,
+    "prct": 0.15
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 7
+  },
+  "gameplayDesc": "Transforme en or les objets trouvés par terre ou dans des coffres. Rapporte d'avantage que la version précédente.",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 183
+}

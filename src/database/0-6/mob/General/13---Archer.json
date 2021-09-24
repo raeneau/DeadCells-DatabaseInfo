@@ -1,0 +1,151 @@
+{
+  "id": "Archer",
+  "props": {
+    "directHitStunChance": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "shoot",
+      "charge": 0.9,
+      "coolDown": 0.15,
+      "power": [
+        12
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": -1,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 26,
+      "manual": false,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav"
+    },
+    {
+      "id": "ark1",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 26,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true,
+        "count": 2
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav"
+    },
+    {
+      "id": "ark2",
+      "charge": 0.3,
+      "coolDown": 0,
+      "hitFrame": 26,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": -1,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "canTriggerThroughWall": true,
+        "count": 2
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxRelease": "sfx/bow_shot1.wav"
+    },
+    {
+      "id": "swap",
+      "charge": 0.5,
+      "coolDown": 3.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0.85,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_archer_tp1.wav"
+    },
+    {
+      "id": "dodge",
+      "charge": 0,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 1,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_archer_dodge1.wav"
+    }
+  ],
+  "index": 13,
+  "group": 0,
+  "weight": 15,
+  "life": [
+    60
+  ],
+  "shards": 0,
+  "genTags": 0,
+  "minPfSize": 6,
+  "name": "Archer mort-vivant",
+  "score": 3,
+  "maxPerRoom": 0,
+  "canBeElite": true,
+  "volteDelay": 0.5,
+  "flesh1": 13668753,
+  "flesh2": 4938373,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 58,
+    "y": 13
+  },
+  "blueprints": [
+    {
+      "item": "CloseCombatBow",
+      "rarity": "Uncommon"
+    },
+    {
+      "item": "FrostBow",
+      "rarity": "Rare"
+    },
+    {
+      "item": "InfiniteBow",
+      "rarity": "Legendary"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 13
+}

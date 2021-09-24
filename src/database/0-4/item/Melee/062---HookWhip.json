@@ -1,0 +1,30 @@
+{
+  "id": "HookWhip",
+  "name": "Fouet d'entrave",
+  "moneyCost": 1800,
+  "cellCost": 30,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 6
+  },
+  "gameplayDesc": "Ignore les boucliers. Attire les victimes.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 62
+}

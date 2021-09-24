@@ -1,0 +1,29 @@
+{
+  "id": "P_HealOnKill",
+  "name": "Nécromancie",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "minPerks": 0,
+    "prct": 0.002,
+    "scaledValueCap": 0.017,
+    "count": 3,
+    "power": 4,
+    "customScaling": 1.07
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 1,
+    "y": 9
+  },
+  "gameplayDesc": "Récupère ::+prct::% PV après la mort d'un ennemi. Réduit l'infection au Mal-être en tuant un Boss.",
+  "tier1": "Survival",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 267
+}

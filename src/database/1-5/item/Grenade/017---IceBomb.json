@@ -1,0 +1,47 @@
+{
+  "id": "IceBomb",
+  "name": "Bombe givrante",
+  "moneyCost": 1800,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 18,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "NegligibleDamage"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "coolDown": 0.6,
+    "power": [
+      35
+    ],
+    "range": 6,
+    "duration": 5
+  },
+  "group": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 13,
+    "y": 5
+  },
+  "gameplayDesc": "{Gèle@IC} les victimes.",
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "legendAffix": "StrongIce",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 17
+}

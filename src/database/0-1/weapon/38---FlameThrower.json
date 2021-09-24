@@ -1,0 +1,42 @@
+{
+  "item": "FlameThrower",
+  "airControlAlways": false,
+  "isACancel": false,
+  "allowCrouch": false,
+  "strikeChain": [
+    {
+      "charge": 0.26,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.25,
+      "breachBonus": -1,
+      "dynamicCharge": 1,
+      "props": {
+        "tick": 0.1,
+        "limit": 0.38
+      },
+      "animId": "atkFireballA",
+      "hitFrame": 7,
+      "canCrit": false,
+      "area": {
+        "shape": 1,
+        "width": 6.5,
+        "height": 2,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16711680,
+      "fxInnerColor": 16383897,
+      "fxOuterColor": 16734720,
+      "animSpd": 2,
+      "sfxCharge": "sfx/fire_spell1.wav",
+      "sfxRelease": "sfx/fire_spell2_loop.wav",
+      "power": [
+        10
+      ]
+    }
+  ],
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 38
+}

@@ -1,0 +1,131 @@
+{
+  "id": "BatDasher",
+  "props": {
+    "cannotBeShield": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "skill": [
+    {
+      "id": "charge",
+      "charge": 1,
+      "coolDown": 2.8,
+      "lockAiAfter": 0.5,
+      "radius": 7,
+      "breachResistance": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 10
+      },
+      "power": [
+        10
+      ],
+      "allowInAir": true,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_bat_charge.wav",
+      "sfxRelease": "sfx/enm_bat_release.wav"
+    },
+    {
+      "id": "multiCharge1",
+      "charge": 1,
+      "coolDown": 4.5,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 7,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 10
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_bat_charge.wav",
+      "sfxRelease": "sfx/enm_bat_release.wav"
+    },
+    {
+      "id": "multiCharge2",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 12
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_bat_charge.wav",
+      "sfxRelease": "sfx/enm_bat_release.wav"
+    },
+    {
+      "id": "multiCharge3",
+      "charge": 0.1,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0.9,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": true,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 14
+      },
+      "power": [
+        10
+      ],
+      "sfxCharge": "sfx/enm_bat_charge.wav",
+      "sfxRelease": "sfx/enm_bat_release.wav"
+    }
+  ],
+  "index": 21,
+  "group": 0,
+  "life": 1,
+  "weight": 0,
+  "genTags": 18,
+  "minPfSize": 0,
+  "name": "Chauve-souris",
+  "score": 1,
+  "maxPerRoom": 0,
+  "canBeElite": false,
+  "volteDelay": 0,
+  "flesh1": 11286327,
+  "pfCost": 0.3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 13
+  },
+  "blueprints": [
+    {
+      "item": "KnivesCircle",
+      "rarity": "Rare"
+    },
+    {
+      "item": "OilSword",
+      "rarity": "Uncommon"
+    }
+  ],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 21
+}

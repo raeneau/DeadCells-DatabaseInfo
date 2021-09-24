@@ -1,0 +1,108 @@
+{
+  "id": "PrisonCourtyard",
+  "biome": "PrisonCourtyard2",
+  "mobs": [
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {},
+      "packSize": [
+        1,
+        2
+      ]
+    },
+    {
+      "mob": "Grenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Runner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.1,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0,
+  "viewerY": 0.75,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Promenade des condamnés",
+  "doorColor": 65490,
+  "musicLoop": "music/Promenade.ogg",
+  "index": 1,
+  "zDoorColor": 15637011,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 6666220,
+  "chromaColor": 65490,
+  "tripleUps": 1,
+  "doubleUps": 2,
+  "baseMobTier": 3,
+  "props": {
+    "timedDoor": 2,
+    "timedBlueprint": "DashShield",
+    "timedScrolls": 1,
+    "wind": -2
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 1
+}

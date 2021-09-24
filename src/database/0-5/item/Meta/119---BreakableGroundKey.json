@@ -1,0 +1,26 @@
+{
+  "id": "BreakableGroundKey",
+  "name": "Rune du Bélier",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "props": {},
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 6
+  },
+  "gameplayDesc": "Cette RUNE PERMANENTE vous permet de casser certains sols.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 119
+}

@@ -1,0 +1,33 @@
+{
+  "id": "T_Observatory",
+  "biome": "Astrolab",
+  "worldDepth": 9,
+  "mobs": [],
+  "props": {
+    "viewerY": 1.5,
+    "musicLoop": "music/dc_colletor2.ogg",
+    "zDoorColor": 1173422
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 0,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "loreDescriptions": [],
+  "index": 49,
+  "group": 1,
+  "name": "Passage vers l'observatoire",
+  "transitionTo": "Observatory",
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 49
+}

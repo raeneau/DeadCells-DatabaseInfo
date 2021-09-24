@@ -1,0 +1,29 @@
+{
+  "id": "P_Food",
+  "name": "Gastronomie",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 30,
+    "prct": 2,
+    "dps": 50,
+    "effectCD": 0.33,
+    "ceilToolTipValues": true
+  },
+  "group": 12,
+  "gameplayDesc": "Manger de la nourriture offre +::+dps:: dégâts/sec pendant ::duration:: sec. L'efficacité de la guérison prodiguée augmente de ::prct::%.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 11
+  },
+  "tier1": "Survival",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 189
+}

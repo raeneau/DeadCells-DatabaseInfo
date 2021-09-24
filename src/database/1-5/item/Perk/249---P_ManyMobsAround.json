@@ -1,0 +1,26 @@
+{
+  "id": "P_ManyMobsAround",
+  "name": "Mélée",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 0.2,
+    "duration2": 1,
+    "scaledValueCap": 0.8
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 14
+  },
+  "gameplayDesc": "Taper un ennemi au corps à corps le ralenti pendant ::+duration:: sec. Il ne peut plus vous infliger de Mal-être pendant ::duration2:: sec.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 249
+}

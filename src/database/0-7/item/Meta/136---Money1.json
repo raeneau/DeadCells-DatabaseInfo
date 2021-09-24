@@ -1,0 +1,26 @@
+{
+  "id": "Money1",
+  "name": "Sauvetage de l'or I",
+  "moneyCost": 0,
+  "cellCost": 5,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "revealedAtStart": true,
+    "reqItem": "Flask1",
+    "power": 3000
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 7
+  },
+  "gameplayDesc": "Conserve jusqu'à ::power:: {iconCoin@img} à votre mort.",
+  "hasLevels": false,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 136
+}

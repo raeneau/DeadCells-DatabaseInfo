@@ -1,0 +1,24 @@
+{
+  "id": "P_Health",
+  "name": "Mort à l'intérieur",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.3
+  },
+  "group": 12,
+  "gameplayDesc": "Augmente vos points de vie de ::prct::%.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 6
+  },
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 204
+}

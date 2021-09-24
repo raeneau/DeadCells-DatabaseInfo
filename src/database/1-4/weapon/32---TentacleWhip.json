@@ -1,0 +1,80 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.3,
+      "coolDown": 0.3,
+      "lockCtrlAfter": 0.1,
+      "hitFrame": 8,
+      "area": {
+        "shape": 1,
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "canCrit": false,
+      "props": {
+        "limit": 3,
+        "speed": 4,
+        "range": 10,
+        "duration": 0.5
+      },
+      "animId": "AtkTentacleWhip",
+      "animSpd": 1.3,
+      "fxStartFrame": 9,
+      "glowColor": 2739096,
+      "power": [
+        45
+      ],
+      "sfxCharge": "sfx/weapon_tentacle_charge.wav",
+      "sfxRelease": "sfx/weapon_tentacle_release.wav",
+      "sfxHit": "sfx/weapon_tentacle_hit.wav",
+      "fxOffset": [
+        27,
+        -35
+      ]
+    },
+    {
+      "charge": 0.1,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "hitFrame": 0,
+      "area": {
+        "shape": 1,
+        "width": 3,
+        "height": 2,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "duration": 0.2,
+        "bump": 0.2
+      },
+      "power": [
+        65
+      ],
+      "critMul": 1,
+      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "glowColor": 2739096,
+      "animId": "PunchTentacleWhip",
+      "fxInnerColor": 16776626,
+      "fxOuterColor": 16751872,
+      "fxId": "fxAtkPunchA",
+      "fxStartFrame": 1
+    }
+  ],
+  "item": "TentacleWhip",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 32
+}

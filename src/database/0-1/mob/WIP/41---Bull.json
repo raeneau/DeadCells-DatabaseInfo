@@ -1,0 +1,56 @@
+{
+  "id": "Bull",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 8,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 1,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "charge",
+      "charge": 0.85,
+      "coolDown": 4,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 6
+      },
+      "power": [
+        15
+      ],
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false
+    }
+  ],
+  "genTags": 0,
+  "index": 41,
+  "group": 2,
+  "name": "Boeuf",
+  "glowInnerColor": 16711680,
+  "life": [
+    250
+  ],
+  "weight": 10,
+  "pfCost": 1,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 0
+  },
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 41
+}

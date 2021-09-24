@@ -1,0 +1,30 @@
+{
+  "id": "P_CorruptedHealing",
+  "name": "Soin corrompu",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "dps": 300,
+    "duration": 12,
+    "effectCD": 0.25,
+    "ceilToolTipValues": true,
+    "count": 12,
+    "frict": 0.96,
+    "limit": 4
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 11
+  },
+  "gameplayDesc": "Utiliser une potion de soin ajoute +::+dps:: DPS pendant ::duration:: sec. Si elle est vide, elle se re-rempli gratuitement après avoir tué ::*count:: ennemis \"Elites\".",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 252
+}

@@ -1,0 +1,65 @@
+{
+  "__columns": [
+    {
+      "typeStr": "14",
+      "name": "icon",
+      "display": null
+    },
+    {
+      "typeStr": "0",
+      "name": "id"
+    },
+    {
+      "typeStr": "1",
+      "name": "name",
+      "kind": "localizable"
+    },
+    {
+      "typeStr": "1",
+      "name": "gameplayDesc",
+      "kind": "localizable",
+      "opt": true
+    },
+    {
+      "typeStr": "1",
+      "name": "ambiantDesc",
+      "opt": true,
+      "kind": "localizable"
+    },
+    {
+      "typeStr": "3",
+      "name": "moneyCost"
+    },
+    {
+      "typeStr": "3",
+      "name": "cellCost",
+      "display": null
+    },
+    {
+      "typeStr": "2",
+      "name": "droppable"
+    },
+    {
+      "typeStr": "2",
+      "name": "hasTier",
+      "display": null
+    },
+    {
+      "typeStr": "2",
+      "name": "hasLevels"
+    },
+    {
+      "typeStr": "4",
+      "name": "castCD"
+    },
+    {
+      "typeStr": "8",
+      "name": "tags"
+    },
+    {
+      "typeStr": "17",
+      "name": "props"
+    }
+  ],
+  "__table_index": 1
+}

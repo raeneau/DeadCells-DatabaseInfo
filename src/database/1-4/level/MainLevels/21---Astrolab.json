@@ -1,0 +1,108 @@
+{
+  "id": "Astrolab",
+  "biome": "Astrolab",
+  "worldDepth": 9,
+  "mobs": [
+    {
+      "mob": "Librarian",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "DeathMage",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Stomper",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Defender",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Bomber",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {},
+      "packSize": [
+        1,
+        2
+      ]
+    },
+    {
+      "mob": "AggressiveZombie",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    }
+  ],
+  "props": {
+    "wind": 3,
+    "zDoorColor": 1173422,
+    "loadingColor": 1905728,
+    "loadingDescColor": 10388734,
+    "viewerColor": 4048802,
+    "viewerY": 1.5,
+    "doorColor": 2345373,
+    "musicIntro": "music/astrolab_intro.ogg",
+    "musicLoop": "music/astrolab_loop.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 7,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 2,
+  "mobDensity": 0.8,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0,
+  "flags": 66305,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "loreDescriptions": [
+    {
+      "text": "C'est ici que la plupart des expériences scientifiques pour trouver un remède... Ont échoués."
+    },
+    {
+      "text": "Certaines expériences sont toujours en liberté dans cette partie de l'île. C'est pourquoi le roi a ordonné la condamnation l'entrée principale."
+    },
+    {
+      "text": "L'expérience n°463 est horrible ! La n°464 va vous étonner !"
+    },
+    {
+      "text": "Aucun animal n'a été maltraité durant les recherches contre le Mal-être, promis."
+    }
+  ],
+  "index": 21,
+  "group": 0,
+  "name": "Astrolab",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 5
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 21
+}

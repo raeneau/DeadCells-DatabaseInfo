@@ -1,0 +1,31 @@
+{
+  "id": "T_AncientTemple",
+  "biome": "AncientTemple",
+  "mobs": [],
+  "cellBonus": 0,
+  "mobDensity": 0,
+  "eliteWanderChance": 0,
+  "eliteRoomChance": 0,
+  "flags": 3072,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 33,
+  "group": 1,
+  "transitionTo": "AncientTemple",
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "baseMobTier": 0,
+  "props": {
+    "viewerY": 1,
+    "musicLoop": "music/dc_colletor2.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 4,
+  "worldDepth": 3,
+  "loreDescriptions": [],
+  "name": "Passage vers  le Sanctuaire Endormi",
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 33
+}

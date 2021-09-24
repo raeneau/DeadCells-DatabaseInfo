@@ -1,0 +1,30 @@
+{
+  "id": "Shield",
+  "name": "Assommoir",
+  "castCD": 0,
+  "props": {},
+  "group": 6,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NegligibleDamage"
+    }
+  ],
+  "gameplayDesc": "Etourdit les ennemis bloqués. La durée de l'effet est accrue en cas de Parade réussie.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 16,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 1500,
+  "tier1": "Survival",
+  "hasLevels": true,
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 85
+}

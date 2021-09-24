@@ -1,0 +1,29 @@
+{
+  "id": "EvilSword",
+  "name": "Epée maudite",
+  "droppable": true,
+  "castCD": 0,
+  "props": {},
+  "group": 4,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "gameplayDesc": "Vous tue immédiatement si vous subissez le moindre dégât.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 2,
+    "y": 3
+  },
+  "cellCost": 50,
+  "moneyCost": 2500,
+  "ambiantDesc": "Alors comme ça, vous voulez la jouer difficile ?",
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "legendAffix": "RunSpeedOnKill",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 61
+}

@@ -1,0 +1,92 @@
+{
+  "id": "S_Castle",
+  "biome": "Castle",
+  "worldDepth": 0,
+  "mobs": [
+    {
+      "mob": "CastleKnight",
+      "quantityFactor": 1.5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Lancer",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Hooker",
+      "singleRoom": false,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "props": {
+    "numHallway": 3,
+    "viewerY": 1,
+    "viewerColor": 16768303,
+    "doorColor": 16760576,
+    "zDoorColor": 16050375,
+    "chromaColor": 16760576,
+    "musicIntro": "music/castle_intro.ogg",
+    "musicLoop": "music/castle_loop.ogg",
+    "loadingColor": 2821936,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "cellBonus": 0,
+  "tripleUps": 4,
+  "doubleUps": 0,
+  "mobDensity": 1.1,
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0.2,
+  "flags": 1,
+  "lootFlags": 24,
+  "specificLoots": [
+    {
+      "minDistToSpawn": 1,
+      "kind": 4,
+      "maxDistToSpawn": 2
+    },
+    {
+      "minDistToSpawn": 3,
+      "kind": 4,
+      "maxDistToSpawn": 6
+    },
+    {
+      "minDistToSpawn": 1,
+      "kind": 1,
+      "maxDistToSpawn": 3
+    }
+  ],
+  "goldBonus": 0.5,
+  "loreDescriptions": [],
+  "index": 69,
+  "group": 4,
+  "name": "Château de Haute-Cime",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 10,
+    "y": 7
+  },
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Scoring",
+  "__original_Index": 69
+}

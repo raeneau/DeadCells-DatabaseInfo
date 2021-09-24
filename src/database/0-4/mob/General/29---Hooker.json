@@ -1,0 +1,111 @@
+{
+  "id": "Hooker",
+  "score": 6,
+  "canBeElite": true,
+  "minPfSize": 6,
+  "pfCost": 1,
+  "maxPerRoom": 3,
+  "props": {
+    "moveSpeedMul": 0.7,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "kick",
+      "charge": 0.45,
+      "coolDown": 1.1,
+      "hitFrame": 3,
+      "lockAiAfter": 0.7,
+      "radius": 1.7,
+      "breachResistance": 0.7,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 1.7,
+        "duration": 0.2
+      },
+      "power": [
+        4
+      ],
+      "sfxCharge": "sfx/enm_hook_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "hook",
+      "charge": 0.55,
+      "coolDown": 1.3,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0.6,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 0.92,
+        "distance": 12
+      },
+      "sfxCharge": "sfx/enm_charge.wav",
+      "sfxRelease": "sfx/enm_comboter_release.wav",
+      "power": 1
+    },
+    {
+      "id": "heavy",
+      "charge": 0.6,
+      "coolDown": 0,
+      "hitFrame": 3,
+      "lockAiAfter": 1,
+      "radius": 1.7,
+      "breachResistance": 0.85,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": [
+        25
+      ],
+      "sfxCharge": "sfx/enm_hook_heavycharge.wav",
+      "sfxRelease": "sfx/enm_hook_release.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [
+    {
+      "item": "Hook",
+      "rarity": "Rare"
+    },
+    {
+      "rarity": "Rare",
+      "item": "BumpShield"
+    }
+  ],
+  "index": 29,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 14,
+    "y": 1
+  },
+  "name": "Attrapeur",
+  "glowInnerColor": 8239871,
+  "glowOuterColor": 4065964,
+  "flesh1": 13418155,
+  "flesh2": 9985867,
+  "life": [
+    220
+  ],
+  "volteDelay": 0.3,
+  "weight": 10,
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 29
+}

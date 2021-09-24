@@ -1,0 +1,39 @@
+{
+  "id": "LeechBuffEmpty",
+  "name": "Vampirisme (vide)",
+  "moneyCost": 1500,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "NoUse"
+    },
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    },
+    {
+      "tag": "Depleted"
+    }
+  ],
+  "props": {
+    "item": "LeechBuff"
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 8
+  },
+  "gameplayDesc": "Se régénère lorsque vous quittez le niveau.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 28
+}

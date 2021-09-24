@@ -1,0 +1,36 @@
+{
+  "id": "Sanctuary",
+  "name": "Sanctuaire",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 3,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "TransformOnUse"
+    }
+  ],
+  "props": {
+    "distance": 8,
+    "tick": 0.06,
+    "bump": 0.2,
+    "duration": 15,
+    "item": "SanctuaryEmpty",
+    "speed": 0.25
+  },
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 57,
+    "y": 11
+  },
+  "gameplayDesc": "TODO",
+  "tier1": "Tactic",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 9
+}

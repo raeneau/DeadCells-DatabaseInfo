@@ -1,0 +1,45 @@
+{
+  "id": "BoatDock",
+  "biome": "BridgeBoatDock",
+  "mobs": [],
+  "mobDensity": 1,
+  "eliteWanderChance": 0.75,
+  "eliteRoomChance": 0,
+  "flags": 5,
+  "lootFlags": 27,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Embarcadère",
+  "index": 24,
+  "cellBonus": 0,
+  "tripleUps": 0,
+  "doubleUps": 0,
+  "props": {
+    "viewerY": 1,
+    "viewerColor": 12100258,
+    "doorColor": 3261834,
+    "chromaColor": 65433,
+    "musicLoop": "music/end_placeholder.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 9,
+  "loreDescriptions": [
+    {
+      "text": "Aussi connu sous le nom de Ponton de l'Accès Anticipé, cet embarcadère est le lieu où échouèrent tous les derniers survivants de l'île. Avant de mourir."
+    },
+    {
+      "text": "Beaucoup attendirent ici un bâteau qui jamais n'arriva."
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 3
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 24
+}

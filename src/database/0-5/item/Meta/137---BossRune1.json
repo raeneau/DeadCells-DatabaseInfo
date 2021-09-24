@@ -1,0 +1,26 @@
+{
+  "id": "BossRune1",
+  "name": "Cellule Souche de Boss",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "BossRune"
+    }
+  ],
+  "props": {},
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 24,
+    "y": 1
+  },
+  "gameplayDesc": "Cellule Souche de l'Assassin",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 137
+}

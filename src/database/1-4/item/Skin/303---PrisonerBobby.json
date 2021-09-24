@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerBobby",
+  "name": "Tenue de Bobby",
+  "moneyCost": 0,
+  "cellCost": 150,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 17
+  },
+  "gameplayDesc": "La tenue du prisonnier Bobby.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 303
+}

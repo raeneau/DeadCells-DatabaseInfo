@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Cette rune {permanente@PE} permet de débloquer le Mode Personnalisé du jeu.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "CustomKey",
+  "icon": {
+    "x": 22,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Rune de personnalisation",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 192
+}

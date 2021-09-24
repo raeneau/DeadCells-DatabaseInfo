@@ -1,0 +1,105 @@
+{
+  "__columns": [
+    {
+      "typeStr": "14",
+      "name": "icon",
+      "display": null
+    },
+    {
+      "typeStr": "0",
+      "name": "id"
+    },
+    {
+      "typeStr": "1",
+      "name": "name",
+      "kind": "localizable",
+      "opt": true
+    },
+    {
+      "typeStr": "11",
+      "name": "glowInnerColor",
+      "opt": true
+    },
+    {
+      "typeStr": "11",
+      "name": "glowOuterColor",
+      "opt": true,
+      "display": null
+    },
+    {
+      "typeStr": "11",
+      "name": "flesh1",
+      "opt": true
+    },
+    {
+      "typeStr": "11",
+      "name": "flesh2",
+      "opt": true
+    },
+    {
+      "typeStr": "16",
+      "name": "life",
+      "opt": true
+    },
+    {
+      "typeStr": "3",
+      "name": "score"
+    },
+    {
+      "typeStr": "16",
+      "name": "cells",
+      "opt": true
+    },
+    {
+      "typeStr": "4",
+      "name": "cellChance",
+      "opt": true,
+      "display": 1
+    },
+    {
+      "typeStr": "4",
+      "name": "volteDelay",
+      "opt": true
+    },
+    {
+      "typeStr": "2",
+      "name": "canBeElite",
+      "display": null
+    },
+    {
+      "typeStr": "3",
+      "name": "minPfSize"
+    },
+    {
+      "typeStr": "4",
+      "name": "pfCost"
+    },
+    {
+      "typeStr": "3",
+      "name": "maxPerRoom",
+      "display": null
+    },
+    {
+      "typeStr": "4",
+      "name": "weight",
+      "opt": true
+    },
+    {
+      "typeStr": "17",
+      "name": "props"
+    },
+    {
+      "typeStr": "8",
+      "name": "skill"
+    },
+    {
+      "typeStr": "10:SmallPlatforms,Flying,MiniBoss,Protector,StartOnCeiling",
+      "name": "genTags"
+    },
+    {
+      "typeStr": "8",
+      "name": "blueprints"
+    }
+  ],
+  "__table_index": 2
+}

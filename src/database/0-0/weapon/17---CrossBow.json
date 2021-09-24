@@ -1,0 +1,36 @@
+{
+  "item": "CrossBow",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.57,
+      "coolDown": 0.5,
+      "lockCtrlAfter": 0.5,
+      "power": [
+        300
+      ],
+      "dynamicCharge": 0,
+      "breachBonus": 0.5,
+      "props": {},
+      "hitFrame": 0,
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 16749056,
+      "fxInnerColor": 16749056,
+      "fxOuterColor": 16749056,
+      "sfxCharge": "sfx/crossbow_charge1.wav",
+      "sfxRelease": "sfx/crossbow_shot1.wav"
+    }
+  ],
+  "allowCrouch": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 17
+}

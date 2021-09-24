@@ -1,0 +1,26 @@
+{
+  "id": "P_ScaledHealth",
+  "name": "Endurance guerrière",
+  "moneyCost": 0,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "prct": 0.02,
+    "scaledValueCap": 0.25,
+    "limit": 1.2
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 4,
+    "y": 9
+  },
+  "gameplayDesc": "Augmente votre santé de +::+prct::%. Vous ne pouvez subir de Mal-être qu'une fois toutes les ::limit:: sec.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 253
+}

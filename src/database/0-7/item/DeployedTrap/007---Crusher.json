@@ -1,0 +1,44 @@
+{
+  "id": "Crusher",
+  "name": "Ecraseur",
+  "castCD": 14,
+  "props": {
+    "power": [
+      200
+    ],
+    "effectCharge": 1.1,
+    "effectCD": 0.8,
+    "range": 3,
+    "uses": 3
+  },
+  "group": 0,
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    }
+  ],
+  "gameplayDesc": "Ecrase violemment les ennemis pris dans sa zone d'effet.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 0
+  },
+  "cellCost": 30,
+  "moneyCost": 1750,
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "hasLevels": true,
+  "legendaryName": "Justice divine",
+  "legendAffix": "AmmoRetrieval",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 7
+}

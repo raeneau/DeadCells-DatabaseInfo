@@ -1,0 +1,106 @@
+{
+  "id": "StiltVillage",
+  "biome": "StiltVillage",
+  "mobs": [
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "PirateChief",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "maxCombatRoomsBefore": 4
+    },
+    {
+      "mob": "AxeThrower",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 4,
+      "props": {}
+    },
+    {
+      "mob": "Shocker",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "S_WallEggWorm",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 4,
+      "props": {
+        "inEgg": true
+      },
+      "packSize": [
+        2,
+        3
+      ]
+    },
+    {
+      "mob": "Worm",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 4,
+      "props": {}
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 4,
+      "props": {
+        "inEgg": true
+      }
+    },
+    {
+      "mob": "WormZombie",
+      "quantityFactor": 10,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "maxCombatRoomsBefore": 4
+    }
+  ],
+  "mobDensity": 1,
+  "viewerY": -1,
+  "flags": 261,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Gué des Brumes",
+  "musicLoop": "music/Village.ogg",
+  "eliteWanderChance": 0.75,
+  "eliteRoomChance": 0,
+  "doorColor": 3261834,
+  "index": 10,
+  "lootLevel": 5,
+  "zDoorColor": 16772451,
+  "viewerOffX": 0,
+  "cellBonus": 0,
+  "viewerColor": 3261821,
+  "chromaColor": 65366,
+  "tripleUps": 2,
+  "doubleUps": 1,
+  "extraMobTier": 2,
+  "baseMobTier": 7,
+  "props": {
+    "timedDoor": 15,
+    "timedScrolls": 1
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 10
+}

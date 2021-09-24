@@ -1,0 +1,36 @@
+{
+  "id": "BumpShield",
+  "name": "Bouclier de dégagement",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "NegligibleDamage"
+    }
+  ],
+  "props": {
+    "power2": [
+      25
+    ]
+  },
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 1
+  },
+  "gameplayDesc": "Les attaques bloquées repoussent les ennemis. Effet doublé si {parade@PA} réussie.",
+  "tier1": "Survival",
+  "hasLevels": true,
+  "legendAffix": "AmmoRetrieval",
+  "legendaryName": "Déni",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 96
+}

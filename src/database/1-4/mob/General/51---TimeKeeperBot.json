@@ -1,0 +1,83 @@
+{
+  "id": "TimeKeeperBot",
+  "score": 2,
+  "canBeElite": false,
+  "minPfSize": 8,
+  "pfCost": 2,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 1,
+  "props": {
+    "delay": 0
+  },
+  "skill": [
+    {
+      "id": "dash",
+      "charge": 0.9,
+      "coolDown": 0,
+      "hitFrame": 20,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 1,
+      "disableAnnounceFx": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 15,
+        "speed": 5
+      },
+      "power": [
+        11
+      ],
+      "sfxCharge": "sfx/enm_timebot_charge.wav",
+      "sfxRelease": "sfx/enm_timebot_release.wav",
+      "sfxHit": "sfx/active_slash_hit.wav"
+    },
+    {
+      "id": "smokeBomb",
+      "charge": 0.8,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 30,
+      "breachResistance": -1,
+      "disableAnnounceFx": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxRelease": "sfx/enm_timebot_smoke.wav"
+    }
+  ],
+  "genTags": 32,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "minDifficulty": 0,
+      "item": "P_InvisibilityOnKill"
+    }
+  ],
+  "metaItems": [],
+  "index": 51,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 39,
+    "y": 14
+  },
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 16587804,
+  "flesh1": 14803425,
+  "flesh2": 6908265,
+  "name": "Gardienne Mécanique",
+  "life": [
+    80
+  ],
+  "weight": 5,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 51
+}

@@ -1,0 +1,276 @@
+{
+  "id": "TimeKeeper",
+  "score": 100,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 0.9,
+    "climbEndDist": 4,
+    "movePauseMul": 0,
+    "moveSpeedMul": 5,
+    "cellLoot": 20,
+    "noContactAttack": true,
+    "combatMusic": "music/assassin.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ]
+  },
+  "skill": [
+    {
+      "id": "front",
+      "charge": 0.5,
+      "coolDown": 1,
+      "hitFrame": 14,
+      "lockAiAfter": 0.5,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 0.75,
+        "tick": 0.2,
+        "duration": 1
+      },
+      "power": [
+        8
+      ],
+      "sfxCharge": "sfx/enm_berserk_frontcharge.wav",
+      "sfxRelease": "sfx/enm_berserk_release1.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "dash",
+      "charge": 0.6,
+      "coolDown": 5,
+      "hitFrame": 20,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 14,
+        "speed": 2.5
+      },
+      "power": [
+        11
+      ],
+      "sfxCharge": "sfx/enm_berserk_charge3.wav",
+      "sfxRelease": "sfx/enm_berserk_release2.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "hook",
+      "charge": 0.5,
+      "coolDown": 6,
+      "hitFrame": 10,
+      "lockAiAfter": 0,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 12,
+        "stunTime": 0.5
+      },
+      "sfxRelease": "sfx/enm_berserk_hookshot.wav",
+      "sfxCharge": "sfx/enm_berserk_hookcharge.wav",
+      "power": 0.1,
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "swordRain",
+      "charge": 1,
+      "coolDown": 3,
+      "hitFrame": 24,
+      "lockAiAfter": 0.5,
+      "radius": 2,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {
+        "duration": 0.75
+      },
+      "power": [
+        5
+      ],
+      "sfxRelease": "sfx/enm_berserk_swordpop.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "levelUpRadius",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 24,
+      "lockAiAfter": 0,
+      "radius": 3,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        3
+      ],
+      "sfxCharge": "sfx/enm_berserk_lvlup.wav",
+      "sfxRelease": "sfx/enm_berserk_lvlupshot.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "shuriken",
+      "charge": 0.4,
+      "coolDown": 2,
+      "hitFrame": 10,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": [
+        3
+      ],
+      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "smokeBomb",
+      "charge": 0.25,
+      "coolDown": 2,
+      "hitFrame": 0,
+      "lockAiAfter": 0.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stayDuration": 1
+      },
+      "sfxRelease": "sfx/active_grenade_flash.wav",
+      "disableAnnounceFx": false
+    },
+    {
+      "id": "bigFront",
+      "charge": 1,
+      "coolDown": 0,
+      "hitFrame": 14,
+      "lockAiAfter": 1.5,
+      "radius": 0,
+      "breachResistance": 1,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "stunTime": 1
+      },
+      "power": [
+        15
+      ],
+      "sfxCharge": "sfx/enm_berserk_rootcharge.wav",
+      "sfxRelease": "sfx/weapon_broadsword_release3.wav",
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 4,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "Dash"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 0,
+      "item": "AssassinDefault"
+    },
+    {
+      "rarity": "Always",
+      "item": "ThrowingIce",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "FrostCrossBow",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_SpeedBuff",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_CorruptedHealing",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_DmgRevenge",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "P_QuickHeal",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 1,
+      "item": "Assassin1"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 2,
+      "item": "Assassin2"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 3,
+      "item": "Assassin3"
+    },
+    {
+      "rarity": "Always",
+      "minDifficulty": 4,
+      "item": "Assassin4"
+    }
+  ],
+  "index": 59,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 65,
+    "y": 28
+  },
+  "name": "La Gardienne du Temps",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 16587804,
+  "flesh2": 6908265,
+  "life": [
+    2500
+  ],
+  "weight": 50,
+  "flesh1": 14803425,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 59
+}

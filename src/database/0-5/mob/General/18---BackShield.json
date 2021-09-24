@@ -1,0 +1,70 @@
+{
+  "id": "BackShield",
+  "score": 2,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 1.2,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 2.5
+  },
+  "skill": [
+    {
+      "id": "cc1",
+      "charge": 0.4,
+      "coolDown": 0.2,
+      "hitFrame": 1,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "power": 1
+    },
+    {
+      "id": "cc2",
+      "charge": 0.4,
+      "coolDown": 0,
+      "hitFrame": 1,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "power": 1
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 18,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 46,
+    "y": 71
+  },
+  "name": "TODO",
+  "glowInnerColor": 16646038,
+  "glowOuterColor": 16723200,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "life": [
+    140
+  ],
+  "volteDelay": 0.7,
+  "weight": 20,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 18
+}

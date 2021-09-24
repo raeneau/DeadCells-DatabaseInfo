@@ -1,0 +1,95 @@
+{
+  "id": "GoldEater",
+  "score": 0,
+  "canBeElite": true,
+  "minPfSize": 8,
+  "pfCost": 0.5,
+  "maxPerRoom": 0,
+  "props": {
+    "moveSpeedMul": 3,
+    "movePauseMul": 0
+  },
+  "skill": [
+    {
+      "id": "jump",
+      "charge": 0.7,
+      "coolDown": 3,
+      "power": [
+        10
+      ],
+      "radius": 0,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 8
+      },
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 0,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_zmb_jump.wav",
+      "sfxRelease": "sfx/enm_zmb_release2.wav"
+    },
+    {
+      "id": "teleport",
+      "charge": 0.2,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.1,
+      "radius": 9,
+      "breachResistance": 0.5,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {},
+      "sfxCharge": "sfx/enm_tp_charge.wav",
+      "sfxRelease": "sfx/enm_tp.wav"
+    },
+    {
+      "id": "eating",
+      "charge": 1.5,
+      "coolDown": 0,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": false,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "props": {},
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    }
+  ],
+  "genTags": 0,
+  "index": 60,
+  "group": 2,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 49,
+    "y": 15
+  },
+  "name": "MangeMonOr",
+  "glowInnerColor": 16580375,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "life": [
+    200
+  ],
+  "volteDelay": 0.25,
+  "weight": 10,
+  "blueprints": [],
+  "maxPerPlatform": 0,
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 60
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AdminWeapon",
+  "name": "ADMIN WEAPON",
+  "moneyCost": 100000,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "index": 29,
+  "group": 4,
+  "gameplayDesc": "SHOULD NEVER DROP",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 4
+  },
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 29
+}

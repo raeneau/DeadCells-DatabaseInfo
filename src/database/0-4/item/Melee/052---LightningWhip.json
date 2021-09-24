@@ -1,0 +1,36 @@
+{
+  "id": "LightningWhip",
+  "name": "Fouet électrique",
+  "moneyCost": 1750,
+  "cellCost": 0,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Electric"
+    },
+    {
+      "tag": "UtilityWeapon"
+    }
+  ],
+  "props": {},
+  "group": 4,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 3,
+    "y": 5
+  },
+  "gameplayDesc": "Vise automatiquement les enemis proches.",
+  "tier1": "Brutality",
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 52
+}

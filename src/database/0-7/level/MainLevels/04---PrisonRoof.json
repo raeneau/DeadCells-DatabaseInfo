@@ -1,0 +1,127 @@
+{
+  "biome": "PrisonRoof",
+  "name": "Toits de la Prison",
+  "id": "PrisonRoof",
+  "mobs": [
+    {
+      "mob": "Comboter",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {},
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    },
+    {
+      "mob": "Fly",
+      "singleRoom": true,
+      "packSize": [
+        2,
+        4
+      ],
+      "quantityFactor": 0,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Fly",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Mage360",
+      "singleRoom": false,
+      "quantityFactor": 3.5,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "singleRoom": false,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Shield",
+      "singleRoom": false,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Zombie",
+      "singleRoom": false,
+      "quantityFactor": 7,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    }
+  ],
+  "flags": 1,
+  "mobDensity": 1,
+  "group": 0,
+  "lootFlags": 0,
+  "goldBonus": 0.75,
+  "specificLoots": [],
+  "eliteWanderChance": 0.6,
+  "eliteRoomChance": 0,
+  "index": 4,
+  "cellBonus": 0,
+  "tripleUps": 2,
+  "doubleUps": 2,
+  "extraMobTier": 2,
+  "baseMobTier": 6,
+  "props": {
+    "timedDoor": 8,
+    "timedGoldMul": 1.25,
+    "timedScrolls": 1,
+    "wind": 3,
+    "viewerY": 0.75,
+    "viewerColor": 16756527,
+    "doorColor": 16760576,
+    "chromaColor": 16751872,
+    "loadingColor": 2231830,
+    "loadingDescColor": 12875365,
+    "musicIntro": "music/music4_intro.ogg",
+    "musicLoop": "music/music4_loop.ogg"
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 3,
+  "worldDepth": 2,
+  "loreDescriptions": [
+    {
+      "text": "Pour varier les plaisirs, les gardiens balançaient parfois les condamnés à mort des Toits. Franchement, y a rien de pire que les hurlements d'un gars qui sait qu'on va l'pousser."
+    },
+    {
+      "text": "Les gardiens ont commencé à se percher sur les Toits dès les premiers signes du Mal-être... Sans grand succès."
+    },
+    {
+      "text": "Un jour, y en a un qui a tenté de se faire la malle par les Toits... Il est mort d'épuisement pendant l'ascension, alors les gardiens ont laissé son cadavre sur le mur, pour qu'on pige le message."
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 4
+}

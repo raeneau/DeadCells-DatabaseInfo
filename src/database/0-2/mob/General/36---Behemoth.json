@@ -1,0 +1,133 @@
+{
+  "id": "Behemoth",
+  "score": 1000,
+  "canBeElite": false,
+  "minPfSize": 0,
+  "pfCost": 1,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "bumpResistance": 0.5,
+    "climbEndDist": 4,
+    "movePauseMul": 0.5,
+    "cellLoot": 12
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.5,
+      "coolDown": 1,
+      "props": {},
+      "radius": 2,
+      "power": [
+        20
+      ],
+      "lockAiAfter": 0,
+      "allowSameSkillNearby": true,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_cc_charge.wav",
+      "sfxRelease": "sfx/enm_behemoth_cc_release.wav"
+    },
+    {
+      "id": "shockWave",
+      "charge": 0.6,
+      "coolDown": 3.5,
+      "props": {
+        "distance": 99
+      },
+      "power": [
+        10
+      ],
+      "lockAiAfter": 0,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "breachResistance": 10,
+      "allowInAir": false,
+      "disableAnnounce": false,
+      "hitFrame": 3,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_shockw_charge.wav",
+      "sfxRelease": "sfx/enm_behemoth_shockw_release.wav"
+    },
+    {
+      "id": "jump",
+      "charge": 0.5,
+      "coolDown": 3,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "x": 0.55,
+        "y": 0.3,
+        "distance": 10
+      },
+      "power": [
+        15
+      ],
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_behemoth_cc_charge.wav"
+    },
+    {
+      "id": "blazeArmor",
+      "charge": 1,
+      "coolDown": 10,
+      "lockAiAfter": 0,
+      "radius": 0,
+      "breachResistance": 10,
+      "disableAnnounce": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 3,
+        "duration": 3
+      },
+      "hitFrame": 6,
+      "manual": false,
+      "sfxCharge": "sfx/enm_shoker_charge.wav",
+      "sfxRelease": "sfx/enm_behemoth_shout.wav"
+    }
+  ],
+  "genTags": 4,
+  "blueprints": [
+    {
+      "item": "CrossBow",
+      "rarity": "Always"
+    },
+    {
+      "rarity": "Always",
+      "item": "ImpaleSpear"
+    }
+  ],
+  "index": 36,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 23
+  },
+  "name": "The Incomplete one",
+  "glowInnerColor": 16754944,
+  "glowOuterColor": 13243412,
+  "flesh1": 9418700,
+  "flesh2": 16754944,
+  "life": [
+    4000
+  ],
+  "weight": 200,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 36
+}

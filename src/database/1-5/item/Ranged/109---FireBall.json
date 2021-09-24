@@ -1,0 +1,36 @@
+{
+  "id": "FireBall",
+  "name": "Pyrotechnie",
+  "moneyCost": 1750,
+  "cellCost": 60,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "RapidFire"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {},
+  "group": 5,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 5,
+    "y": 2
+  },
+  "gameplayDesc": "Lance plusieurs projectiles enflammés. Inflige des {coups critiques@CC} sur une cible couverte {d'huile@FI}.",
+  "tier1": "Tactic",
+  "legendAffix": "FireDamage",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 109
+}

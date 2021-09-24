@@ -1,0 +1,37 @@
+{
+  "id": "FireBall",
+  "name": "NOT IMPLEMENTED",
+  "droppable": false,
+  "castCD": 0,
+  "props": {
+    "dps": 15,
+    "duration": 2
+  },
+  "group": 4,
+  "hasTier": false,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "gameplayDesc": "NOT IMPLEMENTED",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 20,
+    "y": 1
+  },
+  "cellCost": 0,
+  "moneyCost": 0,
+  "index": 47,
+  "hasLevels": false,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 47
+}

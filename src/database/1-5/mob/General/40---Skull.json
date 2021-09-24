@@ -1,0 +1,66 @@
+{
+  "id": "Skull",
+  "score": 3,
+  "canBeElite": false,
+  "minPfSize": 3,
+  "pfCost": 1.7,
+  "maxPerRoom": 2,
+  "maxPerPlatform": 0,
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.55,
+    "maxSpeed": 0.04,
+    "minSpeed": 0.03,
+    "duration": 5,
+    "isTrashMob": true,
+    "cannotBeShield": true
+  },
+  "skill": [
+    {
+      "id": "wall",
+      "charge": 0,
+      "coolDown": 0.1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.6,
+      "radius": 0,
+      "breachResistance": 0,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "bump": 0.55,
+        "stunTime": 0.2,
+        "distance": 9,
+        "triggerDelay": 0.7
+      },
+      "power": [
+        5
+      ],
+      "disableAnnounceFx": false
+    }
+  ],
+  "genTags": 33,
+  "blueprints": [],
+  "metaItems": [],
+  "index": 40,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 55,
+    "y": 7
+  },
+  "name": "Crâne hurleur",
+  "glowInnerColor": 7819992,
+  "flesh1": 15659003,
+  "flesh2": 15147554,
+  "life": [
+    100
+  ],
+  "volteDelay": 0,
+  "weight": 15,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 40
+}

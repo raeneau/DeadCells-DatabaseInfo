@@ -1,0 +1,130 @@
+{
+  "__columns": [
+    {
+      "typeStr": "0",
+      "name": "id"
+    },
+    {
+      "typeStr": "1",
+      "name": "name",
+      "opt": true,
+      "kind": "localizable"
+    },
+    {
+      "typeStr": "6:biome",
+      "name": "biome"
+    },
+    {
+      "typeStr": "6:level",
+      "name": "transitionTo",
+      "opt": true,
+      "display": null
+    },
+    {
+      "typeStr": "11",
+      "name": "viewerColor"
+    },
+    {
+      "typeStr": "4",
+      "name": "viewerOffX"
+    },
+    {
+      "typeStr": "4",
+      "name": "viewerY"
+    },
+    {
+      "typeStr": "8",
+      "name": "mobs",
+      "display": null
+    },
+    {
+      "typeStr": "3",
+      "name": "baseMobTier"
+    },
+    {
+      "typeStr": "3",
+      "name": "extraMobTier",
+      "opt": true
+    },
+    {
+      "typeStr": "17",
+      "name": "props"
+    },
+    {
+      "typeStr": "3",
+      "name": "lootLevel"
+    },
+    {
+      "typeStr": "4",
+      "name": "cellBonus",
+      "display": 1
+    },
+    {
+      "typeStr": "3",
+      "name": "tripleUps"
+    },
+    {
+      "typeStr": "3",
+      "name": "doubleUps"
+    },
+    {
+      "typeStr": "4",
+      "name": "mobDensity",
+      "display": 1
+    },
+    {
+      "typeStr": "4",
+      "name": "eliteWanderChance",
+      "display": 1
+    },
+    {
+      "typeStr": "4",
+      "name": "eliteRoomChance",
+      "display": 1
+    },
+    {
+      "typeStr": "10:Outside,OverrideNumbMobMax,HasReflect,PoisonWater,LowCamera,NoCritter,HasDarkness,StartEmpty,DisableCollExt",
+      "name": "flags"
+    },
+    {
+      "typeStr": "10:NoLoot,NoExtraHeal,EnoughGoldInLevel,NoMobCell,NoGold",
+      "name": "lootFlags"
+    },
+    {
+      "typeStr": "8",
+      "name": "specificLoots"
+    },
+    {
+      "typeStr": "4",
+      "name": "goldBonus",
+      "display": 1
+    },
+    {
+      "typeStr": "13",
+      "name": "musicIntro",
+      "opt": true
+    },
+    {
+      "typeStr": "13",
+      "name": "musicLoop",
+      "opt": true,
+      "display": null
+    },
+    {
+      "typeStr": "11",
+      "name": "doorColor",
+      "opt": true,
+      "display": null
+    },
+    {
+      "typeStr": "11",
+      "name": "zDoorColor",
+      "opt": true
+    },
+    {
+      "typeStr": "11",
+      "name": "chromaColor"
+    }
+  ],
+  "__table_index": 10
+}

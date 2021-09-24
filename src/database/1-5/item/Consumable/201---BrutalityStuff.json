@@ -1,0 +1,24 @@
+{
+  "id": "BrutalityStuff",
+  "name": "Brutalité",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 9,
+    "y": 2
+  },
+  "gameplayDesc": "Polyvalent fighter, able to burn everything from afar before going in and finishing what's left with its mighty... pan.",
+  "tier1": "Brutality",
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 201
+}

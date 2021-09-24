@@ -1,0 +1,26 @@
+{
+  "id": "LowHealth",
+  "name": "Charognarde",
+  "droppable": true,
+  "castCD": 0,
+  "props": {
+    "prct": 0.5
+  },
+  "group": 4,
+  "tags": [],
+  "ambiantDesc": "L'arme de choix des combattants qui aiment vivre dangereusement. ",
+  "gameplayDesc": "Inflige un COUP CRITIQUE lorsque vous avez moins de ::prct::% de vie.",
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 4
+  },
+  "cellCost": 25,
+  "moneyCost": 1500,
+  "index": 75,
+  "hasLevels": true,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Weapon",
+  "__original_Index": 75
+}

@@ -1,0 +1,118 @@
+{
+  "id": "S_WallEggWorm",
+  "score": 0,
+  "canBeElite": false,
+  "minPfSize": 5,
+  "pfCost": 0.25,
+  "maxPerRoom": 0,
+  "maxPerPlatform": 0,
+  "props": {
+    "climbEndDist": 1,
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.6,
+    "directHitStunChance": 0.8
+  },
+  "skill": [
+    {
+      "id": "cc",
+      "charge": 0.22,
+      "coolDown": 0.4,
+      "lockAiAfter": 0.2,
+      "radius": 1.1,
+      "breachResistance": -1,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "duration": 2,
+        "dps": 4
+      },
+      "power": [
+        5
+      ],
+      "disableAnnounce": false,
+      "hitFrame": 0,
+      "manual": false,
+      "sfxCharge": "sfx/enm_smallworm_charge.wav",
+      "sfxRelease": "sfx/enm_zmb_release1.wav"
+    },
+    {
+      "id": "jump",
+      "charge": 0.3,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0.3,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 5
+      },
+      "sfxRelease": "sfx/enm_smallworm_jump.wav"
+    },
+    {
+      "id": "jumpAbove",
+      "charge": 0.1,
+      "coolDown": 3,
+      "hitFrame": 0,
+      "lockAiAfter": 0.2,
+      "radius": 0,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": false,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": false,
+      "props": {
+        "distance": 5
+      },
+      "sfxRelease": "sfx/enm_smallworm_jumpatk.wav"
+    },
+    {
+      "id": "teleport",
+      "charge": 0.5,
+      "coolDown": 1,
+      "hitFrame": 0,
+      "lockAiAfter": 0,
+      "radius": 9,
+      "breachResistance": 0,
+      "disableAnnounce": true,
+      "manual": true,
+      "allowInAir": false,
+      "allowSameSkillNearby": false,
+      "ignoreGlobalCD": true,
+      "props": {
+        "stunTime": 0.6
+      },
+      "sfxRelease": "sfx/enm_tp.wav"
+    }
+  ],
+  "genTags": 0,
+  "blueprints": [],
+  "index": 6,
+  "group": 0,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 40,
+    "y": 18
+  },
+  "name": "Ver tisseur",
+  "glowInnerColor": 16777215,
+  "glowOuterColor": 9896191,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "life": [
+    50
+  ],
+  "volteDelay": 0.4,
+  "weight": 2,
+  "metaItems": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 6
+}

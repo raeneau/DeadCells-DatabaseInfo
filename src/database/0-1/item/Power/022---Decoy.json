@@ -1,0 +1,33 @@
+{
+  "id": "Decoy",
+  "name": "Leurre",
+  "moneyCost": 1500,
+  "cellCost": 40,
+  "droppable": true,
+  "hasLevels": false,
+  "castCD": 10,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Deployable"
+    }
+  ],
+  "props": {
+    "duration": 6,
+    "life": 200
+  },
+  "index": 22,
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 6
+  },
+  "gameplayDesc": "Vous disparaissez pendant ::duration:: sec et laissez place à un leurre qui attire tous les ennemis proches.",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 22
+}

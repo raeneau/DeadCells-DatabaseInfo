@@ -1,0 +1,25 @@
+{
+  "id": "PokebombUnlock",
+  "name": "Grenade de complétion",
+  "moneyCost": 0,
+  "cellCost": 150,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "revealedAtStart": true,
+    "reqUnlocks": 20
+  },
+  "group": 9,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 15,
+    "y": 8
+  },
+  "gameplayDesc": "Débloque la présence d'une \"Grenade de Complétion\" dans le Quartier des Prisonniers. Cette grenade permet de chasser plus facilement les Schémas rares.",
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 148
+}

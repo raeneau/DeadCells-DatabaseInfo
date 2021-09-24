@@ -1,0 +1,64 @@
+{
+  "item": "FireBall",
+  "airControlAlways": true,
+  "isACancel": false,
+  "strikeChain": [
+    {
+      "charge": 0.53,
+      "coolDown": 0.16,
+      "lockCtrlAfter": 0.1,
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "props": {},
+      "animId": "atkFireballA",
+      "fxId": "fxFireballA",
+      "hitFrame": 15,
+      "fxFrame": 5,
+      "power": [
+        70
+      ],
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 12655104,
+      "fxInnerColor": 12655104,
+      "fxOuterColor": 12655104
+    },
+    {
+      "charge": 0.4,
+      "coolDown": 0.13,
+      "lockCtrlAfter": 0.1,
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "props": {},
+      "animId": "atkFireballB",
+      "hitFrame": 11,
+      "fxId": "fxFireballB",
+      "fxFrame": 5,
+      "power": [
+        70
+      ],
+      "canCrit": false,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "glowColor": 12655104,
+      "fxInnerColor": 12655104,
+      "fxOuterColor": 12655104
+    }
+  ],
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 37
+}

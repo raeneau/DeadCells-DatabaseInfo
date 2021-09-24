@@ -1,0 +1,149 @@
+{
+  "id": "ClockTower",
+  "biome": "ClockTower",
+  "mobs": [
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Rampager",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 3,
+      "props": {}
+    },
+    {
+      "mob": "TimeKeeperBot",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 0,
+      "props": {}
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Archer",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Archer",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "minDifficulty": 4,
+      "props": {},
+      "packSize": [
+        2
+      ]
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 6,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 2,
+      "props": {},
+      "packSize": 2
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 1
+    },
+    {
+      "mob": "KunaiMaster",
+      "quantityFactor": 0,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 1
+    },
+    {
+      "mob": "Mage360",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {}
+    }
+  ],
+  "cellBonus": 0,
+  "mobDensity": 1.1,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0.4,
+  "flags": 128,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 15,
+  "group": 0,
+  "name": "Tour de l'Horloge",
+  "tripleUps": 2,
+  "doubleUps": 3,
+  "props": {
+    "viewerY": -1,
+    "viewerColor": 14053150,
+    "doorColor": 12528222,
+    "chromaColor": 16711770,
+    "musicLoop": "music/clocktower.ogg",
+    "loadingColor": 1903887,
+    "loadingDescColor": 12871059,
+    "zDoorColor": 2605964
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 5,
+  "worldDepth": 5,
+  "loreDescriptions": [
+    {
+      "text": "La Gardienne du temps a obtenu du Roi la construction de cette tour gigantesque il y a bien longtemps. Personne ne connait les termes du marché."
+    },
+    {
+      "text": "Les premières heures dans cette tour peuvent donner la nausée, quand tout se contracte et se dilate en même temps."
+    },
+    {
+      "text": "Certains villageois affirment avoir vu les aiguilles de l'horloge tourner dans le sens inverse. Mais ce ne sont que des rumeurs, bien entendu..."
+    },
+    {
+      "text": "On n'a pas vu la Gardienne du temps depuis longtemps. Ou alors c'était très récent... Euh attendez... On est quand en fait ?"
+    }
+  ],
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 41,
+    "y": 30
+  },
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 15
+}

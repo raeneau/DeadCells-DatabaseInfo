@@ -1,0 +1,21 @@
+{
+  "id": "PrisonerSand",
+  "name": "Tenue de la prison du désert.",
+  "moneyCost": 0,
+  "cellCost": 750,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [],
+  "props": {},
+  "group": 13,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 21,
+    "y": 18
+  },
+  "gameplayDesc": "Sent le sable chaud, mais gratte les poplités.",
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 312
+}

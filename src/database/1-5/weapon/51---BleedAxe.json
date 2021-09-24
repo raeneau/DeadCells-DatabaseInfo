@@ -1,0 +1,45 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.45,
+      "coolDown": 0.3,
+      "lockCtrlAfter": 0.3,
+      "dynamicCharge": 0,
+      "animId": "atkBleedAxe",
+      "breachBonus": 0.5,
+      "props": {
+        "bump": 0.4,
+        "duration": 1.2
+      },
+      "hitFrame": 12,
+      "fxId": "fxThrow",
+      "canCrit": true,
+      "area": {
+        "shape": 0,
+        "width": 0,
+        "height": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0
+      },
+      "power": [
+        35
+      ],
+      "glowColor": 13094115,
+      "fxInnerColor": 16776647,
+      "fxOuterColor": 16737536,
+      "sfxRelease": "sfx/weapon_boi_release.wav",
+      "fxStartFrame": 11,
+      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "animSpd": 1,
+      "critMul": 2
+    }
+  ],
+  "item": "BleedAxe",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 51
+}

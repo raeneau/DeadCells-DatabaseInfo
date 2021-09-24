@@ -1,0 +1,29 @@
+{
+  "id": "CryptKey",
+  "name": "Clé de la crypte",
+  "moneyCost": 0,
+  "cellCost": 0,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Key"
+    }
+  ],
+  "props": {
+    "highActivationPriority": true
+  },
+  "index": 85,
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 18,
+    "y": 5
+  },
+  "gameplayDesc": "Elle semble très ancienne.",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "BagItem",
+  "__original_Index": 85
+}

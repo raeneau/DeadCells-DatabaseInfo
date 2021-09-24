@@ -1,0 +1,82 @@
+{
+  "id": "ClockTower",
+  "biome": "ClockTower",
+  "viewerColor": 14053150,
+  "viewerOffX": 0,
+  "viewerY": -1,
+  "mobs": [
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Spinner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 3,
+      "props": {}
+    },
+    {
+      "mob": "Fly",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 2,
+      "props": {},
+      "packSize": [
+        3,
+        5
+      ]
+    },
+    {
+      "mob": "LeapingDuelyst",
+      "quantityFactor": 8,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {}
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 7,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "packSize": [
+        1,
+        2
+      ]
+    }
+  ],
+  "lootLevel": 6,
+  "cellBonus": 0,
+  "mobDensity": 1.2,
+  "eliteWanderChance": 1,
+  "eliteRoomChance": 0.4,
+  "flags": 128,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "index": 15,
+  "group": 0,
+  "name": "Tour de l'Horloge",
+  "doorColor": 16711770,
+  "chromaColor": 16711770,
+  "musicLoop": "music/clocktower.ogg",
+  "tripleUps": 2,
+  "doubleUps": 2,
+  "extraMobTier": 3,
+  "baseMobTier": 11,
+  "props": {},
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 15
+}

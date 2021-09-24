@@ -1,0 +1,46 @@
+{
+  "id": "ThunderShield",
+  "name": "Bouclier foudroyant",
+  "moneyCost": 1500,
+  "cellCost": 100,
+  "droppable": true,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "props": {
+    "dps": 65,
+    "tick": 0.12,
+    "range": 6,
+    "speed": 0.12,
+    "dotDps": 20,
+    "aoeDuration": 2,
+    "duration": 8,
+    "width": 7,
+    "duration2": 1.25,
+    "ceilToolTipValues": false,
+    "prct": 0.5
+  },
+  "group": 6,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 17,
+    "y": 12
+  },
+  "gameplayDesc": "Inflige ::+dps:: DPS (électriques) devant vous quand il est maintenu ou tout autour de vous pendant ::duration:: secondes après une {parade@PA} réussie. Réutiliser le bouclier déchargera l'énergie d'un seul coup, étourdissant les ennemis.",
+  "tier1": "Survival",
+  "legendAffix": "BleedOnHit",
+  "tier2": "Tactic",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 126
+}

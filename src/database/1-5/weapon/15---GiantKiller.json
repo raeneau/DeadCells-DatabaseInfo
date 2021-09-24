@@ -1,0 +1,137 @@
+{
+  "airControlAlways": true,
+  "isACancel": false,
+  "allowCrouch": false,
+  "cannotBeCanceledByWeapon": false,
+  "strikeChain": [
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "hitFrame": 5,
+      "area": {
+        "shape": 0,
+        "width": 3.7,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": 0.15
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2,
+        "duration": 1.1
+      },
+      "animId": "atkSwordB",
+      "fxId": "fxSwordAtkB",
+      "glowColor": 14282736,
+      "fxInnerColor": 11516355,
+      "power": [
+        25
+      ],
+      "sfxRelease": "sfx/weapon_swipe_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 1.8
+    },
+    {
+      "charge": 0.3,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.15,
+      "hitFrame": 11,
+      "area": {
+        "shape": 0,
+        "width": 5,
+        "height": 0,
+        "offsetCaseY": 0,
+        "offsetCaseX": -0.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.1
+      },
+      "animId": "atkSwordC",
+      "animSpd": 1.6,
+      "fxId": "fxHammerC",
+      "glowColor": 14282736,
+      "fxInnerColor": 11516355,
+      "power": [
+        35
+      ],
+      "sfxRelease": "sfx/weapon_giantkiller_release1.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "sfxCharge": "sfx/weapon_giantkiller_charge1.wav",
+      "critMul": 1.7
+    },
+    {
+      "charge": 0.6,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.2,
+      "hitFrame": 17,
+      "area": {
+        "shape": 0,
+        "width": 5.5,
+        "height": 0,
+        "offsetCaseY": -0.6,
+        "offsetCaseX": -1
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.2
+      },
+      "animId": "atkSwordC",
+      "fxId": "fxSwordAtkC",
+      "glowColor": 16763435,
+      "fxInnerColor": 16383896,
+      "power": [
+        100
+      ],
+      "sfxRelease": "sfx/weapon_giantkiller_release2.wav",
+      "sfxHit": "sfx/hit_blade.wav",
+      "critMul": 2.25,
+      "animSpd": 0.8,
+      "sfxCharge": "sfx/weapon_giantkiller_charge2.wav",
+      "onionSkinFrame": 14,
+      "onionSkinOffX": 25
+    },
+    {
+      "charge": 0.45,
+      "coolDown": 0,
+      "lockCtrlAfter": 0.3,
+      "hitFrame": 18,
+      "area": {
+        "shape": 1,
+        "width": 6,
+        "height": 2.5,
+        "offsetCaseY": -0.25,
+        "offsetCaseX": 0
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "canCrit": true,
+      "props": {
+        "bump": 0.3
+      },
+      "animId": "atkSwordA",
+      "fxId": "fxGiantKillerAtkC",
+      "glowColor": 16763435,
+      "power": [
+        150
+      ],
+      "critMul": 1.6,
+      "sfxRelease": "sfx/weapon_giantkiller_release3.wav",
+      "sfxHit": "sfx/hit_blood.wav",
+      "animSpd": 0.75,
+      "onionSkinFrame": 9,
+      "sfxCharge": "sfx/weapon_giantkiller_charge3.wav"
+    }
+  ],
+  "item": "GiantKiller",
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 15
+}

@@ -1,0 +1,30 @@
+{
+  "id": "P_QuickHeal",
+  "name": "Soin d'urgence",
+  "moneyCost": 0,
+  "cellCost": 50,
+  "droppable": false,
+  "hasLevels": false,
+  "castCD": 0,
+  "tags": [],
+  "props": {
+    "duration": 5,
+    "power": [
+      130
+    ],
+    "ceilToolTipValues": true,
+    "prct": 3,
+    "duration2": 0.5
+  },
+  "group": 12,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 8,
+    "y": 11
+  },
+  "gameplayDesc": "Accélère l'usage de vos potions de soin de ::prct::% et vous protège totalement pendant ::duration:: sec.",
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 202
+}

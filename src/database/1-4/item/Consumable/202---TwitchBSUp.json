@@ -1,0 +1,26 @@
+{
+  "id": "TwitchBSUp",
+  "name": "",
+  "moneyCost": 2000,
+  "cellCost": 0,
+  "droppable": false,
+  "castCD": 0,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "props": {
+    "highActivationPriority": true
+  },
+  "group": 10,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 47,
+    "y": 61
+  },
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 202
+}

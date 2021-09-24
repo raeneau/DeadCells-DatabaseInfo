@@ -1,0 +1,40 @@
+{
+  "id": "SpeedRunner",
+  "name": "Prestance",
+  "moneyCost": 1750,
+  "cellCost": 80,
+  "droppable": false,
+  "castCD": 1,
+  "tags": [
+    {
+      "tag": "Pet"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    }
+  ],
+  "props": {
+    "duration": 1.5,
+    "frict": 0.85,
+    "speed": 0.06,
+    "distance": 3,
+    "prct": 0.1,
+    "prct2": 0.4
+  },
+  "group": 3,
+  "icon": {
+    "file": "cardIcons.png",
+    "size": 24,
+    "x": 68,
+    "y": 26
+  },
+  "gameplayDesc": "Accélère vos déplacements de ::+prct::% pendant ::+duration:: sec quand vous tuez un ennemi.",
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 46
+}

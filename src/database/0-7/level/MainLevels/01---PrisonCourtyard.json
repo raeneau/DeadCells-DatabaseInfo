@@ -1,0 +1,121 @@
+{
+  "id": "PrisonCourtyard",
+  "biome": "PrisonCourtyard2",
+  "mobs": [
+    {
+      "mob": "Zombie",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 3
+    },
+    {
+      "mob": "Ninja",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 4,
+      "props": {},
+      "packSize": [
+        1,
+        2
+      ]
+    },
+    {
+      "mob": "Grenader",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0,
+      "maxDifficulty": 0
+    },
+    {
+      "mob": "ClusterGrenader",
+      "quantityFactor": 5,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "BatKamikaze",
+      "quantityFactor": 4,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "minDifficulty": 1,
+      "props": {}
+    },
+    {
+      "mob": "BatDasher",
+      "quantityFactor": 3,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Runner",
+      "quantityFactor": 2,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 0,
+      "props": {},
+      "minDifficulty": 0
+    },
+    {
+      "mob": "Shielder",
+      "quantityFactor": 1,
+      "singleRoom": false,
+      "minCombatRoomsBefore": 1,
+      "props": {},
+      "minDifficulty": 0
+    }
+  ],
+  "mobDensity": 1.1,
+  "eliteWanderChance": 0.5,
+  "eliteRoomChance": 0,
+  "flags": 1,
+  "lootFlags": 0,
+  "specificLoots": [],
+  "goldBonus": 0,
+  "group": 0,
+  "name": "Promenade des condamnés",
+  "index": 1,
+  "cellBonus": 0,
+  "tripleUps": 1,
+  "doubleUps": 2,
+  "baseMobTier": 3,
+  "props": {
+    "timedDoor": 2,
+    "timedBlueprint": "DashShield",
+    "timedScrolls": 1,
+    "wind": -2,
+    "viewerY": 0.75,
+    "viewerColor": 6666220,
+    "doorColor": 65490,
+    "zDoorColor": 15637011,
+    "chromaColor": 65490,
+    "musicLoop": "music/Promenade.ogg",
+    "loadingColor": 1510715,
+    "loadingDescColor": 6652612
+  },
+  "specificSubBiome": [],
+  "baseLootLevel": 2,
+  "worldDepth": 1,
+  "loreDescriptions": [
+    {
+      "text": "C'est jamais bon signe quand ils vous envoient dans la cour. Ils ne sont pas nombreux à en revenir. Et quand on les revoit, ils ne sont plus jamais vraiment les mêmes..."
+    },
+    {
+      "text": "L'ambiance champètre de la forêt a laissé place à une ambiance pour le moins... surprenante, disons."
+    },
+    {
+      "text": "Depuis l'extérieur, on parvenait encore à entendre quelques sifflements d'oiseaux. Mais depuis quelques temps on entend plus que le croassement des corbeaux."
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 1
+}
