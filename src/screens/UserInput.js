@@ -1,11 +1,19 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
+import { useHistory } from "react-router-dom";
+import _get from "lodash.get";
 
 // Screens.
 import WhatsNewScreen from "./WhatsNewScreen";
 import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
 
+// Local modules.
 import DatabaseVersionToggle from "./DatabaseVersionToggle";
+import getViableJsons from "../utils/getAllViableJsons";
+import formatInput from "../utils/formatInput";
+
+// Constants.
+import nameMappings from "../constants/mapUserInput";
+import { STABLE } from "../constants/databaseVersion";
 
 // Styles.
 import "./UserInput.css";
@@ -27,21 +35,75 @@ const cn = {
 
 let inputSubmitted = false;
 
-function UserInputScreen(props) {
+function UserInputScreen() {
   const [value, setValue] = useState({
     userInputValue: "",
   });
+
+  const [databaseVersion, setDatabaseVersion] = useState(STABLE);
+  const history = useHistory();
 
   function handleChange(event) {
     // Here, we invoke the callback with the new value
     setValue({ userInputValue: event.target.value });
   }
 
+  const handleDatabaseChange = (updatedDatabaseVersion) => {
+    setDatabaseVersion(updatedDatabaseVersion);
+  };
+
+  const handleUserInputChange = (newValue) => {
+    // Format user input to be all uppercase with no spaces, to match the
+    // file import object keys
+    const formattedUserInput = formatInput(newValue);
+
+    const mappedUserInput = nameMappings[formattedUserInput] || {
+      INTERNAL_ID: formattedUserInput,
+    };
+
+    const type = _get(mappedUserInput, "TYPE");
+
+    // If the type is an array, there are multiple entries!
+    if (Array.isArray(type)) {
+      return {
+        nameConflict: true,
+        searchTerm: newValue,
+        resourceType: type,
+      };
+    }
+    // If the user input is undefined, there is no result for this search
+    if (mappedUserInput === undefined) {
+      return { searchTerm: newValue };
+    }
+    // Otherwise, we found a match!
+    const jsonArray = getViableJsons({
+      userInput: mappedUserInput,
+      databaseVersion,
+    });
+
+    return {
+      results: jsonArray,
+      searchTerm: newValue,
+      resourceType: type,
+      internalId: _get(mappedUserInput, "INTERNAL_ID"),
+      name: _get(mappedUserInput, "NAME"),
+    };
+  };
+
   function onSubmit() {
     // The user set a value. Let's hide the info on the screen.
     inputSubmitted = true;
 
-    props.onChange(value.userInputValue);
+    const submitResults = handleUserInputChange(value.userInputValue);
+
+    console.log("✨ -- submit results", submitResults);
+    console.log("✨ -- state", value);
+
+    // history.push({
+    //   pathname: "/MELEE_WEAPON",
+    //   search: "?query=abc",
+    //   state: { detail: "some_value" },
+    // });
   }
 
   function handleKeyDown(event) {
@@ -52,7 +114,6 @@ function UserInputScreen(props) {
   }
 
   const { userInputValue } = value;
-  const { onDatabaseChange } = props;
 
   return (
     <div className="DisplayCard">
@@ -71,7 +132,7 @@ function UserInputScreen(props) {
           alt="Submit"
         />
       </div>
-      <DatabaseVersionToggle onChange={onDatabaseChange} />
+      <DatabaseVersionToggle onChange={handleDatabaseChange} />
       <div className={cn.notesWrapper}>
         {!inputSubmitted && <WhatsNewScreen />}
         <CurrentlySearchableScreen />
@@ -79,10 +140,6 @@ function UserInputScreen(props) {
     </div>
   );
 }
-
-UserInputScreen.propTypes = {
-  onChange: PropTypes.func.isRequired,
-};
 
 // -----------------------------------------------------------------------------
 
