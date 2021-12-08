@@ -1,0 +1,110 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "ClubBroken",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.1,
+        "color": 12423167
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_club_broken_charge1.wav",
+      "charge": 0.33,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_club_broken_release1.wav",
+      "fxId": "fxAtkBigourdinABROKEN",
+      "animId": "BigourdinAtkABROKEN",
+      "sfxHit": "sfx/weapon_club_broken_hit.wav",
+      "hitFrame": 10,
+      "glowColor": 10246400,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        40
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.1,
+        "color": 12423167,
+        "duration": 0.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_club_broken_charge2.wav",
+      "charge": 0.44,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_club_broken_release2.wav",
+      "fxId": "fxAtkBigourdinBBROKEN",
+      "animId": "BigourdinAtkBBROKEN",
+      "sfxHit": "sfx/weapon_club_broken_hit.wav",
+      "hitFrame": 13,
+      "glowColor": 12941824,
+      "animSpd": 1.6
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.1,
+        "color": 12423167,
+        "duration": 0.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_club_broken_charge3.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_club_broken_release3.wav",
+      "fxId": "fxAtkBigourdinCBROKEN",
+      "animId": "BigourdinAtkCBROKEN",
+      "sfxHit": "sfx/weapon_club_broken_hit.wav",
+      "hitFrame": 12,
+      "glowColor": 12941824,
+      "animSpd": 2.5
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 51
+}

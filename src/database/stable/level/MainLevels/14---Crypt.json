@@ -143,6 +143,14 @@
   "specificSubBiome": [],
   "minGold": 3500,
   "tripleUps": 3,
+  "nextLevels": [
+    {
+      "level": "T_TopClockTower"
+    },
+    {
+      "level": "T_Giant"
+    }
+  ],
   "baseLootLevel": 5,
   "loreDescriptions": [
     {

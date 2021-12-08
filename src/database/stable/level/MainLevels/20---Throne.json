@@ -36,6 +36,11 @@
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_Astrolab"
+    }
+  ],
   "baseLootLevel": 7,
   "loreDescriptions": [
     {

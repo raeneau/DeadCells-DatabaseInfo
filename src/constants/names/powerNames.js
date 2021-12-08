@@ -138,4 +138,16 @@ export default {
     TYPE: POWER,
     NAME: "Cocoon",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  FACE_FLASK: {
+    INTERNAL_ID: "FACEFLASK",
+    TYPE: POWER,
+    NAME: "Face Flask",
+  },
+  POLLO_POWER: {
+    INTERNAL_ID: "POLLOPOWER",
+    TYPE: POWER,
+    NAME: "Pollo Power",
+  },
 };

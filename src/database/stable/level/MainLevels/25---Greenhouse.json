@@ -130,6 +130,17 @@
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 1,
+  "nextLevels": [
+    {
+      "level": "T_Swamp"
+    },
+    {
+      "level": "T_Roof"
+    },
+    {
+      "level": "T_PrisonDepths"
+    }
+  ],
   "baseLootLevel": 2,
   "loreDescriptions": [
     {

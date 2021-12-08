@@ -1,0 +1,103 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "DualBow",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxInnerColor": 12376805,
+        "fxOuterColor": 12376805
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "charge": 0.32,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "animId": "dualBow",
+      "sfxHit": "sfx/arrow_hit.wav",
+      "hitFrame": 0,
+      "glowColor": 3329400,
+      "animSpd": 3.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {
+        "fxInnerColor": 12376805,
+        "fxOuterColor": 12376805
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0.15,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxHit": "sfx/arrow_hit.wav",
+      "hitFrame": 0,
+      "glowColor": 3329400,
+      "animSpd": 3
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        220
+      ],
+      "fxProps": {
+        "fxInnerColor": 12376805,
+        "fxOuterColor": 12376805
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/bow_charge1.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxHit": "sfx/arrow_hit.wav",
+      "hitFrame": 0,
+      "glowColor": 16723200,
+      "animSpd": 2.5
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 55
+}

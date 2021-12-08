@@ -1,0 +1,23 @@
+{
+  "props": {
+    "neverCompensateCost": true
+  },
+  "gameplayDesc": "Avec ça, personne ne risque de vous rater. Encore moins les ennemis !",
+  "moneyCost": 10000,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerGold",
+  "icon": {
+    "x": 20,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue dorée",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 300,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 344
+}

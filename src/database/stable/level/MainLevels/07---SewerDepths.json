@@ -134,6 +134,11 @@
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 3,
+  "nextLevels": [
+    {
+      "level": "T_BeholderPit"
+    }
+  ],
   "baseLootLevel": 4,
   "loreDescriptions": [
     {

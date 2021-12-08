@@ -1,0 +1,110 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "HardLightSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": 35,
+      "fxProps": {
+        "fxStartFrame": -1
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "power2": [
+          1.2,
+          1.3,
+          1.4,
+          1.5,
+          2,
+          2.5
+        ],
+        "bump": 0.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.125,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.1,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "fxId": "fxatkHardLightSwordA",
+      "animId": "atkHardLightSwordA",
+      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "hitFrame": 4,
+      "critMul": 1.2,
+      "glowColor": 2187367
+    },
+    {
+      "coolDown": 0,
+      "power": 40,
+      "fxProps": {
+        "fxStartFrame": -1
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "bump": 0
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.5,
+        "offsetCaseX": -1,
+        "offsetCaseY": -1,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "fxId": "fxatkHardLightSwordB",
+      "animId": "atkHardLightSwordB",
+      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "hitFrame": 2,
+      "critMul": 1.2,
+      "glowColor": 2187367
+    },
+    {
+      "coolDown": 0,
+      "power": 55,
+      "fxProps": {
+        "fxStartFrame": -1
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "bump": 0.35
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.06,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6.5,
+        "offsetCaseX": -2,
+        "offsetCaseY": -0.2,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "fxId": "fxatkHardLightSwordC",
+      "animId": "atkHardLightSwordC",
+      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "hitFrame": 2,
+      "critMul": 1.2,
+      "glowColor": 2187367
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 35
+}

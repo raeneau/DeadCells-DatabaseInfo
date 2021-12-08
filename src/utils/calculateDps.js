@@ -53,7 +53,7 @@ export const newCalculateDps = ({ strikeChainArray }) => {
       const lockCtrlAfter = _get(element, "lockCtrlAfter", 0);
       const cooldown = _get(element, "coolDown", 0);
       // Damage related
-      const power = _get(element, "power[0]", 0);
+      const power = _get(element, "power[0]") || _get(element, "power", 0);
       const actualCritMult = criticalHitMul * _get(element, "critMul", 1);
       const canCrit = _get(element, "canCrit", false);
 
@@ -102,7 +102,7 @@ export const calculateDpsCombo = ({ strikeChainArray }) => {
     (accumulator, element) => {
       const charge = _get(element, "charge", 0);
       const lockCtrlAfter = _get(element, "lockCtrlAfter", 0);
-      const power = _get(element, "power[0]");
+      const power = _get(element, "power[0]") || _get(element, "power", 0);
       const critMult = _get(element, "critMul", 1);
       const canCrit = _get(element, "canCrit");
 

@@ -1,0 +1,110 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "SkulBone",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": 50,
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOuterColor": 16777215
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "range": 0.15,
+        "bump": 0.15
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_skull_bone_release1.wav",
+      "fxId": "fxAtkASkulBone",
+      "animId": "AtkSkulBoneA",
+      "sfxHit": "sfx/weapon_skull_bone_hit.wav",
+      "hitFrame": 3,
+      "critMul": 1,
+      "animSpd": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": 60,
+      "fxProps": {
+        "fxStartFrame": -8,
+        "fxOuterColor": 16777215
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "range": 0.15,
+        "bump": 0.15
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 3.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_skull_bone_release2.wav",
+      "fxId": "fxAtkBSkulBone",
+      "animId": "AtkSkulBoneB",
+      "sfxHit": "sfx/weapon_skull_bone_hit.wav",
+      "hitFrame": 4,
+      "critMul": 1
+    },
+    {
+      "coolDown": 0.2,
+      "power": 18,
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOuterColor": 16777215
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "range": 0.3,
+        "altAnim": "AtkSkulBoneC_start",
+        "bump": 0.3,
+        "count": 8,
+        "duration": 0.1
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 1.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -2,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_skull_bone_release3.wav",
+      "fxId": "fxAtkCSkulBone",
+      "animId": "AtkSkulBoneC",
+      "sfxHit": "sfx/weapon_skull_bone_hit2.wav",
+      "hitFrame": 24,
+      "critMul": 1,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 53
+}

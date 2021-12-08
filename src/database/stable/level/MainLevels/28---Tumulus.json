@@ -143,6 +143,14 @@
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_AfterTumulus"
+    },
+    {
+      "level": "T_Cliff"
+    }
+  ],
   "baseLootLevel": 4,
   "loreDescriptions": [
     {

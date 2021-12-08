@@ -192,6 +192,17 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_Courtyard"
+    },
+    {
+      "level": "T_SewerShort"
+    },
+    {
+      "level": "T_Greenhouse"
+    }
+  ],
   "baseLootLevel": 1,
   "loreDescriptions": [
     {

@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "First attack while invisible instantly kills its non-boss target(s).",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Assassin",
+  "icon": {
+    "x": 4,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Assassin",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 451
+}

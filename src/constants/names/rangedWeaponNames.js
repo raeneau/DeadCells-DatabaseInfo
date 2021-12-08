@@ -173,4 +173,11 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Barrel Launcher",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  HARD_LIGHT_GUN: {
+    INTERNAL_ID: "HARDLIGHTGUN",
+    TYPE: RANGED_WEAPON,
+    NAME: "Hard Light Gun",
+  },
 };

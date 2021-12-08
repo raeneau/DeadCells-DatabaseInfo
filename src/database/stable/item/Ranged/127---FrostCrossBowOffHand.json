@@ -1,0 +1,35 @@
+{
+  "props": {
+    "item": "FrostCrossBow"
+  },
+  "gameplayDesc": "Tire un carreau perçant. Inflige un {coup critique@CC} et retire les flèches plantées sur les cibles {gelées@IC}.",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "id": "FrostCrossBowOffHand",
+  "icon": {
+    "x": 26,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tir perçant",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "DualWeaponOffhand"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 127
+}

@@ -49,6 +49,11 @@
       "rarity": "Always",
       "item": "Tick4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessTick",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

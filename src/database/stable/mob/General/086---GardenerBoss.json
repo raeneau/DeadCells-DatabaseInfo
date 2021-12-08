@@ -53,6 +53,11 @@
       "rarity": "Always",
       "item": "Gardener4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessGardener",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

@@ -123,6 +123,17 @@
   "specificSubBiome": [],
   "minGold": 500,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_OssuaryAfterPrison"
+    },
+    {
+      "level": "T_SwampAfterPrison"
+    },
+    {
+      "level": "T_SewerDepthsAfterPrison"
+    }
+  ],
   "baseLootLevel": 3,
   "loreDescriptions": [
     {

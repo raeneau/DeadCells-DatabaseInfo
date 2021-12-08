@@ -9,7 +9,7 @@
     "bumpResistance": 0.7,
     "cannotBeBackstabbed": true
   },
-  "genTags": 512,
+  "genTags": 1536,
   "pfCost": 0,
   "blueprints": [],
   "maxPerRoom": 0,

@@ -21,7 +21,7 @@
   "index": 21,
   "id": "Astrolab",
   "dlc": "RiseOfTheGiant",
-  "flags": 132609,
+  "flags": 33687041,
   "worldDepth": 9,
   "icon": {
     "x": 57,
@@ -96,6 +96,11 @@
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_Observatory"
+    }
+  ],
   "baseLootLevel": 7,
   "loreDescriptions": [
     {

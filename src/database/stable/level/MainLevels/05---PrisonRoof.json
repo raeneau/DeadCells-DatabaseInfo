@@ -148,6 +148,14 @@
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 3,
+  "nextLevels": [
+    {
+      "level": "T_Bridge"
+    },
+    {
+      "level": "T_BeholderPit"
+    }
+  ],
   "baseLootLevel": 3,
   "loreDescriptions": [
     {

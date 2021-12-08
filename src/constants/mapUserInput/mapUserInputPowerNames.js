@@ -91,4 +91,13 @@ export default {
   COCOON: powerNames.COCOON,
   BUBBLESHIELDPOWER: powerNames.COCOON,
   BUBBLESHIELD: powerNames.COCOON,
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  FACEFLASK: powerNames.FACE_FLASK,
+  FLASK: powerNames.FACE_FLASK,
+
+  POLLOPOWER: powerNames.POLLO_POWER,
+  CHICKENPOWER: powerNames.POLLO_POWER,
+  CHICKEN: powerNames.POLLO_POWER,
+  GUACAMELEEPOWER: powerNames.POLLO_POWER,
 };

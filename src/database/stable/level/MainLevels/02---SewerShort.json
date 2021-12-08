@@ -133,6 +133,17 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 1,
+  "nextLevels": [
+    {
+      "level": "T_SewerDepths"
+    },
+    {
+      "level": "T_PrisonCorrupt"
+    },
+    {
+      "level": "T_Roof"
+    }
+  ],
   "baseLootLevel": 3,
   "loreDescriptions": [
     {

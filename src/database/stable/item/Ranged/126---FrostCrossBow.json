@@ -1,0 +1,52 @@
+{
+  "props": {
+    "ammo": 9,
+    "item": "FrostCrossBowOffHand"
+  },
+  "gameplayDesc": "{Gèle@IC} les ennemis.",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "id": "FrostCrossBow",
+  "icon": {
+    "x": 17,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arbalète de glace",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ice"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "DualWeaponBase"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "CritSameAsNormalInUI"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 80,
+  "legendAffix": "IceDamage",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 126
+}

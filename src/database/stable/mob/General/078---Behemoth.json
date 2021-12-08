@@ -68,6 +68,11 @@
       "rarity": "Always",
       "item": "Behemoth4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessBehemoth",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

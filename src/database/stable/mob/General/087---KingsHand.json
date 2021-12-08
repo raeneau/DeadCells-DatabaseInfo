@@ -42,6 +42,11 @@
       "rarity": "Always",
       "item": "Hotk4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessHotk",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

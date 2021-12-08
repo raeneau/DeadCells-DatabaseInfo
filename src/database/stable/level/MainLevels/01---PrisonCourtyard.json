@@ -125,6 +125,17 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 1,
+  "nextLevels": [
+    {
+      "level": "T_PrisonDepths"
+    },
+    {
+      "level": "T_Ossuary"
+    },
+    {
+      "level": "T_Roof"
+    }
+  ],
   "baseLootLevel": 2,
   "loreDescriptions": [
     {
