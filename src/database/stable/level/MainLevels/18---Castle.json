@@ -149,6 +149,11 @@
   ],
   "minGold": 4000,
   "tripleUps": 1,
+  "nextLevels": [
+    {
+      "level": "T_Throne"
+    }
+  ],
   "baseLootLevel": 6,
   "loreDescriptions": [
     {

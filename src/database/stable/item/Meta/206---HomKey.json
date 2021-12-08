@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Cette rune {permanente@PE} vous permet de vous extirper de votre corps.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "HomKey",
+  "icon": {
+    "x": 12,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Rune de l'Homoncule",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "MetaKey"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 206
+}

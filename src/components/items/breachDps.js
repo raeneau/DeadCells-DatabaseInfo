@@ -21,7 +21,7 @@ function BreachDPS(props) {
       const charge = _get(element, "charge", 0);
       const cooldown = _get(element, "coolDown", 0);
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
-      const power = _get(element, "power[0]", 0);
+      const power = _get(element, "power[0]") || _get(element, "power", 0);
       const critMult = _get(element, "critMul", 1);
       const breachBonus = _get(element, "breachBonus");
 

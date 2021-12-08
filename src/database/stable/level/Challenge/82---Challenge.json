@@ -1,0 +1,38 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "chromaColor": 15756549
+  },
+  "lootFlags": 18,
+  "biome": "SecretRooms",
+  "doubleUps": 0,
+  "group": 3,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 82,
+  "id": "Challenge",
+  "flags": 0,
+  "worldDepth": 0,
+  "icon": {
+    "x": 67,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "Défi",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 0,
+  "tripleUps": 0,
+  "nextLevels": [],
+  "baseLootLevel": 0,
+  "loreDescriptions": [],
+  "parallax": [],
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Challenge",
+  "__original_Index": 82
+}

@@ -19,7 +19,7 @@ function DamagePerHit(props) {
 
   array.forEach((element, index) => {
     // TODO: Make this support multiple power entries? (Is that a thing?)
-    const power = _get(element, "power[0]");
+    const power = _get(element, "power[0]") || _get(element, "power", 0);
     const critMult = _get(element, "critMul", 1);
     const canCrit = _get(element, "canCrit", 1);
 

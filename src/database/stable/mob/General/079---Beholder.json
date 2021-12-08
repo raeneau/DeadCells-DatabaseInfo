@@ -66,6 +66,11 @@
       "rarity": "Always",
       "item": "Beholder4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessBeholder",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

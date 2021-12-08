@@ -1,0 +1,102 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Lantern",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_dualdg_charge1.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_lantern_release.wav",
+      "fxId": "fxAtkLanternA",
+      "animId": "AtkLanternA",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "hitFrame": 8,
+      "glowColor": 7762137
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_dualdg_charge1.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": -1,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_lantern_release.wav",
+      "fxId": "fxAtkLanternB",
+      "animId": "AtkLanternB",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "hitFrame": 8,
+      "glowColor": 7762137
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        100
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_dualdg_charge1.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 5,
+        "offsetCaseX": -1,
+        "offsetCaseY": -0.2,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_lantern_release.wav",
+      "fxId": "fxAtkLanternC",
+      "animId": "AtkLanternC",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "hitFrame": 8,
+      "glowColor": 7762137
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 44
+}

@@ -35,6 +35,11 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_AfterSwamp"
+    }
+  ],
   "baseLootLevel": 5,
   "loreDescriptions": [
     {

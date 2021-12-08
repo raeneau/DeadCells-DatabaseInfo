@@ -155,6 +155,11 @@
   ],
   "minGold": 4000,
   "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_ThroneAfterDistillery"
+    }
+  ],
   "baseLootLevel": 6,
   "loreDescriptions": [
     {

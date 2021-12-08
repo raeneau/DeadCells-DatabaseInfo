@@ -168,7 +168,6 @@ export default {
   SERENADESWORD: meleeWeaponNames.SERENADE_MELEE,
 
   // ---------------------------- WHACK A MOLE ------------------------------ //
-
   TOMBSTONE: meleeWeaponNames.TOMBSTONE,
   GRAVESTONE: meleeWeaponNames.TOMBSTONE,
   GRAVE: meleeWeaponNames.TOMBSTONE,
@@ -191,4 +190,24 @@ export default {
   BROKENTOOTHPICK: meleeWeaponNames.CLUB,
   BROKENBIGCLUB: meleeWeaponNames.CLUB,
   BROKENTHEBIGCLUB: meleeWeaponNames.CLUB,
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  MACHETEPISTOL: meleeWeaponNames.MACHETE_PISTOL,
+  MACHETEANDPISTOL: meleeWeaponNames.MACHETE_PISTOL,
+  MACHETE: meleeWeaponNames.MACHETE_PISTOL,
+  PISTOL: meleeWeaponNames.MACHETE_PISTOL,
+
+  HARDLIGHTSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  HLDSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  HYPERLIGHTDRIFTERSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  DRIFTERSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+
+  PURENAIL: meleeWeaponNames.PURE_NAIL,
+  NAIL: meleeWeaponNames.PURE_NAIL,
+  VESSELNAIL: meleeWeaponNames.PURE_NAIL,
+  HKNAIL: meleeWeaponNames.PURE_NAIL,
+  HOLLOWKNIGHTNAIL: meleeWeaponNames.PURE_NAIL,
+
+  BONE: meleeWeaponNames.BONE,
+  SKULBONE: meleeWeaponNames.BONE,
 };

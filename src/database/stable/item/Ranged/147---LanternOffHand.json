@@ -1,0 +1,52 @@
+{
+  "props": {
+    "speed": 1.6,
+    "range": 1.2,
+    "speed2": 1,
+    "ammo": 7,
+    "item": "Lantern",
+    "count": 3,
+    "distance": 30
+  },
+  "gameplayDesc": "Charger pour lancer plusieurs âmes comme des projectiles. Si ::count:: âmes ou plus sont lancées en même temps, elles infligent des {coups critiques@CC}.",
+  "moneyCost": 2050,
+  "group": 5,
+  "castCD": 0,
+  "id": "LanternOffHand",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 33,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Lancer d'âme",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "DualWeaponOffhand"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "ManualAmmoRefill"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 100,
+  "legendAffix": "FireBullet",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 147
+}

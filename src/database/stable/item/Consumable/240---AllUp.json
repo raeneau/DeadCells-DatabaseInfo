@@ -1,0 +1,27 @@
+{
+  "props": {
+    "highActivationPriority": true
+  },
+  "gameplayDesc": "Améliore vos 3 caractéristiques. Oui, oui, les 3 !",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "AllUp",
+  "icon": {
+    "x": 8,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Parchemin de puissance épique",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "TierUpgrade"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 240
+}

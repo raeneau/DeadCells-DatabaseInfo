@@ -31,6 +31,7 @@ export default {
   INFINITEBOW: rangedWeaponNames.BOW_AND_ENDLESS_QUIVER,
 
   MARKSMANBOW: rangedWeaponNames.MARKSMAN_BOW,
+  MARKSMANSBOW: rangedWeaponNames.MARKSMAN_BOW,
   MARKSMAN: rangedWeaponNames.MARKSMAN_BOW,
   LONGBOW: rangedWeaponNames.MARKSMAN_BOW,
   FARBOW: rangedWeaponNames.MARKSMAN_BOW,
@@ -125,4 +126,10 @@ export default {
 
   BARRELLAUNCHER: rangedWeaponNames.BARREL_LAUNCHER,
   BARRELS: rangedWeaponNames.BARREL_LAUNCHER,
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  HARDLIGHTGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  HLDGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  HYPERLIGHTDRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  DRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
 };

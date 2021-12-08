@@ -1,0 +1,128 @@
+{
+  "__columns": [
+    {
+      "typeStr": "14",
+      "display": null,
+      "opt": true,
+      "name": "icon"
+    },
+    {
+      "typeStr": "0",
+      "name": "id"
+    },
+    {
+      "typeStr": "1",
+      "opt": true,
+      "kind": "localizable",
+      "name": "name"
+    },
+    {
+      "typeStr": "6:biome",
+      "name": "biome"
+    },
+    {
+      "typeStr": "6:level",
+      "display": null,
+      "opt": true,
+      "name": "transitionTo"
+    },
+    {
+      "typeStr": "3",
+      "name": "worldDepth"
+    },
+    {
+      "typeStr": "8",
+      "display": null,
+      "name": "mobs"
+    },
+    {
+      "typeStr": "17",
+      "name": "props"
+    },
+    {
+      "typeStr": "8",
+      "name": "specificSubBiome"
+    },
+    {
+      "typeStr": "3",
+      "name": "baseLootLevel"
+    },
+    {
+      "typeStr": "4",
+      "display": 1,
+      "name": "cellBonus"
+    },
+    {
+      "typeStr": "3",
+      "name": "tripleUps"
+    },
+    {
+      "typeStr": "3",
+      "name": "doubleUps"
+    },
+    {
+      "typeStr": "6:difficulty",
+      "opt": true,
+      "name": "bonusTripleScrollAfterBC"
+    },
+    {
+      "typeStr": "3",
+      "name": "quarterUpsBC3"
+    },
+    {
+      "typeStr": "3",
+      "name": "quarterUpsBC4"
+    },
+    {
+      "typeStr": "4",
+      "display": 1,
+      "name": "mobDensity"
+    },
+    {
+      "typeStr": "4",
+      "display": 1,
+      "name": "eliteWanderChance"
+    },
+    {
+      "typeStr": "4",
+      "display": 1,
+      "name": "eliteRoomChance"
+    },
+    {
+      "typeStr": "10:Outside,OverrideNumbMobMax,HasReflect,PoisonWater,LowCamera,HighCamera,NoCritter,HasDarkness,StartEmpty,DisableTopCollExt,DisableBottomCollExt,KeepFountainDiff1,HasMinorFlaskRefill,HasForge,IsBossLevel,PlainRoomTop,PlainSideCols,EmptySideCols,GenAllTeleports,CorruptedWater,ElitesInEveryRoom,HasHorizon,NotUsed,NoTeleport,DestroyEverything,Spoiler",
+      "name": "flags"
+    },
+    {
+      "typeStr": "10:NoLoot,NoExtraHeal,EnoughGoldInLevel,NoMobCell,NoGold,AllScrollsOnMobs,NoCollector",
+      "name": "lootFlags"
+    },
+    {
+      "typeStr": "8",
+      "name": "specificLoots"
+    },
+    {
+      "typeStr": "3",
+      "name": "minGold"
+    },
+    {
+      "typeStr": "8",
+      "name": "parallax"
+    },
+    {
+      "typeStr": "8",
+      "display": null,
+      "name": "loreDescriptions"
+    },
+    {
+      "typeStr": "8",
+      "name": "nextLevels"
+    },
+    {
+      "typeStr": "6:dlc",
+      "display": null,
+      "opt": true,
+      "name": "dlc"
+    }
+  ],
+  "__table_index": 10
+}

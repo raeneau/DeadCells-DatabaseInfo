@@ -1,0 +1,133 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 2,
+    "near": 15
+  },
+  "genTags": 512,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 1,
+  "group": 1,
+  "canBeElite": false,
+  "index": 91,
+  "volteDelay": 1,
+  "id": "Screamer",
+  "weight": 10,
+  "icon": {
+    "x": 42,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    600
+  ],
+  "name": "Criard",
+  "minPfHeight": 0,
+  "glowInnerColor": 11197250,
+  "minPfSize": 4,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "props": {
+        "bump": 1.5
+      },
+      "allowInAir": false,
+      "radius": 1.35,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "charge": 0.8,
+      "manual": false,
+      "id": "shove",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 6,
+      "power": [
+        12
+      ],
+      "props": {
+        "height": 1,
+        "stayDuration": 0.25,
+        "duration": 0.1
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_zmb_cc.wav",
+      "charge": 0.75,
+      "manual": false,
+      "id": "popSword",
+      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": true,
+      "id": "call",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_tp_charge.wav",
+      "charge": 0.2,
+      "manual": true,
+      "id": "teleport",
+      "sfxRelease": "sfx/enm_tp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 5,
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.35,
+      "allowSameSkillNearby": false,
+      "charge": 10,
+      "manual": true,
+      "id": "scream",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.5,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "SideKick",
+  "__original_Index": 91
+}

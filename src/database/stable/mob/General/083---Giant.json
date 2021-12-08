@@ -47,6 +47,11 @@
       "rarity": "Always",
       "item": "Giant4",
       "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessGiant",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

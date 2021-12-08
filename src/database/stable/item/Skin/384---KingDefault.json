@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Une armure Royale qui en jette. ",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "KingDefault",
+  "icon": {
+    "x": 14,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue du Roi",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 384
+}

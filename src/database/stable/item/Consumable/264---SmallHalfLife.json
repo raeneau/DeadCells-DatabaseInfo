@@ -1,0 +1,29 @@
+{
+  "props": {
+    "prct": 0.15,
+    "count": 50,
+    "duration": 1.5
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "SmallHalfLife",
+  "icon": {
+    "x": 30,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Petit Med-kit",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "SmallHealConsumable"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 264
+}

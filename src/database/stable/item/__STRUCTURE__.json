@@ -1,0 +1,80 @@
+{
+  "__columns": [
+    {
+      "typeStr": "14",
+      "display": null,
+      "name": "icon"
+    },
+    {
+      "typeStr": "0",
+      "name": "id"
+    },
+    {
+      "typeStr": "1",
+      "kind": "localizable",
+      "name": "name"
+    },
+    {
+      "typeStr": "1",
+      "opt": true,
+      "kind": "localizable",
+      "name": "gameplayDesc"
+    },
+    {
+      "typeStr": "1",
+      "opt": true,
+      "kind": "localizable",
+      "name": "ambiantDesc"
+    },
+    {
+      "typeStr": "6:tier",
+      "display": null,
+      "opt": true,
+      "name": "tier1"
+    },
+    {
+      "typeStr": "6:tier",
+      "display": null,
+      "opt": true,
+      "name": "tier2"
+    },
+    {
+      "typeStr": "6:affix",
+      "display": null,
+      "opt": true,
+      "name": "legendAffix"
+    },
+    {
+      "typeStr": "3",
+      "name": "moneyCost"
+    },
+    {
+      "typeStr": "3",
+      "display": null,
+      "name": "cellCost"
+    },
+    {
+      "typeStr": "2",
+      "name": "droppable"
+    },
+    {
+      "typeStr": "4",
+      "name": "castCD"
+    },
+    {
+      "typeStr": "8",
+      "name": "tags"
+    },
+    {
+      "typeStr": "17",
+      "name": "props"
+    },
+    {
+      "typeStr": "6:dlc",
+      "display": null,
+      "opt": true,
+      "name": "dlc"
+    }
+  ],
+  "__table_index": 1
+}

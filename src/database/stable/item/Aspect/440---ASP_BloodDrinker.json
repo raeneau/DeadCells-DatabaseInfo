@@ -1,0 +1,27 @@
+{
+  "props": {
+    "prct": 0.03
+  },
+  "gameplayDesc": "Every hit against a bleeding target heals you for ::prct::% of your max health. ",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_BloodDrinker",
+  "icon": {
+    "x": 2,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Blood Drinker",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 440
+}

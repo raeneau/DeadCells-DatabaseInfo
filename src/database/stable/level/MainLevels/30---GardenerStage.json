@@ -37,6 +37,11 @@
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_Castle"
+    }
+  ],
   "baseLootLevel": 6,
   "loreDescriptions": [
     {

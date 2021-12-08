@@ -1,0 +1,29 @@
+{
+  "props": {
+    "duration": 1.5
+  },
+  "gameplayDesc": "Lightning fast slice through inflicting hits to crossed enemies",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "id": "Katana",
+  "icon": {
+    "x": 24,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Sabre instantané",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 60,
+  "legendAffix": "BackDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 104
+}

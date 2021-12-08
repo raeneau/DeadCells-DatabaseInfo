@@ -279,6 +279,11 @@
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 4,
+  "nextLevels": [
+    {
+      "level": "T_GardenerStage"
+    }
+  ],
   "baseLootLevel": 6,
   "loreDescriptions": [
     {

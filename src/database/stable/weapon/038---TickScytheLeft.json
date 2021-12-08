@@ -1,0 +1,78 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "TickScytheLeft",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "pct": 0.05,
+        "bump": 0.3
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_tickscythe_charge1.wav",
+      "charge": 0.57,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -2,
+        "height": 6,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_tickscythe_release1.wav",
+      "fxId": "fxAtkScytheB2",
+      "animId": "atkScytheB1",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "hitFrame": 17,
+      "critMul": 1.5,
+      "glowColor": 16765997,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "pct": 0.05,
+        "bump": 0.4
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_tickscythe_charge3.wav",
+      "charge": 0.57,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_tickscythe_release1.wav",
+      "fxId": "fxAtkScytheB1",
+      "animId": "atkScytheB2",
+      "sfxHit": "sfx/hit_broadsword.wav",
+      "hitFrame": 17,
+      "critMul": 2,
+      "glowColor": 16765997,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 38
+}

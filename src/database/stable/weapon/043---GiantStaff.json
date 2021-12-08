@@ -1,0 +1,110 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "GiantStaff",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.05,
+      "props": {
+        "duration2": 0.635,
+        "bump": 0.1,
+        "duration": 2.5
+      },
+      "breachBonus": -0.95,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_sismic_charge2.wav",
+      "charge": 0.34,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
+      "fxId": "FxBeheadedStaffA/fxAtkStaffA",
+      "animId": "AtkStaffA",
+      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "hitFrame": 10,
+      "critMul": 1.8,
+      "glowColor": 16777215,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.1,
+        "duration": 2.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.44,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
+      "fxId": "FxBeheadedStaffB/fxAtkStaffB",
+      "animId": "AtkStaffB",
+      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "hitFrame": 11,
+      "critMul": 1.4,
+      "glowColor": 16764764,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        100
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_tickscythe_charge1.wav",
+      "charge": 0.45,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -1,
+        "height": 5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_giantstaff_release1.wav",
+      "fxId": "FxBeheadedStaffC/fxAtkStaffC",
+      "animId": "AtkStaffC",
+      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "hitFrame": 13,
+      "critMul": 1.4,
+      "glowColor": 16764764,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 43
+}

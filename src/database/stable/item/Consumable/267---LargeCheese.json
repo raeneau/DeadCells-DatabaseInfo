@@ -1,0 +1,29 @@
+{
+  "props": {
+    "prct": 0.5,
+    "count": 150,
+    "duration": 1.5
+  },
+  "gameplayDesc": "Restitue ::prct::% de votre santé.",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "LargeCheese",
+  "icon": {
+    "x": 1,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Camembert",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "LargeHealConsumable"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 267
+}

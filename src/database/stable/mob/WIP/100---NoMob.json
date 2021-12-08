@@ -1,0 +1,32 @@
+{
+  "props": {
+    "movePauseMul": 99999
+  },
+  "genTags": 544,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "index": 100,
+  "id": "NoMob",
+  "weight": 500,
+  "icon": {
+    "x": 26,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": 500000,
+  "name": "Nothing",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 11562569,
+  "skill": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "WIP",
+  "__original_Index": 100
+}

@@ -35,6 +35,14 @@
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_AncientTemple"
+    },
+    {
+      "level": "T_Cemetery"
+    }
+  ],
   "baseLootLevel": 5,
   "loreDescriptions": [
     {

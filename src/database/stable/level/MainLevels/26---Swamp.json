@@ -121,6 +121,11 @@
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_SwampHeart"
+    }
+  ],
   "baseLootLevel": 4,
   "loreDescriptions": [
     {

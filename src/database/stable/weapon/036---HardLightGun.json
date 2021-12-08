@@ -1,0 +1,42 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "HardLightGun",
+  "strikeChain": [
+    {
+      "coolDown": 0.2,
+      "power": 30,
+      "fxProps": {
+        "fxStartFrame": -1
+      },
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "color": 65023
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_hyperlight_gun_shot.wav",
+      "fxId": "fxatkHardLightGunShootA",
+      "animId": "atkhardLightGunShootA",
+      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "hitFrame": 2,
+      "critMul": 3,
+      "glowColor": 16777215
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 36
+}

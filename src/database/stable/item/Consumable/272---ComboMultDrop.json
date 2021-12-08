@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "Ajoute un bonus de points",
+  "moneyCost": 0,
+  "group": 10,
+  "castCD": 0,
+  "id": "ComboMultDrop",
+  "icon": {
+    "x": 10,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bonus de points",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 10,
+  "__separator_group_Name": "Consumable",
+  "__original_Index": 272
+}

@@ -1,0 +1,27 @@
+{
+  "props": {},
+  "gameplayDesc": "U26_BONE_GAMEPLAYDESC",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U26_BONE_AMBIANTDESC",
+  "id": "SkulBone",
+  "icon": {
+    "x": 28,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "U26_BONE_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "LongerComboWindow"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 113
+}

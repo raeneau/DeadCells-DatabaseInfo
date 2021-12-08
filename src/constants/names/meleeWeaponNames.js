@@ -248,4 +248,26 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Broken Toothpick",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  MACHETE_PISTOL: {
+    INTERNAL_ID: "MACHETEPISTOL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Machete and Pistol",
+  },
+  HARD_LIGHT_SWORD: {
+    INTERNAL_ID: "HARDLIGHTSWORD",
+    TYPE: MELEE_WEAPON,
+    NAME: "Hard Light Sword",
+  },
+  PURE_NAIL: {
+    INTERNAL_ID: "PURENAIL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Pure Nail",
+  },
+  BONE: {
+    INTERNAL_ID: "SKULBONE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bone",
+  },
 };

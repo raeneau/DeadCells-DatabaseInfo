@@ -111,6 +111,14 @@
   "specificSubBiome": [],
   "minGold": 3500,
   "tripleUps": 4,
+  "nextLevels": [
+    {
+      "level": "T_Giant"
+    },
+    {
+      "level": "T_GardenerStage"
+    }
+  ],
   "baseLootLevel": 7,
   "loreDescriptions": [
     {

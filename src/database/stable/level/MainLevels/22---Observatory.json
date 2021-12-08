@@ -20,7 +20,7 @@
   "index": 22,
   "id": "Observatory",
   "dlc": "RiseOfTheGiant",
-  "flags": 148993,
+  "flags": 33703425,
   "worldDepth": 10,
   "icon": {
     "x": 11,
@@ -36,6 +36,7 @@
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 0,
+  "nextLevels": [],
   "baseLootLevel": 7,
   "loreDescriptions": [
     {

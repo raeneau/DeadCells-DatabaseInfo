@@ -1,0 +1,45 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 13542177,
+    "perfectKillsDoor": 0,
+    "musicLoop": "music/default/dc_colletor2.ogg",
+    "zDoorColor": 16050375,
+    "viewerY": 1,
+    "perfectKillsBetterReward": true
+  },
+  "lootFlags": 27,
+  "transitionTo": "Castle",
+  "biome": "Castle",
+  "doubleUps": 0,
+  "group": 1,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 56,
+  "id": "T_Castle",
+  "flags": 10240,
+  "worldDepth": 6,
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "Passage vers le Château et la Distillerie",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 0,
+  "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "Castle"
+    },
+    {
+      "level": "Distillery"
+    }
+  ],
+  "baseLootLevel": 5,
+  "loreDescriptions": [],
+  "parallax": [],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Transition",
+  "__original_Index": 56
+}
