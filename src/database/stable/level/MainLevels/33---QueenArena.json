@@ -1,0 +1,2680 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 2474441,
+    "viewerColor": 1441839,
+    "musicLoop": "music/default/lighthouse_ambiance.ogg",
+    "droneMusic": "music/default/lighthouse_ambiance_bg.ogg",
+    "chromaColor": 62719,
+    "loadingDescColor": 5765563,
+    "loadingColor": 396559
+  },
+  "lootFlags": 17,
+  "biome": "QueenArena",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 33,
+  "id": "QueenArena",
+  "dlc": "TheQueenAndTheSea",
+  "flags": 16481,
+  "worldDepth": 10,
+  "icon": {
+    "x": 61,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "The Crown",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 2500,
+  "tripleUps": 0,
+  "nextLevels": [],
+  "baseLootLevel": 7,
+  "loreDescriptions": [
+    {
+      "text": "You have a clear view of the island's coast from here. Broken ships here, broken ships there..."
+    },
+    {
+      "text": "No one knows who and what the statues forming a circle at the top of the tower are meant to depict. They sure look solemn, though."
+    },
+    {
+      "text": "As life on the island went extinct, so too did the beacon of the Lighthouse. How tragic."
+    },
+    {
+      "text": "What a romantic setting! Watching the sunrise from here must be worth its while."
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "bg/QA_fronthanger1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.81,
+        "hfill": 1,
+        "fromX": 0.245,
+        "vfill": 0,
+        "densityX": 0.14
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger1",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1.05,
+      "scrollY": 1.05
+    },
+    {
+      "tileName": "bg/QA_fronthanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.8075,
+        "hfill": 1,
+        "fromX": 0.24625,
+        "vfill": 0,
+        "densityX": 0.1425
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger2bisbis",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1.0325,
+      "scrollY": 1.0325
+    },
+    {
+      "tileName": "bg/QA_fronthanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.805,
+        "hfill": 1,
+        "fromX": 0.2475,
+        "vfill": 0,
+        "densityX": 0.145
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger2",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1.025,
+      "scrollY": 1.025
+    },
+    {
+      "tileName": "bg/QA_fronthanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.8025,
+        "hfill": 1,
+        "fromX": 0.2482,
+        "vfill": 0,
+        "densityX": 0.1475
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger2bis",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1.0125,
+      "scrollY": 1.0125
+    },
+    {
+      "tileName": "bg/QA_fronthanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.8,
+        "hfill": 1,
+        "fromX": 0.25,
+        "vfill": 0,
+        "densityX": 0.15
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger2base",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_fronthanger3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.002,
+        "levelY": 0.539
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.8,
+        "hfill": 1,
+        "fromX": 0.25,
+        "vfill": 0,
+        "densityX": 0.15
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_fronthanger3",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_rempart_windows",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.005,
+        "levelY": 0.58
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.75,
+        "hfill": 1,
+        "fromX": 0.25,
+        "vfill": 0,
+        "densityX": 0.5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_rempart_windows",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainAction",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_platform_end1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.2475,
+        "levelY": 0.5125
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.75,
+        "hfill": 0,
+        "fromX": 0.25,
+        "vfill": 0,
+        "densityX": 0.5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_platform_end_left",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "MainAction",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_platform_end1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "flipX": true,
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7525,
+        "levelY": 0.5125
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.75,
+        "hfill": 0,
+        "fromX": 0.25,
+        "vfill": 0,
+        "densityX": 0.5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_platform_end_right",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "MainAction",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.302,
+        "levelY": 0.495
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue0",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue0",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.684,
+        "levelY": 0.495
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue0_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue6",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.4,
+        "levelY": 0.495
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue6",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue6",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.585,
+        "levelY": 0.495
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue6_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.265,
+        "levelY": 0.49
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_statue1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_statue1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.735,
+        "levelY": 0.49
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_statue1_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_rempartBASE",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.51
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.73,
+        "hfill": 1,
+        "fromX": 0.26,
+        "vfill": 0,
+        "densityX": 1
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_rempartBase",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_rempart1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.483
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.73,
+        "hfill": 1,
+        "fromX": 0.27,
+        "vfill": 0,
+        "densityX": 0.5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_rempart1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/QA_pillarBROKEN",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.24,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.97,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "bg/QA_hanger1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.23,
+        "levelY": 0.537
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_hanger1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.97,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "bg/QA_hanger1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.77,
+        "levelY": 0.537
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_hanger1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.97,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "bg/QA_pillarBROKEN",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.76,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.97,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart1",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.224,
+        "levelY": 0.518
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar_rempart1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.776,
+        "levelY": 0.518
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar_rempart1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_pillarBROKENERO",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.23,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_hanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.2197,
+        "levelY": 0.535
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_hanger2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_hanger2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7803,
+        "levelY": 0.535
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_hanger2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_pillarBROKENERO",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.77,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.94,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/QA_pillar3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.22,
+        "levelY": 0.5175
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.91,
+      "scrollY": 0.85
+    },
+    {
+      "tileName": "bg/QA_pillar3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.78,
+        "levelY": 0.5175
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.91,
+      "scrollY": 0.85
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.21,
+        "levelY": 0.518
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar_rempart2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.79,
+        "levelY": 0.518
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar_rempart2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_pillar4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.2158,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_statue2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.223,
+        "levelY": 0.515
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_statue2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_statue2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.777,
+        "levelY": 0.515
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_statue2_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_arenaspike2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.23,
+        "levelY": 0.55
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_arenaspike2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_hanger3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.21,
+        "levelY": 0.535
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_hanger3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_hanger3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.79,
+        "levelY": 0.535
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_hanger3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_pillar4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7842,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_pillar4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.215,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar4Bis",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.85,
+      "scrollY": 0.75
+    },
+    {
+      "tileName": "bg/QA_arenaspike2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.77,
+        "levelY": 0.55
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_arenaspike2_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/QA_pillar4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.785,
+        "levelY": 0.518
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar4Bis",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.85,
+      "scrollY": 0.75
+    },
+    {
+      "tileName": "bg/QA_fireglow",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.315,
+        "levelY": 0.68
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 32.95,
+        "scaleY": 2.5
+      },
+      "name": "QA_fireglow",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_fireglow_edge",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.315,
+        "levelY": 0.68
+      },
+      "pivotX": 1,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 2.5
+      },
+      "name": "QA_fireglow_edge",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_fireglow_edge",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7805,
+        "levelY": 0.68
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 2.5
+      },
+      "name": "QA_fireglow_edge_flipped",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "fxQueenArenaFlame",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.56
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.24,
+        "hfill": 1,
+        "fromX": 0,
+        "vfill": 0,
+        "densityX": 5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1.5
+      },
+      "name": "QA_fire_under",
+      "color": 9568216,
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.75
+    },
+    {
+      "tileName": "fxQueenArenaFlame",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.53
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.24,
+        "hfill": 1,
+        "fromX": 0,
+        "vfill": 0,
+        "densityX": 5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1.2
+      },
+      "name": "QA_fire_front",
+      "color": 9568216,
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.75
+    },
+    {
+      "tileName": "fxQueenArenaFlame",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.51
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "toX": 0.23,
+        "hfill": 1,
+        "fromX": 0,
+        "vfill": 0,
+        "densityX": 5
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 0.8,
+        "scaleY": 1
+      },
+      "name": "QA_fire_back",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.82,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "bg/QA_pillar5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.217,
+        "levelY": 0.5175
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.82,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "bg/QA_hanger4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.217,
+        "levelY": 0.54
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_hanger4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.82,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "bg/QA_hanger4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7803,
+        "levelY": 0.54
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_hanger4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.82,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "bg/QA_pillar5",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.783,
+        "levelY": 0.5175
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.82,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "bg/QA_pillar6",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.222,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar6",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.79,
+      "scrollY": 0.65
+    },
+    {
+      "tileName": "bg/QA_pillar6",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.778,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar6",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.79,
+      "scrollY": 0.65
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.218,
+        "levelY": 0.517
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar_rempart4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.782,
+        "levelY": 0.517
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar_rempart4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_pillar7",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.227,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar7",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_hanger5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.223,
+        "levelY": 0.54
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_hanger5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_hanger5",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.777,
+        "levelY": 0.54
+      },
+      "pivotX": 1,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_hanger5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_pillar7",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.773,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar7",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.76,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.23,
+        "levelY": 0.517
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar_rempart3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.73,
+      "scrollY": 0.55
+    },
+    {
+      "tileName": "bg/QA_pillar_rempart3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.77,
+        "levelY": 0.517
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar_rempart3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.73,
+      "scrollY": 0.55
+    },
+    {
+      "tileName": "bg/QA_pillar8",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.235,
+        "levelY": 0.5165
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar8",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.73,
+      "scrollY": 0.55
+    },
+    {
+      "tileName": "bg/QA_pillar8",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.765,
+        "levelY": 0.5165
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar8",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.73,
+      "scrollY": 0.55
+    },
+    {
+      "tileName": "bg/QA_pillar9",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.245,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_left_pillar9",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.71,
+      "scrollY": 0.51
+    },
+    {
+      "tileName": "bg/QA_pillar9",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.755,
+        "levelY": 0.517
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_right_pillar9",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainFrontWalls",
+      "scrollX": 0.71,
+      "scrollY": 0.51
+    },
+    {
+      "tileName": "bg/QA_statue3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.297,
+        "levelY": 0.519
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_statue3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.703,
+        "levelY": 0.519
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue3_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_arenaspike3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 0.61
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_arenaspike3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_arenaspike3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.7,
+        "levelY": 0.61
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_arenaspike3_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_statue4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.388,
+        "levelY": 0.519
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_statue4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.612,
+        "levelY": 0.519
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue4_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_arenaspike4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.39,
+        "levelY": 0.61
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_arenaspike4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_statue5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.519
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_statue5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_arenaspike5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.63
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_arenaspike5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_arenaspike4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.61,
+        "levelY": 0.61
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_arenaspike4_right",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_rempart2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.494
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "toX": 0.75,
+        "hfill": 1,
+        "fromX": 0.25,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_rempart2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_bg4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.52
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 30,
+        "scaleY": 1
+      },
+      "name": "QA_bg4",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_bg4_edge",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.28,
+        "levelY": 0.52
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_bg4_edge",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_bg4_edge",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.72,
+        "levelY": 0.52
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_bg4_edge_flipped",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.7,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/QA_bg0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 200,
+        "scaleY": 1.5
+      },
+      "name": "QA_bg0",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_bg0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 200,
+        "scaleY": 1.5
+      },
+      "name": "QA_bg0DUP",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_clouds1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "rotation": 0.0007
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": -0.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_clouds1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_bg2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 2.5
+      },
+      "name": "QA_bg2",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_clouds2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "rotation": 0.0003
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": -0.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_clouds2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_clouds3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "rotation": 0.0001
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": -0.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_clouds3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_clouds4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "rotation": 0.0001
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": -0.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_clouds4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_moon",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.4
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_moon",
+      "scatter": true,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_moon_glow",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.4
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_moon_glow",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "fxShootingStars",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "range": [
+          1,
+          5
+        ]
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "QA_comets",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_stars",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.38
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_stars",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_aurora",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 0.4
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_aurora",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/QA_bg1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.5,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "QA_queensky",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.01,
+      "scrollY": 0.01
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 33
+}

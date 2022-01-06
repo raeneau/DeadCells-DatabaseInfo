@@ -1,0 +1,25 @@
+{
+  "props": {
+    "power": 2500,
+    "reqItem": "Money4",
+    "reqUnlocks": 30
+  },
+  "gameplayDesc": "Conserve jusqu'à ::power:: {iconCoin@img} à votre mort.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "Money5",
+  "icon": {
+    "x": 21,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Sauvetage de l'or V",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 400,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 236
+}

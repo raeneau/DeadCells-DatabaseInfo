@@ -319,7 +319,7 @@
       "isCloud": false,
       "props": {
         "alpha": 0.4,
-        "disableInZDoor": true,
+        "disableInZDoor": false,
         "customDepth": 14
       },
       "reflected": false,
@@ -351,7 +351,8 @@
       "visible": true,
       "isCloud": false,
       "props": {
-        "alpha": 0.7
+        "alpha": 0.7,
+        "disableInZDoor": true
       },
       "reflected": false,
       "position": {
@@ -377,7 +378,9 @@
       "tileName": "bg/cloud0",
       "visible": true,
       "isCloud": false,
-      "props": {},
+      "props": {
+        "disableInZDoor": true
+      },
       "reflected": false,
       "position": {
         "levelX": 0,
@@ -406,6 +409,7 @@
         "midDensity": 0.3,
         "topDensity": 0.4,
         "alpha": 0.95,
+        "disableInZDoor": true,
         "prct": 0.3
       },
       "reflected": false,
@@ -758,7 +762,8 @@
       "visible": true,
       "isCloud": false,
       "props": {
-        "alpha": 0.8
+        "alpha": 0.8,
+        "disableInZDoor": true
       },
       "reflected": false,
       "position": {
@@ -786,7 +791,8 @@
       "visible": true,
       "isCloud": false,
       "props": {
-        "alpha": 0.8
+        "alpha": 0.8,
+        "disableInZDoor": true
       },
       "reflected": false,
       "position": {
@@ -817,6 +823,7 @@
         "midDensity": 0.3,
         "topDensity": 0.5,
         "alpha": 0.75,
+        "disableInZDoor": true,
         "prct": 1
       },
       "reflected": false,
@@ -871,7 +878,9 @@
       "tileName": "bg/sea2",
       "visible": true,
       "isCloud": false,
-      "props": {},
+      "props": {
+        "disableInZDoor": true
+      },
       "reflected": false,
       "position": {
         "levelX": 0,

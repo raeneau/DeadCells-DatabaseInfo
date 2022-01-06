@@ -1,0 +1,37 @@
+{
+  "props": {
+    "scaledValueCap": 1,
+    "buff": 1,
+    "prct": 0.5,
+    "customScaling": 0.025,
+    "duration": 0.75
+  },
+  "gameplayDesc": "Transforme toute votre vie actuelle et ::*prct::% de votre vie manquante en {récupération@RA}.",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 30,
+  "id": "LeechBuff",
+  "icon": {
+    "x": 9,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Vampirisme",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 45,
+  "legendAffix": "RunSpeedOnUse",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 29
+}

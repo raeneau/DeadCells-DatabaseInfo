@@ -1,0 +1,23 @@
+{
+  "props": {
+    "revealedAtStart": true
+  },
+  "gameplayDesc": "Débloque une potion de soin utilisable à tout moment.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "Flask1",
+  "icon": {
+    "x": 13,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Potion de soin I",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 5,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 228
+}

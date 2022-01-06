@@ -26,7 +26,7 @@
         "width": 3.1,
         "offsetCaseX": 0,
         "offsetCaseY": 0,
-        "height": 2.5,
+        "height": 2.3,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_saber_release1.wav",
@@ -59,7 +59,7 @@
         "width": 3.3,
         "offsetCaseX": 0,
         "offsetCaseY": 0,
-        "height": 2.5,
+        "height": 2.3,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_saber_release2.wav",

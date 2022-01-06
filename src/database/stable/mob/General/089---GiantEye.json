@@ -1,0 +1,47 @@
+{
+  "props": {
+    "fallResistance": 1,
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "highlightOnKill": false,
+    "directHitStunChance": 0,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 596,
+  "glowOuterColor": 13243412,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 89,
+  "id": "GiantEye",
+  "dlc": "RiseOfTheGiant",
+  "weight": 50,
+  "icon": {
+    "x": 61,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    2500
+  ],
+  "name": "L'Oeil du Gigantus",
+  "minPfHeight": 0,
+  "glowInnerColor": 16754944,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "skill": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 89
+}

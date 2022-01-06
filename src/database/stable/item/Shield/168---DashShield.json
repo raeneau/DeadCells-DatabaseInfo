@@ -1,0 +1,34 @@
+{
+  "props": {},
+  "gameplayDesc": "Bloque les attaques tout en chargeant en avant.",
+  "moneyCost": 2000,
+  "group": 6,
+  "castCD": 0,
+  "id": "DashShield",
+  "icon": {
+    "x": 18,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bouclier d'assaut",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Brutality",
+  "cellCost": 40,
+  "legendAffix": "BleedOnHit",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 168
+}

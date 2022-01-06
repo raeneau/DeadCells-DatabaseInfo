@@ -1,0 +1,32 @@
+{
+  "props": {
+    "item": "CrossBow"
+  },
+  "gameplayDesc": "Recharge l'arbalète lourde. La prochaine volée de carreau inflige des {coups critiques@CC}.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "CrossBowOffHand",
+  "icon": {
+    "x": 24,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Rechargement",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "DualWeaponOffhand"
+    },
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 134
+}

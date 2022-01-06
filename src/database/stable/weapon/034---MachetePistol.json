@@ -5,20 +5,20 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": 35,
+      "power": 45,
       "fxProps": {},
       "lockCtrlAfter": 0.1,
       "props": {},
       "breachBonus": 0,
       "dynamicCharge": 0,
-      "charge": 0.3,
+      "charge": 0.26,
       "sfxProps": {},
       "canCrit": false,
       "area": {
-        "width": 3,
+        "width": 3.8,
         "offsetCaseX": 0,
         "offsetCaseY": 0,
-        "height": 2,
+        "height": 2.7,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_machete_release1.wav",
@@ -26,11 +26,11 @@
       "animId": "AtkCodgA",
       "sfxHit": "sfx/hit_blade.wav",
       "hitFrame": 8,
-      "animSpd": 1.35
+      "animSpd": 1.3
     },
     {
       "coolDown": 0,
-      "power": 45,
+      "power": 55,
       "fxProps": {},
       "lockCtrlAfter": 0.2,
       "props": {},
@@ -40,31 +40,31 @@
       "sfxProps": {},
       "canCrit": false,
       "area": {
-        "width": 3,
+        "width": 3.8,
         "offsetCaseX": 0,
         "offsetCaseY": 0,
-        "height": 2,
+        "height": 2.7,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon_machete_release2.wav",
       "fxId": "fxCodgB",
       "animId": "AtkCodgB",
       "sfxHit": "sfx/hit_blade.wav",
-      "hitFrame": 14,
-      "animSpd": 1.35
+      "hitFrame": 9,
+      "animSpd": 1
     },
     {
       "coolDown": 0,
       "power": 65,
       "fxProps": {},
-      "lockCtrlAfter": 0.5,
+      "lockCtrlAfter": 0.4,
       "props": {
         "bump": 1.2
       },
       "breachBonus": 1,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_machete_charge3.wav",
-      "charge": 0.3,
+      "charge": 0.15,
       "sfxProps": {},
       "canCrit": true,
       "area": {
@@ -80,7 +80,7 @@
       "sfxHit": "sfx/hit_broadsword.wav",
       "hitFrame": 5,
       "critMul": 1,
-      "animSpd": 0.9
+      "animSpd": 1
     }
   ],
   "airControlAlways": false,

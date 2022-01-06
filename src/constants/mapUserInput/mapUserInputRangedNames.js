@@ -132,4 +132,14 @@ export default {
   HLDGUN: rangedWeaponNames.HARD_LIGHT_GUN,
   HYPERLIGHTDRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
   DRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  THROWINGCARDS: rangedWeaponNames.THROWINGCARDS,
+  CARDS: rangedWeaponNames.THROWINGCARDS,
+  KILLINGDECK: rangedWeaponNames.THROWINGCARDS,
+  DECK: rangedWeaponNames.THROWINGCARDS,
+
+  HEAVYBOW: rangedWeaponNames.HEAVYBOW,
+  GILDEDYUMI: rangedWeaponNames.HEAVYBOW,
+  YUMI: rangedWeaponNames.HEAVYBOW,
 };

@@ -1,0 +1,27 @@
+{
+  "props": {},
+  "gameplayDesc": "Une {parade@PA} réussie fait tomber les dents des ennemis (1 par ennemi). Transforme les flèches en or.",
+  "moneyCost": 1750,
+  "group": 6,
+  "castCD": 0,
+  "id": "GreedShield",
+  "icon": {
+    "x": 7,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bouclier de cupidité",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Shield"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "legendAffix": "DoubleDamageFree",
+  "__separator_group_ID": 6,
+  "__separator_group_Name": "Shield",
+  "__original_Index": 170
+}

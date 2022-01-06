@@ -1,0 +1,528 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "propsOuterGlow": 262399,
+    "doorColor": 14085636,
+    "musicIntro": "music/default/shipwreck_intro.ogg",
+    "viewerColor": 6666220,
+    "musicLoop": "music/default/shipwreck_loop.ogg",
+    "zDoorColor": 2216580,
+    "viewerY": -3,
+    "droneMusic": "music/default/shipwreck_ambiance.ogg",
+    "fogColor": 2230566,
+    "chromaColor": 65490,
+    "propsInnerGlow": 59903,
+    "wind": -2,
+    "horizon": 0.35,
+    "loadingDescColor": 6904202,
+    "loadingColor": 2957879
+  },
+  "lootFlags": 0,
+  "biome": "Shipwreck",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0.5,
+  "index": 31,
+  "id": "Shipwreck",
+  "dlc": "TheQueenAndTheSea",
+  "flags": 2097408,
+  "worldDepth": 7,
+  "icon": {
+    "x": 53,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0.3,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "AnchorGuy",
+      "minDifficulty": 0,
+      "quantityFactor": 1.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "ClusterGrenader",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "PirateChief",
+      "minDifficulty": 2,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 4
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 0.7,
+      "minCombatRoomsBefore": 4
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Rat",
+      "minDifficulty": 0,
+      "quantityFactor": 0.7,
+      "packSize": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 0.7,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Infested Shipwreck",
+  "mobDensity": 0.75,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 4000,
+  "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_Lighthouse"
+    }
+  ],
+  "baseLootLevel": 6,
+  "loreDescriptions": [
+    {
+      "text": "A creaking heap of driftwood. Surely nothing bad can come out of it."
+    },
+    {
+      "text": "In the sea, no one can hear you scream."
+    },
+    {
+      "text": "Ships were freely coming and going to the island before the Lighthouse was extinguished."
+    },
+    {
+      "text": "Ph'nglui mglw'nafh staphy dobor wgah'nagl fhtagn."
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "bg/linearGradientAlpha",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": false,
+        "alpha": 0.3,
+        "flipY": true,
+        "disableInZDoor": true,
+        "customDepth": 15
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "SH_botgradient",
+      "color": 136272,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.4,
+        "count": 10
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 0.5
+      },
+      "name": "SH_WaterfallScrollers",
+      "color": 7128575,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": -3.5,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 0,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_Water",
+      "color": 463150,
+      "scatter": false,
+      "innerGlow": 0,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "mer1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0.2,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_mer2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bateauxBGA",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.99
+      },
+      "pivotX": 0,
+      "pivotY": 0.8,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_boats2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bateauxBG",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 16766976,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.98
+      },
+      "pivotX": 0,
+      "pivotY": 0.8,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_boats",
+      "scatter": false,
+      "innerGlow": 16772608,
+      "blendMode": 0,
+      "scrollX": 0.7,
+      "scrollY": 1
+    },
+    {
+      "tileName": "mer2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1.25
+      },
+      "pivotX": 0,
+      "pivotY": 0.4,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_mer",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 1
+    },
+    {
+      "tileName": "nuages",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.9
+      },
+      "pivotX": 0,
+      "pivotY": 0.3,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 0
+      },
+      "name": "SH_Clouds",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "nuages",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.88
+      },
+      "pivotX": 0,
+      "pivotY": 0.4,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_Clouds2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.3,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "nuages",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.85
+      },
+      "pivotX": 0,
+      "pivotY": 0.4,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_Clouds3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.15,
+      "scrollY": 0.4
+    },
+    {
+      "tileName": "nuagesBbis",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.82
+      },
+      "pivotX": 0,
+      "pivotY": 0.4,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_Clouds4",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.09,
+      "scrollY": 0.25
+    },
+    {
+      "tileName": "bg/skyGradient",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "SH_sky",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/abimes",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "aboveSurface": false
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "SH_DeepWater",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 1
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.35,
+        "angle": 0.3,
+        "count": 5
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "SH_GodRayScrollers",
+      "color": 16604217,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    }
+  ],
+  "bonusTripleScrollAfterBC": "Hard",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 31
+}

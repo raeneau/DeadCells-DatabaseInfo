@@ -1,0 +1,28 @@
+{
+  "props": {
+    "duration2": 0.1,
+    "prct": 0.5,
+    "duration": 0.5
+  },
+  "gameplayDesc": "The first attack damage scales with your current movement speed.",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_ELBOWBLADES_AMBIANTDESC",
+  "id": "ElbowBlades",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 34,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bladed Tonfas",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 122
+}

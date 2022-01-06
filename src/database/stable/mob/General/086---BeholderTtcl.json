@@ -1,0 +1,85 @@
+{
+  "props": {
+    "dmgSoftCap": [
+      0,
+      0.5
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "bumpResistance": 1,
+    "insensitiveSpike": true
+  },
+  "genTags": 576,
+  "glowOuterColor": 13243412,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 86,
+  "volteDelay": 0,
+  "id": "BeholderTtcl",
+  "weight": 30,
+  "icon": {
+    "x": 45,
+    "y": 75,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    250
+  ],
+  "name": "Tentacule de Conjonctivius",
+  "minPfHeight": 0,
+  "glowInnerColor": 16754944,
+  "minPfSize": 12,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "skill": [
+    {
+      "coolDown": 2,
+      "power": [
+        5
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "charge": 0.6,
+      "manual": true,
+      "id": "stroke",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 2,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 10,
+      "power": [
+        8
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "distance": 8
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": true,
+      "id": "sweep",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 10,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 86
+}

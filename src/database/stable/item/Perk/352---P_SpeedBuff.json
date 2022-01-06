@@ -1,0 +1,23 @@
+{
+  "props": {
+    "count": 3
+  },
+  "gameplayDesc": "Temps du bonus de vitesse de course (enchaînement d'ennemis tués) x::count::.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_SpeedBuff",
+  "icon": {
+    "x": 9,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Vélocité",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 352
+}

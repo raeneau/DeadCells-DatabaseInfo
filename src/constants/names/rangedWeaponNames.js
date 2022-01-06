@@ -180,4 +180,16 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Hard Light Gun",
   },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  THROWINGCARDS: {
+    INTERNAL_ID: "THROWINGCARDS",
+    TYPE: RANGED_WEAPON,
+    NAME: "Killing Deck",
+  },
+  HEAVYBOW: {
+    INTERNAL_ID: "HEAVYBOW",
+    TYPE: RANGED_WEAPON,
+    NAME: "Gilded Yumi",
+  },
 };

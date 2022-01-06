@@ -1,0 +1,165 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "WreckingBall",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        200
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.4,
+      "props": {
+        "duration2": 0.1,
+        "offsetX": 3,
+        "offsetY": 3,
+        "bump": 0.5,
+        "duration": 0.2,
+        "threshold": 28
+      },
+      "breachBonus": 3,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_wreckb_charge1.wav",
+      "charge": 0.94,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_wreckb_release1.wav",
+      "animId": "AtkWreckingballA",
+      "sfxHit": "sfx/weapon_wreckb_hit.wav",
+      "hitFrame": 28,
+      "glowColor": 5256098,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        180
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "speed": 0.5,
+        "duration2": 0.2,
+        "offsetX": -2,
+        "offsetY": 2,
+        "fullCharge": 25,
+        "bump": 0.5,
+        "duration": 0.2,
+        "threshold": 31
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_wreckb_charge2.wav",
+      "charge": 1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_wreckb_release1.wav",
+      "animId": "AtkWreckingballB",
+      "sfxHit": "sfx/weapon_wreckb_hit.wav",
+      "hitFrame": 29,
+      "glowColor": 5256098,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        120
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.83,
+      "props": {
+        "speed": 1,
+        "altAnim": "AtkWreckingballCNOBALL",
+        "duration2": 0.2,
+        "offsetX": 3.5,
+        "offsetY": -0.5,
+        "fullCharge": 26,
+        "bump": 1,
+        "angle": 22,
+        "duration": 0.2,
+        "scale": 0.9
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_wreckb_charge3.wav",
+      "charge": 0.7,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_wreckb_release2.wav",
+      "animId": "AtkWreckingballC",
+      "sfxHit": "sfx/weapon_wreckb_hit.wav",
+      "hitFrame": 21,
+      "earlyCombo": 0.5,
+      "glowColor": 5256098,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        250
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.46,
+      "props": {
+        "speed": 1,
+        "duration2": 0.2,
+        "offsetX": -3,
+        "offsetY": 1.5,
+        "fullCharge": 34,
+        "pct": 0.5,
+        "bump": 1,
+        "duration": 0.2,
+        "threshold": 42,
+        "scale": 0.9
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_wreckb_charge4.wav",
+      "charge": 0.8,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_wreckb_release3.wav",
+      "animId": "AtkWreckingballD",
+      "sfxHit": "sfx/weapon_wreckb_hit.wav",
+      "hitFrame": 36,
+      "critMul": 1,
+      "earlyCombo": 0.5,
+      "glowColor": 14380096,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 109
+}

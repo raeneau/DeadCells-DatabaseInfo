@@ -1,0 +1,44 @@
+{
+  "props": {
+    "duration2": 1,
+    "size": 2,
+    "dotDps": 40,
+    "effectCD": 0.34,
+    "duration": 4
+  },
+  "gameplayDesc": "The third attack throws the shark, {rooting@RO} the enemy and causing it to {bleed@BL}.",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_SHARK_AMBIANTDESC",
+  "id": "Shark",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 33,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Maw of the Deep",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "ForceAmmoDrop"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 80,
+  "legendAffix": "StunDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 121
+}

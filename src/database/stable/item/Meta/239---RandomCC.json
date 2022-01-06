@@ -1,0 +1,24 @@
+{
+  "props": {
+    "revealedAtStart": true,
+    "reqUnlocks": 12
+  },
+  "gameplayDesc": "L'arme de mélée de départ est tirée aléatoirement parmi vos armes débloquées.",
+  "moneyCost": 0,
+  "group": 9,
+  "castCD": 0,
+  "id": "RandomCC",
+  "icon": {
+    "x": 2,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Arme de mélée aléatoire",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 65,
+  "__separator_group_ID": 9,
+  "__separator_group_Name": "Meta",
+  "__original_Index": 239
+}

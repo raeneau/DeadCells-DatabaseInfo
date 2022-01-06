@@ -210,4 +210,20 @@ export default {
 
   BONE: meleeWeaponNames.BONE,
   SKULBONE: meleeWeaponNames.BONE,
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  TRIDENT: meleeWeaponNames.TRIDENT,
+
+  HANDHOOK: meleeWeaponNames.HANDHOOK,
+
+  SHARK: meleeWeaponNames.SHARK,
+  MAWOFTHEDEEP: meleeWeaponNames.SHARK,
+
+  ELBOWBLADES: meleeWeaponNames.ELBOW_BLADES,
+  BLADEDTONFAS: meleeWeaponNames.ELBOW_BLADES,
+
+  WRECKINGBALL: meleeWeaponNames.WRECKINGBALL,
+
+  QUEENRAPIER: meleeWeaponNames.QUEENRAPIER,
+  QUEENSRAPIER: meleeWeaponNames.QUEENRAPIER,
 };

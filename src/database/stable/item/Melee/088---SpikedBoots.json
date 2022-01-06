@@ -1,0 +1,30 @@
+{
+  "props": {
+    "grenadeKickPow": 0.25,
+    "bump": 0.6
+  },
+  "gameplayDesc": "Inflige un {coup critique@CC} si le coup de pied interrompt une attaque.",
+  "moneyCost": 1600,
+  "group": 4,
+  "castCD": 0,
+  "id": "SpikedBoots",
+  "icon": {
+    "x": 0,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bottes cloutées",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UtilityWeapon"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 35,
+  "legendAffix": "BackDamage",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 88
+}

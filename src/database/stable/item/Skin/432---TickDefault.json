@@ -1,0 +1,22 @@
+{
+  "props": {},
+  "gameplayDesc": "Something tick related.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "TickDefault",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 27,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue de la Tique Géante",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 75,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 432
+}

@@ -1,0 +1,58 @@
+{
+  "props": {
+    "range": 0.4,
+    "power": 15,
+    "duration2": 2,
+    "targetable": true,
+    "explosionRange": 2.5,
+    "dps": [
+      60
+    ],
+    "bump": 0.7,
+    "dps2": [
+      40
+    ],
+    "frict": 0.85,
+    "life": 200,
+    "effectCD": 1.5,
+    "duration": 0.8
+  },
+  "gameplayDesc": "Shoots heavy cannonballs at nearby enemies. Short activation range and slow rate of fire.",
+  "moneyCost": 1900,
+  "group": 0,
+  "castCD": 14,
+  "ambiantDesc": "DLC3_WEAPON_CANNON_AMBIANTDESC",
+  "id": "Cannon",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 31,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Scavenged Bombard",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Deployable"
+    },
+    {
+      "tag": "NeedPower"
+    },
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "DeployedTrap",
+  "__original_Index": 11
+}

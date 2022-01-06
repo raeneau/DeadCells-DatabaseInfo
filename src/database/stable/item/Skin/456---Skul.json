@@ -1,0 +1,24 @@
+{
+  "props": {
+    "altMode": true,
+    "lock": -1
+  },
+  "gameplayDesc": "U26_SKULSKIN_GAMEPLAYDESC",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Skul",
+  "icon": {
+    "x": 19,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "U26_SKULSKIN_NAME",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 100,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 456
+}

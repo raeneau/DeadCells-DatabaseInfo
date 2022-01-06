@@ -1,0 +1,944 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 14085636,
+    "musicIntro": "music/default/lighthouse_intro1_intro.ogg",
+    "viewerColor": 6666220,
+    "musicLoop": "music/default/lighthouse_intro1_loop.ogg",
+    "zDoorColor": 2216580,
+    "viewerY": -3,
+    "droneMusic": "music/default/lighthouse_fire_loop.ogg",
+    "chromaColor": 65490,
+    "wind": 1,
+    "loadingDescColor": 10844043,
+    "loadingColor": 3218735
+  },
+  "lootFlags": 1,
+  "biome": "LighthouseBottom",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 2,
+  "eliteWanderChance": 0,
+  "index": 32,
+  "id": "Lighthouse",
+  "dlc": "TheQueenAndTheSea",
+  "flags": 94521093,
+  "worldDepth": 8,
+  "icon": {
+    "x": 1,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "Lighthouse",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "specificSubBiome": [],
+  "minGold": 0,
+  "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_Queen"
+    }
+  ],
+  "baseLootLevel": 7,
+  "loreDescriptions": [
+    {
+      "text": "Formerly used to lead the ships coming to the island, the beacon has long been snuffed out."
+    },
+    {
+      "text": "No one knows who extinguished the flame. None of those that tried to investigate the matter ever returned either."
+    },
+    {
+      "text": "Rumor has it that before the outbreak, certain spots of the shoreline were highly sought-after by the island's aristocracy. Less so today."
+    },
+    {
+      "text": "Once easily accessible from the center of the island, the Lighthouse is now insulated by a mound of wreckages."
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "foncetop",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagefonce1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "foncemid",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.025
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagefonce2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "fonceclair",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.035
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagefonce3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.85
+    },
+    {
+      "tileName": "mininuageE",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.07
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageE",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "mininuageC",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.08
+      },
+      "pivotX": 1,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageC",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "mininuageA",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.08
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageA",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "mininuageE",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.16
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageE2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "mininuageE",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.19
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageE3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "mininuageC",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.14
+      },
+      "pivotX": 1,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageC2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.9,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "mininuageA",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.15
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageA2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "mininuageG",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.16
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageG2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "mininuageA",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.06
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageA4",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.85,
+      "scrollY": 0.85
+    },
+    {
+      "tileName": "mininuageG",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.05
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_minuageG4",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "paralax6A",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.75
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunes",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "paralax6B",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.75
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesB",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.7,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "paralax6C",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.75
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesC",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "paralax6D",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.75
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesD",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "paralax6A",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.55
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunes2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "paralax6B",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.55
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesB2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.7,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "paralax6C",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.55
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesC2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "paralax6D",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.55
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesD2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "paralax6A",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.6
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunes3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "paralax6B",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.61
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesB3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.7,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "paralax6C",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.65
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesC3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "paralax6D",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 0.6
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_nuagesjaunesD3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "borealelonngues",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_borealongue",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "majeur2boreale",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.1
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_grandeborealeruban",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "majeurboreale",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 0.67
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_grandeboreale",
+      "scatter": true,
+      "blendMode": 1,
+      "scrollX": 0.7,
+      "scrollY": 0.7
+    },
+    {
+      "tileName": "cliffgauche",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.73
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_cliffgauche",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "cliffdroite",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0.6,
+        "levelY": 0.73
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_cliffdroite",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "cloudtiledroit",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0.7,
+        "levelY": 0.7
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_cloudTile",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "cloudtilegauche",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.722
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_cloudtilebis",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "mer",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": true,
+      "position": {
+        "levelX": -0.05,
+        "levelY": 0.82
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_ocean",
+      "scatter": true,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0.04
+    },
+    {
+      "tileName": "stars1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 2
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "LH_stars1",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0.5
+      },
+      "pivotX": 0,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "LH_Sky",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0.04
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 32
+}

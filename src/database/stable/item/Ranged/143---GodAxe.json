@@ -1,0 +1,67 @@
+{
+  "props": {
+    "speed": 1.4,
+    "power": [
+      80
+    ],
+    "castTime": 0.5,
+    "ammo": 1,
+    "bump": 0.3,
+    "lock": 0.3,
+    "color": 1931836,
+    "tick": 0.3,
+    "uses": 10,
+    "limit": 3,
+    "aoeDuration": 0.4
+  },
+  "gameplayDesc": "{Enracine@RO} la victime. La hache inflige ::+power:: dégâts lorsqu'elle est rappelée.",
+  "moneyCost": 1500,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "Boï.",
+  "id": "GodAxe",
+  "dlc": "RiseOfTheGiant",
+  "icon": {
+    "x": 15,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Hache de Boï",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "AmmoComesBackImmediately"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 143
+}

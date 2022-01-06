@@ -1,0 +1,219 @@
+{
+  "props": {
+    "bounceFrequence": 0.1,
+    "range": 3,
+    "color2": 786436,
+    "fixedCD": 2.5,
+    "moveCD": 0.5,
+    "bounceMagnitude": 6,
+    "movePauseMul": 0,
+    "idleAnimSpeed": 0.99,
+    "moveSpeedMul": 1,
+    "color": 5536163,
+    "runFactor": 3,
+    "yStepOffset": 8,
+    "bumpResistance": 1
+  },
+  "genTags": 544,
+  "glowOuterColor": 18343,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "HandHook",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "ThrowingCards",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "Staphy",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": true,
+  "index": 79,
+  "volteDelay": 0.8,
+  "id": "BoilerRoom",
+  "dlc": "TheQueenAndTheSea",
+  "weight": 10,
+  "icon": {
+    "x": 8,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    300
+  ],
+  "name": "Armored Shrimp",
+  "minPfHeight": 0,
+  "glowInnerColor": 11384509,
+  "minPfSize": 6,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 3,
+  "flesh1": 6788729,
+  "flesh2": 0,
+  "skill": [
+    {
+      "chargeAnim": "load",
+      "coolDown": 0.5,
+      "power": [
+        12
+      ],
+      "props": {
+        "delay": 0.2,
+        "height": 3,
+        "stayDuration": 0.9,
+        "duration": 0.5
+      },
+      "allowInAir": true,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_staphy_charge3.wav",
+      "charge": 1,
+      "manual": false,
+      "execAnimSpd": 1.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "hit",
+      "id": "cc1",
+      "sfxRelease": "sfx/enm_staphy_release1.wav",
+      "fxId": "trackerAtkFx",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "load",
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "delay": 0.2,
+        "height": 3,
+        "stayDuration": 0.9,
+        "duration": 0.1
+      },
+      "allowInAir": true,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_staphy_charge3.wav",
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "hit",
+      "id": "cc2",
+      "sfxRelease": "sfx/enm_staphy_release1.wav",
+      "fxId": "trackerAtkFx",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "load",
+      "coolDown": 0.4,
+      "power": [
+        12
+      ],
+      "props": {
+        "delay": 0.15,
+        "bump": 1,
+        "height": 3,
+        "stayDuration": 0.9,
+        "duration": 0.5
+      },
+      "allowInAir": true,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_staphy_charge1.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "hit",
+      "id": "ccBody",
+      "sfxRelease": "sfx/enm_staphy_release1.wav",
+      "fxId": "fxBoilerCC",
+      "disableAnnounceFx": true,
+      "hitFrame": 1,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "load",
+      "coolDown": 2,
+      "power": [
+        20
+      ],
+      "props": {
+        "delay": 0.2,
+        "canTriggerThroughWall": true,
+        "height": 5,
+        "stayDuration": 0.9,
+        "duration": 1
+      },
+      "allowInAir": true,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_staphy_charge2.wav",
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "hit",
+      "id": "ccBot",
+      "sfxRelease": "sfx/enm_staphy_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "load",
+      "coolDown": 2,
+      "power": [
+        20
+      ],
+      "props": {
+        "delay": 0.2,
+        "canTriggerThroughWall": true,
+        "bump": -0.5,
+        "height": 4,
+        "stayDuration": 0.9
+      },
+      "allowInAir": true,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_staphy_charge2.wav",
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "hit",
+      "id": "ccTop",
+      "sfxRelease": "sfx/enm_staphy_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 79
+}

@@ -1,0 +1,865 @@
+{
+  "props": {
+    "speed": 1.5,
+    "range": 49,
+    "combatMusic": "music/default/queen_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "sfxMaxDistance": 10,
+    "delay": 0.75,
+    "movePauseMul": 0.5,
+    "far": 7,
+    "moveSpeedMul": 6,
+    "near": 3,
+    "color": 16749329,
+    "combatMusicIntro": "music/default/queen_intro.ogg",
+    "actionCost": 10,
+    "duration": 1,
+    "cellLoot": 40,
+    "bumpResistance": 0.9
+  },
+  "genTags": 516,
+  "glowOuterColor": 8661003,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "QueenRapier",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "QueenDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Queen1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Queen2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Queen3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Queen4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessQueen",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 93,
+  "volteDelay": 0.3,
+  "id": "Queen",
+  "dlc": "TheQueenAndTheSea",
+  "weight": 50,
+  "icon": {
+    "x": 51,
+    "y": 73,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    10000
+  ],
+  "name": "The Queen",
+  "minPfHeight": 0,
+  "glowInnerColor": 16749329,
+  "minPfSize": 0,
+  "metaItems": [
+    {
+      "item": "BossRune1",
+      "minDifficulty": 0
+    },
+    {
+      "item": "BossRune2",
+      "minDifficulty": 1
+    },
+    {
+      "item": "BossRune3",
+      "minDifficulty": 2
+    },
+    {
+      "item": "BossRune4",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "chargeAnim": "loadEstocHead",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0,
+        "height": 1
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal1.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "estocHead",
+      "id": "ccQuickHigh",
+      "sfxRelease": "sfx/enm_queen_ccq_release1.wav",
+      "fxId": "fxEstocHead",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadEstocFeet",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 1.5,
+        "height": 1
+      },
+      "allowInAir": false,
+      "radius": 7,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal2.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "estocFeet",
+      "id": "ccQuickLow",
+      "sfxRelease": "sfx/enm_queen_ccq_release2.wav",
+      "fxId": "fxEstocFeet",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadEstocArc",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal3.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "estocArc",
+      "id": "ccQuickFull",
+      "sfxRelease": "sfx/enm_queen_ccq_release3.wav",
+      "fxId": "fxEstocArc",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadOvershield",
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": -2,
+        "y": 0,
+        "bump": 0.85,
+        "height": 4
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal10.wav",
+      "charge": 0.75,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "overshield",
+      "id": "ccStrongOvershield",
+      "sfxRelease": "sfx/enm_queen_ccso_release.wav",
+      "fxId": "fxOvershield",
+      "disableAnnounceFx": false,
+      "hitFrame": 14,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadThrust",
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0,
+        "height": 1
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal9.wav",
+      "charge": 0.75,
+      "manual": true,
+      "execAnimSpd": 0.667,
+      "chargeAnimSpd": 0.667,
+      "execAnim": "thrust",
+      "id": "ccStrongComboA",
+      "sfxRelease": "sfx/enm_queen_ccs_release1.wav",
+      "fxId": "fxThrust",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.15,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadEstocArc",
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal2.wav",
+      "charge": 0.15,
+      "manual": true,
+      "execAnimSpd": 2,
+      "chargeAnimSpd": 2,
+      "execAnim": "estocArc",
+      "id": "ccStrongComboB",
+      "sfxRelease": "sfx/enm_queen_ccq_release3.wav",
+      "fxId": "fxEstocArc",
+      "disableAnnounceFx": true,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadGrab",
+      "coolDown": 3,
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": -0.4,
+        "y": 1.6,
+        "move": 15
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_grab_charge.wav",
+      "charge": 0.75,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "grab",
+      "id": "grabHero",
+      "sfxRelease": "sfx/enm_queen_grab_release.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_queen_grab_hit.wav",
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "grab",
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 2.5,
+        "canTriggerThroughWall": true,
+        "x": 1,
+        "y": 1,
+        "ang": 155,
+        "tick": 6,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "grabThrow",
+      "id": "throwHero",
+      "sfxRelease": "sfx/enm_hand_throw.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 10,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "idleLoadLunge",
+      "coolDown": 3,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 3,
+        "width": 4,
+        "canTriggerThroughWall": true,
+        "height": 3,
+        "distance": 5,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_lunge_charge.wav",
+      "charge": 0.75,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "lunge",
+      "id": "lungeAttack",
+      "sfxRelease": "sfx/enm_queen_lunge_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadFirewave",
+      "coolDown": 3,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "distance": 50
+      },
+      "allowInAir": false,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal7.wav",
+      "charge": 0.75,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 0.75,
+      "execAnim": "firewave",
+      "id": "firewave",
+      "sfxRelease": "sfx/enm_queen_firewave_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.25,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadShockWave",
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0.2,
+        "y": -0.75,
+        "bump": 2
+      },
+      "allowInAir": false,
+      "radius": 4.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_shockwave_charge.wav",
+      "charge": 0.5,
+      "manual": true,
+      "execAnimSpd": 0.733,
+      "chargeAnimSpd": 0.733,
+      "execAnim": "shockWave",
+      "id": "shockWave",
+      "sfxRelease": "sfx/enm_queen_shockwave_release.wav",
+      "fxId": "fxShockwave",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadTaunt",
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.6,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "taunt",
+      "id": "taunt",
+      "disableAnnounceFx": true,
+      "hitFrame": 1,
+      "breachResistance": 0,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "range": 3,
+        "canTriggerThroughWall": true,
+        "bump": 1.5,
+        "frict": 2,
+        "move": 3,
+        "distance": 20,
+        "triggerDistance": 5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "dash",
+      "id": "gapCloser",
+      "sfxRelease": "sfx/enm_queen_dodge.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "canTriggerThroughWall": true,
+        "bump": 1.5,
+        "frict": 2,
+        "distance": 3,
+        "triggerDistance": 5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "backDash",
+      "id": "swap",
+      "sfxRelease": "sfx/enm_queen_swap.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "idleMassivecuts",
+      "coolDown": 1.5,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 1.5,
+        "width": 0,
+        "canTriggerThroughWall": true,
+        "count": 5,
+        "tick": 8,
+        "duration": 10
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_split_charge.wav",
+      "charge": 0.75,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "massivecuts",
+      "id": "splitScreenTest",
+      "sfxRelease": "sfx/enm_queen_split_release.wav",
+      "fxId": "fxMassiveCuts",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAllAround",
+      "coolDown": 10,
+      "power": [
+        5
+      ],
+      "props": {
+        "delay": 0.5,
+        "canTriggerThroughWall": true,
+        "x": -5,
+        "y": 2,
+        "bump": 2
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal8.wav",
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 0.733,
+      "chargeAnimSpd": 0.733,
+      "execAnim": "allAround",
+      "id": "removeRoot",
+      "fxId": "fxAllAround",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": -0.5,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "canTriggerThroughWall": true,
+        "distance": 15,
+        "triggerDistance": 10
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "backDash",
+      "id": "backDash",
+      "sfxRelease": "sfx/enm_queen_dodge.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "idleIdleDefense",
+      "coolDown": 3,
+      "power": [
+        20
+      ],
+      "props": {
+        "duration2": 0.4,
+        "width": 0,
+        "canTriggerThroughWall": true,
+        "stunTime": 0.3,
+        "bump": 0.25,
+        "frict": 0.15,
+        "lock": 0.25,
+        "move": 3,
+        "count": 3,
+        "distance": 5,
+        "duration": 0.3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/weapon_shield_charge.wav",
+      "charge": 1.5,
+      "manual": true,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "idleDEFENSEParry",
+      "id": "parry",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm_queen_parry_hit.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.25,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadGroundStomp",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0,
+        "height": 2,
+        "distance": 5
+      },
+      "allowInAir": false,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal4.wav",
+      "charge": 0.467,
+      "manual": true,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 0.5,
+      "execAnim": "groundStomp",
+      "id": "parryCounterAtk",
+      "fxId": "fxGroundStomp",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "bulletStop",
+      "coolDown": 30,
+      "power": [
+        10
+      ],
+      "props": {
+        "width": 1.5,
+        "delay": 0.025,
+        "canTriggerThroughWall": true,
+        "x": 1,
+        "y": 0,
+        "max": 15,
+        "height": 4,
+        "count": 3,
+        "stayDuration": 1
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_grab_voiceless.wav",
+      "charge": 1.5,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "throwBullets",
+      "id": "repelBullets",
+      "sfxRelease": "sfx/weapon_magicmiss1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 13,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadPoisonCloud",
+      "coolDown": 15,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 0.6,
+        "canTriggerThroughWall": true,
+        "height": 15,
+        "distance": 2,
+        "tick": 15
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_vocal6.wav",
+      "charge": 0.667,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "poisonCloud",
+      "id": "dispelAOE",
+      "sfxRelease": "sfx/enm_queen_dispel_aoe_release.wav",
+      "fxId": "fxPoisonCloud",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadDemine",
+      "coolDown": 12,
+      "props": {
+        "range": 2,
+        "canTriggerThroughWall": true,
+        "distance": 5,
+        "duration": 3
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_dodge.wav",
+      "charge": 1.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 0.5,
+      "execAnim": "demine",
+      "id": "destroyTurret",
+      "sfxRelease": "sfx/enm_queen_ccso_release.wav",
+      "fxId": "fxDemine",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": -0.5,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "bulletStop",
+      "coolDown": 15,
+      "props": {
+        "delay": 0.35,
+        "canTriggerThroughWall": true,
+        "x": 1,
+        "y": -1,
+        "height": 4,
+        "frict": 0.02,
+        "distance": 6,
+        "duration": 3
+      },
+      "allowInAir": false,
+      "radius": 8,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_queen_grab_voiceless.wav",
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "cutGrenade",
+      "id": "disableGrenade",
+      "sfxRelease": "sfx/enm_queen_disable_grenade_release.wav",
+      "fxId": "fxCutGrenade",
+      "disableAnnounceFx": true,
+      "hitFrame": 9,
+      "breachResistance": -0.5,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "bulletStop",
+      "coolDown": 15,
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 4,
+        "y": -1,
+        "bump": 0.25,
+        "lock": 1,
+        "tick": 0.5,
+        "duration": 20
+      },
+      "allowInAir": false,
+      "radius": 5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_tp_charge.wav",
+      "charge": 2.5,
+      "manual": true,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 1,
+      "execAnim": "killPet",
+      "id": "killPet",
+      "sfxRelease": "sfx/enm_queen_killpet_release.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 28,
+      "breachResistance": -0.5,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadGroundStomp",
+      "coolDown": 30,
+      "power": [
+        20
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "x": 0,
+        "y": 0,
+        "bump": 0.5,
+        "height": 2
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/weapon_shield_charge.wav",
+      "charge": 0.23,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "groundStomp",
+      "id": "stompAnswer",
+      "fxId": "fxGroundStomp",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/weapon_shield_block.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1,
+      "props": {
+        "duration2": 0.25,
+        "canTriggerThroughWall": true,
+        "max": 3,
+        "count": 2,
+        "distance": 4,
+        "duration": 0.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "backDash",
+      "id": "fallTp",
+      "sfxRelease": "sfx/enm_queen_swap.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 93
+}

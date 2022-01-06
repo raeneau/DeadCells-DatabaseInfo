@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "Le violet le plus pur.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerCarduus",
+  "icon": {
+    "x": 22,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue Carduus",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 150,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 371
+}

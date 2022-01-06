@@ -134,6 +134,9 @@
     },
     {
       "level": "T_Roof"
+    },
+    {
+      "level": "T_Swamp"
     }
   ],
   "baseLootLevel": 2,

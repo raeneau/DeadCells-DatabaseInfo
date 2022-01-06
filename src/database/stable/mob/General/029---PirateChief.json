@@ -15,6 +15,11 @@
       "rarity": "Common",
       "item": "P_CDR_locked",
       "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "Cannon",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 0,

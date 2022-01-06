@@ -1,0 +1,26 @@
+{
+  "props": {
+    "scaledValueCap": 0.8,
+    "prct": 0.4,
+    "customScaling": 0.015
+  },
+  "gameplayDesc": "Close-ranged ranged attacks inflicts ::*prct::% bonus damages.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DmgNearRanged",
+  "icon": {
+    "x": 6,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Point Blank",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Tactic",
+  "cellCost": 80,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 328
+}

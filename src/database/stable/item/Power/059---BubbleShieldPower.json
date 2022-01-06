@@ -1,0 +1,45 @@
+{
+  "props": {
+    "range": 4,
+    "power": [
+      30
+    ],
+    "duration2": 1,
+    "width": 2,
+    "deployTimer": 0.1,
+    "bonus": 0.1,
+    "grenadeKickPow": 0.3,
+    "power3": [
+      75
+    ],
+    "bump": 0.7,
+    "lock": 0,
+    "color": 54783,
+    "duration": 0.35
+  },
+  "gameplayDesc": "Parries all around you for ::+power:: damages. A succesful parry resets the cooldown.",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 12,
+  "id": "BubbleShieldPower",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 22,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Bouclier Universel",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 59
+}

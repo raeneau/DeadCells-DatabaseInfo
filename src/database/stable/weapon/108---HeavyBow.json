@@ -1,0 +1,51 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "HeavyBow",
+  "strikeChain": [
+    {
+      "coolDown": 0.75,
+      "power": [
+        35
+      ],
+      "fxProps": {
+        "fxInnerColor": 16774912,
+        "fxOuterColor": 16774912
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "speed": 1.75,
+        "range": 1.5,
+        "duration2": 0.7,
+        "pct": 0.5,
+        "power2": 35,
+        "bump": 1,
+        "duration": 1
+      },
+      "breachBonus": 0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon_heavybow_charge.wav",
+      "charge": 0.87,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_heavybow_release.wav",
+      "animId": "HeavyBow",
+      "hitFrame": 0,
+      "critMul": 2.5,
+      "glowColor": 16767488,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 108
+}

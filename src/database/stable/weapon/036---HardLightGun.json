@@ -5,7 +5,7 @@
   "strikeChain": [
     {
       "coolDown": 0.2,
-      "power": 30,
+      "power": 20,
       "fxProps": {
         "fxStartFrame": -1
       },

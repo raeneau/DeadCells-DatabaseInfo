@@ -270,4 +270,36 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Bone",
   },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  TRIDENT: {
+    INTERNAL_ID: "TRIDENT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Trident",
+  },
+  HANDHOOK: {
+    INTERNAL_ID: "HANDHOOK",
+    TYPE: MELEE_WEAPON,
+    NAME: "Hand Hook",
+  },
+  SHARK: {
+    INTERNAL_ID: "SHARK",
+    TYPE: MELEE_WEAPON,
+    NAME: "Maw of the Deep",
+  },
+  ELBOW_BLADES: {
+    INTERNAL_ID: "ELBOWBLADES",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bladed Tonfas",
+  },
+  WRECKINGBALL: {
+    INTERNAL_ID: "WRECKINGBALL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Wrecking Ball",
+  },
+  QUEENRAPIER: {
+    INTERNAL_ID: "QUEENRAPIER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Queen's Rapier",
+  },
 };

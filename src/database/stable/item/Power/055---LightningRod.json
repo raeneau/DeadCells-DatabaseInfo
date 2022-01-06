@@ -1,0 +1,46 @@
+{
+  "props": {
+    "range": 5,
+    "color2": 1610919,
+    "power": [
+      75
+    ],
+    "duration2": 5,
+    "width": 2,
+    "dps": [
+      30
+    ],
+    "height": 20,
+    "color": 10931412,
+    "count": 2,
+    "tick": 0.15,
+    "duration": 5
+  },
+  "gameplayDesc": "Posez jusqu'à ::count:: paratonnerre pour attirer la foudre et foudroyer les ennemis proches.",
+  "moneyCost": 2250,
+  "group": 3,
+  "castCD": 15,
+  "id": "LightningRod",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 24,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Paratonnerre",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Electric"
+    },
+    {
+      "tag": "HasDuration"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 55
+}

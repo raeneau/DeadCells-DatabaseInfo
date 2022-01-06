@@ -1,0 +1,24 @@
+{
+  "props": {
+    "prct2": 2,
+    "prct": 1
+  },
+  "gameplayDesc": "Flames deal +::prct::% damage, violet flames deal +::prct2::% damage",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Firestarter",
+  "icon": {
+    "x": 6,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Firestarter",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 481
+}

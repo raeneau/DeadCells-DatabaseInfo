@@ -1,0 +1,26 @@
+{
+  "props": {},
+  "gameplayDesc": "Initially white. Contains a red sock in one of its pockets.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Queen2",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 31,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Cherry Blossom Queen Outfit",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 300,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 469
+}

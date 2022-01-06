@@ -1,0 +1,28 @@
+{
+  "props": {
+    "prct2": 0.25,
+    "prct": 1
+  },
+  "gameplayDesc": "Deal +::prct::% damage per active pet (+::prct2::% per biter).",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Menagerie",
+  "icon": {
+    "x": 8,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Menagerie",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 482
+}

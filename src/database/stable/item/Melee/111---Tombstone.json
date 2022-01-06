@@ -1,0 +1,48 @@
+{
+  "props": {
+    "speed": -0.2,
+    "range": 0.05,
+    "color2": 4101375,
+    "power": [
+      150
+    ],
+    "duration2": 0.5,
+    "duration3": 1,
+    "bump": 2,
+    "height": 1.5,
+    "life": 100,
+    "color": 8187647,
+    "count": 5,
+    "distance": 2,
+    "size": 1,
+    "tick": 10,
+    "duration": 0.2,
+    "limit": 3
+  },
+  "gameplayDesc": "Tuez un ennemi avec le dernier coup du combo pour l'enterrer sous une pierre tombale et condamner les ennemis proches.",
+  "moneyCost": 1800,
+  "group": 4,
+  "castCD": 0,
+  "id": "Tombstone",
+  "icon": {
+    "x": 31,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Pierre tombale",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 80,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 111
+}

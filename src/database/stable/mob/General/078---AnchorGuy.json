@@ -1,0 +1,161 @@
+{
+  "props": {
+    "chainSegmentCount": 10,
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.4,
+    "prct": 0.9,
+    "runFactor": 6.5
+  },
+  "genTags": 672,
+  "glowOuterColor": 16723200,
+  "pfCost": 0.25,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Shark",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "ANCHORGUY",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 4,
+  "group": 0,
+  "canBeElite": true,
+  "index": 78,
+  "volteDelay": 0.6,
+  "id": "AnchorGuy",
+  "dlc": "TheQueenAndTheSea",
+  "weight": 10,
+  "icon": {
+    "x": 39,
+    "y": 26,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    140
+  ],
+  "name": "Mutineer",
+  "minPfHeight": 0,
+  "glowInnerColor": 16646038,
+  "minPfSize": 5,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 2,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "skill": [
+    {
+      "chargeAnim": "throwLoad",
+      "coolDown": 1.5,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 0.9,
+        "duration2": 1.5,
+        "delay": 0.7,
+        "canTriggerThroughWall": true,
+        "bump": 1,
+        "height": 9,
+        "distance": 100,
+        "triggerDistance": 5,
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 7,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm_anchorguy_throw_charge.wav",
+      "charge": 1.5,
+      "manual": false,
+      "execAnim": "throwNoAnchor",
+      "id": "anchorThrow",
+      "sfxRelease": "sfx/enm_anchorguy_throw_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.5,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0.2,
+      "props": {
+        "stunTime": 0.5
+      },
+      "allowInAir": false,
+      "radius": 9,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "id": "teleport",
+      "sfxRelease": "sfx/enm_archer_tp1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "stunNoAnchor",
+      "coolDown": 0,
+      "props": {
+        "speed": 0.1,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 13
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "execAnim": "jump",
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm_anchorguy_jump_release.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm_mimic_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 100,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkLoadA",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "delay": 5,
+        "height": 3
+      },
+      "allowInAir": false,
+      "radius": 3.5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_anchorguy_slash_charge.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1.5,
+      "execAnim": "atkA",
+      "id": "slash",
+      "sfxRelease": "sfx/enm_anchorguy_slash_release.wav",
+      "fxId": "fxAnchorGuyAtk/fxAnchorGuyAtk",
+      "disableAnnounceFx": true,
+      "hitFrame": 4,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.6,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 78
+}

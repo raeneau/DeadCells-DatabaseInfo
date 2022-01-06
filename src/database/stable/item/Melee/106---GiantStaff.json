@@ -1,0 +1,30 @@
+{
+  "props": {
+    "frict": 0.15
+  },
+  "gameplayDesc": "Le premier coup permet de {parrer@PA} les coups au corps à corps. Le combo inflige des {coups critiques@CC} après une parade réussie.",
+  "moneyCost": 1750,
+  "group": 4,
+  "castCD": 0,
+  "id": "GiantStaff",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 29,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Baton de Combat",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 106
+}

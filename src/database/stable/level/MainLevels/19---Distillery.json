@@ -139,20 +139,7 @@
   "name": "Distillerie",
   "mobDensity": 0.9,
   "specificLoots": [],
-  "specificSubBiome": [
-    {
-      "zDoorColor": 371186,
-      "biome": "CastleAlchemy"
-    },
-    {
-      "zDoorColor": 15996416,
-      "biome": "CastleTorture"
-    },
-    {
-      "zDoorColor": 10742794,
-      "biome": "CastleVegan"
-    }
-  ],
+  "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 2,
   "nextLevels": [

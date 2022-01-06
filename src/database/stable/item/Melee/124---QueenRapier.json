@@ -1,0 +1,32 @@
+{
+  "props": {
+    "width": 0.5,
+    "distance": 50,
+    "duration": 0.3
+  },
+  "gameplayDesc": "Attacks that hit a target also slice through reality, hitting anything on their path again.",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_QUEENRAPIER_AMBIANTDESC",
+  "id": "QueenRapier",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 33,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Queen's Rapier",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 150,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 124
+}

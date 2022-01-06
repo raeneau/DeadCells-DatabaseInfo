@@ -1,0 +1,36 @@
+{
+  "props": {
+    "speed": 0.11,
+    "power": 50,
+    "dps": 125,
+    "count": 6,
+    "distance": 25,
+    "size": 2,
+    "tick": 0.18,
+    "duration": 12
+  },
+  "gameplayDesc": "Crée une orbe dévastatrice qui se déplace lentement.",
+  "moneyCost": 1750,
+  "group": 3,
+  "castCD": 20,
+  "id": "SlowOrb",
+  "icon": {
+    "x": 13,
+    "y": 0,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Orbe de mort",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 35,
+  "legendAffix": "BleedOnHit",
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 25
+}
