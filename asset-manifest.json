@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/DeadCells-DatabaseInfo/static/css/main.32af26cb.chunk.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.feeaa7c0.chunk.js",
-    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.feeaa7c0.chunk.js.map",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.f961497a.chunk.js",
+    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.f961497a.chunk.js.map",
     "runtime-main.js": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js",
     "runtime-main.js.map": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js.map",
-    "static/js/2.5095086b.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.5095086b.chunk.js",
-    "static/js/2.5095086b.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.5095086b.chunk.js.map",
+    "static/js/2.9dcc12a4.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js",
+    "static/js/2.9dcc12a4.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js.map",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
-    "precache-manifest.1d27f7aa15ea7d91ddedfca8819c783f.js": "/DeadCells-DatabaseInfo/precache-manifest.1d27f7aa15ea7d91ddedfca8819c783f.js",
+    "precache-manifest.65ada13170142e074bab9ccc8597d6ef.js": "/DeadCells-DatabaseInfo/precache-manifest.65ada13170142e074bab9ccc8597d6ef.js",
     "service-worker.js": "/DeadCells-DatabaseInfo/service-worker.js",
     "static/css/main.32af26cb.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.32af26cb.chunk.css.map",
-    "static/js/2.5095086b.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.5095086b.chunk.js.LICENSE.txt",
+    "static/js/2.9dcc12a4.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js.LICENSE.txt",
     "static/media/cardIcons.png": "/DeadCells-DatabaseInfo/static/media/cardIcons.df0c161e.png",
     "static/media/index.css": "/DeadCells-DatabaseInfo/static/media/islandBackground.77547194.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.13a4b7b1.js",
-    "static/js/2.5095086b.chunk.js",
+    "static/js/2.9dcc12a4.chunk.js",
     "static/css/main.32af26cb.chunk.css",
-    "static/js/main.feeaa7c0.chunk.js"
+    "static/js/main.f961497a.chunk.js"
   ]
 }
