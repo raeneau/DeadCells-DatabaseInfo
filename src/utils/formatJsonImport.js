@@ -1,7 +1,7 @@
 const keyRegex = /(\d+)-+([^.]+)/;
 
-export default (jsonToFormat) => {
-  return jsonToFormat.reduce((allFilesObject, entry, index) => {
+export default (jsonToFormat) =>
+  jsonToFormat.reduce((allFilesObject, entry, index) => {
     // Execute regex on the file name to make it readable
     // If there is no valid return, then return the accumulator object.
     const newKey = keyRegex.exec(entry);
@@ -23,4 +23,3 @@ export default (jsonToFormat) => {
       ...newEntry,
     };
   }, {});
-};
