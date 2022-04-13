@@ -16,7 +16,7 @@
   "droppable": true,
   "tags": [
     {
-      "tag": "NoCritical"
+      "tag": "AlwaysCritical"
     }
   ],
   "tier1": "Brutality",

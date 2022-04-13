@@ -302,4 +302,21 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Queen's Rapier",
   },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  DAGGERPROFIT: {
+    INTERNAL_ID: "CUPIDITYDAGGER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Dagger of Profit",
+  },
+  GOLDDIGGER: {
+    INTERNAL_ID: "GOLDDIGGER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Gold Digger",
+  },
+  GOLDDAGGEREVO: {
+    INTERNAL_ID: "GOLDDIGGEREVOLVED",
+    TYPE: MELEE_WEAPON,
+    NAME: "Gold Digger (Evolved)",
+  },
 };

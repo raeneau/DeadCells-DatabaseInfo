@@ -127,6 +127,7 @@
   "name": "Serre",
   "mobDensity": 0.6,
   "specificLoots": [],
+  "mapDepth": 1,
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 1,

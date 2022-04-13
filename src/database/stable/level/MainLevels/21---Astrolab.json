@@ -93,6 +93,7 @@
   "name": "Astrolab",
   "mobDensity": 0.8,
   "specificLoots": [],
+  "mapDepth": 10,
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 0,

@@ -226,4 +226,19 @@ export default {
 
   QUEENRAPIER: meleeWeaponNames.QUEENRAPIER,
   QUEENSRAPIER: meleeWeaponNames.QUEENRAPIER,
+
+  // ------------------------------ THE BANK -------------------------------- //
+  PROFITDAGGER: meleeWeaponNames.DAGGERPROFIT,
+  DAGGEROFPROFIT: meleeWeaponNames.DAGGERPROFIT,
+  MONEYDAGGER: meleeWeaponNames.DAGGERPROFIT,
+
+  GOLDDIGGER: meleeWeaponNames.GOLDDIGGER,
+
+  GOLDDIGGEREVOLVED: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGEREVO: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGEREVOLUTION: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERPOWEREDUP: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERUPGRADE: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERUPGRADED: meleeWeaponNames.GOLDDAGGEREVO,
+
 };

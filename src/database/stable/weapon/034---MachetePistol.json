@@ -5,7 +5,9 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": 45,
+      "power": [
+        45
+      ],
       "fxProps": {},
       "lockCtrlAfter": 0.1,
       "props": {},
@@ -30,7 +32,9 @@
     },
     {
       "coolDown": 0,
-      "power": 55,
+      "power": [
+        55
+      ],
       "fxProps": {},
       "lockCtrlAfter": 0.2,
       "props": {},
@@ -55,7 +59,9 @@
     },
     {
       "coolDown": 0,
-      "power": 65,
+      "power": [
+        65
+      ],
       "fxProps": {},
       "lockCtrlAfter": 0.4,
       "props": {

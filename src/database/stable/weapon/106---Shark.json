@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        100
+        135
       ],
       "fxProps": {
         "fxStartFrame": 16
@@ -20,7 +20,7 @@
       "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
       "charge": 0.48,
       "sfxProps": {},
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 5,
         "offsetCaseX": 0,
@@ -33,14 +33,14 @@
       "animId": "AtkSharkA",
       "sfxHit": "sfx/weapon_shark_hit1.wav",
       "hitFrame": 17,
-      "critMul": 0.9,
+      "critMul": 1,
       "glowColor": 16187230,
       "animSpd": 1.2
     },
     {
       "coolDown": 0,
       "power": [
-        120
+        150
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.38,
@@ -52,7 +52,7 @@
       "sfxCharge": "sfx/weapon_stunmace_charge1.wav",
       "charge": 0.54,
       "sfxProps": {},
-      "canCrit": false,
+      "canCrit": true,
       "area": {
         "width": 4,
         "offsetCaseX": 0.5,
@@ -65,14 +65,14 @@
       "animId": "AtkSharkB",
       "sfxHit": "sfx/weapon_shark_hit2.wav",
       "hitFrame": 19,
-      "critMul": 1.1,
+      "critMul": 1,
       "glowColor": 16187230,
       "animSpd": 1.2
     },
     {
       "coolDown": 0,
       "power": [
-        100
+        120
       ],
       "fxProps": {
         "fxInnerColor": 16740352,

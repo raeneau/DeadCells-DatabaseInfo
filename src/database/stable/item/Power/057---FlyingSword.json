@@ -41,6 +41,9 @@
     },
     {
       "tag": "TransformOnUse"
+    },
+    {
+      "tag": "ShortCooldown"
     }
   ],
   "tier1": "Brutality",

@@ -1,0 +1,27 @@
+{
+  "props": {
+    "power": [
+      180
+    ],
+    "duration": 8
+  },
+  "gameplayDesc": "Your next ranged attack after using a skill inflicts +::+power:: damage.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DmgSkillRanged",
+  "icon": {
+    "x": 6,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Ranger's gear",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 334
+}

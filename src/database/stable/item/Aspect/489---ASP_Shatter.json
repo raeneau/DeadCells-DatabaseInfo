@@ -1,0 +1,24 @@
+{
+  "props": {
+    "power": 100,
+    "customScaling": 1.05
+  },
+  "gameplayDesc": "Enemies take heavy damage when you break their freeze (::power:: base).",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Shatter",
+  "icon": {
+    "x": 5,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Shatter",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 489
+}

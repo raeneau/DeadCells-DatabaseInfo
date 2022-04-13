@@ -140,6 +140,7 @@
   "name": "Sépulcre oublié",
   "mobDensity": 1.15,
   "specificLoots": [],
+  "mapDepth": 6,
   "specificSubBiome": [],
   "minGold": 3500,
   "tripleUps": 3,

@@ -1,0 +1,27 @@
+{
+  "props": {
+    "bump": 1,
+    "color": 15662857,
+    "count": 22,
+    "customScaling": 0.6,
+    "limit": 3
+  },
+  "gameplayDesc": "U28_P_GOLDSHIELD_GAMEPLAYDESC",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_U28_PerkGoldShield",
+  "icon": {
+    "x": 8,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "U28_P_GOLDSHIELD",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 369
+}

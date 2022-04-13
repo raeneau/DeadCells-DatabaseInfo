@@ -139,6 +139,7 @@
   "name": "Distillerie",
   "mobDensity": 0.9,
   "specificLoots": [],
+  "mapDepth": 8,
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 2,

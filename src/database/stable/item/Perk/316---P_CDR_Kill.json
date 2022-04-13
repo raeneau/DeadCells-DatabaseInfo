@@ -1,0 +1,26 @@
+{
+  "props": {
+    "scaledValueCap": 3,
+    "actcdrIncPerTier": 0.11,
+    "actcdr": 0.4
+  },
+  "gameplayDesc": "Réduit les délais de réutilisation des compétences de ::actcdr:: sec pour chaque ennemi tué au corps à corps.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_CDR_Kill",
+  "icon": {
+    "x": 1,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Inspiration meurtrière",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 0,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 316
+}
