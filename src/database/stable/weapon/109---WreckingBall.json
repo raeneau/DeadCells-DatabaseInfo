@@ -21,7 +21,7 @@
       "breachBonus": 3,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_wreckb_charge1.wav",
-      "charge": 0.94,
+      "charge": 0.8,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -34,9 +34,9 @@
       "sfxRelease": "sfx/weapon_wreckb_release1.wav",
       "animId": "AtkWreckingballA",
       "sfxHit": "sfx/weapon_wreckb_hit.wav",
-      "hitFrame": 28,
+      "hitFrame": 24,
       "glowColor": 5256098,
-      "animSpd": 1
+      "animSpd": 1.2
     },
     {
       "coolDown": 0,
@@ -58,7 +58,7 @@
       "breachBonus": 2,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon_wreckb_charge2.wav",
-      "charge": 1,
+      "charge": 0.62,
       "sfxProps": {},
       "canCrit": false,
       "area": {
@@ -73,7 +73,7 @@
       "sfxHit": "sfx/weapon_wreckb_hit.wav",
       "hitFrame": 29,
       "glowColor": 5256098,
-      "animSpd": 1
+      "animSpd": 1.5
     },
     {
       "coolDown": 0,

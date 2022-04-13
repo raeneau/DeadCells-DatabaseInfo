@@ -75,7 +75,7 @@
     "size": 24
   },
   "life": [
-    10000
+    12000
   ],
   "name": "The Queen",
   "minPfHeight": 0,
@@ -695,7 +695,7 @@
         "canTriggerThroughWall": true,
         "height": 15,
         "distance": 2,
-        "tick": 15
+        "tick": 0.5
       },
       "allowInAir": false,
       "radius": 1,

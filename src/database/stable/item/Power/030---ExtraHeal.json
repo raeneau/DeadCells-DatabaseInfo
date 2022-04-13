@@ -1,7 +1,6 @@
 {
   "props": {
     "scaledValueCap": 1,
-    "speed": 0.2,
     "duration2": 0.75,
     "prct2": 0.2,
     "buff": 0.5,

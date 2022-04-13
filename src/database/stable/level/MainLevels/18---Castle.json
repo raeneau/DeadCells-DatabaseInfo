@@ -133,6 +133,7 @@
   "name": "Château de Haute-Cime",
   "mobDensity": 0.9,
   "specificLoots": [],
+  "mapDepth": 8,
   "specificSubBiome": [
     {
       "zDoorColor": 371186,

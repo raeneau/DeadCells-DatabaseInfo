@@ -192,4 +192,11 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Gilded Yumi",
   },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  MONEYSHOOTER: {
+    INTERNAL_ID: "MONEYSHOOTER",
+    TYPE: RANGED_WEAPON,
+    NAME: "Money Shooter",
+  },
 };

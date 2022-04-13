@@ -30,6 +30,7 @@
   "name": "Pont noir",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 4,
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,

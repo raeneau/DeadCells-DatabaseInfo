@@ -1,0 +1,43 @@
+{
+  "props": {
+    "speed": 2,
+    "range": 1,
+    "power": [
+      50
+    ],
+    "bonus": 12000,
+    "buff": 0,
+    "bump": 0.5,
+    "item": "GoldDigger",
+    "prct": 1,
+    "count": 15,
+    "distance": 6,
+    "size": 7,
+    "tick": 0.05
+  },
+  "gameplayDesc": "U28_GOLDDIGGER_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U28_GOLDDIGGER_AMBIENTDESC",
+  "id": "GoldDiggerEvolved",
+  "icon": {
+    "x": 6,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "U28_GOLDDIGGER_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "legendAffix": "DeathExplosion",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 127
+}

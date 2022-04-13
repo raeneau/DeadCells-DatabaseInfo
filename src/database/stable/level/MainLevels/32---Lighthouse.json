@@ -36,6 +36,7 @@
   "name": "Lighthouse",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 9,
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 0,

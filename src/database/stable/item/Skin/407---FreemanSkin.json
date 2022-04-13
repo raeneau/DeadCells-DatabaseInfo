@@ -1,0 +1,21 @@
+{
+  "props": {},
+  "gameplayDesc": "The right outfit in the wrong place can make all the difference in the world.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "FreemanSkin",
+  "icon": {
+    "x": 24,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Tenue HEV",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 75,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 407
+}

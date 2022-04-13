@@ -189,6 +189,55 @@ export default {
     NAME: "Compulsive Gravedigger",
   },
 
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  ARMORED_SHRIMP: {
+    INTERNAL_ID: "BOILERROOM",
+    TYPE: ENEMY,
+    NAME: "Armored Shrimp",
+  },
+  ANCHOR_GUY: {
+    INTERNAL_ID: "ANCHORGUY",
+    TYPE: ENEMY,
+    NAME: "Mutineer",
+  },
+  SERVANT_SURVIVAL: {
+    INTERNAL_ID: "AMAZONSURVIVAL",
+    TYPE: ENEMY,
+    NAME: "Calliope",
+  },
+  SERVANT_TACTIC: {
+    INTERNAL_ID: "AMAZONTACTIC",
+    TYPE: ENEMY,
+    NAME: "Euterpe",
+  },
+  SERVANT_BRUTAL: {
+    INTERNAL_ID: "AMAZONBRUTAL",
+    TYPE: ENEMY,
+    NAME: "Kleio",
+  },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  GUILLAIN_THIEF: {
+    INTERNAL_ID: "U28_STEAL",
+    TYPE: ENEMY,
+    NAME: "Agitated Pickpocket",
+  },
+  GOLD_GORGER: {
+    INTERNAL_ID: "U28_VACUUMCLEANER",
+    TYPE: ENEMY,
+    NAME: "Gold Gorger",
+  },
+  GOLD_KAMIKAZEE: {
+    INTERNAL_ID: "GOLDENBATKAMIKAZE",
+    TYPE: ENEMY,
+    NAME: "Golden Kamikaze",
+  },
+  SHOP_MIMIC: {
+    INTERNAL_ID: "SHOPMIMIC",
+    TYPE: ENEMY,
+    NAME: "Mimic (Shop)",
+  },
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------
@@ -203,5 +252,10 @@ export default {
     INTERNAL_ID: "GARDENERBOSS",
     TYPE: ENEMY,
     NAME: "The Scarecrow",
+  },
+  QUEEN: {
+    INTERNAL_ID: "QUEEN",
+    TYPE: ENEMY,
+    NAME: "The Queen",
   },
 };

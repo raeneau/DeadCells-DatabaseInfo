@@ -126,6 +126,7 @@
   "name": "Charnier",
   "mobDensity": 1.1,
   "specificLoots": [],
+  "mapDepth": 3,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 2,

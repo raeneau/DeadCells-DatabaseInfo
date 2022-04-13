@@ -142,4 +142,8 @@ export default {
   HEAVYBOW: rangedWeaponNames.HEAVYBOW,
   GILDEDYUMI: rangedWeaponNames.HEAVYBOW,
   YUMI: rangedWeaponNames.HEAVYBOW,
+
+  // ------------------------------ THE BANK -------------------------------- //
+  MONEYSHOOTER: rangedWeaponNames.MONEYSHOOTER,
+  MONEYSHOT: rangedWeaponNames.MONEYSHOOTER,
 };

@@ -279,6 +279,49 @@ export default {
   BOOTLEGSHOVELMAN: enemyNames.BOOTLEG_SHOVEL,
   BOOTLEGSHOVEL: enemyNames.BOOTLEG_SHOVEL,
 
+// --------------------------- QUEEN AND THE SEA ---------------------------- //
+  BOILERROOM: enemyNames.ARMORED_SHRIMP,
+  ARMOREDSHRIMP: enemyNames.ARMORED_SHRIMP,
+  ENEMYSTAPHY: enemyNames.ARMORED_SHRIMP,
+  ENEMYLEGHUGGER: enemyNames.ARMORED_SHRIMP,
+
+  ANCHORGUY: enemyNames.ANCHOR_GUY,
+  ANCHOR: enemyNames.ANCHOR_GUY,
+  MUTINEERS: enemyNames.ANCHOR_GUY,
+  MUTINEER: enemyNames.ANCHOR_GUY,
+
+  SERVANT_SURVIVAL: enemyNames.SERVANT_SURVIVAL,
+  SERVANT_SURVIVE: enemyNames.SERVANT_SURVIVAL,
+  CALLIOPE: enemyNames.SERVANT_SURVIVAL,
+
+  SERVANT_TACTIC: enemyNames.SERVANT_TACTIC,
+  SERVANT_TACTICS: enemyNames.SERVANT_TACTIC,
+  EUTERPE: enemyNames.SERVANT_TACTIC,
+
+  SERVANT_BRUTAL: enemyNames.SERVANT_BRUTAL,
+  SERVANT_BRUTALITY: enemyNames.SERVANT_BRUTAL,
+  KLEIO: enemyNames.SERVANT_BRUTAL,
+
+
+// -------------------------------- THE BANK -------------------------------- //
+  GUILLAINTHIEF: enemyNames.GUILLAIN_THIEF,
+  THIEF: enemyNames.GUILLAIN_THIEF,
+  AGITATEDPICKPOCKET: enemyNames.GUILLAIN_THIEF,
+  PICKPOCKET: enemyNames.GUILLAIN_THIEF,
+  U28_STEAL: enemyNames.GUILLAIN_THIEF,
+
+  GOLDGORGER: enemyNames.GOLD_GORGER,
+  GORGER: enemyNames.GOLD_GORGER,
+  MONEYVACUUM: enemyNames.GOLD_GORGER,
+  VACUUMCLEANER: enemyNames.GOLD_GORGER,
+  U28_VACUUMCLEANER: enemyNames.GOLD_GORGER,
+
+  GOLDKAMIKAZEE: enemyNames.GOLD_KAMIKAZEE,
+  GOLDENKAMIKAZEE: enemyNames.GOLD_KAMIKAZEE,
+
+  SHOPMIMIC: enemyNames.SHOP_MIMIC,
+  // MIMIC: enemyNames.SHOP_MIMIC, // !!! -- OVERLOADED VALUE
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------
@@ -310,4 +353,7 @@ export default {
   ROYALGARDENER: enemyNames.SCARECROW,
   THESCARECROW: enemyNames.SCARECROW,
   THEGARDENER: enemyNames.SCARECROW,
+
+  QUEEN: enemyNames.QUEEN,
+  THEQUEEN: enemyNames.QUEEN,
 };

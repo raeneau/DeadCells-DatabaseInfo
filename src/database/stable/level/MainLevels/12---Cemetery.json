@@ -153,6 +153,7 @@
   "name": "Cimetière du Val",
   "mobDensity": 1,
   "specificLoots": [],
+  "mapDepth": 5,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 2,

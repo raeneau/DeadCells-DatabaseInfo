@@ -1,0 +1,819 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 16041791,
+    "musicIntro": "music/default/bank_loop.ogg",
+    "viewerColor": 16768303,
+    "musicLoop": "music/default/bank_loop.ogg",
+    "zDoorColor": 16050375,
+    "viewerY": 1,
+    "chromaColor": 16760576,
+    "loadingDescColor": 15784236,
+    "numHallway": 3,
+    "loadingColor": 528654
+  },
+  "lootFlags": 0,
+  "biome": "Bank",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0.6,
+  "index": 34,
+  "id": "Bank",
+  "flags": 1344274433,
+  "worldDepth": 0,
+  "icon": {
+    "x": 52,
+    "y": 27,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "number": 2,
+          "type": "GoldenBatKamikaze"
+        }
+      ],
+      "mob": "U28_VacuumCleaner",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "U28_Steal",
+      "minDifficulty": 0,
+      "quantityFactor": 1.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "GoldenBatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1
+      ],
+      "mob": "Runner",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1
+      ],
+      "mob": "Zombie",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1
+      ],
+      "mob": "Archer",
+      "maxDifficulty": 0,
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1,
+        2
+      ],
+      "mob": "Grenader",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "ClusterGrenader",
+      "minDifficulty": 3,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1
+      ],
+      "mob": "Scorpio",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1,
+        2
+      ],
+      "mob": "Worm",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1,
+        2
+      ],
+      "mob": "Rat",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "packSize": [
+        2,
+        3
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "Fly",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "packSize": [
+        1,
+        3
+      ],
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1
+      ],
+      "mob": "CrossbowMan",
+      "minDifficulty": 1,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "SpikedSatyr",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "Blobby",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        4
+      ],
+      "mob": "PirateChief",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "Samurai",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        4
+      ],
+      "mob": "Duelist",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        4,
+        5
+      ],
+      "mob": "Mage360",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "requiredDepth": [
+        4
+      ],
+      "mob": "Hooker",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "requiredDepth": [
+        4
+      ],
+      "mob": "LeapingDuelyst",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1,
+        2
+      ],
+      "mob": "Enforcer",
+      "minDifficulty": 2,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "FatZombie",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "AxeThrower",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "Ninja",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "packSize": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "Arbiter",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        5
+      ],
+      "mob": "Demon",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        7
+      ],
+      "mob": "CastleKnight",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        7
+      ],
+      "mob": "Lancer",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        7
+      ],
+      "mob": "Spinner",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        7
+      ],
+      "mob": "ClusterGrenader",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        7
+      ],
+      "mob": "Hurler",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        2
+      ],
+      "mob": "Bomber",
+      "minDifficulty": 2,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "requiredDepth": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "mob": "AggressiveZombie",
+      "minDifficulty": 4,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "U28_BANK_NAME",
+  "mobDensity": 0.75,
+  "specificLoots": [],
+  "mapDepth": 0,
+  "specificSubBiome": [],
+  "minGold": 5000,
+  "tripleUps": 0,
+  "nextLevels": [],
+  "baseLootLevel": 0,
+  "loreDescriptions": [
+    {
+      "text": "U28_BANK_LOREDESC_1"
+    },
+    {
+      "text": "U28_BANK_LOREDESC_2"
+    },
+    {
+      "text": "U28_BANK_LOREDESC_3"
+    },
+    {
+      "text": "U28_BANK_LOREDESC_4"
+    },
+    {
+      "text": "U28_BANK_LOREDESC_5"
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "bg/rampParallax",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1
+      },
+      "name": "BANK_rampParallax",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0.005
+    },
+    {
+      "tileName": "bg/scrollerBeside",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 1249545,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": -0.2,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_scrollerBeside",
+      "scatter": false,
+      "innerGlow": 8017695,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "bg/rampParallaxDark",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "BANK_rampParallaxDark",
+      "scatter": false,
+      "blendMode": 6,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/scrollerFront",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 4341540,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_scrollerFront",
+      "scatter": false,
+      "innerGlow": 14068087,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/bigColumn",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 1117446,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_bigColumn",
+      "scatter": false,
+      "innerGlow": 12095055,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "bg/scrollerMiddleDown",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipY": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.25,
+        "levelY": 0.4
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_scrollerMiddleUp",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.11,
+      "scrollY": 0.11
+    },
+    {
+      "tileName": "bg/fillTop",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 0.15
+      },
+      "name": "BANK_filltop",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.11,
+      "scrollY": 0.11
+    },
+    {
+      "tileName": "bg/scrollerMiddleDown",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": 0.65
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_scrollerMiddleDown",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.11,
+      "scrollY": 0.11
+    },
+    {
+      "tileName": "bg/scrollerMiddle",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "BANK_scrollerMiddle",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "bg/scrollerBack",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "BANK_scrollerBack",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.05,
+      "scrollY": 0.05
+    },
+    {
+      "tileName": "bg/bigBG0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.2,
+        "levelY": 0.95
+      },
+      "pivotX": 0.2,
+      "pivotY": 0.95,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "BANK_bigBG0",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 34
+}

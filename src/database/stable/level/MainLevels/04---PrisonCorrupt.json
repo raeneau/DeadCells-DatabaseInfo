@@ -138,6 +138,7 @@
   "name": "Prison corrompue",
   "mobDensity": 0.8,
   "specificLoots": [],
+  "mapDepth": 2,
   "specificSubBiome": [],
   "minGold": 500,
   "tripleUps": 0,

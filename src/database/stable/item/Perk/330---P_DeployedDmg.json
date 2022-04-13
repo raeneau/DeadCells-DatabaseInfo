@@ -1,0 +1,26 @@
+{
+  "props": {
+    "prct": 0.1,
+    "customScaling": 0.01,
+    "duration": 1
+  },
+  "gameplayDesc": "+::*prct::% de dégâts si vous êtes proche d'une compétence déployée.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DeployedDmg",
+  "icon": {
+    "x": 7,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Soutien",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 330
+}

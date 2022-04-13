@@ -140,6 +140,7 @@
   "name": "Temples barbares",
   "mobDensity": 0.75,
   "specificLoots": [],
+  "mapDepth": 5,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 2,

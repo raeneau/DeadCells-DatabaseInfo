@@ -1,0 +1,133 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "CupidityDagger",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": -0.25,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_cupiddagger_release1.wav",
+      "fxId": "atkDaggerOfCupidityA",
+      "animId": "AtkDaggerOfCupidityA",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 7,
+      "glowColor": 16735232,
+      "animSpd": 1.4
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": -0.25,
+      "dynamicCharge": 0,
+      "charge": 0.16,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_cupiddagger_release2.wav",
+      "fxId": "atkDaggerOfCupidityB",
+      "animId": "AtkDaggerOfCupidityB",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 5,
+      "glowColor": 16735232,
+      "animSpd": 1.35
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 1.5,
+      "dynamicCharge": 0,
+      "charge": 0.16,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon_cupiddagger_release3.wav",
+      "fxId": "atkDaggerOfCupidityC",
+      "animId": "AtkDaggerOfCupidityC",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 5,
+      "glowColor": 16735232,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.35
+      },
+      "onionSkinFrame": 1,
+      "breachBonus": -0.25,
+      "onionSkinOffX": -10,
+      "dynamicCharge": 0,
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon_cupiddagger_release4.wav",
+      "fxId": "atkDaggerOfCupidityD",
+      "animId": "AtkDaggerOfCupidityD",
+      "sfxHit": "sfx/hit_blade.wav",
+      "hitFrame": 8,
+      "glowColor": 16735232
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 111
+}
