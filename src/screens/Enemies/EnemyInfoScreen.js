@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Local modules.
@@ -6,7 +7,7 @@ import BasicDisplay from "../../components/common/basicDisplay";
 
 // -----------------------------------------------------------------------------
 
-const EnemyInfoScreen = (props) => {
+function EnemyInfoScreen(props) {
   const { enemyJson } = props;
 
   return (
@@ -30,6 +31,19 @@ const EnemyInfoScreen = (props) => {
       </table>
     </div>
   );
+}
+
+EnemyInfoScreen.propTypes = {
+  enemyJson: PropTypes.shape({
+    blueprints: PropTypes.arrayOf(
+      PropTypes.shape({ rarity: PropTypes.string }),
+    ),
+    life: PropTypes.arrayOf(PropTypes.number),
+  }),
+};
+
+EnemyInfoScreen.defaultProps = {
+  enemyJson: {},
 };
 
 // -----------------------------------------------------------------------------

@@ -38,10 +38,12 @@ function UserInputScreen(props) {
   }
 
   function onSubmit() {
+    const { onChange } = props;
+
     // The user set a value. Let's hide the info on the screen.
     inputSubmitted = true;
 
-    props.onChange(value.userInputValue);
+    onChange(value.userInputValue);
   }
 
   function handleKeyDown(event) {
@@ -82,6 +84,7 @@ function UserInputScreen(props) {
 
 UserInputScreen.propTypes = {
   onChange: PropTypes.func.isRequired,
+  onDatabaseChange: PropTypes.func.isRequired,
 };
 
 // -----------------------------------------------------------------------------

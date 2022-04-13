@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Screens.
@@ -9,7 +10,7 @@ import ResultsHeader from "../components/common/resultsHeader";
 
 // -----------------------------------------------------------------------------
 
-const EnemiesScreen = (props) => {
+function EnemiesScreen(props) {
   const { userInput, databaseVersion } = props;
   const enemyJson = _get(props, "userInput.enemyJson");
   const name = _get(props, "name");
@@ -24,6 +25,19 @@ const EnemiesScreen = (props) => {
       />
     </div>
   );
+}
+
+EnemiesScreen.propTypes = {
+  databaseVersion: PropTypes.string.isRequired,
+  userInput: PropTypes.shape({
+    enemyJson: PropTypes.shape({
+      blueprints: PropTypes.arrayOf(
+        PropTypes.shape({
+          minDifficulty: PropTypes.number,
+        }),
+      ),
+    }),
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 import _isEmpty from "lodash.isempty";
 
@@ -11,7 +12,7 @@ import getDropChance from "../../utils/getDropChance";
 
 // -----------------------------------------------------------------------------
 
-const DropsScreen = (props) => {
+function DropsScreen(props) {
   const { blueprintsDropped } = props;
 
   const hasDrops = !_isEmpty(blueprintsDropped);
@@ -49,6 +50,20 @@ const DropsScreen = (props) => {
       )}
     </div>
   );
+}
+
+DropsScreen.propTypes = {
+  blueprintsDropped: PropTypes.arrayOf(
+    PropTypes.shape({
+      item: PropTypes.string,
+      minDifficulty: PropTypes.number,
+      rarity: PropTypes.string,
+    }),
+  ),
+};
+
+DropsScreen.defaultProps = {
+  blueprintsDropped: [],
 };
 
 // -----------------------------------------------------------------------------

@@ -279,7 +279,7 @@ export default {
   BOOTLEGSHOVELMAN: enemyNames.BOOTLEG_SHOVEL,
   BOOTLEGSHOVEL: enemyNames.BOOTLEG_SHOVEL,
 
-// --------------------------- QUEEN AND THE SEA ---------------------------- //
+  // --------------------------- QUEEN AND THE SEA ---------------------------- //
   BOILERROOM: enemyNames.ARMORED_SHRIMP,
   ARMOREDSHRIMP: enemyNames.ARMORED_SHRIMP,
   ENEMYSTAPHY: enemyNames.ARMORED_SHRIMP,
@@ -302,8 +302,7 @@ export default {
   SERVANT_BRUTALITY: enemyNames.SERVANT_BRUTAL,
   KLEIO: enemyNames.SERVANT_BRUTAL,
 
-
-// -------------------------------- THE BANK -------------------------------- //
+  // -------------------------------- THE BANK -------------------------------- //
   GUILLAINTHIEF: enemyNames.GUILLAIN_THIEF,
   THIEF: enemyNames.GUILLAIN_THIEF,
   AGITATEDPICKPOCKET: enemyNames.GUILLAIN_THIEF,

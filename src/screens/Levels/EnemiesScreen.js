@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _isEmpty from "lodash.isempty";
 import _get from "lodash.get";
 
@@ -8,7 +9,7 @@ import formatInput from "../../utils/formatInput";
 
 // -----------------------------------------------------------------------------
 
-const Enemies = (props) => {
+function Enemies(props) {
   const { userInput } = props;
 
   // TODO: This aint an item json
@@ -46,12 +47,21 @@ const Enemies = (props) => {
           </tbody>
         </table>
       ) : (
-        <>
-          <div className="notFoundWrapper">N/A</div>
-        </>
+        <div className="notFoundWrapper">N/A</div>
       )}
     </div>
   );
+}
+
+Enemies.propTypes = {
+  userInput: PropTypes.shape({
+    itemJson: PropTypes.shape({
+      mobs: PropTypes.shape({
+        mob: PropTypes.string.isRequired,
+        minDifficulty: PropTypes.number,
+      }),
+    }),
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------

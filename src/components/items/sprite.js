@@ -43,7 +43,7 @@ import cardIcons from "../../assets/cardIcons.png";
 //   return canvas.toDataURL();
 // };
 
-const Sprite = (props) => {
+function Sprite(props) {
   const { value } = props;
 
   const { x: xPosition, y: yPosition, size } = value.icon; // Positions are 0-indexed
@@ -72,11 +72,15 @@ const Sprite = (props) => {
       </td>
     </tr>
   );
-};
+}
 
 Sprite.propTypes = {
   value: PropTypes.shape({
-    icon: PropTypes.shape({ x: PropTypes.number, y: PropTypes.number }),
+    icon: PropTypes.shape({
+      x: PropTypes.number,
+      y: PropTypes.number,
+      size: PropTypes.number,
+    }),
   }),
 };
 

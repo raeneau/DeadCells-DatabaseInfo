@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Local modules.
@@ -6,7 +7,7 @@ import BasicDisplay from "../../components/common/basicDisplay";
 
 // -----------------------------------------------------------------------------
 
-const ScrollCountScreen = (props) => {
+function ScrollCountScreen(props) {
   const { userInput } = props;
 
   return (
@@ -34,6 +35,17 @@ const ScrollCountScreen = (props) => {
       </table>
     </div>
   );
+}
+
+ScrollCountScreen.propTypes = {
+  userInput: PropTypes.shape({
+    itemJson: PropTypes.shape({
+      tripleUps: PropTypes.number,
+      doubleUps: PropTypes.number,
+      quarterUpsBC3: PropTypes.number,
+      quarterUpsBC4: PropTypes.number,
+    }).isRequired,
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------

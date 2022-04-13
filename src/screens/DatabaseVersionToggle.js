@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import PropTypes from "prop-types";
 
 // Components.
@@ -33,11 +33,12 @@ const cn = {
 };
 
 function DatabaseVersionToggleScreen(props) {
-  function handleChange(event) {
+  const handleChange = useCallback((event) => {
+    const { onChange } = props;
     const databaseType = event.target.checked ? BETA : STABLE;
     // Here, we invoke the callback with the new value
-    props.onChange(databaseType);
-  }
+    onChange(databaseType);
+  });
 
   return (
     <div>

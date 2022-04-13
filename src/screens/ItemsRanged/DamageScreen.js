@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Local modules.
@@ -14,7 +15,7 @@ import DamageOverTimeStatus from "../../components/items/damageOverTimeStatus";
 
 // -----------------------------------------------------------------------------
 
-const DamageScreen = (props) => {
+function DamageScreen(props) {
   const { itemJson, strikeChain, internalId } = props;
 
   return (
@@ -67,6 +68,34 @@ const DamageScreen = (props) => {
       </table>
     </div>
   );
+}
+
+DamageScreen.propTypes = {
+  internalId: PropTypes.string.isRequired,
+  itemJson: PropTypes.shape({
+    props: PropTypes.shape({
+      aoeDuration: PropTypes.number,
+      castCD: PropTypes.number,
+      duration: PropTypes.number,
+      power: PropTypes.oneOfType([
+        PropTypes.arrayOf(PropTypes.number),
+        PropTypes.number,
+      ]),
+      power2: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.number)]),
+      tick: PropTypes.number,
+    }),
+  }).isRequired,
+  strikeChain: PropTypes.arrayOf(
+    PropTypes.shape({
+      charge: PropTypes.number,
+      cooldown: PropTypes.number,
+      lockControlAfter: PropTypes.number,
+    }),
+  ),
+};
+
+DamageScreen.defaultProps = {
+  strikeChain: [],
 };
 
 // -----------------------------------------------------------------------------
