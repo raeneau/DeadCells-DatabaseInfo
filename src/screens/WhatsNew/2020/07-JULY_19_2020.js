@@ -5,7 +5,7 @@ export default (
     <h4>July 19th 2020</h4>
     <li>Added damage over time values to applicable weapons</li>
     <li>
-      Added more shortcut names, like pyro -> pyrotechnics, valmont -> valmont's
+      Added more shortcut names, like pyro to pyrotechnics, valmont to valmont's
       whip
     </li>
     <li>Fixed DPS for some weapons</li>

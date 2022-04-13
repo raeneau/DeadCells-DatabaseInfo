@@ -30,7 +30,13 @@ function EnemiesScreen(props) {
 EnemiesScreen.propTypes = {
   databaseVersion: PropTypes.string.isRequired,
   userInput: PropTypes.shape({
-    name: PropTypes.string,
+    enemyJson: PropTypes.shape({
+      blueprints: PropTypes.arrayOf(
+        PropTypes.shape({
+          minDifficulty: PropTypes.number,
+        }),
+      ),
+    }),
   }).isRequired,
 };
 

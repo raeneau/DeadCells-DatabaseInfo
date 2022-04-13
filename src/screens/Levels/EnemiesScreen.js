@@ -55,7 +55,12 @@ function Enemies(props) {
 
 Enemies.propTypes = {
   userInput: PropTypes.shape({
-    name: PropTypes.string,
+    itemJson: PropTypes.shape({
+      mobs: PropTypes.shape({
+        mob: PropTypes.string.isRequired,
+        minDifficulty: PropTypes.number,
+      }),
+    }),
   }).isRequired,
 };
 

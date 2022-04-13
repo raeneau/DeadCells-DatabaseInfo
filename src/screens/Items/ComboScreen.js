@@ -46,7 +46,7 @@ ComboScreen.propTypes = {
 };
 
 ComboScreen.defaultProps = {
-  strikeChain: undefined,
+  strikeChain: [],
 };
 
 // -----------------------------------------------------------------------------

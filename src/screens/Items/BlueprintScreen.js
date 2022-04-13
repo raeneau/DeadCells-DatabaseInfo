@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 // Local modules.
 import CellUnlockCost from "../../components/items/cellUnlockCost";
@@ -7,7 +8,7 @@ import BlueprintDropInfo from "../../components/items/blueprintDropInfo";
 
 // -----------------------------------------------------------------------------
 
-const BlueprintScreen = (props) => {
+function BlueprintScreen(props) {
   const { cellCost, internalId } = props;
 
   return (
@@ -25,6 +26,15 @@ const BlueprintScreen = (props) => {
       </table>
     </div>
   );
+}
+
+BlueprintScreen.propTypes = {
+  cellCost: PropTypes.number,
+  internalId: PropTypes.string.isRequired,
+};
+
+BlueprintScreen.defaultProps = {
+  cellCost: 0,
 };
 
 // -----------------------------------------------------------------------------

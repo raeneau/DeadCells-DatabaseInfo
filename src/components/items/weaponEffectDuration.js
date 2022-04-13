@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import PropTypes from "prop-types";
 
 import _get from "lodash.get";
 import _isEmpty from "lodash.isempty";
@@ -47,7 +48,7 @@ function WeaponEffectDuration(props) {
   });
 
   // Map the duration and AOE duration to JSX elements
-  const durationElement = !_isEmpty(durationByHit) ? (
+  const durationElement = !_isEmpty(durationByHit) && (
     <Fragment>
       <tr>
         <td>Weapon Effect Duration</td>
@@ -57,10 +58,8 @@ function WeaponEffectDuration(props) {
         <tr key={`Combo__hit${durationByHitKeys[index]}`}>{hit}</tr>
       ))}
     </Fragment>
-  ) : (
-    <Fragment />
   );
-  const aoeDurationElement = !_isEmpty(aoeDurationByHit) ? (
+  const aoeDurationElement = !_isEmpty(aoeDurationByHit) && (
     <Fragment>
       <tr>
         <td>AOE Effect Duration</td>
@@ -70,8 +69,6 @@ function WeaponEffectDuration(props) {
         <tr key={`Combo__hit${durationByHitKeys[index]}`}>{hit}</tr>
       ))}
     </Fragment>
-  ) : (
-    <Fragment />
   );
 
   return (
@@ -81,6 +78,19 @@ function WeaponEffectDuration(props) {
     </Fragment>
   );
 }
+
+WeaponEffectDuration.propTypes = {
+  array: PropTypes.arrayOf(
+    PropTypes.shape({
+      duration: PropTypes.number,
+      aoeDuration: PropTypes.number,
+    }),
+  ),
+};
+
+WeaponEffectDuration.defaultProps = {
+  array: [],
+};
 
 // -----------------------------------------------------------------------------
 

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 import BasicDisplay from "../../components/common/basicDisplay";
@@ -7,7 +8,7 @@ import BaseDps from "../../components/items/baseDps";
 
 // -----------------------------------------------------------------------------
 
-const DamageScreenGrenades = (props) => {
+function DamageScreenGrenades(props) {
   const { itemJson } = props;
 
   return (
@@ -31,6 +32,20 @@ const DamageScreenGrenades = (props) => {
       </table>
     </div>
   );
+}
+
+DamageScreenGrenades.propTypes = {
+  itemJson: PropTypes.shape({
+    props: PropTypes.shape({
+      castCD: PropTypes.number,
+    }),
+    strikeChain: PropTypes.arrayOf(
+      PropTypes.shape({
+        breachBonus: PropTypes.number,
+        power: PropTypes.number,
+      }),
+    ),
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------
