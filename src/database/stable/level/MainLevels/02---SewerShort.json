@@ -130,6 +130,7 @@
   "name": "Égouts toxiques",
   "mobDensity": 1.05,
   "specificLoots": [],
+  "mapDepth": 1,
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 1,

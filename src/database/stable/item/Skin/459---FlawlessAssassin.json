@@ -1,0 +1,25 @@
+{
+  "props": {},
+  "gameplayDesc": "Good timing job!",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "FlawlessAssassin",
+  "icon": {
+    "x": 15,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Flawless Temporal Outfit",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "FlawlessBlueprint"
+    }
+  ],
+  "cellCost": 500,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 459
+}

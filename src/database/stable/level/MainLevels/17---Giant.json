@@ -33,6 +33,7 @@
   "name": "Repaire du Gardien",
   "mobDensity": 1,
   "specificLoots": [],
+  "mapDepth": 7,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 0,

@@ -5,7 +5,9 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": 50,
+      "power": [
+        50
+      ],
       "fxProps": {
         "fxStartFrame": 0,
         "fxOuterColor": 16777215
@@ -37,7 +39,9 @@
     },
     {
       "coolDown": 0,
-      "power": 60,
+      "power": [
+        60
+      ],
       "fxProps": {
         "fxStartFrame": -8,
         "fxOuterColor": 16777215
@@ -68,7 +72,9 @@
     },
     {
       "coolDown": 0.2,
-      "power": 18,
+      "power": [
+        18
+      ],
       "fxProps": {
         "fxStartFrame": 0,
         "fxOuterColor": 16777215

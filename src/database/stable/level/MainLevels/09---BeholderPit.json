@@ -32,6 +32,7 @@
   "name": "Crypte nauséabonde",
   "mobDensity": 1,
   "specificLoots": [],
+  "mapDepth": 4,
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,

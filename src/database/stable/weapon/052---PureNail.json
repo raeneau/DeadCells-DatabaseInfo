@@ -5,7 +5,9 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": 45,
+      "power": [
+        45
+      ],
       "fxProps": {
         "fxInnerColor": 16777215,
         "fxStartFrame": -5,
@@ -39,7 +41,9 @@
     },
     {
       "coolDown": 0,
-      "power": 55,
+      "power": [
+        55
+      ],
       "fxProps": {
         "fxInnerColor": 16777215,
         "fxStartFrame": -5,
@@ -73,7 +77,9 @@
     },
     {
       "coolDown": 0.35,
-      "power": 30,
+      "power": [
+        30
+      ],
       "fxProps": {
         "fxInnerColor": 16777215,
         "fxStartFrame": -5,
@@ -109,7 +115,9 @@
     },
     {
       "coolDown": 0.25,
-      "power": 40,
+      "power": [
+        40
+      ],
       "fxProps": {
         "fxInnerColor": 16777215,
         "fxStartFrame": -5,

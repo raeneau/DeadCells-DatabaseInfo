@@ -22,6 +22,31 @@
       "rarity": "Always",
       "item": "ServanteDefault",
       "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessServante",
+      "minDifficulty": 0
     }
   ],
   "maxPerRoom": 1,
@@ -39,7 +64,7 @@
     "size": 24
   },
   "life": [
-    3000
+    2400
   ],
   "name": "Euterpe",
   "minPfHeight": 0,

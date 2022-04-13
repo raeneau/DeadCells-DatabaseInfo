@@ -16,7 +16,7 @@
   "eliteWanderChance": 0.75,
   "index": 24,
   "id": "BoatDock",
-  "flags": 2097157,
+  "flags": 538968069,
   "worldDepth": 9,
   "icon": {
     "x": 68,
@@ -29,6 +29,7 @@
   "name": "Embarcadère",
   "mobDensity": 1,
   "specificLoots": [],
+  "mapDepth": 0,
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 0,

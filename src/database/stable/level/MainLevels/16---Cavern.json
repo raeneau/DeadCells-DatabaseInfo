@@ -108,6 +108,7 @@
   "name": "Caverne",
   "mobDensity": 0.7,
   "specificLoots": [],
+  "mapDepth": 6,
   "specificSubBiome": [],
   "minGold": 3500,
   "tripleUps": 4,

@@ -120,6 +120,7 @@
   "name": "Profondeurs de la Prison",
   "mobDensity": 1,
   "specificLoots": [],
+  "mapDepth": 2,
   "specificSubBiome": [],
   "minGold": 500,
   "tripleUps": 0,

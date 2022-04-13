@@ -32,6 +32,7 @@
   "name": "Coeur du marais",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 4,
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,

@@ -145,6 +145,7 @@
   "name": "Toits de la Prison",
   "mobDensity": 0.9,
   "specificLoots": [],
+  "mapDepth": 3,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 3,

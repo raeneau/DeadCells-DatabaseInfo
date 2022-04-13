@@ -6,7 +6,7 @@
     "effectCD": 0.34,
     "duration": 4
   },
-  "gameplayDesc": "The third attack throws the shark, {rooting@RO} the enemy and causing it to {bleed@BL}.",
+  "gameplayDesc": "The third attack throws the shark, {rooting@RO} the enemy and causing it to {bleed@BL}. Inflicts {critical hits@CC} on {rooted@RO} targets.",
   "moneyCost": 2000,
   "group": 4,
   "castCD": 0,
@@ -30,9 +30,6 @@
     },
     {
       "tag": "HasBullets"
-    },
-    {
-      "tag": "NoCritical"
     }
   ],
   "tier1": "Survival",

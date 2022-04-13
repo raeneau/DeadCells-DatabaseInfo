@@ -28,6 +28,9 @@
     },
     {
       "tag": "ManualCooldown"
+    },
+    {
+      "tag": "ShortCooldown"
     }
   ],
   "tier1": "Brutality",

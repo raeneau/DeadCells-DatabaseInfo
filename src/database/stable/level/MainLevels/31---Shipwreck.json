@@ -96,6 +96,7 @@
   "name": "Infested Shipwreck",
   "mobDensity": 0.75,
   "specificLoots": [],
+  "mapDepth": 8,
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 2,

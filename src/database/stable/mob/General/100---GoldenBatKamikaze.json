@@ -1,0 +1,68 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "doNotScaleLife": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "genTags": 530,
+  "pfCost": 0,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "MoneyShooter",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "index": 100,
+  "volteDelay": 0,
+  "id": "GoldenBatKamikaze",
+  "weight": 0,
+  "icon": {
+    "x": 49,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": 1,
+  "name": "U28_GOLDEN_KAMIKAZE",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 2,
+  "flesh1": 14659840,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "props": {
+        "speed": 1,
+        "canTriggerThroughWall": false,
+        "count": 250,
+        "distance": 4
+      },
+      "allowInAir": true,
+      "radius": 1.5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm_kamikaze_charge.wav",
+      "charge": 0.71,
+      "manual": false,
+      "id": "core",
+      "sfxRelease": "sfx/enm_gold_kamikaze_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 100
+}

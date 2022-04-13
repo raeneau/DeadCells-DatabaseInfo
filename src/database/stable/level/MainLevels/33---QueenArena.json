@@ -32,6 +32,7 @@
   "name": "The Crown",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 11,
   "specificSubBiome": [],
   "minGold": 2500,
   "tripleUps": 0,

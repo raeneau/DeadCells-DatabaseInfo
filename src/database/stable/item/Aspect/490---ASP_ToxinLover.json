@@ -1,0 +1,25 @@
+{
+  "props": {
+    "prct": 0.01,
+    "tick": 0.4,
+    "duration": 2
+  },
+  "gameplayDesc": "Slowly heals you when inside a gas cloud or poison pool. Poison no longer affects you.",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_ToxinLover",
+  "icon": {
+    "x": 4,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Toxin Lover",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 490
+}

@@ -1,10 +1,6 @@
 {
-  "props": {
-    "duration2": 0.1,
-    "prct": 0.5,
-    "duration": 0.5
-  },
-  "gameplayDesc": "The first attack damage scales with your current movement speed.",
+  "props": {},
+  "gameplayDesc": "The first attack makes you jump forward. Hitting with this attack causes your next combo with this weapon to deal {critical damage@CC}.",
   "moneyCost": 2000,
   "group": 4,
   "castCD": 0,

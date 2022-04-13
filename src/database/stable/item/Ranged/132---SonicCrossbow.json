@@ -1,0 +1,42 @@
+{
+  "props": {
+    "ammo": 20
+  },
+  "gameplayDesc": "Traverse ses victimes et tire en rafale quand elle est maintenue. Inflige des {coups critiques@CC} aux ennemis derrière la première cible. ",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "id": "SonicCrossbow",
+  "dlc": "RiseOfTheGiant",
+  "icon": {
+    "x": 19,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Carabine sonique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 100,
+  "legendAffix": "FireBullet",
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 132
+}

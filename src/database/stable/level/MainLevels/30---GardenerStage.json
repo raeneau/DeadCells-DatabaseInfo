@@ -34,6 +34,7 @@
   "name": "Le Jardin Royal",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 7,
   "specificSubBiome": [],
   "minGold": 4000,
   "tripleUps": 0,

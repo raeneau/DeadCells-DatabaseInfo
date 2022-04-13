@@ -97,6 +97,7 @@
   "name": "Tour de l'Horloge",
   "mobDensity": 1.2,
   "specificLoots": [],
+  "mapDepth": 6,
   "specificSubBiome": [],
   "minGold": 3500,
   "tripleUps": 4,

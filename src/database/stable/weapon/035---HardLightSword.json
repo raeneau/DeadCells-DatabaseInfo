@@ -5,7 +5,9 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": 35,
+      "power": [
+        35
+      ],
       "fxProps": {
         "fxStartFrame": -1
       },
@@ -43,7 +45,9 @@
     },
     {
       "coolDown": 0,
-      "power": 40,
+      "power": [
+        45
+      ],
       "fxProps": {
         "fxStartFrame": -1
       },
@@ -73,7 +77,9 @@
     },
     {
       "coolDown": 0,
-      "power": 55,
+      "power": [
+        55
+      ],
       "fxProps": {
         "fxStartFrame": -1
       },

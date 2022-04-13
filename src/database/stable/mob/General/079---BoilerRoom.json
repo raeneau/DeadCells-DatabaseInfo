@@ -12,7 +12,8 @@
     "color": 5536163,
     "runFactor": 3,
     "yStepOffset": 8,
-    "bumpResistance": 1
+    "bumpResistance": 1,
+    "insensitiveSpike": true
   },
   "genTags": 544,
   "glowOuterColor": 18343,

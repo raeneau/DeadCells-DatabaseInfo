@@ -33,6 +33,7 @@
   "name": "Salle de l'Horloge",
   "mobDensity": 0,
   "specificLoots": [],
+  "mapDepth": 7,
   "specificSubBiome": [],
   "minGold": 3000,
   "tripleUps": 0,

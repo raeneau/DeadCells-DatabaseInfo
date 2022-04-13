@@ -221,6 +221,20 @@
       "singleRoom": false,
       "props": {},
       "spawnWith": [],
+      "mob": "U28_Steal",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "requiredLevel": "Bank",
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
       "mob": "BatDasher",
       "maxDifficulty": 2,
       "minDifficulty": 0,
@@ -276,6 +290,7 @@
   "name": "Falaise",
   "mobDensity": 0.8,
   "specificLoots": [],
+  "mapDepth": 6,
   "specificSubBiome": [],
   "minGold": 0,
   "tripleUps": 4,
