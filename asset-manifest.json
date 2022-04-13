@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/DeadCells-DatabaseInfo/static/css/main.32af26cb.chunk.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.f961497a.chunk.js",
-    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.f961497a.chunk.js.map",
+    "main.css": "/DeadCells-DatabaseInfo/static/css/main.e63e2a28.chunk.css",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.0ca35c4e.chunk.js",
+    "main.js.map": "/DeadCells-DatabaseInfo/static/js/main.0ca35c4e.chunk.js.map",
     "runtime-main.js": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js",
     "runtime-main.js.map": "/DeadCells-DatabaseInfo/static/js/runtime-main.13a4b7b1.js.map",
     "static/js/2.9dcc12a4.chunk.js": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js",
     "static/js/2.9dcc12a4.chunk.js.map": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js.map",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
-    "precache-manifest.65ada13170142e074bab9ccc8597d6ef.js": "/DeadCells-DatabaseInfo/precache-manifest.65ada13170142e074bab9ccc8597d6ef.js",
+    "precache-manifest.9d8541ba765f9e548c9f94fe62ef289a.js": "/DeadCells-DatabaseInfo/precache-manifest.9d8541ba765f9e548c9f94fe62ef289a.js",
     "service-worker.js": "/DeadCells-DatabaseInfo/service-worker.js",
-    "static/css/main.32af26cb.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.32af26cb.chunk.css.map",
+    "static/css/main.e63e2a28.chunk.css.map": "/DeadCells-DatabaseInfo/static/css/main.e63e2a28.chunk.css.map",
     "static/js/2.9dcc12a4.chunk.js.LICENSE.txt": "/DeadCells-DatabaseInfo/static/js/2.9dcc12a4.chunk.js.LICENSE.txt",
     "static/media/cardIcons.png": "/DeadCells-DatabaseInfo/static/media/cardIcons.df0c161e.png",
     "static/media/index.css": "/DeadCells-DatabaseInfo/static/media/islandBackground.77547194.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.13a4b7b1.js",
     "static/js/2.9dcc12a4.chunk.js",
-    "static/css/main.32af26cb.chunk.css",
-    "static/js/main.f961497a.chunk.js"
+    "static/css/main.e63e2a28.chunk.css",
+    "static/js/main.0ca35c4e.chunk.js"
   ]
 }
