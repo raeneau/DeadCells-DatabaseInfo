@@ -143,7 +143,7 @@ function App() {
         <EnemyScreen
           userInput={jsonArrays}
           databaseVersion={databaseVersion}
-          ok={name}
+          name={name}
         />
       )}
       {validJson && resourceType === GRENADE && (

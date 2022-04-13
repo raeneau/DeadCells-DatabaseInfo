@@ -8,7 +8,7 @@ import AttackDuration from "../../components/items/attackDuration";
 
 // -----------------------------------------------------------------------------
 
-const ComboScreen = (props) => {
+function ComboScreen(props) {
   const { strikeChain } = props;
 
   return (
@@ -33,7 +33,7 @@ const ComboScreen = (props) => {
       </table>
     </div>
   );
-};
+}
 
 ComboScreen.propTypes = {
   strikeChain: PropTypes.arrayOf(

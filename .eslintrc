@@ -1,4 +1,8 @@
 {
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "extends": ["airbnb", "prettier", "prettier/react"],
   "plugins": ["import", "jsx-a11y", "prettier", "react", "react-hooks"],
   "rules": {
