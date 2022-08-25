@@ -24,7 +24,7 @@
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_firecrossbow_charge.wav",
+      "sfxCharge": "sfx/weapon/weapon_firecrossbow_charge.wav",
       "charge": 0.5,
       "sfxProps": {
         "sfxChargeVolume": 0.4
@@ -37,9 +37,9 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_firecrossbow_shot.wav",
+      "sfxRelease": "sfx/weapon/weapon_firecrossbow_shot.wav",
       "animId": "explosiveCrossbow",
-      "sfxHit": "sfx/explode.wav",
+      "sfxHit": "sfx/env/explode.wav",
       "hitFrame": 0,
       "critMul": 0.85,
       "glowColor": 16711680,

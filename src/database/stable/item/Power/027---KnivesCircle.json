@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "power": [
       5
@@ -18,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedPoison"
+    }
+  ],
   "name": "Danse des couteaux",
   "droppable": true,
   "tags": [
@@ -36,8 +47,7 @@
   ],
   "tier1": "Brutality",
   "tier2": "Tactic",
-  "cellCost": 20,
-  "legendAffix": "BleedPoison",
+  "cellCost": 5,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 27

@@ -30,10 +30,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_boi_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_boi_release.wav",
       "fxId": "fxThrow",
       "animId": "atkBleedAxe",
-      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "sfxHit": "sfx/weapon/weapon_hit_floor.wav",
       "hitFrame": 12,
       "critMul": 2,
       "glowColor": 13094115,

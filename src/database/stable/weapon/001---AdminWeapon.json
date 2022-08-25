@@ -29,10 +29,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_swipe_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_swipe_release1.wav",
       "fxId": "fxSwordAtkB",
       "animId": "atkPunchA",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 4,
       "critMul": 0.9,
       "glowColor": 8029439,

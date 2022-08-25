@@ -19,7 +19,7 @@
       },
       "breachBonus": 0.5,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_autocrossbow_charge.wav",
+      "sfxCharge": "sfx/weapon/weapon_autocrossbow_charge.wav",
       "charge": 0.35,
       "sfxProps": {},
       "canCrit": false,
@@ -30,7 +30,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_autocrossbow_shot2.wav",
+      "sfxRelease": "sfx/weapon/weapon_autocrossbow_shot2.wav",
       "animId": "multiCrossbow",
       "hitFrame": 0,
       "glowColor": 12906506,

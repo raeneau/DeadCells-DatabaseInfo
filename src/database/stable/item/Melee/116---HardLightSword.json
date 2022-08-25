@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "power2": [
       1.1,
@@ -24,6 +25,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
   "name": "U26_HARDLIGHTSWORD_NAME",
   "droppable": true,
   "tags": [

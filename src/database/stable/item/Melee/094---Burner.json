@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Fire",
+      "trigger": true
+    }
+  ],
   "props": {
     "dps": 15,
     "duration": 2.7
@@ -15,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
   "name": "Torche",
   "droppable": true,
   "tags": [
@@ -29,8 +40,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 30,
-  "legendAffix": "FireDamage",
+  "cellCost": 15,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 94

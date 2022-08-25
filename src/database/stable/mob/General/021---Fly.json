@@ -23,6 +23,11 @@
   "maxPerRoom": 4,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 21,
   "volteDelay": 0.3,
   "id": "Fly",
@@ -54,11 +59,11 @@
       "allowInAir": true,
       "radius": 1.1,
       "allowSameSkillNearby": true,
-      "sfxCharge": "sfx/enm_fly_charge.wav",
+      "sfxCharge": "sfx/enm/enm_fly_charge.wav",
       "charge": 0.4,
       "manual": false,
       "id": "cc",
-      "sfxRelease": "sfx/enm_fly_release.wav",
+      "sfxRelease": "sfx/enm/enm_fly_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 0,
@@ -76,7 +81,7 @@
       "charge": 0,
       "manual": true,
       "id": "flee",
-      "sfxRelease": "sfx/enm_fly_fly.wav",
+      "sfxRelease": "sfx/enm/enm_fly_fly.wav",
       "disableAnnounceFx": true,
       "hitFrame": 0,
       "breachResistance": 0,

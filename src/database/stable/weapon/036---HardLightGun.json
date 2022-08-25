@@ -4,20 +4,20 @@
   "item": "HardLightGun",
   "strikeChain": [
     {
-      "coolDown": 0.2,
+      "coolDown": 0.15,
       "power": [
         25
       ],
       "fxProps": {
         "fxStartFrame": -1
       },
-      "lockCtrlAfter": 0.25,
+      "lockCtrlAfter": 0.2,
       "props": {
         "color": 65023
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,
-      "charge": 0.15,
+      "charge": 0.12,
       "sfxProps": {},
       "canCrit": true,
       "area": {
@@ -27,10 +27,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_hyperlight_gun_shot.wav",
+      "sfxRelease": "sfx/weapon/weapon_hyperlight_gun_shot.wav",
       "fxId": "fxatkHardLightGunShootA",
       "animId": "atkhardLightGunShootA",
-      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_hyperlight_sword_hit.wav",
       "hitFrame": 2,
       "critMul": 3,
       "glowColor": 16777215

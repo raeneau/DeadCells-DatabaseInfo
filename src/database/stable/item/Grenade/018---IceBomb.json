@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Ice",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 6,
     "coolDown": 0.6,
@@ -18,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "StrongIce"
+    }
+  ],
   "name": "Bombe givrante",
   "droppable": true,
   "tags": [
@@ -39,7 +50,6 @@
   ],
   "tier1": "Survival",
   "cellCost": 0,
-  "legendAffix": "StrongIce",
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 18

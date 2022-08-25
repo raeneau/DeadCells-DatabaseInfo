@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.1,
     "range": 9,
@@ -27,6 +28,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Poulet infernal",
   "droppable": false,
   "tags": [

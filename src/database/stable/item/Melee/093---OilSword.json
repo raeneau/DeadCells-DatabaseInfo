@@ -1,4 +1,14 @@
 {
+  "synergy": [
+    {
+      "tag": "Oil",
+      "trigger": true
+    },
+    {
+      "tag": "Fire",
+      "trigger": false
+    }
+  ],
   "props": {
     "color": 11301631,
     "duration": 10
@@ -14,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "PoisonOnHit"
+    }
+  ],
   "name": "Epée huileuse",
   "droppable": true,
   "tags": [
@@ -23,7 +38,7 @@
   ],
   "tier1": "Brutality",
   "cellCost": 25,
-  "legendAffix": "PoisonOnHit",
+  "legendAffix": "BlueFireDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 93

@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "grenadeKickPow": 0.2
   },
@@ -14,6 +15,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BetterSecrets"
+    }
+  ],
   "name": "Pelle",
   "droppable": true,
   "tags": [
@@ -29,8 +35,7 @@
   ],
   "tier1": "Survival",
   "tier2": "Brutality",
-  "cellCost": 40,
-  "legendAffix": "FullLifeDamage",
+  "cellCost": 15,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 74

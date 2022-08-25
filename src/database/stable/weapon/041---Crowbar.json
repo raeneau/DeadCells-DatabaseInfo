@@ -25,10 +25,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_crowbar_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
       "fxId": "fxAtkCrowbarA",
       "animId": "atkCrowbarA",
-      "sfxHit": "sfx/weapon_crowbar_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
       "hitFrame": 3,
       "critMul": 0.75
     },
@@ -54,10 +54,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_crowbar_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
       "fxId": "fxAtkCrowbarB",
       "animId": "atkCrowbarB",
-      "sfxHit": "sfx/weapon_crowbar_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
       "hitFrame": 7,
       "critMul": 0.75
     },
@@ -83,10 +83,10 @@
         "height": 3,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_crowbar_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
       "fxId": "fxAtkCrowbarC",
       "animId": "atkCrowbarC",
-      "sfxHit": "sfx/weapon_crowbar_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
       "hitFrame": 9,
       "critMul": 0.9
     }

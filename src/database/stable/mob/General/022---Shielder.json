@@ -30,6 +30,7 @@
   "maxPerRoom": 1,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [],
   "index": 22,
   "id": "Shielder",
   "weight": 0,

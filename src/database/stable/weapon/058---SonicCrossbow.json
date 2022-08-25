@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        33
+        30
       ],
       "fxProps": {
         "fxInnerColor": 16711680,
@@ -19,7 +19,7 @@
       },
       "breachBonus": 0.6,
       "dynamicCharge": 2,
-      "sfxCharge": "sfx/bow_charge2.wav",
+      "sfxCharge": "sfx/weapon/bow_charge2.wav",
       "charge": 0.17,
       "sfxProps": {},
       "canCrit": true,
@@ -30,7 +30,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot2.wav",
+      "sfxRelease": "sfx/weapon/bow_shot2.wav",
       "animId": "sonicCrossbow",
       "hitFrame": 0,
       "glowColor": 65355,

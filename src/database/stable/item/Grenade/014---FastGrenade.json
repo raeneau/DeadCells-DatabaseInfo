@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 4.5,
     "coolDown": 0.6,
@@ -17,6 +18,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "Oil"
+    }
+  ],
   "name": "Grenade d'infanterie",
   "droppable": true,
   "tags": [
@@ -35,7 +41,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 0,
-  "legendAffix": "Oil",
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 14

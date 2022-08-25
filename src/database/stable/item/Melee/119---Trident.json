@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "distance": 4
   },
@@ -15,6 +16,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnCrit"
+    }
+  ],
   "name": "Abyssal Trident",
   "droppable": true,
   "tags": [
@@ -30,7 +36,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 50,
-  "legendAffix": "RunSpeedOnCrit",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 119

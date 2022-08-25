@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "color2": 16761666,
     "color": 16761666
@@ -16,6 +17,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SpeedBall"
+    }
+  ],
   "name": "Wrecking Ball",
   "droppable": true,
   "tags": [

@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration2": 1.5,
     "count": 2,
@@ -15,6 +16,14 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "QuadDamageFree"
+    },
+    {
+      "affix": "IgnoreGlobalShield"
+    }
+  ],
   "name": "Lance symétrique",
   "droppable": true,
   "tags": [
@@ -33,7 +42,6 @@
   ],
   "tier1": "Survival",
   "cellCost": 150,
-  "legendAffix": "FullLifeDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 83

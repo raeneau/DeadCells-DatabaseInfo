@@ -1,0 +1,113 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Shark",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        135
+      ],
+      "fxProps": {
+        "fxStartFrame": 16
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_stunmace_charge1.wav",
+      "charge": 0.48,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_shark_release1.wav",
+      "fxId": "fxSharkA",
+      "animId": "AtkSharkA",
+      "sfxHit": "sfx/weapon/weapon_shark_hit1.wav",
+      "hitFrame": 14,
+      "critMul": 1,
+      "glowColor": 16187230,
+      "animSpd": 1.3
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        150
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.7
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_stunmace_charge1.wav",
+      "charge": 0.54,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.5,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_shark_release2.wav",
+      "fxId": "fxSharkB",
+      "animId": "AtkSharkB",
+      "sfxHit": "sfx/weapon/weapon_shark_hit2.wav",
+      "hitFrame": 15,
+      "critMul": 1,
+      "glowColor": 16187230,
+      "animSpd": 1.3
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        120
+      ],
+      "fxProps": {
+        "fxInnerColor": 16740352,
+        "fxOffset": [
+          10,
+          0
+        ],
+        "fxOuterColor": 14876672
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_stunmace_charge1.wav",
+      "charge": 0.54,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_shark_release3.wav",
+      "animId": "AtkSharkC",
+      "sfxHit": "sfx/weapon/weapon_shark_hit4.wav",
+      "hitFrame": 16,
+      "critMul": 1.5,
+      "glowColor": 15204190
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 107
+}

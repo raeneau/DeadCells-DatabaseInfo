@@ -1,4 +1,14 @@
 {
+  "synergy": [
+    {
+      "tag": "Poison",
+      "trigger": true
+    },
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 8,
     "dps": 8,
@@ -16,6 +26,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
   "name": "Nuage corrosif",
   "droppable": true,
   "tags": [
@@ -35,7 +50,6 @@
   "tier1": "Tactic",
   "tier2": "Brutality",
   "cellCost": 40,
-  "legendAffix": "LightningAoe",
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 35

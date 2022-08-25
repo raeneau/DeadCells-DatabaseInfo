@@ -16,7 +16,7 @@
       "props": {},
       "breachBonus": 0.7,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_shovel_charge1.wav",
+      "sfxCharge": "sfx/weapon/weapon_shovel_charge1.wav",
       "charge": 0.4,
       "sfxProps": {},
       "canCrit": false,
@@ -27,10 +27,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_shovel_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_shovel_release1.wav",
       "fxId": "fxShovelA",
       "animId": "atkShovelA",
-      "sfxHit": "sfx/weapon_shovel_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_shovel_hit.wav",
       "hitFrame": 13,
       "glowColor": 16776649,
       "animSpd": 1
@@ -61,10 +61,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_shovel_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_shovel_release2.wav",
       "fxId": "fxShovelB",
       "animId": "atkShovelB",
-      "sfxHit": "sfx/weapon_shovel_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_shovel_hit.wav",
       "hitFrame": 6,
       "glowColor": 16776649,
       "animSpd": 1
@@ -86,7 +86,7 @@
       },
       "breachBonus": 2,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_shovel_charge3.wav",
+      "sfxCharge": "sfx/weapon/weapon_shovel_charge3.wav",
       "charge": 0.4,
       "sfxProps": {},
       "canCrit": false,
@@ -97,10 +97,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_shovel_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_shovel_release3.wav",
       "fxId": "fxShovelC",
       "animId": "atkShovelC",
-      "sfxHit": "sfx/weapon_shovel_hit3.wav",
+      "sfxHit": "sfx/weapon/weapon_shovel_hit3.wav",
       "hitFrame": 9,
       "glowColor": 16777215,
       "animSpd": 1

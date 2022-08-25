@@ -18,7 +18,7 @@
       },
       "breachBonus": 0.7,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxCharge": "sfx/weapon/bow_charge1.wav",
       "charge": 0.15,
       "sfxProps": {},
       "canCrit": false,
@@ -29,7 +29,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot3.wav",
+      "sfxRelease": "sfx/weapon/bow_shot3.wav",
       "animId": "markBow",
       "hitFrame": 0,
       "glowColor": 16740352,

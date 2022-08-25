@@ -1,4 +1,14 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": false
+    },
+    {
+      "tag": "Poison",
+      "trigger": false
+    }
+  ],
   "props": {},
   "gameplayDesc": "Inflige un {coup critique@CC} si la cible {saigne@BL} ou est {empoisonnée@TO}.",
   "moneyCost": 1500,
@@ -12,6 +22,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperBackDamage"
+    }
+  ],
   "name": "Dague de cultiste sadique",
   "droppable": true,
   "tags": [
@@ -22,7 +37,6 @@
   "tier1": "Brutality",
   "tier2": "Tactic",
   "cellCost": 25,
-  "legendAffix": "BackDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 76

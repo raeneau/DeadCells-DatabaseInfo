@@ -24,6 +24,7 @@
   "maxPerRoom": 1,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [],
   "index": 35,
   "id": "Fogger",
   "weight": 10,

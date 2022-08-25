@@ -1,0 +1,42 @@
+{
+  "synergy": [],
+  "props": {
+    "bump": 0.2,
+    "count": 150
+  },
+  "gameplayDesc": "U28_MONEYSHOOTER_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "U28_MONEYSHOOTER_AMBIENTDESC",
+  "id": "MoneyShooter",
+  "icon": {
+    "x": 8,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
+  "name": "U28_MONEYSHOOTER_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "AlwaysCritical"
+    },
+    {
+      "tag": "HasBullets"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 80,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 166
+}

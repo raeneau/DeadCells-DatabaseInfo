@@ -240,4 +240,10 @@ export default {
   GOLDDIGGERPOWEREDUP: meleeWeaponNames.GOLDDAGGEREVO,
   GOLDDIGGERUPGRADE: meleeWeaponNames.GOLDDAGGEREVO,
   GOLDDIGGERUPGRADED: meleeWeaponNames.GOLDDAGGEREVO,
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  NUNCHUCKPAN: meleeWeaponNames.NUNCHUCKPAN,
+  PANCHAKU: meleeWeaponNames.NUNCHUCKPAN,
+  NUNCHUCKS: meleeWeaponNames.NUNCHUCKPAN,
+  PANS: meleeWeaponNames.NUNCHUCKPAN,
 };

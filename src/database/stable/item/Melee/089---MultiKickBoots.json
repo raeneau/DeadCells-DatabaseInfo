@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "power2": [
       200
@@ -15,6 +16,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperBackDamage"
+    }
+  ],
   "name": "Bottes de Hayabusa",
   "droppable": true,
   "tags": [
@@ -26,8 +32,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 80,
-  "legendAffix": "FullLifeDamage",
+  "cellCost": 50,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 89

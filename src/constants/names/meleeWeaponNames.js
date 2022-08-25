@@ -319,4 +319,11 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Gold Digger (Evolved)",
   },
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  NUNCHUCKPAN: {
+    INTERNAL_ID: "NUNCHUCKPAN",
+    TYPE: MELEE_WEAPON,
+    NAME: "Panchaku",
+  },
 };

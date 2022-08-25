@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "power": [
       70
@@ -17,6 +18,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "PoisonOnUse"
+    }
+  ],
   "name": "Déphasage",
   "droppable": true,
   "tags": [
@@ -32,8 +38,7 @@
   ],
   "tier1": "Brutality",
   "tier2": "Tactic",
-  "cellCost": 35,
-  "legendAffix": "PoisonOnUse",
+  "cellCost": 50,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 33

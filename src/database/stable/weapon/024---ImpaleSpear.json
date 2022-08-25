@@ -29,10 +29,10 @@
         "height": 1,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_impaler_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_impaler_release1.wav",
       "fxId": "fxSpearB",
       "animId": "atkSpear3B",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 2,
       "critMul": 1,
       "glowColor": 14352375
@@ -63,10 +63,10 @@
         "height": 1,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_impaler_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_impaler_release2.wav",
       "fxId": "fxSpearC",
       "animId": "atkSpear3C",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 2,
       "critMul": 1.5,
       "glowColor": 14352375

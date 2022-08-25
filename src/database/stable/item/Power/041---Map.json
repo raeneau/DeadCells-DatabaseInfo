@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "neverCompensateCost": true
   },
@@ -13,6 +14,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Plan oublié",
   "droppable": false,
   "tags": [

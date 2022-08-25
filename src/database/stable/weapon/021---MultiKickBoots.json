@@ -25,10 +25,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxComboKickA",
       "animId": "comboKickA",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 8,
       "glowColor": 14667198
     },
@@ -56,10 +56,10 @@
         "height": 1,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxComboKickB",
       "animId": "comboKickB",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 5,
       "glowColor": 14667198
     },
@@ -88,10 +88,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_multikick_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release2.wav",
       "fxId": "fxComboKickC",
       "animId": "comboKickC",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 5,
       "glowColor": 14667198,
       "animSpd": 1.25

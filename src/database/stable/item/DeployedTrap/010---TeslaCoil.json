@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Electric",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 8,
     "color2": 8061841,
@@ -23,6 +29,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "OilAndFireOnDestroy"
+    }
+  ],
   "name": "Bobine Tesla",
   "droppable": true,
   "tags": [

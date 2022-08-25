@@ -18,7 +18,7 @@
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/bow_charge2.wav",
+      "sfxCharge": "sfx/weapon/bow_charge2.wav",
       "charge": 0.2,
       "sfxProps": {},
       "canCrit": true,
@@ -29,7 +29,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot2.wav",
+      "sfxRelease": "sfx/weapon/bow_shot2.wav",
       "animId": "longBow",
       "hitFrame": 0,
       "critMul": 3,

@@ -16,7 +16,7 @@
       "lockCtrlAfter": 0.3,
       "props": {
         "bump": 0.1,
-        "hitFx": "sfx/drop_gold_1.wav",
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
         "threshold": 0.2
       },
       "breachBonus": -0.5,
@@ -31,10 +31,10 @@
         "height": 3,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_nail_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
       "fxId": "fxatkPureNailSideA",
       "animId": "atkPureNailSideA",
-      "sfxHit": "sfx/weapon_nail_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
       "hitFrame": 5,
       "critMul": 1,
       "glowColor": 6315617
@@ -52,7 +52,7 @@
       "lockCtrlAfter": 0.3,
       "props": {
         "bump": 0.1,
-        "hitFx": "sfx/drop_gold_1.wav",
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
         "threshold": 0.2
       },
       "breachBonus": -0.5,
@@ -67,10 +67,10 @@
         "height": 3,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_nail_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
       "fxId": "fxatkPureNailSideB",
       "animId": "atkPureNailSideB",
-      "sfxHit": "sfx/weapon_nail_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
       "hitFrame": 5,
       "critMul": 1,
       "glowColor": 6315617
@@ -89,7 +89,7 @@
       "props": {
         "fullCharge": 1,
         "bump": 0.4,
-        "hitFx": "sfx/drop_gold_1.wav",
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
         "threshold": 0.2,
         "limit": 1
       },
@@ -105,10 +105,10 @@
         "height": 4,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_nail_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
       "fxId": "fxatkPureNailUpA",
       "animId": "atkPureNailUpA",
-      "sfxHit": "sfx/weapon_nail_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
       "hitFrame": 5,
       "critMul": 1,
       "glowColor": 6315617
@@ -127,7 +127,7 @@
       "props": {
         "fullCharge": 1,
         "bump": 0.25,
-        "hitFx": "sfx/drop_gold_1.wav",
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
         "threshold": 0.5,
         "limit": 1
       },
@@ -143,10 +143,10 @@
         "height": 3,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_nail_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
       "fxId": "fxatkPureNailDownA",
       "animId": "atkPureNailDownA",
-      "sfxHit": "sfx/weapon_nail_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
       "hitFrame": 5,
       "critMul": 1,
       "glowColor": 6315617

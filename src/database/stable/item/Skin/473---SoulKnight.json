@@ -1,0 +1,23 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "An exotic armor from another universe.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "SoulKnight",
+  "icon": {
+    "x": 16,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Knight's outfit",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 1,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 473
+}

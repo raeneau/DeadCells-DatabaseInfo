@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Slow",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 3,
     "power": [
@@ -20,6 +26,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "IceOnStop"
+    }
+  ],
   "name": "Ecraseur",
   "droppable": true,
   "tags": [
@@ -36,7 +47,6 @@
   "tier1": "Survival",
   "tier2": "Tactic",
   "cellCost": 30,
-  "legendAffix": "AmmoRetrieval",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 7

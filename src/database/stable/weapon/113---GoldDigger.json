@@ -1,0 +1,123 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "GoldDigger",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "range": 2,
+        "altAnim": "AtkGoldDiggerA",
+        "threshold": 0.5,
+        "limit": 14
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_golddigger_charge.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_golddigger_release1.wav",
+      "fxId": "fxAtkAGoldDigger",
+      "animId": "AtkGoldDiggerCheapA",
+      "sfxHit": "sfx/weapon/hit_hammer.wav",
+      "hitFrame": 9,
+      "critMul": 1,
+      "glowColor": 16765184,
+      "animSpd": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "range": 2,
+        "altAnim": "AtkGoldDiggerB",
+        "threshold": 0.5,
+        "limit": 14
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_golddigger_charge2.wav",
+      "charge": 0.5,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_golddigger_release1.wav",
+      "fxId": "fxAtkBGoldDigger",
+      "animId": "AtkGoldDiggerCheapB",
+      "sfxHit": "sfx/weapon/hit_hammer.wav",
+      "hitFrame": 14,
+      "critMul": 1,
+      "glowColor": 16765184,
+      "animSpd": 0.8
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "range": 2,
+        "altAnim": "AtkGoldDiggerC",
+        "threshold": 0.5,
+        "limit": 14
+      },
+      "breachBonus": 0.75,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_golddigger_charge3.wav",
+      "charge": 0.7,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.15,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_golddigger_release2.wav",
+      "fxId": "fxAtkCGoldDigger",
+      "animId": "AtkGoldDiggerCheapC",
+      "sfxHit": "sfx/weapon/hit_hammer.wav",
+      "hitFrame": 21,
+      "critMul": 0.625,
+      "glowColor": 16739840,
+      "animSpd": 1.3
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 113
+}

@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Fire",
+      "trigger": true
+    }
+  ],
   "props": {
     "targetable": true,
     "dps": 8,
@@ -18,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
   "name": "Tourelle lance-flammes",
   "droppable": true,
   "tags": [
@@ -40,7 +51,6 @@
   "tier1": "Tactic",
   "tier2": "Brutality",
   "cellCost": 30,
-  "legendAffix": "DeployedDmg",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 4

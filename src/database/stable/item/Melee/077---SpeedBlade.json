@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Inflige un {coup critique@CC} si votre mouvement est accéléré.",
   "moneyCost": 1750,
@@ -12,6 +13,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnKill"
+    }
+  ],
   "name": "Epée de promptitude",
   "droppable": true,
   "tags": [
@@ -23,8 +29,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 60,
-  "legendAffix": "FullLifeDamage",
+  "cellCost": 50,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 77

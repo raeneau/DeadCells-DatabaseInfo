@@ -16,6 +16,11 @@
   "maxPerRoom": 1,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 30,
   "id": "Spiker",
   "weight": 10,
@@ -50,11 +55,11 @@
       "allowInAir": false,
       "radius": 15,
       "allowSameSkillNearby": false,
-      "sfxCharge": "sfx/enm_mushroom_charge.wav",
+      "sfxCharge": "sfx/enm/enm_mushroom_charge.wav",
       "charge": 1.75,
       "manual": false,
       "id": "spikes",
-      "sfxRelease": "sfx/enm_mushroom_release.wav",
+      "sfxRelease": "sfx/enm/enm_mushroom_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 1,
@@ -73,7 +78,7 @@
       "charge": 1.4,
       "manual": false,
       "id": "singleSpike",
-      "sfxRelease": "sfx/enm_mushroom_release.wav",
+      "sfxRelease": "sfx/enm/enm_mushroom_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 1,

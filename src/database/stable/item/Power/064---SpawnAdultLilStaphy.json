@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "linkedItem": "SpawnLilStaphy",
     "dps": 40,
@@ -17,6 +23,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
   "name": "Leghugger",
   "droppable": false,
   "tags": [
@@ -28,6 +39,9 @@
     },
     {
       "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "Bleed"
     }
   ],
   "tier1": "Brutality",

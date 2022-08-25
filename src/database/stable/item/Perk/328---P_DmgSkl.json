@@ -1,0 +1,29 @@
+{
+  "synergy": [],
+  "props": {
+    "power": [
+      200
+    ],
+    "duration": 8
+  },
+  "gameplayDesc": "L'attaque au corps à corps qui suit l'utilisation d'une compétence inflige +::+power:: dégâts.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DmgSkl",
+  "icon": {
+    "x": 1,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Planification",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 328
+}

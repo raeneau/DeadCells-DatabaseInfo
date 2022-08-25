@@ -1,13 +1,15 @@
 {
+  "synergy": [],
   "props": {
     "speed": -0.2,
     "range": 0.05,
     "color2": 4101375,
     "power": [
-      150
+      160
     ],
     "duration2": 0.5,
     "duration3": 1,
+    "buff": 3,
     "bump": 2,
     "height": 1.5,
     "life": 100,
@@ -30,6 +32,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "CascadingTomb"
+    }
+  ],
   "name": "Pierre tombale",
   "droppable": true,
   "tags": [

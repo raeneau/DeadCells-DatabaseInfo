@@ -33,10 +33,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxAtkPunchA",
       "animId": "atkPunchC",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 5,
       "critMul": 0.8,
       "glowColor": 5723391,
@@ -72,10 +72,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxAtkPunchA",
       "animId": "atkPunchA",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 2,
       "glowColor": 5723391,
       "animSpd": 2
@@ -110,10 +110,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxAtkPunchB",
       "animId": "atkPunchB",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 2,
       "glowColor": 5723391,
       "animSpd": 2
@@ -148,10 +148,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxAtkPunchA",
       "animId": "atkPunchA",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 4,
       "glowColor": 5723391,
       "animSpd": 2
@@ -186,10 +186,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxSwordAtkA",
       "animId": "atkPunchC",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 6,
       "glowColor": 5723391,
       "animSpd": 1
@@ -224,10 +224,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_multikick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
       "fxId": "fxPerfectHalberdAtkB",
       "animId": "atkPunchC",
-      "sfxHit": "sfx/weapon_kick_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
       "hitFrame": 6,
       "glowColor": 5723391,
       "animSpd": 1

@@ -1,0 +1,28 @@
+{
+  "synergy": [],
+  "props": {
+    "power": [
+      100
+    ]
+  },
+  "gameplayDesc": "La première attaque au corps à corps contre un ennemi inflige +::+power:: dommages.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_DmgFirstHit",
+  "icon": {
+    "x": 3,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Initiative",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 330
+}

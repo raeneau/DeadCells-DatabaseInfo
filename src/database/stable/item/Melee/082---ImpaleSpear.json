@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "distance": 4
   },
@@ -13,6 +14,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperBackDamage"
+    }
+  ],
   "name": "Empaleuse",
   "droppable": true,
   "tags": [
@@ -21,8 +27,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 45,
-  "legendAffix": "RunSpeedOnCrit",
+  "cellCost": 40,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 82

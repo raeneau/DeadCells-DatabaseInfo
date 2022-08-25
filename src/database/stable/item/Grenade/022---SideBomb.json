@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 20,
     "ammo": 8,
@@ -18,6 +19,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "PoisonOnHit"
+    }
+  ],
   "name": "Nuée",
   "droppable": true,
   "tags": [
@@ -36,7 +42,6 @@
   ],
   "tier1": "Tactic",
   "cellCost": 30,
-  "legendAffix": "PoisonOnHit",
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 22

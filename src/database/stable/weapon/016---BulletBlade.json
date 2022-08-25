@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        53
+        56
       ],
       "fxProps": {
         "fxStartFrame": 5
@@ -31,10 +31,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_fragsword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_fragsword_release1.wav",
       "fxId": "fxDualAxeAtkA",
       "animId": "dualAxeAtkA",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 5,
       "glowColor": 8029439,
       "animSpd": 1
@@ -42,7 +42,7 @@
     {
       "coolDown": 0,
       "power": [
-        60
+        62
       ],
       "fxProps": {
         "fxStartFrame": 6
@@ -67,10 +67,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_fragsword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_fragsword_release1.wav",
       "fxId": "fxDualAxeAtkB",
       "animId": "dualAxeAtkB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 7,
       "glowColor": 8029439,
       "animSpd": 1
@@ -78,7 +78,7 @@
     {
       "coolDown": 0,
       "power": [
-        68
+        72
       ],
       "fxProps": {
         "fxStartFrame": 5
@@ -103,10 +103,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_fragsword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_fragsword_release1.wav",
       "fxId": "fxDualAxeAtkC",
       "animId": "dualAxeAtkC",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 6,
       "glowColor": 8029439,
       "animSpd": 1
@@ -114,7 +114,7 @@
     {
       "coolDown": 0,
       "power": [
-        82
+        85
       ],
       "fxProps": {
         "fxStartFrame": 11
@@ -131,7 +131,7 @@
       },
       "breachBonus": 0.75,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/jump.wav",
+      "sfxCharge": "sfx/enm/jump.wav",
       "charge": 0.4,
       "sfxProps": {},
       "canCrit": false,
@@ -142,10 +142,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_fragsword_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_fragsword_release2.wav",
       "fxId": "fxDualAxeAtkD",
       "animId": "dualAxeAtkD",
-      "sfxHit": "sfx/weapon_stunmace_release3.wav",
+      "sfxHit": "sfx/weapon/weapon_stunmace_release3.wav",
       "hitFrame": 12,
       "glowColor": 16763435,
       "animSpd": 1
@@ -153,7 +153,7 @@
     {
       "coolDown": 0,
       "power": [
-        198
+        202
       ],
       "fxProps": {
         "fxStartFrame": 17
@@ -172,7 +172,7 @@
       "breachBonus": 1.5,
       "onionSkinOffX": 40,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_fragsword_charge3.wav",
+      "sfxCharge": "sfx/weapon/weapon_fragsword_charge3.wav",
       "charge": 0.6,
       "sfxProps": {},
       "canCrit": false,
@@ -183,10 +183,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_fragsword_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_fragsword_release3.wav",
       "fxId": "fxDualAxeAtkE",
       "animId": "dualAxeAtkE",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 18,
       "glowColor": 16763435,
       "animSpd": 1

@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "U26_BONE_GAMEPLAYDESC",
   "moneyCost": 1500,
@@ -12,6 +13,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnCrit"
+    }
+  ],
   "name": "U26_BONE_NAME",
   "droppable": true,
   "tags": [

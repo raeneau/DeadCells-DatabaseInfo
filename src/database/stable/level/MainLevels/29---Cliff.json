@@ -335,7 +335,7 @@
       "props": {
         "alpha": 0.4,
         "disableInZDoor": false,
-        "customDepth": 14
+        "customDepth": 15
       },
       "reflected": false,
       "position": {

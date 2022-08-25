@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 3,
     "width": 4,
@@ -20,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleSpeed"
+    }
+  ],
   "name": "Tornade",
   "droppable": true,
   "tags": [
@@ -31,8 +37,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 80,
-  "legendAffix": "PoisonCloudOnHit",
+  "cellCost": 60,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 26

@@ -1,6 +1,9 @@
 {
+  "synergy": [],
   "props": {
-    "prct": 0.5
+    "scaledValueCap": 1.3,
+    "prct": 0.5,
+    "customScaling": -1.2
   },
   "gameplayDesc": "Inflige un {coup critique@CC} lorsque vous avez moins de ::prct::% de vie ou plus de ::prct::% de Mal-être.",
   "moneyCost": 1500,
@@ -14,6 +17,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "HealMidLife"
+    }
+  ],
   "name": "Charognarde",
   "droppable": true,
   "tags": [
@@ -23,7 +31,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 25,
-  "legendAffix": "HealMidLife",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 95

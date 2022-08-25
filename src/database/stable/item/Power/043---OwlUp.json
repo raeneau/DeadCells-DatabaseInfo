@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.06,
     "dps": 32,
@@ -22,6 +23,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
   "name": "Grand-duc de combat",
   "droppable": false,
   "tags": [

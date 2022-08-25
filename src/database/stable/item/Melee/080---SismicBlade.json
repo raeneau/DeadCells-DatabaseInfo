@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Root",
+      "trigger": true
+    }
+  ],
   "props": {
     "tick": 0.1,
     "duration": 2
@@ -14,6 +20,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DeathRoot"
+    }
+  ],
   "name": "Frappe sismique",
   "droppable": true,
   "tags": [
@@ -28,7 +39,7 @@
     }
   ],
   "tier1": "Survival",
-  "cellCost": 100,
+  "cellCost": 60,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 80

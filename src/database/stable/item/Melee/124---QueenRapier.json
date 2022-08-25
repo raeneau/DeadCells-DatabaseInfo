@@ -1,8 +1,9 @@
 {
+  "synergy": [],
   "props": {
     "width": 0.5,
     "distance": 50,
-    "duration": 0.3
+    "duration": 0.2
   },
   "gameplayDesc": "Attacks that hit a target also slice through reality, hitting anything on their path again.",
   "moneyCost": 2000,
@@ -17,6 +18,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperSlice"
+    }
+  ],
   "name": "Queen's Rapier",
   "droppable": true,
   "tags": [

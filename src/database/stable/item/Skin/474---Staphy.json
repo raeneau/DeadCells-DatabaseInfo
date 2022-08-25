@@ -1,0 +1,24 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Moist and yucky on the inside",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Staphy",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 30,
+    "y": 17,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Armored Shrimp Carcass Outfit",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 150,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 474
+}

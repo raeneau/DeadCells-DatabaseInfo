@@ -1,0 +1,137 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "ThrowingCards",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxInnerColor": 16770211,
+        "fxOuterColor": 16737536
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.3,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_cards_release1.wav",
+      "animId": "AtkCardsA",
+      "sfxHit": "sfx/weapon/weapon_cards_hit.wav",
+      "hitFrame": 8,
+      "critMul": 1,
+      "glowColor": 2206314
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        40
+      ],
+      "fxProps": {
+        "fxInnerColor": 16770211,
+        "fxOuterColor": 16737536
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_cards_release4.wav",
+      "animId": "AtkCardsB",
+      "sfxHit": "sfx/weapon/weapon_cards_hit.wav",
+      "hitFrame": 8,
+      "critMul": 1,
+      "glowColor": 2206314
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        24
+      ],
+      "fxProps": {
+        "fxInnerColor": 16770211,
+        "fxOuterColor": 16737536
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "range": 1.57,
+        "count": 7
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_cards_release2.wav",
+      "animId": "AtkCardsC",
+      "sfxHit": "sfx/weapon/weapon_cards_hit.wav",
+      "hitFrame": 8,
+      "critMul": 1,
+      "glowColor": 2206314
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        24
+      ],
+      "fxProps": {
+        "fxInnerColor": 16770211,
+        "fxOuterColor": 16737536
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_cards_charge3.wav",
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_cards_release3.wav",
+      "animId": "AtkCardsE",
+      "sfxHit": "sfx/weapon/weapon_cards_hit.wav",
+      "hitFrame": 6,
+      "critMul": 1,
+      "glowColor": 2206314,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 105
+}

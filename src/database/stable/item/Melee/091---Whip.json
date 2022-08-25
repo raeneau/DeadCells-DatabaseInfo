@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Ignore les boucliers. Inflige un {coup critique@CC} si le bout du fouet touche l'ennemi.",
   "moneyCost": 1800,
@@ -12,13 +13,17 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
   "name": "Fouet de Valmont",
   "droppable": true,
   "tags": [],
   "tier1": "Brutality",
   "tier2": "Tactic",
   "cellCost": 20,
-  "legendAffix": "RunSpeedOnCrit",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 91

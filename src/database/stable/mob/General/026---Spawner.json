@@ -21,6 +21,7 @@
   "maxPerRoom": 2,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [],
   "index": 26,
   "id": "Spawner",
   "weight": 20,

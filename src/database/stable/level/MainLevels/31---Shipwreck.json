@@ -130,7 +130,7 @@
         "alpha": 0.3,
         "flipY": true,
         "disableInZDoor": true,
-        "customDepth": 15
+        "customDepth": 16
       },
       "reflected": false,
       "position": {

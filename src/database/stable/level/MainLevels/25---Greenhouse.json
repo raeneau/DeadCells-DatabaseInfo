@@ -164,7 +164,7 @@
         "alpha": 0.6,
         "flipY": true,
         "disableInZDoor": true,
-        "customDepth": 15
+        "customDepth": 16
       },
       "reflected": false,
       "position": {

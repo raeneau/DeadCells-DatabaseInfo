@@ -27,6 +27,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": true,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 18,
   "volteDelay": 0.2,
   "id": "Worm",
@@ -60,11 +65,11 @@
       "allowInAir": false,
       "radius": 1,
       "allowSameSkillNearby": true,
-      "sfxCharge": "sfx/enm_leech_charge.wav",
+      "sfxCharge": "sfx/enm/enm_leech_charge.wav",
       "charge": 0.6,
       "manual": false,
       "id": "cc",
-      "sfxRelease": "sfx/enm_zmb_release1.wav",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 0,
@@ -83,7 +88,7 @@
       "allowInAir": false,
       "radius": 2.5,
       "allowSameSkillNearby": false,
-      "sfxCharge": "sfx/enm_leech_egg_charge.wav",
+      "sfxCharge": "sfx/enm/enm_leech_egg_charge.wav",
       "charge": 0,
       "manual": false,
       "id": "egg",

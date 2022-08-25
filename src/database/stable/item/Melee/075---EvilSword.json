@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Vous tue immédiatement si vous subissez le moindre dégât.",
   "moneyCost": 2500,
@@ -12,6 +13,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "TrueEvil"
+    }
+  ],
   "name": "Epée maudite",
   "droppable": true,
   "tags": [
@@ -20,8 +26,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 50,
-  "legendAffix": "RunSpeedOnKill",
+  "cellCost": 150,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 75

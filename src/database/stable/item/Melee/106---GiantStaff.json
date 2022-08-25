@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "frict": 0.15
   },
@@ -14,6 +15,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "FrostShield"
+    }
+  ],
   "name": "Baton de Combat",
   "droppable": true,
   "tags": [

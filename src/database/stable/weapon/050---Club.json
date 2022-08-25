@@ -14,7 +14,7 @@
       },
       "breachBonus": 0.5,
       "dynamicCharge": 3,
-      "sfxCharge": "sfx/weapon_club_charge1.wav",
+      "sfxCharge": "sfx/weapon/weapon_club_charge1.wav",
       "charge": 0.5,
       "sfxProps": {
         "sfxChargePitch": 1
@@ -49,7 +49,7 @@
       "dynamicCharge": 0,
       "charge": 0.06667,
       "sfxProps": {
-        "sfxAlt": "sfx/weapon_club_break.wav"
+        "sfxAlt": "sfx/weapon/weapon_club_break.wav"
       },
       "canCrit": true,
       "area": {
@@ -59,10 +59,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_club_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_club_release1.wav",
       "fxId": "fxAtkBigourdinA",
       "animId": "BigourdinAtkA",
-      "sfxHit": "sfx/weapon_club_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_club_hit.wav",
       "hitFrame": 2,
       "critMul": 2,
       "glowColor": 3425630,
@@ -79,7 +79,7 @@
       },
       "breachBonus": 0.5,
       "dynamicCharge": 3,
-      "sfxCharge": "sfx/weapon_club_charge2.wav",
+      "sfxCharge": "sfx/weapon/weapon_club_charge2.wav",
       "charge": 0.667,
       "sfxProps": {
         "sfxChargePitch": 1
@@ -115,7 +115,7 @@
       "dynamicCharge": 0,
       "charge": 0.1,
       "sfxProps": {
-        "sfxAlt": "sfx/weapon_club_break.wav"
+        "sfxAlt": "sfx/weapon/weapon_club_break.wav"
       },
       "canCrit": true,
       "area": {
@@ -125,10 +125,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_club_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_club_release2.wav",
       "fxId": "fxAtkBigourdinB",
       "animId": "BigourdinAtkB",
-      "sfxHit": "sfx/weapon_club_broken_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_club_broken_hit.wav",
       "hitFrame": 3,
       "critMul": 2,
       "glowColor": 3425630,
@@ -145,7 +145,7 @@
       },
       "breachBonus": 0.5,
       "dynamicCharge": 3,
-      "sfxCharge": "sfx/weapon_club_charge3.wav",
+      "sfxCharge": "sfx/weapon/weapon_club_charge3.wav",
       "charge": 0.75,
       "sfxProps": {
         "sfxChargePitch": 1
@@ -181,7 +181,7 @@
       "dynamicCharge": 0,
       "charge": 0.1,
       "sfxProps": {
-        "sfxAlt": "sfx/weapon_club_break.wav"
+        "sfxAlt": "sfx/weapon/weapon_club_break.wav"
       },
       "canCrit": true,
       "area": {
@@ -191,10 +191,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_club_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_club_release3.wav",
       "fxId": "fxAtkBigourdinC",
       "animId": "BigourdinAtkC",
-      "sfxHit": "sfx/weapon_club_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_club_hit.wav",
       "hitFrame": 3,
       "critMul": 2,
       "glowColor": 3425630,

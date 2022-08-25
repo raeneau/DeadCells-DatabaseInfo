@@ -2,7 +2,7 @@
   "props": {
     "dmgSoftCap": [
       0,
-      0.5
+      0.51
     ],
     "movePauseMul": 0,
     "moveSpeedMul": 3,
@@ -16,6 +16,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 86,
   "volteDelay": 0,
   "id": "BeholderTtcl",

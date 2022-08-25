@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "tick": 0.1,
     "duration": 3.5
@@ -14,6 +15,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Distorsion temporelle",
   "droppable": false,
   "tags": [

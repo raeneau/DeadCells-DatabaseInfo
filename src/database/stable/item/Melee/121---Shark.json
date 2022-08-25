@@ -1,6 +1,17 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    },
+    {
+      "tag": "Root",
+      "trigger": true
+    }
+  ],
   "props": {
     "duration2": 1,
+    "prct": 0.5,
     "size": 2,
     "dotDps": 40,
     "effectCD": 0.34,
@@ -19,6 +30,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "TripleBullets"
+    }
+  ],
   "name": "Maw of the Deep",
   "droppable": true,
   "tags": [
@@ -34,7 +50,6 @@
   ],
   "tier1": "Survival",
   "cellCost": 80,
-  "legendAffix": "StunDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 121

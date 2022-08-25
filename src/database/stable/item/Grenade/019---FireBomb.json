@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Fire",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 6.5,
     "power": [
@@ -19,6 +25,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BiggerExplosion"
+    }
+  ],
   "name": "Bombe incendiaire",
   "droppable": true,
   "tags": [
@@ -36,8 +47,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 20,
-  "legendAffix": "OilAndFireOnUse",
+  "cellCost": 5,
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 19

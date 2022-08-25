@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.02,
     "range": 11,
@@ -26,6 +27,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
   "name": "Grand-duc de combat",
   "droppable": true,
   "tags": [
@@ -46,7 +52,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 80,
+  "cellCost": 100,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 42

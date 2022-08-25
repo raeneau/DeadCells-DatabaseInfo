@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "power": [
       70
@@ -18,6 +19,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "FireOnHit"
+    }
+  ],
   "name": "Silex",
   "droppable": true,
   "tags": [
@@ -30,7 +36,7 @@
   ],
   "tier1": "Survival",
   "tier2": "Brutality",
-  "cellCost": 50,
+  "cellCost": 20,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 97

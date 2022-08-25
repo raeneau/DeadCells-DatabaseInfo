@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 4,
     "coolDown": 0.6,
@@ -25,6 +26,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "Echo"
+    }
+  ],
   "name": "Grappe explosive",
   "droppable": true,
   "tags": [
@@ -40,8 +46,7 @@
   ],
   "tier1": "Brutality",
   "tier2": "Survival",
-  "cellCost": 40,
-  "legendAffix": "IceDamage",
+  "cellCost": 20,
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 15

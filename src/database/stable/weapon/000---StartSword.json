@@ -26,10 +26,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_shortsw_release.wav",
       "fxId": "fxAtkBackstabberA",
       "animId": "atkBackStabberA",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 5,
       "glowColor": 12306151,
       "animSpd": 1.5
@@ -57,10 +57,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_shortsw_release.wav",
       "fxId": "fxAtkBackstabberB",
       "animId": "atkBackStabberB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 7,
       "glowColor": 12306151,
       "animSpd": 2
@@ -88,10 +88,10 @@
         "height": 2.7,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_shortsw_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_shortsw_release.wav",
       "fxId": "fxSaberA",
       "animId": "atkSaberA",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 9,
       "glowColor": 12306151
     }

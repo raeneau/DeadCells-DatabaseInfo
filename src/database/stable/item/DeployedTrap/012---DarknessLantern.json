@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 4
   },
@@ -13,6 +14,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Veilleuse",
   "droppable": false,
   "tags": [

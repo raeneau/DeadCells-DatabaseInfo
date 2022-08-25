@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Electric",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 5,
     "color2": 1610919,
@@ -28,6 +34,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "FireOnStop"
+    }
+  ],
   "name": "Paratonnerre",
   "droppable": true,
   "tags": [

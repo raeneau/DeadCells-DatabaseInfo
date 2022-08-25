@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.11,
     "power": 50,
@@ -20,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleSpeed"
+    }
+  ],
   "name": "Orbe de mort",
   "droppable": true,
   "tags": [
@@ -28,8 +34,7 @@
     }
   ],
   "tier1": "Survival",
-  "cellCost": 35,
-  "legendAffix": "BleedOnHit",
+  "cellCost": 50,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 25

@@ -13,6 +13,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 54,
   "volteDelay": 0,
   "id": "SewerTtcl",

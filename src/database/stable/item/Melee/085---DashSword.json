@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration": 1.5
   },
@@ -14,6 +15,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperBackDamage"
+    }
+  ],
   "name": "Perce-carne",
   "droppable": true,
   "tags": [
@@ -25,8 +31,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 60,
-  "legendAffix": "BackDamage",
+  "cellCost": 50,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 85

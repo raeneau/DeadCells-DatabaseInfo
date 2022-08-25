@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "dps": 3.5,
     "duration": 12
@@ -14,6 +20,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
   "name": "Bain de sang",
   "droppable": true,
   "tags": [
@@ -29,7 +40,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 5,
-  "legendAffix": "BleedDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 71

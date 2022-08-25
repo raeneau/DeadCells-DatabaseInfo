@@ -10,7 +10,7 @@
       "props": {},
       "breachBonus": 0,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_crossbow_charge2.wav",
+      "sfxCharge": "sfx/weapon/weapon_crossbow_charge2.wav",
       "charge": 0.3,
       "sfxProps": {},
       "canCrit": false,
@@ -21,7 +21,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_crossbow_charge3.wav",
+      "sfxRelease": "sfx/weapon/weapon_crossbow_charge3.wav",
       "animId": "heavyCrossBowReload",
       "hitFrame": 15
     }

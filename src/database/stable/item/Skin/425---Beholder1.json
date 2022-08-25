@@ -1,0 +1,23 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Vous aimez les tentacules ?",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Beholder1",
+  "icon": {
+    "x": 18,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tenue du Conjonctivius affamé",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 150,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 425
+}

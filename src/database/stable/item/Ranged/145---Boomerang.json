@@ -1,0 +1,61 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.22,
+    "range": 13,
+    "ang": 0.95,
+    "ammo": 1,
+    "bump": 1.4,
+    "frict": 0.8,
+    "count": 10,
+    "tick": 0.2,
+    "duration": 3.5
+  },
+  "gameplayDesc": "Revient vers vous automatiquement.",
+  "moneyCost": 1250,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "Fidèle.",
+  "id": "Boomerang",
+  "icon": {
+    "x": 21,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "ExtraAmmoFew"
+    }
+  ],
+  "name": "Boomerang",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 145
+}

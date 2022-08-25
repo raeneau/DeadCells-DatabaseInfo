@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "linkedItem": "SpawnAdultLilStaphy",
     "dps": 20,
@@ -17,6 +23,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
   "name": "Leghugger",
   "droppable": true,
   "tags": [
@@ -31,6 +42,9 @@
     },
     {
       "tag": "NeedManualUnlock"
+    },
+    {
+      "tag": "Bleed"
     }
   ],
   "tier1": "Brutality",

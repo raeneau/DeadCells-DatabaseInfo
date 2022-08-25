@@ -1,0 +1,39 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "DashShield",
+  "strikeChain": [
+    {
+      "coolDown": 0.4,
+      "power": [
+        33
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 1.1,
+        "duration": 0.4
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 1,
+      "sfxCharge": "sfx/weapon/weapon_shield_charge.wav",
+      "charge": 0.37,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxHit": "sfx/weapon/weapon_shield_block.wav",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 87
+}

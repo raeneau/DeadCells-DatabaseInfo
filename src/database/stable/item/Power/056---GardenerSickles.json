@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.03,
     "color2": 16724992,
@@ -32,13 +33,17 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleBullets"
+    }
+  ],
   "name": "Les Faucilles du Jardinier",
   "droppable": true,
   "tags": [],
   "tier1": "Tactic",
   "tier2": "Survival",
   "cellCost": 100,
-  "legendAffix": "BleedOnHit",
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 56

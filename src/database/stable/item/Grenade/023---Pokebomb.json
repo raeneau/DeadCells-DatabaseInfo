@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 5.5,
     "neverCompensateCost": true,
@@ -16,6 +17,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Grenade de complétion",
   "droppable": false,
   "tags": [

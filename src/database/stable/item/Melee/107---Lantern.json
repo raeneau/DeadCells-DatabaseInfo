@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration2": 5,
     "height": 0.6,
@@ -18,6 +19,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "FireOnHit"
+    }
+  ],
   "name": "Lanterne",
   "droppable": true,
   "tags": [
@@ -34,7 +40,6 @@
   "tier1": "Brutality",
   "tier2": "Tactic",
   "cellCost": 100,
-  "legendAffix": "FireBullet",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 107

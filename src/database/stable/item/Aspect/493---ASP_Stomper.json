@@ -1,0 +1,29 @@
+{
+  "synergy": [],
+  "props": {
+    "prct": 4
+  },
+  "gameplayDesc": "Dive attacks and fall damage deal ::prct::% more damage to enemies.",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Stomper",
+  "icon": {
+    "x": 3,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Stomper",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 493
+}

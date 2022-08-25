@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Root",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 7,
     "dps": 50,
@@ -16,6 +22,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DeathRoot"
+    }
+  ],
   "name": "Bombe de lière",
   "droppable": true,
   "tags": [
@@ -30,8 +41,7 @@
     }
   ],
   "tier1": "Survival",
-  "cellCost": 40,
-  "legendAffix": "Oil",
+  "cellCost": 20,
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 20

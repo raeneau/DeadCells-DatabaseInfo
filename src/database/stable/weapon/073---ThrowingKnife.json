@@ -27,7 +27,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
       "fxId": "fxThrow",
       "animId": "throw",
       "hitFrame": 5,

@@ -18,6 +18,7 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [],
   "index": 89,
   "id": "GiantEye",
   "dlc": "RiseOfTheGiant",

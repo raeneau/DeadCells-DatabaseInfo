@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.06,
     "dps": [
@@ -20,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
   "name": "Aura de lacération",
   "droppable": true,
   "tags": [
@@ -31,12 +37,14 @@
     },
     {
       "tag": "HasDuration"
+    },
+    {
+      "tag": "ManualCooldown"
     }
   ],
   "tier1": "Brutality",
   "tier2": "Tactic",
-  "cellCost": 60,
-  "legendAffix": "BleedOnHit",
+  "cellCost": 30,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 36

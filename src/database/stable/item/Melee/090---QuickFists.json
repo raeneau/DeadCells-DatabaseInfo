@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "prct": 0.4
   },
@@ -14,6 +15,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
   "name": "Gantelets de Hayabusa",
   "droppable": true,
   "tags": [
@@ -22,8 +28,7 @@
     }
   ],
   "tier1": "Brutality",
-  "cellCost": 80,
-  "legendAffix": "SuperCrit",
+  "cellCost": 30,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 90

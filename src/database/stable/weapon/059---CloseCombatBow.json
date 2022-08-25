@@ -16,7 +16,7 @@
       "props": {},
       "breachBonus": 0.7,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxCharge": "sfx/weapon/bow_charge1.wav",
       "charge": 0.15,
       "sfxProps": {},
       "canCrit": true,
@@ -27,7 +27,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot1.wav",
+      "sfxRelease": "sfx/weapon/bow_shot1.wav",
       "animId": "closeCombatBow",
       "hitFrame": 0,
       "critMul": 1.4,

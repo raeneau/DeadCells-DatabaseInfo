@@ -33,9 +33,9 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_lantern_soul_shot.wav",
+      "sfxRelease": "sfx/weapon/weapon_lantern_soul_shot.wav",
       "animId": "AtkLanternCast",
-      "sfxHit": "sfx/weapon_lantern_soul_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_lantern_soul_hit.wav",
       "hitFrame": 4,
       "critMul": 2,
       "glowColor": 16753408,

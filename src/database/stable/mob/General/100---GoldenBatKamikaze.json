@@ -17,6 +17,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 100,
   "volteDelay": 0,
   "id": "GoldenBatKamikaze",
@@ -50,11 +55,11 @@
       "allowInAir": true,
       "radius": 1.5,
       "allowSameSkillNearby": true,
-      "sfxCharge": "sfx/enm_kamikaze_charge.wav",
+      "sfxCharge": "sfx/enm/enm_kamikaze_charge.wav",
       "charge": 0.71,
       "manual": false,
       "id": "core",
-      "sfxRelease": "sfx/enm_gold_kamikaze_release.wav",
+      "sfxRelease": "sfx/enm/enm_gold_kamikaze_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 0,

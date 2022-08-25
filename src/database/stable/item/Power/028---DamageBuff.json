@@ -1,11 +1,11 @@
 {
+  "synergy": [],
   "props": {
-    "dps": 75,
+    "prct2": 0.5,
     "prct": 0.3,
-    "effectCD": 0.33,
     "duration": 8
   },
-  "gameplayDesc": "Ajoute des dégâts (+::+dps:: DPS sur ::duration:: sec) à chaque attaque.Vous subissez +::prct::% de dégâts sur cette période.",
+  "gameplayDesc": "Augmente les dégâts que vous infligez de +::prct2::%. Vous subissez +::prct::% de dégâts sur cette période.",
   "moneyCost": 2000,
   "group": 3,
   "castCD": 16,
@@ -16,6 +16,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "GlobalShieldOnUse"
+    }
+  ],
   "name": "Puissance corrompue",
   "droppable": true,
   "tags": [
@@ -28,8 +33,7 @@
   ],
   "tier1": "Tactic",
   "tier2": "Brutality",
-  "cellCost": 40,
-  "legendAffix": "RunSpeedOnUse",
+  "cellCost": 80,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 28

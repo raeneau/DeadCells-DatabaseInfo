@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "SHOULD NEVER DROP",
   "moneyCost": 100000,
@@ -11,6 +12,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "ADMIN WEAPON",
   "droppable": false,
   "tags": [],

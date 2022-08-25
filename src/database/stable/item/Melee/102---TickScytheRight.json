@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration2": 5,
     "item": "TickScytheLeft",
@@ -18,6 +19,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DeathRoot"
+    }
+  ],
   "name": "Faux-griffe gauche",
   "droppable": false,
   "tags": [
@@ -30,7 +36,6 @@
   ],
   "tier1": "Survival",
   "cellCost": 100,
-  "legendAffix": "PoisonOnHit",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 102

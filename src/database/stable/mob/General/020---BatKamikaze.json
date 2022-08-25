@@ -26,6 +26,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 20,
   "volteDelay": 0,
   "id": "BatKamikaze",
@@ -57,11 +62,11 @@
       "allowInAir": true,
       "radius": 1.5,
       "allowSameSkillNearby": true,
-      "sfxCharge": "sfx/enm_kamikaze_charge.wav",
+      "sfxCharge": "sfx/enm/enm_kamikaze_charge.wav",
       "charge": 0.71,
       "manual": false,
       "id": "core",
-      "sfxRelease": "sfx/enm_kamikaze_release.wav",
+      "sfxRelease": "sfx/enm/enm_kamikaze_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 0,
@@ -102,7 +107,7 @@
       "charge": 0,
       "manual": false,
       "id": "turbo",
-      "sfxRelease": "sfx/enm_kamikaze_turbo.wav",
+      "sfxRelease": "sfx/enm/enm_kamikaze_turbo.wav",
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 0,

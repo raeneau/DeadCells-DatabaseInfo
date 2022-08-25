@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Inflicts {critical hits@CC} if you strike at the right time. The last hit repeats indefinitely if you keep the tempo going.",
   "moneyCost": 1700,
@@ -13,6 +14,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "FireOnHit"
+    }
+  ],
   "name": "Oud",
   "droppable": true,
   "tags": [
@@ -21,7 +27,7 @@
     }
   ],
   "tier1": "Survival",
-  "cellCost": 25,
+  "cellCost": 60,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 103

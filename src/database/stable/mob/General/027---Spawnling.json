@@ -11,6 +11,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 27,
   "volteDelay": 0.25,
   "id": "Spawnling",
@@ -44,7 +49,7 @@
       "charge": 0.4,
       "manual": false,
       "id": "cc",
-      "sfxRelease": "sfx/enm_slime_release.wav",
+      "sfxRelease": "sfx/enm/enm_slime_release.wav",
       "disableAnnounceFx": false,
       "hitFrame": 24,
       "breachResistance": -1,

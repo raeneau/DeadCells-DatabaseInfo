@@ -18,7 +18,7 @@
       },
       "breachBonus": 2,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_tombstone_charge1.wav",
+      "sfxCharge": "sfx/weapon/weapon_tombstone_charge1.wav",
       "charge": 0.4,
       "sfxProps": {},
       "canCrit": false,
@@ -29,10 +29,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_tombstone_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_tombstone_release1.wav",
       "fxId": "fxTombstoneAtkA",
       "animId": "atkTombstoneA",
-      "sfxHit": "sfx/weapon_tombstone_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_tombstone_hit.wav",
       "hitFrame": 14,
       "glowColor": 1658464
     },
@@ -51,7 +51,7 @@
       },
       "breachBonus": 2,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_tombstone_charge2.wav",
+      "sfxCharge": "sfx/weapon/weapon_tombstone_charge2.wav",
       "charge": 0.45,
       "sfxProps": {},
       "canCrit": false,
@@ -62,10 +62,10 @@
         "height": 3,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_tombstone_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_tombstone_release1.wav",
       "fxId": "fxTombstoneAtkB",
       "animId": "atkTombstoneB",
-      "sfxHit": "sfx/weapon_tombstone_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_tombstone_hit.wav",
       "hitFrame": 15,
       "glowColor": 1658464
     },
@@ -87,10 +87,10 @@
       },
       "breachBonus": 2,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_tombstone_charge3.wav",
+      "sfxCharge": "sfx/weapon/weapon_tombstone_charge3.wav",
       "charge": 0.6,
       "sfxProps": {
-        "sfxAlt": "sfx/weapon_tombstone_multi.wav"
+        "sfxAlt": "sfx/weapon/weapon_tombstone_multi.wav"
       },
       "canCrit": false,
       "area": {
@@ -100,10 +100,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_tombstone_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_tombstone_release3.wav",
       "fxId": "fxTombstoneAtkC",
       "animId": "atkTombstoneE",
-      "sfxHit": "sfx/weapon_tombstone_hit3.wav",
+      "sfxHit": "sfx/weapon/weapon_tombstone_hit3.wav",
       "hitFrame": 16,
       "glowColor": 1658464,
       "animSpd": 1

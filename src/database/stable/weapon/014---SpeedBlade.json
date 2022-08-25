@@ -28,10 +28,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_swipe_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_swipe_release1.wav",
       "fxId": "fxSwordAtkB",
       "animId": "atkSwordB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 9,
       "critMul": 0.7,
       "glowColor": 14855679
@@ -61,10 +61,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_swipe_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_swipe_release2.wav",
       "fxId": "fxSaberB",
       "animId": "atkSaberB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 5,
       "critMul": 0.75,
       "glowColor": 14855679
@@ -94,10 +94,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_swipe_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_swipe_release3.wav",
       "fxId": "fxHammerC",
       "animId": "atkSwordB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 8,
       "critMul": 0.8,
       "glowColor": 14855679

@@ -1,0 +1,25 @@
+{
+  "synergy": [],
+  "props": {
+    "count": 3
+  },
+  "gameplayDesc": "U28_P_GOLDSPEED_GAMEPLAYDESC",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_U28_PerkGoldSpeed",
+  "icon": {
+    "x": 7,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "U28_P_GOLDSPEED",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 373
+}

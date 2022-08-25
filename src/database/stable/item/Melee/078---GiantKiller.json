@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Inflige un {coup critique@CC} si la victime est un élite ou un boss.",
   "moneyCost": 2500,
@@ -13,6 +14,14 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "CantPutInBackpack"
+    },
+    {
+      "affix": "GodSlayer"
+    }
+  ],
   "name": "Tueuse de géants",
   "droppable": true,
   "tags": [
@@ -29,7 +38,6 @@
   "tier1": "Brutality",
   "tier2": "Survival",
   "cellCost": 100,
-  "legendAffix": "CantPutInBackpack",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 78

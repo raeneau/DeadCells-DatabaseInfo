@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {},
   "gameplayDesc": "Le 3ème coup est un {coup critique@CC}.",
   "moneyCost": 1800,
@@ -12,6 +13,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnCrit"
+    }
+  ],
   "name": "Dagues jumelles",
   "droppable": true,
   "tags": [
@@ -21,7 +27,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 0,
-  "legendAffix": "FullLifeDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 72

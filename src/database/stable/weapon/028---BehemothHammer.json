@@ -18,7 +18,7 @@
       },
       "breachBonus": 0.5,
       "dynamicCharge": 3,
-      "sfxCharge": "sfx/weapon_finger_charge.wav",
+      "sfxCharge": "sfx/weapon/weapon_finger_charge.wav",
       "charge": 0.2,
       "sfxProps": {},
       "canCrit": true,
@@ -29,8 +29,8 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_stunmace_release1.wav",
-      "sfxHit": "sfx/hit_hammer.wav",
+      "sfxRelease": "sfx/weapon/weapon_stunmace_release1.wav",
+      "sfxHit": "sfx/weapon/hit_hammer.wav",
       "hitFrame": 6,
       "glowColor": 16754944,
       "animSpd": 1

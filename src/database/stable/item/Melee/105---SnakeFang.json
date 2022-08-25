@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Poison",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 6,
     "duration2": 0.1,
@@ -20,6 +26,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
   "name": "Crocs de serpent",
   "droppable": true,
   "tags": [

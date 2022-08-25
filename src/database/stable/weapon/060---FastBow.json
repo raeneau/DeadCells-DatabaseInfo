@@ -18,7 +18,7 @@
       },
       "breachBonus": -1,
       "dynamicCharge": 2,
-      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxCharge": "sfx/weapon/bow_charge1.wav",
       "charge": 0.1,
       "sfxProps": {},
       "canCrit": true,
@@ -29,7 +29,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot3.wav",
+      "sfxRelease": "sfx/weapon/bow_shot3.wav",
       "animId": "fastBow",
       "hitFrame": 0,
       "critMul": 1.35,

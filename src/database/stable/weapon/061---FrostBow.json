@@ -19,7 +19,7 @@
       },
       "breachBonus": -1,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/bow_charge1.wav",
+      "sfxCharge": "sfx/weapon/bow_charge1.wav",
       "charge": 0.19,
       "sfxProps": {},
       "canCrit": false,
@@ -30,7 +30,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/bow_shot_ice.wav",
+      "sfxRelease": "sfx/weapon/bow_shot_ice.wav",
       "animId": "frostBow",
       "hitFrame": 0,
       "glowColor": 51199,

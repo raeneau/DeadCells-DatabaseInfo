@@ -20,6 +20,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 65,
   "volteDelay": 0.1,
   "id": "Rat",
@@ -58,14 +63,14 @@
       "allowInAir": false,
       "radius": 4,
       "allowSameSkillNearby": true,
-      "sfxCharge": "sfx/enm_rat_charge.wav",
+      "sfxCharge": "sfx/enm/enm_rat_charge.wav",
       "charge": 0.5,
       "manual": false,
       "execAnimSpd": 1,
       "chargeAnimSpd": 4,
       "execAnim": "atk",
       "id": "nibble",
-      "sfxRelease": "sfx/enm_zmb_release2.wav",
+      "sfxRelease": "sfx/enm/enm_zmb_release2.wav",
       "disableAnnounceFx": false,
       "hitFrame": 4,
       "breachResistance": 1,

@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "power": [
       50
@@ -23,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "PoisonCloudOnHit"
+    }
+  ],
   "name": "Champignon protecteur",
   "droppable": true,
   "tags": [
@@ -34,7 +40,7 @@
     }
   ],
   "tier1": "Survival",
-  "cellCost": 50,
+  "cellCost": 80,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 52

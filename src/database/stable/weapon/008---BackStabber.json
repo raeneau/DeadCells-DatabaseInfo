@@ -26,10 +26,10 @@
         "height": 3.5,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
       "fxId": "fxKnifeA",
       "animId": "atkKnifeA",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 7,
       "critMul": 1.5,
       "glowColor": 16711680
@@ -57,10 +57,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_kunai_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
       "fxId": "fxKnifeB",
       "animId": "atkKnifeB",
-      "sfxHit": "sfx/hit_blade.wav",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
       "hitFrame": 7,
       "critMul": 1.5,
       "glowColor": 16711680

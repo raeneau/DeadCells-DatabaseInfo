@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "autoTransformAfter": 6,
     "item": "Club"
@@ -14,6 +15,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RebuildOnKill"
+    }
+  ],
   "name": "Cure-dents brisé",
   "droppable": false,
   "tags": [

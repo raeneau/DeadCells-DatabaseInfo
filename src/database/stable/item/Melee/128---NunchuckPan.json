@@ -1,0 +1,36 @@
+{
+  "synergy": [],
+  "props": {
+    "power2": 90
+  },
+  "gameplayDesc": "NUNCHUCKPAN_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "NUNCHUCKPAN_AMBIANTDESC",
+  "id": "NunchuckPan",
+  "icon": {
+    "x": 23,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "FireOnHit"
+    }
+  ],
+  "name": "NUNCHUCKPAN_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 5,
+  "legendAffix": "DeathFire",
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 128
+}

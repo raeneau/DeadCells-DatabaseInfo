@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.06,
     "prct2": 0.4,
@@ -18,6 +19,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Prestance",
   "droppable": false,
   "tags": [

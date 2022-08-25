@@ -26,10 +26,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kick_release.wav",
       "fxId": "fxKick",
       "animId": "kick",
-      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_bump.wav",
       "hitFrame": 6,
       "animSpd": 1
     },
@@ -56,9 +56,9 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kick_release.wav",
       "animId": "kick",
-      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_bump.wav",
       "hitFrame": 6,
       "animSpd": 1
     },
@@ -89,10 +89,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_kick_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_kick_release.wav",
       "fxId": "fxKick",
       "animId": "kick",
-      "sfxHit": "sfx/weapon_kick_bump.wav",
+      "sfxHit": "sfx/weapon/weapon_kick_bump.wav",
       "hitFrame": 12,
       "glowColor": 16711680,
       "animSpd": 0.5

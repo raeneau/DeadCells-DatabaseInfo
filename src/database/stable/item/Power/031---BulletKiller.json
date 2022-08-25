@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 15,
     "power": [
@@ -19,6 +20,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Déflecteur",
   "droppable": false,
   "tags": [

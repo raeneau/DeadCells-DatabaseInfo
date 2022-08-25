@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "grenadeKickPow": 2,
     "power2": [
@@ -20,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
   "name": "Éventails",
   "droppable": true,
   "tags": [
@@ -27,7 +33,7 @@
   ],
   "tier1": "Brutality",
   "tier2": "Tactic",
-  "cellCost": 25,
+  "cellCost": 80,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 100

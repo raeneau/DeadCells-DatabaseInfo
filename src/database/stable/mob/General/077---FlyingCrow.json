@@ -9,6 +9,11 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 77,
   "id": "FlyingCrow",
   "dlc": "FatalFalls",

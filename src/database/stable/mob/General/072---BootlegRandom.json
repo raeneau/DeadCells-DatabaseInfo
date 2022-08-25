@@ -11,6 +11,7 @@
   "maxPerRoom": 2,
   "group": 0,
   "canBeElite": false,
+  "mobTags": [],
   "index": 72,
   "volteDelay": 0.2,
   "id": "BootlegRandom",

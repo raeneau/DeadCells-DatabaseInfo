@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 2,
     "range": 1,
@@ -27,6 +28,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "HeavyStun"
+    }
+  ],
   "name": "U28_GOLDDIGGER_NAME",
   "droppable": false,
   "tags": [
@@ -36,7 +42,6 @@
   ],
   "tier1": "Survival",
   "cellCost": 0,
-  "legendAffix": "DeathExplosion",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 127

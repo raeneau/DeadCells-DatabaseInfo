@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration": 1.5
   },
@@ -13,6 +14,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
   "name": "Sabre instantané",
   "droppable": true,
   "tags": [
@@ -22,7 +28,6 @@
   ],
   "tier1": "Brutality",
   "cellCost": 60,
-  "legendAffix": "BackDamage",
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 109

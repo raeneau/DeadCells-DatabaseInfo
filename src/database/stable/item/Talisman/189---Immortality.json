@@ -1,0 +1,33 @@
+{
+  "synergy": [],
+  "props": {
+    "prct": 0.66
+  },
+  "gameplayDesc": "Vous sauve la vie UNE fois (inefficace contre les Malédictions).",
+  "moneyCost": 0,
+  "group": 7,
+  "castCD": 0,
+  "ambiantDesc": "Qui a dit qu'on ne pouvait pas tromper la mort ?",
+  "id": "Immortality",
+  "icon": {
+    "x": 5,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "\"Ygdar Orus Li Ox !\"",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "NoQualityUpgrade"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 7,
+  "__separator_group_Name": "Talisman",
+  "__original_Index": 189
+}

@@ -30,10 +30,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_autocrossbow_shot.wav",
+      "sfxRelease": "sfx/weapon/weapon_autocrossbow_shot.wav",
       "animId": "multiCrossbow",
       "hitFrame": 0,
-      "critMul": 1.75,
+      "critMul": 1.4,
       "glowColor": 909223,
       "animSpd": 0.2
     }

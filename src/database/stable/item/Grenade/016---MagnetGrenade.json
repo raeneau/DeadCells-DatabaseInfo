@@ -1,17 +1,20 @@
 {
+  "synergy": [],
   "props": {
     "range": 9,
     "coolDown": 0.6,
+    "power": 0.1,
+    "duration2": 4,
     "dps": [
-      12
+      20
     ],
-    "dps2": [
-      5
+    "power2": [
+      40
     ],
-    "effectCD": 0.2,
-    "duration": 5.5
+    "distance": 12,
+    "duration": 3
   },
-  "gameplayDesc": "Attire tout ce qui est proche. Inflige {choc@EL} (::+dps2:: DPS en zone pendant ::*ShockAffectDuration:: sec).",
+  "gameplayDesc": "Attire les ennemis dans une large zone pendant quelques instants, puis explose en infligeant des dégâts {électriques@EL}.",
   "moneyCost": 1800,
   "group": 1,
   "castCD": 16,
@@ -22,6 +25,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "Echo"
+    }
+  ],
   "name": "Grenade magnétique",
   "droppable": true,
   "tags": [
@@ -36,8 +44,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 40,
-  "legendAffix": "AmmoRetrieval",
+  "cellCost": 60,
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 16

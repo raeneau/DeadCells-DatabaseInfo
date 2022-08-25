@@ -1,8 +1,9 @@
 {
+  "synergy": [],
   "props": {
     "duration": 8
   },
-  "gameplayDesc": "Inflige des {coups critiques@CC} pendant ::duration:: secondes après avoir détruit une porte.",
+  "gameplayDesc": "Inflige des {coups critiques@CC} en frappant des ennemis bestiaux ou pendant ::duration:: secondes après avoir détruit une porte.",
   "moneyCost": 1500,
   "group": 4,
   "castCD": 0,
@@ -14,11 +15,16 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperBackDamage"
+    }
+  ],
   "name": "Pied-de-biche",
   "droppable": true,
   "tags": [],
   "tier1": "Brutality",
-  "cellCost": 50,
+  "cellCost": 5,
   "__separator_group_ID": 4,
   "__separator_group_Name": "Melee",
   "__original_Index": 104

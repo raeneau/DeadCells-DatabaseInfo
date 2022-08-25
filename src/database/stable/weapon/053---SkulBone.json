@@ -29,10 +29,10 @@
         "height": 3.5,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_skull_bone_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_skull_bone_release1.wav",
       "fxId": "fxAtkASkulBone",
       "animId": "AtkSkulBoneA",
-      "sfxHit": "sfx/weapon_skull_bone_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_skull_bone_hit.wav",
       "hitFrame": 3,
       "critMul": 1,
       "animSpd": 0.7
@@ -63,10 +63,10 @@
         "height": 3.5,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_skull_bone_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_skull_bone_release2.wav",
       "fxId": "fxAtkBSkulBone",
       "animId": "AtkSkulBoneB",
-      "sfxHit": "sfx/weapon_skull_bone_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_skull_bone_hit.wav",
       "hitFrame": 4,
       "critMul": 1
     },
@@ -99,10 +99,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_skull_bone_release3.wav",
+      "sfxRelease": "sfx/weapon/weapon_skull_bone_release3.wav",
       "fxId": "fxAtkCSkulBone",
       "animId": "AtkSkulBoneC",
-      "sfxHit": "sfx/weapon_skull_bone_hit2.wav",
+      "sfxHit": "sfx/weapon/weapon_skull_bone_hit2.wav",
       "hitFrame": 24,
       "critMul": 1,
       "animSpd": 1

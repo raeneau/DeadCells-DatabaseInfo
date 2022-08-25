@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "range": 0.4,
     "power": 15,
@@ -30,6 +31,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DoubleSpeed"
+    }
+  ],
   "name": "Scavenged Bombard",
   "droppable": true,
   "tags": [

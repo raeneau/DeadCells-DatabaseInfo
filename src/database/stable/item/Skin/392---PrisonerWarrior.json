@@ -1,0 +1,23 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Tenue traditionnelle d'arpenteur de dongeon.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerWarrior",
+  "icon": {
+    "x": 23,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tenue du Guerrier",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 500,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 392
+}

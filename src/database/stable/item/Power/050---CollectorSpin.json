@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "speed": 0.5,
     "duration2": 0.5,
@@ -26,6 +27,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnKill"
+    }
+  ],
   "name": "Seringue du Collecteur",
   "droppable": true,
   "tags": [
@@ -44,7 +50,7 @@
   ],
   "tier1": "Survival",
   "tier2": "Brutality",
-  "cellCost": 1,
+  "cellCost": 200,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 50

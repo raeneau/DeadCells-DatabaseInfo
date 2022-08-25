@@ -146,6 +146,9 @@
   "nextLevels": [
     {
       "level": "T_ThroneAfterDistillery"
+    },
+    {
+      "level": "T_Lighthouse"
     }
   ],
   "baseLootLevel": 6,

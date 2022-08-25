@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration": 20
   },
@@ -12,6 +13,7 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [],
   "name": "Bonus de points",
   "droppable": false,
   "tags": [

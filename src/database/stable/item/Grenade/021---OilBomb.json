@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Oil",
+      "trigger": true
+    }
+  ],
   "props": {
     "range": 9,
     "power": [
@@ -18,6 +24,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "DeathFire"
+    }
+  ],
   "name": "Bombe à huile",
   "droppable": true,
   "tags": [
@@ -37,7 +48,6 @@
   "tier1": "Brutality",
   "tier2": "Tactic",
   "cellCost": 20,
-  "legendAffix": "DeathFire",
   "__separator_group_ID": 1,
   "__separator_group_Name": "Grenade",
   "__original_Index": 21

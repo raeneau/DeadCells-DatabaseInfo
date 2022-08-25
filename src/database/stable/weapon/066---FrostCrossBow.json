@@ -32,7 +32,7 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_icecrossbow_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_icecrossbow_release.wav",
       "animId": "frostCrossbow",
       "hitFrame": 0,
       "critMul": 0,

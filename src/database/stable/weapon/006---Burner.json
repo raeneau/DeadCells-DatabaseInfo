@@ -30,10 +30,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_torch_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_torch_release.wav",
       "fxId": "fxTorchAtkA",
       "animId": "atkTorchA",
-      "sfxHit": "sfx/hit_fire.wav",
+      "sfxHit": "sfx/weapon/hit_fire.wav",
       "hitFrame": 7,
       "glowColor": 16717312,
       "animSpd": 2
@@ -65,10 +65,10 @@
         "height": 3.7,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_burner_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_burner_release2.wav",
       "fxId": "fxTorchAtkB",
       "animId": "atkTorchB",
-      "sfxHit": "sfx/hit_fire.wav",
+      "sfxHit": "sfx/weapon/hit_fire.wav",
       "hitFrame": 19,
       "glowColor": 16717312,
       "animSpd": 2
@@ -100,10 +100,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_torch_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_torch_release.wav",
       "fxId": "fxTorchAtkA",
       "animId": "atkTorchA",
-      "sfxHit": "sfx/hit_fire.wav",
+      "sfxHit": "sfx/weapon/hit_fire.wav",
       "hitFrame": 7,
       "glowColor": 16717312,
       "animSpd": 1.66
@@ -135,10 +135,10 @@
         "height": 3.7,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_burner_release2.wav",
+      "sfxRelease": "sfx/weapon/weapon_burner_release2.wav",
       "fxId": "fxTorchAtkB",
       "animId": "atkTorchB",
-      "sfxHit": "sfx/hit_fire.wav",
+      "sfxHit": "sfx/weapon/hit_fire.wav",
       "hitFrame": 19,
       "glowColor": 16717312,
       "animSpd": 1.66

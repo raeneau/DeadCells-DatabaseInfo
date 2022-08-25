@@ -6,7 +6,7 @@
     {
       "coolDown": 0.25,
       "power": [
-        70
+        50
       ],
       "fxProps": {
         "fxInnerColor": 846066,
@@ -21,7 +21,7 @@
       "onionSkinFrame": 8,
       "breachBonus": 0.5,
       "dynamicCharge": 0,
-      "sfxCharge": "sfx/weapon_boi_charge.wav",
+      "sfxCharge": "sfx/weapon/weapon_boi_charge.wav",
       "charge": 0.07,
       "sfxProps": {},
       "canCrit": false,
@@ -32,10 +32,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_boi_release.wav",
+      "sfxRelease": "sfx/weapon/weapon_boi_release.wav",
       "fxId": "fxThrow",
       "animId": "atkGodAxe",
-      "sfxHit": "sfx/weapon_hit_floor.wav",
+      "sfxHit": "sfx/weapon/weapon_hit_floor.wav",
       "hitFrame": 6,
       "glowColor": 65467,
       "animSpd": 1.5

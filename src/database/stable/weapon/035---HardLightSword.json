@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        35
+        40
       ],
       "fxProps": {
         "fxStartFrame": -1
@@ -35,10 +35,10 @@
         "height": 2,
         "shape": 1
       },
-      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_hyperlight_sword_release1.wav",
       "fxId": "fxatkHardLightSwordA",
       "animId": "atkHardLightSwordA",
-      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_hyperlight_sword_hit.wav",
       "hitFrame": 4,
       "critMul": 1.2,
       "glowColor": 2187367
@@ -46,7 +46,7 @@
     {
       "coolDown": 0,
       "power": [
-        45
+        50
       ],
       "fxProps": {
         "fxStartFrame": -1
@@ -67,10 +67,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_hyperlight_sword_release1.wav",
       "fxId": "fxatkHardLightSwordB",
       "animId": "atkHardLightSwordB",
-      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_hyperlight_sword_hit.wav",
       "hitFrame": 2,
       "critMul": 1.2,
       "glowColor": 2187367
@@ -78,7 +78,7 @@
     {
       "coolDown": 0,
       "power": [
-        55
+        60
       ],
       "fxProps": {
         "fxStartFrame": -1
@@ -99,10 +99,10 @@
         "height": 0,
         "shape": 0
       },
-      "sfxRelease": "sfx/weapon_hyperlight_sword_release1.wav",
+      "sfxRelease": "sfx/weapon/weapon_hyperlight_sword_release1.wav",
       "fxId": "fxatkHardLightSwordC",
       "animId": "atkHardLightSwordC",
-      "sfxHit": "sfx/weapon_hyperlight_sword_hit.wav",
+      "sfxHit": "sfx/weapon/weapon_hyperlight_sword_hit.wav",
       "hitFrame": 2,
       "critMul": 1.2,
       "glowColor": 2187367

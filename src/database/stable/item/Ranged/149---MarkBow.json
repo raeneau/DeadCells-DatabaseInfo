@@ -1,0 +1,55 @@
+{
+  "synergy": [],
+  "props": {
+    "power": 52,
+    "duration2": 0.7,
+    "ammo": 2,
+    "distance": 5,
+    "effectCD": 0.5,
+    "duration": 15
+  },
+  "gameplayDesc": "U30_HOKUTO_GAMEPLAYDESC",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "Tu ne le sais pas encore, mais tu es déjà mort.",
+  "id": "MarkBow",
+  "icon": {
+    "x": 18,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
+  "name": "Arc du Hokuto ",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 149
+}

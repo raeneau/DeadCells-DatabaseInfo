@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Electric",
+      "trigger": true
+    }
+  ],
   "props": {
     "speed": 0.5,
     "range": 8,
@@ -33,6 +39,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "GlobalShieldOnUse"
+    }
+  ],
   "name": "Ailes de Corbeau",
   "droppable": true,
   "tags": [
@@ -47,7 +58,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 60,
+  "cellCost": 70,
   "__separator_group_ID": 3,
   "__separator_group_Name": "Power",
   "__original_Index": 38
