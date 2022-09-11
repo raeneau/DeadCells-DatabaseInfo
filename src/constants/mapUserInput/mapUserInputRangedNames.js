@@ -146,4 +146,8 @@ export default {
   // ------------------------------ THE BANK -------------------------------- //
   MONEYSHOOTER: rangedWeaponNames.MONEYSHOOTER,
   MONEYSHOT: rangedWeaponNames.MONEYSHOOTER,
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  MAGICBOW: rangedWeaponNames.MAGIC_BOW,
+  HOMINGBOW: rangedWeaponNames.MAGIC_BOW,
 };

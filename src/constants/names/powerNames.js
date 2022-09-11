@@ -150,4 +150,16 @@ export default {
     TYPE: POWER,
     NAME: "Pollo Power",
   },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  LEGHUGGER: {
+    INTERNAL_ID: "SPAWNLILSTAPHY",
+    TYPE: POWER,
+    NAME: "Leghugger",
+  },
+  ADULT_LEGHUGGER: {
+    INTERNAL_ID: "SPAWNADULTLILSTAPHY",
+    TYPE: POWER,
+    NAME: "Leghugger (Evolved)",
+  },
 };

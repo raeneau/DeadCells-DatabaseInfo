@@ -199,4 +199,11 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Money Shooter",
   },
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  MAGIC_BOW: {
+    INTERNAL_ID: "MAGICBOW",
+    TYPE: RANGED_WEAPON,
+    NAME: "Magic Bow",
+  },
 };
