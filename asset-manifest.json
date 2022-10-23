@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DeadCells-DatabaseInfo/static/css/main.cd9c4870.css",
-    "main.js": "/DeadCells-DatabaseInfo/static/js/main.9a190d8a.js",
+    "main.js": "/DeadCells-DatabaseInfo/static/js/main.edea02ad.js",
     "static/media/cardIcons.png": "/DeadCells-DatabaseInfo/static/media/cardIcons.b5881a2dc09bad05536c.png",
     "static/media/islandBackground.jpg": "/DeadCells-DatabaseInfo/static/media/islandBackground.c2569ca6363d5a468a3f.jpg",
     "index.html": "/DeadCells-DatabaseInfo/index.html",
     "main.cd9c4870.css.map": "/DeadCells-DatabaseInfo/static/css/main.cd9c4870.css.map",
-    "main.9a190d8a.js.map": "/DeadCells-DatabaseInfo/static/js/main.9a190d8a.js.map"
+    "main.edea02ad.js.map": "/DeadCells-DatabaseInfo/static/js/main.edea02ad.js.map"
   },
   "entrypoints": [
     "static/css/main.cd9c4870.css",
-    "static/js/main.9a190d8a.js"
+    "static/js/main.edea02ad.js"
   ]
 }
