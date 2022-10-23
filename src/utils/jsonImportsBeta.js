@@ -26,8 +26,8 @@ import Distillery from "../database/beta/level/MainLevels/19---Distillery.json";
 import Astrolab from "../database/beta/level/MainLevels/21---Astrolab.json";
 import Greenhouse from "../database/beta/level/MainLevels/25---Greenhouse.json";
 import Swamp from "../database/beta/level/MainLevels/26---Swamp.json";
-import Tumulus from "../database/stable/level/MainLevels/28---Tumulus.json";
-import Cliff from "../database/stable/level/MainLevels/29---Cliff.json";
+import Tumulus from "../database/stable/level/MainLevels/028---Tumulus.json";
+import Cliff from "../database/stable/level/MainLevels/029---Cliff.json";
 
 // -----------------------------------------------------------------------------
 

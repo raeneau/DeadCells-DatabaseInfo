@@ -21,7 +21,11 @@
   "maxPerRoom": 2,
   "group": 0,
   "canBeElite": true,
-  "mobTags": [],
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 47,
   "volteDelay": 0.3,
   "id": "Stomper",

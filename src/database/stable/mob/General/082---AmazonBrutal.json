@@ -162,7 +162,7 @@
     },
     {
       "chargeAnim": "stun",
-      "coolDown": 0.2,
+      "coolDown": 0,
       "props": {
         "stunTime": 0.3
       },

@@ -181,7 +181,7 @@
     },
     {
       "chargeAnim": "jumpLoad",
-      "coolDown": 1,
+      "coolDown": 0,
       "props": {
         "speed": 0.03,
         "range": 9,
@@ -209,7 +209,7 @@
     },
     {
       "chargeAnim": "jumpLoad",
-      "coolDown": 0.2,
+      "coolDown": 0,
       "power": [
         10
       ],

@@ -150,4 +150,9 @@ export default {
   // -------------------------- ENTER THE PANCHAKU -------------------------- //
   MAGICBOW: rangedWeaponNames.MAGIC_BOW,
   HOMINGBOW: rangedWeaponNames.MAGIC_BOW,
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  GLYPHOFPERIL: rangedWeaponNames.GLYPH_OF_PERIL,
+  GLYPH: rangedWeaponNames.GLYPH_OF_PERIL,
+  HYDRASPELL: rangedWeaponNames.GLYPH_OF_PERIL,
 };

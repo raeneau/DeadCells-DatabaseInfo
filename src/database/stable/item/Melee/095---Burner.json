@@ -1,0 +1,47 @@
+{
+  "synergy": [
+    {
+      "tag": "Fire",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "dps": 15,
+    "duration": 2.7
+  },
+  "gameplayDesc": "{Brûle@FI} vos ennemis (::+dps:: DPS sur ::duration:: sec).",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Ambiance garantie.",
+  "id": "Burner",
+  "icon": {
+    "x": 6,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
+  "name": "Torche",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "Fire"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 15,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 95
+}

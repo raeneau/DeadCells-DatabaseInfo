@@ -11,12 +11,12 @@
     "power": [
       45
     ],
-    "duration": 3.5
+    "duration": 4.5
   },
   "gameplayDesc": "Étourdit les ennemis (::duration:: sec).",
   "moneyCost": 1500,
   "group": 1,
-  "castCD": 12,
+  "castCD": 11,
   "id": "StunningGrenade",
   "icon": {
     "x": 7,

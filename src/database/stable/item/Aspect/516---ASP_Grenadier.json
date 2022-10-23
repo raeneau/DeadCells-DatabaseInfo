@@ -1,0 +1,27 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Killing an enemy with a grenade resets its cooldown.",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Grenadier",
+  "icon": {
+    "x": 8,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Grenadier",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 516
+}

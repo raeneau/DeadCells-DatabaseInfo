@@ -1,0 +1,42 @@
+{
+  "synergy": [],
+  "props": {
+    "grenadeKickPow": 0.7,
+    "power2": [
+      90
+    ]
+  },
+  "gameplayDesc": "Projette les ennemis, infligeant des dégats de zone à l'endroit où ils retombent.  ::+power2:: dégâts supplémentaires s'ils sont projetés contre un mur. Le dernier coup est capable de repousser n'importe quel adversaire.",
+  "moneyCost": 1600,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "This. Is. DEAD CELLS!",
+  "id": "BumpBoots",
+  "icon": {
+    "x": 1,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SuperBump"
+    }
+  ],
+  "name": "Sandales de spartiate",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UtilityWeapon"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 88
+}

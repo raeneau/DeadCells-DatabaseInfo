@@ -71,12 +71,12 @@
         "fxInnerColor": 16774912,
         "fxOuterColor": 16774912
       },
-      "lockCtrlAfter": 0.35,
+      "lockCtrlAfter": 0.3,
       "props": {},
       "breachBonus": -0.5,
       "dynamicCharge": 0,
       "sfxCharge": "sfx/weapon/bow_charge1.wav",
-      "charge": 0.3,
+      "charge": 0.2,
       "sfxProps": {},
       "canCrit": true,
       "area": {

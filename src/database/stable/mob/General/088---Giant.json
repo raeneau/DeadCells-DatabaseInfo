@@ -9,6 +9,48 @@
     "bumpResistance": 1,
     "cannotBeBackstabbed": true
   },
+  "colorSwaps": [
+    {
+      "target": 10017239,
+      "source": 15519136,
+      "tolerance": 1
+    },
+    {
+      "target": 6072501,
+      "source": 7689779,
+      "tolerance": 0.45
+    },
+    {
+      "target": 2324086,
+      "source": 6235928,
+      "tolerance": 0.3
+    },
+    {
+      "target": 3050939,
+      "source": 10105629,
+      "tolerance": 0.15
+    },
+    {
+      "target": 4346720,
+      "source": 3290180,
+      "tolerance": 0.45
+    },
+    {
+      "target": 726818,
+      "source": 4330272,
+      "tolerance": 0.2
+    },
+    {
+      "target": 3348,
+      "source": 2168327,
+      "tolerance": 0.3
+    },
+    {
+      "target": 11399679,
+      "source": 16753408,
+      "tolerance": 0.1
+    }
+  ],
   "genTags": 532,
   "glowOuterColor": 13243412,
   "pfCost": 1,

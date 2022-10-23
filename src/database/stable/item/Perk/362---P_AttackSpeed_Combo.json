@@ -1,0 +1,28 @@
+{
+  "synergy": [],
+  "props": {
+    "prct": 0.15,
+    "customScaling": 0.01,
+    "duration": 2
+  },
+  "gameplayDesc": "Switch weapons to increase your attack speed by ::*prct::%.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_AttackSpeed_Combo",
+  "icon": {
+    "x": 3,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Fatal Cadence",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 150,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 362
+}

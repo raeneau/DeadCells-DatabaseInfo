@@ -206,4 +206,11 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Magic Bow",
   },
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  GLYPH_OF_PERIL: {
+    INTERNAL_ID: "HYDRASPELL",
+    TYPE: RANGED_WEAPON,
+    NAME: "Glyph of Peril",
+  },
 };

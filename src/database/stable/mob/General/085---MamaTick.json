@@ -16,6 +16,18 @@
     "bumpResistance": 1,
     "dontSpatialiseSounds": true
   },
+  "colorSwaps": [
+    {
+      "target": 3516773,
+      "source": 9062047,
+      "tolerance": 0.4
+    },
+    {
+      "target": 468536,
+      "source": 2366003,
+      "tolerance": 0.02
+    }
+  ],
   "genTags": 516,
   "glowOuterColor": 16711935,
   "pfCost": 1,
@@ -129,7 +141,8 @@
       "props": {
         "canTriggerThroughWall": true,
         "x": 3,
-        "height": 6
+        "height": 6,
+        "effectCD": 5
       },
       "allowInAir": false,
       "radius": 0,

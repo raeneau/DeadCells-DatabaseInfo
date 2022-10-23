@@ -1,0 +1,36 @@
+{
+  "synergy": [],
+  "props": {
+    "duration2": 3,
+    "dps": 3,
+    "dps2": 15,
+    "distance": 6.5,
+    "duration": 5
+  },
+  "gameplayDesc": "U26_MACHETE_GAMEPLAYDESC",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U26_MACHETE_AMBIANTDESC",
+  "id": "MachetePistol",
+  "icon": {
+    "x": 28,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
+  "name": "U26_MACHETE_NAME",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 116
+}

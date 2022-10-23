@@ -6,7 +6,7 @@
     {
       "coolDown": 0,
       "power": [
-        40
+        42
       ],
       "fxProps": {},
       "lockCtrlAfter": 0,
@@ -29,13 +29,12 @@
       "fxId": "fxAtkCrowbarA",
       "animId": "atkCrowbarA",
       "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
-      "hitFrame": 3,
-      "critMul": 0.75
+      "hitFrame": 3
     },
     {
       "coolDown": 0,
       "power": [
-        70
+        72
       ],
       "fxProps": {},
       "lockCtrlAfter": 0,
@@ -58,13 +57,12 @@
       "fxId": "fxAtkCrowbarB",
       "animId": "atkCrowbarB",
       "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
-      "hitFrame": 7,
-      "critMul": 0.75
+      "hitFrame": 7
     },
     {
       "coolDown": 0,
       "power": [
-        90
+        92
       ],
       "fxProps": {},
       "lockCtrlAfter": 0.2,
@@ -88,7 +86,7 @@
       "animId": "atkCrowbarC",
       "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
       "hitFrame": 9,
-      "critMul": 0.9
+      "critMul": 1.4
     }
   ],
   "airControlAlways": true,

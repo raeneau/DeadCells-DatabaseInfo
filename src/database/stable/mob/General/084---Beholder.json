@@ -13,6 +13,43 @@
     "cannotBeBackstabbed": true,
     "insensitiveSpike": true
   },
+  "colorSwaps": [
+    {
+      "target": 10373678,
+      "source": 1282193,
+      "tolerance": 0.2
+    },
+    {
+      "target": 13471314,
+      "source": 5434786,
+      "tolerance": 0.2
+    },
+    {
+      "target": 8327182,
+      "source": 2563174,
+      "tolerance": 0.1
+    },
+    {
+      "target": 13049880,
+      "source": 7087258,
+      "tolerance": 0.2
+    },
+    {
+      "target": 16286042,
+      "source": 12201428,
+      "tolerance": 0.25
+    },
+    {
+      "target": 14852608,
+      "source": 49919,
+      "tolerance": 0.05
+    },
+    {
+      "target": 10705920,
+      "source": 1732757,
+      "tolerance": 0.05
+    }
+  ],
   "genTags": 532,
   "glowOuterColor": 13243412,
   "pfCost": 1,
@@ -196,6 +233,21 @@
       "breachResistance": 10,
       "lockAiAfter": 0,
       "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 5,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "id": "tentacles",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
     }
   ],
   "__separator_group_ID": 0,

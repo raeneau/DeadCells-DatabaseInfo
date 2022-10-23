@@ -1,0 +1,30 @@
+{
+  "synergy": [],
+  "props": {
+    "altMode": true,
+    "lock": -1
+  },
+  "gameplayDesc": "U31_SKIN6_DESC",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "VictoriusBeheaded1",
+  "icon": {
+    "x": 34,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "U31_SKIN6_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 900,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 504
+}

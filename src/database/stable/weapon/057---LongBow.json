@@ -6,7 +6,7 @@
     {
       "coolDown": 0.35,
       "power": [
-        30
+        32
       ],
       "fxProps": {
         "fxInnerColor": 16711680,
@@ -14,7 +14,7 @@
       },
       "lockCtrlAfter": 0.2,
       "props": {
-        "range": 7
+        "range": 6
       },
       "breachBonus": -0.7,
       "dynamicCharge": 0,

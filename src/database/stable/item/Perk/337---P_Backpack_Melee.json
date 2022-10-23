@@ -1,0 +1,30 @@
+{
+  "synergy": [],
+  "props": {
+    "width": 4,
+    "cooldown": 3,
+    "height": 2,
+    "prct": 0.75,
+    "customScaling": 0.01
+  },
+  "gameplayDesc": "Rolling through enemies attacks them with the melee weapon in {backpack@BA} for ::*prct::% of the usual damages.",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_Backpack_Melee",
+  "icon": {
+    "x": 1,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Porcupine Backpack",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 80,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 337
+}

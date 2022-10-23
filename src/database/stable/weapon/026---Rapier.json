@@ -22,8 +22,8 @@
       "area": {
         "width": 3,
         "offsetCaseX": 0.5,
-        "offsetCaseY": -0.2,
-        "height": 0.5,
+        "offsetCaseY": -0.1,
+        "height": 0.8,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon/weapon_rapier_release.wav",
@@ -53,8 +53,8 @@
       "area": {
         "width": 3,
         "offsetCaseX": 1,
-        "offsetCaseY": -0.5,
-        "height": 0.5,
+        "offsetCaseY": -0.2,
+        "height": 0.8,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
@@ -84,8 +84,8 @@
       "area": {
         "width": 3,
         "offsetCaseX": 1,
-        "offsetCaseY": 0.1,
-        "height": 0.5,
+        "offsetCaseY": -0.1,
+        "height": 0.8,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
@@ -115,8 +115,8 @@
       "area": {
         "width": 3,
         "offsetCaseX": 1,
-        "offsetCaseY": -0.2,
-        "height": 0.5,
+        "offsetCaseY": -0.1,
+        "height": 0.8,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",

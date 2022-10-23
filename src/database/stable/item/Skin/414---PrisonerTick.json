@@ -1,0 +1,24 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Durée de vie moyenne: 3 minutes. ",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerTick",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 25,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tenue de Dompteur de Tiques",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 150,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 414
+}

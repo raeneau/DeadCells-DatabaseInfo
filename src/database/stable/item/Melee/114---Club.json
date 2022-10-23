@@ -1,0 +1,35 @@
+{
+  "synergy": [],
+  "props": {
+    "item": "ClubBroken",
+    "duration": 6
+  },
+  "gameplayDesc": "Chargez l'attaque pour frapper fort, mais le gourdin se brisera pour ::duration:: secondes.",
+  "moneyCost": 1800,
+  "group": 4,
+  "castCD": 0,
+  "id": "Club",
+  "icon": {
+    "x": 32,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "HeavyStun"
+    }
+  ],
+  "name": "Cure-dents",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 60,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 114
+}

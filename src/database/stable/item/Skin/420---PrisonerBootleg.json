@@ -1,0 +1,24 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Vous pourriez être immortel !.. Si un Nécro voulait bien vous relever.",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "PrisonerBootleg",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 22,
+    "y": 19,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tenue du revenant",
+  "droppable": false,
+  "tags": [],
+  "cellCost": 30,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 420
+}

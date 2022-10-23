@@ -60,8 +60,8 @@
       "area": {
         "width": 3.5,
         "offsetCaseX": 0.5,
-        "offsetCaseY": -1,
-        "height": 2,
+        "offsetCaseY": -0.85,
+        "height": 2.4,
         "shape": 1
       },
       "sfxRelease": "sfx/weapon/weapon_chargesw_release1.wav",

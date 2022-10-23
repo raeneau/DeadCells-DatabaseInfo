@@ -1,0 +1,37 @@
+{
+  "synergy": [
+    {
+      "tag": "Electric",
+      "trigger": false
+    }
+  ],
+  "props": {
+    "range": 10,
+    "power": 1,
+    "prct": 0.5,
+    "tick": 0.3
+  },
+  "gameplayDesc": "Electric DoTs rapidly bounce back and forth to nearby enemies, increasing their damage by 50% everytime they jump on a new target.",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Superconductor",
+  "icon": {
+    "x": 7,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Superconductor",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 517
+}

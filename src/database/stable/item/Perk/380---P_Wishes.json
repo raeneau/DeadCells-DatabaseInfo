@@ -1,0 +1,32 @@
+{
+  "synergy": [],
+  "props": {
+    "item": "P_WishesDepleted"
+  },
+  "gameplayDesc": "U31_P_WISHES_GAMEPLAYDESC",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_Wishes",
+  "icon": {
+    "x": 9,
+    "y": 15,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "U31_P_WISHES",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UniquePerk"
+    },
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "cellCost": 200,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 380
+}

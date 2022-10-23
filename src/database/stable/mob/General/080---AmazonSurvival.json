@@ -148,7 +148,7 @@
     },
     {
       "chargeAnim": "jumpLoad",
-      "coolDown": 0.3,
+      "coolDown": 0,
       "power": [
         10
       ],

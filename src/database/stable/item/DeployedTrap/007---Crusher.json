@@ -3,6 +3,10 @@
     {
       "tag": "Slow",
       "trigger": true
+    },
+    {
+      "tag": "Stun",
+      "trigger": true
     }
   ],
   "props": {

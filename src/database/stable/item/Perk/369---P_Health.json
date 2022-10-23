@@ -1,0 +1,26 @@
+{
+  "synergy": [],
+  "props": {
+    "prct": 0.5,
+    "size": 6
+  },
+  "gameplayDesc": "PV +::prct::%, but the efficiency of all sources of healing (food, mutations or healing flasks) is decreased by half. ",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_Health",
+  "icon": {
+    "x": 3,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Mort à l'intérieur",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 100,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 369
+}

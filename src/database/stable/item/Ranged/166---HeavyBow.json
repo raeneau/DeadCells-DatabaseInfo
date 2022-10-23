@@ -1,0 +1,58 @@
+{
+  "synergy": [],
+  "props": {
+    "range": 25,
+    "ammo": 2
+  },
+  "gameplayDesc": "Fires large arrows that push enemies. Stuns and inflicts\n{critical damage@CC} if it bumps its target into a wall or another enemy.",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_HEAVYBOW_AMBIENTDESC",
+  "id": "HeavyBow",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 34,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "FireBullet"
+    }
+  ],
+  "name": "Gilded Yumi",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 166
+}

@@ -7,27 +7,28 @@ import Uncommon from "../database/stable/blueprintDrop/2---Uncommon.json";
 import Rare from "../database/stable/blueprintDrop/3---Rare.json";
 import Legendary from "../database/stable/blueprintDrop/4---Legendary.json";
 
-import PrisonStart from "../database/stable/level/MainLevels/00---PrisonStart.json";
-import PrisonCourtyard from "../database/stable/level/MainLevels/01---PrisonCourtyard.json";
-import SewerShort from "../database/stable/level/MainLevels/02---SewerShort.json";
-import PrisonDepths from "../database/stable/level/MainLevels/03---PrisonDepths.json";
-import PrisonCorrupt from "../database/stable/level/MainLevels/04---PrisonCorrupt.json";
-import PrisonRoof from "../database/stable/level/MainLevels/05---PrisonRoof.json";
-import Ossuary from "../database/stable/level/MainLevels/06---Ossuary.json";
-import SewerDepths from "../database/stable/level/MainLevels/07---SewerDepths.json";
-import StiltVillage from "../database/stable/level/MainLevels/10---StiltVillage.json";
-import AncientTemple from "../database/stable/level/MainLevels/11---AncientTemple.json";
-import Cemetery from "../database/stable/level/MainLevels/12---Cemetery.json";
-import ClockTower from "../database/stable/level/MainLevels/13---ClockTower.json";
-import Crypt from "../database/stable/level/MainLevels/14---Crypt.json";
-import Cavern from "../database/stable/level/MainLevels/16---Cavern.json";
-import Castle from "../database/stable/level/MainLevels/18---Castle.json";
-import Distillery from "../database/stable/level/MainLevels/19---Distillery.json";
-import Astrolab from "../database/stable/level/MainLevels/21---Astrolab.json";
-import Greenhouse from "../database/stable/level/MainLevels/25---Greenhouse.json";
-import Swamp from "../database/stable/level/MainLevels/26---Swamp.json";
-import Tumulus from "../database/stable/level/MainLevels/28---Tumulus.json";
-import Cliff from "../database/stable/level/MainLevels/29---Cliff.json";
+import PrisonStart from "../database/stable/level/MainLevels/000---PrisonStart.json";
+import PrisonCourtyard from "../database/stable/level/MainLevels/001---PrisonCourtyard.json";
+import SewerShort from "../database/stable/level/MainLevels/002---SewerShort.json";
+import PrisonDepths from "../database/stable/level/MainLevels/003---PrisonDepths.json";
+import PrisonCorrupt from "../database/stable/level/MainLevels/004---PrisonCorrupt.json";
+import PrisonRoof from "../database/stable/level/MainLevels/005---PrisonRoof.json";
+import Ossuary from "../database/stable/level/MainLevels/006---Ossuary.json";
+import SewerDepths from "../database/stable/level/MainLevels/007---SewerDepths.json";
+import StiltVillage from "../database/stable/level/MainLevels/010---StiltVillage.json";
+import AncientTemple from "../database/stable/level/MainLevels/011---AncientTemple.json";
+import Cemetery from "../database/stable/level/MainLevels/012---Cemetery.json";
+import ClockTower from "../database/stable/level/MainLevels/013---ClockTower.json";
+import Crypt from "../database/stable/level/MainLevels/014---Crypt.json";
+import Cavern from "../database/stable/level/MainLevels/016---Cavern.json";
+import Castle from "../database/stable/level/MainLevels/018---Castle.json";
+import Distillery from "../database/stable/level/MainLevels/019---Distillery.json";
+import Astrolab from "../database/stable/level/MainLevels/021---Astrolab.json";
+import Greenhouse from "../database/stable/level/MainLevels/025---Greenhouse.json";
+import Swamp from "../database/stable/level/MainLevels/026---Swamp.json";
+import Tumulus from "../database/stable/level/MainLevels/028---Tumulus.json";
+import Cliff from "../database/stable/level/MainLevels/029---Cliff.json";
+import Shipwreck from "../database/stable/level/MainLevels/031---Shipwreck.json";
 
 // -----------------------------------------------------------------------------
 
@@ -61,6 +62,7 @@ export const levelJsons = {
   Swamp,
   Tumulus,
   Cliff,
+  Shipwreck,
 };
 
 export const levelJsonPath = formatJsonImport(

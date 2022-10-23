@@ -11,6 +11,23 @@
     "bumpResistance": 1,
     "cannotBeBackstabbed": true
   },
+  "colorSwaps": [
+    {
+      "target": 9167851,
+      "source": 15519136,
+      "tolerance": 1
+    },
+    {
+      "target": 5751,
+      "source": 10105629,
+      "tolerance": 0.3
+    },
+    {
+      "target": 334116,
+      "source": 2168327,
+      "tolerance": 0.6
+    }
+  ],
   "genTags": 596,
   "glowOuterColor": 13243412,
   "pfCost": 1,

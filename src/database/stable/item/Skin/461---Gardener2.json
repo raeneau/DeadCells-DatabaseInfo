@@ -1,0 +1,24 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Oh, quel monde ! Quel monde !",
+  "moneyCost": 0,
+  "group": 13,
+  "castCD": 0,
+  "id": "Gardener2",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 29,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tenue du méchant Epouvantail de l'Ouest",
+  "droppable": true,
+  "tags": [],
+  "cellCost": 300,
+  "__separator_group_ID": 13,
+  "__separator_group_Name": "Skin",
+  "__original_Index": 461
+}

@@ -43,6 +43,9 @@
     },
     {
       "tag": "ShortCooldown"
+    },
+    {
+      "tag": "NoDamage"
     }
   ],
   "tier1": "Brutality",

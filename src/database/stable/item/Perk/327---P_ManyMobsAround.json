@@ -1,0 +1,33 @@
+{
+  "synergy": [
+    {
+      "tag": "Slow",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "scaledValueCap": 0.8,
+    "duration2": 1,
+    "duration": 0.2
+  },
+  "gameplayDesc": "Taper un ennemi au corps à corps le ralenti pendant ::+duration:: sec. ",
+  "moneyCost": 0,
+  "group": 12,
+  "castCD": 0,
+  "id": "P_ManyMobsAround",
+  "icon": {
+    "x": 2,
+    "y": 14,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Mélée",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 50,
+  "__separator_group_ID": 12,
+  "__separator_group_Name": "Perk",
+  "__original_Index": 327
+}

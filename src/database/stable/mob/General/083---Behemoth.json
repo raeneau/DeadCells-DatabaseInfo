@@ -132,6 +132,7 @@
         10
       ],
       "props": {
+        "duration2": 1,
         "distance": 99
       },
       "allowInAir": false,
@@ -175,6 +176,7 @@
     {
       "coolDown": 10,
       "props": {
+        "duration2": 6,
         "distance": 2.5,
         "duration": 2.8
       },

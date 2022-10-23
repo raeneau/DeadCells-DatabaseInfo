@@ -1,0 +1,236 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "HydraSpell",
+  "strikeChain": [
+    {
+      "coolDown": 0.3,
+      "power": [
+        42
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleA"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge1.wav",
+      "charge": 0.22,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseA",
+      "animId": "AtkShamanicIncenseA",
+      "hitFrame": 5,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        37
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleB"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge2.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseB",
+      "animId": "AtkShamanicIncenseB",
+      "hitFrame": 4,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        34
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleC"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge3.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseC",
+      "animId": "AtkShamanicIncenseC",
+      "hitFrame": 5,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        37
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleD"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge4.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseD",
+      "animId": "AtkShamanicIncenseD",
+      "hitFrame": 5,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        47
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleE"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge5.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseE",
+      "animId": "AtkShamanicIncenseE",
+      "hitFrame": 6,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.16,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleF"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge6.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire1.wav",
+      "fxId": "fxAtkShamanicIncenseF",
+      "animId": "AtkShamanicIncenseF",
+      "hitFrame": 6,
+      "glowColor": 6943613,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        95
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "hitFx": "fxAtkShamanicIncenseCircleG"
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_hydraspell_charge7.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_hydraspell_fire2.wav",
+      "fxId": "fxAtkShamanicIncenseG",
+      "animId": "AtkShamanicIncenseG",
+      "hitFrame": 2,
+      "glowColor": 16756062,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 116
+}

@@ -1,0 +1,29 @@
+{
+  "synergy": [],
+  "props": {
+    "cooldown": 1
+  },
+  "gameplayDesc": "Reduce deployables' cooldown to ::cooldown::sec.",
+  "moneyCost": 0,
+  "group": 14,
+  "castCD": 0,
+  "id": "ASP_Tinker",
+  "icon": {
+    "x": 5,
+    "y": 20,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "Tinker",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NeedManualUnlock"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 14,
+  "__separator_group_Name": "Aspect",
+  "__original_Index": 513
+}

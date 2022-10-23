@@ -3,7 +3,7 @@
   "props": {
     "prct2": 0.5,
     "prct": 0.3,
-    "duration": 8
+    "duration": 6.5
   },
   "gameplayDesc": "Augmente les dégâts que vous infligez de +::prct2::%. Vous subissez +::prct::% de dégâts sur cette période.",
   "moneyCost": 2000,

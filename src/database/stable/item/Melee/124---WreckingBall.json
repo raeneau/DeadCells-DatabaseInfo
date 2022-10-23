@@ -1,0 +1,49 @@
+{
+  "synergy": [],
+  "props": {
+    "color2": 16761666,
+    "color": 16761666
+  },
+  "gameplayDesc": "The third attack throws the ball and the fourth recalls it.",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_WRECKINGBALL_AMBIANTDESC",
+  "id": "WreckingBall",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 32,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SpeedBall"
+    }
+  ],
+  "name": "Wrecking Ball",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "ForceAmmoDrop"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "LongerComboWindow"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 124
+}
