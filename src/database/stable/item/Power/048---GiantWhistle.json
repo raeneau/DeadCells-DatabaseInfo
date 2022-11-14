@@ -28,7 +28,11 @@
   ],
   "name": "Sifflet du géant",
   "droppable": true,
-  "tags": [],
+  "tags": [
+    {
+      "tag": "ActivatedWithDelay"
+    }
+  ],
   "tier1": "Survival",
   "cellCost": 100,
   "__separator_group_ID": 3,

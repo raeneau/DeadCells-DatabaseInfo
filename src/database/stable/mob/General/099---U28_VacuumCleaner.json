@@ -1,0 +1,143 @@
+{
+  "props": {
+    "range": 14,
+    "evolveThreshold": [
+      50,
+      300
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "armor": 0.25,
+    "pickUpScale": 1,
+    "bumpResistance": 0.45
+  },
+  "genTags": 672,
+  "glowOuterColor": 16768303,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "GoldDigger",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "P_U28_PerkGoldPerDamage",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 99,
+  "volteDelay": 0.3,
+  "id": "U28_VacuumCleaner",
+  "weight": 25,
+  "icon": {
+    "x": 49,
+    "y": 23,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    250
+  ],
+  "name": "U28_VACUUM_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16768303,
+  "minPfSize": 10,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 10,
+  "flesh1": 16514816,
+  "flesh2": 13424128,
+  "skill": [
+    {
+      "coolDown": 1,
+      "power": 12,
+      "props": {
+        "bump": 0.1,
+        "height": 1.5
+      },
+      "allowInAir": false,
+      "radius": 2.5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_vaccum_charge_small.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "megaPunch",
+      "sfxRelease": "sfx/enm/enm_vaccum_release_small.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.5,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": 15,
+      "props": {
+        "delay": 5,
+        "bump": 0.2,
+        "height": 1.5
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_vaccum_charge_medium.wav",
+      "charge": 0.4,
+      "manual": true,
+      "id": "megaPunchCombo",
+      "sfxRelease": "sfx/enm/enm_vaccum_combo_release_medium.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1.3,
+      "power": 10,
+      "props": {
+        "range": 4,
+        "width": 2,
+        "canTriggerThroughWall": true,
+        "bump": 0.7,
+        "height": 3
+      },
+      "allowInAir": true,
+      "radius": 13,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_vaccum_charge_big.wav",
+      "charge": 0.8,
+      "manual": false,
+      "id": "groundSpikes",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.3,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0.4,
+      "props": {},
+      "allowInAir": false,
+      "radius": 50,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_tp_charge.wav",
+      "charge": 0.4,
+      "manual": true,
+      "id": "teleport",
+      "sfxRelease": "sfx/enm/enm_tp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 99
+}

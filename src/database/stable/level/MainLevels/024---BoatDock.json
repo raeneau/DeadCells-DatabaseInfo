@@ -5,7 +5,8 @@
     "viewerColor": 12100258,
     "musicLoop": "music/default/end_placeholder.ogg",
     "viewerY": 1,
-    "chromaColor": 65433
+    "chromaColor": 65433,
+    "biomeType": 0
   },
   "lootFlags": 27,
   "biome": "BridgeBoatDock",

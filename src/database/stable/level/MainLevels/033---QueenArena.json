@@ -6,6 +6,7 @@
     "musicLoop": "music/default/lighthouse_ambiance.ogg",
     "droneMusic": "music/default/lighthouse_ambiance_bg.ogg",
     "chromaColor": 62719,
+    "biomeType": 1,
     "loadingDescColor": 5765563,
     "loadingColor": 396559
   },

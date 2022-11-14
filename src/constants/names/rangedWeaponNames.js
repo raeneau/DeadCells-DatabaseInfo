@@ -213,4 +213,17 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Glyph of Peril",
   },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  THROWABLEOBJECTS: {
+    INTERNAL_ID: "THROWABLESTUFF",
+    TYPE: RANGED_WEAPON,
+    NAME: "Thorowable Objects",
+  },
+
+  LASERGLAIVE: {
+    INTERNAL_ID: "LASERGLAIVE",
+    TYPE: RANGED_WEAPON,
+    NAME: "Laser Glaive",
+  },
 };

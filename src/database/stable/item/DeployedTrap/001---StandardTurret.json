@@ -53,6 +53,9 @@
     },
     {
       "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "AutoUnlocked"
     }
   ],
   "tier1": "Tactic",

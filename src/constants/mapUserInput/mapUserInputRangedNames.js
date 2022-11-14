@@ -155,4 +155,11 @@ export default {
   GLYPHOFPERIL: rangedWeaponNames.GLYPH_OF_PERIL,
   GLYPH: rangedWeaponNames.GLYPH_OF_PERIL,
   HYDRASPELL: rangedWeaponNames.GLYPH_OF_PERIL,
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  THROWABLEOBJECTS: rangedWeaponNames.THROWABLEOBJECTS,
+  THROWABLESTUFF: rangedWeaponNames.THROWABLEOBJECTS,
+
+  LASERGLAIVE: rangedWeaponNames.LASERGLAIVE,
+  GLAIVE: rangedWeaponNames.LASERGLAIVE,
 };

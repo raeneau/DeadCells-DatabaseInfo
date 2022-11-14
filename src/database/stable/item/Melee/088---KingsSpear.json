@@ -1,0 +1,48 @@
+{
+  "synergy": [],
+  "props": {
+    "duration2": 1.5,
+    "count": 2,
+    "duration": 6
+  },
+  "gameplayDesc": "Inflige des {coups critiques@CC} pendant ::duration:: sec si vous tuez rapidement ::count:: ennemis avec cette arme.",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "id": "KingsSpear",
+  "icon": {
+    "x": 11,
+    "y": 11,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "QuadDamageFree"
+    },
+    {
+      "affix": "IgnoreGlobalShield"
+    }
+  ],
+  "name": "Lance symétrique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "CinematicBlueprint"
+    },
+    {
+      "tag": "NeedUnlockToDropAsLegendary"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 150,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 88
+}

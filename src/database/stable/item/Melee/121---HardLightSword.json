@@ -1,0 +1,46 @@
+{
+  "synergy": [],
+  "props": {
+    "power2": [
+      1.1,
+      1.5,
+      1.7,
+      1.9,
+      2.2,
+      2.5
+    ],
+    "item": "HardLightGun",
+    "maxNumberOfMarks": 6,
+    "duration": 4
+  },
+  "gameplayDesc": "U26_HARDLIGHTSWORD_GAMEPLAYDESC",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U26_HARDLIGHTSWORD_AMBIANTDESC",
+  "id": "HardLightSword",
+  "icon": {
+    "x": 25,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
+  "name": "U26_HARDLIGHTSWORD_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "DualWeaponBase"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 121
+}

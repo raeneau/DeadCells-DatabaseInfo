@@ -6,6 +6,7 @@
     "musicLoop": "music/default/ambiant_swamp.ogg",
     "viewerY": -2,
     "chromaColor": 62719,
+    "biomeType": 2,
     "loadingDescColor": 6652612,
     "loadingColor": 2889998
   },

@@ -10,6 +10,7 @@
     "droneMusic": "music/default/lighthouse_fire_loop.ogg",
     "chromaColor": 65490,
     "wind": 1,
+    "biomeType": 1,
     "loadingDescColor": 10844043,
     "loadingColor": 3218735
   },

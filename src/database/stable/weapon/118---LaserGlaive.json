@@ -1,0 +1,49 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "LaserGlaive",
+  "strikeChain": [
+    {
+      "coolDown": 0.8,
+      "power": [
+        42
+      ],
+      "fxProps": {
+        "fxStartFrame": 16,
+        "fxOffset": [
+          24,
+          24
+        ]
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "speed": 1.1,
+        "pct": 1.25,
+        "count": 6
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_laserglaive_release.wav",
+      "fxId": "fxAtkALaserGlaive",
+      "animId": "AtkLaserGlaiveA",
+      "sfxHit": "sfx/weapon/weapon_laserglaive_hit.wav",
+      "hitFrame": 12,
+      "glowColor": 4259327
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 118
+}

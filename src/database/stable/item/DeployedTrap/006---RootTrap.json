@@ -34,6 +34,9 @@
   "tags": [
     {
       "tag": "Deployable"
+    },
+    {
+      "tag": "AutoUnlocked"
     }
   ],
   "tier1": "Survival",

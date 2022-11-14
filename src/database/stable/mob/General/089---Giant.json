@@ -1,0 +1,152 @@
+{
+  "props": {
+    "speed": 0.16,
+    "fallResistance": 1,
+    "combatMusic": "music/default/giant_loop.ogg",
+    "highlightOnKill": false,
+    "cellLoot": 30,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true
+  },
+  "colorSwaps": [
+    {
+      "target": 10017239,
+      "source": 15519136,
+      "tolerance": 1
+    },
+    {
+      "target": 6072501,
+      "source": 7689779,
+      "tolerance": 0.45
+    },
+    {
+      "target": 2324086,
+      "source": 6235928,
+      "tolerance": 0.3
+    },
+    {
+      "target": 3050939,
+      "source": 10105629,
+      "tolerance": 0.15
+    },
+    {
+      "target": 4346720,
+      "source": 3290180,
+      "tolerance": 0.45
+    },
+    {
+      "target": 726818,
+      "source": 4330272,
+      "tolerance": 0.2
+    },
+    {
+      "target": 3348,
+      "source": 2168327,
+      "tolerance": 0.3
+    },
+    {
+      "target": 11399679,
+      "source": 16753408,
+      "tolerance": 0.1
+    }
+  ],
+  "genTags": 532,
+  "glowOuterColor": 13243412,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "GiantKiller",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "GiantDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "GiantWhistle",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Giant1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Giant2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Giant3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Giant4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessGiant",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 89,
+  "id": "Giant",
+  "dlc": "RiseOfTheGiant",
+  "weight": 50,
+  "icon": {
+    "x": 50,
+    "y": 23,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    4096
+  ],
+  "name": "Le Gigantus",
+  "minPfHeight": 0,
+  "glowInnerColor": 16754944,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 2739096,
+  "flesh2": 7608463,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "duration": 2.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_giant_laser_charge.wav",
+      "charge": 0.8,
+      "manual": true,
+      "id": "laserVise",
+      "sfxRelease": "sfx/enm/enm_giant_laser_shot.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 89
+}

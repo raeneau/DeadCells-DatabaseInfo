@@ -246,4 +246,16 @@ export default {
   PANCHAKU: meleeWeaponNames.NUNCHUCKPAN,
   NUNCHUCKS: meleeWeaponNames.NUNCHUCKPAN,
   PANS: meleeWeaponNames.NUNCHUCKPAN,
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  KINGSCEPTER: meleeWeaponNames.KINGSCEPTER,
+  SCEPTER: meleeWeaponNames.KINGSCEPTER,
+
+  BASEBALLBAT: meleeWeaponNames.BASEBALLBAT,
+  BASEBALL: meleeWeaponNames.BASEBALLBAT,
+  HOTLINEMIAMI: meleeWeaponNames.BASEBALLBAT,
+  HLM: meleeWeaponNames.BASEBALLBAT,
+
+  STARFURY: meleeWeaponNames.STARFURY,
+  TERRARIA: meleeWeaponNames.STARFURY,
 };

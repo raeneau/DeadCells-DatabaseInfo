@@ -1,0 +1,38 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 1.1,
+    "bump": -0.9,
+    "effectCharge": 2,
+    "tick": 0.2
+  },
+  "gameplayDesc": "U32_ KINGSCEPTER_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U32_ KINGSCEPTER_AMBIENTDESC",
+  "id": "KingScepter",
+  "icon": {
+    "x": 35,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SpinToWin"
+    }
+  ],
+  "name": "U32_ KINGSCEPTER_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "MoveHero"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 133
+}

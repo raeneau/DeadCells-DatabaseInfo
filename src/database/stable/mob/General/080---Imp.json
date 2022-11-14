@@ -1,0 +1,72 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 4,
+    "prct": 0.5,
+    "cannotBeNecromanced": true,
+    "highlightOnKill": true,
+    "duration": 12,
+    "noCollideHero": true,
+    "bumpResistance": 100
+  },
+  "genTags": 3616,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
+  "index": 80,
+  "volteDelay": 0.12,
+  "id": "Imp",
+  "weight": 10,
+  "icon": {
+    "x": 41,
+    "y": 78,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    300
+  ],
+  "name": "U32_IMP_NAME",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 10,
+  "flesh1": 16711680,
+  "flesh2": 0,
+  "skill": [
+    {
+      "coolDown": 1.6,
+      "props": {
+        "speed": 0.04,
+        "height": 60,
+        "frict": 0.8,
+        "distance": 9
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.2,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_steal_jump_big.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_steal_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 80
+}

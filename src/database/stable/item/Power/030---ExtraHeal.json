@@ -36,6 +36,9 @@
     },
     {
       "tag": "HasDuration"
+    },
+    {
+      "tag": "AutoUnlocked"
     }
   ],
   "tier1": "Survival",

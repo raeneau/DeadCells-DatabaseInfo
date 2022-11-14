@@ -125,7 +125,7 @@
       "glowColor": 16735232
     }
   ],
-  "airControlAlways": true,
+  "airControlAlways": false,
   "cannotBeCanceledByWeapon": false,
   "__separator_group_ID": -1,
   "__separator_group_Name": "",

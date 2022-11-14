@@ -5,7 +5,8 @@
     "viewerColor": 16711680,
     "musicLoop": "music/default/Cemetery.ogg",
     "viewerY": 3,
-    "chromaColor": 10951708
+    "chromaColor": 10951708,
+    "biomeType": 0
   },
   "lootFlags": 0,
   "biome": "Cemetery",

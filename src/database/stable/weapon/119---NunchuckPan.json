@@ -1,0 +1,299 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "NunchuckPan",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.06,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release1.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkA",
+      "animId": "AtkNunchuckPanRefactoA",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit1.wav",
+      "hitFrame": 2,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "tick": 13
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release2.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkB",
+      "animId": "AtkNunchuckPanRefactoB",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit2.wav",
+      "hitFrame": 3,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        55
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.15
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.13,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release3.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkC",
+      "animId": "AtkNunchuckPanRefactoC",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit3.wav",
+      "hitFrame": 4,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release4.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkD",
+      "animId": "AtkNunchuckPanRefactoD",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit1.wav",
+      "hitFrame": 3,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.03,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.25,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release5.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkE",
+      "animId": "AtkNunchuckPanRefactoE",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit2.wav",
+      "hitFrame": 1,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        28
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.05,
+      "props": {},
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release6.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkF",
+      "animId": "AtkNunchuckPanRefactoF",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit3.wav",
+      "hitFrame": 3,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        28
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.05,
+      "props": {},
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release7.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkG",
+      "animId": "AtkNunchuckPanRefactoG",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit1.wav",
+      "hitFrame": 3,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        18
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "count": 6,
+        "tick": 4
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.23,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release8.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkH",
+      "animId": "AtkNunchuckPanRefactoH",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit2.wav",
+      "hitFrame": 7,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        37
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.3,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.23,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_nunchukpan_release9.wav",
+      "fxId": "NunchukPanAtk/NunchukPanAtkI",
+      "animId": "AtkNunchuckPanRefactoI",
+      "sfxHit": "sfx/weapon/weapon_nunchukpan_hit1.wav",
+      "hitFrame": 7,
+      "critMul": 0.7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        85
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "bump2": 2,
+        "bump": 0.6
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_nunchukpan_charge8.wav",
+      "charge": 0.367,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_pan_release2.wav",
+      "fxId": "fxAtkNunchuckPan/AtkNunchuckPanE",
+      "animId": "AtkNunchuckPanE",
+      "sfxHit": "sfx/weapon/weapon_pan_hit3.wav",
+      "hitFrame": 11,
+      "critMul": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 119
+}

@@ -111,4 +111,29 @@ export default {
   EVOLVEDLEGHUGGER: powerNames.ADULT_LEGHUGGER,
   ADULTLILSTAPHY: powerNames.ADULT_LEGHUGGER,
   ADULTSTAPHY: powerNames.ADULT_LEGHUGGER,
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  TAUNT: powerNames.TAUNT,
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  DDBARRICADE: powerNames.DD_BARRICADE,
+  DIVERSEDECKBARRICADE: powerNames.DD_BARRICADE,
+  BARRICADE: powerNames.DD_BARRICADE,
+  JUGGERNAUT: powerNames.DD_BARRICADE,
+
+  DDCATALYST: powerNames.DD_CATALYST,
+  DIVERSEDECKCATALYST: powerNames.DD_CATALYST,
+  CATALYST: powerNames.DD_CATALYST,
+
+  DDELECTRO: powerNames.DD_ELECTRO,
+  DDELECTRODYNAMICS: powerNames.DD_ELECTRO,
+  DIVERSEDECKELECTRO: powerNames.DD_ELECTRO,
+  DIVERSEDECKELECTRODYNAMICS: powerNames.DD_ELECTRO,
+  ELECTRO: powerNames.DD_ELECTRO,
+  ELECTRODYNAMICS: powerNames.DD_ELECTRO,
+
+  DDFORESIGHT: powerNames.DD_FORESIGHT,
+  DIVERSEDECKFORESIGHT: powerNames.DD_FORESIGHT,
+  FORESIGHT: powerNames.DD_FORESIGHT,
+  WATCHER: powerNames.DD_FORESIGHT,
 };

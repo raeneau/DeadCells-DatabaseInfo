@@ -1,0 +1,243 @@
+{
+  "props": {
+    "speed": 0.6,
+    "noContactAttack": true,
+    "combatMusic": "music/default/lighthouse_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.4
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 3.5,
+    "combatMusicIntro": "music/default/lighthouse_intro2.ogg",
+    "gemDropSize": 25,
+    "duration": 0.2,
+    "cellLoot": 7,
+    "bumpResistance": 0.35
+  },
+  "genTags": 532,
+  "glowOuterColor": 16723200,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "ElbowBlades",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "ServanteDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessServante",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 83,
+  "volteDelay": 0.2,
+  "id": "AmazonBrutal",
+  "dlc": "TheQueenAndTheSea",
+  "weight": 10,
+  "icon": {
+    "x": 48,
+    "y": 26,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    2900
+  ],
+  "name": "Kleio",
+  "minPfHeight": 0,
+  "glowInnerColor": 16646038,
+  "minPfSize": 3,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 100,
+  "flesh1": 8431544,
+  "flesh2": 8022682,
+  "skill": [
+    {
+      "chargeAnim": "atkA",
+      "coolDown": 0.2,
+      "power": [
+        10
+      ],
+      "props": {
+        "triggerDelay2": 4,
+        "bump": 0.5,
+        "triggerDelay": 2
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_amazon_b_charge1.wav",
+      "charge": 0.4,
+      "manual": true,
+      "id": "atkA",
+      "sfxRelease": "sfx/enm/enm_amazon_b_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atbB",
+      "coolDown": 0.3,
+      "power": [
+        10
+      ],
+      "props": {
+        "triggerDelay2": 4,
+        "bump": 0.4,
+        "triggerDelay": 2
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_amazon_b_charge2.wav",
+      "charge": 0.3,
+      "manual": true,
+      "id": "atkB",
+      "sfxRelease": "sfx/enm/enm_amazon_b_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "atkC",
+      "coolDown": 0.2,
+      "power": [
+        10
+      ],
+      "props": {
+        "triggerDelay2": 4,
+        "chance": 0.6,
+        "stunTime": 0.8,
+        "bump": 0.4,
+        "triggerDelay": 2
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_amazon_b_charge3.wav",
+      "charge": 0.4,
+      "manual": true,
+      "id": "atkC",
+      "sfxRelease": "sfx/enm/enm_amazon_b_release3.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "stun",
+      "coolDown": 0,
+      "props": {
+        "stunTime": 0.3
+      },
+      "allowInAir": true,
+      "radius": 9,
+      "allowSameSkillNearby": true,
+      "charge": 0.3,
+      "manual": true,
+      "execAnim": "jumpLand",
+      "id": "teleport",
+      "sfxRelease": "sfx/enm/enm_tp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "wallJump",
+      "coolDown": 0.2,
+      "power": [
+        20
+      ],
+      "props": {
+        "speed": 1,
+        "distance": 7,
+        "triggerDelay": 0.3,
+        "canCancelOtherSkills": true
+      },
+      "allowInAir": true,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "charge": 0.4,
+      "manual": true,
+      "execAnimSpd": 2,
+      "execAnim": "spinAtk",
+      "id": "dashAtk",
+      "sfxRelease": "sfx/enm/enm_amazon_b_spin_loop.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 2,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "stun",
+      "coolDown": 0,
+      "props": {
+        "speed": 0.03,
+        "range": 9,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 20
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.15,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "execAnim": "idle",
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_amazon_b_jump.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_mimic_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "General",
+  "__original_Index": 83
+}

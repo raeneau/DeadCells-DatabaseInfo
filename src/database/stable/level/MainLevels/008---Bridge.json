@@ -5,6 +5,7 @@
     "viewerColor": 1441839,
     "musicLoop": "music/default/ambiant3.ogg",
     "chromaColor": 62719,
+    "biomeType": 1,
     "loadingDescColor": 6652612,
     "loadingColor": 1121065
   },

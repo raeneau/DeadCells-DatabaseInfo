@@ -1,0 +1,52 @@
+{
+  "synergy": [
+    {
+      "tag": "Poison",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "speed": 2,
+    "dps": 15,
+    "ammo": 5,
+    "duration": 2
+  },
+  "gameplayDesc": "{Poison@TO} its victims (::+dps:: DPS for ::duration:: sec). Inflicts {critical hits@CC} if you hit enemies in the back. ",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "Blowgun",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 28,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "PoisonCloudOnHit"
+    }
+  ],
+  "name": "Sarbacane",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "Poison"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 40,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 168
+}

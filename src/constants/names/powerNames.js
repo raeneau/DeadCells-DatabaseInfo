@@ -162,4 +162,33 @@ export default {
     TYPE: POWER,
     NAME: "Leghugger (Evolved)",
   },
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  TAUNT: {
+    INTERNAL_ID: "TAUNT",
+    TYPE: POWER,
+    NAME: "Taunt",
+  },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  DD_BARRICADE: {
+    INTERNAL_ID: "DIVERSEDECKJUGGERNAUT",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Barricade",
+  },
+  DD_CATALYST: {
+    INTERNAL_ID: "DIVERSEDECKCATALYST",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Catalyst",
+  },
+  DD_ELECTRO: {
+    INTERNAL_ID: "DIVERSEDECKELECTRO",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Electrodynamics",
+  },
+  DD_FORESIGHT: {
+    INTERNAL_ID: "DIVERSEDECKWATCHER",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Foresight",
+  },
 };

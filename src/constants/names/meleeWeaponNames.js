@@ -326,4 +326,21 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Panchaku",
   },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  KINGSCEPTER: {
+    INTERNAL_ID: "KINGSCEPTER",
+    TYPE: MELEE_WEAPON,
+    NAME: "King Scepter",
+  },
+  BASEBALLBAT: {
+    INTERNAL_ID: "BASEBALLBAT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Baseball Bat",
+  },
+  STARFURY: {
+    INTERNAL_ID: "STARFURY",
+    TYPE: MELEE_WEAPON,
+    NAME: "Starfury",
+  },
 };

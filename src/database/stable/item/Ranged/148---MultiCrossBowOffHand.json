@@ -1,0 +1,60 @@
+{
+  "synergy": [
+    {
+      "tag": "Root",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "speed": 1,
+    "range": 0.75,
+    "ang": 0.55,
+    "dps": [
+      14
+    ],
+    "buff": 0.12,
+    "item": "MultiCrossBow",
+    "duration": 2.5
+  },
+  "gameplayDesc": "Tire une volée de carreaux {enracinants@RO} et infligeants ::+dps:: DPS pendant ::duration:: secondes.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "MultiCrossBowOffHand",
+  "icon": {
+    "x": 25,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Pierce"
+    }
+  ],
+  "name": "Volée de carreaux",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "DualWeaponOffhand"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 148
+}
