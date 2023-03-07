@@ -13,8 +13,6 @@ function BlueprintDropInfo(props) {
   // !! If more than one enemy is allowed to drop a single item, change this
   const blueprintInfo = getItemDropInfo({ internalId })[0];
 
-  console.log("??", blueprintInfo);
-
   const isSpecialDrop = blueprintInfo === undefined;
 
   const enemyDisplayName = isSpecialDrop
@@ -31,7 +29,7 @@ function BlueprintDropInfo(props) {
         <tr>
           <td>Drop Chance</td>
           <td>
-            {blueprintInfo.dropChance}% ({blueprintInfo.bcRequirement || 0} BC+)
+            {blueprintInfo.dropChance} ({blueprintInfo.bcRequirement || 0} BC+)
           </td>
         </tr>
       )}
