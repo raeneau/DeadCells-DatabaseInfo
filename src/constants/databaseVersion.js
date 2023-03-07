@@ -6,4 +6,4 @@ export const STABLE_VERSION = "3.3";
 
 export const BETA_VERSION = "";
 
-export const UPDATE_DATE = "March 03, 2023";
+export const UPDATE_DATE = "March 06, 2023";
