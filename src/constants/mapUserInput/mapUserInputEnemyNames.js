@@ -330,7 +330,9 @@ export default {
 
   BUER: enemyNames.BUER,
 
-  WEREWOLF: enemyNames.WEREWOLF,
+  WEREWOLF: enemyNames.MINIWEREWOLF,
+
+  DIREWEREWOLF: enemyNames.WEREWOLF,
 
   VAMPIREBAT: enemyNames.VAMPIREBAT,
   BATDASHERPURPLE: enemyNames.VAMPIREBAT,
@@ -380,4 +382,14 @@ export default {
 
   QUEEN: enemyNames.QUEEN,
   THEQUEEN: enemyNames.QUEEN,
+
+  DRACULA: enemyNames.DRACULA,
+  DOOKU: enemyNames.DRACULA,
+
+  DRACULABEAST: enemyNames.DRACULABEAST,
+  DOOKUBEAST: enemyNames.DRACULABEAST,
+  DRACULAFINALFORM: enemyNames.DRACULABEAST,
+  DOOKUFINALFORM: enemyNames.DRACULABEAST,
+  DRACULAFINAL: enemyNames.DRACULABEAST,
+  DOOKUFINAL: enemyNames.DRACULABEAST,
 };

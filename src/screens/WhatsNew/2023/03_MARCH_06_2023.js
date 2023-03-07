@@ -4,16 +4,14 @@ export default (
   <div>
     <li>Update database to 3.3.</li>
     <li>Add mappings for 3.3 melee weapons, ranged weapons, and powers.</li>
+    <li>Add mappings for new enemies</li>
+    <li>Add mappings for new levels</li>
     <li>
       Redid database lookup path for all weapons (EE made a new folder
       structure)
     </li>
     <li>
       Fix flawless outfits showing NaN in drop table. Now says "Special Drop"
-    </li>
-    <li>
-      Add mappings for new enemies, excluding Dire Werewolf (The entries in the
-      database are the same for Werewolf & Dire Werewolf, it seems like)
     </li>
     <br />
     <li>

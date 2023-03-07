@@ -103,7 +103,6 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       const enemyName = enemyJsons[INTERNAL_ID];
 
       // TODO: This is gross. Fix it and save the enemy list on load, so we dont have to check again
-      // TODO: This is gross. Fix it and save the enemy list on load, so we dont have to check again
       return (
         getJson({
           jsonPaths: [`mob/Flying${enemyName}`],
@@ -192,7 +191,7 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
       }
 
       return getJson({
-        jsonPaths: [`level/MainLevels${levelJsons[INTERNAL_ID]}`],
+        jsonPaths: [`level${levelJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         databaseVersion,
       });

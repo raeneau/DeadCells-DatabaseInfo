@@ -255,9 +255,14 @@ export default {
     NAME: "Buer",
   },
   WEREWOLF: {
-    INTERNAL_ID: "WEREWOLF",
+    INTERNAL_ID: "MINIWEREWOLF",
     TYPE: ENEMY,
     NAME: "Werewolf",
+  },
+  DIREWEREWOLF: {
+    INTERNAL_ID: "WEREWOLF",
+    TYPE: ENEMY,
+    NAME: "Dire Werewolf",
   },
   VAMPIREBAT: {
     INTERNAL_ID: "BATDASHERPURPLE",
@@ -309,5 +314,20 @@ export default {
     INTERNAL_ID: "QUEEN",
     TYPE: ENEMY,
     NAME: "The Queen",
+  },
+  DEATH: {
+    INTERNAL_ID: "DEATH",
+    TYPE: ENEMY,
+    NAME: "Death",
+  },
+  DRACULA: {
+    INTERNAL_ID: "DOOKU",
+    TYPE: ENEMY,
+    NAME: "Dracula",
+  },
+  DRACULABEAST: {
+    INTERNAL_ID: "DOOKUBEAST",
+    TYPE: ENEMY,
+    NAME: "Dracula - Final Form",
   },
 };

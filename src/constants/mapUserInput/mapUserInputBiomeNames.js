@@ -99,4 +99,17 @@ export default {
   // Spoiler
   // ----------------------------
   ASTROLAB: biomeNames.ASTROLAB,
+
+  // ----------------------------
+  // Return to Castlevania
+  // ----------------------------
+  CASTLEOUTSKIRTS: biomeNames.CASTLEOUTSKIRTS,
+
+  DRACULASCASTLE: biomeNames.DRACULASCASTLE,
+  DRACULASCASTLETHREE: biomeNames.DRACULASCASTLE,
+  DRACULASCASTLE3: biomeNames.DRACULASCASTLE,
+
+  DRACULASCASTLEHARD: biomeNames.DRACULASCASTLEHARD,
+  DRACULASCASTLESIX: biomeNames.DRACULASCASTLEHARD,
+  DRACULASCASTLE6: biomeNames.DRACULASCASTLEHARD,
 };

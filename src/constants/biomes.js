@@ -53,4 +53,11 @@ export default {
   // Spoiler
   // ----------------------------
   Astrolab: biomeNameConstants.ASTROLAB.NAME,
+
+  // ----------------------------
+  // Return to Castlevania
+  // ----------------------------
+  CastleOutskirts: biomeNameConstants.CASTLEOUTSKIRTS.NAME,
+  DraculasCastle: biomeNameConstants.DRACULASCASTLE.NAME,
+  DraculasCastleHard: biomeNameConstants.DRACULASCASTLEHARD.NAME,
 };
