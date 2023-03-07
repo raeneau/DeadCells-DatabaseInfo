@@ -258,4 +258,30 @@ export default {
 
   STARFURY: meleeWeaponNames.STARFURY,
   TERRARIA: meleeWeaponNames.STARFURY,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  VAMPIREKILLER: meleeWeaponNames.VAMPIREKILLER,
+
+  BIBLE: meleeWeaponNames.BIBLE,
+
+  ALUCARDSSWORD: meleeWeaponNames.TPSWORD,
+
+  DEATHSSCYTHE: meleeWeaponNames.DEATHSSCYTHE,
+  ADELESCYTHE: meleeWeaponNames.DEATHSSCYTHE,
+
+  MORNINGSTAR: meleeWeaponNames.MORNINGSTAR,
+  WIGGLEWHIP: meleeWeaponNames.MORNINGSTAR,
+
+  WHIPSWORDLONG: meleeWeaponNames.WHIPSWORDLONG,
+  SNAKESWORD: meleeWeaponNames.WHIPSWORDLONG,
+  SNAKESWORDLONG: meleeWeaponNames.WHIPSWORDLONG,
+
+  WHIPSWORD: meleeWeaponNames.WHIPSWORDSHORT,
+  WHIPSWORDSHORT: meleeWeaponNames.WHIPSWORDSHORT,
+  WHIPSWORDALT: meleeWeaponNames.WHIPSWORDSHORT,
+  SNAKESWORDSHORT: meleeWeaponNames.WHIPSWORDSHORT,
+  SNAKESWORDALT: meleeWeaponNames.WHIPSWORDSHORT,
+
+  WHIPSWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
+  SNAKESWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
 };

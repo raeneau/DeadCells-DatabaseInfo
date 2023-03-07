@@ -35,7 +35,7 @@ function LocationScreen(props) {
         <>
           <div className="notFoundWrapper">N/A</div>
           <div className="notFoundWrapper">
-            ({isTrashMob ? "spawned by another mob" : "is a boss"})
+            ({isTrashMob ? "spawned by another mob" : "is a boss or mini-boss"})
           </div>
         </>
       )}

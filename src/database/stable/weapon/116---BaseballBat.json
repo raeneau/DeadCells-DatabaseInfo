@@ -140,7 +140,7 @@
       "fxProps": {},
       "lockCtrlAfter": 0.15,
       "props": {},
-      "breachBonus": 0.05,
+      "breachBonus": -1,
       "dynamicCharge": 0,
       "charge": 0.06,
       "sfxProps": {},

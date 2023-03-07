@@ -1,0 +1,862 @@
+{
+  "eliteRoomChance": 0.1,
+  "props": {
+    "doorColor": 2409897,
+    "musicIntro": "music/default/PurpleGarden_intro.ogg",
+    "musicLoop": "music/default/PurpleGarden_loop.ogg",
+    "zDoorColor": 0,
+    "biomeType": 1,
+    "loadingDescColor": 4777143,
+    "loadingColor": 258
+  },
+  "biome": "PurpleGarden",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 2,
+  "eliteWanderChance": 0,
+  "index": 35,
+  "id": "PurpleGarden",
+  "dlc": "Purple",
+  "worldDepth": 1,
+  "icon": {
+    "x": 46,
+    "y": 75,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 3,
+      "spawnWith": [],
+      "mob": "MiniWerewolf",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 3,
+      "spawnWith": [],
+      "mob": "Werewolf",
+      "minDifficulty": 3,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "LancerPurple",
+      "minDifficulty": 2,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 9
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 6,
+      "spawnWith": [],
+      "mob": "CrossbowMan",
+      "minDifficulty": 2,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 4,
+      "spawnWith": [],
+      "mob": "Merman",
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 4,
+      "spawnWith": [],
+      "mob": "Merman",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Harpy",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 7
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 6,
+      "spawnWith": [],
+      "mob": "BatDasherPurple",
+      "minDifficulty": 0,
+      "quantityFactor": 0.7,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Ninja",
+      "minDifficulty": 2,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Zombie",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "DLCP_BIOME_FOREST",
+  "mobDensity": 0.7,
+  "specificLoots": [],
+  "mapDepth": 1,
+  "specificSubBiome": [],
+  "minGold": 2500,
+  "tripleUps": 1,
+  "nextLevels": [
+    {
+      "level": "T_DookuCastle"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 0,
+    "metaFlags": 0,
+    "gameplayFlags": 4,
+    "genFlags": 1
+  },
+  "baseLootLevel": 2,
+  "loreDescriptions": [
+    {
+      "text": "Oooh, spooky !"
+    },
+    {
+      "text": "What a lovely garden."
+    },
+    {
+      "text": "A great place to take some tea."
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "spruce0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 350,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree0",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "spruce1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 450,
+        "offsetY": -1025
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.82,
+      "scrollY": 0.94
+    },
+    {
+      "tileName": "spruce2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 550,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "spruce0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 620,
+        "offsetY": -1070
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.86,
+      "scrollY": 0.96
+    },
+    {
+      "tileName": "spruce1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 750,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "spruce2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 550,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.82,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "spruce1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 2000,
+        "offsetY": -1025
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree7",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.92,
+      "scrollY": 0.98
+    },
+    {
+      "tileName": "spruce2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 2075,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree8",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.92,
+      "scrollY": 0.98
+    },
+    {
+      "tileName": "spruce0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetX": 1700,
+        "offsetY": -1030
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Tree9",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.95,
+      "scrollY": 0.99
+    },
+    {
+      "tileName": "bg/verticalramp",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.22
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 0,
+        "offsetY": 50
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_ramp",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/bgGrass",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -835
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1
+      },
+      "name": "PGarden_Grass",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "bg/bgFrontTower",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -1275
+      },
+      "pivotX": 0.5,
+      "pivotY": 0,
+      "fill": {
+        "maxSpaceX": 2000,
+        "offsetX": 2000,
+        "hfill": 2,
+        "minSpaceX": 1000,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": -0.5,
+        "scaleY": -0.5
+      },
+      "name": "PGarden_FrontTower",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.9,
+      "scrollY": 0.95
+    },
+    {
+      "tileName": "bg/bgTree",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.15,
+        "levelY": 1,
+        "offsetY": -1165
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "maxSpaceX": 3000,
+        "offsetX": 4000,
+        "hfill": 2,
+        "minSpaceX": 1800,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGgarden_bgTree",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.8,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/bgKiosque",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.05,
+        "levelY": 1,
+        "offsetY": -1075
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "maxSpaceX": 6000,
+        "offsetX": 1000,
+        "hfill": 2,
+        "minSpaceX": 5000,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGgarden_bgKiosque",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.8,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/bgGrassFar",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -885
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGgarden_GrassFar",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.8,
+      "scrollY": 0.9
+    },
+    {
+      "tileName": "bg/bgBackTowerSmall",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -1475
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGarden_BackTowerSmall",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.6,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/fogtest",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 59903,
+      "props": {
+        "alpha": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -975
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGarden_fogtest",
+      "scatter": false,
+      "innerGlow": 65528,
+      "blendMode": 2,
+      "layer": "BackgroundFar",
+      "scrollX": 0.6,
+      "scrollY": 0.8
+    },
+    {
+      "tileName": "bg/bgBacktowerBase",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 0,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -1020
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_BacktowerBase",
+      "color": 9759999,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.19,
+      "scrollY": 0.38
+    },
+    {
+      "tileName": "bg/bgBacktower",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetY": -800
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "PGarden_Backtower",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.19,
+      "scrollY": 0.38
+    },
+    {
+      "tileName": "bg/bgBackGrassFar",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -4500
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGarden_BackGrassFar",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.03,
+      "scrollY": 0.02
+    },
+    {
+      "tileName": "bg/bgbackCastle",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1,
+        "offsetY": -7500
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGgarden_BackCastle",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/bgmoon",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 13434878,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.35,
+        "levelY": 0.35
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "PGarden_Moon",
+      "color": 12844799,
+      "scatter": true,
+      "innerGlow": 12972535,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": -0.3
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 0,
+        "scaleY": 0
+      },
+      "name": "PGarden_DC_sky",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    }
+  ],
+  "bonusTripleScrollAfterBC": "Hard",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 35
+}

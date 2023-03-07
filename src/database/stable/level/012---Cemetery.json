@@ -1,0 +1,194 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 12397452,
+    "viewerColor": 9520018,
+    "musicLoop": "music/default/Cemetery.ogg",
+    "zDoorColor": 2602949,
+    "viewerY": 3,
+    "chromaColor": 16711815,
+    "biomeType": 1,
+    "loadingDescColor": 12871055,
+    "loadingColor": 2690090
+  },
+  "biome": "Cemetery",
+  "doubleUps": 1,
+  "group": 0,
+  "quarterUpsBC3": 2,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0,
+  "index": 12,
+  "id": "Cemetery",
+  "worldDepth": 4,
+  "icon": {
+    "x": 66,
+    "y": 30,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0.6,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Fogger",
+      "minDifficulty": 0,
+      "quantityFactor": 1.3,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "mob": "Hooker",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "number": [
+            1,
+            3
+          ],
+          "type": "Rat"
+        }
+      ],
+      "mob": "Mage360",
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "mob": "Comboter",
+      "minDifficulty": 2,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 3
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "mob": "Spinner",
+      "maxDifficulty": 3,
+      "minDifficulty": 1,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BatDasher",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [
+        {
+          "type": "Rat"
+        }
+      ],
+      "mob": "LeapingDuelyst",
+      "minDifficulty": 4,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "FlyZombie",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Rat",
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Cimetière du Val",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "mapDepth": 5,
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_Crypt"
+    },
+    {
+      "level": "T_Cavern"
+    },
+    {
+      "level": "T_Cliff"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 0,
+    "metaFlags": 0,
+    "gameplayFlags": 0,
+    "genFlags": 1
+  },
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "Ca fait des générations qu'on enterre les morts dans le Val, mais depuis quelques temps, on y manque un peu de place."
+    },
+    {
+      "text": "Les villageois venaient souvent se receuillir ici pour rendre hommage à leurs proches. La population locale à bien changé."
+    },
+    {
+      "text": "Toutes les tombes du cimetière sont celles de villageois inconnus, bien trop ordinaires pour avoir leur place dans le sépulcre."
+    }
+  ],
+  "parallax": [],
+  "bonusTripleScrollAfterBC": "Expert",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 12
+}

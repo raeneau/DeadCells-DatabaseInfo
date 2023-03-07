@@ -1,0 +1,98 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "WiggleWhip",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "speed": 0.1,
+        "range": 3.2,
+        "offsetX": 28,
+        "offsetY": -20,
+        "fullCharge": 0.5,
+        "dps": [
+          10
+        ],
+        "pct": 0.25,
+        "power2": [
+          10
+        ],
+        "count": 6,
+        "tick": 0.1,
+        "threshold": 0.9,
+        "limit": 1,
+        "scale": 2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_wiggleWhip_charge.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.8,
+        "height": 2,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_wiggleWhip_atkA_release.wav",
+      "animId": "AtkWiggleWhipA",
+      "sfxHit": "sfx/weapon/purpleDLC_wiggleWhip_hit.wav",
+      "hitFrame": 21,
+      "earlyCombo": 0
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "speed": 0.1,
+        "range": 3.2,
+        "offsetX": 28,
+        "offsetY": -20,
+        "fullCharge": 0.5,
+        "dps": [
+          10
+        ],
+        "pct": 0.25,
+        "power2": [
+          10
+        ],
+        "count": 6,
+        "tick": 0.1,
+        "threshold": 0.9,
+        "limit": 1,
+        "scale": 2
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 1,
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.8,
+        "height": 2,
+        "shape": 1
+      },
+      "animId": "AtkWiggleWhipB",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 125
+}

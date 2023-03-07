@@ -191,4 +191,26 @@ export default {
     TYPE: POWER,
     NAME: "Diverse Deck - Foresight",
   },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  BOUNCINGSTONE: {
+    INTERNAL_ID: "BOUNCINGSTONE",
+    TYPE: POWER,
+    NAME: "Rebound Stone",
+  },
+  BATVOLLEY: {
+    INTERNAL_ID: "BATVOLLEY",
+    TYPE: POWER,
+    NAME: "Bat Volley",
+  },
+  SPAWNCAT: {
+    INTERNAL_ID: "SPAWNCAT",
+    TYPE: POWER,
+    NAME: "Maria's Cat",
+  },
+  CATATTACK: {
+    INTERNAL_ID: "CATATTACK",
+    TYPE: POWER,
+    NAME: "Maria's Cat (Attack)",
+  },
 };

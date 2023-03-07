@@ -1,0 +1,593 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 15393813,
+    "viewerColor": 51036,
+    "musicLoop": "music/default/death_arena_amb.ogg",
+    "chromaColor": 62719,
+    "biomeType": 2,
+    "loadingDescColor": 4312202,
+    "loadingColor": 399638
+  },
+  "biome": "DeathArena",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 2,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0,
+  "index": 38,
+  "id": "DeathArena",
+  "dlc": "Purple",
+  "worldDepth": 3,
+  "icon": {
+    "x": 64,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "DLCP_DEATH_ARENA_NAME",
+  "mobDensity": 0,
+  "specificLoots": [],
+  "mapDepth": 4,
+  "specificSubBiome": [],
+  "minGold": 2500,
+  "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_AfterBridge"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 0,
+    "metaFlags": 1,
+    "gameplayFlags": 4,
+    "genFlags": 1
+  },
+  "baseLootLevel": 5,
+  "loreDescriptions": [
+    {
+      "text": "DEATH_ARENA_LOREDESC0"
+    },
+    {
+      "text": "DEATH_ARENA_LOREDESC1"
+    },
+    {
+      "text": "DEATH_ARENA_LOREDESC2"
+    },
+    {
+      "text": "DEATH_ARENA_LOREDESC3"
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "parallax_corpses5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.1,
+        "levelY": 0.732
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_corpses5",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackProps",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "parallax_corpses4",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.555,
+        "levelY": 0.642
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_corpses4",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "parallax_corpses3",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": 0.642
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_corpses3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "parallax_corpses2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.42,
+        "levelY": 0.642
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_corpses2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "parallax_corpses1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.115,
+        "levelY": 0.642
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_corpses1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "parallax_ruins5",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.42,
+        "levelY": 0.46
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_ruins5",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "parallax_ruins3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.6,
+        "levelY": 0.44
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_ruins3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.55,
+      "scrollY": 0.55
+    },
+    {
+      "tileName": "parallax_ruins2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.35,
+        "levelY": 0.45
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_ruins2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "parallax_ruins1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.08,
+        "levelY": 0.45
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_ruins1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.6,
+      "scrollY": 0.6
+    },
+    {
+      "tileName": "parallax_skeleton1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.06,
+        "levelY": 0.53
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_skeletons1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "parallax_skeleton2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.05,
+        "levelY": 0.5
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_skeletons2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.4,
+      "scrollY": 0.4
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.2,
+        "prct": 0.3
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_spectreFX",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.39,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.5,
+        "prct": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_spectreLoopFX",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.39,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.6,
+        "prct": 0.3
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_phantomFX",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.38,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.7,
+        "prct": 0.4
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_ghostFX",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.37,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.4,
+        "prct": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_fogFX",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.36,
+      "scrollY": 0
+    },
+    {
+      "tileName": "",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.2,
+        "prct": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 425,
+        "offsetY": 180
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_glowFX",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.37,
+      "scrollY": 0
+    },
+    {
+      "tileName": "parallax_fogBG",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DeathArena_fogBG",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0.35,
+      "scrollY": 0
+    },
+    {
+      "tileName": "sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "offsetX": 795,
+        "offsetY": 35
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1
+      },
+      "name": "DeathArena_sky",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0.3,
+      "scrollY": 0
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 38
+}

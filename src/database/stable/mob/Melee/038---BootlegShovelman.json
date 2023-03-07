@@ -1,0 +1,92 @@
+{
+  "props": {
+    "speed": 2,
+    "noContactAttack": true,
+    "color": 3538403
+  },
+  "genTags": 1536,
+  "glowOuterColor": 15525681,
+  "pfCost": 1,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 38,
+  "volteDelay": 0.2,
+  "id": "BootlegShovelman",
+  "dlc": "FatalFalls",
+  "weight": 10,
+  "icon": {
+    "x": 2,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    130
+  ],
+  "name": "Fossoyeur réanimé",
+  "minPfHeight": 0,
+  "glowInnerColor": 7534326,
+  "minPfSize": 3,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 6015978,
+  "flesh2": 6319781,
+  "skill": [
+    {
+      "coolDown": 0,
+      "props": {
+        "delay": 4,
+        "bump": 1.5
+      },
+      "allowInAir": true,
+      "radius": 6,
+      "allowSameSkillNearby": true,
+      "charge": 0.15,
+      "manual": true,
+      "execAnimSpd": 2,
+      "execAnim": "atkShovelC",
+      "id": "repel",
+      "sfxRelease": "sfx/weapon/weapon_shovel_release1.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/weapon/weapon_shovel_hit.wav",
+      "hitFrame": 4,
+      "breachResistance": 0,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "bootlegLoadAtkShovelB",
+      "coolDown": 1,
+      "power": [
+        30
+      ],
+      "props": {
+        "delay": 4
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_bootleg_charge1.wav",
+      "charge": 0.75,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "bootlegAtkShovelA",
+      "id": "shovelAttack",
+      "sfxRelease": "sfx/weapon/weapon_shovel_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0.75,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 38
+}

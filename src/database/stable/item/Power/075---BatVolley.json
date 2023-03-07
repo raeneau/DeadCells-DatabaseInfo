@@ -1,0 +1,48 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.3,
+    "range": 1,
+    "power": [
+      22
+    ],
+    "offsetX": 1,
+    "offsetY": 0.5,
+    "castTime": 0.1,
+    "height": 0.15,
+    "count": 10,
+    "size": 0.09,
+    "duration": 7
+  },
+  "gameplayDesc": "DLCP_BAT_VOLLEY_DESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 12,
+  "ambiantDesc": "DLCP_BAT_VOLLEY_AMBIANTDESC",
+  "id": "BatVolley",
+  "dlc": "Purple",
+  "icon": {
+    "x": 27,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BigBrains"
+    }
+  ],
+  "name": "DLCP_BAT_VOLLEY_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 75
+}

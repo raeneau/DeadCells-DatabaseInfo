@@ -1,0 +1,44 @@
+{
+  "synergy": [],
+  "props": {
+    "cooldown": 20,
+    "item": "SpawnCat"
+  },
+  "gameplayDesc": "DLCP_CAT_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_CAT_AMBIANTDESC",
+  "id": "CatAttack",
+  "dlc": "Purple",
+  "icon": {
+    "x": 27,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "MaineCoon"
+    }
+  ],
+  "name": "DLCP_CAT_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "PetBuff"
+    },
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 99,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 74
+}

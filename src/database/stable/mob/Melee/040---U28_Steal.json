@@ -1,0 +1,230 @@
+{
+  "props": {
+    "speed": 6,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 160,
+  "glowOuterColor": 16718619,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "CupidityDagger",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "GuillainThief",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 40,
+  "volteDelay": 0.3,
+  "id": "U28_Steal",
+  "weight": 10,
+  "icon": {
+    "x": 52,
+    "y": 23,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "U28_STEAL_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16743805,
+  "minPfSize": 9,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 3,
+  "score": 2,
+  "flesh1": 8900444,
+  "flesh2": 3248452,
+  "skill": [
+    {
+      "coolDown": 2,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.2,
+        "count": 75,
+        "distance": 8
+      },
+      "allowInAir": true,
+      "radius": 1.4,
+      "allowSameSkillNearby": true,
+      "charge": 0.1,
+      "manual": false,
+      "execAnimSpd": 1,
+      "id": "cc",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 1.5,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.2,
+        "count": 75
+      },
+      "allowInAir": true,
+      "radius": 1.35,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_steal_charge1.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 1,
+      "id": "ccWithoutRun",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.2,
+        "count": 75
+      },
+      "allowInAir": true,
+      "radius": 1.35,
+      "allowSameSkillNearby": true,
+      "charge": 0.07,
+      "manual": true,
+      "execAnimSpd": 1,
+      "id": "cc2",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": -0.2,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "bump": 0.2,
+        "count": 100
+      },
+      "allowInAir": true,
+      "radius": 1.35,
+      "allowSameSkillNearby": true,
+      "charge": 0.07,
+      "manual": true,
+      "execAnimSpd": 1,
+      "id": "cc3",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": -0.2,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "height": 0.5,
+        "move": 9
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.2,
+      "manual": true,
+      "id": "jumpOut",
+      "sfxRelease": "sfx/enm/enm_steal_jump.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0.7,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "height": 1.5,
+        "move": 0.9
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": true,
+      "id": "jumpIn",
+      "sfxRelease": "sfx/enm/enm_steal_jump2.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0.7,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 2,
+      "props": {
+        "height": 0.65
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_steal_shout.wav",
+      "charge": 0.3,
+      "manual": true,
+      "id": "run",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "speed": 0.1,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 13
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_steal_jump_big.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_steal_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 40
+}

@@ -1,0 +1,38 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Cross",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        19
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.06,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Cross.wav",
+      "animId": "throw",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 11447982
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 122
+}

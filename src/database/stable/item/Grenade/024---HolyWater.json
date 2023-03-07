@@ -1,0 +1,53 @@
+{
+  "synergy": [],
+  "props": {
+    "range": 1,
+    "power": [
+      10
+    ],
+    "duration2": 0.7,
+    "width": 2,
+    "dps": [
+      55
+    ],
+    "height": 4,
+    "color": 2303,
+    "distance": 2,
+    "tick": 0.35,
+    "duration": 5
+  },
+  "gameplayDesc": "DLCP_HOLY_WATER_DESC",
+  "moneyCost": 2000,
+  "group": 1,
+  "castCD": 12,
+  "ambiantDesc": "DLCP_HOLY_WATER_AMBIANT",
+  "id": "HolyWater",
+  "dlc": "Purple",
+  "icon": {
+    "x": 28,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "ItemCrash"
+    }
+  ],
+  "name": "DLCP_HOLY_WATER_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Fire"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 24
+}

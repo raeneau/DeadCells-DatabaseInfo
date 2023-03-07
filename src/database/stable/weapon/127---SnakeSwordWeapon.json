@@ -1,0 +1,151 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "SnakeSwordWeapon",
+  "strikeChain": [
+    {
+      "coolDown": 0.25,
+      "power": [
+        50
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.03,
+        "duration": 0.1
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_snakeSWord_Charge.wav",
+      "charge": 0.17,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_snakeSWord_Release.wav",
+      "fxId": "AtkSnakeSwordA",
+      "animId": "AtkSnakeSwordA",
+      "sfxHit": "sfx/weapon/purpleDLC_snakeSWord_Hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 16777215
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "bump": 0.03,
+        "duration": 0.1
+      },
+      "breachBonus": 0.2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_snakeSWord_Charge.wav",
+      "charge": 0.17,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_snakeSWord_Release.wav",
+      "fxId": "AtkSnakeSwordB",
+      "animId": "AtkSnakeSwordB",
+      "sfxHit": "sfx/weapon/purpleDLC_snakeSWord_Hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 10119679,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        95
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "bump": 0.03,
+        "duration": 0.1
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_snakeSWord_Charge.wav",
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_snakeSWord_Release.wav",
+      "fxId": "AtkSnakeSwordC",
+      "animId": "AtkSnakeSwordC",
+      "sfxHit": "sfx/weapon/purpleDLC_snakeSWord_Hit.wav",
+      "hitFrame": 8,
+      "critMul": 1,
+      "glowColor": 10119679,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        100
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.1,
+        "duration": 0.15
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_snakeSWord_Charge.wav",
+      "charge": 0.17,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_snakeSWord_Release.wav",
+      "fxId": "AtkSnakeSwordD",
+      "animId": "AtkSnakeSwordD",
+      "sfxHit": "sfx/weapon/purpleDLC_snakeSWord_Hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 16765801,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 127
+}

@@ -1,0 +1,41 @@
+{
+  "synergy": [],
+  "props": {
+    "prct": 0.1
+  },
+  "gameplayDesc": "U31_HYDRASPELL_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "U31_HYDRASPELL_AMBIENTDESC",
+  "id": "HydraSpell",
+  "icon": {
+    "x": 10,
+    "y": 16,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "OvershieldOnCrit"
+    }
+  ],
+  "name": "U31_HYDRASPELL_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 193
+}

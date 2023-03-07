@@ -19,11 +19,38 @@ export default ({ databaseVersion = STABLE, internalId }) =>
   // Also, remove any entries that are undefined.
   _filter(
     _map(enemyJsons, (enemyJsonName, enemyName) => {
-      const enemyJsonParsed = getJson({
-        jsonPaths: [`mob/General${enemyJsonName}`],
-        jsonNames: ["enemyJson"],
-        databaseVersion,
-      });
+      const enemyJsonParsed =
+        // TODO: This is gross. Fix it and save the enemy list on load, so we dont have to check again
+        getJson({
+          jsonPaths: [`mob/Flying${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Melee${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Support${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Ranged${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/MiniBoss${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Boss${enemyJsonName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        });
 
       const blueprintInfo = _filter(
         _get(enemyJsonParsed, "enemyJson.blueprints", []),

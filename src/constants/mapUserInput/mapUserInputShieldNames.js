@@ -43,4 +43,8 @@ export default {
 
   ICESHIELD: shieldNames.ICE_SHIELD,
   FROSTSHIELD: shieldNames.ICE_SHIELD,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  ALUCARDSHIELD: shieldNames.ALUCARDSHIELD,
+  ALUCARDSSHIELD: shieldNames.ALUCARDSHIELD,
 };

@@ -162,4 +162,12 @@ export default {
 
   LASERGLAIVE: rangedWeaponNames.LASERGLAIVE,
   GLAIVE: rangedWeaponNames.LASERGLAIVE,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  CROSS: rangedWeaponNames.CROSS,
+
+  THROWINGAXE: rangedWeaponNames.THROWINGAXE,
+
+  MEDUSASHEAD: rangedWeaponNames.MEDUSASHEAD,
+  MEDUSAHEAD: rangedWeaponNames.MEDUSASHEAD,
 };

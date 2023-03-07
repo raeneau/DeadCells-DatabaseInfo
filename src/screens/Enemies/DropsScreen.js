@@ -37,7 +37,7 @@ function DropsScreen(props) {
                     )}
                   </td>
                   <td>
-                    {blueprintChance}%
+                    {blueprintChance}
                     {minDifficulty > 0 ? ` (${minDifficulty}+ BC)` : ""}
                   </td>
                 </tr>

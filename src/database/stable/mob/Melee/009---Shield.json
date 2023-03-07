@@ -1,0 +1,88 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "directHitStunChance": 1,
+    "bumpResistance": 0.3
+  },
+  "genTags": 0,
+  "pfCost": 1.2,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "Rampart",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "BloodShield",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Common",
+      "item": "IceShield",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerSand",
+      "minDifficulty": 4
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 9,
+  "volteDelay": 0.6,
+  "id": "Shield",
+  "weight": 20,
+  "icon": {
+    "x": 44,
+    "y": 71,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Porteur de bouclier",
+  "minPfHeight": 0,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 6,
+  "flesh1": 11493844,
+  "flesh2": 12211505,
+  "shards": 0,
+  "skill": [
+    {
+      "coolDown": 3.6,
+      "power": [
+        10
+      ],
+      "props": {
+        "stunTime": 1,
+        "distance": 8,
+        "duration": 0.6
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "id": "dash",
+      "sfxRelease": "sfx/enm/enm_shield_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 9
+}

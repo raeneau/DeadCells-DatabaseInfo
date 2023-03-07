@@ -321,6 +321,31 @@ export default {
   SHOPMIMIC: enemyNames.SHOP_MIMIC,
   // MIMIC: enemyNames.SHOP_MIMIC, // !!! -- OVERLOADED VALUE
 
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  HAUNTEDARMOR: enemyNames.HAUNTEDARMOR,
+  AXEARMOR: enemyNames.HAUNTEDARMOR,
+
+  LANCERPURPLE: enemyNames.LANCERPURPLE,
+  ARMORKNIGHT: enemyNames.LANCERPURPLE,
+
+  BUER: enemyNames.BUER,
+
+  WEREWOLF: enemyNames.WEREWOLF,
+
+  VAMPIREBAT: enemyNames.VAMPIREBAT,
+  BATDASHERPURPLE: enemyNames.VAMPIREBAT,
+
+  HARPY: enemyNames.HARPY,
+
+  BONETHROWER: enemyNames.BONETHROWER,
+  THROWMASTER: enemyNames.BONETHROWER,
+
+  MERMAN: enemyNames.MERMAN,
+
+  BONEPILLAR: enemyNames.BONEPILLAR,
+
+  MEDUSA: enemyNames.MEDUSA,
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------

@@ -238,6 +238,58 @@ export default {
     NAME: "Mimic (Shop)",
   },
 
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  HAUNTEDARMOR: {
+    INTERNAL_ID: "HAUNTEDARMOR",
+    TYPE: ENEMY,
+    NAME: "Axe Armor",
+  },
+  LANCERPURPLE: {
+    INTERNAL_ID: "LANCERPURPLE",
+    TYPE: ENEMY,
+    NAME: "Armor Knight",
+  },
+  BUER: {
+    INTERNAL_ID: "BUER",
+    TYPE: ENEMY,
+    NAME: "Buer",
+  },
+  WEREWOLF: {
+    INTERNAL_ID: "WEREWOLF",
+    TYPE: ENEMY,
+    NAME: "Werewolf",
+  },
+  VAMPIREBAT: {
+    INTERNAL_ID: "BATDASHERPURPLE",
+    TYPE: ENEMY,
+    NAME: "Vampire Bat",
+  },
+  HARPY: {
+    INTERNAL_ID: "HARPY",
+    TYPE: ENEMY,
+    NAME: "Harpy",
+  },
+  BONETHROWER: {
+    INTERNAL_ID: "BONETHROWER",
+    TYPE: ENEMY,
+    NAME: "Bone Thrower",
+  },
+  MERMAN: {
+    INTERNAL_ID: "MERMAN",
+    TYPE: ENEMY,
+    NAME: "Merman",
+  },
+  BONEPILLAR: {
+    INTERNAL_ID: "BONEPILLAR",
+    TYPE: ENEMY,
+    NAME: "Bone Pillar",
+  },
+  MEDUSA: {
+    INTERNAL_ID: "MEDUSA",
+    TYPE: ENEMY,
+    NAME: "Mudusa",
+  },
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------

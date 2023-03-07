@@ -57,4 +57,11 @@ export default {
     NAME: "Thunder Shield",
   },
   ICE_SHIELD: { INTERNAL_ID: "ICESHIELD", TYPE: SHIELD, NAME: "Ice Shield" },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  ALUCARDSHIELD: {
+    INTERNAL_ID: "ALUCARDSHIELD",
+    TYPE: SHIELD,
+    NAME: "Alucard's Shield",
+  },
 };

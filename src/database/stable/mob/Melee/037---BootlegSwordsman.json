@@ -1,0 +1,119 @@
+{
+  "props": {
+    "speed": 2,
+    "noContactAttack": true,
+    "color": 14888494
+  },
+  "genTags": 1536,
+  "glowOuterColor": 15525681,
+  "pfCost": 0.75,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 37,
+  "volteDelay": 0.2,
+  "id": "BootlegSwordsman",
+  "dlc": "FatalFalls",
+  "weight": 10,
+  "icon": {
+    "x": 56,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Épéiste réanimé",
+  "minPfHeight": 0,
+  "glowInnerColor": 7534326,
+  "minPfSize": 3,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 6015978,
+  "flesh2": 6319781,
+  "skill": [
+    {
+      "coolDown": 1,
+      "props": {
+        "speed": 0.9,
+        "duration": 0.4
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "charge": 0.1,
+      "manual": false,
+      "execAnimSpd": 1,
+      "execAnim": "rollStart",
+      "id": "roll",
+      "sfxRelease": "sfx/enm/roll.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "bootlegLoadAtkSwordA",
+      "coolDown": 0.3,
+      "power": [
+        15
+      ],
+      "props": {
+        "delay": 14,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 1.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_bootleg_charge1.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "bootlegAtkSwordA",
+      "id": "swordAttackA",
+      "sfxRelease": "sfx/enm/enm_bootleg_sword1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 9,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "bootlegLoadAtkSwordB",
+      "coolDown": 0.3,
+      "power": [
+        15
+      ],
+      "props": {
+        "delay": 14,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 1.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_bootleg_charge2.wav",
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "bootlegAtkSwordB",
+      "id": "swordAttackB",
+      "sfxRelease": "sfx/enm/enm_bootleg_sword2.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 0,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 37
+}

@@ -1,0 +1,40 @@
+{
+  "synergy": [],
+  "props": {
+    "item": "SnakeSwordSwap",
+    "duration": 1.5
+  },
+  "gameplayDesc": "DLCP_SNAKE_SWORD_ALT_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_SNAKE_SWORD_ALT_AMBIANTDESC",
+  "id": "SnakeSwordWeaponAlt",
+  "dlc": "Purple",
+  "icon": {
+    "x": 25,
+    "y": 9,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "MegaCrit"
+    }
+  ],
+  "name": "DLCP_SNAKE_SWORD_ALT_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "MultiWeapon"
+    },
+    {
+      "tag": "DualWeaponBase"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 147
+}

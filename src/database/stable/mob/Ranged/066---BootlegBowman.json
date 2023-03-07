@@ -1,0 +1,97 @@
+{
+  "props": {
+    "speed": 2,
+    "range": 5,
+    "noContactAttack": true,
+    "color": 8317524
+  },
+  "genTags": 1536,
+  "glowOuterColor": 15525681,
+  "pfCost": 0.75,
+  "blueprints": [],
+  "maxPerRoom": 2,
+  "group": 1,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 66,
+  "volteDelay": 0.2,
+  "id": "BootlegBowman",
+  "dlc": "FatalFalls",
+  "weight": 10,
+  "icon": {
+    "x": 60,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    80
+  ],
+  "name": "Archer réanimé",
+  "minPfHeight": 0,
+  "glowInnerColor": 7534326,
+  "minPfSize": 3,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 6015978,
+  "flesh2": 6319781,
+  "skill": [
+    {
+      "coolDown": 3,
+      "power": [
+        30
+      ],
+      "props": {
+        "x": 10,
+        "y": -20
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_bootleg_charge2.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 5,
+      "execAnim": "bowAtk",
+      "id": "bowShoot",
+      "sfxRelease": "sfx/weapon/bow_shot2.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 24,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "jumpLoad",
+      "coolDown": 2,
+      "props": {
+        "speed": 0.1,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/jump2.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm/land.wav",
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 66
+}

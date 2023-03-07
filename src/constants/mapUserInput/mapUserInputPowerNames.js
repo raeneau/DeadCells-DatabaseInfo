@@ -136,4 +136,19 @@ export default {
   DIVERSEDECKFORESIGHT: powerNames.DD_FORESIGHT,
   FORESIGHT: powerNames.DD_FORESIGHT,
   WATCHER: powerNames.DD_FORESIGHT,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  BOUNCINGSTONE: powerNames.BOUNCINGSTONE,
+  REBOUNDSTONE: powerNames.BOUNCINGSTONE,
+
+  BATVOLLEY: powerNames.BATVOLLEY,
+
+  MARIASCAT: powerNames.SPAWNCAT,
+  SPAWNCAT: powerNames.SPAWNCAT,
+  CAT: powerNames.SPAWNCAT,
+
+  MARIASCATATTACK: powerNames.CATATTACK,
+  CATATTACK: powerNames.CATATTACK,
+  CATSLASH: powerNames.CATATTACK,
+  CATSCRATCH: powerNames.CATATTACK,
 };

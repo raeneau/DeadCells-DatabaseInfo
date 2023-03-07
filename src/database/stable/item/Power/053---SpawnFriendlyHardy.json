@@ -1,0 +1,47 @@
+{
+  "synergy": [],
+  "props": {
+    "power": [
+      50
+    ],
+    "power2": [
+      100
+    ],
+    "power3": [
+      300
+    ],
+    "item": "ExplodeFriendlyHardy"
+  },
+  "gameplayDesc": "Invoque un compagnon champignon amical, gentil, attentionné… Charge et interrompt les enemis, infligeant ::+power:: et ::+power2:: additionnels si l'ennemi est projetté contre un mur. Activer à nouveau pour infliger ::+power3:: et perdre votre âme.  ",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 1,
+  "id": "SpawnFriendlyHardy",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 34,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "PoisonCloudOnHit"
+    }
+  ],
+  "name": "Champignon protecteur",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Pet"
+    },
+    {
+      "tag": "TransformOnUse"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 80,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 53
+}

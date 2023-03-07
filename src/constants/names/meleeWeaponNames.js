@@ -343,4 +343,46 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Starfury",
   },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  VAMPIREKILLER: {
+    INTERNAL_ID: "VAMPIREKILLER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Vampire Killer",
+  },
+  BIBLE: {
+    INTERNAL_ID: "BIBLE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bible",
+  },
+  TPSWORD: {
+    INTERNAL_ID: "TPSWORD",
+    TYPE: MELEE_WEAPON,
+    NAME: "Alucard's Sword",
+  },
+  DEATHSSCYTHE: {
+    INTERNAL_ID: "ADELESCYTHE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Death's Scythe",
+  },
+  MORNINGSTAR: {
+    INTERNAL_ID: "WIGGLEWHIP",
+    TYPE: MELEE_WEAPON,
+    NAME: "Morning Star",
+  },
+  WHIPSWORDSHORT: {
+    INTERNAL_ID: "SNAKESWORDWEAPON",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Short Range)",
+  },
+  WHIPSWORDLONG: {
+    INTERNAL_ID: "SNAKESWORDWEAPONALT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Long Range)",
+  },
+  WHIPSWORDSWAP: {
+    INTERNAL_ID: "SNAKESWORDSWAP",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Swap)",
+  },
 };

@@ -1,0 +1,105 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "directHitStunChance": 1
+  },
+  "genTags": 512,
+  "glowOuterColor": 16711680,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "HolyWater",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 1,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 69,
+  "volteDelay": 0.5,
+  "id": "Merman",
+  "dlc": "Purple",
+  "weight": 15,
+  "icon": {
+    "x": 48,
+    "y": 73,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    60
+  ],
+  "name": "DLCP_MERMAN_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16711680,
+  "minPfSize": 6,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 3,
+  "flesh1": 10586575,
+  "flesh2": 3907688,
+  "skill": [
+    {
+      "coolDown": 0.15,
+      "power": [
+        12
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_Merman_charge.wav",
+      "charge": 0.76,
+      "manual": false,
+      "execAnim": "AtkA",
+      "id": "shoot",
+      "sfxRelease": "sfx/enm/enm_Merman_shot.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 23,
+      "breachResistance": -1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 3.5,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.5,
+      "manual": false,
+      "id": "swap",
+      "sfxRelease": "sfx/enm/enm_Merman_tp1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.85,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "idleJump",
+      "coolDown": 1,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.16,
+      "manual": false,
+      "id": "dodge",
+      "sfxRelease": "sfx/enm/enm_Merman_dodge1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 69
+}

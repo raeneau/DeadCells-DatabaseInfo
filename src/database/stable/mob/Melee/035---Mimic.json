@@ -1,0 +1,130 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 4,
+    "prct": 0.9
+  },
+  "genTags": 544,
+  "glowOuterColor": 9240576,
+  "pfCost": 0.2,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "TeslaCoil",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 35,
+  "volteDelay": 0.5,
+  "id": "Mimic",
+  "weight": 5,
+  "icon": {
+    "x": 37,
+    "y": 59,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    180
+  ],
+  "name": "Tonneau Vivant",
+  "minPfHeight": 0,
+  "glowInnerColor": 14751830,
+  "minPfSize": 5,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 14790629,
+  "flesh2": 14790629,
+  "skill": [
+    {
+      "chargeAnim": "loadAtkB",
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "props": {
+        "stunTime": 0.5,
+        "distance": 8,
+        "duration": 1.5
+      },
+      "allowInAir": false,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_mimic_explode_charge.wav",
+      "charge": 0.4,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "id": "self-destroy",
+      "sfxRelease": "sfx/enm/enm_mimic_explode.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1000,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkA",
+      "coolDown": 2,
+      "power": [
+        10
+      ],
+      "props": {
+        "count": 10,
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_mimic_knife_charge.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "spikes",
+      "sfxRelease": "sfx/enm/enm_mimic_knife_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadJump",
+      "coolDown": 0,
+      "props": {
+        "speed": 0.1,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 13
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_mimic_jump.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_mimic_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 100,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 35
+}

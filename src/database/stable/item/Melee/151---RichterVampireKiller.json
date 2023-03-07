@@ -1,0 +1,30 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "DLCP_RICHTER_VAMPIRE_KILLER_GAMEPLAYDESC",
+  "moneyCost": 1800,
+  "group": 4,
+  "castCD": 0,
+  "id": "RichterVampireKiller",
+  "dlc": "Purple",
+  "icon": {
+    "x": 21,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "RootOnHit"
+    }
+  ],
+  "name": "DLCP_RICHTER_VAMPIRE_KILLER_NAME",
+  "droppable": false,
+  "tags": [],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 20,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 151
+}

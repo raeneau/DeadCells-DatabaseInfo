@@ -1,0 +1,60 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.2,
+    "range": 12,
+    "color2": 5786437,
+    "duration2": 30,
+    "bonus": 12,
+    "offsetX": -3,
+    "offsetY": -1,
+    "speed2": 2,
+    "dps": [
+      30
+    ],
+    "bump": 0.1,
+    "item": "FlyingSwordCallback",
+    "frict": 0.92,
+    "lock": 10,
+    "color": 16744257,
+    "distance": 20,
+    "maxNumberOfMarks": 5,
+    "duration": 20,
+    "limit": 5
+  },
+  "gameplayDesc": "Activate to summon a flying sword for ::+dps:: dps, re-activate to switch for it from its flying form to its melee form. \n\nIn flying form, the sword attacks and marks enemies (five marks maximum). The marks can be consumed in the melee form to inflict {critical damage@CC}. In its melee form, it also marks enemies when you attack mobs with it - these marks can be consumed in its flying form to inflict {critical damage@CC}.\n\nThe sword can stay up to 30 seconds in its flying form. Taking it in hand freeze the timer, consuming a mark reset it.  \n",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 30,
+  "id": "FlyingSword",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 29,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DurabilityUp"
+    }
+  ],
+  "name": "Épée volante ",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Pet"
+    },
+    {
+      "tag": "TransformOnUse"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 50,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 58
+}

@@ -1,0 +1,57 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 1,
+    "range": 1.4,
+    "color2": 16724530,
+    "power": 0.05,
+    "ammoRecoveryStart": 0.6,
+    "speed2": -0.2,
+    "ang": 5,
+    "ammo": 3,
+    "height": 58,
+    "ammoRecoveryTick": 0.45,
+    "color": 5369599,
+    "tick": 0.75
+  },
+  "gameplayDesc": "DLCP_THROWINGAXE_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_THROWINGAXE_AMBIENTDESC",
+  "id": "ThrowingAxe",
+  "dlc": "Purple",
+  "icon": {
+    "x": 23,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DoubleBullets"
+    }
+  ],
+  "name": "DLCP_THROWINGAXE_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 195
+}

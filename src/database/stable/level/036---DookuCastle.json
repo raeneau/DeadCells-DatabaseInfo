@@ -1,0 +1,541 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 12582912,
+    "musicIntro": "music/default/DookuCastle_intro.ogg",
+    "musicLoop": "music/default/DookuCastle_loop.ogg",
+    "biomeType": 0,
+    "loadingDescColor": 14557473,
+    "loadingColor": 1247769
+  },
+  "biome": "DookuCastle",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 3,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 1,
+  "index": 36,
+  "id": "DookuCastle",
+  "dlc": "Purple",
+  "worldDepth": 2,
+  "icon": {
+    "x": 39,
+    "y": 77,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0.3,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Harpy",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 7
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "MiniWerewolf",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 5
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Werewolf",
+      "minDifficulty": 3,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 5
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "KunaiMaster",
+      "maxDifficulty": 2,
+      "minDifficulty": 1,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "CastleKnight",
+      "minDifficulty": 3,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "HauntedArmor",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Buer",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "LancerPurple",
+      "minDifficulty": 0,
+      "quantityFactor": 0.9,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "DLCP_BIOME_CASTLE",
+  "mobDensity": 0.55,
+  "specificLoots": [],
+  "mapDepth": 3,
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 3,
+  "nextLevels": [
+    {
+      "level": "T_DeathArena"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 0,
+    "metaFlags": 0,
+    "gameplayFlags": 4,
+    "genFlags": 1
+  },
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "Un VAMPYRE !"
+    },
+    {
+      "text": "Miam, sang !"
+    },
+    {
+      "text": "What is a man ?"
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "bg/vignette",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": -10
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "scrollX": 0,
+        "scrollY": 0,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DC_vignetteTEST",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/cloudsFog",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "scrollY": -0.5,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_cloudsTEST",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0.1,
+      "scrollY": 0.05
+    },
+    {
+      "tileName": "bg/clouds0",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_clouds0",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.8,
+      "scrollY": 0.4
+    },
+    {
+      "tileName": "bg/towerDooku",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 250,
+        "hfill": 0,
+        "minSpaceX": 175,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_towersDooku",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.38,
+      "scrollY": 0.38
+    },
+    {
+      "tileName": "bg/tower1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "offsetX": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 250,
+        "hfill": 2,
+        "minSpaceX": 175,
+        "vfill": 0,
+        "randomAdditionalTile": "bg/towerDooku"
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_towers1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.35,
+      "scrollY": 0.35
+    },
+    {
+      "tileName": "bg/clouds1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_clouds1",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.3,
+      "scrollY": 0.3
+    },
+    {
+      "tileName": "bg/tower2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 200,
+        "hfill": 2,
+        "minSpaceX": 125,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_towers2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.25,
+      "scrollY": 0.25
+    },
+    {
+      "tileName": "bg/clouds2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_clouds2",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "bg/tower3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "maxSpaceX": 125,
+        "hfill": 2,
+        "minSpaceX": 75,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_towers3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "bg/clouds3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_clouds3",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "bg/clouds4",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 1,
+      "fill": {
+        "hfill": 2,
+        "scrollX": -0.5,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DC_clouds4",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.05,
+      "scrollY": 0.05
+    },
+    {
+      "tileName": "bg/clockMoonBloom",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": 0.25
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DC_moonBloom",
+      "color": 15694458,
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/clockMoon",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": 0.25
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DC_moon",
+      "color": 15694458,
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "bg/sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DC_sky",
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.3,
+      "scrollY": 0.3
+    }
+  ],
+  "bonusTripleScrollAfterBC": "VeryHard",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 36
+}

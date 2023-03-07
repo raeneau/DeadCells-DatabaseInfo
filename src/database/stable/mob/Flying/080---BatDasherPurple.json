@@ -1,0 +1,138 @@
+{
+  "props": {
+    "cannotBeShield": true,
+    "cannotBeNecromanced": true,
+    "cannotBeBackstabbed": true,
+    "insensitiveSpike": true
+  },
+  "genTags": 530,
+  "pfCost": 0.3,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "BatVolley",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
+  "index": 80,
+  "volteDelay": 0,
+  "id": "BatDasherPurple",
+  "dlc": "Purple",
+  "weight": 0,
+  "icon": {
+    "x": 49,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": 1,
+  "name": "DLCP_BATDASHERPURPLE_NAME",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 1,
+  "flesh1": 5513505,
+  "skill": [
+    {
+      "coolDown": 2.8,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 10
+      },
+      "allowInAir": true,
+      "radius": 7,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_batDasher_Purple_charge.wav",
+      "charge": 1,
+      "manual": false,
+      "id": "charge",
+      "sfxRelease": "sfx/enm/enm_batDasher_Purple_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 4.5,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 10
+      },
+      "allowInAir": true,
+      "radius": 7,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_batDasher_Purple_charge.wav",
+      "charge": 1,
+      "manual": false,
+      "id": "multiCharge1",
+      "sfxRelease": "sfx/enm/enm_batDasher_Purple_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 12
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_batDasher_Purple_charge.wav",
+      "charge": 0.1,
+      "manual": true,
+      "id": "multiCharge2",
+      "sfxRelease": "sfx/enm/enm_batDasher_Purple_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 14
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_batDasher_Purple_charge.wav",
+      "charge": 0.1,
+      "manual": true,
+      "id": "multiCharge3",
+      "sfxRelease": "sfx/enm/enm_batDasher_Purple_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.9,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Flying",
+  "__original_Index": 80
+}

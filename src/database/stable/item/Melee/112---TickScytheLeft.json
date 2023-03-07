@@ -1,0 +1,43 @@
+{
+  "synergy": [],
+  "props": {
+    "duration2": 5,
+    "height": 0.6,
+    "item": "TickScytheRight",
+    "distance": 5,
+    "duration": 1
+  },
+  "gameplayDesc": "Inflicts a {critical hit@CC} if you have hit with the other claw before. ",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Left Claw",
+  "id": "TickScytheLeft",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 32,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DeathRoot"
+    }
+  ],
+  "name": "Faux-griffe",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "DualWeaponBase"
+    },
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 112
+}

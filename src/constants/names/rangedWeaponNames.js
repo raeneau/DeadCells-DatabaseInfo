@@ -220,10 +220,26 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Thorowable Objects",
   },
-
   LASERGLAIVE: {
     INTERNAL_ID: "LASERGLAIVE",
     TYPE: RANGED_WEAPON,
     NAME: "Laser Glaive",
+  },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  CROSS: {
+    INTERNAL_ID: "CROSS",
+    TYPE: RANGED_WEAPON,
+    NAME: "Cross",
+  },
+  THROWINGAXE: {
+    INTERNAL_ID: "THROWINGAXE",
+    TYPE: RANGED_WEAPON,
+    NAME: "Throwing Axe",
+  },
+  MEDUSASHEAD: {
+    INTERNAL_ID: "MEDUSAHEAD",
+    TYPE: RANGED_WEAPON,
+    NAME: "Medusa's Head",
   },
 };

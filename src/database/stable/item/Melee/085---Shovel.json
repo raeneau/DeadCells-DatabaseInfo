@@ -1,0 +1,42 @@
+{
+  "synergy": [],
+  "props": {
+    "grenadeKickPow": 0.2
+  },
+  "gameplayDesc": "Projette les ennemis et les bombes.",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Tout objet peut devenir une arme mortelle avec une vélocité suffisante.",
+  "id": "Shovel",
+  "icon": {
+    "x": 2,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BetterSecrets"
+    }
+  ],
+  "name": "Pelle",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Brutality",
+  "cellCost": 15,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 85
+}

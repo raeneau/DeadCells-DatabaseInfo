@@ -1,0 +1,106 @@
+{
+  "props": {
+    "movePauseMul": 0.25,
+    "moveSpeedMul": 1.2,
+    "climbEndDist": 1
+  },
+  "genTags": 0,
+  "glowOuterColor": 9896191,
+  "pfCost": 1.7,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "P_HealOnParry",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "SideBomb",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "Whip",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
+  "index": 3,
+  "volteDelay": 0.2,
+  "id": "Worm",
+  "weight": 20,
+  "icon": {
+    "x": 45,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Ver dégoutant",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 3,
+  "flesh1": 2938552,
+  "flesh2": 14044071,
+  "shards": 0,
+  "skill": [
+    {
+      "coolDown": 0.7,
+      "power": [
+        15
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_leech_charge.wav",
+      "charge": 0.6,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        8
+      ],
+      "props": {
+        "count": 6,
+        "triggerDelay": 1.25
+      },
+      "allowInAir": false,
+      "radius": 2.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_leech_egg_charge.wav",
+      "charge": 0,
+      "manual": false,
+      "id": "egg",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 3
+}

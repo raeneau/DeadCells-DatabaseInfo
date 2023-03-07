@@ -1,0 +1,40 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "ThrowingAxe",
+  "strikeChain": [
+    {
+      "coolDown": 0.34,
+      "power": [
+        52
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "threshold": 0.7
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.24,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 1.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Axe.wav",
+      "animId": "atkThrowingAxe",
+      "hitFrame": 8,
+      "critMul": 1.8,
+      "glowColor": 5369599
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 124
+}

@@ -1,0 +1,35 @@
+{
+  "synergy": [],
+  "props": {
+    "power2": [
+      140
+    ],
+    "duration": 1.5
+  },
+  "gameplayDesc": "The last attack throws the target behind you, bumping other enemies it hits. Enemies thrown on walls are dealt {critical damage@CC}.",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_HANDHOOK_AMBIANTDESC",
+  "id": "HandHook",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 28,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
+  "name": "Hand Hook",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Brutality",
+  "cellCost": 60,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 131
+}

@@ -1,0 +1,148 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.2
+  },
+  "genTags": 512,
+  "glowOuterColor": 4065964,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "ClusterBomb",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "HeavyTurret",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Rare",
+      "item": "PrisonerDemon",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "P_Execute_LowHealth",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 11,
+  "volteDelay": 0.3,
+  "id": "Comboter",
+  "weight": 20,
+  "icon": {
+    "x": 65,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    215
+  ],
+  "name": "Lacérateur",
+  "minPfHeight": 0,
+  "glowInnerColor": 8239871,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 6,
+  "flesh1": 13418155,
+  "flesh2": 9985867,
+  "skill": [
+    {
+      "coolDown": 1.5,
+      "power": [
+        12
+      ],
+      "props": {
+        "duration": 0.5
+      },
+      "allowInAir": false,
+      "radius": 2.15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_comboter_charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "slash0",
+      "sfxRelease": "sfx/enm/enm_comboter_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.4,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        12
+      ],
+      "props": {
+        "duration": 0.55
+      },
+      "allowInAir": false,
+      "radius": 2.15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_comboter_charge2.wav",
+      "charge": 0.3,
+      "manual": true,
+      "id": "slash1",
+      "sfxRelease": "sfx/enm/enm_comboter_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "props": {
+        "distance": 8.5,
+        "duration": 1.1
+      },
+      "allowInAir": false,
+      "radius": 2.15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_comboter_charge2.wav",
+      "charge": 0.7,
+      "manual": true,
+      "id": "slash2",
+      "sfxRelease": "sfx/enm/enm_comboter_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 1,
+      "lockAiAfter": 0.8,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 3,
+      "props": {
+        "distance": 13
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0.03,
+      "manual": false,
+      "id": "blink",
+      "sfxRelease": "sfx/enm/enm_zmb_release2.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 11
+}

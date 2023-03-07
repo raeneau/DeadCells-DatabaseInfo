@@ -32,6 +32,9 @@
     },
     {
       "tag": "NoQualityUpgrade"
+    },
+    {
+      "tag": "ShortCooldown"
     }
   ],
   "tier1": "Brutality",

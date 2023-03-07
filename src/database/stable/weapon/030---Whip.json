@@ -13,7 +13,9 @@
       },
       "lockCtrlAfter": 0.1,
       "props": {
-        "range": 0.3
+        "range": 0.3,
+        "altAnim": "richterMode_whipAtk",
+        "hitFx": "richterMode_whipAtkFx"
       },
       "breachBonus": 0,
       "dynamicCharge": 0,

@@ -1,0 +1,176 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 0.8,
+    "color": 59903
+  },
+  "genTags": 0,
+  "glowOuterColor": 14021866,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "P_DmgSkillRanged",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 31,
+  "volteDelay": 0.1,
+  "id": "Duelist",
+  "weight": 10,
+  "icon": {
+    "x": 63,
+    "y": 28,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "Danseur",
+  "minPfHeight": 0,
+  "glowInnerColor": 56831,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 5,
+  "flesh1": 9153413,
+  "flesh2": 13688267,
+  "skill": [
+    {
+      "coolDown": 3,
+      "props": {
+        "speed": 7,
+        "distance": 3,
+        "triggerDistance": 5,
+        "duration": 0.3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "dash",
+      "id": "backDash",
+      "sfxRelease": "sfx/enm/enm_archer_dodge1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkA",
+      "coolDown": 4,
+      "power": [
+        5
+      ],
+      "props": {
+        "x": 10,
+        "y": 5,
+        "bump": 0.75
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_duelist_charge.wav",
+      "charge": 0.45,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "thrust1",
+      "sfxRelease": "sfx/enm/enm_duelist_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.75,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkALoadAtkA",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "x": 30,
+        "y": 50,
+        "bump": 0.75
+      },
+      "allowInAir": false,
+      "radius": 3.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_duelist_charge2.wav",
+      "charge": 0.1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 2,
+      "execAnim": "atkB",
+      "id": "thrust2",
+      "sfxRelease": "sfx/enm/enm_duelist_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 7,
+      "breachResistance": 1,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkALoadAtkA",
+      "coolDown": 0,
+      "power": [
+        5
+      ],
+      "props": {
+        "x": 30,
+        "y": 50,
+        "bump": 0.75
+      },
+      "allowInAir": false,
+      "radius": 3.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_duelist_charge3.wav",
+      "charge": 0.1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 2,
+      "execAnim": "atkB",
+      "id": "thrust3",
+      "sfxRelease": "sfx/enm/enm_duelist_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 7,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 8,
+      "props": {
+        "distance": 2
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": false,
+      "execAnimSpd": 1,
+      "execAnim": "dash",
+      "id": "dashBehind",
+      "sfxRelease": "sfx/enm/enm_archer_dodge1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 31
+}

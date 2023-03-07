@@ -1,0 +1,54 @@
+{
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "dps": [
+      40
+    ],
+    "item": "SpawnAdultLilStaphy"
+  },
+  "gameplayDesc": "Summon an adult Leghugger that attacks your enemies, inflicting {critical hits@CC} on bleeding targets. Re-activate to make it attack in a circle around itself, making enemies hit {bleed@BL}.",
+  "moneyCost": 1750,
+  "group": 3,
+  "castCD": 10,
+  "ambiantDesc": "DLC3_WEAPON_ADULTLILSTAPHYSTAB_AMBIANTDESC",
+  "id": "AdultLilStaphyStab",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 30,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
+  "name": "Leghugger",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "PetBuff"
+    },
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "ShortCooldown"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 66
+}

@@ -1,0 +1,168 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 12582912,
+    "musicIntro": "music/default/DookuCastle_intro.ogg",
+    "musicLoop": "music/default/DookuCastle_loop.ogg",
+    "biomeType": 0,
+    "loadingDescColor": 14557473,
+    "loadingColor": 1247769
+  },
+  "biome": "DookuCastle",
+  "doubleUps": 2,
+  "group": 0,
+  "quarterUpsBC3": 3,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 1,
+  "index": 37,
+  "id": "DookuCastleHard",
+  "dlc": "Purple",
+  "worldDepth": 7,
+  "icon": {
+    "x": 39,
+    "y": 77,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0.3,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Harpy",
+      "minDifficulty": 0,
+      "quantityFactor": 0.6,
+      "minCombatRoomsBefore": 9
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "MiniWerewolf",
+      "maxDifficulty": 0,
+      "minDifficulty": 0,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 5
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Werewolf",
+      "minDifficulty": 1,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 5
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Werewolf",
+      "minDifficulty": 3,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 5
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "KunaiMaster",
+      "maxDifficulty": 2,
+      "minDifficulty": 1,
+      "quantityFactor": 0.3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Demon",
+      "minDifficulty": 4,
+      "quantityFactor": 0.2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "HauntedArmor",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BoneThrower",
+      "maxDifficulty": 1,
+      "minDifficulty": 0,
+      "quantityFactor": 0.5,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Buer",
+      "minDifficulty": 0,
+      "quantityFactor": 0.4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "LancerPurple",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "DLCP_BIOME_CASTLE",
+  "mobDensity": 0.55,
+  "specificLoots": [],
+  "mapDepth": 8,
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 2,
+  "nextLevels": [
+    {
+      "level": "T_DookuArena"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 0,
+    "metaFlags": 16,
+    "gameplayFlags": 4,
+    "genFlags": 1
+  },
+  "baseLootLevel": 6,
+  "loreDescriptions": [
+    {
+      "text": "Un VAMPYRE !"
+    },
+    {
+      "text": "Miam, sang !"
+    },
+    {
+      "text": "What is a man ?"
+    }
+  ],
+  "parallax": [],
+  "bonusTripleScrollAfterBC": "Hard",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 37
+}

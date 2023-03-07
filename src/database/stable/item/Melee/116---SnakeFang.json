@@ -1,0 +1,47 @@
+{
+  "synergy": [
+    {
+      "tag": "Poison",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "range": 6,
+    "duration2": 0.1,
+    "width": 6,
+    "dps": 4,
+    "count": 5,
+    "distance": 3,
+    "duration": 15
+  },
+  "gameplayDesc": "Teleports you to the closest target. {Empoisonne@TO} les victimes (::+dps:: DPS sur ::duration:: sec). Inflige des {coups critiques@CC} si la victime a plus de ::count:: marqueurs de poison.",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "id": "SnakeFang",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 30,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DoubleStack"
+    }
+  ],
+  "name": "Crocs de serpent",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Poison"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 80,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 116
+}

@@ -1,0 +1,170 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 3062659,
+    "viewerColor": 3261821,
+    "musicLoop": "music/default/Village.ogg",
+    "zDoorColor": 13286476,
+    "viewerY": -1,
+    "chromaColor": 65366,
+    "biomeType": 1,
+    "loadingDescColor": 6669474,
+    "loadingColor": 6673
+  },
+  "biome": "StiltVillage",
+  "doubleUps": 1,
+  "group": 0,
+  "quarterUpsBC3": 1,
+  "quarterUpsBC4": 1,
+  "eliteWanderChance": 0.75,
+  "index": 10,
+  "id": "StiltVillage",
+  "worldDepth": 4,
+  "icon": {
+    "x": 42,
+    "y": 26,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "packSize": [
+        2,
+        3
+      ],
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "PirateChief",
+      "minDifficulty": 0,
+      "quantityFactor": 4,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {
+        "inEgg": true
+      },
+      "spawnWith": [],
+      "mob": "S_WallEggWorm",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "packSize": [
+        1,
+        2
+      ],
+      "minCombatRoomsBefore": 4
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Samurai",
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "CrossbowMan",
+      "minDifficulty": 1,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "AggressiveZombie",
+      "minDifficulty": 4,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "maxCombatRoomsBefore": 3,
+      "spawnWith": [],
+      "mob": "WormZombie",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Zombie",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Gué des Brumes",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "mapDepth": 5,
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 3,
+  "nextLevels": [
+    {
+      "level": "T_ClockTower"
+    },
+    {
+      "level": "T_Crypt"
+    },
+    {
+      "level": "T_Cliff"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 0,
+    "visualFlags": 1,
+    "metaFlags": 0,
+    "gameplayFlags": 0,
+    "genFlags": 5
+  },
+  "baseLootLevel": 4,
+  "loreDescriptions": [
+    {
+      "text": "Le village était aux premières loges quand le Mal-être s'est propagé. Au début ils enterrèrent leurs morts. Puis rapidement, ils durent se battre contre eux."
+    },
+    {
+      "text": "La pêche était la principale activité de ce petit hameau jusqu'à ce que l'eau commence à se troubler."
+    },
+    {
+      "text": "Avant, il fallait plusieurs jours aux poissons avant qu'ils ne dégagent une odeur putride."
+    },
+    {
+      "text": "C'était un chouette village avant. Avant que tout ce qui s'y trouve ne cherche à vous dévorer, en fait."
+    }
+  ],
+  "parallax": [],
+  "bonusTripleScrollAfterBC": "Expert",
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 10
+}

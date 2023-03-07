@@ -1,0 +1,50 @@
+{
+  "synergy": [
+    {
+      "tag": "Fire",
+      "trigger": false
+    }
+  ],
+  "props": {
+    "range": 3,
+    "dps": [
+      30
+    ],
+    "duration": 4,
+    "aoeDuration": 4
+  },
+  "gameplayDesc": "DLCP_VAMPIRE_KILLER_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_VAMPIRE_KILLER_AMBIANTDESC",
+  "id": "VampireKiller",
+  "dlc": "Purple",
+  "icon": {
+    "x": 28,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "RootOnHit"
+    }
+  ],
+  "name": "DLCP_VAMPIRE_KILLER_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "InstantBlueprint"
+    },
+    {
+      "tag": "Fire"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 149
+}

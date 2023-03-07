@@ -34,7 +34,7 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
     itemGrenadeJsons,
     itemTrapJsons,
     itemPowerJsons,
-    levelJsonPath,
+    levelJsons,
   } = versionedDatabase;
 
   switch (TYPE) {
@@ -100,11 +100,42 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
         return undefined;
       }
 
-      return getJson({
-        jsonPaths: [`mob/General${enemyJsons[INTERNAL_ID]}`],
-        jsonNames: ["enemyJson"],
-        databaseVersion,
-      });
+      const enemyName = enemyJsons[INTERNAL_ID];
+
+      // TODO: This is gross. Fix it and save the enemy list on load, so we dont have to check again
+      // TODO: This is gross. Fix it and save the enemy list on load, so we dont have to check again
+      return (
+        getJson({
+          jsonPaths: [`mob/Flying${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Melee${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Support${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Ranged${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/MiniBoss${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        }) ||
+        getJson({
+          jsonPaths: [`mob/Boss${enemyName}`],
+          jsonNames: ["enemyJson"],
+          databaseVersion,
+        })
+      );
     }
 
     // -------------------------------------------------------------------------
@@ -156,12 +187,12 @@ const mapUserInput = ({ userInput, databaseVersion }) => {
     // Levels
     // -------------------------------------------------------------------------
     case LEVEL: {
-      if (levelJsonPath[INTERNAL_ID] === undefined) {
+      if (levelJsons[INTERNAL_ID] === undefined) {
         return undefined;
       }
 
       return getJson({
-        jsonPaths: [`level/MainLevels${levelJsonPath[INTERNAL_ID]}`],
+        jsonPaths: [`level/MainLevels${levelJsons[INTERNAL_ID]}`],
         jsonNames: ["itemJson"],
         databaseVersion,
       });

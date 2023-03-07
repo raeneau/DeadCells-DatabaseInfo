@@ -1,0 +1,55 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.8,
+    "range": 7,
+    "color2": 262399,
+    "power": [
+      0.6,
+      0.5,
+      0.4,
+      0.3
+    ],
+    "duration2": 0.5,
+    "duration3": 5,
+    "speed2": 0.2,
+    "dps": 25,
+    "ammo": 1,
+    "height": 24,
+    "color": 8974335,
+    "distance": 3,
+    "tick": 0.1,
+    "effectCD": 0.1,
+    "duration": 0.45
+  },
+  "gameplayDesc": "DLCP_CROSS_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 10,
+  "ambiantDesc": "DLCP_CROSS_AMBIENTDESC",
+  "id": "RichterCross",
+  "dlc": "Purple",
+  "icon": {
+    "x": 23,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DoubleDamageFree"
+    }
+  ],
+  "name": "DLCP_CROSS_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "Ranged"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 76
+}

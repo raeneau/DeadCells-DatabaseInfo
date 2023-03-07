@@ -1,0 +1,43 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.3,
+    "power": [
+      75
+    ],
+    "width": 0.8,
+    "bonus": 1.1,
+    "buff": 2,
+    "color": 16777215,
+    "count": 150,
+    "tick": 0.3,
+    "duration": 8,
+    "limit": 0.75
+  },
+  "gameplayDesc": "DLCP_BOUCING_STONE_DESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 11,
+  "ambiantDesc": "DLCP_BOUCING_STONE_AMBIANTDESC",
+  "id": "BouncingStone",
+  "dlc": "Purple",
+  "icon": {
+    "x": 27,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Split"
+    }
+  ],
+  "name": "DLCP_BOUCING_STONE_NAME",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "cellCost": 100,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 72
+}
