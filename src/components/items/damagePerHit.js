@@ -4,7 +4,7 @@ import _get from "lodash.get";
 
 // -----------------------------------------------------------------------------
 
-function DamagePerHit(props) {
+const DamagePerHit = (props) => {
   const { array } = props;
 
   // If there is no data, just return nothing
@@ -49,7 +49,7 @@ function DamagePerHit(props) {
       ))}
     </Fragment>
   );
-}
+};
 
 DamagePerHit.propTypes = {
   // Array can be any array at all, so we can't have an arrayOf...

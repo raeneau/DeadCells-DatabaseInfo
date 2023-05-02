@@ -12,7 +12,7 @@ import getDropChance from "../../utils/getDropChance";
 
 // -----------------------------------------------------------------------------
 
-function DropsScreen(props) {
+const DropsScreen = (props) => {
   const { blueprintsDropped } = props;
 
   const hasDrops = !_isEmpty(blueprintsDropped);
@@ -50,7 +50,7 @@ function DropsScreen(props) {
       )}
     </div>
   );
-}
+};
 
 DropsScreen.propTypes = {
   blueprintsDropped: PropTypes.arrayOf(

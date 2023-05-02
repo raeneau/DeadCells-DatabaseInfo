@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function ArrayDisplay(props) {
+const ArrayDisplay = (props) => {
   const { name, array, objectKey } = props;
 
   // If there is no data, just return nothing
@@ -29,7 +29,7 @@ function ArrayDisplay(props) {
       <td>{message}</td>
     </tr>
   );
-}
+};
 
 ArrayDisplay.propTypes = {
   name: PropTypes.string.isRequired,

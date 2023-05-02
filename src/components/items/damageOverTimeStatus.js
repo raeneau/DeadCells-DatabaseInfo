@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function BasicDisplay(props) {
+const BasicDisplay = (props) => {
   const { name, damage, duration } = props;
 
   if (damage === undefined || duration === undefined) {
@@ -18,7 +18,7 @@ function BasicDisplay(props) {
       </td>
     </tr>
   );
-}
+};
 
 BasicDisplay.propTypes = {
   name: PropTypes.string.isRequired,

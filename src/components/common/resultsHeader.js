@@ -10,7 +10,7 @@ const cn = {
   wrapper: `${cnBase}__wrapper`,
 };
 
-function ResultsHeader(props) {
+const ResultsHeader = (props) => {
   const { value } = props;
 
   if (value === undefined) {
@@ -23,7 +23,7 @@ function ResultsHeader(props) {
       <h3>{value}</h3>
     </div>
   );
-}
+};
 
 ResultsHeader.propTypes = {
   value: PropTypes.string,

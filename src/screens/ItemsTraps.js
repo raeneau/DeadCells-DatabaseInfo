@@ -3,13 +3,13 @@ import _get from "lodash.get";
 
 // Screens.
 import DamageScreen from "./ItemsTraps/DamageScreen";
-import ItemMetaScreen from "./Items/ItemMetaScreen";
-import BlueprintScreen from "./Items/BlueprintScreen";
+import ItemMetaScreen from "./ItemsMelee/ItemMetaScreen";
+import BlueprintScreen from "./ItemsMelee/BlueprintScreen";
 import ResultsHeader from "../components/common/resultsHeader";
 
 // -----------------------------------------------------------------------------
 
-function ItemsTraps(props) {
+const ItemsTraps = (props) => {
   const itemJson = _get(props, "userInput.itemJson");
   const internalId = _get(props, "internalId");
   const name = _get(props, "name");
@@ -25,7 +25,7 @@ function ItemsTraps(props) {
       />
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 

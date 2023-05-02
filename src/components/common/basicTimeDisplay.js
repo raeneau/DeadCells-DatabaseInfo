@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function BasicTimeDisplay(props) {
+const BasicTimeDisplay = (props) => {
   const { name, value, img } = props;
 
   if (value === undefined) {
@@ -18,7 +18,7 @@ function BasicTimeDisplay(props) {
       </td>
     </tr>
   );
-}
+};
 
 BasicTimeDisplay.propTypes = {
   name: PropTypes.string.isRequired,

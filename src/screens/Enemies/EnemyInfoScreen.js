@@ -7,7 +7,7 @@ import BasicDisplay from "../../components/common/basicDisplay";
 
 // -----------------------------------------------------------------------------
 
-function EnemyInfoScreen(props) {
+const EnemyInfoScreen = (props) => {
   const { enemyJson } = props;
 
   return (
@@ -31,7 +31,7 @@ function EnemyInfoScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 EnemyInfoScreen.propTypes = {
   enemyJson: PropTypes.shape({

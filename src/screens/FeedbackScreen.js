@@ -10,21 +10,19 @@ const cn = {
   header: `${cnBase}__header`,
 };
 
-function FeedbackScreen() {
-  return (
-    <div className="DisplayCard">
-      <div className={cn.wrapper}>
-        <h3 className={cn.header}>Problems? Feedback?</h3>
-        <ul>
-          <div>
-            Contact <b>Raeneau#2263</b> on Discord!
-          </div>
-          <div>Also, take a deep breath and go get a snack. 💕</div>
-        </ul>
-      </div>
+const FeedbackScreen = () => (
+  <div className="DisplayCard">
+    <div className={cn.wrapper}>
+      <h3 className={cn.header}>Problems? Feedback?</h3>
+      <ul>
+        <div>
+          Contact <b>Raeneau#2263</b> on Discord!
+        </div>
+        <div>Also, take a deep breath and go get a snack. 💕</div>
+      </ul>
     </div>
-  );
-}
+  </div>
+);
 
 // -----------------------------------------------------------------------------
 

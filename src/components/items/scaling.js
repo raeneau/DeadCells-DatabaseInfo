@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function Scaling(props) {
+const Scaling = (props) => {
   const { firstColor, secondColor } = props;
 
   // There will never be a second color if there isnt a first (I hope?)
@@ -23,7 +23,7 @@ function Scaling(props) {
       </td>
     </tr>
   );
-}
+};
 
 Scaling.propTypes = {
   firstColor: PropTypes.string.isRequired,

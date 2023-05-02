@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import _get from "lodash.get";
 
 import "./NotFound.css";
+import searchResultsContext from "../context/SearchResultsContext";
 
 // -----------------------------------------------------------------------------
 
@@ -11,8 +12,10 @@ const cn = {
   notesWrapper: `${cnBase}__notesWrapper`,
 };
 
-function NotFoundScreen(props) {
-  const userSearchTerm = _get(props, "userSearchTerm");
+const NotFoundScreen = () => {
+  const [searchResults] = useContext(searchResultsContext);
+
+  const userSearchTerm = _get(searchResults, "searchTerm");
 
   return (
     <div className="DisplayCard">
@@ -30,7 +33,7 @@ function NotFoundScreen(props) {
       </div>
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 

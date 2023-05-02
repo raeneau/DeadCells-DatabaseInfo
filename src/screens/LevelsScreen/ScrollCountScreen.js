@@ -7,7 +7,7 @@ import BasicDisplay from "../../components/common/basicDisplay";
 
 // -----------------------------------------------------------------------------
 
-function ScrollCountScreen(props) {
+const ScrollCountScreen = (props) => {
   const { userInput } = props;
 
   return (
@@ -35,7 +35,7 @@ function ScrollCountScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 ScrollCountScreen.propTypes = {
   userInput: PropTypes.shape({

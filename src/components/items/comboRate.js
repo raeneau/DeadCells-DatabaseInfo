@@ -4,7 +4,7 @@ import _get from "lodash.get";
 
 // -----------------------------------------------------------------------------
 
-function ComboRate(props) {
+const ComboRate = (props) => {
   const { array } = props;
 
   // If is no data, just return
@@ -58,7 +58,7 @@ function ComboRate(props) {
       ))}
     </Fragment>
   );
-}
+};
 
 ComboRate.propTypes = {
   array: PropTypes.arrayOf(

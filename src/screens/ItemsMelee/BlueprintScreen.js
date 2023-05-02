@@ -8,7 +8,7 @@ import BlueprintDropInfo from "../../components/items/blueprintDropInfo";
 
 // -----------------------------------------------------------------------------
 
-function BlueprintScreen(props) {
+const BlueprintScreen = (props) => {
   const { cellCost, internalId } = props;
 
   return (
@@ -26,7 +26,7 @@ function BlueprintScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 BlueprintScreen.propTypes = {
   cellCost: PropTypes.number,

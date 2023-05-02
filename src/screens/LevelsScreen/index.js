@@ -1,26 +1,29 @@
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Screens.
-import EnemiesScreen from "./Levels/EnemiesScreen";
-import ScrollCountScreen from "./LevelsScreen/ScrollCountScreen";
-import ResultsHeader from "../components/common/resultsHeader";
+import EnemiesScreen from "../Levels/EnemiesScreen";
+import ScrollCountScreen from "./ScrollCountScreen";
+import ResultsHeader from "../../components/common/resultsHeader";
+import searchResultsContext from "../../context/SearchResultsContext";
 
 // -----------------------------------------------------------------------------
 
-function LevelsScreen(props) {
-  const { userInput } = props;
-  const name = _get(props, "name");
+const LevelsScreen = () => {
+  const [searchResults] = useContext(searchResultsContext);
+
+  const { results } = searchResults;
+  const name = _get(searchResults, "name");
 
   return (
     <div className="DisplayCard">
       <ResultsHeader value={name} />
-      <ScrollCountScreen userInput={userInput} />
-      <EnemiesScreen userInput={userInput} />
+      <ScrollCountScreen userInput={results} />
+      <EnemiesScreen userInput={results} />
     </div>
   );
-}
+};
 
 LevelsScreen.propTypes = {
   userInput: PropTypes.shape({

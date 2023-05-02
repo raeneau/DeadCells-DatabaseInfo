@@ -9,7 +9,7 @@ import formatInput from "../../utils/formatInput";
 
 // -----------------------------------------------------------------------------
 
-function Enemies(props) {
+const Enemies = (props) => {
   const { userInput } = props;
 
   // TODO: This aint an item json
@@ -51,7 +51,7 @@ function Enemies(props) {
       )}
     </div>
   );
-}
+};
 
 Enemies.propTypes = {
   userInput: PropTypes.shape({

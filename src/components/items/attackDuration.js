@@ -5,7 +5,7 @@ import _get from "lodash.get";
 
 // -----------------------------------------------------------------------------
 
-function AttackDuration(props) {
+const AttackDuration = (props) => {
   const { array = [] } = props;
 
   // If there is no data, just return nothing
@@ -45,7 +45,7 @@ function AttackDuration(props) {
       ))}
     </Fragment>
   );
-}
+};
 
 AttackDuration.propTypes = {
   array: PropTypes.arrayOf(

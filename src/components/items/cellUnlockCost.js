@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function CellUnlockCost(props) {
+const CellUnlockCost = (props) => {
   const { name, value, img } = props;
 
   if (value === undefined) {
@@ -20,7 +20,7 @@ function CellUnlockCost(props) {
       </td>
     </tr>
   );
-}
+};
 
 CellUnlockCost.propTypes = {
   name: PropTypes.string.isRequired,

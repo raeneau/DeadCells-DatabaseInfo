@@ -13,7 +13,8 @@ const cn = {
   wrapper: `${cnBase}__wrapper`,
   labelWrapper: `${cnBase}__labelWrapper`,
 };
-function Switch(props) {
+
+const Switch = (props) => {
   const { switchId, onChange, label, onLabel, offLabel, disabled } = props;
   const [value, setValue] = useState({
     variableLabel: offLabel,
@@ -46,7 +47,7 @@ function Switch(props) {
       </label>
     </div>
   );
-}
+};
 
 Switch.propTypes = {
   switchId: PropTypes.string,

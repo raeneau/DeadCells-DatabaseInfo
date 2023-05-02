@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // -----------------------------------------------------------------------------
 
-function BasicPercentageDisplay(props) {
+const BasicPercentageDisplay = (props) => {
   const { name, value, defaultValue, requiredType, actualType } = props;
 
   if (
@@ -19,7 +19,7 @@ function BasicPercentageDisplay(props) {
       <td>{(value || defaultValue) * 100}%</td>
     </tr>
   );
-}
+};
 
 BasicPercentageDisplay.propTypes = {
   name: PropTypes.string.isRequired,

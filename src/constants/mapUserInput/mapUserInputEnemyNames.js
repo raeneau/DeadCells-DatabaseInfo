@@ -16,6 +16,7 @@ export default {
 
   SHIELDBEARER: enemyNames.SHIELDBEARER,
   SHIELD: enemyNames.SHIELDBEARER, // !!! -- OVERLOADED VALUE
+  SHIELDZOMBIE: enemyNames.SHIELDBEARER, // !!! -- OVERLOADED VALUE
 
   GRENADIER: enemyNames.GRENADIER,
   GRENADER: enemyNames.GRENADIER,

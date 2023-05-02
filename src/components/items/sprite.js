@@ -30,7 +30,7 @@ import cardIcons from "../../assets/cardIcons.png";
 //     size, // crop height
 //     0,
 //     0,
-//     size,
+//     size,F
 //     size,
 //   );
 
@@ -43,7 +43,7 @@ import cardIcons from "../../assets/cardIcons.png";
 //   return canvas.toDataURL();
 // };
 
-function Sprite(props) {
+const Sprite = (props) => {
   const { value } = props;
 
   const { x: xPosition, y: yPosition, size } = value.icon; // Positions are 0-indexed
@@ -72,7 +72,7 @@ function Sprite(props) {
       </td>
     </tr>
   );
-}
+};
 
 Sprite.propTypes = {
   value: PropTypes.shape({

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import _get from "lodash.get";
 
 // Screens.
-import WhatsNewScreen from "./WhatsNewScreen";
+import WhatsNewScreen from "./WhatsNew/WhatsNewScreen";
 import CurrentlySearchableScreen from "./CurrentlySearchableScreen";
 
 // Local modules.
@@ -17,6 +17,7 @@ import { STABLE } from "../constants/databaseVersion";
 
 // Styles.
 import "./UserInput.css";
+import searchResultsContext from "../context/SearchResultsContext";
 
 // -----------------------------------------------------------------------------
 
@@ -35,13 +36,14 @@ const cn = {
 
 let inputSubmitted = false;
 
-function UserInputScreen() {
+const UserInputScreen = () => {
   const [value, setValue] = useState({
     userInputValue: "",
   });
+  const [searchResults, setSearchResults] = useContext(searchResultsContext);
 
   const [databaseVersion, setDatabaseVersion] = useState(STABLE);
-  const history = useHistory();
+  const navigate = useNavigate();
 
   function handleChange(event) {
     // Here, we invoke the callback with the new value
@@ -91,21 +93,20 @@ function UserInputScreen() {
   };
 
   function onSubmit() {
-    const { onChange } = props;
+    // const { onChange } = props;
 
     // The user set a value. Let's hide the info on the screen.
     inputSubmitted = true;
 
     const submitResults = handleUserInputChange(value.userInputValue);
 
-    console.log("✨ -- submit results", submitResults);
-    console.log("✨ -- state", value);
+    if (submitResults) {
+      setSearchResults(submitResults);
+    }
 
-    // history.push({
-    //   pathname: "/MELEE_WEAPON",
-    //   search: "?query=abc",
-    //   state: { detail: "some_value" },
-    // });
+    navigate(
+      submitResults.resourceType ? submitResults.resourceType : "/NotFound",
+    );
 
     // onChange(value.userInputValue);
   }
@@ -143,7 +144,7 @@ function UserInputScreen() {
       </div>
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 

@@ -8,7 +8,7 @@ import BasicTimeDisplay from "../../components/common/basicTimeDisplay";
 
 // -----------------------------------------------------------------------------
 
-function DamageScreen(props) {
+const DamageScreen = (props) => {
   const { itemJson } = props;
 
   return (
@@ -48,7 +48,7 @@ function DamageScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 DamageScreen.propTypes = {
   itemJson: PropTypes.shape({

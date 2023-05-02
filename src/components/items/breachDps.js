@@ -9,7 +9,7 @@ import { criticalHitMul } from "../../constants/truelleConstants";
 // -----------------------------------------------------------------------------
 
 // TODO: Change to use DPS util
-function BreachDPS(props) {
+const BreachDPS = (props) => {
   const { array } = props;
 
   // If is no data, just return
@@ -52,7 +52,7 @@ function BreachDPS(props) {
       </td>
     </tr>
   );
-}
+};
 
 // (sum of all powers) / (sum of all charge + cooldown + lockCtrlAfter) ROUNDED UP
 // 310

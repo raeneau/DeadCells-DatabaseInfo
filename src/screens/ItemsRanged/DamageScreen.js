@@ -15,7 +15,7 @@ import DamageOverTimeStatus from "../../components/items/damageOverTimeStatus";
 
 // -----------------------------------------------------------------------------
 
-function DamageScreen(props) {
+const DamageScreen = (props) => {
   const { itemJson, strikeChain, internalId } = props;
 
   return (
@@ -68,7 +68,7 @@ function DamageScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 DamageScreen.propTypes = {
   internalId: PropTypes.string.isRequired,

@@ -104,5 +104,7 @@ export default {
     NAME: "Dracula's Castle (Hard)",
   },
 
+  BANK: { INTERNAL_ID: "BANK", TYPE: LEVEL, NAME: "Bank" },
+
   ASTROLAB: { INTERNAL_ID: "ASTROLAB", TYPE: LEVEL, NAME: "Astrolab" },
 };

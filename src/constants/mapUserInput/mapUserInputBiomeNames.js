@@ -8,6 +8,7 @@ export default {
   // ----------------------------
   PRISONERSQUARTERS: biomeNames.PRISONERS_QUARTERS,
   PQ: biomeNames.PRISONERS_QUARTERS,
+  PRISONSTART: biomeNames.PRISONERS_QUARTERS,
 
   // ----------------------------
   // Stage 2
@@ -33,6 +34,7 @@ export default {
   CORRUPTEDPRISON: biomeNames.CORRUPTED_PRISON,
   CORRUPTEDCONFINEMENT: biomeNames.CORRUPTED_PRISON,
   CORRUPTED: biomeNames.CORRUPTED_PRISON,
+  PRISONCORRUPT: biomeNames.CORRUPTED_PRISON,
 
   // ----------------------------
   // Stage 3
@@ -46,6 +48,7 @@ export default {
   RAMPARTS: biomeNames.RAMPARTS,
   PRISONWALLS: biomeNames.RAMPARTS,
   PRISONWALL: biomeNames.RAMPARTS,
+  PRISONROOF: biomeNames.RAMPARTS,
 
   ANCIENTSEWERS: biomeNames.ANCIENT_SEWERS,
   SEWERDEPTHS: biomeNames.ANCIENT_SEWERS,
@@ -60,6 +63,7 @@ export default {
   SLUMBERINGSANCTUARY: biomeNames.SLUMBERING_SANCTUARY,
   SANCTUARY: biomeNames.SLUMBERING_SANCTUARY,
   SANC: biomeNames.SLUMBERING_SANCTUARY,
+  ANCIENTTEMPLE: biomeNames.SLUMBERING_SANCTUARY,
 
   GRAVEYARD: biomeNames.GRAVEYARD,
   CEMETERY: biomeNames.GRAVEYARD,
@@ -101,9 +105,15 @@ export default {
   ASTROLAB: biomeNames.ASTROLAB,
 
   // ----------------------------
+  // Special
+  // ----------------------------
+  BANK: biomeNames.BANK,
+
+  // ----------------------------
   // Return to Castlevania
   // ----------------------------
   CASTLEOUTSKIRTS: biomeNames.CASTLEOUTSKIRTS,
+  PURPLEGARDEN: biomeNames.CASTLEOUTSKIRTS,
 
   DRACULASCASTLE: biomeNames.DRACULASCASTLE,
   DRACULASCASTLETHREE: biomeNames.DRACULASCASTLE,

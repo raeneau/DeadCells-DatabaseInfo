@@ -32,7 +32,7 @@ const cn = {
   patchNotesWrapper: `${cnBase}__patchNotesWrapper`,
 };
 
-function DatabaseVersionToggleScreen(props) {
+const DatabaseVersionToggleScreen = (props) => {
   const handleChange = useCallback((event) => {
     const { onChange } = props;
     const databaseType = event.target.checked ? BETA : STABLE;
@@ -55,7 +55,7 @@ function DatabaseVersionToggleScreen(props) {
       <i className={cn.footer}>Database last updated: {UPDATE_DATE}</i>
     </div>
   );
-}
+};
 
 DatabaseVersionToggleScreen.propTypes = {
   onChange: PropTypes.func.isRequired,

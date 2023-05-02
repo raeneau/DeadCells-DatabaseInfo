@@ -6,7 +6,7 @@ import _isEmpty from "lodash.isempty";
 
 // -----------------------------------------------------------------------------
 
-function WeaponEffectDuration(props) {
+const WeaponEffectDuration = (props) => {
   const { array } = props;
 
   // If is no data, just return
@@ -77,7 +77,7 @@ function WeaponEffectDuration(props) {
       {aoeDurationElement}
     </Fragment>
   );
-}
+};
 
 WeaponEffectDuration.propTypes = {
   array: PropTypes.arrayOf(

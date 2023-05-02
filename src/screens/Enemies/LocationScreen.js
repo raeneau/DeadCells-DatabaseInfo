@@ -1,34 +1,41 @@
-import React from "react";
+import React, { useContext } from "react";
 import PropTypes from "prop-types";
 import _isEmpty from "lodash.isempty";
 import _get from "lodash.get";
+import _map from "lodash.map";
 
 // Local modules.
-import enemyLocation from "../../utils/enemyLocation";
+import EnemyContext from "../../context/EnemyContext";
+import mapUserInputBiomeNames from "../../constants/mapUserInput/mapUserInputBiomeNames";
+import formatDifficulty from "../../utils/formatBossCellDifficulty";
 
 // -----------------------------------------------------------------------------
 
-function LocationScreen(props) {
-  const { userInput, databaseVersion } = props;
+const LocationScreen = (databaseInfo) => {
+  const allEnemyData = useContext(EnemyContext);
+  const { userInput } = databaseInfo;
 
-  const enemyBiomeLocations = enemyLocation({
-    enemy: userInput,
-    databaseVersion,
-  });
+  const enemyId = _get(userInput, "enemyJson.id");
   const isTrashMob = _get(userInput, "enemyJson.props.isTrashMob");
+  const { [enemyId]: enemyBiomeData } = allEnemyData;
 
   return (
     <div>
       <h3 className="SubHeader">Location(s)</h3>
-      {!_isEmpty(enemyBiomeLocations) ? (
+      {!_isEmpty(enemyBiomeData) ? (
         <table>
           <tbody>
-            {enemyBiomeLocations.map((location) => (
-              <tr key={`Combo__location${location.name}`}>
-                <td>{location.name}</td>
-                <td>{location.difficulty}</td>
-              </tr>
-            ))}
+            {_map(enemyBiomeData, (location, key) => {
+              const { minDifficulty, maxDifficulty } = location;
+              const biome = mapUserInputBiomeNames[String(key).toUpperCase()];
+
+              return (
+                <tr key={`Combo__location${biome.INTERNAL_ID}`}>
+                  <td>{biome.NAME}</td>
+                  <td>{formatDifficulty({ minDifficulty, maxDifficulty })}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       ) : (
@@ -41,10 +48,9 @@ function LocationScreen(props) {
       )}
     </div>
   );
-}
+};
 
 LocationScreen.propTypes = {
-  databaseVersion: PropTypes.string.isRequired,
   userInput: PropTypes.shape({
     enemyJson: PropTypes.shape({
       props: PropTypes.shape({

@@ -5,7 +5,7 @@ import { calculateDps } from "../../utils/calculateDps";
 
 // -----------------------------------------------------------------------------
 
-function BaseDps(props) {
+const BaseDps = (props) => {
   const { array, itemJson, internalId } = props;
 
   // If is no data, just return
@@ -38,7 +38,7 @@ function BaseDps(props) {
       </td>
     </tr>
   );
-}
+};
 
 BaseDps.propTypes = {
   array: PropTypes.arrayOf(

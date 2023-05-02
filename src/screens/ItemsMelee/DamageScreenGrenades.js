@@ -8,7 +8,7 @@ import BaseDps from "../../components/items/baseDps";
 
 // -----------------------------------------------------------------------------
 
-function DamageScreenGrenades(props) {
+const DamageScreenGrenades = (props) => {
   const { itemJson } = props;
 
   return (
@@ -32,7 +32,7 @@ function DamageScreenGrenades(props) {
       </table>
     </div>
   );
-}
+};
 
 DamageScreenGrenades.propTypes = {
   itemJson: PropTypes.shape({

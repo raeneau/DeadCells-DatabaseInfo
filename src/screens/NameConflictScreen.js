@@ -41,7 +41,7 @@ const getNameFromType = ({ searchTerm, type }) => {
   }
 };
 
-function NameConflictScreen(props) {
+const NameConflictScreen = (props) => {
   const searchTerm = _get(props, "searchTerm");
   const conflictTypes = _get(props, "conflictTypes");
 
@@ -62,7 +62,7 @@ function NameConflictScreen(props) {
       </div>
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 

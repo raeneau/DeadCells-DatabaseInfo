@@ -8,7 +8,7 @@ import { notFound } from "../../constants/stringConstants";
 
 // -----------------------------------------------------------------------------
 
-function Tags(props) {
+const Tags = (props) => {
   const { tagArray } = props;
 
   // If there are no tags, just return N/A
@@ -40,7 +40,7 @@ function Tags(props) {
       <td>{readableTags}</td>
     </tr>
   );
-}
+};
 
 Tags.propTypes = {
   tagArray: PropTypes.arrayOf(

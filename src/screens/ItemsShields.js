@@ -3,14 +3,14 @@ import _get from "lodash.get";
 
 // Screens.
 import DamageScreen from "./ItemsShield/DamageScreen";
-import ItemMetaScreen from "./Items/ItemMetaScreen";
-import ComboScreen from "./Items/ComboScreen";
-import BlueprintScreen from "./Items/BlueprintScreen";
+import ItemMetaScreen from "./ItemsMelee/ItemMetaScreen";
+import ComboScreen from "./ItemsMelee/ComboScreen";
+import BlueprintScreen from "./ItemsMelee/BlueprintScreen";
 import ResultsHeader from "../components/common/resultsHeader";
 
 // -----------------------------------------------------------------------------
 
-function Items(props) {
+const ItemsShields = (props) => {
   const weaponJson = _get(props, "userInput.weaponJson");
   const itemJson = _get(props, "userInput.itemJson");
   const internalId = _get(props, "internalId");
@@ -28,8 +28,8 @@ function Items(props) {
       />
     </div>
   );
-}
+};
 
 // -----------------------------------------------------------------------------
 
-export default Items;
+export default ItemsShields;

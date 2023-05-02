@@ -11,7 +11,7 @@ import Sprite from "../../components/items/sprite";
 
 // -----------------------------------------------------------------------------
 
-function ItemMetaScreen(props) {
+const ItemMetaScreen = (props) => {
   const { itemJson, itemName } = props;
 
   return (
@@ -46,7 +46,7 @@ function ItemMetaScreen(props) {
       </table>
     </div>
   );
-}
+};
 
 ItemMetaScreen.propTypes = {
   itemJson: PropTypes.shape({

@@ -7,7 +7,7 @@ import getItemDropInfo from "../../utils/getItemDropInfo";
 import mapUserInputEnemyNames from "../../constants/mapUserInput/mapUserInputEnemyNames";
 // -----------------------------------------------------------------------------
 
-function BlueprintDropInfo(props) {
+const BlueprintDropInfo = (props) => {
   const { internalId } = props;
 
   // !! If more than one enemy is allowed to drop a single item, change this
@@ -35,7 +35,7 @@ function BlueprintDropInfo(props) {
       )}
     </Fragment>
   );
-}
+};
 
 BlueprintDropInfo.propTypes = {
   internalId: PropTypes.string.isRequired,
