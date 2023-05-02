@@ -1,0 +1,187 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "MagicSalve",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 3997440,
+        "fxStartFrame": 5,
+        "fxOuterColor": 762200
+      },
+      "lockCtrlAfter": 0,
+      "props": {},
+      "onionSkinFrame": 7,
+      "breachBonus": -1,
+      "onionSkinOffX": -7,
+      "dynamicCharge": 0,
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_magicmiss1.wav",
+      "fxId": "fxAtkPunchA",
+      "animId": "throw",
+      "sfxHit": "sfx/weapon/weapon_iceshock_hit.wav",
+      "hitFrame": 4,
+      "critMul": 0.75,
+      "glowColor": 4646873,
+      "animSpd": 1.4
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 4646823,
+        "fxStartFrame": 3,
+        "fxOuterColor": 762200
+      },
+      "lockCtrlAfter": 0,
+      "props": {},
+      "onionSkinFrame": 5,
+      "breachBonus": -1,
+      "onionSkinOffX": -7,
+      "dynamicCharge": 0,
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_magicmiss2.wav",
+      "fxId": "fxAtkPunchA",
+      "animId": "throw",
+      "sfxHit": "sfx/weapon/weapon_iceshock_hit.wav",
+      "hitFrame": 7,
+      "critMul": 0.75,
+      "glowColor": 4646873,
+      "animSpd": 1.6
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "fxProps": {
+        "fxInnerColor": 4646823,
+        "fxStartFrame": 3,
+        "fxOuterColor": 762200
+      },
+      "lockCtrlAfter": 0,
+      "props": {},
+      "onionSkinFrame": 5,
+      "breachBonus": -1,
+      "onionSkinOffX": -7,
+      "dynamicCharge": 0,
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_magicmiss2.wav",
+      "fxId": "fxAtkPunchA",
+      "animId": "throw",
+      "sfxHit": "sfx/weapon/weapon_iceshock_hit.wav",
+      "hitFrame": 7,
+      "critMul": 0.75,
+      "glowColor": 4646873,
+      "animSpd": 1.6
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {
+        "fxInnerColor": 16751872,
+        "fxStartFrame": 3,
+        "fxOuterColor": 16731676
+      },
+      "lockCtrlAfter": 0,
+      "props": {},
+      "onionSkinFrame": 5,
+      "breachBonus": -1,
+      "onionSkinOffX": -7,
+      "dynamicCharge": 0,
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_magicmiss2.wav",
+      "fxId": "fxAtkPunchA",
+      "animId": "throw",
+      "sfxHit": "sfx/weapon/weapon_iceshock_hit.wav",
+      "hitFrame": 7,
+      "critMul": 0.75,
+      "glowColor": 14620953,
+      "animSpd": 1.6
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {
+        "fxInnerColor": 16715535,
+        "fxStartFrame": 3,
+        "fxOuterColor": 16733268
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "onionSkinFrame": 7,
+      "breachBonus": -1,
+      "onionSkinOffX": 10,
+      "dynamicCharge": 0,
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_magicmiss1.wav",
+      "fxId": "fxAtkPunchB",
+      "animId": "atkPunchC",
+      "sfxHit": "sfx/weapon/weapon_iceshock_hit.wav",
+      "hitFrame": 4,
+      "critMul": 0.75,
+      "glowColor": 14620953,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 94
+}

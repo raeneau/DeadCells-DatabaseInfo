@@ -1,0 +1,105 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "MultiKickBoots",
+  "strikeChain": [
+    {
+      "coolDown": 0.25,
+      "power": [
+        55
+      ],
+      "fxProps": {
+        "fxInnerColor": 13688063
+      },
+      "lockCtrlAfter": 0.06,
+      "props": {},
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 2.75,
+        "offsetCaseX": 0.3,
+        "offsetCaseY": -0.5,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
+      "fxId": "fxComboKickA",
+      "animId": "comboKickA",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
+      "hitFrame": 8,
+      "glowColor": 14667198
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {
+        "fxInnerColor": 16761353
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.3
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 2.75,
+        "offsetCaseX": 0.8,
+        "offsetCaseY": -0.2,
+        "height": 1,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_multikick_release.wav",
+      "fxId": "fxComboKickB",
+      "animId": "comboKickB",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
+      "hitFrame": 5,
+      "glowColor": 14667198
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        75
+      ],
+      "fxProps": {
+        "fxInnerColor": 16761353
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 1,
+        "duration": 0.6
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "charge": 0.35,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 11,
+        "offsetCaseX": -5.5,
+        "offsetCaseY": -0.6,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_multikick_release2.wav",
+      "fxId": "fxComboKickC",
+      "animId": "comboKickC",
+      "sfxHit": "sfx/weapon/weapon_kick_hit.wav",
+      "hitFrame": 5,
+      "glowColor": 14667198,
+      "animSpd": 1.25
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 21
+}

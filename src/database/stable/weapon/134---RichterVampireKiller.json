@@ -1,0 +1,48 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "RichterVampireKiller",
+  "strikeChain": [
+    {
+      "coolDown": 0.2,
+      "power": [
+        80
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "range": 0.3,
+        "altAnim": "richterMode_whipAtkCrouch",
+        "hitFx": "richterMode_whipAtkCrouchFx"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_vampireKiller_Richter_charge.wav",
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.7,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_vampireKiller_Richter_release.wav",
+      "fxId": "richterMode_whipAtkFx",
+      "animId": "richterMode_whipAtk",
+      "sfxHit": "sfx/weapon/purpleDLC_vampireKiller_Richter_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.4,
+      "glowColor": 16777215,
+      "animSpd": 1.2
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 134
+}

@@ -35,4 +35,7 @@ export default {
 
   HUNTERSGRENADE: grenadeNames.HUNTERS_GRENADE,
   POKEBOMB: grenadeNames.HUNTERS_GRENADE,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  HOLYWATER: grenadeNames.HOLYWATER,
 };

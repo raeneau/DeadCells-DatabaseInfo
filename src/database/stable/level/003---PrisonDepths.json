@@ -1,0 +1,160 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "minPerfectKillsMobCount": 0.5,
+    "doorColor": 8268995,
+    "musicIntro": "music/default/PrisonDepth.ogg",
+    "viewerColor": 6310313,
+    "viewerOffsetX": -1,
+    "musicLoop": "music/default/DC_Prison.ogg",
+    "zDoorColor": 2540926,
+    "noAdditionalElite": false,
+    "viewerY": -1.5,
+    "chromaColor": 10551551,
+    "biomeType": 2,
+    "loadingDescColor": 7562692,
+    "loadingColor": 1184554
+  },
+  "biome": "PrisonDepths",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 3,
+  "id": "PrisonDepths",
+  "worldDepth": 1,
+  "icon": {
+    "x": 49,
+    "y": 22,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Fogger",
+      "minDifficulty": 0,
+      "quantityFactor": 0.8,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Hammer",
+      "minDifficulty": 0,
+      "quantityFactor": 1.5,
+      "minCombatRoomsBefore": 2
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Comboter",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 1
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Rampager",
+      "minDifficulty": 3,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Spinner",
+      "minDifficulty": 0,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Archer",
+      "maxDifficulty": 0,
+      "minDifficulty": 0,
+      "quantityFactor": 2,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "KunaiMaster",
+      "minDifficulty": 1,
+      "quantityFactor": 3,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "BatKamikaze",
+      "minDifficulty": 0,
+      "quantityFactor": 1,
+      "minCombatRoomsBefore": 0
+    },
+    {
+      "singleRoom": false,
+      "props": {},
+      "spawnWith": [],
+      "mob": "Zombie",
+      "maxDifficulty": 2,
+      "minDifficulty": 0,
+      "quantityFactor": 8,
+      "minCombatRoomsBefore": 0
+    }
+  ],
+  "name": "Profondeurs de la Prison",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "mapDepth": 2,
+  "specificSubBiome": [],
+  "minGold": 500,
+  "tripleUps": 0,
+  "nextLevels": [
+    {
+      "level": "T_OssuaryAfterPrison"
+    },
+    {
+      "level": "T_SwampAfterPrison"
+    },
+    {
+      "level": "T_SewerDepthsAfterPrison"
+    }
+  ],
+  "flagsProps": {
+    "lootFlags": 32,
+    "visualFlags": 0,
+    "metaFlags": 0,
+    "gameplayFlags": 0,
+    "genFlags": 0
+  },
+  "baseLootLevel": 3,
+  "loreDescriptions": [
+    {
+      "text": "Les pires prisonniers étaient enfermés ici, en compagnie des pires gardiens."
+    },
+    {
+      "text": "Peu de prisonniers ont réussi à purger leur peine dans ces quartiers et à en sortir vivants. Aucun, en fait."
+    },
+    {
+      "text": "\"Etre transféré dans les Profondeurs\", ça revient à dire qu'on va s'faire exécuter. Et à vrai dire, vous préféreriez qu'ils vous pendent."
+    }
+  ],
+  "parallax": [],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 3
+}

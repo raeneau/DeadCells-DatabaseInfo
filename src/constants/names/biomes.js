@@ -86,5 +86,23 @@ export default {
     NAME: "Derelict Distillery",
   },
 
+  CASTLEOUTSKIRTS: {
+    INTERNAL_ID: "PURPLEGARDEN",
+    TYPE: LEVEL,
+    NAME: "Castle Outskirts",
+  },
+
+  DRACULASCASTLE: {
+    INTERNAL_ID: "DOOKUCASTLE",
+    TYPE: LEVEL,
+    NAME: "Dracula's Castle",
+  },
+
+  DRACULASCASTLEHARD: {
+    INTERNAL_ID: "DOOKUCASTLE",
+    TYPE: LEVEL,
+    NAME: "Dracula's Castle (Hard)",
+  },
+
   ASTROLAB: { INTERNAL_ID: "ASTROLAB", TYPE: LEVEL, NAME: "Astrolab" },
 };

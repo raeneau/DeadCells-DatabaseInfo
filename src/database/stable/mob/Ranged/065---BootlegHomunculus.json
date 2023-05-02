@@ -1,0 +1,110 @@
+{
+  "props": {
+    "speed": 2,
+    "noContactAttack": true,
+    "color": 6226431
+  },
+  "genTags": 512,
+  "glowOuterColor": 44192,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "LightningRod",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Common",
+      "item": "PrisonerBootleg",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 2,
+  "group": 1,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 65,
+  "volteDelay": 0.2,
+  "id": "BootlegHomunculus",
+  "dlc": "FatalFalls",
+  "weight": 10,
+  "icon": {
+    "x": 6,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Homonculus Attrophié",
+  "minPfHeight": 0,
+  "glowInnerColor": 60317,
+  "minPfSize": 3,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "flesh1": 5914137,
+  "flesh2": 8152895,
+  "skill": [
+    {
+      "chargeAnim": "headPopLoop",
+      "coolDown": 3,
+      "power": [
+        3
+      ],
+      "props": {
+        "speed": 1.2,
+        "range": 10,
+        "duration2": 0.1,
+        "dps": 3,
+        "distance": 15,
+        "tick": 0.5,
+        "duration": 5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_bootleg_charge2.wav",
+      "charge": 1,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 0.45,
+      "execAnim": "headPopStart",
+      "id": "throwHead",
+      "sfxRelease": "sfx/hero/homunculus_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 20,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "headPopLoop",
+      "coolDown": 1,
+      "power": [
+        3
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 0.75,
+      "chargeAnimSpd": 0.75,
+      "execAnim": "headPopEnd",
+      "id": "recallHead",
+      "sfxRelease": "sfx/hero/homunculus_comeback.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 20,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 65
+}

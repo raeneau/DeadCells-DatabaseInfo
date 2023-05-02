@@ -91,6 +91,8 @@ function UserInputScreen() {
   };
 
   function onSubmit() {
+    const { onChange } = props;
+
     // The user set a value. Let's hide the info on the screen.
     inputSubmitted = true;
 
@@ -104,6 +106,8 @@ function UserInputScreen() {
     //   search: "?query=abc",
     //   state: { detail: "some_value" },
     // });
+
+    // onChange(value.userInputValue);
   }
 
   function handleKeyDown(event) {

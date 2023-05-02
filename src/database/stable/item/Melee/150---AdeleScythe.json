@@ -1,0 +1,34 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "DLCP_ADELE_SCYTHE_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_ADELE_SCYTHE_AMBIANTDESC",
+  "id": "AdeleScythe",
+  "dlc": "Purple",
+  "icon": {
+    "x": 25,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "CascadingGhosts"
+    }
+  ],
+  "name": "DLCP_ADELE_SCYTHE_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 150
+}

@@ -1,0 +1,160 @@
+{
+  "props": {
+    "range": 7,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 512,
+  "glowOuterColor": 16726016,
+  "pfCost": 0.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "HauntedArmor",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 46,
+  "volteDelay": 0.8,
+  "id": "LancerPurple",
+  "dlc": "Purple",
+  "weight": 10,
+  "icon": {
+    "x": 60,
+    "y": 30,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    150
+  ],
+  "name": "DLCP_LANCERPURPLE_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16776323,
+  "minPfSize": 6,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 3,
+  "flesh1": 4021759,
+  "flesh2": 15255845,
+  "skill": [
+    {
+      "coolDown": 3,
+      "power": [
+        7
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_lancerPurple_charge1.wav",
+      "charge": 0.6,
+      "manual": true,
+      "id": "cc1",
+      "sfxRelease": "sfx/enm/enm_lancerPurple_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 13,
+      "breachResistance": 0.7,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        7
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_lancerPurple_charge2.wav",
+      "charge": 0.3,
+      "manual": true,
+      "id": "cc2",
+      "sfxRelease": "sfx/enm/enm_lancerPurple_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0.6,
+      "lockAiAfter": 0.1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        7
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_lancerPurple_charge2.wav",
+      "charge": 0.4,
+      "manual": true,
+      "id": "cc3",
+      "sfxRelease": "sfx/enm/enm_lancerPurple_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 13,
+      "breachResistance": 0.6,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_lancerPurple_charge3.wav",
+      "charge": 1,
+      "manual": true,
+      "id": "ccBot",
+      "sfxRelease": "sfx/enm/enm_lancerPurple_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 0.3,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 2,
+      "power": [
+        10
+      ],
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_lancerPurple_charge3.wav",
+      "charge": 1,
+      "manual": true,
+      "id": "ccTop",
+      "sfxRelease": "sfx/enm/enm_lancerPurple_release1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.3,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 46
+}

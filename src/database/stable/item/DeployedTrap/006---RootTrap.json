@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Root",
+      "trigger": true
+    }
+  ],
   "props": {
     "triggerOnHit": true,
     "dps": 34,
@@ -18,17 +24,24 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "IceOnStop"
+    }
+  ],
   "name": "Piège à loups",
   "droppable": true,
   "tags": [
     {
       "tag": "Deployable"
+    },
+    {
+      "tag": "AutoUnlocked"
     }
   ],
   "tier1": "Survival",
   "tier2": "Tactic",
   "cellCost": 0,
-  "legendAffix": "OilDeploy",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 6

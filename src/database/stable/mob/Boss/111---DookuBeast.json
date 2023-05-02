@@ -1,0 +1,445 @@
+{
+  "props": {
+    "range": 1.35,
+    "noContactAttack": true,
+    "combatMusic": "music/default/Dracula_phase2_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.1
+    ],
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.7,
+    "combatMusicIntro": "music/default/Dracula_phase2_intro.ogg",
+    "cannotBeHooked": true,
+    "noHitDistort": true,
+    "cellLoot": 40,
+    "bumpResistance": 100,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 516,
+  "glowOuterColor": 8661003,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "VampireKiller",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "DookuDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Dooku1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Dooku2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Dooku3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Dooku4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessDooku",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 5,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 111,
+  "volteDelay": 0,
+  "id": "DookuBeast",
+  "dlc": "Purple",
+  "weight": 50,
+  "icon": {
+    "x": 39,
+    "y": 18,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    15000
+  ],
+  "name": "Dooku Beast",
+  "minPfHeight": 0,
+  "glowInnerColor": 16749329,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [
+    {
+      "item": "BossRune1",
+      "minDifficulty": 0
+    },
+    {
+      "item": "BossRune2",
+      "minDifficulty": 1
+    },
+    {
+      "item": "BossRune3",
+      "minDifficulty": 2
+    },
+    {
+      "item": "BossRune4",
+      "minDifficulty": 3
+    }
+  ],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": 10,
+      "props": {
+        "speed": 0.05,
+        "bump": 0.011,
+        "move": 0.55,
+        "duration": 1.5
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_laser_charge.wav",
+      "charge": 0.7,
+      "manual": true,
+      "id": "headLaser",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_laser_shot.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 25,
+      "props": {
+        "bump": 0.02,
+        "move": 1,
+        "duration": 2
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_onHeroLaser_charge.wav",
+      "charge": 0.35,
+      "manual": true,
+      "id": "onHeroHeadLaser",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_onHeroLaser_release.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 10,
+      "props": {
+        "duration": 1.5
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_laser_charge.wav",
+      "charge": 0.7,
+      "manual": true,
+      "id": "targetHeadLaser",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_laser_shot.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 12,
+      "props": {
+        "distance": 5.2
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_giant_laser_charge.wav",
+      "charge": 0.65,
+      "manual": true,
+      "id": "platformStompFromBg",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_platform_stomp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 10,
+      "props": {
+        "distance": 5.2
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_giant_laser_charge.wav",
+      "charge": 0.5,
+      "manual": true,
+      "id": "platformStomp",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_platform_stomp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 7,
+      "power": 20,
+      "props": {
+        "speed": 5,
+        "duration": 1.8
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeast_goBackground.wav",
+      "charge": 1.7,
+      "manual": true,
+      "id": "screenFlight",
+      "sfxRelease": "sfx/enm/purpleDLC_dookuBeast_screenFlight.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 20,
+      "props": {},
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_summon1.wav",
+      "charge": 2,
+      "manual": true,
+      "id": "spawnMobs",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_summon2.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 7,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeasat_grabWall_release.wav",
+      "charge": 0.5,
+      "manual": true,
+      "id": "grabWall",
+      "sfxRelease": "sfx/enm/purpleDLC_dookuBeast_grabWall.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 6,
+      "power": 10,
+      "props": {
+        "speed": 0.3,
+        "count": 25,
+        "distance": 0.75,
+        "duration": 4.5
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeast_wallRocks_charge.wav",
+      "charge": 0,
+      "manual": true,
+      "id": "wallRocks",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeast_phaseAttack_charge.wav",
+      "charge": 1,
+      "manual": true,
+      "id": "goBackground",
+      "sfxRelease": "sfx/enm/purpleDLC_dookuBeast_goBackground.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 20,
+      "props": {
+        "speed": 0.2,
+        "height": 78,
+        "move": 0.35,
+        "count": 30,
+        "distance": 45,
+        "duration": 11
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "charge": 2,
+      "manual": true,
+      "id": "phaseAttack",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 30,
+      "props": {},
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "charge": 0.5,
+      "manual": true,
+      "id": "phaseAttackEnd",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 1.8,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0,
+      "power": 12,
+      "props": {
+        "speed": 0.7,
+        "delay": 0.15,
+        "height": -3.2,
+        "move": 0.6
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeast_fireBall_charge.wav",
+      "charge": 0.7,
+      "manual": true,
+      "id": "fireBall",
+      "sfxRelease": "sfx/enm/purpleDLC_dookuBeast_fireBall_release.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/purpleDLC_dookuBeast_fireBall_hit.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 4,
+      "power": 12,
+      "props": {
+        "width": 1.5,
+        "delay": 0.55,
+        "height": 25,
+        "count": 3
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_kindleFire_charge.wav",
+      "charge": 2,
+      "manual": true,
+      "id": "kindleFire",
+      "sfxRelease": "sfx/enm/enm_purpleDLC_dookuBeast_kindleFire_release.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 6,
+      "power": [
+        5
+      ],
+      "props": {
+        "speed": 0.6,
+        "range": 11,
+        "width": 0.11,
+        "delay": 0.007,
+        "canTriggerThroughWall": true,
+        "y": 13,
+        "height": 0.65,
+        "count": 300,
+        "distance": 11
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_purpleDLC_dookuBeast_batVolley_charge.wav",
+      "charge": 0.7,
+      "manual": true,
+      "id": "batVolley",
+      "sfxRelease": "sfx/enm/dracula_bats.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 8,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 4,
+      "power": 15,
+      "props": {
+        "width": 8,
+        "height": 2.5,
+        "duration": 0.4
+      },
+      "allowInAir": true,
+      "radius": 40,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_dookuBeast_grab_charge.wav",
+      "charge": 0.8,
+      "manual": true,
+      "id": "grab",
+      "sfxRelease": "sfx/enm/purpleDLC_dookuBeast_grab_release.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_purpleDLC_dookuBeast_grab_hit.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 2.75,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Boss",
+  "__original_Index": 111
+}

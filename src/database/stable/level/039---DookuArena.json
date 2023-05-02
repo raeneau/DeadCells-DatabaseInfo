@@ -1,0 +1,2294 @@
+{
+  "eliteRoomChance": 0,
+  "props": {
+    "doorColor": 2409897,
+    "musicIntro": "music/default/Prologue_intro.ogg",
+    "viewerColor": 3425097,
+    "musicLoop": "music/default/Prologue_loop.ogg",
+    "zDoorColor": 2538921,
+    "viewerY": 2.5,
+    "chromaColor": 51199,
+    "biomeType": 1,
+    "loadingDescColor": 4777143,
+    "loadingColor": 397849
+  },
+  "biome": "DookuArena",
+  "doubleUps": 0,
+  "group": 0,
+  "quarterUpsBC3": 0,
+  "quarterUpsBC4": 0,
+  "eliteWanderChance": 0,
+  "index": 39,
+  "id": "DookuArena",
+  "dlc": "Purple",
+  "worldDepth": 8,
+  "icon": {
+    "x": 60,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "cellBonus": 0,
+  "mobs": [],
+  "name": "Dooku Arena",
+  "mobDensity": 1,
+  "specificLoots": [],
+  "mapDepth": 9,
+  "specificSubBiome": [],
+  "minGold": 3000,
+  "tripleUps": 0,
+  "nextLevels": [],
+  "flagsProps": {
+    "lootFlags": 3,
+    "visualFlags": 0,
+    "metaFlags": 1,
+    "gameplayFlags": 0,
+    "genFlags": 1
+  },
+  "baseLootLevel": 8,
+  "loreDescriptions": [
+    {
+      "text": "DLCP_DOOKU_LOREDESC_1"
+    },
+    {
+      "text": "DLCP_DOOKU_LOREDESC_2"
+    },
+    {
+      "text": "DLCP_DOOKU_LOREDESC_3"
+    },
+    {
+      "text": "DLCP_DOOKU_LOREDESC_4"
+    },
+    {
+      "text": "DLCP_DOOKU_LOREDESC_5"
+    }
+  ],
+  "parallax": [
+    {
+      "tileName": "arena1/pillarLeft1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 813,
+        "offsetY": 1633
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarLeft1",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.95,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarRight1",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "normalMap": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 1540,
+        "offsetY": 1633
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarRight1",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.95,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarLeft2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.5
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 776,
+        "offsetY": 1677
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarLeft2CorrectLight",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarLeft2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 776,
+        "offsetY": 1677
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarLeft2",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.85,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarRight2",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.5
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 1491,
+        "offsetY": 1677
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarRight2CorrectLight",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundNear",
+      "scrollX": 0.85,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarRight2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 1491,
+        "offsetY": 1677
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarRight2",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.85,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarLeft3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 912,
+        "offsetY": 1717
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarLeft3",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.75,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/pillarRight3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 1456,
+        "offsetY": 1717
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_PillarRight3",
+      "color": 16777215,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.75,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/lightsBG",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 476,
+        "offsetY": 1412
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_Light",
+      "scatter": false,
+      "blendMode": 2,
+      "layer": "BackgroundNear",
+      "scrollX": 0.65,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/hotel",
+      "visible": true,
+      "isCloud": false,
+      "outerGlow": 4805193,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 904,
+        "offsetY": 1670
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_hotel",
+      "scatter": false,
+      "innerGlow": 11315096,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.65,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/hotel_destroyed",
+      "visible": false,
+      "isCloud": false,
+      "outerGlow": 4805193,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 904,
+        "offsetY": 1670
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_hotel_destroyed",
+      "scatter": false,
+      "innerGlow": 11315096,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.65,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/archBack1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 697,
+        "offsetY": 1440
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_archBack1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.5,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/archBack1_destroyed",
+      "visible": false,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 697,
+        "offsetY": 1440
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_archBack1_destroyed",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.5,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/archBack2",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 182,
+        "offsetY": 1327
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_archBack2",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.45,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/archBack3",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 366,
+        "offsetY": 1323
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_archBack3",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.4,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena1/backgroundArena1",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 591,
+        "offsetY": 1462
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_backgroundArena1",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.35,
+      "scrollY": 1
+    },
+    {
+      "tileName": "entrance/entranceBuildingExtension",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 2636,
+        "offsetY": 1300
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_entranceExtension",
+      "color": 3621211,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.65,
+      "scrollY": 0.65
+    },
+    {
+      "tileName": "entrance/entranceColumns",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "flipX": true
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0,
+        "offsetX": 2300,
+        "offsetY": 2400
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_entrance",
+      "color": 273,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundNear",
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "rotation": 0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.8,
+        "levelY": -0.08
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand_0",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 72,
+        "rotation": 0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.8,
+        "levelY": -0.08
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand_1",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 144,
+        "rotation": 0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.8,
+        "levelY": -0.08
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand_2",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 216,
+        "rotation": 0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.8,
+        "levelY": -0.08
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand_3",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 288,
+        "rotation": 0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.8,
+        "levelY": -0.08
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand_4",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.15,
+      "scrollY": 0.15
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "rotation": 0.0001,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": -0.1
+      },
+      "pivotX": 0.92,
+      "pivotY": 0.07,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand2_0",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 72,
+        "rotation": 0.0001,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": -0.1
+      },
+      "pivotX": 0.92,
+      "pivotY": 0.07,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand2_1",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 144,
+        "rotation": 0.0001,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": -0.1
+      },
+      "pivotX": 0.92,
+      "pivotY": 0.07,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand2_2",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 216,
+        "rotation": 0.0001,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": -0.1
+      },
+      "pivotX": 0.92,
+      "pivotY": 0.07,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand2_3",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 288,
+        "rotation": 0.0001,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": -0.1
+      },
+      "pivotX": 0.92,
+      "pivotY": 0.07,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DA_cloudBand2_4",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "entrance/cloudsFarAway",
+      "visible": true,
+      "isCloud": false,
+      "props": {},
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_cloudsFarAway",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/moon",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.3,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.62,
+        "levelY": 0.45
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      "name": "DA_moon",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/moon",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.62,
+        "levelY": 0.45
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      "name": "DA_scatter",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "entrance/stars",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.5,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DA_stars",
+      "scatter": false,
+      "blendMode": 1,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/sky",
+      "visible": true,
+      "isCloud": false,
+      "props": {
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "name": "DA_sky",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/rampRedAmbiant",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customDepth": 14
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0,
+        "levelY": 0
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "toX": 10,
+        "hfill": 1,
+        "fromX": -10,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 2,
+        "scaleY": 100
+      },
+      "name": "DBA_rampRedAmbiant",
+      "scatter": false,
+      "blendMode": 2,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/columnLeft",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "normalMap": true,
+        "customDepth": 4,
+        "scrollY": -20
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.22,
+        "levelY": 1,
+        "offsetX": -225,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_leftColumn",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena2/bg/columnLeft",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "normalMap": true,
+        "flipX": true,
+        "customDepth": 4,
+        "scrollY": -20
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.22,
+        "levelY": 1,
+        "offsetX": 890,
+        "offsetY": -1000
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_rightColumn",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 1,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena2/bg/arcBridge",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 0,
+        "count": 6,
+        "customDepth": 2,
+        "scrollY": -18,
+        "duration": 2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_arcBridgeLeft",
+      "color": 7308453,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.88,
+      "scrollY": 0.88
+    },
+    {
+      "tileName": "arena2/bg/arcBridge",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 0,
+        "flipX": true,
+        "count": 6,
+        "customDepth": 2,
+        "scrollY": -18,
+        "duration": 2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_arcBridgeRight",
+      "color": 7308453,
+      "scatter": false,
+      "blendMode": 0,
+      "scrollX": 0.88,
+      "scrollY": 0.88
+    },
+    {
+      "tileName": "entrance/entranceBuildingExtension",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 0,
+        "count": 3,
+        "customDepth": 2,
+        "scrollY": -18,
+        "duration": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.21,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_towerExtensionLeft",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.88
+    },
+    {
+      "tileName": "entrance/entranceBuildingExtension",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 0,
+        "flipX": true,
+        "count": 3,
+        "customDepth": 2,
+        "scrollY": -18,
+        "duration": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.4,
+        "levelY": 1
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_towerExtensionRight",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "MainBackWalls",
+      "scrollX": 0.88,
+      "scrollY": 0.88
+    },
+    {
+      "tileName": "arena2/bg/fallingStaires",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 200,
+        "count": 5,
+        "customDepth": 2,
+        "scrollY": -1.5,
+        "duration": 20
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.35,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_fallingStaires",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "arena2/bg/fallingColumn",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 200,
+        "count": 5,
+        "customDepth": 2,
+        "scrollY": -1.2,
+        "duration": 20
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.25,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_fallingColumn",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "arena2/bg/fallingArc",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 300,
+        "count": 5,
+        "customDepth": 2,
+        "scrollY": -1.1,
+        "duration": 20
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 0
+      },
+      "name": "DBA_fallingArc",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0.5,
+      "scrollY": 0.5
+    },
+    {
+      "tileName": "arena2/bg/cloudWind0",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 700,
+        "alpha": 0.15,
+        "count": 0,
+        "customDepth": 15,
+        "scrollY": -50,
+        "duration": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudWind0",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainFrontWallsFX",
+      "scrollX": 2,
+      "scrollY": 2
+    },
+    {
+      "tileName": "arena2/bg/cloudWind1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 700,
+        "alpha": 0.15,
+        "count": 0,
+        "customDepth": 15,
+        "scrollY": -50,
+        "duration": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudWind1",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainFrontWallsFX",
+      "scrollX": 2,
+      "scrollY": 2
+    },
+    {
+      "tileName": "arena2/bg/cloudWind2",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 700,
+        "alpha": 0.15,
+        "count": 0,
+        "customDepth": 15,
+        "scrollY": -50,
+        "duration": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudWind2",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainFrontWallsFX",
+      "scrollX": 2,
+      "scrollY": 2
+    },
+    {
+      "tileName": "arena2/bg/cloudWind3",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 700,
+        "alpha": 0.15,
+        "count": 0,
+        "customDepth": 15,
+        "scrollY": -50,
+        "duration": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudWind3",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainFrontWallsFX",
+      "scrollX": 2,
+      "scrollY": 1
+    },
+    {
+      "tileName": "arena2/bg/cloudWind4",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 700,
+        "alpha": 0.15,
+        "count": 0,
+        "customDepth": 15,
+        "scrollY": -50,
+        "duration": 0.2
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.3,
+        "levelY": 1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudWind4",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "MainFrontWallsFX",
+      "scrollX": 2,
+      "scrollY": 2
+    },
+    {
+      "tileName": "arena2/bg/cloudLV0",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 300,
+        "alpha": 0.8,
+        "count": 2,
+        "customDepth": 1,
+        "scrollY": -6,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.1,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudLV0",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "arena2/bg/cloudLV1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 300,
+        "alpha": 0.8,
+        "count": 1,
+        "customDepth": 1,
+        "scrollY": -5.5,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.1,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudLV1",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudLV2",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 300,
+        "alpha": 0.8,
+        "count": 2,
+        "customDepth": 1,
+        "scrollY": -5,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.1,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudLV2",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudRV0",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 200,
+        "alpha": 0.8,
+        "count": 2,
+        "customDepth": 1,
+        "scrollY": -6,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudRV0",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.2,
+      "scrollY": 0.2
+    },
+    {
+      "tileName": "arena2/bg/cloudRV1",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 200,
+        "alpha": 0.8,
+        "count": 2,
+        "customDepth": 1,
+        "scrollY": -5.5,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudRV1",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudRV2",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "range": 200,
+        "alpha": 0.8,
+        "count": 0,
+        "customDepth": 1,
+        "scrollY": -5,
+        "duration": 8
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.65,
+        "levelY": 1.1
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudRV2",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0.1,
+      "scrollY": 0.1
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "rotation": 0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": -1
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand_0",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 72,
+        "rotation": 0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": -1
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand_1",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 144,
+        "rotation": 0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": -1
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand_2",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 216,
+        "rotation": 0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": -1
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand_3",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 288,
+        "rotation": 0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.75,
+        "levelY": -1
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand_4",
+      "color": 1646156,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "rotation": -0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.18,
+        "levelY": -0.8
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand2_0",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 72,
+        "rotation": -0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.18,
+        "levelY": -0.8
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand2_1",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 144,
+        "rotation": -0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.18,
+        "levelY": -0.8
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand2_2",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 216,
+        "rotation": -0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.18,
+        "levelY": -0.8
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand2_3",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudBand",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "angle": 288,
+        "rotation": -0.0005,
+        "customDepth": 1
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.18,
+        "levelY": -0.8
+      },
+      "pivotX": 0.92,
+      "pivotY": -0.3,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudBand2_4",
+      "color": 2171697,
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloudMask",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": -0.12,
+        "levelY": -0.12
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloudMask",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/cloud0",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customCentered": true,
+        "rotation": -0.0005,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.62,
+        "levelY": 0.45
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 1.24,
+        "scaleY": 1.24
+      },
+      "name": "DBA_cloud0",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/moon",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "alpha": 0.3,
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.62,
+        "levelY": 0.45
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      "name": "DBA_moon",
+      "scatter": false,
+      "blendMode": 1,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/moon",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.62,
+        "levelY": 0.45
+      },
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "fill": {
+        "hfill": 0,
+        "vfill": 0
+      },
+      "scaling": {
+        "type": 2,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      "name": "DBA_scatter",
+      "scatter": true,
+      "blendMode": 0,
+      "scrollX": 0,
+      "scrollY": 0
+    },
+    {
+      "tileName": "arena2/bg/sky",
+      "visible": false,
+      "isCloud": false,
+      "props": {
+        "customDepth": 0
+      },
+      "reflected": false,
+      "position": {
+        "levelX": 0.25,
+        "levelY": -0.25
+      },
+      "pivotX": 0,
+      "pivotY": 0,
+      "fill": {
+        "hfill": 1,
+        "vfill": 1
+      },
+      "scaling": {
+        "type": 1,
+        "scaleX": 1.5,
+        "scaleY": 1.5
+      },
+      "name": "DBA_sky",
+      "scatter": false,
+      "blendMode": 0,
+      "layer": "BackgroundFar",
+      "scrollX": 0,
+      "scrollY": 0
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "MainLevels",
+  "__original_Index": 39
+}

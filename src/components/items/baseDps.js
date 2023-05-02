@@ -49,6 +49,13 @@ BaseDps.propTypes = {
     }),
   ),
   internalId: PropTypes.string,
+  itemJson: PropTypes.shape({
+    props: PropTypes.shape({
+      tick: PropTypes.number,
+      count: PropTypes.number,
+      ammo: PropTypes.number,
+    }),
+  }).isRequired,
 };
 
 BaseDps.defaultProps = {

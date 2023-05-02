@@ -1,0 +1,56 @@
+{
+  "synergy": [
+    {
+      "tag": "Stun",
+      "trigger": true
+    }
+  ],
+  "props": {
+    "scaledValueCap": 5,
+    "duration2": 2.5,
+    "castTime": 0.1,
+    "lock": 0.4,
+    "prct": 0.4,
+    "distance": 13,
+    "customScaling": 0.1,
+    "duration": 1
+  },
+  "gameplayDesc": "Attire un ennemi à vous. La prochaine attaque contre l'ennemi inflige +::*prct::% dégâts et l'étourdit pendant ::duration:: sec.",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 3,
+  "ambiantDesc": "Oui, comme Scorpion dans Mortal Kombat.",
+  "id": "Hook",
+  "icon": {
+    "x": 2,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "FireOnUse"
+    }
+  ],
+  "name": "Grappin",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "ShortCooldown"
+    },
+    {
+      "tag": "NoDamage"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 40,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 33
+}

@@ -1,0 +1,63 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.1,
+    "isTrashMob": true
+  },
+  "genTags": 1536,
+  "glowOuterColor": 12386346,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 3,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 82,
+  "volteDelay": 0.9,
+  "id": "EliteSideKick",
+  "weight": 0,
+  "icon": {
+    "x": 42,
+    "y": 21,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    100
+  ],
+  "name": "Lieutenant d'Élite",
+  "minPfHeight": 0,
+  "glowInnerColor": 16580433,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "flesh1": 5669211,
+  "flesh2": 12303527,
+  "skill": [
+    {
+      "coolDown": 0.3,
+      "power": [
+        6
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 1.2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_zmb_cc.wav",
+      "charge": 1.1,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 3,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Support",
+  "__original_Index": 82
+}

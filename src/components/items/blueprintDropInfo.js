@@ -29,7 +29,7 @@ function BlueprintDropInfo(props) {
         <tr>
           <td>Drop Chance</td>
           <td>
-            {blueprintInfo.dropChance}% ({blueprintInfo.bcRequirement || 0} BC+)
+            {blueprintInfo.dropChance} ({blueprintInfo.bcRequirement || 0} BC+)
           </td>
         </tr>
       )}

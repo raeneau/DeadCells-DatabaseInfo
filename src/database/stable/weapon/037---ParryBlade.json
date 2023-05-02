@@ -1,0 +1,111 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "ParryBlade",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": 0.2,
+        "duration": 0.2
+      },
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_doublefan_charge.wav",
+      "charge": 0.18,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_doublefan_release1.wav",
+      "fxId": "fxAtkFanA",
+      "animId": "atkFanA",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.85,
+      "glowColor": 16449353,
+      "animSpd": 1.25
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.3,
+        "duration": 0.4
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_doublefan_charge.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_doublefan_release2.wav",
+      "fxId": "fxAtkFanB",
+      "animId": "atkFanB",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 12,
+      "critMul": 0.85,
+      "glowColor": 16449353,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.2,
+        "duration": 0.2
+      },
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_doublefan_charge.wav",
+      "charge": 0.25,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_doublefan_release2.wav",
+      "fxId": "fxAtkFanC",
+      "animId": "atkFanC",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 7,
+      "critMul": 0.85,
+      "glowColor": 16449353,
+      "animSpd": 2
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 37
+}

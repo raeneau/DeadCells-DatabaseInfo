@@ -1,0 +1,105 @@
+{
+  "props": {
+    "speed": 2,
+    "far": 8,
+    "moveSpeedMul": 1.6,
+    "near": 5
+  },
+  "genTags": 512,
+  "glowOuterColor": 16726016,
+  "pfCost": 1.5,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "ThrowingAxe",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "HauntedArmor",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 42,
+  "volteDelay": 0.8,
+  "id": "HauntedArmor",
+  "dlc": "Purple",
+  "weight": 10,
+  "icon": {
+    "x": 37,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "DLCP_HAUNTEDARMOR_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16776323,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 2,
+  "flesh1": 4021759,
+  "flesh2": 15255845,
+  "skill": [
+    {
+      "chargeAnim": "loadAtk",
+      "coolDown": 0.8,
+      "power": [
+        12
+      ],
+      "props": {
+        "height": 2
+      },
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "charge": 0.45,
+      "manual": false,
+      "execAnim": "atk",
+      "id": "cc",
+      "sfxRelease": "sfx/enm/enm_HauntedArmor_Attack.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 21,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.8,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkThrowAxe",
+      "coolDown": 1.5,
+      "power": [
+        10
+      ],
+      "props": {
+        "ang": 1.3,
+        "power2": 0.5,
+        "distance": 2,
+        "tick": 0.5,
+        "triggerDistance": 10
+      },
+      "allowInAir": false,
+      "radius": 7,
+      "allowSameSkillNearby": false,
+      "charge": 0.3,
+      "manual": true,
+      "id": "throw",
+      "sfxRelease": "sfx/weapon/purpleDLC_Axe.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 12,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0.8,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 42
+}

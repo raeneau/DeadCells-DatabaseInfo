@@ -1,0 +1,136 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1
+  },
+  "genTags": 0,
+  "glowOuterColor": 16737536,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "BarrelLauncher",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 1,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 63,
+  "volteDelay": 0.5,
+  "id": "Hurler",
+  "weight": 10,
+  "icon": {
+    "x": 39,
+    "y": 63,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    250
+  ],
+  "name": "Travailleur Infecté",
+  "minPfHeight": 0,
+  "glowInnerColor": 16711849,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 2,
+  "flesh1": 14790629,
+  "flesh2": 14790629,
+  "skill": [
+    {
+      "coolDown": 1.5,
+      "props": {
+        "speed": 2,
+        "distance": 6,
+        "duration": 0.1
+      },
+      "allowInAir": false,
+      "radius": 6,
+      "allowSameSkillNearby": false,
+      "charge": 0,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "dodge",
+      "id": "jumpBack",
+      "sfxRelease": "sfx/enm/enm_archer_dodge1.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_zmb_cc.wav",
+      "charge": 0,
+      "manual": false,
+      "id": "getBarrel",
+      "sfxRelease": "sfx/enm/enm_grd_charge.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkA",
+      "coolDown": 0.8,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 2,
+      "allowSameSkillNearby": false,
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkA",
+      "id": "melee",
+      "sfxRelease": "sfx/enm/enm_hurler_melee.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 18,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkB",
+      "coolDown": 3,
+      "props": {
+        "x": 1,
+        "y": 3,
+        "height": 12,
+        "distance": 4
+      },
+      "allowInAir": false,
+      "radius": 10,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_hurler_grab.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "hurl",
+      "sfxRelease": "sfx/enm/enm_hurler_throw.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 63
+}

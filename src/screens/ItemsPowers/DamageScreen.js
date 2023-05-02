@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Local modules.
@@ -7,7 +8,7 @@ import BasicTimeDisplay from "../../components/common/basicTimeDisplay";
 
 // -----------------------------------------------------------------------------
 
-const DamageScreen = (props) => {
+function DamageScreen(props) {
   const { itemJson } = props;
 
   return (
@@ -47,6 +48,22 @@ const DamageScreen = (props) => {
       </table>
     </div>
   );
+}
+
+DamageScreen.propTypes = {
+  itemJson: PropTypes.shape({
+    props: PropTypes.shape({
+      aoeDuration: PropTypes.number,
+      castCD: PropTypes.number,
+      duration: PropTypes.number,
+      power: PropTypes.oneOfType([
+        PropTypes.arrayOf(PropTypes.number),
+        PropTypes.number,
+      ]),
+      power2: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.number)]),
+      tick: PropTypes.number,
+    }),
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------

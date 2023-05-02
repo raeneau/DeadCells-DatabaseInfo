@@ -1,0 +1,80 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "MoneyShooter",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        150
+      ],
+      "fxProps": {
+        "fxStartFrame": 2
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "speed": 2,
+        "range": 20
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_moneyshot_charge.wav",
+      "charge": 0.45,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "fxId": "fxAtkMoneyShooter/fxAtkAMoneyShooter",
+      "animId": "AtkMoneyShooterA",
+      "sfxHit": "sfx/env/arrow_hit.wav",
+      "hitFrame": 15,
+      "critMul": 1,
+      "glowColor": 16762880,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        150
+      ],
+      "fxProps": {
+        "fxStartFrame": 2
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "speed": 2,
+        "range": 20
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_moneyshot_charge.wav",
+      "charge": 0.45,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "fxId": "fxAtkMoneyShooter/fxAtkBMoneyShooter",
+      "animId": "AtkMoneyShooterB",
+      "sfxHit": "sfx/env/arrow_hit.wav",
+      "hitFrame": 15,
+      "critMul": 1,
+      "glowColor": 16762880,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 114
+}

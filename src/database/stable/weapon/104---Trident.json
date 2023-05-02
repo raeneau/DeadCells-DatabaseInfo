@@ -1,0 +1,116 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Trident",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {
+        "fxStartFrame": -3
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "speed": 0.75,
+        "bump": 0.1,
+        "threshold": 8,
+        "limit": 1.5
+      },
+      "breachBonus": 0.25,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_trident_charge2.wav",
+      "charge": 0.47,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 6.5,
+        "offsetCaseX": -1.5,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_trident_release2.wav",
+      "fxId": "fxTridentAtkB",
+      "animId": "AtkTridentB",
+      "sfxHit": "sfx/weapon/weapon_trident_hit2.wav",
+      "hitFrame": 15,
+      "critMul": 1.5,
+      "glowColor": 2206314
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        120
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "speed": 0.5,
+        "altAnim": "AtkTridentCLoad",
+        "duration2": 0.3,
+        "pct": 0.6,
+        "bump": 0.25,
+        "count": 0,
+        "tick": 0.05,
+        "duration": 0.25,
+        "limit": 1.5,
+        "aoeDuration": 0
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_trident_charge3.wav",
+      "charge": 1.25,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.2,
+        "height": 1.5,
+        "shape": 1
+      },
+      "animId": "AtkTridentC",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "glowColor": 2206314
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 2,
+        "offsetCaseY": -0.5,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_trident_release3.wav",
+      "fxId": "fxTridentAtkD",
+      "animId": "AtkTridentD",
+      "sfxHit": "sfx/weapon/weapon_katana_hit1.wav",
+      "hitFrame": 4,
+      "critMul": 1,
+      "glowColor": 2206314
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 104
+}

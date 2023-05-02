@@ -1,0 +1,42 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Starfury",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {},
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_starfury_release.wav",
+      "fxId": "fxStarfuryAtk",
+      "animId": "AtkStarfury",
+      "sfxHit": "sfx/weapon/weapon_starfury_star_hit.wav",
+      "hitFrame": 9,
+      "critMul": 0.9,
+      "animSpd": 1.5
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 119
+}

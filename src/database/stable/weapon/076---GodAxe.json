@@ -1,0 +1,49 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "GodAxe",
+  "strikeChain": [
+    {
+      "coolDown": 0.25,
+      "power": [
+        50
+      ],
+      "fxProps": {
+        "fxInnerColor": 846066,
+        "fxStartFrame": 4,
+        "fxOuterColor": 39679
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.1,
+        "duration": 0.1
+      },
+      "onionSkinFrame": 8,
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_boi_charge.wav",
+      "charge": 0.07,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_boi_release.wav",
+      "fxId": "fxThrow",
+      "animId": "atkGodAxe",
+      "sfxHit": "sfx/weapon/weapon_hit_floor.wav",
+      "hitFrame": 6,
+      "glowColor": 65467,
+      "animSpd": 1.5
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 76
+}

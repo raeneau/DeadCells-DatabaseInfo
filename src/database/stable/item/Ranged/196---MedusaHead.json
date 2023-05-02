@@ -1,0 +1,67 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.83,
+    "range": 20,
+    "duration2": 0.3,
+    "offsetX": 20,
+    "offsetY": -12,
+    "ang": -0.9,
+    "ammo": 1,
+    "frict": 0.9,
+    "size": 0.78,
+    "duration": 0.5
+  },
+  "gameplayDesc": "DLCP_MEDUSAHEAD_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_MEDUSAHEAD_AMBIENTDESC",
+  "id": "MedusaHead",
+  "dlc": "Purple",
+  "icon": {
+    "x": 26,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "UnstableHead"
+    }
+  ],
+  "name": "DLCP_MEDUSAHEAD_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "AmmoDoNotStickToVictims"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "VeryFewAmmo"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "DisableVerboseAmmo"
+    },
+    {
+      "tag": "NoAmmoPerk"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 196
+}

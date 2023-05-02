@@ -1,0 +1,34 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Inflige un {coup critique@CC} lorsque vous touchez plusieurs cibles à la fois.",
+  "moneyCost": 1500,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Une arme offrant une grande allonge au détriment de la rapidité.",
+  "id": "Spear",
+  "icon": {
+    "x": 2,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnCrit"
+    }
+  ],
+  "name": "Lance de guerre",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 15,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 92
+}

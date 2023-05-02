@@ -1,0 +1,160 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "PureNail",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxInnerColor": 16777215,
+        "fxStartFrame": -5,
+        "fxOuterColor": 14999807
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.1,
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
+        "threshold": 0.2
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
+      "fxId": "fxatkPureNailSideA",
+      "animId": "atkPureNailSideA",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 6315617
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        55
+      ],
+      "fxProps": {
+        "fxInnerColor": 16777215,
+        "fxStartFrame": -5,
+        "fxOuterColor": 14999807
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.1,
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
+        "threshold": 0.2
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
+      "fxId": "fxatkPureNailSideB",
+      "animId": "atkPureNailSideB",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 6315617
+    },
+    {
+      "coolDown": 0.35,
+      "power": [
+        30
+      ],
+      "fxProps": {
+        "fxInnerColor": 16777215,
+        "fxStartFrame": -5,
+        "fxOuterColor": 14999807
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "fullCharge": 1,
+        "bump": 0.4,
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
+        "threshold": 0.2,
+        "limit": 1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": -1.5,
+        "offsetCaseY": -2,
+        "height": 4,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
+      "fxId": "fxatkPureNailUpA",
+      "animId": "atkPureNailUpA",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 6315617
+    },
+    {
+      "coolDown": 0.25,
+      "power": [
+        40
+      ],
+      "fxProps": {
+        "fxInnerColor": 16777215,
+        "fxStartFrame": -5,
+        "fxOuterColor": 14999807
+      },
+      "lockCtrlAfter": 0,
+      "props": {
+        "fullCharge": 1,
+        "bump": 0.25,
+        "hitFx": "sfx/weapon/drop_gold_1.wav",
+        "threshold": 0.5,
+        "limit": 1
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": -1.5,
+        "offsetCaseY": 1.7,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_nail_release.wav",
+      "fxId": "fxatkPureNailDownA",
+      "animId": "atkPureNailDownA",
+      "sfxHit": "sfx/weapon/weapon_nail_hit.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "glowColor": 6315617
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 52
+}

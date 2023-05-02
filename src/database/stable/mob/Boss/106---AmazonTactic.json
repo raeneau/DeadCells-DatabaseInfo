@@ -1,0 +1,246 @@
+{
+  "props": {
+    "noContactAttack": true,
+    "combatMusic": "music/default/lighthouse_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.4
+    ],
+    "delay": 0,
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.2,
+    "combatMusicIntro": "music/default/lighthouse_intro2.ogg",
+    "gemDropSize": 25,
+    "cellLoot": 6,
+    "bumpResistance": 0.5
+  },
+  "genTags": 692,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "HeavyBow",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "ServanteDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Servante4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessServante",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 5,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 106,
+  "volteDelay": 0.35,
+  "id": "AmazonTactic",
+  "dlc": "TheQueenAndTheSea",
+  "weight": 15,
+  "icon": {
+    "x": 58,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    2400
+  ],
+  "name": "Euterpe",
+  "minPfHeight": 0,
+  "minPfSize": 2,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 100,
+  "flesh1": 13668753,
+  "flesh2": 4938373,
+  "skill": [
+    {
+      "chargeAnim": "atkALoad",
+      "coolDown": 0.15,
+      "power": [
+        10
+      ],
+      "props": {
+        "range": 18,
+        "canTriggerThroughWall": true,
+        "triggerDelay": 3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_amazon_t_charge1.wav",
+      "charge": 1,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkAShot",
+      "id": "shoot",
+      "sfxRelease": "sfx/enm/enm_amazon_t_release1.wav",
+      "fxId": "fxServanteBAtkAShot",
+      "disableAnnounceFx": false,
+      "hitFrame": 16,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkCLoad",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 3,
+        "range": 15,
+        "width": 1.5,
+        "canTriggerThroughWall": true,
+        "x": -0.35,
+        "y": -2,
+        "distance": 4,
+        "triggerDelay": 0.25
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_amazon_t_charge2.wav",
+      "charge": 0.4,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkCAir",
+      "id": "topDownShoot",
+      "sfxRelease": "sfx/enm/enm_amazon_t_release2.wav",
+      "fxId": "fxServanteBAtkC",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm/enm_amazon_t_stomp.wav",
+      "hitFrame": 12,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "atkBLoad",
+      "coolDown": 0.15,
+      "power": [
+        8
+      ],
+      "props": {
+        "range": 15,
+        "width": 0.2,
+        "triggerDelay2": 0.05,
+        "chance": 0.5,
+        "canTriggerThroughWall": true,
+        "lock": 1,
+        "count": 2,
+        "triggerDelay": 5.5,
+        "canCancelOtherSkills": true
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/weapon/weapon_heavybow_charge.wav",
+      "charge": 0.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 3,
+      "execAnim": "atkBShot",
+      "id": "airShoot",
+      "sfxRelease": "sfx/weapon/weapon_heavybow_release.wav",
+      "fxId": "fxServanteBAtkBShot",
+      "disableAnnounceFx": false,
+      "hitFrame": 16,
+      "breachResistance": 0.9,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "jumpLoad",
+      "coolDown": 0,
+      "props": {
+        "speed": 0.03,
+        "range": 9,
+        "stunTime": 0,
+        "bump": 0.4,
+        "height": 60,
+        "frict": 0.65,
+        "lock": 1.5,
+        "distance": 20
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.1,
+      "manual": true,
+      "chargeAnimSpd": 1,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_amazon_t_jump.wav",
+      "disableAnnounceFx": true,
+      "sfxHit": "sfx/enm/enm_mimic_land.wav",
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "jumpLoad",
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "range": 6000,
+        "delay": 0.4,
+        "canTriggerThroughWall": true,
+        "x": 6,
+        "bump": 1.7,
+        "distance": 6000
+      },
+      "allowInAir": true,
+      "radius": 30,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_tp_charge.wav",
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "jumpUp",
+      "id": "teleport",
+      "sfxRelease": "sfx/weapon/weapon_throwingspear_tp.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 2,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Boss",
+  "__original_Index": 106
+}

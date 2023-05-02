@@ -1,0 +1,80 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "SnakeFang",
+  "strikeChain": [
+    {
+      "coolDown": 0.3,
+      "power": [
+        27
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.12,
+      "props": {
+        "color2": 47620,
+        "bump": 0.25,
+        "color": 16765184,
+        "limit": 5
+      },
+      "breachBonus": -0.3,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.2,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_snakefangs_release1.wav",
+      "fxId": "fxAtkFangsB",
+      "animId": "AtkFangsB",
+      "sfxHit": "sfx/weapon/weapon_snakefangs_hit.wav",
+      "hitFrame": 5,
+      "critMul": 0.8,
+      "glowColor": 6149376,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        33
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.12,
+      "props": {
+        "color2": 53086,
+        "bump": 0.25,
+        "color": 16765184,
+        "limit": 5
+      },
+      "breachBonus": -0.3,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.2,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_snakefangs_release1.wav",
+      "fxId": "fxAtkFangsA",
+      "animId": "AtkFangsA",
+      "sfxHit": "sfx/weapon/weapon_snakefangs_hit.wav",
+      "hitFrame": 6,
+      "critMul": 0.8,
+      "glowColor": 6149376,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 42
+}

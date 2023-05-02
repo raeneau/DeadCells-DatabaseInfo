@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "deployTimer": 0.2,
     "targetable": false,
@@ -10,7 +11,7 @@
     "effectCD": 0.38,
     "duration": 9
   },
-  "gameplayDesc": "Tire sur les ennemis qui passent en dessous.",
+  "gameplayDesc": "Tire sur les ennemis qui passent en dessous, infligeant un {coup critique@CC} aux ennemis souffrant de saignement ou d'empoisonnement.",
   "moneyCost": 1500,
   "group": 0,
   "castCD": 10,
@@ -21,6 +22,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "PoisonBullet"
+    }
+  ],
   "name": "Bernacle",
   "droppable": true,
   "tags": [
@@ -42,7 +48,6 @@
   ],
   "tier1": "Tactic",
   "cellCost": 40,
-  "legendAffix": "Oil",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 3

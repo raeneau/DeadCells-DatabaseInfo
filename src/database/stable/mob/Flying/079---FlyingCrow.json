@@ -1,0 +1,37 @@
+{
+  "props": {
+    "isTrashMob": true,
+    "cannotBeNecromanced": true
+  },
+  "genTags": 1536,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 2,
+  "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
+  "index": 79,
+  "id": "FlyingCrow",
+  "dlc": "FatalFalls",
+  "icon": {
+    "x": 17,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "name": "Corbeau Ennuyant",
+  "minPfHeight": 0,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 0,
+  "skill": [],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Flying",
+  "__original_Index": 79
+}

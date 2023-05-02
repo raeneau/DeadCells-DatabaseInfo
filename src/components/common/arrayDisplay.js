@@ -20,7 +20,7 @@ function ArrayDisplay(props) {
       return accumulator;
     }
 
-    return accumulator + `${attackNumber > 1 ? ` /` : ""} ${desiredData}`;
+    return `${accumulator}${attackNumber > 1 ? ` /` : ""} ${desiredData}`;
   }, "");
 
   return (

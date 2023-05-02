@@ -1,10 +1,12 @@
 {
+  "synergy": [],
   "props": {
     "range": 4,
     "power": [
       22
     ],
     "bonus": 0,
+    "cooldown": 20,
     "castTime": 0.5,
     "power2": [
       80
@@ -13,12 +15,12 @@
     "debuff": 1,
     "count": 6,
     "distance": 7,
-    "duration": 2.5
+    "duration": 13
   },
-  "gameplayDesc": "Vous rend invisible pendant ::duration:: sec et attire les ennemis proches. Explose après ::duration:: sec.",
+  "gameplayDesc": "Vous rend invisible pendant ::duration:: sec et attire les ennemis proches. Explose après ::duration:: sec. ou à la réactivation.",
   "moneyCost": 1500,
   "group": 0,
-  "castCD": 20,
+  "castCD": 3,
   "id": "Decoy",
   "icon": {
     "x": 15,
@@ -26,6 +28,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnKill"
+    }
+  ],
   "name": "Leurre explosif",
   "droppable": true,
   "tags": [
@@ -41,7 +48,6 @@
   ],
   "tier1": "Tactic",
   "cellCost": 40,
-  "legendAffix": "RunSpeedOnKill",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 8

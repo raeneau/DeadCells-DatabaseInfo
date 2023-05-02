@@ -1,0 +1,68 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "MedusaHead",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        20
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "bump": 0.75,
+        "tick": 1,
+        "duration": 2.5
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "animId": "AtkBowlingMedusa",
+      "hitFrame": 21,
+      "glowColor": 11447982,
+      "animSpd": 1.75
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.75,
+        "duration": 0.3,
+        "aoeDuration": 5
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 10,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_MedusaHead_Shriek.wav",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 132
+}

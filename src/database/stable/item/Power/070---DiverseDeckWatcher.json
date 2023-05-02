@@ -1,0 +1,57 @@
+{
+  "synergy": [],
+  "props": {
+    "linkedItems": [
+      {
+        "item": "DiverseDeckElectro"
+      },
+      {
+        "item": "DiverseDeckWatcher"
+      },
+      {
+        "item": "DiverseDeckCatalyst"
+      },
+      {
+        "item": "DiverseDeckJuggernaut"
+      }
+    ],
+    "duration2": 0,
+    "color": 655615,
+    "count": 8,
+    "duration": 2
+  },
+  "gameplayDesc": "U32_DIVERSEDECK WATCHER_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 5,
+  "ambiantDesc": "U32_DIVERSEDECK WATCHER_AMBIANTDESC",
+  "id": "DiverseDeckWatcher",
+  "icon": {
+    "x": 35,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Upgraded_Watc"
+    }
+  ],
+  "name": "U32_DIVERSEDECK WATCHER_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "PassivePower"
+    },
+    {
+      "tag": "Unique"
+    },
+    {
+      "tag": "NoCooldownReadySfx"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 70
+}

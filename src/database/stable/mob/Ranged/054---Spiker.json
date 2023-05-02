@@ -1,0 +1,93 @@
+{
+  "props": {
+    "movePauseMul": 99999,
+    "bumpResistance": 0.9,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 544,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "BleedCrit",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 1,
+  "canBeElite": false,
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
+  "index": 54,
+  "id": "Spiker",
+  "weight": 10,
+  "icon": {
+    "x": 53,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    195
+  ],
+  "name": "Empalleur",
+  "minPfHeight": 0,
+  "glowInnerColor": 6204189,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 6,
+  "flesh1": 9279089,
+  "flesh2": 12266797,
+  "skill": [
+    {
+      "coolDown": 2,
+      "power": [
+        25
+      ],
+      "props": {
+        "canTriggerThroughWall": true,
+        "distance": 5
+      },
+      "allowInAir": false,
+      "radius": 15,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_mushroom_charge.wav",
+      "charge": 1.75,
+      "manual": false,
+      "id": "spikes",
+      "sfxRelease": "sfx/enm/enm_mushroom_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 0.5,
+      "power": 0,
+      "props": {
+        "canTriggerThroughWall": true
+      },
+      "allowInAir": false,
+      "radius": 19,
+      "allowSameSkillNearby": true,
+      "charge": 1.4,
+      "manual": false,
+      "id": "singleSpike",
+      "sfxRelease": "sfx/enm/enm_mushroom_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 54
+}

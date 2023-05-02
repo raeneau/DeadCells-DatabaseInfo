@@ -1,0 +1,51 @@
+{
+  "synergy": [],
+  "props": {
+    "ammo": 3
+  },
+  "gameplayDesc": "U32_ THROWABLESTUFF_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "U32_ THROWABLESTUFF_AMBIENTDESC",
+  "id": "ThrowableStuff",
+  "icon": {
+    "x": 36,
+    "y": 2,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DeepPockets"
+    }
+  ],
+  "name": "U32_ THROWABLESTUFF_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "FadeHudIconIfNoAmmo"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "ManualAmmoRefill"
+    },
+    {
+      "tag": "NoCritical"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 191
+}

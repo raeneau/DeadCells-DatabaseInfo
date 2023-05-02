@@ -1,0 +1,123 @@
+{
+  "props": {
+    "moveSpeedMul": 0.5
+  },
+  "genTags": 512,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "BouncingStone",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 43,
+  "volteDelay": 0.6,
+  "id": "Buer",
+  "dlc": "Purple",
+  "weight": 5,
+  "icon": {
+    "x": 58,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    140
+  ],
+  "name": "DLCP_BUER_NAME",
+  "minPfHeight": 0,
+  "minPfSize": 13,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 2,
+  "skill": [
+    {
+      "coolDown": 0.6,
+      "power": [
+        15
+      ],
+      "props": {
+        "speed": 0.25,
+        "duration2": 1,
+        "bump": 0,
+        "distance": 10,
+        "duration": 5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_Buer_Rush.wav",
+      "charge": 0.5,
+      "manual": false,
+      "id": "rush",
+      "sfxRelease": "sfx/enm/enm_Buer_RushRelease.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 4,
+      "power": [
+        25
+      ],
+      "props": {
+        "speed": 0.35,
+        "duration2": 1.5,
+        "chance": 0.5,
+        "dps": 5,
+        "bump": 1,
+        "count": 8,
+        "distance": 10,
+        "duration": 5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_Buer_SuperRush.wav",
+      "charge": 0.9,
+      "manual": false,
+      "id": "superRush",
+      "sfxRelease": "sfx/enm/enm_Buer_RushRelease.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 1.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0,
+      "props": {
+        "speed": 0.15,
+        "x": 3,
+        "y": 4,
+        "max": 2,
+        "height": 12,
+        "frict": 0.65,
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": true,
+      "id": "teleportJump",
+      "sfxRelease": "sfx/enm/enm_Buer_Jump.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.33,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 43
+}

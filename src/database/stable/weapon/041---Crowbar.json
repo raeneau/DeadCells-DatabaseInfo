@@ -1,0 +1,97 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Crowbar",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        42
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.2,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
+      "fxId": "fxAtkCrowbarA",
+      "animId": "atkCrowbarA",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
+      "hitFrame": 3
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        72
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 0.1
+      },
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
+      "fxId": "fxAtkCrowbarB",
+      "animId": "atkCrowbarB",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
+      "hitFrame": 7
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        92
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "charge": 0.45,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 3.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_crowbar_release.wav",
+      "fxId": "fxAtkCrowbarC",
+      "animId": "atkCrowbarC",
+      "sfxHit": "sfx/weapon/weapon_crowbar_hit.wav",
+      "hitFrame": 9,
+      "critMul": 1.4
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 41
+}

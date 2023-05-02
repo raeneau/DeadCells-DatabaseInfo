@@ -168,7 +168,6 @@ export default {
   SERENADESWORD: meleeWeaponNames.SERENADE_MELEE,
 
   // ---------------------------- WHACK A MOLE ------------------------------ //
-
   TOMBSTONE: meleeWeaponNames.TOMBSTONE,
   GRAVESTONE: meleeWeaponNames.TOMBSTONE,
   GRAVE: meleeWeaponNames.TOMBSTONE,
@@ -191,4 +190,98 @@ export default {
   BROKENTOOTHPICK: meleeWeaponNames.CLUB,
   BROKENBIGCLUB: meleeWeaponNames.CLUB,
   BROKENTHEBIGCLUB: meleeWeaponNames.CLUB,
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  MACHETEPISTOL: meleeWeaponNames.MACHETE_PISTOL,
+  MACHETEANDPISTOL: meleeWeaponNames.MACHETE_PISTOL,
+  MACHETE: meleeWeaponNames.MACHETE_PISTOL,
+  PISTOL: meleeWeaponNames.MACHETE_PISTOL,
+
+  HARDLIGHTSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  HLDSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  HYPERLIGHTDRIFTERSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+  DRIFTERSWORD: meleeWeaponNames.HARD_LIGHT_SWORD,
+
+  PURENAIL: meleeWeaponNames.PURE_NAIL,
+  NAIL: meleeWeaponNames.PURE_NAIL,
+  VESSELNAIL: meleeWeaponNames.PURE_NAIL,
+  HKNAIL: meleeWeaponNames.PURE_NAIL,
+  HOLLOWKNIGHTNAIL: meleeWeaponNames.PURE_NAIL,
+
+  BONE: meleeWeaponNames.BONE,
+  SKULBONE: meleeWeaponNames.BONE,
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  TRIDENT: meleeWeaponNames.TRIDENT,
+
+  HANDHOOK: meleeWeaponNames.HANDHOOK,
+
+  SHARK: meleeWeaponNames.SHARK,
+  MAWOFTHEDEEP: meleeWeaponNames.SHARK,
+
+  ELBOWBLADES: meleeWeaponNames.ELBOW_BLADES,
+  BLADEDTONFAS: meleeWeaponNames.ELBOW_BLADES,
+
+  WRECKINGBALL: meleeWeaponNames.WRECKINGBALL,
+
+  QUEENRAPIER: meleeWeaponNames.QUEENRAPIER,
+  QUEENSRAPIER: meleeWeaponNames.QUEENRAPIER,
+
+  // ------------------------------ THE BANK -------------------------------- //
+  PROFITDAGGER: meleeWeaponNames.DAGGERPROFIT,
+  DAGGEROFPROFIT: meleeWeaponNames.DAGGERPROFIT,
+  MONEYDAGGER: meleeWeaponNames.DAGGERPROFIT,
+
+  GOLDDIGGER: meleeWeaponNames.GOLDDIGGER,
+
+  GOLDDIGGEREVOLVED: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGEREVO: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGEREVOLUTION: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERPOWEREDUP: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERUPGRADE: meleeWeaponNames.GOLDDAGGEREVO,
+  GOLDDIGGERUPGRADED: meleeWeaponNames.GOLDDAGGEREVO,
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  NUNCHUCKPAN: meleeWeaponNames.NUNCHUCKPAN,
+  PANCHAKU: meleeWeaponNames.NUNCHUCKPAN,
+  NUNCHUCKS: meleeWeaponNames.NUNCHUCKPAN,
+  PANS: meleeWeaponNames.NUNCHUCKPAN,
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  KINGSCEPTER: meleeWeaponNames.KINGSCEPTER,
+  SCEPTER: meleeWeaponNames.KINGSCEPTER,
+
+  BASEBALLBAT: meleeWeaponNames.BASEBALLBAT,
+  BASEBALL: meleeWeaponNames.BASEBALLBAT,
+  HOTLINEMIAMI: meleeWeaponNames.BASEBALLBAT,
+  HLM: meleeWeaponNames.BASEBALLBAT,
+
+  STARFURY: meleeWeaponNames.STARFURY,
+  TERRARIA: meleeWeaponNames.STARFURY,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  VAMPIREKILLER: meleeWeaponNames.VAMPIREKILLER,
+
+  BIBLE: meleeWeaponNames.BIBLE,
+
+  ALUCARDSSWORD: meleeWeaponNames.TPSWORD,
+
+  DEATHSSCYTHE: meleeWeaponNames.DEATHSSCYTHE,
+  ADELESCYTHE: meleeWeaponNames.DEATHSSCYTHE,
+
+  MORNINGSTAR: meleeWeaponNames.MORNINGSTAR,
+  WIGGLEWHIP: meleeWeaponNames.MORNINGSTAR,
+
+  WHIPSWORDLONG: meleeWeaponNames.WHIPSWORDLONG,
+  SNAKESWORD: meleeWeaponNames.WHIPSWORDLONG,
+  SNAKESWORDLONG: meleeWeaponNames.WHIPSWORDLONG,
+
+  WHIPSWORD: meleeWeaponNames.WHIPSWORDSHORT,
+  WHIPSWORDSHORT: meleeWeaponNames.WHIPSWORDSHORT,
+  WHIPSWORDALT: meleeWeaponNames.WHIPSWORDSHORT,
+  SNAKESWORDSHORT: meleeWeaponNames.WHIPSWORDSHORT,
+  SNAKESWORDALT: meleeWeaponNames.WHIPSWORDSHORT,
+
+  WHIPSWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
+  SNAKESWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
 };

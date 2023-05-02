@@ -1,0 +1,42 @@
+{
+  "synergy": [],
+  "props": {
+    "speed": 0.2,
+    "duration2": 0.5,
+    "duration3": 0.3,
+    "buff": 0.2,
+    "frict": 1,
+    "prct": 1.3,
+    "count": 3,
+    "distance": 3,
+    "tick": 0.3,
+    "duration": 8
+  },
+  "gameplayDesc": "DLCP_BIBLE_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "DLCP_BIBLE_AMBIANTDESC",
+  "id": "Bible",
+  "dlc": "Purple",
+  "icon": {
+    "x": 24,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "DoubleBullets"
+    }
+  ],
+  "name": "DLCP_BIBLE_NAME",
+  "droppable": true,
+  "tags": [],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 145
+}

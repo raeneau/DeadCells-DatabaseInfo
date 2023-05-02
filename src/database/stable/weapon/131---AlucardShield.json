@@ -1,0 +1,217 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "AlucardShield",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.05,
+      "props": {
+        "altAnim": "blockEndAAlucardShieldwithSword",
+        "duration2": 0.4,
+        "duration": 0.4
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_Charge01.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "animId": "blockEndAAlucardShield",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_Block.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOffset": [
+          0,
+          -6
+        ]
+      },
+      "lockCtrlAfter": 0.17,
+      "props": {
+        "altAnim": "blockEndBAlucardShieldwithSword",
+        "duration2": 0.1,
+        "hitFx": "fxAtkAlucardShield",
+        "duration": 0.35
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_Charge02.wav",
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "fxId": "fxAtkAlucardShield",
+      "animId": "blockEndBAlucardShield",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_Block.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        70
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.29,
+      "props": {
+        "altAnim": "blockEndCAlucardShieldwithSword",
+        "duration2": 0.15,
+        "hitFx": "fxAtkAlucardShield",
+        "duration": 0.45
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_Charge03.wav",
+      "charge": 0.29,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "fxId": "fxAtkAlucardShield",
+      "animId": "blockEndCAlucardShield",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_Block.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        35
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.05,
+      "props": {
+        "duration2": 0.4,
+        "duration": 0.4
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_withSword_Charge01.wav",
+      "charge": 0.4,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "animId": "blockEndAAlucardShieldwithSword",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_withSword_Hit.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        50
+      ],
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOffset": [
+          0,
+          -6
+        ]
+      },
+      "lockCtrlAfter": 0.17,
+      "props": {
+        "duration2": 0.1,
+        "duration": 0.35
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_withSword_Charge02.wav",
+      "charge": 0.21,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "fxId": "fxAtkAlucardShieldwithSword",
+      "animId": "blockEndBAlucardShieldwithSword",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_withSword_Hit.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        70
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.29,
+      "props": {
+        "duration2": 0.15,
+        "duration": 0.45
+      },
+      "breachBonus": -0.7,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_AlucardShield_withSword_Charge03.wav",
+      "charge": 0.29,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3,
+        "shape": 1
+      },
+      "fxId": "fxAtkAlucardShieldwithSword",
+      "animId": "blockEndCAlucardShieldwithSword",
+      "sfxHit": "sfx/weapon/purpleDLC_AlucardShield_withSword_Hit.wav",
+      "hitFrame": 0,
+      "critMul": 1.5,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 131
+}

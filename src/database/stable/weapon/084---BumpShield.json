@@ -1,0 +1,39 @@
+{
+  "allowCrouch": false,
+  "isACancel": true,
+  "item": "BumpShield",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        40
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {
+        "bump": 2,
+        "duration": 2.5
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 1,
+      "sfxCharge": "sfx/weapon/weapon_shield_charge.wav",
+      "charge": 0.37,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxHit": "sfx/weapon/weapon_bumphield_block.wav",
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": true,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 84
+}

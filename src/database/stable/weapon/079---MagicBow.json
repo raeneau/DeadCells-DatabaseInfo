@@ -1,0 +1,43 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "MagicBow",
+  "strikeChain": [
+    {
+      "coolDown": 0.6,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 13304014,
+        "fxOuterColor": 13304014
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/fx_bow_draw.wav",
+      "charge": 0.6,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/fx_bow_shoot.wav",
+      "animId": "magicBow",
+      "sfxHit": "sfx/env/arrow_hit.wav",
+      "hitFrame": 0,
+      "glowColor": 11279244,
+      "animSpd": 3.5
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 79
+}

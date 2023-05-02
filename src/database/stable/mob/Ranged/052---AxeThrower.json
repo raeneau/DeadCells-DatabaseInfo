@@ -1,0 +1,75 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.2
+  },
+  "genTags": 0,
+  "glowOuterColor": 4065964,
+  "pfCost": 1.3,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "SlowOrb",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "SpikeShield",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 4,
+  "group": 1,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 52,
+  "volteDelay": 0.15,
+  "id": "AxeThrower",
+  "weight": 10,
+  "icon": {
+    "x": 61,
+    "y": 26,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "Hachoir",
+  "minPfHeight": 0,
+  "glowInnerColor": 8239871,
+  "minPfSize": 6,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 5,
+  "flesh1": 13418155,
+  "flesh2": 9985867,
+  "skill": [
+    {
+      "coolDown": 1.5,
+      "power": [
+        10
+      ],
+      "props": {
+        "distance": 10
+      },
+      "allowInAir": false,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_hook_charge.wav",
+      "charge": 0.65,
+      "manual": false,
+      "id": "axe",
+      "sfxRelease": "sfx/enm/enm_axe_throw.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 0.66,
+      "lockAiAfter": 1,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 52
+}

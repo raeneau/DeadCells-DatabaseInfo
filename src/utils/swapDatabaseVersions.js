@@ -9,7 +9,6 @@ import {
   itemTrapJsons as itemTrapJsonsStable,
   itemPowerJsons as itemPowerJsonsStable,
   levelJsons as levelJsonsStable,
-  levelJsonPath as levelJsonPathStable,
 } from "./jsonImports";
 
 import {
@@ -22,7 +21,6 @@ import {
   itemTrapJsons as itemTrapJsonsBeta,
   itemPowerJsons as itemPowerJsonsBeta,
   levelJsons as levelJsonsBeta,
-  levelJsonPath as levelJsonPathBeta,
 } from "./jsonImportsBeta";
 
 // Constants.
@@ -42,7 +40,6 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
       itemTrapJsons: itemTrapJsonsBeta,
       itemPowerJsons: itemPowerJsonsBeta,
       levelJsons: levelJsonsBeta,
-      levelJsonPath: levelJsonPathBeta,
     };
   }
   return {
@@ -55,7 +52,6 @@ const swapDatabaseVersions = ({ databaseVersion = STABLE }) => {
     itemTrapJsons: itemTrapJsonsStable,
     itemPowerJsons: itemPowerJsonsStable,
     levelJsons: levelJsonsStable,
-    levelJsonPath: levelJsonPathStable,
   };
 };
 

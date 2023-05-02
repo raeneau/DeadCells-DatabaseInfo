@@ -1,4 +1,5 @@
 {
+  "synergy": [],
   "props": {
     "duration2": 0.09,
     "targetable": true,
@@ -20,6 +21,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
   "name": "Auto-balète double",
   "droppable": true,
   "tags": [
@@ -40,8 +46,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 15,
-  "legendAffix": "Pierce",
+  "cellCost": 5,
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 0

@@ -1,0 +1,36 @@
+{
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Le 3ème coup est un {coup critique@CC}.",
+  "moneyCost": 1800,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "Deux dagues pour le prix d'une, toujours plus de violence.",
+  "id": "DualDaggers",
+  "icon": {
+    "x": 5,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "RunSpeedOnCrit"
+    }
+  ],
+  "name": "Dagues jumelles",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "AutoUnlocked"
+    }
+  ],
+  "tier1": "Brutality",
+  "cellCost": 0,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 83
+}

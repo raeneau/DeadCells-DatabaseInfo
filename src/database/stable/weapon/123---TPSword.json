@@ -1,0 +1,324 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "TPSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "bump": 0.1,
+        "color": 9700356
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.33,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordA",
+      "animId": "AtkAlucardSwordA",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 11,
+      "critMul": 1.1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.22,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "pct": 0.5,
+        "hitFx": "AtkAlucardSwordTP",
+        "color": 9700356,
+        "count": 1,
+        "duration": 0.3,
+        "limit": 26
+      },
+      "breachBonus": 0.65,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.33,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordB",
+      "animId": "AtkAlucardSwordB",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "bump": 0.1,
+        "color": 9700356
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.33,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordA",
+      "animId": "AtkAlucardSwordA",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 11,
+      "critMul": 1.1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.5,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "pct": 0.5,
+        "hitFx": "AtkAlucardSwordTP",
+        "color": 9700356,
+        "count": 1,
+        "duration": 0.3,
+        "limit": 26
+      },
+      "breachBonus": 0.65,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.33,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordB",
+      "animId": "AtkAlucardSwordB",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "bump": 0.1,
+        "color": 9700356
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordA",
+      "animId": "AtkAlucardSwordA",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 11,
+      "critMul": 1.1,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.22,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "pct": 0.5,
+        "hitFx": "AtkAlucardSwordTP",
+        "color": 9700356,
+        "count": 1,
+        "duration": 0.3,
+        "limit": 26
+      },
+      "breachBonus": 0.65,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordB",
+      "animId": "AtkAlucardSwordB",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.1,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        45
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "bump": 0.1,
+        "color": 9700356
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordA",
+      "animId": "AtkAlucardSwordA",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 11,
+      "critMul": 1.1,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.5,
+      "props": {
+        "altAnim": "withShield",
+        "color2": 13174535,
+        "duration2": 0.7,
+        "pct": 0.5,
+        "hitFx": "AtkAlucardSwordTP",
+        "color": 9700356,
+        "count": 1,
+        "duration": 0.3,
+        "limit": 26
+      },
+      "breachBonus": 0.65,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_Alucard_Sword_charge.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": -0.5,
+        "offsetCaseY": 0,
+        "height": 2.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_Alucard_Sword_release.wav",
+      "fxId": "fxAtkAlucardSwordB",
+      "animId": "AtkAlucardSwordB",
+      "sfxHit": "sfx/weapon/purpleDLC_Alucard_Sword_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.1,
+      "animSpd": 2
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 123
+}

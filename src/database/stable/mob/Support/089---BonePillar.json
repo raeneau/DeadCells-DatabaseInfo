@@ -1,0 +1,72 @@
+{
+  "props": {
+    "noContactAttack": true,
+    "cannotBeShield": true,
+    "cannotBeNecromanced": true,
+    "cannotBeHooked": true,
+    "noCollideHero": true,
+    "cannotChangeDir": true,
+    "bumpResistance": 1,
+    "cannotBeBackstabbed": true
+  },
+  "genTags": 1568,
+  "glowOuterColor": 13553358,
+  "pfCost": 0,
+  "blueprints": [],
+  "maxPerRoom": 0,
+  "group": 3,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 89,
+  "id": "BonePillar",
+  "dlc": "Purple",
+  "weight": 0,
+  "icon": {
+    "x": 28,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "DLCP_BONEPILLAR_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 2,
+  "flesh1": 15596543,
+  "flesh2": 12507364,
+  "skill": [
+    {
+      "chargeAnim": "bonePillarAnticipRight",
+      "coolDown": 2,
+      "power": [
+        12
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_BonePillar_Charge.wav",
+      "charge": 0.5,
+      "manual": false,
+      "execAnimSpd": 0.5,
+      "chargeAnimSpd": 0.5,
+      "execAnim": "bonePillarAtkRight",
+      "id": "shoot",
+      "sfxRelease": "sfx/enm/enm_BonePillar_Release.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Support",
+  "__original_Index": 89
+}

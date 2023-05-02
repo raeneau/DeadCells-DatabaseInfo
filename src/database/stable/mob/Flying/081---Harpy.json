@@ -1,0 +1,110 @@
+{
+  "props": {
+    "cannotBeNecromanced": true,
+    "insensitiveSpike": true
+  },
+  "genTags": 530,
+  "glowOuterColor": 16711680,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "SnakeSwordWeapon",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 3,
+  "group": 2,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 81,
+  "volteDelay": 0.3,
+  "id": "Harpy",
+  "dlc": "Purple",
+  "weight": 15,
+  "icon": {
+    "x": 50,
+    "y": 25,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "DLCP_HARPY_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16774519,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 3,
+  "flesh1": 16448348,
+  "flesh2": 16506972,
+  "skill": [
+    {
+      "coolDown": 0.5,
+      "power": [
+        8
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 1.2,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_Harpy_fly_charge.wav",
+      "charge": 0.6,
+      "manual": false,
+      "id": "cc",
+      "sfxRelease": "sfx/enm/enm_Harpy_fly_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": -0.3,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": true
+    },
+    {
+      "coolDown": 3.5,
+      "power": [
+        13
+      ],
+      "props": {
+        "speed": 1.3,
+        "distance": 12
+      },
+      "allowInAir": true,
+      "radius": 9.5,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_Harpy_bat_charge.wav",
+      "charge": 0.75,
+      "manual": false,
+      "id": "charge",
+      "sfxRelease": "sfx/enm/enm_Harpy_bat_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.6,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0.4,
+      "props": {
+        "chance": 0.8
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0,
+      "manual": true,
+      "id": "flee",
+      "sfxRelease": "sfx/enm/enm_Harpy_fly_fly.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 2,
+  "__separator_group_Name": "Flying",
+  "__original_Index": 81
+}

@@ -1,0 +1,191 @@
+{
+  "props": {
+    "delay": 0,
+    "movePauseMul": 0,
+    "moveSpeedMul": 3,
+    "cellLoot": 10,
+    "bumpResistance": 0.5
+  },
+  "genTags": 1568,
+  "glowOuterColor": 16711680,
+  "pfCost": 2,
+  "blueprints": [
+    {
+      "rarity": "Common",
+      "item": "MedusaHead",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 4,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 93,
+  "volteDelay": 0.2,
+  "id": "Medusa",
+  "weight": 200,
+  "icon": {
+    "x": 47,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    2000
+  ],
+  "name": "DLCP_MEDUSA_NAME",
+  "minPfHeight": 6,
+  "glowInnerColor": 16711680,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 6,
+  "flesh1": 10586575,
+  "flesh2": 3907688,
+  "skill": [
+    {
+      "coolDown": 0,
+      "power": [
+        10
+      ],
+      "props": {
+        "delay": 0.2,
+        "effectCD": 0.5
+      },
+      "allowInAir": true,
+      "radius": 1,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Medusa_action01_livingHair.wav",
+      "charge": 0,
+      "manual": true,
+      "id": "headSnakes",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "PetrificationLoad",
+      "coolDown": 10,
+      "props": {
+        "duration2": 2,
+        "width": 35,
+        "x": 0,
+        "y": 0,
+        "height": 20,
+        "duration": 2
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/purpleDLC_Medusa_action02_gorgonGaze.wav",
+      "charge": 0.8,
+      "manual": false,
+      "execAnimSpd": 1,
+      "execAnim": "PetrificationAtk",
+      "id": "gorgonLook",
+      "sfxRelease": "sfx/weapon/purpleDLC_MedusaHead_Shriek.wav",
+      "fxId": "fxPetrification",
+      "disableAnnounceFx": false,
+      "hitFrame": 5,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "TailLoad",
+      "coolDown": 1.5,
+      "power": [
+        17
+      ],
+      "props": {
+        "width": 10,
+        "x": 1,
+        "y": 1,
+        "height": 3
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/npc/Medusa_grunt_004.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "execAnim": "TailAtk",
+      "id": "tailWhip",
+      "sfxRelease": "sfx/enm/purpleDLC_Medusa_action03_tailSweep.wav",
+      "fxId": "fxTailAtk",
+      "disableAnnounceFx": false,
+      "hitFrame": 6,
+      "breachResistance": 0.8,
+      "lockAiAfter": 0.3,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "FrenesieLoadA",
+      "coolDown": 1,
+      "power": [
+        15
+      ],
+      "props": {
+        "width": 5,
+        "x": 0,
+        "y": 1,
+        "bump": 0.4,
+        "height": 3.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/npc/Medusa_grunt_005.wav",
+      "charge": 0.45,
+      "manual": false,
+      "execAnimSpd": 1,
+      "execAnim": "FrenesieAtkA",
+      "id": "frenzy",
+      "sfxRelease": "sfx/enm/purpleDLC_Medusa_claw01.wav",
+      "fxId": "fxFrenesieAtkA",
+      "disableAnnounceFx": false,
+      "hitFrame": 3,
+      "breachResistance": 1,
+      "lockAiAfter": 0.12,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "FrenesieLoad",
+      "coolDown": 0,
+      "power": [
+        12
+      ],
+      "props": {
+        "width": 5,
+        "x": 0,
+        "y": 1,
+        "max": 3,
+        "bump": 0.4,
+        "height": 3.5
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/npc/Medusa_grunt_001.wav",
+      "charge": 0.3,
+      "manual": true,
+      "execAnimSpd": 1,
+      "execAnim": "FrenesieAtk",
+      "id": "frenzyFollowUp",
+      "sfxRelease": "sfx/enm/purpleDLC_Medusa_claw02.wav",
+      "fxId": "fxFrenesieAtk",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 1,
+      "lockAiAfter": 0.2,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "MiniBoss",
+  "__original_Index": 93
+}

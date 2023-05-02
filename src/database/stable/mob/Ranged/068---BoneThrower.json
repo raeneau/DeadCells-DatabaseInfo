@@ -1,0 +1,96 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1.5
+  },
+  "genTags": 545,
+  "glowOuterColor": 13553358,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Uncommon",
+      "item": "Cross",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 1,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 68,
+  "volteDelay": 0.5,
+  "id": "BoneThrower",
+  "dlc": "Purple",
+  "weight": 15,
+  "icon": {
+    "x": 46,
+    "y": 12,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    120
+  ],
+  "name": "DLCP_BONE_THROWER_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 5,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 2,
+  "score": 3,
+  "flesh1": 15596543,
+  "flesh2": 12507364,
+  "skill": [
+    {
+      "chargeAnim": "AtkA",
+      "coolDown": 1.3,
+      "power": [
+        15
+      ],
+      "props": {
+        "speed": 0.55,
+        "canTriggerThroughWall": true,
+        "distance": 17
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_BoneThrower_grd_charge.wav",
+      "charge": 0.28,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "AtkAEnd",
+      "id": "ThrowBone",
+      "sfxRelease": "sfx/enm/enm_BoneThrower_zmb_fuse1.wav",
+      "disableAnnounceFx": true,
+      "hitFrame": 0,
+      "breachResistance": -0.2,
+      "lockAiAfter": 0.15,
+      "ignoreGlobalCD": false
+    },
+    {
+      "coolDown": 0.9,
+      "props": {
+        "speed": 0.85,
+        "distance": 4
+      },
+      "allowInAir": false,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "charge": 0.18,
+      "manual": true,
+      "id": "jump",
+      "sfxRelease": "sfx/enm/enm_BoneThrower_jump1b.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 68
+}

@@ -1,0 +1,47 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Whip",
+  "strikeChain": [
+    {
+      "coolDown": 0.25,
+      "power": [
+        60
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.1,
+      "props": {
+        "range": 0.3,
+        "altAnim": "richterMode_whipAtk",
+        "hitFx": "richterMode_whipAtkFx"
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_whip_charge.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.7,
+        "height": 3,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_whip_release.wav",
+      "fxId": "fxWhip",
+      "animId": "atkWhip",
+      "sfxHit": "sfx/weapon/weapon_whip_hit.wav",
+      "hitFrame": 10,
+      "critMul": 1.4,
+      "glowColor": 16777215
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 30
+}

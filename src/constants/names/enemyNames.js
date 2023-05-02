@@ -189,6 +189,112 @@ export default {
     NAME: "Compulsive Gravedigger",
   },
 
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  ARMORED_SHRIMP: {
+    INTERNAL_ID: "BOILERROOM",
+    TYPE: ENEMY,
+    NAME: "Armored Shrimp",
+  },
+  ANCHOR_GUY: {
+    INTERNAL_ID: "ANCHORGUY",
+    TYPE: ENEMY,
+    NAME: "Mutineer",
+  },
+  SERVANT_SURVIVAL: {
+    INTERNAL_ID: "AMAZONSURVIVAL",
+    TYPE: ENEMY,
+    NAME: "Calliope",
+  },
+  SERVANT_TACTIC: {
+    INTERNAL_ID: "AMAZONTACTIC",
+    TYPE: ENEMY,
+    NAME: "Euterpe",
+  },
+  SERVANT_BRUTAL: {
+    INTERNAL_ID: "AMAZONBRUTAL",
+    TYPE: ENEMY,
+    NAME: "Kleio",
+  },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  GUILLAIN_THIEF: {
+    INTERNAL_ID: "U28_STEAL",
+    TYPE: ENEMY,
+    NAME: "Agitated Pickpocket",
+  },
+  GOLD_GORGER: {
+    INTERNAL_ID: "U28_VACUUMCLEANER",
+    TYPE: ENEMY,
+    NAME: "Gold Gorger",
+  },
+  GOLD_KAMIKAZEE: {
+    INTERNAL_ID: "GOLDENBATKAMIKAZE",
+    TYPE: ENEMY,
+    NAME: "Golden Kamikaze",
+  },
+  SHOP_MIMIC: {
+    INTERNAL_ID: "SHOPMIMIC",
+    TYPE: ENEMY,
+    NAME: "Mimic (Shop)",
+  },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  HAUNTEDARMOR: {
+    INTERNAL_ID: "HAUNTEDARMOR",
+    TYPE: ENEMY,
+    NAME: "Axe Armor",
+  },
+  LANCERPURPLE: {
+    INTERNAL_ID: "LANCERPURPLE",
+    TYPE: ENEMY,
+    NAME: "Armor Knight",
+  },
+  BUER: {
+    INTERNAL_ID: "BUER",
+    TYPE: ENEMY,
+    NAME: "Buer",
+  },
+  WEREWOLF: {
+    INTERNAL_ID: "MINIWEREWOLF",
+    TYPE: ENEMY,
+    NAME: "Werewolf",
+  },
+  DIREWEREWOLF: {
+    INTERNAL_ID: "WEREWOLF",
+    TYPE: ENEMY,
+    NAME: "Dire Werewolf",
+  },
+  VAMPIREBAT: {
+    INTERNAL_ID: "BATDASHERPURPLE",
+    TYPE: ENEMY,
+    NAME: "Vampire Bat",
+  },
+  HARPY: {
+    INTERNAL_ID: "HARPY",
+    TYPE: ENEMY,
+    NAME: "Harpy",
+  },
+  BONETHROWER: {
+    INTERNAL_ID: "BONETHROWER",
+    TYPE: ENEMY,
+    NAME: "Bone Thrower",
+  },
+  MERMAN: {
+    INTERNAL_ID: "MERMAN",
+    TYPE: ENEMY,
+    NAME: "Merman",
+  },
+  BONEPILLAR: {
+    INTERNAL_ID: "BONEPILLAR",
+    TYPE: ENEMY,
+    NAME: "Bone Pillar",
+  },
+  MEDUSA: {
+    INTERNAL_ID: "MEDUSA",
+    TYPE: ENEMY,
+    NAME: "Mudusa",
+  },
+
   // ---------------------------------------------------------------------------
   // BOSSES
   // ---------------------------------------------------------------------------
@@ -203,5 +309,25 @@ export default {
     INTERNAL_ID: "GARDENERBOSS",
     TYPE: ENEMY,
     NAME: "The Scarecrow",
+  },
+  QUEEN: {
+    INTERNAL_ID: "QUEEN",
+    TYPE: ENEMY,
+    NAME: "The Queen",
+  },
+  DEATH: {
+    INTERNAL_ID: "DEATH",
+    TYPE: ENEMY,
+    NAME: "Death",
+  },
+  DRACULA: {
+    INTERNAL_ID: "DOOKU",
+    TYPE: ENEMY,
+    NAME: "Dracula",
+  },
+  DRACULABEAST: {
+    INTERNAL_ID: "DOOKUBEAST",
+    TYPE: ENEMY,
+    NAME: "Dracula - Final Form",
   },
 };

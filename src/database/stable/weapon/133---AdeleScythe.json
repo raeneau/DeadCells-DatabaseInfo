@@ -1,0 +1,144 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "AdeleScythe",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        75
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_scythe_charge.wav",
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 7,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2.7,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_scythe_AtkA_release.wav",
+      "fxId": "FXAtkReaperToolA",
+      "animId": "AtkReaperToolA",
+      "sfxHit": "sfx/weapon/purpleDLC_scythe_hit.wav",
+      "hitFrame": 9,
+      "glowColor": 5357823,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOffset": [
+          25,
+          0
+        ]
+      },
+      "lockCtrlAfter": 0.18,
+      "props": {},
+      "breachBonus": 0.3,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_scythe_charge.wav",
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 8,
+        "offsetCaseX": -2,
+        "offsetCaseY": -1,
+        "height": 5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_scythe_AtkB_release.wav",
+      "fxId": "FXAtkReaperToolB",
+      "animId": "AtkReaperToolB",
+      "sfxHit": "sfx/weapon/purpleDLC_scythe_hit.wav",
+      "hitFrame": 3,
+      "glowColor": 5357823,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        110
+      ],
+      "fxProps": {
+        "fxStartFrame": 0,
+        "fxOffset": [
+          50,
+          0
+        ]
+      },
+      "lockCtrlAfter": 0.4,
+      "props": {},
+      "breachBonus": 0.5,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_scythe_charge.wav",
+      "charge": 0.43,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 7.5,
+        "offsetCaseX": -1,
+        "offsetCaseY": 0,
+        "height": 2.6,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_scythe_AtkC_release.wav",
+      "fxId": "FXAtkReaperToolC",
+      "animId": "AtkReaperToolC",
+      "sfxHit": "sfx/weapon/purpleDLC_scythe_hit.wav",
+      "hitFrame": 13,
+      "glowColor": 5357823,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.37,
+      "props": {
+        "count": 2,
+        "tick": 6
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/purpleDLC_scythe_charge.wav",
+      "charge": 0.16,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 8.5,
+        "offsetCaseX": -3.7,
+        "offsetCaseY": -1,
+        "height": 6.5,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/purpleDLC_scythe_AtkD_release.wav",
+      "animId": "AtkReaperToolD",
+      "sfxHit": "sfx/weapon/purpleDLC_scythe_hit.wav",
+      "hitFrame": 5,
+      "glowColor": 5357823,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 133
+}

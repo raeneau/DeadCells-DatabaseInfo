@@ -1,0 +1,45 @@
+{
+  "synergy": [],
+  "props": {
+    "scaledValueCap": 0.2,
+    "speed": 0.2,
+    "duration2": 10,
+    "prct2": 0.02,
+    "prct3": 0.04,
+    "prct": 0.4,
+    "customScaling": 0.01,
+    "duration": 0.75
+  },
+  "gameplayDesc": "Sacrifie ::*prct::% de votre santé maximum pour vous permettre de récupérer ::prct2::% de PV par attaque et un bonus de vitesse pendant ::duration2:: secondes.",
+  "moneyCost": 1500,
+  "group": 3,
+  "castCD": 30,
+  "id": "LeechBuff",
+  "icon": {
+    "x": 9,
+    "y": 8,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "OilAndFireOnUse"
+    }
+  ],
+  "name": "Vampirisme",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "NoDamage"
+    },
+    {
+      "tag": "Heal"
+    }
+  ],
+  "tier1": "Brutality",
+  "tier2": "Survival",
+  "cellCost": 80,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 30
+}

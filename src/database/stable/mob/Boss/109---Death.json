@@ -1,0 +1,273 @@
+{
+  "props": {
+    "combatMusic": "music/default/DeathArena_loop.ogg",
+    "dmgSoftCap": [
+      0,
+      0.15
+    ],
+    "combatMusicIntro": "music/default/DeathArena_intro.ogg",
+    "cellLoot": 40,
+    "bumpResistance": 0.9,
+    "dontSpatialiseSounds": true
+  },
+  "genTags": 532,
+  "glowOuterColor": 1245439,
+  "pfCost": 1,
+  "blueprints": [
+    {
+      "rarity": "Always",
+      "item": "AdeleScythe",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "AdeleDefault",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Always",
+      "item": "Adele1",
+      "minDifficulty": 1
+    },
+    {
+      "rarity": "Always",
+      "item": "Adele2",
+      "minDifficulty": 2
+    },
+    {
+      "rarity": "Always",
+      "item": "Adele3",
+      "minDifficulty": 3
+    },
+    {
+      "rarity": "Always",
+      "item": "Adele4",
+      "minDifficulty": 4
+    },
+    {
+      "rarity": "OverrideLimit",
+      "item": "FlawlessAdele",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 0,
+  "group": 5,
+  "canBeElite": false,
+  "mobTags": [],
+  "index": 109,
+  "volteDelay": 0.3,
+  "id": "Death",
+  "dlc": "Purple",
+  "weight": 50,
+  "icon": {
+    "x": 64,
+    "y": 3,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    4500
+  ],
+  "name": "DLCP_DEATH_NAME",
+  "minPfHeight": 0,
+  "glowInnerColor": 16777215,
+  "minPfSize": 0,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 0,
+  "score": 100,
+  "flesh1": 15596543,
+  "flesh2": 12507364,
+  "skill": [
+    {
+      "chargeAnim": "hacheMenu_load",
+      "coolDown": 10,
+      "power": [
+        10
+      ],
+      "props": {
+        "speed": 7,
+        "bump": 2,
+        "move": 2.5,
+        "tick": 0.1
+      },
+      "allowInAir": true,
+      "radius": 5,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_scytheCharge01.wav",
+      "charge": 2.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "hacheMenu",
+      "id": "scytheCombo",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_scytheCombo_release.wav",
+      "fxId": "FXAtkHacheMenu",
+      "disableAnnounceFx": false,
+      "hitFrame": 1,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "fauchageDown_load",
+      "coolDown": 6,
+      "power": [
+        25
+      ],
+      "props": {
+        "x": 144,
+        "y": 24,
+        "height": 50
+      },
+      "allowInAir": true,
+      "radius": 16,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_scytheCharge01.wav",
+      "charge": 2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "fauchageDown_end",
+      "id": "bigScytheAtkDown",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_scytheDown_release.wav",
+      "fxId": "FXAtkfauchageDown",
+      "disableAnnounceFx": false,
+      "hitFrame": 7,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "fauchageUp_load",
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "props": {
+        "x": -72,
+        "y": -60,
+        "height": 50
+      },
+      "allowInAir": true,
+      "radius": 16,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_scytheCharge01.wav",
+      "charge": 0.8,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "fauchageUp_end",
+      "id": "bigScytheAtkUp",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_scytheUp_release.wav",
+      "fxId": "FXAtkfauchageUp",
+      "disableAnnounceFx": false,
+      "hitFrame": 7,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "lanceFaux_load",
+      "coolDown": 8,
+      "power": [
+        15
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_scytheCharge01.wav",
+      "charge": 2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "lanceFaux_end",
+      "id": "scytheThrow",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_scytheThrow_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 8,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "teteChercheuse_load",
+      "coolDown": 4,
+      "power": [
+        8
+      ],
+      "props": {
+        "speed": 0.4,
+        "duration": 2
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_soulShot_charge.wav",
+      "charge": 1.2,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "teteChercheuse_end",
+      "id": "soulShot",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_soulShot_release.wav",
+      "disableAnnounceFx": false,
+      "sfxHit": "sfx/enm/purpleDLC_Death_soulShot_hit.wav",
+      "hitFrame": 6,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "explosion_load",
+      "coolDown": 1.5,
+      "power": [
+        15
+      ],
+      "props": {},
+      "allowInAir": true,
+      "radius": 6,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_soulBlast_load.wav",
+      "charge": 0.7,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 2,
+      "execAnim": "explosion_end",
+      "id": "soulBlast",
+      "sfxRelease": "sfx/enm/purpleDLC_Death_soulBlast_end.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 4,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "drain_load",
+      "coolDown": 0,
+      "props": {
+        "speed": 2.5
+      },
+      "allowInAir": true,
+      "radius": 0,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/purpleDLC_Death_soulUltimate_release.wav",
+      "charge": 7,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "drain_end",
+      "id": "soulUltimate",
+      "fxId": "FXAtkDrain_end",
+      "disableAnnounceFx": true,
+      "hitFrame": 138,
+      "breachResistance": 100,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": true
+    }
+  ],
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Boss",
+  "__original_Index": 109
+}

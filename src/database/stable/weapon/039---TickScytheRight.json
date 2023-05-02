@@ -1,0 +1,78 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "TickScytheRight",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        125
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "pct": 0.05,
+        "bump": 0.5
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_tickscythe_charge2.wav",
+      "charge": 0.77,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 8,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_tickscythe_release1.wav",
+      "fxId": "fxAtkScytheA1",
+      "animId": "atkScytheA1",
+      "sfxHit": "sfx/weapon/hit_broadsword.wav",
+      "hitFrame": 23,
+      "critMul": 3,
+      "glowColor": 4303355,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        200
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.25,
+      "props": {
+        "pct": 0.05,
+        "bump": 0.6
+      },
+      "breachBonus": 2,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_tickscythe_charge2.wav",
+      "charge": 0.75,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.5,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_tickscythe_release1.wav",
+      "fxId": "fxAtkScytheA2",
+      "animId": "atkScytheA2",
+      "sfxHit": "sfx/weapon/hit_broadsword.wav",
+      "hitFrame": 22,
+      "critMul": 2,
+      "glowColor": 4303355,
+      "animSpd": 1.5
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 39
+}

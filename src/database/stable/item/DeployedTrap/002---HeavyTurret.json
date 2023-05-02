@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Stun",
+      "trigger": true
+    }
+  ],
   "props": {
     "targetable": true,
     "dps": [
@@ -20,6 +26,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
   "name": "Tourelle lourde",
   "droppable": true,
   "tags": [
@@ -43,8 +54,7 @@
     }
   ],
   "tier1": "Tactic",
-  "cellCost": 40,
-  "legendAffix": "DeployedResist",
+  "cellCost": 5,
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 2

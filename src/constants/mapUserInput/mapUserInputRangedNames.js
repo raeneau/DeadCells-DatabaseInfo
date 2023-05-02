@@ -31,6 +31,7 @@ export default {
   INFINITEBOW: rangedWeaponNames.BOW_AND_ENDLESS_QUIVER,
 
   MARKSMANBOW: rangedWeaponNames.MARKSMAN_BOW,
+  MARKSMANSBOW: rangedWeaponNames.MARKSMAN_BOW,
   MARKSMAN: rangedWeaponNames.MARKSMAN_BOW,
   LONGBOW: rangedWeaponNames.MARKSMAN_BOW,
   FARBOW: rangedWeaponNames.MARKSMAN_BOW,
@@ -125,4 +126,48 @@ export default {
 
   BARRELLAUNCHER: rangedWeaponNames.BARREL_LAUNCHER,
   BARRELS: rangedWeaponNames.BARREL_LAUNCHER,
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  HARDLIGHTGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  HLDGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  HYPERLIGHTDRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+  DRIFTERGUN: rangedWeaponNames.HARD_LIGHT_GUN,
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  THROWINGCARDS: rangedWeaponNames.THROWINGCARDS,
+  CARDS: rangedWeaponNames.THROWINGCARDS,
+  KILLINGDECK: rangedWeaponNames.THROWINGCARDS,
+  DECK: rangedWeaponNames.THROWINGCARDS,
+
+  HEAVYBOW: rangedWeaponNames.HEAVYBOW,
+  GILDEDYUMI: rangedWeaponNames.HEAVYBOW,
+  YUMI: rangedWeaponNames.HEAVYBOW,
+
+  // ------------------------------ THE BANK -------------------------------- //
+  MONEYSHOOTER: rangedWeaponNames.MONEYSHOOTER,
+  MONEYSHOT: rangedWeaponNames.MONEYSHOOTER,
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  MAGICBOW: rangedWeaponNames.MAGIC_BOW,
+  HOMINGBOW: rangedWeaponNames.MAGIC_BOW,
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  GLYPHOFPERIL: rangedWeaponNames.GLYPH_OF_PERIL,
+  GLYPH: rangedWeaponNames.GLYPH_OF_PERIL,
+  HYDRASPELL: rangedWeaponNames.GLYPH_OF_PERIL,
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  THROWABLEOBJECTS: rangedWeaponNames.THROWABLEOBJECTS,
+  THROWABLESTUFF: rangedWeaponNames.THROWABLEOBJECTS,
+
+  LASERGLAIVE: rangedWeaponNames.LASERGLAIVE,
+  GLAIVE: rangedWeaponNames.LASERGLAIVE,
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  CROSS: rangedWeaponNames.CROSS,
+
+  THROWINGAXE: rangedWeaponNames.THROWINGAXE,
+
+  MEDUSASHEAD: rangedWeaponNames.MEDUSASHEAD,
+  MEDUSAHEAD: rangedWeaponNames.MEDUSASHEAD,
 };

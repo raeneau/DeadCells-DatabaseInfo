@@ -173,4 +173,73 @@ export default {
     TYPE: RANGED_WEAPON,
     NAME: "Barrel Launcher",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  HARD_LIGHT_GUN: {
+    INTERNAL_ID: "HARDLIGHTGUN",
+    TYPE: RANGED_WEAPON,
+    NAME: "Hard Light Gun",
+  },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  THROWINGCARDS: {
+    INTERNAL_ID: "THROWINGCARDS",
+    TYPE: RANGED_WEAPON,
+    NAME: "Killing Deck",
+  },
+  HEAVYBOW: {
+    INTERNAL_ID: "HEAVYBOW",
+    TYPE: RANGED_WEAPON,
+    NAME: "Gilded Yumi",
+  },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  MONEYSHOOTER: {
+    INTERNAL_ID: "MONEYSHOOTER",
+    TYPE: RANGED_WEAPON,
+    NAME: "Money Shooter",
+  },
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  MAGIC_BOW: {
+    INTERNAL_ID: "MAGICBOW",
+    TYPE: RANGED_WEAPON,
+    NAME: "Magic Bow",
+  },
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  GLYPH_OF_PERIL: {
+    INTERNAL_ID: "HYDRASPELL",
+    TYPE: RANGED_WEAPON,
+    NAME: "Glyph of Peril",
+  },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  THROWABLEOBJECTS: {
+    INTERNAL_ID: "THROWABLESTUFF",
+    TYPE: RANGED_WEAPON,
+    NAME: "Thorowable Objects",
+  },
+  LASERGLAIVE: {
+    INTERNAL_ID: "LASERGLAIVE",
+    TYPE: RANGED_WEAPON,
+    NAME: "Laser Glaive",
+  },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  CROSS: {
+    INTERNAL_ID: "CROSS",
+    TYPE: RANGED_WEAPON,
+    NAME: "Cross",
+  },
+  THROWINGAXE: {
+    INTERNAL_ID: "THROWINGAXE",
+    TYPE: RANGED_WEAPON,
+    NAME: "Throwing Axe",
+  },
+  MEDUSASHEAD: {
+    INTERNAL_ID: "MEDUSAHEAD",
+    TYPE: RANGED_WEAPON,
+    NAME: "Medusa's Head",
+  },
 };

@@ -138,4 +138,79 @@ export default {
     TYPE: POWER,
     NAME: "Cocoon",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  FACE_FLASK: {
+    INTERNAL_ID: "FACEFLASK",
+    TYPE: POWER,
+    NAME: "Face Flask",
+  },
+  POLLO_POWER: {
+    INTERNAL_ID: "POLLOPOWER",
+    TYPE: POWER,
+    NAME: "Pollo Power",
+  },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  LEGHUGGER: {
+    INTERNAL_ID: "SPAWNLILSTAPHY",
+    TYPE: POWER,
+    NAME: "Leghugger",
+  },
+  ADULT_LEGHUGGER: {
+    INTERNAL_ID: "SPAWNADULTLILSTAPHY",
+    TYPE: POWER,
+    NAME: "Leghugger (Evolved)",
+  },
+
+  // ------------------------------ BOSS RUSH ------------------------------- //
+  TAUNT: {
+    INTERNAL_ID: "TAUNT",
+    TYPE: POWER,
+    NAME: "Taunt",
+  },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  DD_BARRICADE: {
+    INTERNAL_ID: "DIVERSEDECKJUGGERNAUT",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Barricade",
+  },
+  DD_CATALYST: {
+    INTERNAL_ID: "DIVERSEDECKCATALYST",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Catalyst",
+  },
+  DD_ELECTRO: {
+    INTERNAL_ID: "DIVERSEDECKELECTRO",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Electrodynamics",
+  },
+  DD_FORESIGHT: {
+    INTERNAL_ID: "DIVERSEDECKWATCHER",
+    TYPE: POWER,
+    NAME: "Diverse Deck - Foresight",
+  },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  BOUNCINGSTONE: {
+    INTERNAL_ID: "BOUNCINGSTONE",
+    TYPE: POWER,
+    NAME: "Rebound Stone",
+  },
+  BATVOLLEY: {
+    INTERNAL_ID: "BATVOLLEY",
+    TYPE: POWER,
+    NAME: "Bat Volley",
+  },
+  SPAWNCAT: {
+    INTERNAL_ID: "SPAWNCAT",
+    TYPE: POWER,
+    NAME: "Maria's Cat",
+  },
+  CATATTACK: {
+    INTERNAL_ID: "CATATTACK",
+    TYPE: POWER,
+    NAME: "Maria's Cat (Attack)",
+  },
 };

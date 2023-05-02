@@ -1,0 +1,46 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "FrostCrossBowOffHand",
+  "strikeChain": [
+    {
+      "coolDown": 0.5,
+      "power": [
+        40
+      ],
+      "fxProps": {
+        "fxInnerColor": 3127504,
+        "fxOuterColor": 3127504
+      },
+      "lockCtrlAfter": 0.35,
+      "props": {
+        "range": 1.5,
+        "bump": 0.3
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_icecrossbow_charge.wav",
+      "charge": 0.35,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 14,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 1.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_icecrossbow_release2.wav",
+      "animId": "frostCrossbow",
+      "hitFrame": 0,
+      "critMul": 2.5,
+      "glowColor": 33023,
+      "animSpd": 1.2
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 67
+}

@@ -1,0 +1,45 @@
+{
+  "allowCrouch": true,
+  "isACancel": false,
+  "item": "SonicCrossbow",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {
+        "fxInnerColor": 16711680,
+        "fxOuterColor": 16711680
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "range": 11,
+        "tick": 0.13
+      },
+      "breachBonus": 0.6,
+      "dynamicCharge": 2,
+      "sfxCharge": "sfx/weapon/bow_charge2.wav",
+      "charge": 0.17,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/bow_shot2.wav",
+      "animId": "sonicCrossbow",
+      "hitFrame": 0,
+      "glowColor": 65355,
+      "animSpd": 5
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 58
+}

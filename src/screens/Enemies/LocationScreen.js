@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _isEmpty from "lodash.isempty";
 import _get from "lodash.get";
 
@@ -7,7 +8,7 @@ import enemyLocation from "../../utils/enemyLocation";
 
 // -----------------------------------------------------------------------------
 
-const LocaationScreen = (props) => {
+function LocationScreen(props) {
   const { userInput, databaseVersion } = props;
 
   const enemyBiomeLocations = enemyLocation({
@@ -34,14 +35,25 @@ const LocaationScreen = (props) => {
         <>
           <div className="notFoundWrapper">N/A</div>
           <div className="notFoundWrapper">
-            ({isTrashMob ? "spawned by another mob" : "is a boss"})
+            ({isTrashMob ? "spawned by another mob" : "is a boss or mini-boss"})
           </div>
         </>
       )}
     </div>
   );
+}
+
+LocationScreen.propTypes = {
+  databaseVersion: PropTypes.string.isRequired,
+  userInput: PropTypes.shape({
+    enemyJson: PropTypes.shape({
+      props: PropTypes.shape({
+        isTrashMob: PropTypes.bool,
+      }),
+    }),
+  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------
 
-export default LocaationScreen;
+export default LocationScreen;

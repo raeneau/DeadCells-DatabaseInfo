@@ -1,0 +1,51 @@
+{
+  "synergy": [],
+  "props": {
+    "range": 9,
+    "coolDown": 0.6,
+    "power": 0.1,
+    "duration2": 4,
+    "dps": [
+      20
+    ],
+    "power2": [
+      40
+    ],
+    "distance": 12,
+    "duration": 3
+  },
+  "gameplayDesc": "Attire les ennemis dans une large zone pendant quelques instants, puis explose en infligeant des dégâts {électriques@EL}.",
+  "moneyCost": 1800,
+  "group": 1,
+  "castCD": 16,
+  "id": "MagnetGrenade",
+  "icon": {
+    "x": 7,
+    "y": 4,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Echo"
+    }
+  ],
+  "name": "Grenade magnétique",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "Explosive"
+    },
+    {
+      "tag": "Electric"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 60,
+  "__separator_group_ID": 1,
+  "__separator_group_Name": "Grenade",
+  "__original_Index": 16
+}

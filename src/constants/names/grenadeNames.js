@@ -58,4 +58,11 @@ export default {
     TYPE: GRENADE,
     NAME: "Hunter's Grenade",
   },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  HOLYWATER: {
+    INTERNAL_ID: "HOLYWATER",
+    TYPE: GRENADE,
+    NAME: "Holy Water",
+  },
 };

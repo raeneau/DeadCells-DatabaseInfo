@@ -1,0 +1,158 @@
+{
+  "props": {
+    "movePauseMul": 0,
+    "moveSpeedMul": 1,
+    "near": 4,
+    "prct": 0.01,
+    "maxSpeed": 3,
+    "bumpResistance": 0.3
+  },
+  "genTags": 512,
+  "glowOuterColor": 1586337,
+  "pfCost": 1.4,
+  "blueprints": [
+    {
+      "rarity": "Rare",
+      "item": "P_AttackSpeed_Combo",
+      "minDifficulty": 0
+    },
+    {
+      "rarity": "Uncommon",
+      "item": "HeavyAxe",
+      "minDifficulty": 0
+    }
+  ],
+  "maxPerRoom": 1,
+  "group": 0,
+  "canBeElite": true,
+  "mobTags": [],
+  "index": 30,
+  "volteDelay": 0.6,
+  "id": "Enforcer",
+  "weight": 20,
+  "icon": {
+    "x": 38,
+    "y": 71,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "life": [
+    200
+  ],
+  "name": "Oven Knight",
+  "minPfHeight": 0,
+  "glowInnerColor": 1931711,
+  "minPfSize": 8,
+  "active": true,
+  "metaItems": [],
+  "maxPerPlatform": 1,
+  "score": 6,
+  "flesh1": 11493844,
+  "flesh2": 12211505,
+  "skill": [
+    {
+      "chargeAnim": "loadAtkB",
+      "coolDown": 4,
+      "power": [
+        5
+      ],
+      "props": {
+        "stunTime": 1,
+        "bump": 0.5
+      },
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": false,
+      "sfxCharge": "sfx/enm/enm_enforcer_charge.wav",
+      "charge": 0.4,
+      "manual": false,
+      "execAnimSpd": 0,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkB",
+      "id": "shieldBash",
+      "sfxRelease": "sfx/enm/enm_shield_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0.5,
+      "ignoreGlobalCD": true
+    },
+    {
+      "chargeAnim": "loadAtkASHIELD",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 3,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_enforcer_charge2.wav",
+      "charge": 0.6,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkASHIELD",
+      "id": "shieldedSlash",
+      "sfxRelease": "sfx/enm/enm_enforcer_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.25,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkC1",
+      "coolDown": 1,
+      "power": [
+        10
+      ],
+      "props": {},
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_enforcer_charge2.wav",
+      "charge": 0.4,
+      "manual": false,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkC1",
+      "id": "shieldlessSlash1",
+      "sfxRelease": "sfx/enm/enm_enforcer_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.75,
+      "lockAiAfter": 0,
+      "ignoreGlobalCD": false
+    },
+    {
+      "chargeAnim": "loadAtkC2",
+      "coolDown": 0,
+      "power": [
+        15
+      ],
+      "props": {
+        "bump": 0.3
+      },
+      "allowInAir": false,
+      "radius": 4,
+      "allowSameSkillNearby": true,
+      "sfxCharge": "sfx/enm/enm_enforcer_charge3.wav",
+      "charge": 0.35,
+      "manual": true,
+      "execAnimSpd": 1,
+      "chargeAnimSpd": 1,
+      "execAnim": "atkC2",
+      "id": "shieldlessSlash2",
+      "sfxRelease": "sfx/enm/enm_enforcer_release.wav",
+      "disableAnnounceFx": false,
+      "hitFrame": 0,
+      "breachResistance": 0.75,
+      "lockAiAfter": 0.4,
+      "ignoreGlobalCD": false
+    }
+  ],
+  "__separator_group_ID": 0,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 30
+}

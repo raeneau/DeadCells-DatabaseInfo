@@ -1,0 +1,56 @@
+{
+  "synergy": [],
+  "props": {
+    "linkedItems": [
+      {
+        "item": "DiverseDeckElectro"
+      },
+      {
+        "item": "DiverseDeckWatcher"
+      },
+      {
+        "item": "DiverseDeckCatalyst"
+      },
+      {
+        "item": "DiverseDeckJuggernaut"
+      }
+    ],
+    "color": 1703680,
+    "prct": 0.5,
+    "distance": 10
+  },
+  "gameplayDesc": "U32_DIVERSEDECK CATALYST_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 3,
+  "castCD": 5,
+  "ambiantDesc": "U32_DIVERSEDECK CATALYST_AMBIANTDESC",
+  "id": "DiverseDeckCatalyst",
+  "icon": {
+    "x": 36,
+    "y": 5,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Upgraded_Cata"
+    }
+  ],
+  "name": "U32_DIVERSEDECKCATALYST_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "PassivePower"
+    },
+    {
+      "tag": "Unique"
+    },
+    {
+      "tag": "NoCooldownReadySfx"
+    }
+  ],
+  "cellCost": 0,
+  "__separator_group_ID": 3,
+  "__separator_group_Name": "Power",
+  "__original_Index": 68
+}

@@ -1,4 +1,10 @@
 {
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    }
+  ],
   "props": {
     "targetable": true,
     "dps": [
@@ -22,6 +28,11 @@
     "file": "cardIcons.png",
     "size": 24
   },
+  "legendAffixes": [
+    {
+      "affix": "BleedPropagation"
+    }
+  ],
   "name": "Tranche-ligaments",
   "droppable": true,
   "tags": [
@@ -42,12 +53,14 @@
     },
     {
       "tag": "UnlockInPublicEvent"
+    },
+    {
+      "tag": "AutoUnlocked"
     }
   ],
   "tier1": "Tactic",
   "tier2": "Brutality",
   "cellCost": 0,
-  "legendAffix": "PoisonOnHit",
   "__separator_group_ID": 0,
   "__separator_group_Name": "DeployedTrap",
   "__original_Index": 1

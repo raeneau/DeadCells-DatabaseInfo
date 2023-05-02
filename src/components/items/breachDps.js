@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import _get from "lodash.get";
 
@@ -21,7 +22,7 @@ function BreachDPS(props) {
       const charge = _get(element, "charge", 0);
       const cooldown = _get(element, "coolDown", 0);
       const lockControlAfter = _get(element, "lockCtrlAfter", 0);
-      const power = _get(element, "power[0]", 0);
+      const power = _get(element, "power[0]") || _get(element, "power", 0);
       const critMult = _get(element, "critMul", 1);
       const breachBonus = _get(element, "breachBonus");
 
@@ -55,6 +56,21 @@ function BreachDPS(props) {
 
 // (sum of all powers) / (sum of all charge + cooldown + lockCtrlAfter) ROUNDED UP
 // 310
+
+BreachDPS.propTypes = {
+  array: PropTypes.arrayOf(
+    PropTypes.shape({
+      charge: PropTypes.number,
+      cooldown: PropTypes.number,
+      lockCtrlAfter: PropTypes.number,
+      breachBonus: PropTypes.number,
+    }),
+  ),
+};
+
+BreachDPS.defaultProps = {
+  array: [],
+};
 
 // -----------------------------------------------------------------------------
 

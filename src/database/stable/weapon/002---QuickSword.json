@@ -1,0 +1,207 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "QuickSword",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        25
+      ],
+      "fxProps": {
+        "fxInnerColor": 16367179,
+        "fxOuterColor": 16367179
+      },
+      "lockCtrlAfter": 0.05,
+      "props": {},
+      "breachBonus": -0.9,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxAtkBackstabberA",
+      "animId": "atkBackStabberA",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.78,
+      "glowColor": 16449353,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        34
+      ],
+      "fxProps": {
+        "fxInnerColor": 16367179,
+        "fxOuterColor": 16367179
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {},
+      "breachBonus": -0.9,
+      "dynamicCharge": 0,
+      "charge": 0.1,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxAtkBackstabberB",
+      "animId": "atkBackStabberB",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.78,
+      "glowColor": 16449353,
+      "animSpd": 1.5
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        34
+      ],
+      "fxProps": {
+        "fxInnerColor": 16367179,
+        "fxOuterColor": 16753939
+      },
+      "lockCtrlAfter": 0.05,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": -0.9,
+      "dynamicCharge": 0,
+      "charge": 0.07,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxAtkBackstabberA",
+      "animId": "atkBackStabberA",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.78,
+      "glowColor": 16449353,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        34
+      ],
+      "fxProps": {
+        "fxInnerColor": 16367179,
+        "fxOuterColor": 16753939
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {},
+      "breachBonus": -0.75,
+      "dynamicCharge": 0,
+      "charge": 0.07,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxAtkBackstabberB",
+      "animId": "atkBackStabberB",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 0.78,
+      "glowColor": 16449353,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        34
+      ],
+      "fxProps": {
+        "fxInnerColor": 16776336,
+        "fxOuterColor": 16776336
+      },
+      "lockCtrlAfter": 0.05,
+      "props": {},
+      "breachBonus": -0.75,
+      "dynamicCharge": 0,
+      "charge": 0.07,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.7,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxKnifeB",
+      "animId": "atkKnifeB",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 7,
+      "critMul": 0.78,
+      "glowColor": 16449353,
+      "animSpd": 2
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        54
+      ],
+      "fxProps": {
+        "fxInnerColor": 16727315,
+        "fxOuterColor": 16727315
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {
+        "bump": 0.2
+      },
+      "breachBonus": -0.5,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 2.85,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.65,
+        "height": 0,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_kunai_release.wav",
+      "fxId": "fxSaberA",
+      "animId": "atkSaberA",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 9,
+      "critMul": 0.78,
+      "glowColor": 16737054
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 2
+}

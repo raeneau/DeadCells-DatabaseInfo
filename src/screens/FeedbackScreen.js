@@ -17,10 +17,9 @@ function FeedbackScreen() {
         <h3 className={cn.header}>Problems? Feedback?</h3>
         <ul>
           <div>
-            Contact <b>Raeneau#2263</b> on Discord
+            Contact <b>Raeneau#2263</b> on Discord!
           </div>
-          <div>Also, maybe take a deep breath or something.</div>
-          <div>Or go get a snack.</div>
+          <div>Also, take a deep breath and go get a snack. 💕</div>
         </ul>
       </div>
     </div>

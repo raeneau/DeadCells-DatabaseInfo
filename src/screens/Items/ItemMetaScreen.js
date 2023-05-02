@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Local modules.
@@ -10,7 +11,7 @@ import Sprite from "../../components/items/sprite";
 
 // -----------------------------------------------------------------------------
 
-const ItemMetaScreen = (props) => {
+function ItemMetaScreen(props) {
   const { itemJson, itemName } = props;
 
   return (
@@ -45,6 +46,24 @@ const ItemMetaScreen = (props) => {
       </table>
     </div>
   );
+}
+
+ItemMetaScreen.propTypes = {
+  itemJson: PropTypes.shape({
+    __separator_group_Name: PropTypes.string,
+    legendAffix: PropTypes.string,
+    moneyCost: PropTypes.number,
+    tags: PropTypes.arrayOf(
+      PropTypes.shape({
+        power: PropTypes.arrayOf(PropTypes.number),
+        charge: PropTypes.number,
+        lock: PropTypes.number,
+      }),
+    ),
+    tier1: PropTypes.string,
+    tier2: PropTypes.string,
+  }).isRequired,
+  itemName: PropTypes.string.isRequired,
 };
 
 // -----------------------------------------------------------------------------

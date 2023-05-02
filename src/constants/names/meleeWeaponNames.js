@@ -248,4 +248,141 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Broken Toothpick",
   },
+
+  // -------------------------- EVERYONE IS HERE ---------------------------- //
+  MACHETE_PISTOL: {
+    INTERNAL_ID: "MACHETEPISTOL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Machete and Pistol",
+  },
+  HARD_LIGHT_SWORD: {
+    INTERNAL_ID: "HARDLIGHTSWORD",
+    TYPE: MELEE_WEAPON,
+    NAME: "Hard Light Sword",
+  },
+  PURE_NAIL: {
+    INTERNAL_ID: "PURENAIL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Pure Nail",
+  },
+  BONE: {
+    INTERNAL_ID: "SKULBONE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bone",
+  },
+
+  // ------------------------- QUEEN AND THE SEA ---------------------------- //
+  TRIDENT: {
+    INTERNAL_ID: "TRIDENT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Trident",
+  },
+  HANDHOOK: {
+    INTERNAL_ID: "HANDHOOK",
+    TYPE: MELEE_WEAPON,
+    NAME: "Hand Hook",
+  },
+  SHARK: {
+    INTERNAL_ID: "SHARK",
+    TYPE: MELEE_WEAPON,
+    NAME: "Maw of the Deep",
+  },
+  ELBOW_BLADES: {
+    INTERNAL_ID: "ELBOWBLADES",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bladed Tonfas",
+  },
+  WRECKINGBALL: {
+    INTERNAL_ID: "WRECKINGBALL",
+    TYPE: MELEE_WEAPON,
+    NAME: "Wrecking Ball",
+  },
+  QUEENRAPIER: {
+    INTERNAL_ID: "QUEENRAPIER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Queen's Rapier",
+  },
+
+  // ------------------------------ THE BANK -------------------------------- //
+  DAGGERPROFIT: {
+    INTERNAL_ID: "CUPIDITYDAGGER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Dagger of Profit",
+  },
+  GOLDDIGGER: {
+    INTERNAL_ID: "GOLDDIGGER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Gold Digger",
+  },
+  GOLDDAGGEREVO: {
+    INTERNAL_ID: "GOLDDIGGEREVOLVED",
+    TYPE: MELEE_WEAPON,
+    NAME: "Gold Digger (Evolved)",
+  },
+
+  // -------------------------- ENTER THE PANCHAKU -------------------------- //
+  NUNCHUCKPAN: {
+    INTERNAL_ID: "NUNCHUCKPAN",
+    TYPE: MELEE_WEAPON,
+    NAME: "Panchaku",
+  },
+
+  // -------------------------- EVERYONE IS HERE 2 -------------------------- //
+  KINGSCEPTER: {
+    INTERNAL_ID: "KINGSCEPTER",
+    TYPE: MELEE_WEAPON,
+    NAME: "King Scepter",
+  },
+  BASEBALLBAT: {
+    INTERNAL_ID: "BASEBALLBAT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Baseball Bat",
+  },
+  STARFURY: {
+    INTERNAL_ID: "STARFURY",
+    TYPE: MELEE_WEAPON,
+    NAME: "Starfury",
+  },
+
+  // ------------------------ RETURN TO CASTLEVANIA ------------------------- //
+  VAMPIREKILLER: {
+    INTERNAL_ID: "VAMPIREKILLER",
+    TYPE: MELEE_WEAPON,
+    NAME: "Vampire Killer",
+  },
+  BIBLE: {
+    INTERNAL_ID: "BIBLE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Bible",
+  },
+  TPSWORD: {
+    INTERNAL_ID: "TPSWORD",
+    TYPE: MELEE_WEAPON,
+    NAME: "Alucard's Sword",
+  },
+  DEATHSSCYTHE: {
+    INTERNAL_ID: "ADELESCYTHE",
+    TYPE: MELEE_WEAPON,
+    NAME: "Death's Scythe",
+  },
+  MORNINGSTAR: {
+    INTERNAL_ID: "WIGGLEWHIP",
+    TYPE: MELEE_WEAPON,
+    NAME: "Morning Star",
+  },
+  WHIPSWORDSHORT: {
+    INTERNAL_ID: "SNAKESWORDWEAPON",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Short Range)",
+  },
+  WHIPSWORDLONG: {
+    INTERNAL_ID: "SNAKESWORDWEAPONALT",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Long Range)",
+  },
+  WHIPSWORDSWAP: {
+    INTERNAL_ID: "SNAKESWORDSWAP",
+    TYPE: MELEE_WEAPON,
+    NAME: "Whip Sword (Swap)",
+  },
 };
