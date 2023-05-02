@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "neverCompensateCost": true,
+    "explosionRange": 5.5
+  },
   "synergy": [],
   "props": {
-    "range": 5.5,
-    "neverCompensateCost": true,
     "prct": 0.4
   },
   "gameplayDesc": "Énervez un monstre avec cet objet. Lorsqu'il lui reste ::prct::% de vie ou moins, utilisez \"Extraction de schéma\".",

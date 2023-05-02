@@ -1,9 +1,10 @@
 {
+  "newSkill": [],
   "props": {
     "speed": 2,
     "far": 8,
     "moveSpeedMul": 1.6,
-    "near": 5
+    "near": 6
   },
   "genTags": 512,
   "glowOuterColor": 16726016,
@@ -30,10 +31,10 @@
   "dlc": "Purple",
   "weight": 10,
   "icon": {
-    "x": 37,
-    "y": 4,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 0,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     200

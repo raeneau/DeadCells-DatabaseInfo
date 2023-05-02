@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "explosionRange": 6
+  },
   "synergy": [
     {
       "tag": "Ice",
@@ -6,7 +9,6 @@
     }
   ],
   "props": {
-    "range": 6,
     "coolDown": 0.6,
     "power": [
       35

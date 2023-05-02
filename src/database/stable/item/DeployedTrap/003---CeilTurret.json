@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "deployTimer": 0.2,
+    "targetable": false
+  },
   "synergy": [],
   "props": {
-    "deployTimer": 0.2,
-    "targetable": false,
     "dps": [
       80
     ],

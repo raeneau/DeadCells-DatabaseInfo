@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "FlyingSwordCallback"
+  },
   "synergy": [],
   "props": {
     "speed": 0.2,
@@ -13,7 +16,6 @@
       30
     ],
     "bump": 0.1,
-    "item": "FlyingSwordCallback",
     "frict": 0.92,
     "lock": 10,
     "color": 16744257,

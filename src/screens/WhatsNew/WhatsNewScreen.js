@@ -1,7 +1,7 @@
 import React from "react";
 
 // Current release notes.
-import currentNewFeatures from "./2023/03_MARCH_06_2023";
+import currentNewFeatures from "./2023/05_MAY_01_2023";
 
 // Constants.
 import { UPDATE_DATE } from "../../constants/databaseVersion";

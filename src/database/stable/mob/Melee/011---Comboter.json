@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1.2
@@ -37,10 +38,10 @@
   "id": "Comboter",
   "weight": 20,
   "icon": {
-    "x": 65,
-    "y": 4,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 11,
+    "y": 0,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     215

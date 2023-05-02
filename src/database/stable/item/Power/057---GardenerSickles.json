@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "reqUnlocks": 5
+  },
   "synergy": [],
   "props": {
     "speed": 0.03,
@@ -17,8 +20,7 @@
     "count": 5,
     "distance": 4,
     "tick": 0.3,
-    "limit": 0.7,
-    "reqUnlocks": 5
+    "limit": 0.7
   },
   "gameplayDesc": "Revient vers vous automatiquement. Inflige des {coups critiques@CC} de plus en plus violents après chaque touche.",
   "moneyCost": 1250,

@@ -1,4 +1,12 @@
 {
+  "commonProps": {
+    "linkedItems": [
+      {
+        "item": "SpawnLilStaphy"
+      }
+    ],
+    "item": "AdultLilStaphyStab"
+  },
   "synergy": [
     {
       "tag": "Bleed",
@@ -6,11 +14,9 @@
     }
   ],
   "props": {
-    "linkedItem": "SpawnLilStaphy",
     "dps": [
       40
-    ],
-    "item": "AdultLilStaphyStab"
+    ]
   },
   "gameplayDesc": "Summon an adult Leghugger that attacks your enemies, inflicting {critical hits@CC} on bleeding targets. Re-activate to make it attack in a circle around itself, making enemies hit {bleed@BL}.",
   "moneyCost": 1750,

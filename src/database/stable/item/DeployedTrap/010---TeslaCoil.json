@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "targetable": true
+  },
   "synergy": [
     {
       "tag": "Electric",
@@ -8,12 +11,10 @@
   "props": {
     "range": 8,
     "color2": 8061841,
-    "targetable": true,
     "dps": [
       23
     ],
     "dps2": 18,
-    "lightRange": 5,
     "life": 150,
     "color": 4998263,
     "effectCD": 0.8

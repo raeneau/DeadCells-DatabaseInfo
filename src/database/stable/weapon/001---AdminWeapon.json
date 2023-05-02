@@ -5,18 +5,12 @@
   "strikeChain": [
     {
       "coolDown": 0,
-      "power": [
-        25
-      ],
+      "power": 10,
       "fxProps": {
         "fxInnerColor": 0
       },
       "lockCtrlAfter": 0.1,
-      "props": {
-        "duration2": 1,
-        "bump": 0,
-        "duration": 0.5
-      },
+      "props": {},
       "breachBonus": 0,
       "dynamicCharge": 0,
       "charge": 0.1,

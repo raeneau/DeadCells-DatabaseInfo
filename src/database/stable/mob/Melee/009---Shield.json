@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1,
@@ -38,10 +39,10 @@
   "id": "Shield",
   "weight": 20,
   "icon": {
-    "x": 44,
-    "y": 71,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 9,
+    "y": 0,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     100

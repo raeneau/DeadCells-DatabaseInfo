@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import PropTypes from "prop-types";
 import _get from "lodash.get";
 
 // Screens.
@@ -23,17 +22,6 @@ const LevelsScreen = () => {
       <EnemiesScreen userInput={results} />
     </div>
   );
-};
-
-LevelsScreen.propTypes = {
-  userInput: PropTypes.shape({
-    itemJson: PropTypes.shape({
-      tripleUps: PropTypes.number,
-      doubleUps: PropTypes.number,
-      quarterUpsBC3: PropTypes.number,
-      quarterUpsBC4: PropTypes.number,
-    }).isRequired,
-  }).isRequired,
 };
 
 // -----------------------------------------------------------------------------

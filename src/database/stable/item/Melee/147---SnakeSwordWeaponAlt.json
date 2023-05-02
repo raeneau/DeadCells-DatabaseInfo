@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "item": "SnakeSwordSwap"
+  },
   "synergy": [],
   "props": {
-    "item": "SnakeSwordSwap",
     "duration": 1.5
   },
   "gameplayDesc": "DLCP_SNAKE_SWORD_ALT_GAMEPLAYDESC",

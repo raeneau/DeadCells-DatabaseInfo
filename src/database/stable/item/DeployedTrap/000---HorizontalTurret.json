@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "targetable": true
+  },
   "synergy": [],
   "props": {
     "duration2": 0.09,
-    "targetable": true,
     "dps": [
       45
     ],

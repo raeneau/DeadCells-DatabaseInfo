@@ -1,6 +1,5 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "linkedItems": [
       {
         "item": "DiverseDeckElectro"
@@ -14,7 +13,10 @@
       {
         "item": "DiverseDeckJuggernaut"
       }
-    ],
+    ]
+  },
+  "synergy": [],
+  "props": {
     "duration2": 0,
     "color": 655615,
     "count": 8,

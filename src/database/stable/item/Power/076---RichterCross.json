@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "ammo": 1
+  },
   "synergy": [],
   "props": {
     "speed": 0.8,
@@ -14,7 +17,6 @@
     "duration3": 5,
     "speed2": 0.2,
     "dps": 25,
-    "ammo": 1,
     "height": 24,
     "color": 8974335,
     "distance": 3,

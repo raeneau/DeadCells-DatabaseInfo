@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "cannotBeShield": true,
     "doNotScaleLife": true,
@@ -27,10 +28,10 @@
   "id": "GoldenBatKamikaze",
   "weight": 0,
   "icon": {
-    "x": 49,
-    "y": 15,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 9,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": 1,
   "name": "U28_GOLDEN_KAMIKAZE",

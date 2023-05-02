@@ -1,13 +1,15 @@
 {
+  "commonProps": {
+    "scaledValueCap": 0.2,
+    "customScaling": 0.01
+  },
   "synergy": [],
   "props": {
-    "scaledValueCap": 0.2,
     "speed": 0.2,
     "duration2": 10,
     "prct2": 0.02,
     "prct3": 0.04,
     "prct": 0.4,
-    "customScaling": 0.01,
     "duration": 0.75
   },
   "gameplayDesc": "Sacrifie ::*prct::% de votre santé maximum pour vous permettre de récupérer ::prct2::% de PV par attaque et un bonus de vitesse pendant ::duration2:: secondes.",
@@ -23,7 +25,7 @@
   },
   "legendAffixes": [
     {
-      "affix": "OilAndFireOnUse"
+      "affix": "EternalHunger"
     }
   ],
   "name": "Vampirisme",
@@ -34,6 +36,9 @@
     },
     {
       "tag": "Heal"
+    },
+    {
+      "tag": "PassivePower"
     }
   ],
   "tier1": "Brutality",

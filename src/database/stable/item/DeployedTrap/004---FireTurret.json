@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "targetable": true
+  },
   "synergy": [
     {
       "tag": "Fire",
@@ -6,7 +9,6 @@
     }
   ],
   "props": {
-    "targetable": true,
     "dps": 8,
     "life": 150,
     "effectCD": 0,

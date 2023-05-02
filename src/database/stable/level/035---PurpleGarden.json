@@ -5,8 +5,11 @@
     "musicIntro": "music/default/PurpleGarden_intro.ogg",
     "musicLoop": "music/default/PurpleGarden_loop.ogg",
     "zDoorColor": 0,
+    "weaponShopMusic": "music/default/Purple_shop.ogg",
+    "healShopMusic": "music/default/Purple_shop.ogg",
     "biomeType": 1,
     "loadingDescColor": 4777143,
+    "defaultShopMusic": "music/default/Purple_shop.ogg",
     "loadingColor": 258
   },
   "biome": "PurpleGarden",
@@ -835,7 +838,7 @@
       "reflected": false,
       "position": {
         "levelX": 0,
-        "levelY": -0.3
+        "levelY": -0.2
       },
       "pivotX": 0,
       "pivotY": 0,

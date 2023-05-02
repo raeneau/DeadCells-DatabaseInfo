@@ -4,8 +4,11 @@
     "doorColor": 12582912,
     "musicIntro": "music/default/DookuCastle_intro.ogg",
     "musicLoop": "music/default/DookuCastle_loop.ogg",
+    "weaponShopMusic": "music/default/Purple_shop.ogg",
+    "healShopMusic": "music/default/Purple_shop.ogg",
     "biomeType": 0,
     "loadingDescColor": 14557473,
+    "defaultShopMusic": "music/default/Purple_shop.ogg",
     "loadingColor": 1247769
   },
   "biome": "DookuCastle",

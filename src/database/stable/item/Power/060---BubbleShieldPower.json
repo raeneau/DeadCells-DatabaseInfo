@@ -1,4 +1,8 @@
 {
+  "commonProps": {
+    "deployTimer": 0.1,
+    "grenadeKickPow": 0.3
+  },
   "synergy": [],
   "props": {
     "range": 4,
@@ -7,9 +11,7 @@
     ],
     "duration2": 1,
     "width": 2,
-    "deployTimer": 0.1,
     "bonus": 0.1,
-    "grenadeKickPow": 0.3,
     "power3": [
       75
     ],

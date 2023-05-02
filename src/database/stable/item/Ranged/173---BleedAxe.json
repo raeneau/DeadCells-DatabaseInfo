@@ -1,0 +1,68 @@
+{
+  "commonProps": {
+    "ammo": 5
+  },
+  "synergy": [
+    {
+      "tag": "Bleed",
+      "trigger": true
+    },
+    {
+      "tag": "Poison",
+      "trigger": false
+    }
+  ],
+  "props": {
+    "speed": 1.1,
+    "dps": 25,
+    "duration": 3
+  },
+  "gameplayDesc": "Provoque {saignement@BL} (::+dps:: DPS pendant ::duration:: sec). Inflige un {coup critique@CC} si la cible {saigne@BL} ou est {empoisonnée@TO}.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "id": "BleedAxe",
+  "dlc": "RiseOfTheGiant",
+  "icon": {
+    "x": 16,
+    "y": 13,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BleedPropagation"
+    }
+  ],
+  "name": "Ventrèche",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "Bleed"
+    },
+    {
+      "tag": "AmmoComesBackImmediately"
+    },
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 173
+}

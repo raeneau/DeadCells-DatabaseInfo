@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 0.8,
@@ -23,10 +24,10 @@
   "id": "Duelist",
   "weight": 10,
   "icon": {
-    "x": 63,
-    "y": 28,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 10,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     150

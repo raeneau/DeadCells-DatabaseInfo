@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "speed": 8,
     "delay": 0.8,
@@ -19,17 +20,21 @@
   "maxPerRoom": 2,
   "group": 0,
   "canBeElite": true,
-  "mobTags": [],
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 45,
   "volteDelay": 1,
   "id": "MiniWerewolf",
   "dlc": "Purple",
   "weight": 15,
   "icon": {
-    "x": 42,
-    "y": 24,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 3,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     75

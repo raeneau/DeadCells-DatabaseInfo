@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "noContactAttack": true,
     "cannotBeShield": true,
@@ -22,10 +23,10 @@
   "dlc": "Purple",
   "weight": 0,
   "icon": {
-    "x": 28,
-    "y": 6,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 4,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     200

@@ -1,0 +1,40 @@
+{
+  "commonProps": {},
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "U34_COMBINED_TICK_SCYTHE_GAMEPLAYDESC",
+  "moneyCost": 3000,
+  "group": 4,
+  "castCD": 0,
+  "id": "CombinedTickScythe",
+  "dlc": "TheBadSeed",
+  "icon": {
+    "x": 32,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "Combined"
+    }
+  ],
+  "name": "U34_COMBINED_TICK_SCYTHE_NAME",
+  "droppable": false,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "Unique"
+    },
+    {
+      "tag": "LongerComboWindow"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 0,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 152
+}

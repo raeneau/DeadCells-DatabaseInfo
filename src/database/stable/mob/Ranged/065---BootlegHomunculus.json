@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "speed": 2,
     "noContactAttack": true,
@@ -29,10 +30,10 @@
   "dlc": "FatalFalls",
   "weight": 10,
   "icon": {
-    "x": 6,
-    "y": 6,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 2,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     100

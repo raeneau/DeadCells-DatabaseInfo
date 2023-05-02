@@ -11,7 +11,7 @@
       "fxProps": {},
       "lockCtrlAfter": 0.25,
       "props": {
-        "bump": 0.75,
+        "bump": 0.85,
         "tick": 1,
         "duration": 2.5
       },
@@ -35,12 +35,12 @@
     {
       "coolDown": 0,
       "power": [
-        25
+        45
       ],
       "fxProps": {},
       "lockCtrlAfter": 0,
       "props": {
-        "bump": 0.75,
+        "bump": 0.85,
         "duration": 0.3,
         "aoeDuration": 5
       },

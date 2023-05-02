@@ -1,8 +1,11 @@
 {
+  "commonProps": {
+    "legendaryForm": "CombinedTickScythe",
+    "item": "TickScytheLeft"
+  },
   "synergy": [],
   "props": {
     "duration2": 5,
-    "item": "TickScytheLeft",
     "distance": 8,
     "duration": 1
   },
@@ -21,7 +24,7 @@
   },
   "legendAffixes": [
     {
-      "affix": "DeathRoot"
+      "affix": "Combined"
     }
   ],
   "name": "Faux-griffe gauche",

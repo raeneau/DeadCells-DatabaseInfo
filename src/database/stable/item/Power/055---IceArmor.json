@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "explosionRange": 5
+  },
   "synergy": [
     {
       "tag": "Ice",
@@ -6,7 +9,6 @@
     }
   ],
   "props": {
-    "range": 5,
     "power": 10,
     "duration2": 8,
     "castTime": 0,

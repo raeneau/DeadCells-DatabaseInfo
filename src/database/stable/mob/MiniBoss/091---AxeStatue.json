@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "noContactAttack": true,
     "delay": 0,
@@ -8,7 +9,7 @@
     "cellLoot": 10,
     "bumpResistance": 1
   },
-  "genTags": 1568,
+  "genTags": 544,
   "glowOuterColor": 31487,
   "pfCost": 2,
   "blueprints": [
@@ -33,10 +34,10 @@
   "dlc": "FatalFalls",
   "weight": 200,
   "icon": {
-    "x": 53,
-    "y": 12,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 6,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     1200

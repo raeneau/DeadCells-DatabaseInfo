@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "fallResistance": 1,
     "movePauseMul": 0,
@@ -7,7 +8,7 @@
     "cellLoot": 5,
     "bumpResistance": 0.85
   },
-  "genTags": 1568,
+  "genTags": 544,
   "pfCost": 0.5,
   "blueprints": [
     {
@@ -34,10 +35,10 @@
   "id": "ShopMimic",
   "weight": 40,
   "icon": {
-    "x": 42,
-    "y": 32,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 7,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     2000
@@ -71,14 +72,14 @@
       "sfxRelease": "sfx/enm/enm_shopmimic_cc_release.wav",
       "fxId": "fxShopmimicAtkA",
       "disableAnnounceFx": false,
-      "hitFrame": 2,
+      "hitFrame": 1,
       "breachResistance": 1,
       "lockAiAfter": 0.3,
       "ignoreGlobalCD": false
     },
     {
       "chargeAnim": "loadAtkTongue",
-      "coolDown": 0,
+      "coolDown": 1,
       "power": [
         13
       ],
@@ -87,17 +88,17 @@
         "bump": 0.4
       },
       "allowInAir": false,
-      "radius": 6,
+      "radius": 7.5,
       "allowSameSkillNearby": true,
       "sfxCharge": "sfx/enm/enm_shopmimic_charge2.wav",
-      "charge": 0.4,
+      "charge": 0.5,
       "manual": true,
       "execAnim": "atkTongue",
       "id": "midRange",
       "sfxRelease": "sfx/enm/enm_shopmimic_midrange_release.wav",
       "fxId": "fxShopmimicAtkTongue",
       "disableAnnounceFx": false,
-      "hitFrame": 3,
+      "hitFrame": 2,
       "breachResistance": 1,
       "lockAiAfter": 0.3,
       "ignoreGlobalCD": false
@@ -110,7 +111,7 @@
       ],
       "props": {},
       "allowInAir": false,
-      "radius": 10,
+      "radius": 9.5,
       "allowSameSkillNearby": true,
       "sfxCharge": "sfx/enm/enm_shopmimic_charge2.wav",
       "charge": 0.6,
@@ -120,7 +121,7 @@
       "sfxRelease": "sfx/enm/enm_shopmimic_ranged_release.wav",
       "fxId": "fxShopmimiChainsH",
       "disableAnnounceFx": false,
-      "hitFrame": 3,
+      "hitFrame": 2,
       "breachResistance": 1,
       "lockAiAfter": 0.4,
       "ignoreGlobalCD": false
@@ -139,13 +140,13 @@
       "radius": 2,
       "allowSameSkillNearby": true,
       "sfxCharge": "sfx/enm/enm_berserk_hookcharge.wav",
-      "charge": 0.5,
+      "charge": 0.6,
       "manual": true,
       "execAnim": "chainsH",
       "id": "hook",
       "sfxRelease": "sfx/enm/enm_berserk_hookshot.wav",
       "disableAnnounceFx": false,
-      "hitFrame": 3,
+      "hitFrame": 2,
       "breachResistance": 1,
       "lockAiAfter": 0,
       "ignoreGlobalCD": false
@@ -154,7 +155,7 @@
       "chargeAnim": "loadJump",
       "coolDown": 0,
       "props": {
-        "speed": 0.15,
+        "speed": 0.04,
         "range": 7,
         "stunTime": 0,
         "bump": 0.4,
@@ -267,7 +268,7 @@
       "disableAnnounceFx": false,
       "hitFrame": 0,
       "breachResistance": 1,
-      "lockAiAfter": 1,
+      "lockAiAfter": 1.5,
       "ignoreGlobalCD": false
     },
     {

@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "explosionRange": 4.5
+  },
   "synergy": [],
   "props": {
-    "range": 4.5,
     "coolDown": 0.6,
     "power": [
       90

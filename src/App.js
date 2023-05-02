@@ -4,7 +4,7 @@ import { MemoryRouter } from "react-router-dom";
 // Screens.
 import UserInputScreen from "./screens/UserInput";
 import FeedbackScreen from "./screens/FeedbackScreen";
-import ResultsScreen from "./screens/ResultsScreen";
+import ResultsRoutes from "./screens/ResultsRoutes";
 
 // Styles.
 import "./App.css";
@@ -31,8 +31,7 @@ const App = () => {
 
   useEffect(() => {
     const biomeData = loadBiomeData();
-    const enemy = setEnemyData(loadEnemyData(biomeData));
-    console.log("!", enemy);
+    setEnemyData(loadEnemyData(biomeData));
   }, []);
 
   return (
@@ -41,7 +40,7 @@ const App = () => {
         <SearchResultsContext.Provider value={memoizedContext}>
           <EnemyContext.Provider value={enemyData}>
             <UserInputScreen />
-            <ResultsScreen />
+            <ResultsRoutes />
             <FeedbackScreen />
           </EnemyContext.Provider>
         </SearchResultsContext.Provider>

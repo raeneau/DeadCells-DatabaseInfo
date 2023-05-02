@@ -1,4 +1,8 @@
 {
+  "commonProps": {
+    "autoTransformAfter": 3,
+    "item": "Dash"
+  },
   "synergy": [],
   "props": {
     "speed": 5,
@@ -6,10 +10,8 @@
     "power": [
       42
     ],
-    "autoTransformAfter": 3,
     "buff": 0.2,
     "height": 0.75,
-    "item": "Dash",
     "limit": 0.75
   },
   "gameplayDesc": "Foncez en avant et infligez ::+power:: dégâts aux ennemis que vous traversez. Réactivez en fin de course pour revenir en sens contraire.",

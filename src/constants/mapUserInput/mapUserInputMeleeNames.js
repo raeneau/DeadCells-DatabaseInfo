@@ -284,4 +284,16 @@ export default {
 
   WHIPSWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
   SNAKESWORDSWAP: meleeWeaponNames.WHIPSWORDSWAP,
+
+  // ------------------------------ CLEAN CUT ------------------------------- //
+  SCISSOR: meleeWeaponNames.SCISSOR,
+  SCISSORS: meleeWeaponNames.SCISSOR,
+  SEWINGSCISSORS: meleeWeaponNames.SCISSOR,
+  SEWINGSCISSOR: meleeWeaponNames.SCISSOR,
+  GIANTSCISSORS: meleeWeaponNames.SCISSOR,
+  GIANTSCISSOR: meleeWeaponNames.SCISSOR,
+
+  COMB: meleeWeaponNames.COMB,
+  GIANTCOMB: meleeWeaponNames.COMB,
+  BIGCOMB: meleeWeaponNames.COMB,
 };

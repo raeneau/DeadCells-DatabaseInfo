@@ -1,8 +1,9 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "grenadeKickPow": 0.2
   },
+  "synergy": [],
+  "props": {},
   "gameplayDesc": "Projette les ennemis et les bombes.",
   "moneyCost": 1500,
   "group": 4,

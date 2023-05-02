@@ -1,0 +1,20 @@
+.DatabaseVersionSelect__inputWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.DatabaseVersionSelect__footer {
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+}
+
+.DatabaseSelect {
+  background-color:rgba(164, 2, 57, 0.7);
+  border: 1px solid rgba(164, 2, 57, 0.3);
+  color: #f9cf87;
+  border-radius: 1rem;
+  padding: 0.25rem;
+}

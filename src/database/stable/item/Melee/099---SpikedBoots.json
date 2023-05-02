@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "grenadeKickPow": 0.25
+  },
   "synergy": [],
   "props": {
-    "grenadeKickPow": 0.25,
     "bump": 0.6
   },
   "gameplayDesc": "Inflige un {coup critique@CC} si le coup de pied interrompt une attaque.",

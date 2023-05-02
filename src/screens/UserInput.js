@@ -18,6 +18,7 @@ import { STABLE } from "../constants/databaseVersion";
 // Styles.
 import "./UserInput.css";
 import searchResultsContext from "../context/SearchResultsContext";
+import DatabaseVersionSelect from "./DatabaseVersionSelect";
 
 // -----------------------------------------------------------------------------
 
@@ -137,7 +138,8 @@ const UserInputScreen = () => {
           alt="Submit"
         />
       </div>
-      <DatabaseVersionToggle onChange={handleDatabaseChange} />
+      {/* <DatabaseVersionToggle onChange={handleDatabaseChange} /> */}
+      <DatabaseVersionSelect onChange={handleDatabaseChange} />
       <div className={cn.notesWrapper}>
         {!inputSubmitted && <WhatsNewScreen />}
         <CurrentlySearchableScreen />

@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "cannotBeShield": true,
     "cannotBeNecromanced": true,
@@ -32,10 +33,10 @@
   "id": "BatDasher",
   "weight": 0,
   "icon": {
-    "x": 49,
-    "y": 13,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 7,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": 1,
   "name": "Chauve-souris",

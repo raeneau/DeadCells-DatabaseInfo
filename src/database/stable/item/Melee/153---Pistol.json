@@ -1,0 +1,30 @@
+{
+  "commonProps": {},
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "U34_PISTOL_GAMEPLAYDESC",
+  "moneyCost": 750,
+  "group": 4,
+  "castCD": 0,
+  "id": "Pistol",
+  "icon": {
+    "x": 28,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "LastCycleSpam"
+    }
+  ],
+  "name": "U34_PISTOL_NAME",
+  "droppable": false,
+  "tags": [],
+  "tier1": "Brutality",
+  "tier2": "Tactic",
+  "cellCost": 0,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 153
+}

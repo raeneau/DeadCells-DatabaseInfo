@@ -16,11 +16,11 @@ const loadEnemyData = (biomeData) => {
   }));
 
   const allEnemyData = allEnemyLocations.reduce(
-    (formattedEnemyAcc, levelEntry, index) => {
+    (formattedEnemyAcc, levelEntry) => {
       const { mobs: levelMobs, id: levelId } = levelEntry;
       const formattedLevelEnemies = levelMobs.reduce(
         (biomeEnemyAcc, enemyEntry) => {
-          const { name, minDifficulty, maxDifficulty } = enemyEntry;
+          const { minDifficulty, maxDifficulty } = enemyEntry;
 
           return {
             ...biomeEnemyAcc,

@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [
     {
       "tag": "Slow",
@@ -15,6 +16,7 @@
       135
     ],
     "effectCharge": 1.1,
+    "count": 2,
     "uses": 3,
     "effectCD": 0.8,
     "duration": 0.2

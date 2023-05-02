@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "combatMusic": "music/default/swamp_heart.ogg",
     "dmgSoftCap": [
@@ -81,10 +82,10 @@
   "dlc": "TheBadSeed",
   "weight": 200,
   "icon": {
-    "x": 49,
-    "y": 76,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 12,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     4000

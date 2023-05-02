@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0.25,
     "moveSpeedMul": 1.2,
@@ -37,10 +38,10 @@
   "id": "Worm",
   "weight": 20,
   "icon": {
-    "x": 45,
-    "y": 13,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 3,
+    "y": 0,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     150

@@ -1,8 +1,9 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "item": "ExplosiveCrossBow"
   },
+  "synergy": [],
+  "props": {},
   "gameplayDesc": "Frappe avec l'arbalète.",
   "moneyCost": 1750,
   "group": 4,

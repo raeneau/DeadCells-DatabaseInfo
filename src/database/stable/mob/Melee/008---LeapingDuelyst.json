@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 2
@@ -26,10 +27,10 @@
   "id": "LeapingDuelyst",
   "weight": 10,
   "icon": {
-    "x": 57,
-    "y": 2,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 8,
+    "y": 0,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     230

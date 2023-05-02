@@ -1,0 +1,31 @@
+{
+  "__columns": [
+    {
+      "typeStr": "6:item",
+      "opt": true,
+      "name": "item"
+    },
+    {
+      "typeStr": "2",
+      "name": "airControlAlways"
+    },
+    {
+      "typeStr": "2",
+      "name": "isACancel"
+    },
+    {
+      "typeStr": "2",
+      "display": null,
+      "name": "allowCrouch"
+    },
+    {
+      "typeStr": "2",
+      "name": "cannotBeCanceledByWeapon"
+    },
+    {
+      "typeStr": "8",
+      "name": "strikeChain"
+    }
+  ],
+  "__table_index": 5
+}

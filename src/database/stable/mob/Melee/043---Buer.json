@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "moveSpeedMul": 0.5
   },
@@ -14,17 +15,21 @@
   "maxPerRoom": 0,
   "group": 0,
   "canBeElite": true,
-  "mobTags": [],
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 43,
   "volteDelay": 0.6,
   "id": "Buer",
   "dlc": "Purple",
   "weight": 5,
   "icon": {
-    "x": 58,
-    "y": 5,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 1,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     140

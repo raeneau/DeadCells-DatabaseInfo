@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "directHitStunChance": 1
@@ -23,10 +24,10 @@
   "dlc": "Purple",
   "weight": 15,
   "icon": {
-    "x": 48,
-    "y": 73,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 6,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     60

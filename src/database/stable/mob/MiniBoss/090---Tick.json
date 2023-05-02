@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 4,
@@ -6,7 +7,7 @@
     "cellLoot": 5,
     "bumpResistance": 0.85
   },
-  "genTags": 1568,
+  "genTags": 544,
   "glowOuterColor": 1508160,
   "pfCost": 4,
   "blueprints": [
@@ -35,10 +36,10 @@
   "dlc": "TheBadSeed",
   "weight": 30,
   "icon": {
-    "x": 48,
-    "y": 76,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 5,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     1500

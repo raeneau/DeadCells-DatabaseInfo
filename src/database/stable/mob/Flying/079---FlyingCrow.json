@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "isTrashMob": true,
     "cannotBeNecromanced": true
@@ -18,10 +19,10 @@
   "id": "FlyingCrow",
   "dlc": "FatalFalls",
   "icon": {
-    "x": 17,
-    "y": 7,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 16,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "name": "Corbeau Ennuyant",
   "minPfHeight": 0,

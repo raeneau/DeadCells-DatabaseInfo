@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "directHitStunChance": 1
@@ -36,10 +37,10 @@
   "id": "Archer",
   "weight": 15,
   "icon": {
-    "x": 58,
-    "y": 13,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 5,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     60

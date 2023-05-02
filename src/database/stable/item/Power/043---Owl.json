@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "OwlUp"
+  },
   "synergy": [],
   "props": {
     "speed": 0.02,
@@ -11,7 +14,6 @@
     "dps2": [
       95
     ],
-    "item": "OwlUp",
     "frict": 0.92,
     "lock": 0.1,
     "distance": 3.8,

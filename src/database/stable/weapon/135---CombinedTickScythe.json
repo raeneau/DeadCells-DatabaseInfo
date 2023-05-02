@@ -1,0 +1,31 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "CombinedTickScythe",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "fxProps": {},
+      "lockCtrlAfter": 0,
+      "props": {},
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 0,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 0,
+        "shape": 0
+      },
+      "hitFrame": 0
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 135
+}

@@ -1,16 +1,10 @@
 import _isEmpty from "lodash.isempty";
 import _map from "lodash.map";
-import _get from "lodash.get";
 
 // Constants
-import { BETA } from "../../constants/databaseVersion";
 import { levelJsons as levelJsonKeys } from "../jsonImports";
 
 // -----------------------------------------------------------------------------
-
-// jsonPaths: [`level${levelJsons[INTERNAL_ID]}`],
-// jsonNames: ["itemJson"],
-// databaseVersion,
 
 const loadBiomeData = () => {
   const databaseType = "stable";

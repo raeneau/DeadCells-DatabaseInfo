@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1.2,
@@ -27,10 +28,10 @@
   "id": "Hammer",
   "weight": 20,
   "icon": {
-    "x": 53,
-    "y": 22,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 9,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     390
