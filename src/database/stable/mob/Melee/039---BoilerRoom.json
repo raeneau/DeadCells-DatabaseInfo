@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "bounceFrequence": 0.1,
     "range": 3,
@@ -49,10 +50,10 @@
   "dlc": "TheQueenAndTheSea",
   "weight": 10,
   "icon": {
-    "x": 8,
-    "y": 9,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 18,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     300

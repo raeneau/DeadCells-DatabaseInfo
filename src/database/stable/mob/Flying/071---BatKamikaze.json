@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "cannotBeShield": true,
     "cannotBeBackstabbed": true,
@@ -36,10 +37,10 @@
   "id": "BatKamikaze",
   "weight": 0,
   "icon": {
-    "x": 57,
-    "y": 9,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 8,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": 1,
   "name": "Kamikaze",

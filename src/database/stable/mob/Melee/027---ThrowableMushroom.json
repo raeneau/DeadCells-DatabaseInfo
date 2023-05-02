@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "moveSpeedMul": 0.75,
     "near": 1
@@ -28,10 +29,10 @@
   "dlc": "TheBadSeed",
   "weight": 1,
   "icon": {
-    "x": 43,
-    "y": 19,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 6,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     50

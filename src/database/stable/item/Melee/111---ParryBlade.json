@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "grenadeKickPow": 2
+  },
   "synergy": [],
   "props": {
-    "grenadeKickPow": 2,
     "power2": [
       25
     ],

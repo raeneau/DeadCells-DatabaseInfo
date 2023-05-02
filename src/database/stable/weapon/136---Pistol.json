@@ -1,0 +1,43 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Pistol",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        65
+      ],
+      "fxProps": {},
+      "lockCtrlAfter": 0.4,
+      "props": {
+        "bump": 1.2
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "sfxCharge": "sfx/weapon/weapon_machete_charge3.wav",
+      "charge": 0.15,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 6.1,
+        "offsetCaseX": 0.5,
+        "offsetCaseY": -0.5,
+        "height": 2,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_machete_release3.wav",
+      "fxId": "fxCodgC",
+      "animId": "AtkCodgCNoMachete",
+      "sfxHit": "sfx/weapon/hit_broadsword.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 136
+}

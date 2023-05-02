@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "fallResistance": 1,
     "dmgSoftCap": [
@@ -41,10 +42,10 @@
   "dlc": "RiseOfTheGiant",
   "weight": 50,
   "icon": {
-    "x": 41,
-    "y": 21,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 17,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     800

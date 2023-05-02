@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1
@@ -26,10 +27,10 @@
   "id": "Blobby",
   "weight": 20,
   "icon": {
-    "x": 67,
-    "y": 5,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 8,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     250

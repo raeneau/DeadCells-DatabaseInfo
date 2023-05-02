@@ -1,0 +1,63 @@
+{
+  "commonProps": {
+    "ammo": 35,
+    "item": "MultiCrossBowOffHand"
+  },
+  "synergy": [
+    {
+      "tag": "Root",
+      "trigger": false
+    }
+  ],
+  "props": {
+    "debuff": 3,
+    "count": 4
+  },
+  "gameplayDesc": "Tire rapidement des carreaux infligeant des {coups critiques@CC} sur les cibles {enracinées@RO}. ",
+  "moneyCost": 2250,
+  "group": 5,
+  "castCD": 0,
+  "id": "MultiCrossBow",
+  "icon": {
+    "x": 18,
+    "y": 6,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "SuperPierce"
+    }
+  ],
+  "name": "Arbalète à répétition",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "DualWeaponBase"
+    },
+    {
+      "tag": "RapidFire"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "IsCrossbow"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Survival",
+  "tier2": "Tactic",
+  "cellCost": 80,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 166
+}

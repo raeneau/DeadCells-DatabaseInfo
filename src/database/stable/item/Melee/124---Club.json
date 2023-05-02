@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "item": "ClubBroken"
+  },
   "synergy": [],
   "props": {
-    "item": "ClubBroken",
     "duration": 6
   },
   "gameplayDesc": "Chargez l'attaque pour frapper fort, mais le gourdin se brisera pour ::duration:: secondes.",

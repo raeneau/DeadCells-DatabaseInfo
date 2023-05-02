@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "explosionRange": 9
+  },
   "synergy": [
     {
       "tag": "Oil",
@@ -6,7 +9,6 @@
     }
   ],
   "props": {
-    "range": 9,
     "power": [
       100
     ],

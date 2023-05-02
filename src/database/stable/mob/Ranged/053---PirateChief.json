@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1
@@ -31,10 +32,10 @@
   "id": "PirateChief",
   "weight": 20,
   "icon": {
-    "x": 68,
-    "y": 17,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 11,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     200

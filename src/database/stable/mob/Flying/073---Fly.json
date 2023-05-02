@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "cellRatioCount": 0.85,
     "cannotBeShield": true,
@@ -33,10 +34,10 @@
   "id": "Fly",
   "weight": 5,
   "icon": {
-    "x": 46,
-    "y": 5,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 10,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     40

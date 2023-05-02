@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "walkAnimSpeed": 1.5,
     "movePauseMul": 0,
@@ -30,10 +31,10 @@
   "id": "Rat",
   "weight": 2,
   "icon": {
-    "x": 43,
-    "y": 12,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 13,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     20

@@ -1,6 +1,5 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "scaledValueCap": 20,
     "linkedItems": [
       {
@@ -16,13 +15,17 @@
         "item": "DiverseDeckJuggernaut"
       }
     ],
+    "customScaling": 0.7
+  },
+  "synergy": [],
+  "props": {
     "power": 0.01,
     "duration2": 15,
-    "life": 30,
+    "prct2": 0.2,
+    "prct3": 0.04,
     "color": 16711680,
     "prct": 1,
-    "count": 10,
-    "customScaling": 0.7
+    "count": 10
   },
   "gameplayDesc": "U32_DIVERSEDECK JUGGERNAUT_GAMEPLAYDESC",
   "moneyCost": 2000,

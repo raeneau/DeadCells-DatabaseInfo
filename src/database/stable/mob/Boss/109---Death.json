@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "combatMusic": "music/default/DeathArena_loop.ogg",
     "dmgSoftCap": [
@@ -60,10 +61,10 @@
   "dlc": "Purple",
   "weight": 50,
   "icon": {
-    "x": 64,
-    "y": 3,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 3,
+    "y": 5,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     4500

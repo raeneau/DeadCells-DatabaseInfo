@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "range": 15,
     "noContactAttack": true,
@@ -35,10 +36,10 @@
   "id": "Shielder",
   "weight": 0,
   "icon": {
-    "x": 52,
-    "y": 71,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 19,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     150

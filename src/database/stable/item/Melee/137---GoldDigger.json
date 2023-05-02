@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "GoldDiggerEvolved"
+  },
   "synergy": [],
   "props": {
     "speed": 2,
@@ -9,7 +12,6 @@
     "bonus": 12000,
     "buff": 0,
     "bump": 0.5,
-    "item": "GoldDiggerEvolved",
     "prct": 1,
     "count": 10,
     "distance": 4,

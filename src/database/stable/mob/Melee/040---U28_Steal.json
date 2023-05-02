@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "speed": 6,
     "movePauseMul": 0,
@@ -28,10 +29,10 @@
   "id": "U28_Steal",
   "weight": 10,
   "icon": {
-    "x": 52,
-    "y": 23,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 19,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     120

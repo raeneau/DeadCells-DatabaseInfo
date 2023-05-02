@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1,
@@ -28,10 +29,10 @@
   "id": "Samurai",
   "weight": 10,
   "icon": {
-    "x": 58,
-    "y": 17,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 11,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     120

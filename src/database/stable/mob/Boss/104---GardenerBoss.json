@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "reducedGravityFactor": 2,
     "speed": 0.4,
@@ -70,10 +71,10 @@
   "dlc": "FatalFalls",
   "weight": 100,
   "icon": {
-    "x": 58,
-    "y": 6,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 19,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     4500
@@ -232,7 +233,7 @@
       "sfxRelease": "sfx/enm/enm_gardener_shovelAtk.wav",
       "disableAnnounceFx": false,
       "hitFrame": 4,
-      "breachResistance": 10,
+      "breachResistance": 100,
       "lockAiAfter": 0,
       "ignoreGlobalCD": true
     },
@@ -252,7 +253,7 @@
       "sfxRelease": "sfx/enm/enm_gardener_hide.wav",
       "disableAnnounceFx": false,
       "hitFrame": 4,
-      "breachResistance": 10,
+      "breachResistance": 100,
       "lockAiAfter": 0,
       "ignoreGlobalCD": true
     },
@@ -270,7 +271,7 @@
       "sfxRelease": "sfx/enm/enm_gardener_rise.wav",
       "disableAnnounceFx": false,
       "hitFrame": 3,
-      "breachResistance": 10,
+      "breachResistance": 100,
       "lockAiAfter": 0,
       "ignoreGlobalCD": true
     },
@@ -288,7 +289,7 @@
       "sfxRelease": "sfx/enm/enm_gardener_hide.wav",
       "disableAnnounceFx": false,
       "hitFrame": 4,
-      "breachResistance": 10,
+      "breachResistance": 100,
       "lockAiAfter": 0,
       "ignoreGlobalCD": true
     },
@@ -305,7 +306,7 @@
       "sfxRelease": "sfx/enm/enm_gardener_rise.wav",
       "disableAnnounceFx": false,
       "hitFrame": 4,
-      "breachResistance": 10,
+      "breachResistance": 100,
       "lockAiAfter": 0,
       "ignoreGlobalCD": true
     },

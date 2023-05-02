@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 1.5,
@@ -28,10 +29,10 @@
   "dlc": "RiseOfTheGiant",
   "weight": 5,
   "icon": {
-    "x": 54,
-    "y": 7,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 17,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     100

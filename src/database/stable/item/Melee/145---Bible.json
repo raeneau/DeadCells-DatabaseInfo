@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {
     "speed": 0.2,
@@ -12,7 +13,7 @@
     "tick": 0.3,
     "duration": 8
   },
-  "gameplayDesc": "DLCP_BIBLE_GAMEPLAYDESC",
+  "gameplayDesc": "U34_BIBLE_GAMEPLAYDESC",
   "moneyCost": 2000,
   "group": 4,
   "castCD": 0,
@@ -32,7 +33,11 @@
   ],
   "name": "DLCP_BIBLE_NAME",
   "droppable": true,
-  "tags": [],
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    }
+  ],
   "tier1": "Survival",
   "tier2": "Tactic",
   "cellCost": 50,

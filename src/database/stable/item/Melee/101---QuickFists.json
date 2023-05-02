@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {
     "prct": 0.4
@@ -17,7 +18,7 @@
   },
   "legendAffixes": [
     {
-      "affix": "MegaCrit"
+      "affix": "OmaeWaMou"
     }
   ],
   "name": "Gantelets de Hayabusa",

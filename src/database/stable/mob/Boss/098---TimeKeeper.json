@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "noContactAttack": true,
     "combatMusic": "music/default/assassin.ogg",
@@ -85,10 +86,10 @@
   "id": "TimeKeeper",
   "weight": 50,
   "icon": {
-    "x": 65,
-    "y": 28,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 13,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     2500

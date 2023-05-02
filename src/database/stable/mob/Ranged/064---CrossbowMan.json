@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 1,
     "bumpResistance": 0.3
@@ -27,10 +28,10 @@
   "id": "CrossbowMan",
   "weight": 30,
   "icon": {
-    "x": 58,
-    "y": 13,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 1,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     180

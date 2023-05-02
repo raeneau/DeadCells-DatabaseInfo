@@ -1,11 +1,13 @@
 {
+  "commonProps": {
+    "explosionRange": 20,
+    "ammo": 8
+  },
   "synergy": [],
   "props": {
-    "range": 20,
-    "ammo": 8,
+    "mob": "S_HeroWorm",
     "prct": 0.3,
     "count": 8,
-    "sideKickMob": "S_HeroWorm",
     "duration": 30
   },
   "gameplayDesc": "Invoque ::count:: larves à votre service (cumulable jusqu'à ::ammo:: maximum)",

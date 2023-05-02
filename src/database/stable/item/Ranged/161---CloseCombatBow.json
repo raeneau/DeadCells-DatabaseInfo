@@ -1,0 +1,46 @@
+{
+  "commonProps": {
+    "ammo": 8
+  },
+  "synergy": [],
+  "props": {},
+  "gameplayDesc": "Inflige un {coup critique@CC} à courte portée.",
+  "moneyCost": 2000,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "Un arc spécialement conçu pour le corps à corps.",
+  "id": "CloseCombatBow",
+  "icon": {
+    "x": 11,
+    "y": 1,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "BleedOnHit"
+    }
+  ],
+  "name": "Arc de fantassin",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "LimitedAmmo"
+    },
+    {
+      "tag": "UnlockInPublicEvent"
+    }
+  ],
+  "tier1": "Tactic",
+  "tier2": "Brutality",
+  "cellCost": 5,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 161
+}

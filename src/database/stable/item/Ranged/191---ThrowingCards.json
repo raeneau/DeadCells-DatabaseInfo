@@ -1,0 +1,43 @@
+{
+  "commonProps": {},
+  "synergy": [],
+  "props": {
+    "duration": 5
+  },
+  "gameplayDesc": "Shoots cards in various patterns. The fourth hit recalls all the cards, dealing {critical damage@CC}.",
+  "moneyCost": 1750,
+  "group": 5,
+  "castCD": 0,
+  "ambiantDesc": "DLC3_WEAPON_AMBIANT_DESC_THROWINGCARD",
+  "id": "ThrowingCards",
+  "dlc": "TheQueenAndTheSea",
+  "icon": {
+    "x": 30,
+    "y": 7,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [
+    {
+      "affix": "RandomEffect"
+    }
+  ],
+  "name": "Killing Deck",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "Ranged"
+    },
+    {
+      "tag": "HasBullets"
+    },
+    {
+      "tag": "ForceAmmoDrop"
+    }
+  ],
+  "tier1": "Tactic",
+  "cellCost": 100,
+  "__separator_group_ID": 5,
+  "__separator_group_Name": "Ranged",
+  "__original_Index": 191
+}

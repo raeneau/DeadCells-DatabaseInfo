@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "targetable": true
+  },
   "synergy": [
     {
       "tag": "Bleed",
@@ -6,7 +9,6 @@
     }
   ],
   "props": {
-    "targetable": true,
     "dps": [
       20
     ],

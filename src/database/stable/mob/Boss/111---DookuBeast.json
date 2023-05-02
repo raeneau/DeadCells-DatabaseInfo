@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "range": 1.35,
     "noContactAttack": true,
@@ -16,6 +17,38 @@
     "bumpResistance": 100,
     "cannotBeBackstabbed": true
   },
+  "colorSwaps": [
+    {
+      "target": 15129575,
+      "source": 4976318,
+      "tolerance": 0.25
+    },
+    {
+      "target": 9536915,
+      "source": 3376009,
+      "tolerance": 0.25
+    },
+    {
+      "target": 16764800,
+      "source": 14563127,
+      "tolerance": 1
+    },
+    {
+      "target": 5581321,
+      "source": 4065541,
+      "tolerance": 0.25
+    },
+    {
+      "target": 5716520,
+      "source": 7348523,
+      "tolerance": 0.25
+    },
+    {
+      "target": 15657111,
+      "source": 15218239,
+      "tolerance": 0.25
+    }
+  ],
   "genTags": 516,
   "glowOuterColor": 8661003,
   "pfCost": 1,
@@ -59,17 +92,21 @@
   "maxPerRoom": 0,
   "group": 5,
   "canBeElite": false,
-  "mobTags": [],
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 111,
   "volteDelay": 0,
   "id": "DookuBeast",
   "dlc": "Purple",
   "weight": 50,
   "icon": {
-    "x": 39,
-    "y": 18,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 5,
+    "y": 5,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     15000
@@ -228,7 +265,9 @@
     },
     {
       "coolDown": 20,
-      "props": {},
+      "props": {
+        "count": 1
+      },
       "allowInAir": true,
       "radius": 40,
       "allowSameSkillNearby": true,
@@ -366,9 +405,9 @@
       "coolDown": 4,
       "power": 12,
       "props": {
-        "width": 1.5,
+        "width": 2.5,
         "delay": 0.55,
-        "height": 25,
+        "height": 35,
         "count": 3
       },
       "allowInAir": true,
@@ -396,10 +435,9 @@
         "width": 0.11,
         "delay": 0.007,
         "canTriggerThroughWall": true,
-        "y": 13,
         "height": 0.65,
         "count": 300,
-        "distance": 11
+        "distance": 0
       },
       "allowInAir": true,
       "radius": 40,

@@ -1,7 +1,9 @@
 {
+  "commonProps": {
+    "item": "CatAttack"
+  },
   "synergy": [],
   "props": {
-    "item": "CatAttack",
     "distance": 6,
     "limit": 0.75
   },

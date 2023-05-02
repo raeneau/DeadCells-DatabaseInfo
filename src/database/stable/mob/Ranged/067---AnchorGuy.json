@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "chainSegmentCount": 10,
     "movePauseMul": 0,
@@ -31,10 +32,10 @@
   "dlc": "TheQueenAndTheSea",
   "weight": 10,
   "icon": {
-    "x": 39,
-    "y": 26,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 4,
+    "y": 3,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     140

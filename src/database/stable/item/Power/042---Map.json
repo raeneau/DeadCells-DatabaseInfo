@@ -1,8 +1,9 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "neverCompensateCost": true
   },
+  "synergy": [],
+  "props": {},
   "gameplayDesc": "Révèle la carte des environs. Ne fonctionne qu'une seule fois.",
   "moneyCost": 4000,
   "group": 3,

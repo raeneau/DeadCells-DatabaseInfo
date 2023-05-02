@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "movePauseMul": 0,
     "moveSpeedMul": 4,
@@ -23,10 +24,10 @@
   "id": "Mimic",
   "weight": 5,
   "icon": {
-    "x": 37,
-    "y": 59,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 14,
+    "y": 1,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     180

@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "FlyingSword"
+  },
   "synergy": [],
   "props": {
     "offsetX": -10,
@@ -6,7 +9,6 @@
     "dps": [
       30
     ],
-    "item": "FlyingSword",
     "color": 14393124
   },
   "gameplayDesc": "Summon a flying sword that will deal damage to nearby targets and mark them. ::+dps::\nConsume the marks by grabbing the sword or it will get bored and go away!",

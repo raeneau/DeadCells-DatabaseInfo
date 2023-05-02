@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "HardLightGun"
+  },
   "synergy": [],
   "props": {
     "power2": [
@@ -9,7 +12,6 @@
       2.2,
       2.5
     ],
-    "item": "HardLightGun",
     "maxNumberOfMarks": 6,
     "duration": 4
   },

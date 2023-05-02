@@ -1,9 +1,10 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "autoTransformAfter": 6,
     "item": "Club"
   },
+  "synergy": [],
+  "props": {},
   "gameplayDesc": "BROKEN_CLUB_DESC Se retransforme après ::autoTransformAfter:: secondes.",
   "moneyCost": 1500,
   "group": 4,

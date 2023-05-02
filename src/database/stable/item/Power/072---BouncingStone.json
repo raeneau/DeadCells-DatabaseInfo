@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {
     "speed": 0.3,
@@ -17,7 +18,7 @@
   "gameplayDesc": "DLCP_BOUCING_STONE_DESC",
   "moneyCost": 2000,
   "group": 3,
-  "castCD": 11,
+  "castCD": 3,
   "ambiantDesc": "DLCP_BOUCING_STONE_AMBIANTDESC",
   "id": "BouncingStone",
   "dlc": "Purple",
@@ -34,7 +35,14 @@
   ],
   "name": "DLCP_BOUCING_STONE_NAME",
   "droppable": true,
-  "tags": [],
+  "tags": [
+    {
+      "tag": "ManualCooldown"
+    },
+    {
+      "tag": "HasDuration"
+    }
+  ],
   "tier1": "Survival",
   "cellCost": 100,
   "__separator_group_ID": 3,

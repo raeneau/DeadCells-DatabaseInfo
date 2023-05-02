@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "noContactAttack": true,
     "combatMusic": "music/default/lighthouse_loop.ogg",
@@ -65,10 +66,10 @@
   "dlc": "TheQueenAndTheSea",
   "weight": 40,
   "icon": {
-    "x": 49,
+    "x": 20,
     "y": 4,
-    "file": "cardIcons.png",
-    "size": 24
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     2700

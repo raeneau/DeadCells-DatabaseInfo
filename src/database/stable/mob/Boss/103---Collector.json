@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "dmgSoftCap": [
       0,
@@ -32,10 +33,10 @@
   "dlc": "RiseOfTheGiant",
   "weight": 50,
   "icon": {
-    "x": 11,
-    "y": 10,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 18,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": 750000,
   "name": "Le Collecteur",

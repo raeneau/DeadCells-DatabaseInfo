@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {},
   "gameplayDesc": "Inflicts {critical hits@CC} if you strike at the right time. The last hit repeats indefinitely if you keep the tempo going.",

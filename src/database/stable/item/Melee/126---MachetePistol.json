@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "legendaryForm": "Pistol"
+  },
   "synergy": [],
   "props": {
     "duration2": 3,
@@ -21,7 +24,7 @@
   },
   "legendAffixes": [
     {
-      "affix": "BleedOnHit"
+      "affix": "LastCycleSpam"
     }
   ],
   "name": "U26_MACHETE_NAME",

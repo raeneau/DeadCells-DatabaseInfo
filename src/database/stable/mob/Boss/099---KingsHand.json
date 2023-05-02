@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "combatMusic": "music/default/throne.ogg",
     "dmgSoftCap": [
@@ -58,10 +59,10 @@
   "id": "KingsHand",
   "weight": 50,
   "icon": {
-    "x": 40,
-    "y": 21,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 14,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     5900

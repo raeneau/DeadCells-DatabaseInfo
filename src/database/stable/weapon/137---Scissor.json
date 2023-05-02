@@ -1,0 +1,74 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Scissor",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {},
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.46,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 8.5,
+        "offsetCaseX": 0,
+        "offsetCaseY": -0.5,
+        "height": 3.5,
+        "shape": 0
+      },
+      "sfxRelease": "sfx/weapon/weapon_scissors_atk1.wav",
+      "fxId": "fxScissorsAtkA",
+      "animId": "scissorsAtkA",
+      "sfxHit": "sfx/weapon/weapon_scissors_hit2.wav",
+      "hitFrame": 15,
+      "critMul": 3,
+      "glowColor": 4303355,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        175
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.3,
+      "props": {},
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.43,
+      "sfxProps": {},
+      "canCrit": false,
+      "area": {
+        "width": 8,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0.5,
+        "height": 4,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_scissors_atk2.wav",
+      "fxId": "fxScissorsAtkB",
+      "animId": "scissorsAtkB",
+      "sfxHit": "sfx/weapon/weapon_scissors_hit3.wav",
+      "hitFrame": 13,
+      "critMul": 3,
+      "glowColor": 4303355,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": false,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 137
+}

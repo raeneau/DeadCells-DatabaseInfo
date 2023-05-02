@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "Owl"
+  },
   "synergy": [],
   "props": {
     "speed": 0.06,
@@ -9,7 +12,6 @@
     "dps2": [
       95
     ],
-    "item": "Owl",
     "frict": 0.8,
     "effectCD": 0.15,
     "duration": 10

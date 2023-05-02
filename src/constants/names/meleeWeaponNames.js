@@ -385,4 +385,17 @@ export default {
     TYPE: MELEE_WEAPON,
     NAME: "Whip Sword (Swap)",
   },
+
+  // ------------------------------ CLEAN CUT ------------------------------- //
+  SCISSOR: {
+    INTERNAL_ID: "SCISSOR",
+    TYPE: MELEE_WEAPON,
+    NAME: "Sewing Scissors",
+  },
+
+  COMB: {
+    INTERNAL_ID: "COMB",
+    TYPE: MELEE_WEAPON,
+    NAME: "Giant Comb",
+  },
 };

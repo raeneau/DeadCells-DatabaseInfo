@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "targetable": true
+  },
   "synergy": [],
   "props": {
     "power": 1,
-    "targetable": true,
     "life": 100
   },
   "gameplayDesc": "Invoque une porte éthérée.",

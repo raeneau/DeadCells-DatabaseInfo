@@ -1,0 +1,140 @@
+{
+  "allowCrouch": false,
+  "isACancel": false,
+  "item": "Comb",
+  "strikeChain": [
+    {
+      "coolDown": 0,
+      "power": [
+        30
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump2": -0.42,
+        "bump": -1
+      },
+      "breachBonus": -1,
+      "dynamicCharge": 0,
+      "charge": 0.3,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 4.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_comb_release1.wav",
+      "fxId": "fxComAtkA",
+      "animId": "combAtkA",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 10,
+      "critMul": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        80
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": -0.42
+      },
+      "breachBonus": 1,
+      "dynamicCharge": 0,
+      "charge": 0.17,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": -1,
+        "offsetCaseY": -1,
+        "height": 4,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_comb_release2.wav",
+      "fxId": "fxComAtkB",
+      "animId": "combAtkB",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 5,
+      "critMul": 1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        85
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.2,
+      "props": {
+        "bump": -0.42
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.27,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 4.35,
+        "offsetCaseX": 0,
+        "offsetCaseY": 0,
+        "height": 3.5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_comb_release3.wav",
+      "fxId": "fxComAtkC",
+      "animId": "combAtkC",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 8,
+      "critMul": 1,
+      "animSpd": 1
+    },
+    {
+      "coolDown": 0,
+      "power": [
+        90
+      ],
+      "fxProps": {
+        "fxStartFrame": 0
+      },
+      "lockCtrlAfter": 0.15,
+      "props": {
+        "bump": -0.42
+      },
+      "breachBonus": 0,
+      "dynamicCharge": 0,
+      "charge": 0.133,
+      "sfxProps": {},
+      "canCrit": true,
+      "area": {
+        "width": 5,
+        "offsetCaseX": -1.5,
+        "offsetCaseY": -0.5,
+        "height": 5,
+        "shape": 1
+      },
+      "sfxRelease": "sfx/weapon/weapon_comb_release4.wav",
+      "fxId": "fxComAtkD",
+      "animId": "combAtkD",
+      "sfxHit": "sfx/weapon/hit_blade.wav",
+      "hitFrame": 4,
+      "critMul": 1,
+      "animSpd": 1
+    }
+  ],
+  "airControlAlways": true,
+  "cannotBeCanceledByWeapon": false,
+  "__separator_group_ID": -1,
+  "__separator_group_Name": "",
+  "__original_Index": 138
+}

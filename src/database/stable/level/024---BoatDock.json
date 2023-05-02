@@ -38,7 +38,7 @@
     "visualFlags": 5,
     "metaFlags": 4,
     "gameplayFlags": 0,
-    "genFlags": 1
+    "genFlags": 65537
   },
   "baseLootLevel": 5,
   "loreDescriptions": [

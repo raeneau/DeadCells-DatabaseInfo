@@ -1,16 +1,21 @@
 {
+  "commonProps": {
+    "explosionRange": 1
+  },
   "synergy": [],
   "props": {
-    "range": 1,
     "power": [
       10
     ],
     "duration2": 0.7,
     "width": 2,
     "dps": [
-      55
+      30
     ],
     "height": 4,
+    "dps2": [
+      45
+    ],
     "color": 2303,
     "distance": 2,
     "tick": 0.35,

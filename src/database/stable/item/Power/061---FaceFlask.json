@@ -1,14 +1,16 @@
 {
+  "commonProps": {
+    "scaledValueCap": 0.5,
+    "customScaling": 0.011
+  },
   "synergy": [],
   "props": {
-    "scaledValueCap": 0.5,
     "power": 5,
     "duration2": 0.2,
     "duration3": 10,
     "triggerOnHit": false,
     "color": 16729398,
     "prct": 0.25,
-    "customScaling": 0.011,
     "duration": 0.2
   },
   "gameplayDesc": "U26_FACEFLASK_GAMEPLAYDESC",
@@ -25,7 +27,7 @@
   },
   "legendAffixes": [
     {
-      "affix": "OilAndFireOnUse"
+      "affix": "MegaShield"
     }
   ],
   "name": "U26_FACEFLASK_NAME",

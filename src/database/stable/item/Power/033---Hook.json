@@ -1,4 +1,8 @@
 {
+  "commonProps": {
+    "scaledValueCap": 5,
+    "customScaling": 0.1
+  },
   "synergy": [
     {
       "tag": "Stun",
@@ -6,13 +10,11 @@
     }
   ],
   "props": {
-    "scaledValueCap": 5,
     "duration2": 2.5,
     "castTime": 0.1,
     "lock": 0.4,
     "prct": 0.4,
     "distance": 13,
-    "customScaling": 0.1,
     "duration": 1
   },
   "gameplayDesc": "Attire un ennemi à vous. La prochaine attaque contre l'ennemi inflige +::*prct::% dégâts et l'étourdit pendant ::duration:: sec.",

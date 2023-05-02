@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "item": "SpawnCat"
+  },
   "synergy": [],
   "props": {
-    "cooldown": 20,
-    "item": "SpawnCat"
+    "cooldown": 20
   },
   "gameplayDesc": "DLCP_CAT_GAMEPLAYDESC",
   "moneyCost": 2000,

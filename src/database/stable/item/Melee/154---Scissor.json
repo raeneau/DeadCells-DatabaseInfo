@@ -1,0 +1,38 @@
+{
+  "commonProps": {},
+  "synergy": [],
+  "props": {
+    "duration": 0.2
+  },
+  "gameplayDesc": "U34_SCISSOR_GAMEPLAYDESC",
+  "moneyCost": 2000,
+  "group": 4,
+  "castCD": 0,
+  "ambiantDesc": "U34_SCISSOR_AMBIANTDESC",
+  "id": "Scissor",
+  "icon": {
+    "x": 31,
+    "y": 10,
+    "file": "cardIcons.png",
+    "size": 24
+  },
+  "legendAffixes": [],
+  "name": "U34_SCISSOR_NAME",
+  "droppable": true,
+  "tags": [
+    {
+      "tag": "HeavyWeapon"
+    },
+    {
+      "tag": "NoCritical"
+    },
+    {
+      "tag": "InstantBlueprint"
+    }
+  ],
+  "tier1": "Survival",
+  "cellCost": 50,
+  "__separator_group_ID": 4,
+  "__separator_group_Name": "Melee",
+  "__original_Index": 154
+}

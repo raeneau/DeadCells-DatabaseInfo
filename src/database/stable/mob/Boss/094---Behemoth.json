@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "combatMusic": "music/default/Bridge.ogg",
     "dmgSoftCap": [
@@ -83,10 +84,10 @@
   "id": "Behemoth",
   "weight": 200,
   "icon": {
-    "x": 47,
-    "y": 23,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 9,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     4000

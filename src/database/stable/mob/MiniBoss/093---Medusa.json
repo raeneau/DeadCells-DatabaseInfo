@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "delay": 0,
     "movePauseMul": 0,
@@ -6,7 +7,7 @@
     "cellLoot": 10,
     "bumpResistance": 0.5
   },
-  "genTags": 1568,
+  "genTags": 544,
   "glowOuterColor": 16711680,
   "pfCost": 2,
   "blueprints": [
@@ -19,16 +20,20 @@
   "maxPerRoom": 1,
   "group": 4,
   "canBeElite": true,
-  "mobTags": [],
+  "mobTags": [
+    {
+      "tag": "Monster"
+    }
+  ],
   "index": 93,
   "volteDelay": 0.2,
   "id": "Medusa",
   "weight": 200,
   "icon": {
-    "x": 47,
-    "y": 13,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 8,
+    "y": 4,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     2000
@@ -165,7 +170,8 @@
         "y": 1,
         "max": 3,
         "bump": 0.4,
-        "height": 3.5
+        "height": 3.5,
+        "lock": 0.75
       },
       "allowInAir": false,
       "radius": 0,

@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "speed": 1.5,
     "range": 49,
@@ -70,10 +71,10 @@
   "dlc": "TheQueenAndTheSea",
   "weight": 50,
   "icon": {
-    "x": 51,
-    "y": 73,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 2,
+    "y": 5,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     12000
@@ -785,7 +786,7 @@
         "bump": 0.25,
         "lock": 1,
         "tick": 0.5,
-        "duration": 20
+        "duration": 30
       },
       "allowInAir": false,
       "radius": 5,

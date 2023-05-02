@@ -1,8 +1,10 @@
 {
+  "commonProps": {
+    "ammo": 27
+  },
   "synergy": [],
   "props": {
-    "dps": 130,
-    "ammo": 27
+    "dps": 130
   },
   "gameplayDesc": "Projète des fragments métalliques infligeant environ ::+dps:: dégâts/sec.",
   "moneyCost": 2000,

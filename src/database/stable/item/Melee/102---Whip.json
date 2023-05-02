@@ -1,4 +1,5 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {},
   "gameplayDesc": "Ignore les boucliers. Inflige un {coup critique@CC} si le bout du fouet touche l'ennemi.",

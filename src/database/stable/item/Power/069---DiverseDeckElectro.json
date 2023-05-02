@@ -1,6 +1,5 @@
 {
-  "synergy": [],
-  "props": {
+  "commonProps": {
     "linkedItems": [
       {
         "item": "DiverseDeckElectro"
@@ -14,7 +13,10 @@
       {
         "item": "DiverseDeckJuggernaut"
       }
-    ],
+    ]
+  },
+  "synergy": [],
+  "props": {
     "speed": 0.35,
     "range": 4,
     "power": [

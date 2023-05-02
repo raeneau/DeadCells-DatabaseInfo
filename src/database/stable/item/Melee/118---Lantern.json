@@ -1,9 +1,11 @@
 {
+  "commonProps": {
+    "item": "LanternOffHand"
+  },
   "synergy": [],
   "props": {
     "duration2": 5,
     "height": 0.6,
-    "item": "LanternOffHand",
     "distance": 5,
     "duration": 1
   },

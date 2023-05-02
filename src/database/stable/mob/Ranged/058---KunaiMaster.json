@@ -1,4 +1,5 @@
 {
+  "newSkill": [],
   "props": {
     "walkAnimSpeed": 1.5,
     "movePauseMul": 0,
@@ -29,10 +30,10 @@
   "id": "KunaiMaster",
   "weight": 10,
   "icon": {
-    "x": 14,
-    "y": 1,
-    "file": "cardIcons.png",
-    "size": 24
+    "x": 16,
+    "y": 2,
+    "file": "mobIcons.png",
+    "size": 48
   },
   "life": [
     90

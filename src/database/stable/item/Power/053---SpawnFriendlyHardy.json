@@ -1,4 +1,7 @@
 {
+  "commonProps": {
+    "item": "ExplodeFriendlyHardy"
+  },
   "synergy": [],
   "props": {
     "power": [
@@ -9,8 +12,7 @@
     ],
     "power3": [
       300
-    ],
-    "item": "ExplodeFriendlyHardy"
+    ]
   },
   "gameplayDesc": "Invoque un compagnon champignon amical, gentil, attentionné… Charge et interrompt les enemis, infligeant ::+power:: et ::+power2:: additionnels si l'ennemi est projetté contre un mur. Activer à nouveau pour infliger ::+power3:: et perdre votre âme.  ",
   "moneyCost": 2000,
